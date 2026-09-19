@@ -1780,9 +1780,13 @@ The same article describes the road as winding *กว่า 2,000 โค้ง*
 
 **Counting it independently.** Every change of turning direction on the OpenStreetMap trace of this route — one lean, one curve — comes to **1,056 on Route 1095 alone**, and about **1,310 across the full 245 kilometres**. That is one every 187 metres.
 
-**Why that count is a floor and not a rebuttal.** OpenStreetMap traces this road with a point roughly every **31 metres**. A bend that occupies less than about sixty metres of tarmac leaves no trace in the data at all — it is below the resolution of the map, not absent from the road. Volunteer traces also cut corners, smoothing exactly the tight stuff that makes the count. So 1,310 is the least the number can be, and the gap between it and 1,864 is the part the map cannot see.
+**Why that count is not a rebuttal — and why no count could be.** Ask how many curves this road has and the answer is another question: at what ruler? Sampled every kilometre it has about 105. Every 250 metres, 395. Every 30 metres — what this site publishes — 1,083. Every 10 metres, 1,117. The number does not converge on a true value as the ruler shrinks; it keeps climbing, the way a coastline gets longer the finer you measure it. Richardson found this in the 1950s and Mandelbrot named it.
 
-*Inference —* which is the useful conclusion: **an independent count from a deliberately conservative method gets to within a third of the sign, from below.** Nobody publishes the survey behind 1,864 and this page cannot confirm it to the digit. What it can say is that the number is the right size, and that anyone who rides it and claims it is not exaggerating.
+So 1,864 is not a claim this page can confirm or refute, because it is not the same kind of thing as a measurement with its method attached. It is a count at somebody's ruler, and nobody published the ruler.
+
+What bounds the fine end here is the survey, not the asphalt: OpenStreetMap carries a point roughly every **40 metres**, and asking for a reading below that interpolates a straight line between two points that exist, which invents no bend. Volunteer traces also cut corners, smoothing exactly the tight stuff that makes the count.
+
+*Inference —* which is the useful conclusion: **an independent count at a stated ruler lands the same order as the sign.** Nobody publishes the survey behind 1,864 and this page cannot confirm it to the digit. What it can say is that the number is the right size, and that anyone who rides it and claims it is not exaggerating.
 
 ### how
 If you want to count your own, the unit that matches the riding is the lean — every time you change which way you are leaning is one. The tally on this site uses four degrees as the smallest turn worth counting, which is about where a correction becomes a corner. Raise it to twenty and Route 1095 still gives 879.

@@ -1,6 +1,6 @@
 {
  "method": "Ways carrying the route number are stitched end to end, resampled every 30 m, and walked counting every change of turning direction — one lean, one curve. A bend counts once it adds up to 4 degrees, so a camber correction does not. A hairpin is a sustained arc of 120 degrees or more.",
- "floor": "EVERY COUNT HERE IS A FLOOR. OpenStreetMap traces this road with a point roughly every 31 metres, so a bend occupying less than about 60 metres of road cannot appear in the data at all, and volunteer traces cut corners. The real number is higher than this — the question is by how much.",
+ "floor": "Every count here is a count at a stated ruler: the road sampled every 30 m, a bend counted once it adds up to 4 degrees. It is reproducible, not true. Halve the ruler and the number climbs; the same road measured at 1 km gives a twelfth of what it gives at 10 m. What bounds the fine end is the survey, not the asphalt. See `yardstick` in this file.",
  "step_m": 30,
  "thresholds": [
   4,
@@ -35414,6 +35414,99 @@
      ]
     }
    ]
+  }
+ },
+ "yardstick": {
+  "km": 223.2,
+  "points": 5556,
+  "metres_per_point": 40,
+  "step_m": [
+   10,
+   20,
+   30,
+   60,
+   120,
+   250,
+   500,
+   1000
+  ],
+  "degrees": [
+   2,
+   4,
+   8,
+   15,
+   25,
+   45
+  ],
+  "grid": {
+   "10": {
+    "2": 1150,
+    "4": 1117,
+    "8": 1068,
+    "15": 981,
+    "25": 876,
+    "45": 664
+   },
+   "20": {
+    "2": 1128,
+    "4": 1102,
+    "8": 1054,
+    "15": 970,
+    "25": 868,
+    "45": 652
+   },
+   "30": {
+    "2": 1108,
+    "4": 1083,
+    "8": 1028,
+    "15": 949,
+    "25": 847,
+    "45": 631
+   },
+   "60": {
+    "2": 983,
+    "4": 955,
+    "8": 910,
+    "15": 833,
+    "25": 737,
+    "45": 526
+   },
+   "120": {
+    "2": 708,
+    "4": 685,
+    "8": 652,
+    "15": 593,
+    "25": 507,
+    "45": 362
+   },
+   "250": {
+    "2": 407,
+    "4": 395,
+    "8": 376,
+    "15": 343,
+    "25": 297,
+    "45": 202
+   },
+   "500": {
+    "2": 222,
+    "4": 211,
+    "8": 204,
+    "15": 185,
+    "25": 149,
+    "45": 100
+   },
+   "1000": {
+    "2": 106,
+    "4": 105,
+    "8": 100,
+    "15": 94,
+    "25": 77,
+    "45": 59
+   }
+  },
+  "published_cell": {
+   "step_m": 30,
+   "degrees": 4
   }
  },
  "full_route": {

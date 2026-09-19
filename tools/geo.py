@@ -450,9 +450,146 @@ def closeup(window: dict, width: int = 520, label_every: int = 1) -> str:
     for c, cls in ((line[0], "start"), (line[-1], "end")):
         x, y = p.xy(c[0], c[1])
         out.append(f'<circle class="cu-cap {cls}" cx="{x:.1f}" cy="{y:.1f}" r="3"/>')
+    ref = window.get("ref")
+    if ref:
+        # one plate at the start of the run, so the close-up names its own road
+        x, y = p.xy(line[0][0], line[0][1])
+        w = 9 + 7.6 * len(str(ref))
+        out.append(f'<g class="shield"><rect x="{x - w / 2:.0f}" y="{y - 22:.0f}" '
+                   f'width="{w:.0f}" height="17" rx="3"/>'
+                   f'<text x="{x:.0f}" y="{y - 9:.0f}">{ref}</text></g>')
     out.append(metre_bar(p, 500))
     out.append("</svg>")
     return "".join(out)
+
+def _chain_km(line) -> float:
+    from harvest_osm import haversine
+    return sum(haversine(line[i], line[i + 1]) for i in range(len(line) - 1))
+
+
+def shields(p: Proj, roads: dict, per_km: float = 70.0, cap: int = 4,
+            r: float = 0) -> str:
+    """Route numbers on the map, the way they are on the road.
+
+    Somebody reading this has a sign in front of them that says 1095, and a map with no
+    number on it makes them do the translation themselves. Shields are spaced along each
+    road rather than dropped at its midpoint, because Route 108 is three hundred
+    kilometres and one label on it names only the middle.
+
+    Placement skips anything outside the frame and anything that would sit on a shield
+    already placed, so a junction where three roads meet does not stack three plates."""
+    placed, out = [], []
+    # the longest roads first: they have the most claim on the few legible positions
+    order = sorted(roads.items(), key=lambda kv: -_road_km(kv[1]))
+    for ref, rd in order:
+        lines = rd.get("lines") or ([rd["line"]] if rd.get("line") else [])
+        lines = sorted(lines, key=len, reverse=True)
+        if not lines:
+            continue
+        km = _road_km(rd)
+        want = max(1, min(cap, int(km / per_km + 0.5)))
+        spots = []
+        for i in range(want):
+            frac = (i + 0.5) / want
+            spots.append(_at_fraction(lines, frac))
+        w = 9 + 7.6 * len(str(ref))
+        h = 17
+        for pt in spots:
+            if not pt:
+                continue
+            x, y = p.xy(pt[0], pt[1])
+            if not (4 <= x <= p.width - 4 and 4 <= y <= p.height - 4):
+                continue
+            box = (x - w / 2, y - h / 2, x + w / 2, y + h / 2)
+            if any(not (box[2] < q[0] - 5 or box[0] > q[2] + 5 or
+                        box[3] < q[1] - 5 or box[1] > q[3] + 5) for q in placed):
+                continue
+            placed.append(box)
+            out.append(
+                f'<g class="shield"><rect x="{box[0]:.0f}" y="{box[1]:.0f}" '
+                f'width="{w:.0f}" height="{h}" rx="3"/>'
+                f'<text x="{x:.0f}" y="{y + 4.6:.0f}">{ref}</text></g>')
+    return "".join(out)
+
+
+def _road_km(rd: dict) -> float:
+    if rd.get("km"):
+        return float(rd["km"])
+    lines = rd.get("lines") or ([rd["line"]] if rd.get("line") else [])
+    return sum(_chain_km([tuple(c) for c in l]) for l in lines)
+
+
+def _at_fraction(lines: list, frac: float):
+    """A point `frac` of the way along the road, walking its chains end to end."""
+    segs = [[tuple(c) for c in l] for l in lines if len(l) > 1]
+    if not segs:
+        return None
+    lens = [_chain_km(sg) for sg in segs]
+    total = sum(lens)
+    if total <= 0:
+        return segs[0][0]
+    target = total * frac
+    for sg, ln in zip(segs, lens):
+        if target > ln:
+            target -= ln
+            continue
+        from harvest_osm import haversine
+        run = 0.0
+        for i in range(len(sg) - 1):
+            d = haversine(sg[i], sg[i + 1])
+            if run + d >= target:
+                return sg[i + 1]
+            run += d
+        return sg[-1]
+    return segs[-1][-1]
+
+def richardson(y: dict, deg: str = "4", width: int = 560, height: int = 240) -> str:
+    """Count against ruler length, both axes logarithmic.
+
+    A straight line here is the signature Richardson found in coastlines: halve the
+    ruler, get a fixed multiple more of whatever you are counting, with no plateau to
+    converge on. The flattening at the fine end is not the road running out of bends,
+    it is OpenStreetMap running out of points."""
+    steps = [s_ for s_ in y["step_m"]]
+    vals = [y["grid"][str(s_)][deg] for s_ in steps]
+    if not vals:
+        return ""
+    pad_l, pad_b, pad_t, pad_r = 44, 30, 12, 10
+    x0, y0 = pad_l, height - pad_b
+    w = width - pad_l - pad_r
+    h = height - pad_b - pad_t
+    lx = [math.log10(s_) for s_ in steps]
+    ly = [math.log10(v) for v in vals]
+    xmin, xmax = min(lx), max(lx)
+    ymin, ymax = min(ly), max(ly)
+    def px(v): return x0 + (v - xmin) / (xmax - xmin) * w
+    def py(v): return y0 - (v - ymin) / (ymax - ymin) * h
+    out = [f'<svg viewBox="0 0 {width} {height}" class="rich" role="img" '
+           f'aria-label="Curves counted against ruler length, both axes logarithmic">']
+    # axes
+    out.append(f'<line class="ax" x1="{x0}" y1="{pad_t}" x2="{x0}" y2="{y0}"/>')
+    out.append(f'<line class="ax" x1="{x0}" y1="{y0}" x2="{width - pad_r}" y2="{y0}"/>')
+    for s_ in steps:
+        x = px(math.log10(s_))
+        out.append(f'<line class="grid" x1="{x:.0f}" y1="{pad_t}" x2="{x:.0f}" y2="{y0}"/>')
+        lab = f"{s_} m" if s_ < 1000 else "1 km"
+        out.append(f'<text class="tick" x="{x:.0f}" y="{y0 + 14:.0f}">{lab}</text>')
+    for v in (min(vals), max(vals)):
+        yy = py(math.log10(v))
+        out.append(f'<text class="tick l" x="{x0 - 6}" y="{yy + 3.5:.0f}">{v:,}</text>')
+    d = "".join(f"{'M' if i == 0 else 'L'}{px(lx[i]):.1f} {py(ly[i]):.1f}"
+                for i in range(len(steps)))
+    out.append(f'<path class="rline" d="{d}"/>')
+    for i, s_ in enumerate(steps):
+        x, yy = px(lx[i]), py(ly[i])
+        cls = "rdot pub" if s_ == 30 else "rdot"
+        out.append(f'<circle class="{cls}" cx="{x:.1f}" cy="{yy:.1f}" r="{4.6 if s_ == 30 else 3.2}">'
+                   f'<title>{vals[i]:,} at a {s_} m ruler</title></circle>')
+        if s_ == 30:
+            out.append(f'<text class="pubtag" x="{x:.0f}" y="{yy - 11:.0f}">published</text>')
+    out.append("</svg>")
+    return "".join(out)
+
 
 
 # The basemap ships as its own file, so it carries its own styles. It is referenced by

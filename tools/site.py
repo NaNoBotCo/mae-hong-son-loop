@@ -456,6 +456,8 @@ def base_map(width=820, demand=False, highlight=None, pins=None, labels=True, de
         if swarm:
             out.append(geo.swarm(p, swarm, cls="poi " + (swarm[0].get("kind") or "")))
         out.append(geo.dots(p, pins, r=4.2, label=labels))
+    # the route numbers, last, so they sit over everything they name
+    out.append(geo.shields(p, ROADS))
     out.append(geo.scalebar(p))
     out.append("</svg>")
     return "".join(out)
@@ -671,7 +673,7 @@ def closeup_figure(w: dict, ref: str, lang: str, width: int = 620) -> str:
     return ('<figure class="closeup-fig"><div class="cu-head">'
             f'<span class="kicker">{E(kick)}</span>'
             f'<p class="big">{E(str(w["per_km"]))}<small>{E(lab)}</small></p></div>'
-            + geo.closeup(w, width)
+            + geo.closeup(dict(w, ref=ref), width)
             + f'<figcaption>{E(cap)} · {WAY_CREDIT}</figcaption></figure>')
 
 
@@ -1033,15 +1035,15 @@ def front(lang: str) -> str:
         b.append(f'<h2>{E("1,864 curves" if lang == "en" else "1,864 โค้ง")}</h2>'
                  f'<div class="prose"><p>' +
                  (f'Over the <strong>245 km</strong> from Chiang Mai to Mae Hong Son that is one every '
-                  f'<strong>131 metres</strong>. Counting every change of turning direction on the map '
-                  f'gets to <strong>{full["bends_scaled_to_published"]:,}</strong> from below — and the map '
-                  f'has a point only every 31 metres, so it cannot see a bend shorter than sixty. '
-                  f'The number is the right size.'
+                  f'<strong>131 metres</strong>, which is about what it feels like. Counting the same '
+                  f'road at a 30 m ruler gets <strong>{full["bends_scaled_to_published"]:,}</strong>; at '
+                  f'a 250 m ruler it gets a third of that, and at 10 m rather more. A road has a curve '
+                  f'count the way a coastline has a length — only once you say how long the ruler is.'
                   if lang == "en" else
                   f'บนระยะ <strong>245 กม.</strong> จากเชียงใหม่ถึงแม่ฮ่องสอน คิดเป็นหนึ่งโค้งทุก '
-                  f'<strong>131 เมตร</strong> การนับทุกครั้งที่ทิศการเลี้ยวเปลี่ยนบนแผนที่ได้ '
-                  f'<strong>{full["bends_scaled_to_published"]:,}</strong> โดยเข้าจากด้านล่าง และแผนที่มีจุดทุก 31 เมตร '
-                  f'จึงมองไม่เห็นโค้งที่สั้นกว่าหกสิบเมตร ตัวเลขนี้อยู่ในขนาดที่ถูกต้อง') +
+                  f'<strong>131 เมตร</strong> ซึ่งใกล้เคียงกับความรู้สึกจริง การนับถนนสายเดียวกันที่ไม้บรรทัด 30 ม. '
+                  f'ได้ <strong>{full["bends_scaled_to_published"]:,}</strong> ที่ไม้บรรทัด 250 ม. ได้ราวหนึ่งในสาม '
+                  f'และที่ 10 ม. ได้มากกว่า ถนนมีจำนวนโค้งแบบเดียวกับที่ชายฝั่งมีความยาว คือต่อเมื่อบอกว่าไม้บรรทัดยาวเท่าไร') +
                  f'</p></div><p><a class="btn alt" href="{r}numbers/">{E("Every road, counted" if lang == "en" else "ทุกสาย นับแล้ว")}</a></p>')
 
     b.append(band("smoke", "March and April" if lang == "en" else "มีนาคมและเมษายน",
@@ -1173,6 +1175,46 @@ def which_way(lang: str) -> str:
 
 
 # ---------------------------------------------------------------- numbers
+def yardstick_block(lang: str) -> str:
+    """How many curves there are, which is a question about the ruler."""
+    y = CURVES.get("yardstick") or {}
+    if not y.get("grid"):
+        return ""
+    en = lang == "en"
+    g, steps, degs = y["grid"], y["step_m"], y["degrees"]
+    fine, pub, coarse = g["10"]["4"], g["30"]["4"], g["1000"]["4"]
+    b = [f'<h2 id="yardstick">{E("There is no number" if en else "ไม่มีตัวเลขที่ถูกต้องเพียงตัวเดียว")}</h2>']
+    lede_en = (f"""Count the bends on this road with a coarse rule and the small ones disappear into the straight between two big ones. Count with a finer one and those straights turn out to have bends in them too. **At a one-kilometre ruler this run has {coarse:,} curves in it. At a ten-metre ruler it has {fine:,}.** Same road, same day, same arithmetic.
+
+Richardson noticed this measuring coastlines in the 1950s and Mandelbrot gave it a name. A coastline has no length until you say how long your ruler is, and this road has no curve count until you say the same. **Every number on this site is a count at a stated ruler — thirty metres, four degrees — not a fact about the road.** It is reproducible, which is a different and smaller claim than true.
+
+The line bending flat at the fine end is not the road running out of curves. It is OpenStreetMap running out of points: the trace carries one roughly every {y.get("metres_per_point", "?")} metres, and asking for a reading below that interpolates a straight line between two of them, which invents no bend. Survey the same asphalt at one metre and the climb would carry on.""")
+    lede_th = (f"""นับโค้งบนถนนสายนี้ด้วยไม้บรรทัดหยาบ โค้งเล็กจะหายไปในทางตรงระหว่างโค้งใหญ่สองโค้ง นับด้วยไม้บรรทัดละเอียดกว่า ทางตรงเหล่านั้นก็มีโค้งอยู่ข้างใน **ที่ไม้บรรทัดหนึ่งกิโลเมตร เส้นทางนี้มี {coarse:,} โค้ง ที่ไม้บรรทัดสิบเมตร มี {fine:,} โค้ง** ถนนเดียวกัน วันเดียวกัน วิธีคำนวณเดียวกัน
+
+ริชาร์ดสันพบเรื่องนี้ตอนวัดแนวชายฝั่งในทศวรรษ 1950 และมานเดลบรอตตั้งชื่อให้ ชายฝั่งไม่มีความยาวจนกว่าคุณจะบอกว่าไม้บรรทัดยาวเท่าไร และถนนสายนี้ก็ไม่มีจำนวนโค้งจนกว่าจะบอกแบบเดียวกัน **ทุกตัวเลขบนเว็บนี้คือจำนวนที่นับด้วยไม้บรรทัดที่ระบุไว้ สามสิบเมตร สี่องศา ไม่ใช่ข้อเท็จจริงของถนน**
+
+เส้นที่แบนลงตรงปลายละเอียดไม่ใช่ถนนหมดโค้ง แต่เป็น OpenStreetMap หมดจุด""")
+    b.append(f'<div class="prose">{prose(lede_en if en else lede_th)}</div>')
+    b.append('<figure class="rich-fig">' + geo.richardson(y)
+             + f'<figcaption>{E("Curves counted against ruler length, both axes logarithmic. A straight line is the signature: halve the ruler, get a fixed multiple more." if en else "จำนวนโค้งเทียบกับความยาวไม้บรรทัด สเกลลอการิทึมทั้งสองแกน")}</figcaption></figure>')
+    b.append(f'<h3>{E("The whole grid" if en else "ตารางทั้งหมด")}</h3>')
+    b.append(f'<p class="small mute">{E("Rows are how often the road is sampled; columns are how much a bend has to add up to before it counts. The site quotes the 30 m, 4 degree cell." if en else "แถวคือความถี่ในการสุ่มถนน คอลัมน์คือองศาขั้นต่ำที่นับเป็นโค้ง เว็บนี้ใช้ช่อง 30 ม. 4 องศา")}</p>')
+    b.append('<div class="scroll"><table class="yard"><thead><tr>'
+             + f'<th>{E("ruler" if en else "ไม้บรรทัด")}</th>'
+             + "".join(f'<th class="num">{d}°</th>' for d in degs) + "</tr></thead><tbody>")
+    for st in steps:
+        lab = f"{st} m" if st < 1000 else "1 km"
+        cells = "".join(
+            f'<td class="num{" pub" if (st == 30 and d == 4) else ""}">{g[str(st)][str(d)]:,}</td>'
+            for d in degs)
+        b.append(f'<tr><th>{lab}</th>{cells}</tr>')
+    b.append("</tbody></table></div>")
+    b.append(f'<p class="small mute">{E("Every cell is in " if en else "ทุกช่องอยู่ใน ")}'
+             f'<a href="{rel()}api/curves.json">curves.json</a>'
+             f'{E(", with the method that produced it." if en else " พร้อมวิธีที่ใช้")}</p>')
+    return "".join(b)
+
+
 def numbers(lang: str) -> str:
     b = [f'<h1><span class="kind">{E("Measured" if lang == "en" else "วัดแล้ว")}</span>'
          f'{E("The numbers" if lang == "en" else "ตัวเลข")}</h1>',
@@ -1180,8 +1222,8 @@ def numbers(lang: str) -> str:
     d1 = root_depth(1, lang)
     b.append(band("pai-canyon", "Pai" if lang == "en" else "ปาย",
                   "", "", d1, lang, big="1,864",
-                  big_label=("curves, Chiang Mai to Mae Hong Son"
-                             if lang == "en" else "โค้ง เชียงใหม่ถึงแม่ฮ่องสอน")))
+                  big_label=("curves, Chiang Mai to Mae Hong Son — at somebody's ruler"
+                             if lang == "en" else "โค้ง เชียงใหม่ถึงแม่ฮ่องสอน ตามไม้บรรทัดของใครบางคน")))
     claims = CURVES.get("claims", [])
     b.append('<div class="grid">')
     for c in claims:
@@ -1227,7 +1269,7 @@ def numbers(lang: str) -> str:
                      "".join(f'<td class="num">{sp["at_threshold"][str(t)]["curves"]}</td>' for t in ths) +
                      "</tr>")
         b.append("</tbody></table></div>")
-        b.append(f'<p class="small mute">{E("25° is used everywhere else on this site." if lang == "en" else "ทั้งเว็บนี้ใช้ 25 องศา")}</p>')
+        b.append(f'<p class="small mute">{E("4 degrees at a 30 m ruler is what this site quotes; the grid below is the same road at every other ruler." if lang == "en" else "เว็บนี้ใช้ 4 องศาที่ไม้บรรทัด 30 ม. ตารางด้านล่างคือถนนเดียวกันที่ไม้บรรทัดอื่น")}</p>')
 
     b.append(band("pano-chaem2", "Mae Chaem" if lang == "en" else "แม่แจ่ม",
                   "Change the threshold, change the answer"
@@ -1243,6 +1285,7 @@ def numbers(lang: str) -> str:
         b.append(f'<div class="prose">{prose(T(n, "text.story", lang))}</div>'
                  f'<p><a class="btn alt" href="{lroot(lang)}{url_of(n)}">{E("Full page" if lang == "en" else "หน้าเต็ม")}</a></p>')
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}numbers/"
+    b.append(yardstick_block(lang))
     b.append(share_row(url, "How many curves does the Mae Hong Son loop actually have?", lang))
     return page(f'{"The numbers" if lang == "en" else "ตัวเลข"} — {NAME[lang]}', "".join(b), 1, lang,
 "1,864 curves between Chiang Mai and Mae Hong Son, counted independently and per road.",
@@ -1347,7 +1390,7 @@ def danger(lang: str) -> str:
     b.append('<figure class="closeup-fig"><div class="cu-head">'
              f'<span class="kicker">{E(cu_kick)}</span>'
              f'<p class="big">{E(str(top_win["per_km"]))}<small>{E(cu_lab)}</small></p></div>'
-             + geo.closeup(top_win, 620)
+             + geo.closeup(dict(top_win, ref=top_ref), 620)
              + f'<figcaption>{E(cu_cap)} · {WAY_CREDIT}</figcaption></figure>')
     b.append('<figure class="map">' + base_map(880, demand=True, depth=d1, lang=lang) +
              f'<figcaption>© OpenStreetMap contributors · {E("2 km windows, 25° threshold" if lang == "en" else "หน้าต่าง 2 กม. เกณฑ์ 25 องศา")}</figcaption></figure>')

@@ -242,6 +242,29 @@ ul.places a{text-decoration:none;border-bottom:1px solid var(--line)}
 .starlink:focus-visible .star{stroke:var(--hot);stroke-width:2.4}
 .poi{fill:#3d7a55;stroke:none;opacity:.62}
 .poi.waterfall{fill:#2f7ea8}
+/* count against ruler length — the coastline plot */
+.rich-fig{margin:1.2rem 0}
+svg.rich{display:block;width:100%;height:auto;max-width:640px}
+svg.rich .ax{stroke:var(--mute);stroke-width:1.2}
+svg.rich .grid{stroke:var(--line);stroke-width:1;stroke-dasharray:2 4}
+svg.rich .tick{fill:var(--mute);font-size:10px;text-anchor:middle;font-weight:700}
+svg.rich .tick.l{text-anchor:end}
+svg.rich .rline{fill:none;stroke:var(--hot);stroke-width:2.6;stroke-linejoin:round}
+svg.rich .rdot{fill:var(--bg);stroke:var(--hot);stroke-width:2}
+svg.rich .rdot.pub{fill:var(--sun);stroke:var(--ink)}
+svg.rich .pubtag{fill:var(--sun);font-size:9px;text-anchor:middle;font-weight:700;
+  letter-spacing:.1em;text-transform:uppercase}
+.rich-fig figcaption{font-size:.78rem;color:var(--mute);margin-top:.4rem;line-height:1.5}
+table.yard{border-collapse:collapse;font-size:.86rem;margin:.4rem 0}
+table.yard th,table.yard td{border:1px solid var(--line);padding:.3rem .55rem;text-align:left}
+table.yard thead th{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}
+table.yard td.num{text-align:right;font-variant-numeric:tabular-nums}
+table.yard td.pub{background:color-mix(in srgb,var(--sun) 22%,transparent);font-weight:700}
+
+/* route shields — a light plate with dark numerals, as on the signs themselves */
+.shield rect{fill:#fdfbf4;stroke:#17110c;stroke-width:1.4}
+.shield text{fill:#17110c;font:700 11px/1 var(--mono,ui-monospace,monospace);
+  text-anchor:middle;letter-spacing:.02em}
 /* the swarm takes the colour of what it is, so a page's own kind reads against the rest */
 .poi.coffee{fill:#b5651d}.poi.stay{fill:#7b57c9}.poi.wat{fill:#d4a017}
 .poi.spring{fill:#d94f6a}.poi.fuel{fill:#3d7a55}.poi.repair{fill:#5a6b7a}

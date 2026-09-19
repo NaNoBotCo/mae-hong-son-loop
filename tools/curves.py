@@ -12,7 +12,7 @@ What is counted here is every change of turning direction along the road, which 
 time a rider changes which way they are leaning.
 
 THE COUNT IS A FLOOR, and this is the important part. OpenStreetMap traces this road with
-a point roughly every 31 metres, so a bend that occupies less than about 60 metres of
+a point roughly every 40 metres, so a bend that occupies less than about 80 metres of
 road cannot appear in the data at all. Volunteers also cut corners. The number below is
 therefore the least it can be, never the most.
 
@@ -139,6 +139,37 @@ def measure(seg: list) -> dict:
             "is_floor": True}
 
 
+# The yardstick, and why the count moves with it -------------------------------------
+# A road is not a shape with a number of curves in it. Measure it with a coarse rule and
+# the small bends vanish into the straight between two big ones; measure it finer and
+# each of those straights turns out to have bends in it too. Richardson found the same
+# thing measuring coastlines in the 1950s and Mandelbrot named it: the length of a
+# coastline depends on the length of your ruler, and it does not converge.
+#
+# So this counts the same road at eight rulers and publishes all of them. The site's
+# figure is the 30 m / 4-degree cell, which is reproducible because the cell is named --
+# not because it is the true number. There is no true number.
+YARD_STEPS = [0.01, 0.02, 0.03, 0.06, 0.12, 0.25, 0.5, 1.0]
+YARD_DEGS = [2, 4, 8, 15, 25, 45]
+
+
+def yardstick(line: list) -> dict:
+    """The same road counted at every ruler, so the reader can see the count move."""
+    from harvest_osm import haversine
+    km = sum(haversine(line[i], line[i + 1]) for i in range(len(line) - 1))
+    grid = {}
+    for st in YARD_STEPS:
+        runs = bends(line, step_km=st, min_deg=1)
+        grid[str(int(st * 1000))] = {str(d): sum(1 for a in runs if abs(a) >= d)
+                                     for d in YARD_DEGS}
+    return {"km": round(km, 1), "points": len(line),
+            # how finely the survey itself sees the road: no ruler shorter than this
+            # reveals anything, it only interpolates between two points that exist
+            "metres_per_point": round(km * 1000 / len(line)) if line else None,
+            "step_m": [int(x * 1000) for x in YARD_STEPS],
+            "degrees": list(YARD_DEGS), "grid": grid}
+
+
 def density(line: list, window_km: float = 2.0) -> list:
     """Curve density along the road, in fixed windows, so the map can colour it.
 
@@ -189,10 +220,14 @@ def main() -> int:
                       "30 m, and walked counting every change of turning direction — one lean, one "
                       "curve. A bend counts once it adds up to 4 degrees, so a camber correction "
                       "does not. A hairpin is a sustained arc of 120 degrees or more."),
-           "floor": ("EVERY COUNT HERE IS A FLOOR. OpenStreetMap traces this road with a point "
-                     "roughly every 31 metres, so a bend occupying less than about 60 metres of "
-                     "road cannot appear in the data at all, and volunteer traces cut corners. "
-                     "The real number is higher than this — the question is by how much."),
+           # Not a floor under a true number: there is no true number. A road has a curve
+           # count the way a coastline has a length -- only once you say how long the
+           # ruler is. See `yardstick`, which counts the same road at eight of them.
+           "floor": ("Every count here is a count at a stated ruler: the road sampled every "
+                     "30 m, a bend counted once it adds up to 4 degrees. It is reproducible, "
+                     "not true. Halve the ruler and the number climbs; the same road measured "
+                     "at 1 km gives a twelfth of what it gives at 10 m. What bounds the fine "
+                     "end is the survey, not the asphalt. See `yardstick` in this file."),
            "step_m": 30, "thresholds": list(THRESHOLDS), "threshold_used": DEFAULT,
            "hairpin_degrees": 120, "source": "s:mhs-measured", "claims": CLAIMS,
            "density_window_km": 2.0, "bands": BANDS,
@@ -258,6 +293,10 @@ def main() -> int:
     traced_km = (whole95.get("km") or 0) + (r107.get("km") or 0)
     traced_bends = (whole95.get("curves") or 0) + (r107.get("curves") or 0)
     scaled = round(traced_bends * FULL_KM / traced_km) if traced_km else 0
+    # the same run, counted at eight rulers
+    full_line = load_line("1095") + load_line("107")
+    out["yardstick"] = yardstick(full_line)
+    out["yardstick"]["published_cell"] = {"step_m": 30, "degrees": DEFAULT}
     out["full_route"] = {"km_published": FULL_KM, "km_traced": round(traced_km, 1),
                          "bends_traced": traced_bends, "bends_scaled_to_published": scaled,
                          "metres_per_bend": round(FULL_KM * 1000 / scaled, 0) if scaled else None,
