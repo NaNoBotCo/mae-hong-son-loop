@@ -8,7 +8,12 @@ Pai, Mae Hong Son and Mae Sariang. Static HTML, no framework, no web font, no th
 request. Every claim carries a provenance tier and, where it is cited, the id of a named
 source.
 
-→ **https://nanobotco.github.io/mae-hong-son-loop/**
+→ **https://motdang.net/loop/** · also at **https://nanobotco.github.io/mae-hong-son-loop/**
+
+The same build is published twice. motdang.net/loop carries the canonical; the GitHub
+Pages copy declares it as `rel="alternate"`, so the two are not competing duplicates.
+`CANONICAL_URL=$SITE_URL ./publish.sh` makes whichever copy you are building the
+primary one instead.
 
 ## Three things this site found by measuring rather than repeating
 

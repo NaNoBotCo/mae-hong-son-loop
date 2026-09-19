@@ -30,6 +30,11 @@ from css import CSS  # noqa: E402
 API = BUILD / "api"
 SITE = BUILD / "site"
 SITE_URL = os.environ.get("SITE_URL", "https://nanobotco.github.io/mae-hong-son-loop").rstrip("/")
+# The same site is published twice: the GitHub Pages copy, which is what the repo builds
+# by default, and https://motdang.net/loop. Two live copies of one site is duplicate
+# content, so both declare the same canonical and the other copy carries rel="alternate".
+# CANONICAL_URL overrides where that points; set it to SITE_URL to make a copy primary.
+CANONICAL_URL = os.environ.get("CANONICAL_URL", "https://motdang.net/loop").rstrip("/")
 NAME = {"en": "The Mae Hong Son Loop", "th": "วงรอบแม่ฮ่องสอน"}
 TAG = {"en": "600 kilometres, 1,864 curves on the sign, and a different answer from the map",
        "th": "หกร้อยกิโลเมตร ป้ายบอก 1,864 โค้ง และแผนที่ให้คำตอบอีกแบบ"}
@@ -143,7 +148,8 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{E(title)}</title>
 <meta name="description" content="{E(desc)}">
-<link rel="canonical" href="{E(canonical or SITE_URL)}">
+<link rel="canonical" href="{E(CANONICAL_URL)}/{"th/" if lang == "th" else ""}{E(path)}">
+<link rel="alternate" href="{E(canonical or SITE_URL)}">
 <link rel="alternate" hreflang="en" href="{SITE_URL}/{E(path)}">
 <link rel="alternate" hreflang="th" href="{SITE_URL}/th/{E(path)}">
 <link rel="alternate" hreflang="x-default" href="{SITE_URL}/{E(path)}">
