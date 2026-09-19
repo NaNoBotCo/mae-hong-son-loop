@@ -1,5 +1,5 @@
 {
- "count": 75,
+ "count": 76,
  "nodes": [
   {
    "id": "cnx-to-pai",
@@ -7298,12 +7298,6 @@
      "as": "Where the transaction happens."
     },
     {
-     "from": "sending-the-bag-ahead",
-     "type": "kit",
-     "name": "Sending your bag ahead",
-     "as": "Where the bag stays, and where you come back to."
-    },
-    {
      "from": "the-smoke",
      "type": "story",
      "name": "The smoke",
@@ -7818,6 +7812,12 @@
      "type": "stop",
      "name": "Doi Inthanon",
      "as": "The town on the back side."
+    },
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending the bag ahead",
+     "as": "One of the two towns with nowhere to send it."
     }
    ]
   },
@@ -8038,12 +8038,6 @@
      "type": "kit",
      "name": "Not coming back to Chiang Mai",
      "as": "The town with the airport."
-    },
-    {
-     "from": "sending-the-bag-ahead",
-     "type": "kit",
-     "name": "Sending your bag ahead",
-     "as": "The one sensible forwarding destination on the circuit."
     },
     {
      "from": "shan",
@@ -10621,6 +10615,12 @@
      "as": "The same physics, without the conversation."
     },
     {
+     "from": "no-storage",
+     "type": "kit",
+     "name": "The bike has nowhere to put it",
+     "as": "What a high tail pack does on a descent."
+    },
+    {
      "from": "packing-light",
      "type": "kit",
      "name": "What actually fits",
@@ -10629,8 +10629,8 @@
     {
      "from": "sending-the-bag-ahead",
      "type": "kit",
-     "name": "Sending your bag ahead",
-     "as": "What weight on the back actually does on a hairpin."
+     "name": "Sending the bag ahead",
+     "as": "What the weight does when the road turns down."
     }
    ]
   },
@@ -11461,6 +11461,12 @@
      "as": "The same size, without the gearbox that does the braking."
     },
     {
+     "from": "no-storage",
+     "type": "kit",
+     "name": "The bike has nowhere to put it",
+     "as": "The bike this is most often about."
+    },
+    {
      "from": "engine-braking",
      "type": "term",
      "name": "Engine braking",
@@ -11854,6 +11860,85 @@
    ]
   },
   {
+   "id": "no-storage",
+   "type": "kit",
+   "names": {
+    "name": "The bike has nowhere to put it",
+    "th": "รถไม่มีที่ใส่ของ",
+    "said": "A helmet and a rain jacket. That is the whole of it on most rentals.",
+    "said_th": "หมวกกันน็อกกับเสื้อกันฝน แค่นั้นคือทั้งหมดของรถเช่าส่วนใหญ่"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "gear"
+   },
+   "text": {
+    "what": "What each class of bike will actually swallow, and what it means for four days of luggage.",
+    "story": "*Inference —* the inventory, by what the shop is likely to hand you.\n\n**110–160 automatic.** An underseat box that takes a helmet, or a helmet and a thin jacket, and nothing more. A hook in the legshield. A flat footwell in front of you, which is the only real space on the bike and the best place on it for weight — low and forward.\n\n**Geared underbone, 110–150.** A small compartment, a hook, and a rear rack on many of them. The rack is the useful part: a soft bag strapped flat to a rack sits lower than the same bag on the pillion seat.\n\n**Trail bike, 250–450.** Almost nothing as standard. A tail rack if you are lucky. Long travel suspension means whatever you strap on moves more than you expect.\n\n**Midweight and big adventure.** The only ones likely to have panniers or a top box, and the only ones where the answer is genuinely \"put it on the bike\". A top box is convenient and it is also weight high and behind the rear axle, which is exactly where a loaded descent least wants it.\n\n**Naked and sport.** A pillion seat and a bungee, and that is the inventory.\n\n*Inference —* which is why forwarding the main bag is not a luxury on this particular ride. On more than half of what gets rented in Chiang Mai there is no place to put four days of luggage that does not end up on the rider's back or standing on the bike's tail."
+   },
+   "text_th": {
+    "what": "รถแต่ละประเภทใส่ของได้จริงเท่าไร และมันหมายความว่าอย่างไรกับสัมภาระสี่วัน",
+    "story": "*อนุมาน —* บัญชีของจริง ตามสิ่งที่ร้านน่าจะให้คุณมา\n\n**ออโต้ 110–160** ช่องใต้เบาะที่ใส่หมวกกันน็อกได้ใบหนึ่ง หรือหมวกกับเสื้อบางๆ แล้วก็หมด มีตะขอที่บังลม และมีพื้นวางเท้าราบอยู่ข้างหน้า ซึ่งเป็นที่ว่างจริงที่เดียวบนรถ และเป็นที่ที่ดีที่สุดสำหรับวางน้ำหนัก คือต่ำและอยู่ข้างหน้า\n\n**รถครอบครัวมีเกียร์ 110–150** ช่องเล็กๆ ตะขอ และหลายคันมีแร็คท้าย แร็คคือส่วนที่มีประโยชน์ กระเป๋าผ้าที่มัดราบกับแร็คอยู่ต่ำกว่ากระเป๋าใบเดียวกันที่วางบนเบาะซ้อน\n\n**รถวิบาก 250–450** แทบไม่มีอะไรมาจากโรงงาน โชคดีจะมีแร็คท้าย ช่วงล่างที่ยุบยาวแปลว่าอะไรที่มัดไว้จะขยับมากกว่าที่คิด\n\n**พิกัดกลางและแอดเวนเจอร์คันใหญ่** เป็นกลุ่มเดียวที่น่าจะมีกระเป๋าข้างหรือกล่องท้าย และเป็นกลุ่มเดียวที่คำตอบคือวางบนรถได้จริง กล่องท้ายสะดวก และมันก็คือน้ำหนักที่อยู่สูงและอยู่หลังเพลาล้อหลังพอดี ซึ่งเป็นจุดที่ทางลงที่บรรทุกของต้องการน้อยที่สุด\n\n**รถเปลือยและรถสปอร์ต** มีเบาะซ้อนกับเชือกยางหนึ่งเส้น จบบัญชี\n\n*อนุมาน —* ด้วยเหตุนี้การส่งกระเป๋าใบหลักไปล่วงหน้าจึงไม่ใช่ความฟุ่มเฟือยสำหรับทริปนี้ รถที่ให้เช่าในเชียงใหม่เกินครึ่งไม่มีที่ใส่สัมภาระสี่วันที่ไม่ลงเอยบนหลังคนขี่หรือตั้งอยู่บนท้ายรถ"
+   },
+   "kin": [
+    {
+     "to": "sending-the-bag-ahead",
+     "as": "The fix, when the bike is not one.",
+     "rel": "kit"
+    },
+    {
+     "to": "packing-light",
+     "as": "Where the weight should sit when it does ride with you.",
+     "rel": "kit"
+    },
+    {
+     "to": "loaded-bike",
+     "as": "What a high tail pack does on a descent.",
+     "rel": "hazard"
+    },
+    {
+     "to": "renting-a-bike",
+     "as": "Ask for a rack. It is the cheapest upgrade on the counter.",
+     "rel": "kit"
+    },
+    {
+     "to": "step-through-110",
+     "as": "The bike this is most often about.",
+     "rel": "bike"
+    }
+   ],
+   "sources": [
+    "s:wp-scooter-motorcycle",
+    "s:wp-underbone",
+    "s:wp-motorcycle-safety"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "an inventory of what these classes of machine carry as standard; no model is named as carrying a specific volume"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending the bag ahead",
+     "as": "Why the bike itself is usually not the answer."
+    }
+   ]
+  },
+  {
    "id": "one-way-rental",
    "type": "kit",
    "names": {
@@ -11920,8 +12005,8 @@
     {
      "from": "sending-the-bag-ahead",
      "type": "kit",
-     "name": "Sending your bag ahead",
-     "as": "The case where forwarding stops being pointless."
+     "name": "Sending the bag ahead",
+     "as": "The case where the bag goes one way and does not come back."
     }
    ]
   },
@@ -12002,10 +12087,16 @@
      "as": "Where it all goes."
     },
     {
+     "from": "no-storage",
+     "type": "kit",
+     "name": "The bike has nowhere to put it",
+     "as": "Where the weight should sit when it does ride with you."
+    },
+    {
      "from": "sending-the-bag-ahead",
      "type": "kit",
-     "name": "Sending your bag ahead",
-     "as": "What fits on the bike if the big bag stays behind."
+     "name": "Sending the bag ahead",
+     "as": "What goes in the small bag that stays with you."
     }
    ]
   },
@@ -12111,6 +12202,12 @@
      "as": "The bike the shop will hand you unless you ask otherwise."
     },
     {
+     "from": "no-storage",
+     "type": "kit",
+     "name": "The bike has nowhere to put it",
+     "as": "Ask for a rack. It is the cheapest upgrade on the counter."
+    },
+    {
      "from": "one-way-rental",
      "type": "kit",
      "name": "Not coming back to Chiang Mai",
@@ -12119,8 +12216,8 @@
     {
      "from": "sending-the-bag-ahead",
      "type": "kit",
-     "name": "Sending your bag ahead",
-     "as": "The contract that should say who is holding your suitcase."
+     "name": "Sending the bag ahead",
+     "as": "Ask about storage and a rack at the counter, before you pay."
     },
     {
      "from": "which-bike",
@@ -12140,10 +12237,10 @@
    "id": "sending-the-bag-ahead",
    "type": "kit",
    "names": {
-    "name": "Sending your bag ahead",
+    "name": "Sending the bag ahead",
     "th": "ส่งกระเป๋าล่วงหน้า",
-    "said": "Yes. But for most people on this particular loop the better answer is: leave it behind instead.",
-    "said_th": "ส่งได้ แต่สำหรับคนส่วนใหญ่บนเส้นทางนี้ คำตอบที่ดีกว่าคือ ฝากไว้เฉยๆ"
+    "said": "Yes. Every town you sleep in on this loop can receive a parcel except two, and the bus that carries it is going your way anyway.",
+    "said_th": "ได้ ทุกเมืองที่คุณนอนบนเส้นทางนี้รับพัสดุได้ ยกเว้นสองแห่ง และรถที่ขนไปก็วิ่งทางเดียวกับคุณอยู่แล้ว"
    },
    "region": [
     "loop",
@@ -12155,62 +12252,71 @@
     "price": "cheap"
    },
    "text": {
-    "what": "Whether a suitcase can travel separately from the bike. It can, by three separate channels. But the loop is a loop — it ends where it started — so the question most riders are really asking has a cheaper answer.",
-    "story": "**Start with the shape of the trip.** The circuit returns to Chiang Mai. A bag sent ahead to Mae Hong Son has to be collected in Mae Hong Son and then carried for the remaining three hundred kilometres, which is the problem you were trying to avoid. *Inference —* forwarding earns its keep in exactly two cases: you are not returning to Chiang Mai, or you want a specific thing waiting at the halfway point and nothing else.\n\n**The cheap answer, and the usual one.** Leave the big bag in Chiang Mai. Motorcycle rental shops and guesthouses there commonly hold luggage for riders who are coming back for it, and many do it at no charge as part of the rental. *Tradition holds —* this is the standard arrangement and the thing to ask about when you book, not when you arrive. Get it in writing on the rental agreement, photograph the bag and the room it goes into, and take the valuables with you.\n\n**Three ways to move a bag that must move.**\n\n*Thailand Post.* Post offices operate in Chiang Mai, Pai, Mae Hong Son, Mae Sariang and the district towns. Domestic parcel and EMS services exist and are the cheapest of the three. *Tradition holds —* upcountry post offices keep government hours and close at lunchtime and at weekends, so a parcel that arrives Saturday sits until Monday.\n\n*A private courier.* Several nationwide parcel networks run branches and agent counters across the north, often inside a shop or a petrol station, with longer hours than the post office. **Not on this disk:** which specific branches were open on the day you read this, what they charged, or their size limits. Those change, and this project has not verified them.\n\n*The bus.* Thai intercity and minibus operators carry parcels on the same runs that carry passengers — you hand the parcel in at the operator's counter, it rides in the hold, and it is collected at the destination office, often the same day. *Tradition holds —* this is ordinary and widely used across Thailand. It is also the only one of the three that is as fast as you are.\n\n**What actually goes wrong.** A parcel needs a real address and a person willing to sign for it: a guesthouse has to agree in advance to receive a bag for a guest who has not arrived yet, and not all will. Collection usually needs the ID the parcel was addressed to. And the bag has to survive being stacked — soft luggage is fine, a hard shell with a TSA lock is fine, a paper bag is not.",
-    "how": "If you are doing it: send it two days before you need it, not the night before; address it to a named person at a named guesthouse with that guesthouse's phone number on the label, having already asked them; keep the tracking slip photographed rather than folded in a tank bag; and put nothing in it you would cancel the trip over."
+    "what": "You need clean clothes, a toothbrush, chargers and whatever else four nights takes. It does not have to be on your back. It can travel town to town and be at the guesthouse before you are.",
+    "story": "**Why this is a real question and not a fussy one.** Most rental bikes on this circuit have nowhere to put anything. A 110 automatic's underseat box takes a helmet and a rain jacket and then it is full. A geared Wave has a small compartment and a hook. A naked or sport bike has nothing at all. So the bag ends up on your back or bungeed on top of the pillion seat — and a rucksack across six hundred kilometres of camber changes is a back injury waiting for the third afternoon, while a tail pack sitting high behind the rider is the thing that makes every hairpin an argument with the bike.\n\n**The shape that works is two bags.** A small one that stays with you — documents, water, waterproofs, tools, phone, and anything medical. A larger one that leapfrogs ahead and is waiting in the room.\n\n**Two ways to leapfrog it.**\n\n*By post.* Thailand Post has a counter in every overnight town on this circuit except two. Send from the town you are leaving to the town you are arriving in, a day ahead. Cheapest of the options, slowest, and bound by government office hours.\n\n*By bus.* This is the one most people do not think of, and on this route it is the better answer. The minibuses and coaches that run Chiang Mai–Pai–Mae Hong Son and Chiang Mai–Hot–Mae Sariang–Mae Hong Son carry parcels on the same runs that carry passengers: you hand the bag in at the operator's counter, it rides in the hold, and it is collected at the destination office. *Tradition holds —* this is ordinary and widely used across Thailand, and the crucial thing about it here is that **the bus is going exactly where you are going, on the same day.** It is the only method as fast as you are.\n\n**Where it can land.** Counted from OpenStreetMap on the harvest date: Chiang Mai, Mae Malai, Pai, Soppong, Mae Hong Son, Khun Yuam, Mae Sariang and Hot all have a post office within walking distance of the centre, and every one of those towns has a bus station. **Mae La Noi has nothing mapped at all, and Mae Chaem has a bus office but no post office** — if your route sleeps at Mae La Noi, that night's bag rides with you. The table on the baggage page lists each one.\n\n**What actually goes wrong.** A parcel needs a real address and a person willing to sign for it, so the guesthouse has to agree in advance to hold a bag for a guest who has not arrived — ask when you book, not when you post. Collection usually needs the ID the parcel was addressed to. Upcountry post offices keep government hours and close at lunch and at weekends, so a parcel arriving Saturday sits until Monday. And soft luggage survives being stacked; a paper bag does not.",
+    "how": "**Carry, do not ship: anything medical.** A CPAP, an inhaler, insulin, anything you would have a bad night without. If a bag goes astray you have a laundry problem; if the CPAP goes astray you have a medical one, and it is not replaceable in Khun Yuam at nine at night. A CPAP also needs mains power and a flat surface, which is worth confirming with the guesthouse rather than discovering.\n\nThe rest: send it two days before you need it if you are using the post, or the same morning if you are using the bus. Address it to a named person at a named guesthouse with that guesthouse's phone number on the label. Photograph the bag, the label and the receipt. Put nothing in it you would cancel the trip over — passport, cards, keys and phone stay on you.\n\n*Inference —* and if all of that sounds like more administration than it is worth, the fallback is still sound: a soft 20-litre bag strapped low across the pillion seat, not a rucksack on your back, and the heavy things against the tank."
    },
    "text_th": {
-    "what": "กระเป๋าเดินทางแยกจากรถได้ไหม ได้ ผ่านสามช่องทาง แต่เส้นทางนี้เป็นวงรอบ คือจบที่เดิมที่เริ่ม คำถามที่คนส่วนใหญ่ถามจริงๆ จึงมีคำตอบที่ถูกกว่า",
-    "story": "**เริ่มจากรูปร่างของทริป** เส้นทางนี้วนกลับเชียงใหม่ กระเป๋าที่ส่งไปแม่ฮ่องสอนต้องไปรับที่แม่ฮ่องสอน แล้วแบกต่ออีกสามร้อยกิโลเมตร ซึ่งคือปัญหาที่พยายามจะเลี่ยงตั้งแต่แรก *อนุมาน —* การส่งล่วงหน้าคุ้มค่าในสองกรณีเท่านั้น คือคุณไม่กลับเชียงใหม่ หรือคุณอยากให้ของบางอย่างรออยู่ที่จุดกึ่งกลางโดยเฉพาะ\n\n**คำตอบที่ถูกกว่า และเป็นคำตอบปกติ** ฝากกระเป๋าใบใหญ่ไว้ที่เชียงใหม่ ร้านเช่ารถและเกสต์เฮาส์ที่นั่นรับฝากสัมภาระให้คนที่จะกลับมาเอาเป็นเรื่องปกติ และหลายแห่งไม่คิดเงินเพราะถือเป็นส่วนหนึ่งของการเช่า *ตามธรรมเนียม —* นี่คือข้อตกลงมาตรฐาน และเป็นสิ่งที่ควรถามตอนจอง ไม่ใช่ตอนไปถึง ขอให้ระบุในสัญญาเช่า ถ่ายรูปกระเป๋าและห้องที่เก็บไว้ และเอาของมีค่าไปกับตัว\n\n**สามวิธีย้ายกระเป๋าที่ต้องย้ายจริงๆ**\n\n*ไปรษณีย์ไทย* มีที่ทำการในเชียงใหม่ ปาย แม่ฮ่องสอน แม่สะเรียง และเมืองอำเภอต่างๆ มีบริการพัสดุในประเทศและ EMS และถูกที่สุดในสามทาง *ตามธรรมเนียม —* ที่ทำการต่างอำเภอเปิดตามเวลาราชการ ปิดพักเที่ยงและปิดเสาร์อาทิตย์ พัสดุที่มาถึงวันเสาร์จะค้างถึงวันจันทร์\n\n*บริษัทขนส่งเอกชน* มีเครือข่ายสาขาและจุดรับส่งทั่วภาคเหนือ มักอยู่ในร้านค้าหรือปั๊มน้ำมัน และเปิดนานกว่าไปรษณีย์ **ไม่มีข้อมูลในชุดนี้** ว่าสาขาไหนเปิดในวันที่คุณอ่าน ราคาเท่าไร หรือจำกัดขนาดอย่างไร เรื่องพวกนี้เปลี่ยน และโครงการนี้ยังไม่ได้ตรวจสอบ\n\n*รถทัวร์และรถตู้* ผู้ประกอบการเดินรถรับฝากพัสดุไปกับเที่ยวเดียวกับผู้โดยสาร ฝากที่เคาน์เตอร์ ของไปในห้องเก็บสัมภาระ แล้วไปรับที่สำนักงานปลายทาง มักถึงในวันเดียวกัน *ตามธรรมเนียม —* เป็นเรื่องปกติและใช้กันทั่วประเทศ และเป็นทางเดียวในสามทางที่เร็วเท่ากับตัวคุณเอง\n\n**สิ่งที่มักพลาด** พัสดุต้องมีที่อยู่จริงและมีคนยอมเซ็นรับ เกสต์เฮาส์ต้องตกลงล่วงหน้าว่าจะรับกระเป๋าแทนแขกที่ยังไม่มาถึง และไม่ใช่ทุกที่จะรับ การรับของมักต้องใช้บัตรประชาชนหรือพาสปอร์ตตรงกับชื่อหน้ากล่อง และกระเป๋าต้องทนการวางซ้อน กระเป๋าผ้าได้ กระเป๋าแข็งได้ ถุงกระดาษไม่ได้",
-    "how": "ถ้าจะส่งจริง ส่งล่วงหน้าสองวัน ไม่ใช่คืนก่อนหน้า จ่าหน้าถึงชื่อคนจริงที่เกสต์เฮาส์ที่ระบุชื่อ พร้อมเบอร์โทรของเกสต์เฮาส์บนกล่อง โดยถามเขาไว้ก่อนแล้ว ถ่ายรูปใบพัสดุไว้แทนที่จะพับใส่กระเป๋าถังน้ำมัน และอย่าใส่อะไรที่ถ้าหายแล้วต้องยกเลิกทริป"
+    "what": "คุณต้องมีเสื้อผ้าสะอาด แปรงสีฟัน ที่ชาร์จ และอะไรก็ตามที่สี่คืนต้องใช้ ของพวกนี้ไม่จำเป็นต้องอยู่บนหลังคุณ มันเดินทางจากเมืองหนึ่งไปอีกเมืองหนึ่งและไปรอที่ที่พักก่อนคุณได้",
+    "story": "**ทำไมนี่เป็นคำถามจริง ไม่ใช่เรื่องจุกจิก** รถเช่าส่วนใหญ่บนเส้นทางนี้ไม่มีที่ใส่ของ ช่องใต้เบาะของรถออโต้ 110 ใส่หมวกกันน็อกกับเสื้อกันฝนแล้วก็เต็ม รถเวฟมีเกียร์มีช่องเล็กๆ กับตะขอ รถเปลือยหรือรถสปอร์ตไม่มีอะไรเลย กระเป๋าจึงไปจบบนหลังคุณหรือมัดอยู่บนเบาะซ้อน และเป้สะพายหลังตลอดหกร้อยกิโลเมตรที่เอียงซ้ายเอียงขวา คืออาการบาดเจ็บที่หลังซึ่งรอบ่ายวันที่สาม ส่วนกระเป๋าท้ายที่วางสูงหลังคนขี่ คือสิ่งที่ทำให้ทุกโค้งหักศอกกลายเป็นการเถียงกับรถ\n\n**รูปแบบที่ได้ผลคือสองใบ** ใบเล็กที่อยู่กับตัว เอกสาร น้ำ เสื้อกันฝน เครื่องมือ โทรศัพท์ และของทางการแพทย์ทั้งหมด กับใบใหญ่ที่กระโดดข้ามไปรออยู่ในห้อง\n\n**สองวิธีในการส่งข้ามไปก่อน**\n\n*ทางไปรษณีย์* ไปรษณีย์ไทยมีที่ทำการในทุกเมืองที่ค้างคืนบนเส้นทางนี้ ยกเว้นสองแห่ง ส่งจากเมืองที่กำลังจะออกไปยังเมืองที่กำลังจะไปถึง ล่วงหน้าหนึ่งวัน ถูกที่สุด ช้าที่สุด และติดเวลาราชการ\n\n*ทางรถโดยสาร* วิธีนี้คนส่วนใหญ่นึกไม่ถึง และบนเส้นทางนี้เป็นคำตอบที่ดีกว่า รถตู้และรถโดยสารที่วิ่งเชียงใหม่–ปาย–แม่ฮ่องสอน และเชียงใหม่–ฮอด–แม่สะเรียง–แม่ฮ่องสอน รับฝากพัสดุไปกับเที่ยวเดียวกับผู้โดยสาร ฝากที่เคาน์เตอร์ ของไปในห้องเก็บสัมภาระ แล้วไปรับที่สำนักงานปลายทาง *ตามธรรมเนียม —* เป็นเรื่องปกติและใช้กันทั่วประเทศ และจุดสำคัญที่นี่คือ **รถวิ่งไปที่เดียวกับที่คุณจะไป ในวันเดียวกัน** เป็นวิธีเดียวที่เร็วเท่าตัวคุณ\n\n**ส่งไปลงที่ไหนได้บ้าง** นับจาก OpenStreetMap ณ วันที่ดึงข้อมูล เชียงใหม่ แม่มาลัย ปาย สบป่อง แม่ฮ่องสอน ขุนยวม แม่สะเรียง และฮอด ล้วนมีที่ทำการไปรษณีย์ในระยะเดินจากกลางเมือง และทุกเมืองมีสถานีขนส่ง **แม่ลาน้อยไม่มีอะไรในแผนที่เลย ส่วนแม่แจ่มมีที่ทำการรถโดยสารแต่ไม่มีไปรษณีย์** ถ้าเส้นทางของคุณนอนแม่ลาน้อย คืนนั้นกระเป๋าต้องไปกับคุณ ตารางในหน้าสัมภาระแจกแจงไว้ทีละเมือง\n\n**สิ่งที่มักผิดพลาด** พัสดุต้องมีที่อยู่จริงและมีคนยอมเซ็นรับ ที่พักจึงต้องตกลงล่วงหน้าว่าจะเก็บกระเป๋าให้แขกที่ยังไม่มาถึง ให้ถามตอนจอง ไม่ใช่ตอนส่ง การรับของมักต้องใช้บัตรที่ตรงกับชื่อหน้ากล่อง ที่ทำการต่างอำเภอเปิดตามเวลาราชการ ปิดพักเที่ยงและปิดเสาร์อาทิตย์ พัสดุที่มาถึงวันเสาร์จะค้างถึงวันจันทร์ และกระเป๋าผ้าทนการวางซ้อน ถุงกระดาษไม่ทน",
+    "how": "**พกไปเอง อย่าส่ง ของทางการแพทย์ทุกชิ้น** เครื่อง CPAP ยาพ่น อินซูลิน อะไรก็ตามที่ถ้าไม่มีแล้วคืนนั้นจะแย่ ถ้ากระเป๋าหาย คุณมีปัญหาเรื่องเสื้อผ้า แต่ถ้า CPAP หาย คุณมีปัญหาทางการแพทย์ และหาใหม่ที่ขุนยวมตอนสามทุ่มไม่ได้ เครื่อง CPAP ยังต้องใช้ไฟบ้านและพื้นเรียบ ซึ่งควรยืนยันกับที่พักไว้ก่อน ไม่ใช่ไปรู้เอาตอนนั้น\n\nที่เหลือ ส่งล่วงหน้าสองวันถ้าใช้ไปรษณีย์ หรือเช้าวันเดียวกันถ้าใช้รถโดยสาร จ่าหน้าถึงชื่อคนจริงที่ที่พักที่ระบุชื่อ พร้อมเบอร์โทรของที่พักบนกล่อง ถ่ายรูปกระเป๋า ป้าย และใบรับไว้ อย่าใส่อะไรที่ถ้าหายแล้วต้องยกเลิกทริป พาสปอร์ต บัตร กุญแจ และโทรศัพท์อยู่กับตัว\n\n*อนุมาน —* และถ้าทั้งหมดนี้ฟังดูยุ่งเกินคุ้ม ทางเลือกสำรองก็ยังใช้ได้ กระเป๋าผ้า 20 ลิตร มัดต่ำขวางเบาะซ้อน ไม่ใช่เป้สะพายหลัง และของหนักไว้ชิดถังน้ำมัน"
    },
    "kin": [
     {
      "to": "packing-light",
-     "as": "What fits on the bike if the big bag stays behind.",
+     "as": "What goes in the small bag that stays with you.",
+     "rel": "kit"
+    },
+    {
+     "to": "no-storage",
+     "as": "Why the bike itself is usually not the answer.",
      "rel": "kit"
     },
     {
      "to": "renting-a-bike",
-     "as": "The contract that should say who is holding your suitcase.",
+     "as": "Ask about storage and a rack at the counter, before you pay.",
      "rel": "kit"
     },
     {
-     "to": "chiang-mai",
-     "as": "Where the bag stays, and where you come back to.",
-     "rel": "town"
-    },
-    {
-     "to": "mae-hong-son",
-     "as": "The one sensible forwarding destination on the circuit.",
-     "rel": "town"
-    },
-    {
      "to": "loaded-bike",
-     "as": "What weight on the back actually does on a hairpin.",
+     "as": "What the weight does when the road turns down.",
      "rel": "hazard"
     },
     {
      "to": "one-way-rental",
-     "as": "The case where forwarding stops being pointless.",
+     "as": "The case where the bag goes one way and does not come back.",
      "rel": "kit"
+    },
+    {
+     "to": "mae-chaem",
+     "as": "One of the two towns with nowhere to send it.",
+     "rel": "town"
+    },
+    {
+     "to": "songthaew",
+     "as": "The other thing that will carry a bag for very little.",
+     "rel": "term"
     }
    ],
    "sources": [
-    "s:wp-thailand-post"
+    "s:wp-thailand-post",
+    "s:osm"
    ],
    "provenance": {
     "default": {
-     "tier": "tradition",
-     "note": "ordinary Thai practice, hedged throughout; no branch, price, hour or size limit is asserted"
+     "tier": "harvested",
+     "source": "s:osm",
+     "note": "which towns have a post office, a bus station and somewhere to stay is counted from the OpenStreetMap harvest on its fetch date; everything about hours, prices and operators is general practice and hedged"
     },
     "fields": {
      "text.story": {
-      "tier": "tradition",
-      "note": "the post office is cited only for existing; everything about hours, couriers and bus parcels is marked as general practice and explicitly flagged where this project has not verified it"
+      "tier": "harvested",
+      "source": "s:osm",
+      "note": "the counts are from the harvest; the bus-parcel practice is marked as tradition and no operator, counter or price is named"
      },
      "text.how": {
-      "tier": "inference"
+      "tier": "inference",
+      "note": "the medical-equipment advice is this project reasoning from what the equipment is for; no clinical source is cited and none should be read into it"
      },
      "text_th": {
       "tier": "inference",
@@ -12234,6 +12340,12 @@
      "type": "town",
      "name": "Mae Hong Son",
      "as": "The only sensible forwarding address on the circuit."
+    },
+    {
+     "from": "no-storage",
+     "type": "kit",
+     "name": "The bike has nowhere to put it",
+     "as": "The fix, when the bike is not one."
     },
     {
      "from": "one-way-rental",
@@ -13777,7 +13889,14 @@
    "confidence": "medium",
    "schema": 1,
    "updated": "2026-09-18",
-   "kin_in": []
+   "kin_in": [
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending the bag ahead",
+     "as": "The other thing that will carry a bag for very little."
+    }
+   ]
   },
   {
    "id": "how-many-curves",

@@ -423,7 +423,14 @@
    "confidence": "medium",
    "schema": 1,
    "updated": "2026-09-18",
-   "kin_in": []
+   "kin_in": [
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending the bag ahead",
+     "as": "The other thing that will carry a bag for very little."
+    }
+   ]
   }
  ]
 }

@@ -150,6 +150,12 @@
    "as": "The same size, without the gearbox that does the braking."
   },
   {
+   "from": "no-storage",
+   "type": "kit",
+   "name": "The bike has nowhere to put it",
+   "as": "The bike this is most often about."
+  },
+  {
    "from": "engine-braking",
    "type": "term",
    "name": "Engine braking",

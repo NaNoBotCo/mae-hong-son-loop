@@ -156,12 +156,6 @@
    "as": "Where the transaction happens."
   },
   {
-   "from": "sending-the-bag-ahead",
-   "type": "kit",
-   "name": "Sending your bag ahead",
-   "as": "Where the bag stays, and where you come back to."
-  },
-  {
    "from": "the-smoke",
    "type": "story",
    "name": "The smoke",

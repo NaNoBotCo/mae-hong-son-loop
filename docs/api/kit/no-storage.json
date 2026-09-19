@@ -1,0 +1,79 @@
+{
+ "id": "no-storage",
+ "type": "kit",
+ "names": {
+  "name": "The bike has nowhere to put it",
+  "th": "รถไม่มีที่ใส่ของ",
+  "said": "A helmet and a rain jacket. That is the whole of it on most rentals.",
+  "said_th": "หมวกกันน็อกกับเสื้อกันฝน แค่นั้นคือทั้งหมดของรถเช่าส่วนใหญ่"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "gear"
+ },
+ "text": {
+  "what": "What each class of bike will actually swallow, and what it means for four days of luggage.",
+  "story": "*Inference —* the inventory, by what the shop is likely to hand you.\n\n**110–160 automatic.** An underseat box that takes a helmet, or a helmet and a thin jacket, and nothing more. A hook in the legshield. A flat footwell in front of you, which is the only real space on the bike and the best place on it for weight — low and forward.\n\n**Geared underbone, 110–150.** A small compartment, a hook, and a rear rack on many of them. The rack is the useful part: a soft bag strapped flat to a rack sits lower than the same bag on the pillion seat.\n\n**Trail bike, 250–450.** Almost nothing as standard. A tail rack if you are lucky. Long travel suspension means whatever you strap on moves more than you expect.\n\n**Midweight and big adventure.** The only ones likely to have panniers or a top box, and the only ones where the answer is genuinely \"put it on the bike\". A top box is convenient and it is also weight high and behind the rear axle, which is exactly where a loaded descent least wants it.\n\n**Naked and sport.** A pillion seat and a bungee, and that is the inventory.\n\n*Inference —* which is why forwarding the main bag is not a luxury on this particular ride. On more than half of what gets rented in Chiang Mai there is no place to put four days of luggage that does not end up on the rider's back or standing on the bike's tail."
+ },
+ "text_th": {
+  "what": "รถแต่ละประเภทใส่ของได้จริงเท่าไร และมันหมายความว่าอย่างไรกับสัมภาระสี่วัน",
+  "story": "*อนุมาน —* บัญชีของจริง ตามสิ่งที่ร้านน่าจะให้คุณมา\n\n**ออโต้ 110–160** ช่องใต้เบาะที่ใส่หมวกกันน็อกได้ใบหนึ่ง หรือหมวกกับเสื้อบางๆ แล้วก็หมด มีตะขอที่บังลม และมีพื้นวางเท้าราบอยู่ข้างหน้า ซึ่งเป็นที่ว่างจริงที่เดียวบนรถ และเป็นที่ที่ดีที่สุดสำหรับวางน้ำหนัก คือต่ำและอยู่ข้างหน้า\n\n**รถครอบครัวมีเกียร์ 110–150** ช่องเล็กๆ ตะขอ และหลายคันมีแร็คท้าย แร็คคือส่วนที่มีประโยชน์ กระเป๋าผ้าที่มัดราบกับแร็คอยู่ต่ำกว่ากระเป๋าใบเดียวกันที่วางบนเบาะซ้อน\n\n**รถวิบาก 250–450** แทบไม่มีอะไรมาจากโรงงาน โชคดีจะมีแร็คท้าย ช่วงล่างที่ยุบยาวแปลว่าอะไรที่มัดไว้จะขยับมากกว่าที่คิด\n\n**พิกัดกลางและแอดเวนเจอร์คันใหญ่** เป็นกลุ่มเดียวที่น่าจะมีกระเป๋าข้างหรือกล่องท้าย และเป็นกลุ่มเดียวที่คำตอบคือวางบนรถได้จริง กล่องท้ายสะดวก และมันก็คือน้ำหนักที่อยู่สูงและอยู่หลังเพลาล้อหลังพอดี ซึ่งเป็นจุดที่ทางลงที่บรรทุกของต้องการน้อยที่สุด\n\n**รถเปลือยและรถสปอร์ต** มีเบาะซ้อนกับเชือกยางหนึ่งเส้น จบบัญชี\n\n*อนุมาน —* ด้วยเหตุนี้การส่งกระเป๋าใบหลักไปล่วงหน้าจึงไม่ใช่ความฟุ่มเฟือยสำหรับทริปนี้ รถที่ให้เช่าในเชียงใหม่เกินครึ่งไม่มีที่ใส่สัมภาระสี่วันที่ไม่ลงเอยบนหลังคนขี่หรือตั้งอยู่บนท้ายรถ"
+ },
+ "kin": [
+  {
+   "to": "sending-the-bag-ahead",
+   "as": "The fix, when the bike is not one.",
+   "rel": "kit"
+  },
+  {
+   "to": "packing-light",
+   "as": "Where the weight should sit when it does ride with you.",
+   "rel": "kit"
+  },
+  {
+   "to": "loaded-bike",
+   "as": "What a high tail pack does on a descent.",
+   "rel": "hazard"
+  },
+  {
+   "to": "renting-a-bike",
+   "as": "Ask for a rack. It is the cheapest upgrade on the counter.",
+   "rel": "kit"
+  },
+  {
+   "to": "step-through-110",
+   "as": "The bike this is most often about.",
+   "rel": "bike"
+  }
+ ],
+ "sources": [
+  "s:wp-scooter-motorcycle",
+  "s:wp-underbone",
+  "s:wp-motorcycle-safety"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "an inventory of what these classes of machine carry as standard; no model is named as carrying a specific volume"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "sending-the-bag-ahead",
+   "type": "kit",
+   "name": "Sending the bag ahead",
+   "as": "Why the bike itself is usually not the answer."
+  }
+ ]
+}

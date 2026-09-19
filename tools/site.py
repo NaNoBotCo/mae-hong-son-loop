@@ -76,7 +76,8 @@ DIR_OF = {"leg": "legs", "road": "roads", "town": "towns", "stop": "stops", "wat
 
 UI = {
  "en": {"home": "The loop", "legs": "Legs", "which": "Which way", "numbers": "Numbers",
-        "air": "Air", "danger": "Danger", "quiz": "Which ride", "roadbook": "Roadbook",
+        "air": "Air", "danger": "Danger", "baggage": "Baggage", "quiz": "Which ride",
+        "roadbook": "Roadbook",
         "all": "Everything", "about": "How this was made",
         "cw": "Clockwise", "ccw": "Counter-clockwise",
         "km": "km", "curves": "curves", "hairpins": "hairpins", "days": "days",
@@ -88,7 +89,8 @@ UI = {
         "unverified": "Parts of this record are marked as needing verification.",
         "riding": "What it asks of you", "season": "By season", "route": "The route"},
  "th": {"home": "วงรอบ", "legs": "ช่วงทาง", "which": "ไปทางไหน", "numbers": "ตัวเลข",
-        "air": "อากาศ", "danger": "อันตราย", "quiz": "ขี่แบบไหน", "roadbook": "สมุดเส้นทาง",
+        "air": "อากาศ", "danger": "อันตราย", "baggage": "สัมภาระ", "quiz": "ขี่แบบไหน",
+        "roadbook": "สมุดเส้นทาง",
         "all": "ทั้งหมด", "about": "ทำขึ้นอย่างไร",
         "cw": "ตามเข็มนาฬิกา", "ccw": "ทวนเข็มนาฬิกา",
         "km": "กม.", "curves": "โค้ง", "hairpins": "โค้งหักศอก", "days": "วัน",
@@ -103,7 +105,8 @@ UI = {
 }
 
 NAV = [("", "home"), ("legs/", "legs"), ("which-way/", "which"), ("numbers/", "numbers"),
-       ("air/", "air"), ("danger/", "danger"), ("quiz/", "quiz"), ("roadbook/", "roadbook")]
+       ("air/", "air"), ("danger/", "danger"), ("baggage/", "baggage"), ("quiz/", "quiz"),
+       ("roadbook/", "roadbook")]
 
 
 def rel(depth: int) -> str:
@@ -1202,6 +1205,153 @@ def quiz_page(lang: str) -> str:
                 QUIZ["lede"][lang], None, url, head=head, cur="quiz", path="quiz/")
 
 
+# ---------------------------------------------------------------- baggage
+# The towns a rider actually sleeps in, in clockwise order, against what is mapped there.
+BAG_TOWNS = [("chiang-mai", 18.7883, 98.9853), ("mae-malai", 19.1206, 98.9450),
+             ("pai", 19.3592, 98.4407), ("soppong", 19.4906, 98.2694),
+             ("mae-hong-son", 19.3020, 97.9654), ("khun-yuam", 18.8228, 97.9336),
+             ("mae-la-noi", 18.4497, 97.9678), ("mae-sariang", 18.1614, 97.9308),
+             ("mae-chaem", 18.4967, 98.3714), ("hot", 18.1447, 98.5847)]
+BAG_NAMES = {"mae-malai": ("Mae Malai", "แม่มาลัย"), "mae-la-noi": ("Mae La Noi", "แม่ลาน้อย")}
+
+
+# OSM tags a Thailand Post counter and a private courier agent with the same
+# `amenity=post_office`, and they are not the same thing to a rider: the state office keeps
+# government hours and closes at weekends, while an agent counter in a shop can be open
+# until ten at night. Split them by name.
+STATE_POST = re.compile(r"post\s*office|ไปรษณีย์", re.I)
+
+
+def _is_state_post(row) -> bool:
+    name = " ".join(filter(None, [row.get("name"), row.get("name_th"),
+                                  (row.get("tags") or {}).get("name:en")]))
+    return bool(STATE_POST.search(name))
+
+
+def _near(lat, lon, kind, r_km=8.0):
+    import math
+    out = []
+    for row in PLACES.get("rows", []):
+        if row["kind"] != kind:
+            continue
+        R = 6371.0088
+        p1, p2 = math.radians(lat), math.radians(row["lat"])
+        h = (math.sin((p2 - p1) / 2) ** 2
+             + math.cos(p1) * math.cos(p2) * math.sin(math.radians(row["lon"] - lon) / 2) ** 2)
+        d = 2 * R * math.asin(math.sqrt(h))
+        if d <= r_km:
+            out.append((round(d, 1), row))
+    out.sort(key=lambda x: x[0])
+    return out
+
+
+def baggage(lang: str) -> str:
+    ui = UI[lang]
+    d1 = root_depth(1, lang)
+    en = lang == "en"
+    b = [f'<h1><span class="kind">{E("Logistics" if en else "การเดินทาง")}</span>'
+         f'{E("Send the bag ahead" if en else "ส่งกระเป๋าไปก่อน")}</h1>',
+         f'<p class="lede">'
+         f'{E("You need four nights of clothes, a toothbrush and your chargers. It does not have to be on your back — it can be at the guesthouse before you are." if en else "คุณต้องมีเสื้อผ้าสี่คืน แปรงสีฟัน และที่ชาร์จ ของพวกนี้ไม่ต้องอยู่บนหลังคุณ มันไปรอที่ที่พักก่อนคุณได้")}</p>']
+    b.append(band("road-1263", "Route 1263" if en else "ทางหลวง 1263",
+                  "Two bags, not one" if en else "สองใบ ไม่ใช่ใบเดียว",
+                  "A small one that stays with you. A larger one that leapfrogs ahead."
+                  if en else "ใบเล็กอยู่กับตัว ใบใหญ่กระโดดข้ามไปรอ", d1, lang, cls="short"))
+
+    n = BY_ID.get("sending-the-bag-ahead")
+    if n:
+        b.append(f'<div class="prose">{prose(T(n, "text.story", lang))}</div>')
+
+    b.append(f'<h2>{E("Where it can land" if en else "ส่งไปลงที่ไหนได้")}</h2>')
+    note_en = ("Counted from OpenStreetMap on " + str(PLACES.get("fetched")) + ". Distance is to "
+               "the town centre. OSM tags a state post office and a private courier counter "
+               "identically, so they are split here by name — the difference matters, because the "
+               "state office keeps government hours and an agent in a shop may be open until ten "
+               "at night. An absence is an absence from OpenStreetMap, not proof there is nowhere.")
+    note_th = ("นับจาก OpenStreetMap เมื่อ " + str(PLACES.get("fetched")) + " ระยะวัดถึงกลางเมือง "
+               "OSM ติดป้ายที่ทำการไปรษณีย์ของรัฐกับเคาน์เตอร์ขนส่งเอกชนเหมือนกัน ที่นี่จึงแยกด้วยชื่อ "
+               "ความต่างนี้สำคัญ เพราะที่ทำการของรัฐเปิดตามเวลาราชการ ส่วนตัวแทนในร้านอาจเปิดถึงสี่ทุ่ม "
+               "การไม่มีในนี้คือไม่มีใน OpenStreetMap ไม่ใช่ข้อพิสูจน์ว่าไม่มีจริง")
+    b.append(f"<p>{E(note_en if en else note_th)}</p>")
+    b.append('<div class="scroll"><table><thead><tr>'
+             f'<th>{E("Town" if en else "เมือง")}</th>'
+             f'<th>{E("Thailand Post" if en else "ไปรษณีย์ไทย")}</th>'
+             f'<th>{E("Courier agent" if en else "ตัวแทนขนส่งเอกชน")}</th>'
+             f'<th class="num">{E("Bus station" if en else "สถานีขนส่ง")}</th>'
+             f'<th class="num">{E("Beds mapped" if en else "ที่พักในแผนที่")}</th>'
+             f'<th>{E("Verdict" if en else "สรุป")}</th></tr></thead><tbody>')
+    for tid, lat, lon in BAG_TOWNS:
+        rec = BY_ID.get(tid)
+        if rec:
+            nm = T(rec, "names.name", lang)
+            href = f'<a href="{rel(1)}{url_of(rec)}">{E(nm)}</a>'
+        else:
+            nm = BAG_NAMES.get(tid, (tid, tid))[0 if en else 1]
+            href = E(nm)
+        allpost = _near(lat, lon, "post")
+        state = [(d_, r_) for d_, r_ in allpost if _is_state_post(r_)]
+        agents = [(d_, r_) for d_, r_ in allpost if not _is_state_post(r_)]
+        bus = _near(lat, lon, "bus")
+        stay = _near(lat, lon, "stay")
+        if state:
+            dkm, row = state[0]
+            pname = (row.get("name_th") if lang == "th" and row.get("name_th") else row.get("name")) or "—"
+            pcell = (f'<a href="https://www.openstreetmap.org/{E(row["osm"])}" rel="noopener nofollow">'
+                     f'{E(pname)}</a> <span class="mute small">{dkm} km</span>')
+        else:
+            pcell = f'<span class="tag r">{E("none mapped" if en else "ไม่มีในแผนที่")}</span>'
+        if agents:
+            names = []
+            for dkm, row in agents[:3]:
+                nm2 = row.get("name") or (row.get("tags") or {}).get("name:en")
+                if not nm2:          # an unnamed counter helps nobody find it
+                    continue
+                hrs = (row.get("tags") or {}).get("opening_hours")
+                names.append(E(nm2) + (f' <span class="mute small">{E(hrs)}</span>' if hrs else ""))
+            acell = "<br>".join(names)
+        else:
+            acell = '<span class="mute">—</span>'
+        ok = bool(state) or bool(agents) or bool(bus)
+        verdict = ("Send it here" if ok else "Carry it that night") if en else ("ส่งได้" if ok else "คืนนั้นพกไปเอง")
+        b.append(f'<tr><th>{href}</th><td>{pcell}</td><td>{acell}</td>'
+                 f'<td class="num">{len(bus) or "—"}</td><td class="num">{len(stay) or "—"}</td>'
+                 f'<td><span class="tag {"g" if ok else "r"}">{E(verdict)}</span></td></tr>')
+    b.append("</tbody></table></div>")
+
+    pins = []
+    for kind, cls in (("post", "wat"), ("bus", "town")):
+        for row in PLACES.get("rows", []):
+            if row["kind"] == kind:
+                pins.append({"lat": row["lat"], "lon": row["lon"], "cls": cls, "name": "",
+                             "title": (row.get("name") or kind)})
+    b.append('<figure class="map">' + base_map(860, pins=pins, labels=False) +
+             f'<figcaption>{E(str(sum(1 for r in PLACES["rows"] if r["kind"] == "post")) + " post offices and " + str(sum(1 for r in PLACES["rows"] if r["kind"] == "bus")) + " bus stations in the corridor" if en else str(sum(1 for r in PLACES["rows"] if r["kind"] == "post")) + " ที่ทำการไปรษณีย์ และ " + str(sum(1 for r in PLACES["rows"] if r["kind"] == "bus")) + " สถานีขนส่ง ในเขตเส้นทาง")} · '
+             f'© OpenStreetMap contributors</figcaption></figure>')
+
+    if n:
+        b.append(f'<h2>{E("Carry, do not ship" if en else "พกไปเอง อย่าส่ง")}</h2>'
+                 f'<div class="prose">{prose(T(n, "text.how", lang))}</div>')
+    ns = BY_ID.get("no-storage")
+    if ns:
+        b.append(band("pai-canyon", "Pai" if en else "ปาย",
+                      T(ns, "names.name", lang), T(ns, "names.said", lang), d1, lang, cls="right short"))
+        b.append(f'<h2>{E(T(ns, "names.name", lang))}</h2>'
+                 f'<div class="prose">{prose(T(ns, "text.story", lang))}</div>')
+    b.append(f'<div class="grid">')
+    for rid in ("sending-the-bag-ahead", "no-storage", "packing-light", "one-way-rental",
+                "renting-a-bike", "loaded-bike"):
+        r_ = BY_ID.get(rid)
+        if r_:
+            b.append(node_card(r_, lang, 1))
+    b.append("</div>")
+    url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}baggage/"
+    b.append(share_row(url, "Can you send your bag ahead on the Mae Hong Son loop?", lang))
+    return page(f'{"Send the bag ahead" if en else "ส่งกระเป๋าไปก่อน"} — {NAME[lang]}',
+                "".join(b), 1, lang,
+                "Yes — every overnight town on the loop can receive a parcel except two.",
+                None, url, cur="baggage", path="baggage/")
+
+
 # ---------------------------------------------------------------- roadbook
 def roadbook(lang: str) -> str:
     ui = UI[lang]
@@ -1309,7 +1459,8 @@ TYPE_BANDS = {
 KIND_TO_TYPE = {"wat": "wat", "coffee": "coffee", "spring": "spring", "stay": "stay",
                 "viewpoint": "stop", "waterfall": "stop", "cave": "stop", "market": "stop",
                 "museum": "stop", "fuel": "org", "repair": "org", "hospital": "org",
-                "town": "town", "village": "town", "airport": "org"}
+                "town": "town", "village": "town", "airport": "org",
+                "post": "org", "parcel": "org", "bus": "org"}
 
 
 def harvested_for(t: str) -> list:
@@ -1470,8 +1621,8 @@ def robots() -> str:
 def sitemap() -> str:
     urls = []
     today = time.strftime("%Y-%m-%d")
-    static = ["", "legs/", "which-way/", "numbers/", "air/", "danger/", "quiz/", "roadbook/",
-              "all/", "about/"] + [f"{DIR_OF[t]}/" for t in TYPES
+    static = ["", "legs/", "which-way/", "numbers/", "air/", "danger/", "baggage/",
+              "quiz/", "roadbook/", "all/", "about/"] + [f"{DIR_OF[t]}/" for t in TYPES
                                    if any(n["type"] == t for n in NODES)]
     for lang in LANGS:
         pre = "th/" if lang == "th" else ""
@@ -1623,10 +1774,11 @@ def main() -> int:
         write(base / "air" / "index.html", air_page(lang))
         write(base / "danger" / "index.html", danger(lang))
         write(base / "quiz" / "index.html", quiz_page(lang))
+        write(base / "baggage" / "index.html", baggage(lang))
         write(base / "roadbook" / "index.html", roadbook(lang))
         write(base / "all" / "index.html", all_page(lang))
         write(base / "about" / "index.html", about(lang))
-        n_pages += 9
+        n_pages += 10
         for t in TYPES:
             if any(n["type"] == t for n in NODES):
                 write(base / DIR_OF[t] / "index.html", type_index(t, lang))

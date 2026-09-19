@@ -1,6 +1,6 @@
 {
- "built": "2026-09-19 07:46",
- "records": 75,
+ "built": "2026-09-19 07:56",
+ "records": 76,
  "by_type": {
   "leg": 9,
   "road": 6,
@@ -12,7 +12,7 @@
   "stay": 0,
   "hazard": 9,
   "bike": 6,
-  "kit": 5,
+  "kit": 6,
   "person": 2,
   "org": 0,
   "event": 6,
@@ -20,11 +20,11 @@
   "story": 6,
   "art": 1
  },
- "kin_edges": 268,
+ "kin_edges": 274,
  "sources": 94,
  "needs_verification": 17,
- "bilingual": 75,
- "th_fields": 165,
+ "bilingual": 76,
+ "th_fields": 167,
  "roads_measured": [
   "107",
   "108",
@@ -34,18 +34,20 @@
   "1263"
  ],
  "osm_places": {
-  "count": 9187,
+  "count": 9319,
   "fetched": "2026-09-19",
   "attribution": "© OpenStreetMap contributors",
   "note": "Everything OSM carries inside the loop's corridor under the tags listed in PLACE_KINDS. A row is what a mapper entered, on the date above. Many rows carry no English name and some carry no name at all.",
   "by_kind": {
    "airport": 10,
+   "bus": 33,
    "cave": 36,
    "coffee": 1917,
    "fuel": 541,
    "hospital": 260,
    "market": 195,
    "museum": 416,
+   "post": 99,
    "repair": 241,
    "spring": 17,
    "stay": 2262,
@@ -57,12 +59,14 @@
   },
   "named": {
    "airport": 10,
+   "bus": 29,
    "cave": 27,
    "coffee": 1735,
    "fuel": 389,
    "hospital": 236,
    "market": 132,
    "museum": 371,
+   "post": 85,
    "repair": 141,
    "spring": 11,
    "stay": 2129,
@@ -81,9 +85,9 @@
   ]
  },
  "tiers": {
-  "harvested": 11,
-  "inference": 22,
+  "harvested": 12,
+  "inference": 23,
   "cited": 38,
-  "tradition": 4
+  "tradition": 3
  }
 }

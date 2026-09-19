@@ -162,6 +162,12 @@
    "type": "stop",
    "name": "Doi Inthanon",
    "as": "The town on the back side."
+  },
+  {
+   "from": "sending-the-bag-ahead",
+   "type": "kit",
+   "name": "Sending the bag ahead",
+   "as": "One of the two towns with nowhere to send it."
   }
  ]
 }

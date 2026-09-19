@@ -11,7 +11,7 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - Route 1096 (Samoeng) measures the densest curves on this network at 4.46/km, ahead of Route 1095 at 4.03.
 - Air: 15,050 point-days of modelled daily PM2.5 at ten points, Aug 2022 onward, from Copernicus CAMS via Open-Meteo. The model never exceeded 99.4 µg/m³ daily mean; ground stations have recorded far higher.
 - Mae Hong Son province (12,765 km²) has 1 official PM2.5 monitor. Pai, Soppong, Khun Yuam and Mae Sariang have none.
-- 9,187 places harvested from OpenStreetMap inside the corridor.
+- 9,319 places harvested from OpenStreetMap inside the corridor.
 
 ## Pages
 
@@ -21,6 +21,7 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Numbers](https://nanobotco.github.io/mae-hong-son-loop/numbers/)
 - [Air](https://nanobotco.github.io/mae-hong-son-loop/air/)
 - [Danger](https://nanobotco.github.io/mae-hong-son-loop/danger/)
+- [Baggage](https://nanobotco.github.io/mae-hong-son-loop/baggage/)
 - [Which ride](https://nanobotco.github.io/mae-hong-son-loop/quiz/)
 - [Roadbook](https://nanobotco.github.io/mae-hong-son-loop/roadbook/)
 
@@ -33,7 +34,7 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Wats](https://nanobotco.github.io/mae-hong-son-loop/wats/) — 2
 - [Hazards](https://nanobotco.github.io/mae-hong-son-loop/hazards/) — 9
 - [Bikes](https://nanobotco.github.io/mae-hong-son-loop/bikes/) — 6
-- [Kit and logistics](https://nanobotco.github.io/mae-hong-son-loop/kit/) — 5
+- [Kit and logistics](https://nanobotco.github.io/mae-hong-son-loop/kit/) — 6
 - [People](https://nanobotco.github.io/mae-hong-son-loop/people/) — 2
 - [The calendar](https://nanobotco.github.io/mae-hong-son-loop/calendar/) — 6
 - [Words](https://nanobotco.github.io/mae-hong-son-loop/words/) — 5

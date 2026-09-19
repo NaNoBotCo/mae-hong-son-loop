@@ -9,16 +9,18 @@
 19.6,
 99.2
 ],
-"count": 9187,
+"count": 9319,
 "note": "Everything OSM carries inside the loop's corridor under the tags listed in PLACE_KINDS. A row is what a mapper entered, on the date above. Many rows carry no English name and some carry no name at all.",
 "kinds": [
 "airport",
+"bus",
 "cave",
 "coffee",
 "fuel",
 "hospital",
 "market",
 "museum",
+"post",
 "repair",
 "spring",
 "stay",
@@ -131434,6 +131436,1851 @@
 "tags": {
 "name:en": "Sabai EV Motor",
 "shop": "motorcycle"
+}
+},
+{
+"kind": "post",
+"osm": "node/208372026",
+"lat": 18.787702,
+"lon": 98.992814,
+"name": "EMS Post Office",
+"name_th": null,
+"slug": "ems-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "EMS",
+"name:en": "EMS Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/259974994",
+"lat": 18.76846,
+"lon": 98.96832,
+"name": "Chiang Mai Airport",
+"name_th": null,
+"slug": "chiang-mai-airport",
+"tags": {
+"amenity": "post_office",
+"name": "Chiang Mai Airport"
+}
+},
+{
+"kind": "post",
+"osm": "node/305321496",
+"lat": 19.364358,
+"lon": 99.199793,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office"
+}
+},
+{
+"kind": "post",
+"osm": "node/688348666",
+"lat": 18.869891,
+"lon": 99.12872,
+"name": "Doi Saket Post Office",
+"name_th": "ไปรษณีย์ ดอยสะเก็ด",
+"slug": "doi-saket-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ ดอยสะเก็ด",
+"name:en": "Doi Saket Post Office",
+"name:th": "ไปรษณีย์ ดอยสะเก็ด"
+}
+},
+{
+"kind": "post",
+"osm": "node/820323763",
+"lat": 19.3568,
+"lon": 98.43718,
+"name": "Pai Post Office",
+"name_th": null,
+"slug": "pai-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "Pai Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/880589714",
+"lat": 18.765372,
+"lon": 99.081422,
+"name": "Bo Sang Post Office",
+"name_th": null,
+"slug": "bo-sang-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "Bo Sang Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/1029531631",
+"lat": 18.773101,
+"lon": 98.9986,
+"name": "Chiang Khlan Post Office",
+"name_th": "ไปรษณีย์ ช้างคลาน",
+"slug": "chiang-khlan-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ ช้างคลาน",
+"name:en": "Chiang Khlan Post Office",
+"name:th": "ไปรษณีย์ ช้างคลาน"
+}
+},
+{
+"kind": "post",
+"osm": "node/1173899491",
+"lat": 18.768748,
+"lon": 99.005809,
+"name": "Nong Hoi Post Office",
+"name_th": "ไปรษณีย์ หนองหอย",
+"slug": "nong-hoi-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ หนองหอย",
+"name:en": "Nong Hoi Post Office",
+"name:th": "ไปรษณีย์ หนองหอย",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "node/1208350048",
+"lat": 18.806277,
+"lon": 98.985079,
+"name": "Chang Phuak Post Office",
+"name_th": null,
+"slug": "chang-phuak-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "Chang Phuak Post Office",
+"opening_hours": "Mo-Su 09:00-18:00"
+}
+},
+{
+"kind": "post",
+"osm": "node/1435271101",
+"lat": 18.785665,
+"lon": 99.014836,
+"name": "Chiang Mai Post Office",
+"name_th": "ไปรษณีย์ เชียงใหม่",
+"slug": "chiang-mai-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ เชียงใหม่",
+"name:en": "Chiang Mai Post Office",
+"name:th": "ไปรษณีย์ เชียงใหม่",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "node/1595640782",
+"lat": 19.515558,
+"lon": 98.25496,
+"name": "Soppong Post Office",
+"name_th": null,
+"slug": "soppong-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "Soppong Post Office",
+"operator": "Thai Post"
+}
+},
+{
+"kind": "post",
+"osm": "node/2039775509",
+"lat": 19.386268,
+"lon": 98.716352,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office"
+}
+},
+{
+"kind": "post",
+"osm": "node/2102452682",
+"lat": 18.79504,
+"lon": 98.970819,
+"name": "Speed Post Thailand",
+"name_th": "สปีด โพสต์ ไทยแลนด์",
+"slug": "speed-post-thailand",
+"tags": {
+"amenity": "post_office",
+"name": "สปีด โพสต์ ไทยแลนด์",
+"name:en": "Speed Post Thailand",
+"name:th": "สปีด โพสต์ ไทยแลนด์"
+}
+},
+{
+"kind": "post",
+"osm": "node/2187933954",
+"lat": 18.794465,
+"lon": 99.031392,
+"name": "Payap University Post Office",
+"name_th": null,
+"slug": "payap-university-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "Payap University Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/2494633836",
+"lat": 18.845831,
+"lon": 98.73178,
+"name": "Samoeng Post Office",
+"name_th": null,
+"slug": "samoeng-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์สะเมิง",
+"name:en": "Samoeng Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/2532301610",
+"lat": 18.770988,
+"lon": 98.976453,
+"name": "DHL",
+"name_th": "DHL",
+"slug": "dhl",
+"tags": {
+"amenity": "post_office",
+"brand": "DHL",
+"name": "DHL",
+"name:en": "DHL",
+"name:th": "DHL"
+}
+},
+{
+"kind": "post",
+"osm": "node/2576988509",
+"lat": 18.693975,
+"lon": 98.924802,
+"name": "Hang Dong Post Office",
+"name_th": null,
+"slug": "hang-dong-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "Hang Dong Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/2576988669",
+"lat": 18.687455,
+"lon": 98.947252,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office",
+"operator": "T.Y.L. Corporation"
+}
+},
+{
+"kind": "post",
+"osm": "node/2576988750",
+"lat": 18.689255,
+"lon": 98.941045,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office",
+"operator": "ETS Cargo Service",
+"phone": "+6653023737"
+}
+},
+{
+"kind": "post",
+"osm": "node/2581638228",
+"lat": 18.744637,
+"lon": 99.119698,
+"name": "San Kamphaeng Post Office",
+"name_th": "ไปรษณีย์สันกำแพง",
+"slug": "san-kamphaeng-post-office",
+"tags": {
+"addr:district": "สันกำแพง",
+"addr:province": "เชียงใหม่",
+"addr:subdistrict": "สันกำแพง",
+"amenity": "post_office",
+"name": "ไปรษณีย์สันกำแพง",
+"name:en": "San Kamphaeng Post Office",
+"name:th": "ไปรษณีย์สันกำแพง"
+}
+},
+{
+"kind": "post",
+"osm": "node/2590185731",
+"lat": 18.844248,
+"lon": 99.043725,
+"name": "Sansai Post Office",
+"name_th": "ไปรษณีย์สันทราย",
+"slug": "sansai-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์สันทราย",
+"name:en": "Sansai Post Office",
+"name:th": "ไปรษณีย์สันทราย"
+}
+},
+{
+"kind": "post",
+"osm": "node/2618245083",
+"lat": 17.800678,
+"lon": 98.360847,
+"name": "ไปรษณีย์อมก๋อย",
+"name_th": null,
+"slug": "",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์อมก๋อย"
+}
+},
+{
+"kind": "post",
+"osm": "node/2678342286",
+"lat": 19.458748,
+"lon": 98.964113,
+"name": "Muang Ngai Post Office",
+"name_th": null,
+"slug": "muang-ngai-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "Muang Ngai Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/2678552871",
+"lat": 18.795188,
+"lon": 98.988449,
+"name": "UPS",
+"name_th": null,
+"slug": "ups",
+"tags": {
+"addr:city": "Chiang Mai",
+"amenity": "post_office",
+"name": "UPS"
+}
+},
+{
+"kind": "post",
+"osm": "node/2684219744",
+"lat": 18.619525,
+"lon": 98.89684,
+"name": "San Patong Post Office",
+"name_th": "โปรษณีย์สันป่าตอง",
+"slug": "san-patong-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "โปรษณีย์สันป่าตอง",
+"name:en": "San Patong Post Office",
+"name:th": "โปรษณีย์สันป่าตอง"
+}
+},
+{
+"kind": "post",
+"osm": "node/2771807727",
+"lat": 18.808192,
+"lon": 99.018272,
+"name": "UPS",
+"name_th": null,
+"slug": "ups",
+"tags": {
+"amenity": "post_office",
+"name": "UPS",
+"operator": "UPS (United Parcel Service)"
+}
+},
+{
+"kind": "post",
+"osm": "node/3109034774",
+"lat": 19.12265,
+"lon": 98.942617,
+"name": "Mae Taeng Post Office",
+"name_th": null,
+"slug": "mae-taeng-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "Mae Taeng Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/3202632193",
+"lat": 18.806894,
+"lon": 99.022239,
+"name": "Yaek San Dek Post Office",
+"name_th": "ไปรษณีย์ แยกศาลเด็ก",
+"slug": "yaek-san-dek-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ แยกศาลเด็ก",
+"name:en": "Yaek San Dek Post Office",
+"name:th": "ไปรษณีย์ แยกศาลเด็ก",
+"opening_hours": "Mo-Sa 08:30-18:00",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "node/3275033835",
+"lat": 17.992718,
+"lon": 99.030715,
+"name": "Thung Hua Chang Post Office",
+"name_th": null,
+"slug": "thung-hua-chang-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "Thung Hua Chang Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/3314295868",
+"lat": 18.376676,
+"lon": 97.941484,
+"name": "Mae La Noi Post Office",
+"name_th": null,
+"slug": "mae-la-noi-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "Mae La Noi Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/3347610538",
+"lat": 18.795464,
+"lon": 98.97523,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office",
+"opening_hours": "Mo-Su 10:00-19:00",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "node/3369548666",
+"lat": 18.80761,
+"lon": 98.964215,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office"
+}
+},
+{
+"kind": "post",
+"osm": "node/3382918878",
+"lat": 18.599646,
+"lon": 98.814668,
+"name": "Mae Wang Post Office",
+"name_th": "ไปรษณีย์แม่วาง",
+"slug": "mae-wang-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์แม่วาง",
+"name:en": "Mae Wang Post Office",
+"name:th": "ไปรษณีย์แม่วาง",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "node/3384530382",
+"lat": 18.837369,
+"lon": 98.970987,
+"name": "City Hall Post Office",
+"name_th": null,
+"slug": "city-hall-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "City Hall Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/3394781921",
+"lat": 18.807942,
+"lon": 99.018597,
+"name": "Post Office Central Festival",
+"name_th": "เซ็นทรัล เฟสติวัล เชียงใหม่",
+"slug": "post-office-central-festival",
+"tags": {
+"amenity": "post_office",
+"name": "เซ็นทรัล เฟสติวัล เชียงใหม่",
+"name:en": "Post Office Central Festival",
+"name:th": "เซ็นทรัล เฟสติวัล เชียงใหม่",
+"opening_hours": "Mo-Su 11:00-18:00",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "node/3423525835",
+"lat": 18.092521,
+"lon": 99.011275,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office"
+}
+},
+{
+"kind": "post",
+"osm": "node/3442281016",
+"lat": 18.197855,
+"lon": 98.611664,
+"name": "Hot Post Office",
+"name_th": null,
+"slug": "hot-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "Hot Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/3658923949",
+"lat": 18.790026,
+"lon": 98.970853,
+"name": "Thailand Post",
+"name_th": "ไปรษณีย์ไทย",
+"slug": "thailand-post",
+"tags": {
+"addr:city": "เชียงใหม่",
+"amenity": "post_office",
+"name": "ไปรษณีย์ไทย",
+"name:en": "Thailand Post",
+"name:th": "ไปรษณีย์ไทย",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "node/4129474489",
+"lat": 18.801668,
+"lon": 98.99519,
+"name": "Inter Express Logistics Co.",
+"name_th": null,
+"slug": "inter-express-logistics-co",
+"tags": {
+"amenity": "post_office",
+"name": "Inter Express Logistics Co."
+}
+},
+{
+"kind": "post",
+"osm": "node/4336683611",
+"lat": 18.790906,
+"lon": 98.987703,
+"name": "Si Phum Post Office",
+"name_th": "ไปรษณีย์ ศรีภูมิ",
+"slug": "si-phum-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ ศรีภูมิ",
+"name:en": "Si Phum Post Office",
+"name:th": "ไปรษณีย์ ศรีภูมิ",
+"operator": "Thailand Post",
+"wheelchair": "limited"
+}
+},
+{
+"kind": "post",
+"osm": "node/4509434039",
+"lat": 18.650709,
+"lon": 99.041115,
+"name": "Umong Post Office",
+"name_th": "ไปรษณีย์ อุโมงค์",
+"slug": "umong-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ อุโมงค์",
+"name:en": "Umong Post Office",
+"name:th": "ไปรษณีย์ อุโมงค์",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "node/4556484689",
+"lat": 18.797672,
+"lon": 98.966057,
+"name": "Red Box Service",
+"name_th": null,
+"slug": "red-box-service",
+"tags": {
+"amenity": "post_office",
+"name:en": "Red Box Service"
+}
+},
+{
+"kind": "post",
+"osm": "node/4572491689",
+"lat": 18.808072,
+"lon": 98.915984,
+"name": "National Park Headquarters",
+"name_th": null,
+"slug": "national-park-headquarters",
+"tags": {
+"amenity": "post_office",
+"name:en": "National Park Headquarters"
+}
+},
+{
+"kind": "post",
+"osm": "node/4597779096",
+"lat": 18.790779,
+"lon": 98.987747,
+"name": "Si Phum Thailand Post Office",
+"name_th": null,
+"slug": "si-phum-thailand-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "Si Phum Thailand Post Office",
+"opening_hours": "Mo-Fr 08:30-16:30; Sa 09:00-12:00",
+"phone": "053221087",
+"website": "https://www.thailandpost.co.th/",
+"wheelchair": "limited"
+}
+},
+{
+"kind": "post",
+"osm": "node/4732114730",
+"lat": 18.783806,
+"lon": 99.001033,
+"name": "Shipping Cargo Service",
+"name_th": null,
+"slug": "shipping-cargo-service",
+"tags": {
+"amenity": "post_office",
+"name:en": "Shipping Cargo Service"
+}
+},
+{
+"kind": "post",
+"osm": "node/5065737280",
+"lat": 18.756143,
+"lon": 99.037109,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office"
+}
+},
+{
+"kind": "post",
+"osm": "node/5268072626",
+"lat": 19.573253,
+"lon": 98.277655,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office"
+}
+},
+{
+"kind": "post",
+"osm": "node/5310157624",
+"lat": 19.359142,
+"lon": 98.443144,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office"
+}
+},
+{
+"kind": "post",
+"osm": "node/5510722799",
+"lat": 18.74114,
+"lon": 98.960516,
+"name": "Kerry Express",
+"name_th": null,
+"slug": "kerry-express",
+"tags": {
+"amenity": "post_office",
+"name": "Kerry Express",
+"opening_hours": "Mo-Sa 8:00-18:00",
+"operator": "Kerry Express"
+}
+},
+{
+"kind": "post",
+"osm": "node/5686754821",
+"lat": 18.788394,
+"lon": 98.993077,
+"name": "DHL",
+"name_th": null,
+"slug": "dhl",
+"tags": {
+"amenity": "post_office",
+"brand": "DHL",
+"name:en": "DHL",
+"wheelchair": "limited"
+}
+},
+{
+"kind": "post",
+"osm": "node/6065596594",
+"lat": 18.788523,
+"lon": 98.96321,
+"name": "Kerry Express",
+"name_th": null,
+"slug": "kerry-express",
+"tags": {
+"amenity": "post_office",
+"name": "Kerry Express",
+"opening_hours": "Mo-Sa 08:00-18:00"
+}
+},
+{
+"kind": "post",
+"osm": "node/6161312685",
+"lat": 18.795845,
+"lon": 98.987663,
+"name": "DHL",
+"name_th": null,
+"slug": "dhl",
+"tags": {
+"amenity": "post_office",
+"name:en": "DHL"
+}
+},
+{
+"kind": "post",
+"osm": "node/6369674085",
+"lat": 18.87533,
+"lon": 99.014635,
+"name": "Kerry Express",
+"name_th": null,
+"slug": "kerry-express",
+"tags": {
+"amenity": "post_office",
+"name:en": "Kerry Express"
+}
+},
+{
+"kind": "post",
+"osm": "node/6412103386",
+"lat": 19.360672,
+"lon": 98.440147,
+"name": "Pai republic",
+"name_th": null,
+"slug": "pai-republic",
+"tags": {
+"amenity": "post_office",
+"name:en": "Pai republic",
+"opening_hours": "Mo-Su 10:00-22:00",
+"phone": "0816137446"
+}
+},
+{
+"kind": "post",
+"osm": "node/6619054992",
+"lat": 19.293714,
+"lon": 97.967201,
+"name": "Flash",
+"name_th": null,
+"slug": "flash",
+"tags": {
+"amenity": "post_office",
+"name:en": "Flash"
+}
+},
+{
+"kind": "post",
+"osm": "node/6619154597",
+"lat": 19.299729,
+"lon": 97.965857,
+"name": "DHL",
+"name_th": null,
+"slug": "dhl",
+"tags": {
+"amenity": "post_office",
+"name:en": "DHL"
+}
+},
+{
+"kind": "post",
+"osm": "node/6934566483",
+"lat": 18.759861,
+"lon": 99.015178,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "node/6961550688",
+"lat": 18.802908,
+"lon": 98.959956,
+"name": "Kerry Express",
+"name_th": null,
+"slug": "kerry-express",
+"tags": {
+"amenity": "post_office",
+"name:en": "Kerry Express"
+}
+},
+{
+"kind": "post",
+"osm": "node/6992284790",
+"lat": 18.77517,
+"lon": 98.976789,
+"name": "Kerry Express",
+"name_th": null,
+"slug": "kerry-express",
+"tags": {
+"amenity": "post_office",
+"name:en": "Kerry Express",
+"opening_hours": "Mo-Sa 08:00-18:00",
+"phone": "0983291217"
+}
+},
+{
+"kind": "post",
+"osm": "node/7106483586",
+"lat": 19.360271,
+"lon": 97.839941,
+"name": "refugees camp",
+"name_th": null,
+"slug": "refugees-camp",
+"tags": {
+"amenity": "post_office",
+"name:en": "refugees camp"
+}
+},
+{
+"kind": "post",
+"osm": "node/7345993069",
+"lat": 18.751853,
+"lon": 99.007883,
+"name": "89 Plaza Post Office",
+"name_th": null,
+"slug": "89-plaza-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "89 Plaza Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "node/8459772517",
+"lat": 18.776301,
+"lon": 98.999122,
+"name": "All Inter Express TNT, DHL, FedEx",
+"name_th": null,
+"slug": "all-inter-express-tnt-dhl-fedex",
+"tags": {
+"amenity": "post_office",
+"name:en": "All Inter Express TNT, DHL, FedEx",
+"phone": "053820352"
+}
+},
+{
+"kind": "post",
+"osm": "node/8491502424",
+"lat": 18.807528,
+"lon": 98.977372,
+"name": "Kerry Express",
+"name_th": null,
+"slug": "kerry-express",
+"tags": {
+"amenity": "post_office",
+"name:en": "Kerry Express"
+}
+},
+{
+"kind": "post",
+"osm": "node/8783096893",
+"lat": 18.786904,
+"lon": 99.025754,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office"
+}
+},
+{
+"kind": "post",
+"osm": "node/9252808357",
+"lat": 18.751803,
+"lon": 99.009115,
+"name": "Nim Express",
+"name_th": null,
+"slug": "nim-express",
+"tags": {
+"amenity": "post_office",
+"name": "Nim Express"
+}
+},
+{
+"kind": "post",
+"osm": "node/9620789015",
+"lat": 18.747202,
+"lon": 99.019888,
+"name": "J&T Home",
+"name_th": null,
+"slug": "j-and-t-home",
+"tags": {
+"amenity": "post_office",
+"name": "J&T Home"
+}
+},
+{
+"kind": "post",
+"osm": "node/10073144199",
+"lat": 18.844497,
+"lon": 98.995646,
+"name": "Kerry Express",
+"name_th": null,
+"slug": "kerry-express",
+"tags": {
+"amenity": "post_office",
+"name": "Kerry Express"
+}
+},
+{
+"kind": "post",
+"osm": "node/10102580262",
+"lat": 18.755204,
+"lon": 99.00806,
+"name": "Kerry Express",
+"name_th": null,
+"slug": "kerry-express",
+"tags": {
+"amenity": "post_office",
+"name": "Kerry Express"
+}
+},
+{
+"kind": "post",
+"osm": "node/10102582820",
+"lat": 18.796039,
+"lon": 98.970707,
+"name": "Kerry Express",
+"name_th": null,
+"slug": "kerry-express",
+"tags": {
+"amenity": "post_office",
+"name": "Kerry Express"
+}
+},
+{
+"kind": "post",
+"osm": "node/10289541009",
+"lat": 18.415855,
+"lon": 98.676277,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office"
+}
+},
+{
+"kind": "post",
+"osm": "node/11693439048",
+"lat": 18.842268,
+"lon": 99.024132,
+"name": "Kerry Express",
+"name_th": null,
+"slug": "kerry-express",
+"tags": {
+"amenity": "post_office",
+"name": "Kerry Express"
+}
+},
+{
+"kind": "post",
+"osm": "node/12363400224",
+"lat": 18.79563,
+"lon": 99.030236,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "post_office"
+}
+},
+{
+"kind": "post",
+"osm": "node/12619854893",
+"lat": 18.80687,
+"lon": 99.018297,
+"name": "Thailand Post (2nd Floor)",
+"name_th": null,
+"slug": "thailand-post-2nd-floor",
+"tags": {
+"amenity": "post_office",
+"name": "Thailand Post (2nd Floor)",
+"opening_hours": "Mo-Su 11:00-19:00"
+}
+},
+{
+"kind": "post",
+"osm": "node/13005623536",
+"lat": 18.886351,
+"lon": 99.031743,
+"name": "ปณ.แม่โจ้",
+"name_th": null,
+"slug": "",
+"tags": {
+"addr:district": "สันทราย",
+"addr:province": "เชียงใหม่",
+"addr:subdistrict": "ป่าไผ่",
+"amenity": "post_office",
+"name": "ปณ.แม่โจ้"
+}
+},
+{
+"kind": "post",
+"osm": "node/13078786796",
+"lat": 18.756572,
+"lon": 99.007598,
+"name": "Thailand Post",
+"name_th": null,
+"slug": "thailand-post",
+"tags": {
+"addr:district": "หนองหอย",
+"addr:province": "เชียงใหม่",
+"addr:subdistrict": "หนองหอย",
+"amenity": "post_office",
+"name": "ไปรษณีย์ไทย",
+"name:en": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "node/13607389371",
+"lat": 18.785947,
+"lon": 98.999609,
+"name": "DHL",
+"name_th": null,
+"slug": "dhl",
+"tags": {
+"amenity": "post_office",
+"brand": "DHL",
+"name": "DHL"
+}
+},
+{
+"kind": "post",
+"osm": "way/96423035",
+"lat": 18.788436,
+"lon": 99.002827,
+"name": "Mae Ping Post Office",
+"name_th": "ไปรษณีย์ แม่ปิง",
+"slug": "mae-ping-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ แม่ปิง",
+"name:en": "Mae Ping Post Office",
+"name:th": "ไปรษณีย์ แม่ปิง"
+}
+},
+{
+"kind": "post",
+"osm": "way/96970479",
+"lat": 18.782677,
+"lon": 99.016679,
+"name": "Parcels Office",
+"name_th": "ที่ทำการรับ-ส่งสินค้า",
+"slug": "parcels-office",
+"tags": {
+"amenity": "post_office",
+"name": "ที่ทำการรับ-ส่งสินค้า",
+"name:en": "Parcels Office",
+"name:th": "ที่ทำการรับ-ส่งสินค้า",
+"operator": "การรถไฟแห่งประเทศไทย"
+}
+},
+{
+"kind": "post",
+"osm": "way/105149392",
+"lat": 18.787462,
+"lon": 99.025373,
+"name": "FedEx",
+"name_th": null,
+"slug": "fedex",
+"tags": {
+"amenity": "post_office",
+"name:en": "FedEx",
+"operator": "FedEx"
+}
+},
+{
+"kind": "post",
+"osm": "way/209372570",
+"lat": 19.366009,
+"lon": 98.965165,
+"name": "Chiang Dao Post Office",
+"name_th": "ไปรษณีย์เชียงดาว",
+"slug": "chiang-dao-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์เชียงดาว",
+"name:en": "Chiang Dao Post Office",
+"name:th": "ไปรษณีย์เชียงดาว"
+}
+},
+{
+"kind": "post",
+"osm": "way/224819485",
+"lat": 18.80971,
+"lon": 98.994678,
+"name": "Talat Kam Tieng",
+"name_th": "ไปรษณีย์ ตลาดคำเที่ยง",
+"slug": "talat-kam-tieng",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ ตลาดคำเที่ยง",
+"name:en": "Talat Kam Tieng",
+"name:th": "ไปรษณีย์ ตลาดคำเที่ยง"
+}
+},
+{
+"kind": "post",
+"osm": "way/238831216",
+"lat": 18.786394,
+"lon": 98.982501,
+"name": "Phra Singh post office",
+"name_th": "ไปรษณีย์พระสิงห์",
+"slug": "phra-singh-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์พระสิงห์",
+"name:en": "Phra Singh post office",
+"name:th": "ไปรษณีย์พระสิงห์",
+"opening_hours": "Mo-Fr 08:30-18:00; Sa 09:00-12:00",
+"wheelchair": "yes"
+}
+},
+{
+"kind": "post",
+"osm": "way/240507157",
+"lat": 18.617686,
+"lon": 98.947959,
+"name": "NongTong Post Office",
+"name_th": null,
+"slug": "nongtong-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "NongTong Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "way/275286703",
+"lat": 18.811577,
+"lon": 98.98715,
+"name": "Siam First Express Cargo",
+"name_th": null,
+"slug": "siam-first-express-cargo",
+"tags": {
+"amenity": "post_office",
+"name": "Siam First Express Cargo",
+"website": "https://www.siamfirst.co.th/"
+}
+},
+{
+"kind": "post",
+"osm": "way/309844401",
+"lat": 18.579771,
+"lon": 99.008082,
+"name": "Lamphun Post Office",
+"name_th": null,
+"slug": "lamphun-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "Lamphun Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "way/325238406",
+"lat": 18.804178,
+"lon": 98.954336,
+"name": "Chiangmai University Post Office",
+"name_th": null,
+"slug": "chiangmai-university-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ไทย มหาวิทยาลัยเชียงใหม่",
+"name:en": "Chiangmai University Post Office",
+"operator": "Thailand Post",
+"wheelchair": "yes"
+}
+},
+{
+"kind": "post",
+"osm": "way/327272891",
+"lat": 18.913239,
+"lon": 98.945354,
+"name": "Maerim Post Office",
+"name_th": "ไปรษณีย์ แม่ริม",
+"slug": "maerim-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ แม่ริม",
+"name:en": "Maerim Post Office",
+"name:th": "ไปรษณีย์ แม่ริม",
+"opening_hours": "Mo-Fr 08:30-16:30; Sa 09:00-12:00",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "way/336067058",
+"lat": 18.780038,
+"lon": 98.976813,
+"name": "Sam Yaek Suanprung Post Office",
+"name_th": null,
+"slug": "sam-yaek-suanprung-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "Sam Yaek Suanprung Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "way/416676896",
+"lat": 19.048193,
+"lon": 98.866667,
+"name": "San Payang Post Office",
+"name_th": null,
+"slug": "san-payang-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "San Payang Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "way/480767793",
+"lat": 18.160213,
+"lon": 97.935946,
+"name": "Mae Sariang Post Office",
+"name_th": null,
+"slug": "mae-sariang-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์แม่สะเรียง",
+"name:en": "Mae Sariang Post Office",
+"opening_hours": "Mo-Fr 09:00-18:00; Sa 08:30-12:00",
+"operator": "บริษัท ไปรษณีย์ไทย  จำกัด"
+}
+},
+{
+"kind": "post",
+"osm": "way/641195568",
+"lat": 19.29932,
+"lon": 97.965889,
+"name": "Mae Hong Son Post Office",
+"name_th": "ไปรษณีย์ไทยแม่ฮ่องสอน",
+"slug": "mae-hong-son-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "Mae Hong Son Post Office",
+"name:th": "ไปรษณีย์ไทยแม่ฮ่องสอน"
+}
+},
+{
+"kind": "post",
+"osm": "way/738407515",
+"lat": 18.751648,
+"lon": 99.063238,
+"name": "PTT San Kamphaeng Post Office",
+"name_th": "ไปรษณีย์ไทย ปตท.สันกำแพง",
+"slug": "ptt-san-kamphaeng-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ไทย ปตท.สันกำแพง",
+"name:en": "PTT San Kamphaeng Post Office",
+"name:th": "ไปรษณีย์ไทย ปตท.สันกำแพง"
+}
+},
+{
+"kind": "post",
+"osm": "way/804013040",
+"lat": 19.369559,
+"lon": 98.965427,
+"name": "Chiang Dao Post Office",
+"name_th": null,
+"slug": "chiang-dao-post-office",
+"tags": {
+"amenity": "post_office",
+"name:en": "Chiang Dao Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "way/813665232",
+"lat": 18.886111,
+"lon": 98.820685,
+"name": "Pong Yaeng Post Office",
+"name_th": null,
+"slug": "pong-yaeng-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ สาขาโป่งแยง",
+"name:en": "Pong Yaeng Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "way/825349196",
+"lat": 18.741965,
+"lon": 98.959485,
+"name": "ไปรษณีย์ไทย",
+"name_th": null,
+"slug": "",
+"tags": {
+"amenity": "post_office",
+"description": "Thailand post- mae hia",
+"name": "ไปรษณีย์ไทย",
+"operator": "Thailand post",
+"wheelchair": "yes"
+}
+},
+{
+"kind": "post",
+"osm": "way/841775952",
+"lat": 18.602469,
+"lon": 98.825496,
+"name": "Kerry Express",
+"name_th": null,
+"slug": "kerry-express",
+"tags": {
+"amenity": "post_office",
+"name": "Kerry Express"
+}
+},
+{
+"kind": "post",
+"osm": "way/1240958618",
+"lat": 18.83106,
+"lon": 97.93388,
+"name": "Khunyuam Post Office",
+"name_th": null,
+"slug": "khunyuam-post-office",
+"tags": {
+"amenity": "post_office",
+"name": "ไปรษณีย์ไทยขุนยวม",
+"name:en": "Khunyuam Post Office"
+}
+},
+{
+"kind": "post",
+"osm": "way/1535114518",
+"lat": 18.785089,
+"lon": 99.014719,
+"name": "Chiang Mai Post Office",
+"name_th": "ไปรษณีย์เชียงใหม่",
+"slug": "chiang-mai-post-office",
+"tags": {
+"addr:district": "เมืองเชียงใหม่",
+"addr:province": "เชียงใหม่",
+"amenity": "post_office",
+"name": "ไปรษณีย์เชียงใหม่",
+"name:en": "Chiang Mai Post Office",
+"name:th": "ไปรษณีย์เชียงใหม่",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "post",
+"osm": "way/1535116654",
+"lat": 18.744472,
+"lon": 99.119584,
+"name": "San Kamphaeng Post Office",
+"name_th": "ไปรษณีย์สันกำแพง",
+"slug": "san-kamphaeng-post-office",
+"tags": {
+"addr:district": "สันกำแพง",
+"addr:province": "เชียงใหม่",
+"addr:subdistrict": "สันกำแพง",
+"amenity": "post_office",
+"name": "ไปรษณีย์สันกำแพง",
+"name:en": "San Kamphaeng Post Office",
+"name:th": "ไปรษณีย์สันกำแพง",
+"operator": "Thailand Post"
+}
+},
+{
+"kind": "bus",
+"osm": "node/820318332",
+"lat": 19.360047,
+"lon": 98.441914,
+"name": "Pai Bus Station",
+"name_th": "เปรมประชาขนส่ง",
+"slug": "pai-bus-station",
+"tags": {
+"amenity": "bus_station",
+"name": "Pai Bus Station",
+"name:en": "Pai Bus Station",
+"name:th": "เปรมประชาขนส่ง",
+"wheelchair": "limited"
+}
+},
+{
+"kind": "bus",
+"osm": "node/1445544589",
+"lat": 18.421072,
+"lon": 98.678259,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "bus_station"
+}
+},
+{
+"kind": "bus",
+"osm": "node/1572587486",
+"lat": 18.800791,
+"lon": 99.017243,
+"name": "Chiang Mai Arcade Bus Terminal 2",
+"name_th": "สถานีขนส่ง อาเขต (หมายเลข 2)",
+"slug": "chiang-mai-arcade-bus-terminal-2",
+"tags": {
+"amenity": "bus_station",
+"name": "สถานีขนส่ง อาเขต (หมายเลข 2)",
+"name:en": "Chiang Mai Arcade Bus Terminal 2",
+"name:th": "สถานีขนส่ง อาเขต (หมายเลข 2)"
+}
+},
+{
+"kind": "bus",
+"osm": "node/1572587488",
+"lat": 18.56919,
+"lon": 99.007181,
+"name": "Lamphun Bus Terminal",
+"name_th": "สถานีขนส่งผู้โดยสารจังหวัดลำพูน",
+"slug": "lamphun-bus-terminal",
+"tags": {
+"amenity": "bus_station",
+"name": "สถานีขนส่งผู้โดยสารจังหวัดลำพูน",
+"name:en": "Lamphun Bus Terminal",
+"name:th": "สถานีขนส่งผู้โดยสารจังหวัดลำพูน"
+}
+},
+{
+"kind": "bus",
+"osm": "node/1595634349",
+"lat": 19.515878,
+"lon": 98.254021,
+"name": "Bus Stop",
+"name_th": null,
+"slug": "bus-stop",
+"tags": {
+"amenity": "bus_station",
+"name": "Bus Stop",
+"operator": "Prempracha Transport",
+"website": "https://premprachatransports.com/home"
+}
+},
+{
+"kind": "bus",
+"osm": "node/4294146292",
+"lat": 18.83277,
+"lon": 97.936793,
+"name": "Khan Yuam Bus Station",
+"name_th": null,
+"slug": "khan-yuam-bus-station",
+"tags": {
+"amenity": "bus_station",
+"name": "Khan Yuam Bus Station"
+}
+},
+{
+"kind": "bus",
+"osm": "node/4693451294",
+"lat": 18.158839,
+"lon": 97.928297,
+"name": "Pickup Trucks to Mae Sam Laep",
+"name_th": null,
+"slug": "pickup-trucks-to-mae-sam-laep",
+"tags": {
+"amenity": "bus_station",
+"name": "จุดจอดรถโดยสารแม่สามแลบ",
+"name:en": "Pickup Trucks to Mae Sam Laep"
+}
+},
+{
+"kind": "bus",
+"osm": "node/4748426321",
+"lat": 18.800447,
+"lon": 99.01897,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "bus_station"
+}
+},
+{
+"kind": "bus",
+"osm": "node/5384967081",
+"lat": 18.499944,
+"lon": 98.365297,
+"name": "Yellow Bus",
+"name_th": null,
+"slug": "yellow-bus",
+"tags": {
+"amenity": "bus_station",
+"name:en": "Yellow Bus"
+}
+},
+{
+"kind": "bus",
+"osm": "node/6433566485",
+"lat": 18.184093,
+"lon": 97.935399,
+"name": "Mae Sariang to Mae Hong Som and Chiang Mai",
+"name_th": null,
+"slug": "mae-sariang-to-mae-hong-som-and-chiang-mai",
+"tags": {
+"amenity": "bus_station",
+"name:en": "Mae Sariang to Mae Hong Som and Chiang Mai"
+}
+},
+{
+"kind": "bus",
+"osm": "node/6481821785",
+"lat": 18.84758,
+"lon": 98.732576,
+"name": "Yellow minibus to Chiang Mai",
+"name_th": null,
+"slug": "yellow-minibus-to-chiang-mai",
+"tags": {
+"amenity": "bus_station",
+"name": "Yellow minibus to Chiang Mai"
+}
+},
+{
+"kind": "bus",
+"osm": "node/7045982885",
+"lat": 19.095769,
+"lon": 98.936077,
+"name": "Mae malai busstop to chiang dao fang",
+"name_th": null,
+"slug": "mae-malai-busstop-to-chiang-dao-fang",
+"tags": {
+"amenity": "bus_station",
+"name": "Mae malai busstop to chiang dao fang"
+}
+},
+{
+"kind": "bus",
+"osm": "node/7174011185",
+"lat": 19.09422,
+"lon": 98.935211,
+"name": "Prempracha",
+"name_th": null,
+"slug": "prempracha",
+"tags": {
+"amenity": "bus_station",
+"name:en": "Prempracha"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12511850901",
+"lat": 18.914288,
+"lon": 98.945411,
+"name": "Songtaew Stop To ChiangMai",
+"name_th": null,
+"slug": "songtaew-stop-to-chiangmai",
+"tags": {
+"amenity": "bus_station",
+"internet_access": "wlan",
+"name:en": "Songtaew Stop To ChiangMai"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12511891901",
+"lat": 18.915205,
+"lon": 98.943857,
+"name": "Songthaew Stop to Samoeng",
+"name_th": null,
+"slug": "songthaew-stop-to-samoeng",
+"tags": {
+"amenity": "bus_station",
+"internet_access": "wlan",
+"name": "Songthaew Stop from Chiangnai to Samoeng",
+"name:en": "Songthaew Stop to Samoeng"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12511895701",
+"lat": 18.907441,
+"lon": 98.902634,
+"name": "Songthaew stop from Chiangmai to Samoeng",
+"name_th": null,
+"slug": "songthaew-stop-from-chiangmai-to-samoeng",
+"tags": {
+"amenity": "bus_station",
+"name:en": "Songthaew stop from Chiangmai to Samoeng"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12543091908",
+"lat": 18.873168,
+"lon": 99.136629,
+"name": "Songthaew stop from DoiSakhet to Waroros Market",
+"name_th": null,
+"slug": "songthaew-stop-from-doisakhet-to-waroros-market",
+"tags": {
+"amenity": "bus_station",
+"name:en": "Songthaew stop from DoiSakhet to Waroros Market"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12543091918",
+"lat": 18.194047,
+"lon": 98.611562,
+"name": "Bus stop to Chiangmai",
+"name_th": null,
+"slug": "bus-stop-to-chiangmai",
+"tags": {
+"amenity": "bus_station",
+"name:en": "Bus stop to Chiangmai"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12543091919",
+"lat": 18.193891,
+"lon": 98.611759,
+"name": "Bus stop from Changmai to DoiTao&BoLuang",
+"name_th": null,
+"slug": "bus-stop-from-changmai-to-doitao-and-boluang",
+"tags": {
+"amenity": "bus_station",
+"name": "Bus stop from Changmai to DoiTao&BoLuang"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12543092107",
+"lat": 18.87324,
+"lon": 99.136521,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "bus_station"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12543092108",
+"lat": 18.871326,
+"lon": 99.137151,
+"name": null,
+"name_th": null,
+"slug": null,
+"tags": {
+"amenity": "bus_station"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12543092109",
+"lat": 18.873164,
+"lon": 99.1373,
+"name": "Songthaew stop from ChangPhuak terminal to Wiang PaPao",
+"name_th": null,
+"slug": "songthaew-stop-from-changphuak-terminal-to-wiang-papao",
+"tags": {
+"amenity": "bus_station",
+"name:en": "Songthaew stop from ChangPhuak terminal to Wiang PaPao"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12543092112",
+"lat": 18.847424,
+"lon": 98.731688,
+"name": "Yellow Songthaew stop to BoKaeo & Chiang Mai",
+"name_th": null,
+"slug": "yellow-songthaew-stop-to-bokaeo-and-chiang-mai",
+"tags": {
+"amenity": "bus_station",
+"name": "Yellow Songthaew stop to BoKaeo & Chiang Mai"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12770228503",
+"lat": 17.890727,
+"lon": 98.731033,
+"name": "Minibus to go to ChiangMai 140B",
+"name_th": null,
+"slug": "minibus-to-go-to-chiangmai-140b",
+"tags": {
+"amenity": "bus_station",
+"name:en": "Minibus to go to ChiangMai 140B"
+}
+},
+{
+"kind": "bus",
+"osm": "node/12770419201",
+"lat": 18.193393,
+"lon": 98.611345,
+"name": "Songthaew stop to go to Bo Luang",
+"name_th": null,
+"slug": "songthaew-stop-to-go-to-bo-luang",
+"tags": {
+"amenity": "bus_station",
+"name:en": "Songthaew stop to go to Bo Luang"
+}
+},
+{
+"kind": "bus",
+"osm": "node/13110396501",
+"lat": 18.550787,
+"lon": 99.050691,
+"name": "Doi Ti busstaion",
+"name_th": null,
+"slug": "doi-ti-busstaion",
+"tags": {
+"amenity": "bus_station",
+"name:en": "Doi Ti busstaion"
+}
+},
+{
+"kind": "bus",
+"osm": "node/13110396502",
+"lat": 18.551563,
+"lon": 99.049237,
+"name": "Doi Ti Bus Station",
+"name_th": null,
+"slug": "doi-ti-bus-station",
+"tags": {
+"amenity": "bus_station",
+"name:en": "Doi Ti Bus Station"
+}
+},
+{
+"kind": "bus",
+"osm": "node/13518302605",
+"lat": 18.804358,
+"lon": 98.919856,
+"name": "White or silver Songtaews to Doi Pui Tribal Village",
+"name_th": null,
+"slug": "white-or-silver-songtaews-to-doi-pui-tribal-village",
+"tags": {
+"amenity": "bus_station",
+"name:en": "White or silver Songtaews to Doi Pui Tribal Village"
+}
+},
+{
+"kind": "bus",
+"osm": "way/96950839",
+"lat": 18.801904,
+"lon": 99.017278,
+"name": "Nakhonchai Air",
+"name_th": "นครชัยแอร์",
+"slug": "nakhonchai-air",
+"tags": {
+"amenity": "bus_station",
+"name": "นครชัยแอร์",
+"name:en": "Nakhonchai Air",
+"name:th": "นครชัยแอร์"
+}
+},
+{
+"kind": "bus",
+"osm": "way/101345952",
+"lat": 18.800138,
+"lon": 98.986756,
+"name": "Chang Phuak Bus Station",
+"name_th": null,
+"slug": "chang-phuak-bus-station",
+"tags": {
+"amenity": "bus_station",
+"name": "Chang Phuak Bus Station",
+"name:en": "Chang Phuak Bus Station"
+}
+},
+{
+"kind": "bus",
+"osm": "way/200738389",
+"lat": 18.799554,
+"lon": 99.017835,
+"name": "Chiang Mai Arcade Bus Terminal 3",
+"name_th": "สถานีขนส่ง อาเขต (หมายเลข 3)",
+"slug": "chiang-mai-arcade-bus-terminal-3",
+"tags": {
+"amenity": "bus_station",
+"name": "สถานีขนส่ง อาเขต (หมายเลข 3)",
+"name:en": "Chiang Mai Arcade Bus Terminal 3",
+"name:th": "สถานีขนส่ง อาเขต (หมายเลข 3)",
+"operator": "Arcade"
+}
+},
+{
+"kind": "bus",
+"osm": "way/272549351",
+"lat": 19.376119,
+"lon": 98.966851,
+"name": "Chiang Dao Bus Station",
+"name_th": null,
+"slug": "chiang-dao-bus-station",
+"tags": {
+"amenity": "bus_station",
+"name": "Chiang Dao Bus Station",
+"wheelchair": "limited"
+}
+},
+{
+"kind": "bus",
+"osm": "way/282003321",
+"lat": 19.291183,
+"lon": 97.959557,
+"name": "Mae Hong Son Bus Station",
+"name_th": "สถานีขนส่งแม่ฮ่องสอน",
+"slug": "mae-hong-son-bus-station",
+"tags": {
+"amenity": "bus_station",
+"name": "สถานีขนส่งแม่ฮ่องสอน",
+"name:en": "Mae Hong Son Bus Station",
+"name:th": "สถานีขนส่งแม่ฮ่องสอน"
 }
 }
 ]

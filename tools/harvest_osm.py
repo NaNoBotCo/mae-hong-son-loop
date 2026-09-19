@@ -82,6 +82,13 @@ PLACE_KINDS = [
     ("hospital", 'nwr["amenity"~"^(hospital|clinic)$"]'),
     ("airport",  'nwr["aeroway"="aerodrome"]'),
     ("repair",   'nwr["shop"~"^(motorcycle|motorcycle_repair)$"]'),
+    # Where a bag can be handed over or collected. A parcel that has to reach a guesthouse
+    # two towns ahead needs a counter at both ends, so these are mapped like anything else.
+    ("post",     'nwr["amenity"="post_office"]'),
+    ("post",     'nwr["post_office"="post_partner"]'),
+    ("parcel",   'nwr["amenity"="parcel_locker"]'),
+    ("parcel",   'nwr["shop"="outpost"]'),
+    ("bus",      'nwr["amenity"="bus_station"]'),
 ]
 
 KEEP = ("name", "name:en", "name:th", "int_name", "place", "amenity", "shop", "tourism", "natural",

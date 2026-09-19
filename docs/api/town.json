@@ -160,12 +160,6 @@
      "as": "Where the transaction happens."
     },
     {
-     "from": "sending-the-bag-ahead",
-     "type": "kit",
-     "name": "Sending your bag ahead",
-     "as": "Where the bag stays, and where you come back to."
-    },
-    {
      "from": "the-smoke",
      "type": "story",
      "name": "The smoke",
@@ -680,6 +674,12 @@
      "type": "stop",
      "name": "Doi Inthanon",
      "as": "The town on the back side."
+    },
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending the bag ahead",
+     "as": "One of the two towns with nowhere to send it."
     }
    ]
   },
@@ -900,12 +900,6 @@
      "type": "kit",
      "name": "Not coming back to Chiang Mai",
      "as": "The town with the airport."
-    },
-    {
-     "from": "sending-the-bag-ahead",
-     "type": "kit",
-     "name": "Sending your bag ahead",
-     "as": "The one sensible forwarding destination on the circuit."
     },
     {
      "from": "shan",

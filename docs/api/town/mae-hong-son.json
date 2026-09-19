@@ -217,12 +217,6 @@
    "as": "The town with the airport."
   },
   {
-   "from": "sending-the-bag-ahead",
-   "type": "kit",
-   "name": "Sending your bag ahead",
-   "as": "The one sensible forwarding destination on the circuit."
-  },
-  {
    "from": "shan",
    "type": "person",
    "name": "The Shan",

@@ -65,8 +65,8 @@
   {
    "from": "sending-the-bag-ahead",
    "type": "kit",
-   "name": "Sending your bag ahead",
-   "as": "The case where forwarding stops being pointless."
+   "name": "Sending the bag ahead",
+   "as": "The case where the bag goes one way and does not come back."
   }
  ]
 }

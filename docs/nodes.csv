@@ -50,10 +50,11 @@ step-through-110,bike,The 110–125 step-through,รถออโต้ 110–125
 trail-250,bike,The 250–450 trail bike,รถวิบาก 250–450,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/bike/trail-250/
 underbone-125,bike,The underbone with gears,รถครอบครัวมีเกียร์ 125,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/bike/underbone-125/
 gear,kit,What to wear,ใส่อะไร,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/kit/gear/
+no-storage,kit,The bike has nowhere to put it,รถไม่มีที่ใส่ของ,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/kit/no-storage/
 one-way-rental,kit,Not coming back to Chiang Mai,ไม่กลับเชียงใหม่,,,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/kit/one-way-rental/
 packing-light,kit,What actually fits,ของที่ใส่ได้จริง,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/kit/packing-light/
 renting-a-bike,kit,Renting the bike,การเช่ารถ,,,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/kit/renting-a-bike/
-sending-the-bag-ahead,kit,Sending your bag ahead,ส่งกระเป๋าล่วงหน้า,,,,,,tradition,medium,True,https://nanobotco.github.io/mae-hong-son-loop/kit/sending-the-bag-ahead/
+sending-the-bag-ahead,kit,Sending the bag ahead,ส่งกระเป๋าล่วงหน้า,,,,,,harvested,medium,True,https://nanobotco.github.io/mae-hong-son-loop/kit/sending-the-bag-ahead/
 karen,person,The Karen,กะเหรี่ยง,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/person/karen/
 shan,person,The Shan,ไทใหญ่,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/person/shan/
 bua-tong-bloom,event,The Bua Tong bloom,ทุ่งบัวตอง,,,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/event/bua-tong-bloom/

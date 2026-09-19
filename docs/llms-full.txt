@@ -11,7 +11,7 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - Route 1096 (Samoeng) measures the densest curves on this network at 4.46/km, ahead of Route 1095 at 4.03.
 - Air: 15,050 point-days of modelled daily PM2.5 at ten points, Aug 2022 onward, from Copernicus CAMS via Open-Meteo. The model never exceeded 99.4 µg/m³ daily mean; ground stations have recorded far higher.
 - Mae Hong Son province (12,765 km²) has 1 official PM2.5 monitor. Pai, Soppong, Khun Yuam and Mae Sariang have none.
-- 9,187 places harvested from OpenStreetMap inside the corridor.
+- 9,319 places harvested from OpenStreetMap inside the corridor.
 
 ## Pages
 
@@ -21,6 +21,7 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Numbers](https://nanobotco.github.io/mae-hong-son-loop/numbers/)
 - [Air](https://nanobotco.github.io/mae-hong-son-loop/air/)
 - [Danger](https://nanobotco.github.io/mae-hong-son-loop/danger/)
+- [Baggage](https://nanobotco.github.io/mae-hong-son-loop/baggage/)
 - [Which ride](https://nanobotco.github.io/mae-hong-son-loop/quiz/)
 - [Roadbook](https://nanobotco.github.io/mae-hong-son-loop/roadbook/)
 
@@ -33,7 +34,7 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Wats](https://nanobotco.github.io/mae-hong-son-loop/wats/) — 2
 - [Hazards](https://nanobotco.github.io/mae-hong-son-loop/hazards/) — 9
 - [Bikes](https://nanobotco.github.io/mae-hong-son-loop/bikes/) — 6
-- [Kit and logistics](https://nanobotco.github.io/mae-hong-son-loop/kit/) — 5
+- [Kit and logistics](https://nanobotco.github.io/mae-hong-son-loop/kit/) — 6
 - [People](https://nanobotco.github.io/mae-hong-son-loop/people/) — 2
 - [The calendar](https://nanobotco.github.io/mae-hong-son-loop/calendar/) — 6
 - [Words](https://nanobotco.github.io/mae-hong-son-loop/words/) — 5
@@ -888,6 +889,30 @@ The helmet argument, the long-sleeves argument, and the gloves argument — all 
 Provenance: cited · s:wp-motorcycle-helmet
 Sources: s:wp-motorcycle-helmet, s:wp-motorcycle-safety
 
+## The bike has nowhere to put it (kit/no-storage)
+Thai: รถไม่มีที่ใส่ของ
+
+### what
+What each class of bike will actually swallow, and what it means for four days of luggage.
+
+### story
+*Inference —* the inventory, by what the shop is likely to hand you.
+
+**110–160 automatic.** An underseat box that takes a helmet, or a helmet and a thin jacket, and nothing more. A hook in the legshield. A flat footwell in front of you, which is the only real space on the bike and the best place on it for weight — low and forward.
+
+**Geared underbone, 110–150.** A small compartment, a hook, and a rear rack on many of them. The rack is the useful part: a soft bag strapped flat to a rack sits lower than the same bag on the pillion seat.
+
+**Trail bike, 250–450.** Almost nothing as standard. A tail rack if you are lucky. Long travel suspension means whatever you strap on moves more than you expect.
+
+**Midweight and big adventure.** The only ones likely to have panniers or a top box, and the only ones where the answer is genuinely "put it on the bike". A top box is convenient and it is also weight high and behind the rear axle, which is exactly where a loaded descent least wants it.
+
+**Naked and sport.** A pillion seat and a bungee, and that is the inventory.
+
+*Inference —* which is why forwarding the main bag is not a luxury on this particular ride. On more than half of what gets rented in Chiang Mai there is no place to put four days of luggage that does not end up on the rider's back or standing on the bike's tail.
+
+Provenance: inference
+Sources: s:wp-scooter-motorcycle, s:wp-underbone, s:wp-motorcycle-safety
+
 ## Not coming back to Chiang Mai (kit/one-way-rental)
 Thai: ไม่กลับเชียงใหม่
 
@@ -944,32 +969,36 @@ Provenance: cited · s:wp-international-driving-permit
 Sources: s:wp-international-driving-permit, s:wp-driving-licence-in-thailand, s:wp-motorcycle-safety
 NEEDS VERIFICATION
 
-## Sending your bag ahead (kit/sending-the-bag-ahead)
+## Sending the bag ahead (kit/sending-the-bag-ahead)
 Thai: ส่งกระเป๋าล่วงหน้า
 
 ### what
-Whether a suitcase can travel separately from the bike. It can, by three separate channels. But the loop is a loop — it ends where it started — so the question most riders are really asking has a cheaper answer.
+You need clean clothes, a toothbrush, chargers and whatever else four nights takes. It does not have to be on your back. It can travel town to town and be at the guesthouse before you are.
 
 ### story
-**Start with the shape of the trip.** The circuit returns to Chiang Mai. A bag sent ahead to Mae Hong Son has to be collected in Mae Hong Son and then carried for the remaining three hundred kilometres, which is the problem you were trying to avoid. *Inference —* forwarding earns its keep in exactly two cases: you are not returning to Chiang Mai, or you want a specific thing waiting at the halfway point and nothing else.
+**Why this is a real question and not a fussy one.** Most rental bikes on this circuit have nowhere to put anything. A 110 automatic's underseat box takes a helmet and a rain jacket and then it is full. A geared Wave has a small compartment and a hook. A naked or sport bike has nothing at all. So the bag ends up on your back or bungeed on top of the pillion seat — and a rucksack across six hundred kilometres of camber changes is a back injury waiting for the third afternoon, while a tail pack sitting high behind the rider is the thing that makes every hairpin an argument with the bike.
 
-**The cheap answer, and the usual one.** Leave the big bag in Chiang Mai. Motorcycle rental shops and guesthouses there commonly hold luggage for riders who are coming back for it, and many do it at no charge as part of the rental. *Tradition holds —* this is the standard arrangement and the thing to ask about when you book, not when you arrive. Get it in writing on the rental agreement, photograph the bag and the room it goes into, and take the valuables with you.
+**The shape that works is two bags.** A small one that stays with you — documents, water, waterproofs, tools, phone, and anything medical. A larger one that leapfrogs ahead and is waiting in the room.
 
-**Three ways to move a bag that must move.**
+**Two ways to leapfrog it.**
 
-*Thailand Post.* Post offices operate in Chiang Mai, Pai, Mae Hong Son, Mae Sariang and the district towns. Domestic parcel and EMS services exist and are the cheapest of the three. *Tradition holds —* upcountry post offices keep government hours and close at lunchtime and at weekends, so a parcel that arrives Saturday sits until Monday.
+*By post.* Thailand Post has a counter in every overnight town on this circuit except two. Send from the town you are leaving to the town you are arriving in, a day ahead. Cheapest of the options, slowest, and bound by government office hours.
 
-*A private courier.* Several nationwide parcel networks run branches and agent counters across the north, often inside a shop or a petrol station, with longer hours than the post office. **Not on this disk:** which specific branches were open on the day you read this, what they charged, or their size limits. Those change, and this project has not verified them.
+*By bus.* This is the one most people do not think of, and on this route it is the better answer. The minibuses and coaches that run Chiang Mai–Pai–Mae Hong Son and Chiang Mai–Hot–Mae Sariang–Mae Hong Son carry parcels on the same runs that carry passengers: you hand the bag in at the operator's counter, it rides in the hold, and it is collected at the destination office. *Tradition holds —* this is ordinary and widely used across Thailand, and the crucial thing about it here is that **the bus is going exactly where you are going, on the same day.** It is the only method as fast as you are.
 
-*The bus.* Thai intercity and minibus operators carry parcels on the same runs that carry passengers — you hand the parcel in at the operator's counter, it rides in the hold, and it is collected at the destination office, often the same day. *Tradition holds —* this is ordinary and widely used across Thailand. It is also the only one of the three that is as fast as you are.
+**Where it can land.** Counted from OpenStreetMap on the harvest date: Chiang Mai, Mae Malai, Pai, Soppong, Mae Hong Son, Khun Yuam, Mae Sariang and Hot all have a post office within walking distance of the centre, and every one of those towns has a bus station. **Mae La Noi has nothing mapped at all, and Mae Chaem has a bus office but no post office** — if your route sleeps at Mae La Noi, that night's bag rides with you. The table on the baggage page lists each one.
 
-**What actually goes wrong.** A parcel needs a real address and a person willing to sign for it: a guesthouse has to agree in advance to receive a bag for a guest who has not arrived yet, and not all will. Collection usually needs the ID the parcel was addressed to. And the bag has to survive being stacked — soft luggage is fine, a hard shell with a TSA lock is fine, a paper bag is not.
+**What actually goes wrong.** A parcel needs a real address and a person willing to sign for it, so the guesthouse has to agree in advance to hold a bag for a guest who has not arrived — ask when you book, not when you post. Collection usually needs the ID the parcel was addressed to. Upcountry post offices keep government hours and close at lunch and at weekends, so a parcel arriving Saturday sits until Monday. And soft luggage survives being stacked; a paper bag does not.
 
 ### how
-If you are doing it: send it two days before you need it, not the night before; address it to a named person at a named guesthouse with that guesthouse's phone number on the label, having already asked them; keep the tracking slip photographed rather than folded in a tank bag; and put nothing in it you would cancel the trip over.
+**Carry, do not ship: anything medical.** A CPAP, an inhaler, insulin, anything you would have a bad night without. If a bag goes astray you have a laundry problem; if the CPAP goes astray you have a medical one, and it is not replaceable in Khun Yuam at nine at night. A CPAP also needs mains power and a flat surface, which is worth confirming with the guesthouse rather than discovering.
 
-Provenance: tradition
-Sources: s:wp-thailand-post
+The rest: send it two days before you need it if you are using the post, or the same morning if you are using the bus. Address it to a named person at a named guesthouse with that guesthouse's phone number on the label. Photograph the bag, the label and the receipt. Put nothing in it you would cancel the trip over — passport, cards, keys and phone stay on you.
+
+*Inference —* and if all of that sounds like more administration than it is worth, the fallback is still sound: a soft 20-litre bag strapped low across the pillion seat, not a rucksack on your back, and the heavy things against the tank.
+
+Provenance: harvested · s:osm
+Sources: s:wp-thailand-post, s:osm
 NEEDS VERIFICATION
 
 ## The Karen (person/karen)
