@@ -34,7 +34,7 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Wats](https://nanobotco.github.io/mae-hong-son-loop/wats/) — 2
 - [Hazards](https://nanobotco.github.io/mae-hong-son-loop/hazards/) — 9
 - [Bikes](https://nanobotco.github.io/mae-hong-son-loop/bikes/) — 6
-- [Kit and logistics](https://nanobotco.github.io/mae-hong-son-loop/kit/) — 6
+- [Kit and logistics](https://nanobotco.github.io/mae-hong-son-loop/kit/) — 7
 - [People](https://nanobotco.github.io/mae-hong-son-loop/people/) — 2
 - [The calendar](https://nanobotco.github.io/mae-hong-son-loop/calendar/) — 6
 - [Words](https://nanobotco.github.io/mae-hong-son-loop/words/) — 5

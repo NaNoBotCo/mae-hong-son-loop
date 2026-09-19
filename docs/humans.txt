@@ -3,11 +3,11 @@ Built by: NaN
 Site: https://wichaa.net
 
 /* SITE */
-Records: 76
+Records: 77
 Sources: 94
 Languages: English, ไทย
 Standards: HTML5, SVG, JSON-LD
 Components: hand-written HTML, one inline stylesheet, inline SVG.
-Built: 2026-09-19 07:56
+Built: 2026-09-19 08:00
 
 Mot Dang https://motdang.net/ · wichaa https://wichaa.net/ · Amulet Atlas https://nanobotco.github.io/amulet-atlas/ · Carolina Barbecue https://nanobotco.github.io/carolina-barbecue/ · Wing Country https://nanobotco.github.io/buffalo-wings/ · Pink Box https://nanobotco.github.io/pink-box/ · Basque Tables https://nanobotco.github.io/basque-tables/ · Pinot Country https://nanobotco.github.io/pinot-noir/ · Care Abroad https://nanobotco.github.io/care-abroad/ · Thai Roots https://nanobotco.github.io/thairoots/ · The index https://nanobotco.github.io/index/ · Uptake https://nanobotco.github.io/uptake/ · NaNoBotCo https://nanobotco.github.io/ · ฮักฝรั่ง https://hakfarang.net/ · Offrampt https://offrampt.net/

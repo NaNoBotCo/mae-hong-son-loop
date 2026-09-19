@@ -70,6 +70,12 @@
  "updated": "2026-09-18",
  "kin_in": [
   {
+   "from": "bus-parcel",
+   "type": "kit",
+   "name": "Sending a bag on the bus",
+   "as": "Why the bag is not going on the bike in the first place."
+  },
+  {
    "from": "sending-the-bag-ahead",
    "type": "kit",
    "name": "Sending the bag ahead",

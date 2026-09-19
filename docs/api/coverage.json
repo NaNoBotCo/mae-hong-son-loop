@@ -1,6 +1,6 @@
 {
- "built": "2026-09-19 07:56",
- "records": 76,
+ "built": "2026-09-19 08:00",
+ "records": 77,
  "by_type": {
   "leg": 9,
   "road": 6,
@@ -12,7 +12,7 @@
   "stay": 0,
   "hazard": 9,
   "bike": 6,
-  "kit": 6,
+  "kit": 7,
   "person": 2,
   "org": 0,
   "event": 6,
@@ -20,11 +20,11 @@
   "story": 6,
   "art": 1
  },
- "kin_edges": 274,
+ "kin_edges": 281,
  "sources": 94,
- "needs_verification": 17,
- "bilingual": 76,
- "th_fields": 167,
+ "needs_verification": 18,
+ "bilingual": 77,
+ "th_fields": 170,
  "roads_measured": [
   "107",
   "108",
@@ -88,6 +88,6 @@
   "harvested": 12,
   "inference": 23,
   "cited": 38,
-  "tradition": 3
+  "tradition": 4
  }
 }

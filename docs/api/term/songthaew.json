@@ -53,6 +53,12 @@
  "updated": "2026-09-18",
  "kin_in": [
   {
+   "from": "bus-parcel",
+   "type": "kit",
+   "name": "Sending a bag on the bus",
+   "as": "The other thing that will carry a bag, over shorter distances."
+  },
+  {
    "from": "sending-the-bag-ahead",
    "type": "kit",
    "name": "Sending the bag ahead",

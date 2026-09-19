@@ -1,5 +1,5 @@
 {
- "count": 76,
+ "count": 77,
  "nodes": [
   {
    "id": "cnx-to-pai",
@@ -8034,6 +8034,12 @@
      "as": "The town below."
     },
     {
+     "from": "bus-parcel",
+     "type": "kit",
+     "name": "Sending a bag on the bus",
+     "as": "The far end of the northern leg, with its own station."
+    },
+    {
      "from": "one-way-rental",
      "type": "kit",
      "name": "Not coming back to Chiang Mai",
@@ -8387,6 +8393,12 @@
      "type": "stop",
      "name": "Pai Canyon",
      "as": "The town it is outside."
+    },
+    {
+     "from": "bus-parcel",
+     "type": "kit",
+     "name": "Sending a bag on the bus",
+     "as": "Where the northern operator's station is."
     },
     {
      "from": "the-smoke",
@@ -11771,6 +11783,105 @@
    ]
   },
   {
+   "id": "bus-parcel",
+   "type": "kit",
+   "names": {
+    "name": "Sending a bag on the bus",
+    "th": "ฝากของไปกับรถโดยสาร",
+    "rtgs": "fak khong",
+    "said": "You hand it over a counter at the bus station, it rides in the hold, and you collect it at the other end. That is the whole of it.",
+    "said_th": "ยื่นให้ที่เคาน์เตอร์สถานีขนส่ง ของไปในห้องเก็บสัมภาระ แล้วไปรับปลายทาง แค่นั้นเอง"
+   },
+   "region": [
+    "loop",
+    "cnx",
+    "mhs"
+   ],
+   "facets": {
+    "kind": "logistics",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "Thai intercity and minibus operators carry parcels on the same departures that carry passengers. On this circuit that matters more than it does most places, because the bus is going exactly where you are going, on the same day.",
+    "story": "**Who runs the buses you would be using.** OpenStreetMap tags the operator at the Mae Malai stop and at the stop above Soppong as **Prempracha Transport**, and gives Pai's bus station the Thai name **เปรมประชาขนส่ง** — Prempracha Transport. That is the northern leg: Chiang Mai, Mae Malai, Pai, Soppong, Mae Hong Son, which is the clockwise route. Mae Hong Son, Khun Yuam and Mae Sariang all have their own bus stations on the southern leg. So a bag can be handed over at one end of a leg and collected at the other, on the run you are riding alongside.\n\n**The step that makes it different from the post.** A posted parcel goes to an address, which means a guesthouse has to agree in advance to receive a bag for a guest who has not arrived. A bus parcel goes to **the operator's counter at the destination bus station**, and you collect it yourself when you get to town. Nobody else has to agree to anything. *Inference —* on a route where you are arriving in a different town every evening, that is the simpler arrangement by a distance.\n\n**What you are actually handing over.** A soft bag, closed, with the destination and a phone number on it. It goes in the luggage hold with the passengers' bags. It is not tracked by an app; it is on a named departure, and it arrives when that bus arrives.",
+    "how": "*Tradition holds —* the procedure is ordinary and it goes like this. Every step is what this service normally involves; none of it is a quoted policy, and prices, cut-off times and what any given operator will accept are **not on this disk**.\n\n**1. Go to the operator's counter at the bus station,** not to a parcel shop. It is the same window that sells tickets for your route.\n\n**2. Say what you want.** *ฝากของ* — *fàak khǎwng* — is the everyday phrase: to entrust goods. *ส่งพัสดุ* — *sòng phátsàdù* — is the formal one, to send a parcel. Then the destination: *ฝากของไปแม่ฮ่องสอน* — send this to Mae Hong Son.\n\n**3. Give them the details.** Destination town, the name of whoever is collecting, and a phone number that works in Thailand. Your own name and number go on it too.\n\n**4. Pay and take the slip.** The fee is usually paid by the sender, at the origin, by weight or size. You are given a receipt — *ใบรับของ* — and the number on it is the thing that matters. Photograph it.\n\n**5. Ask when it lands.** *ถึงกี่โมง* — *thǔeng kìi moong* — what time does it arrive. It travels on a specific departure, so the answer is a time, not an estimate.\n\n**6. Collect it.** At the destination bus station, at that operator's counter, with the slip and your passport. *มารับของ* — *maa ráp khǎwng* — I have come to collect a parcel.\n\n**Turn up early enough.** A parcel has to be at the counter before the bus goes, and that is earlier than you would think. Send it in the morning for a bag you want that evening.\n\n**Do not send:** cash, documents, anything medical, anything you cannot replace. Those ride with you. See the baggage page."
+   },
+   "text_th": {
+    "what": "ผู้ประกอบการรถโดยสารและรถตู้ในไทยรับฝากพัสดุไปกับเที่ยวเดียวกับผู้โดยสาร บนเส้นทางนี้เรื่องนี้สำคัญกว่าที่อื่น เพราะรถวิ่งไปที่เดียวกับที่คุณจะไป ในวันเดียวกัน",
+    "story": "**ใครเดินรถบนเส้นทางที่คุณจะใช้** OpenStreetMap ระบุผู้ประกอบการที่จุดจอดแม่มาลัยและจุดจอดเหนือสบป่องว่าเป็น **เปรมประชาขนส่ง** และให้ชื่อภาษาไทยของสถานีขนส่งปายว่า **เปรมประชาขนส่ง** เช่นกัน นั่นคือช่วงเหนือทั้งเส้น เชียงใหม่ แม่มาลัย ปาย สบป่อง แม่ฮ่องสอน ซึ่งเป็นเส้นทางตามเข็ม ส่วนแม่ฮ่องสอน ขุนยวม และแม่สะเรียง ต่างก็มีสถานีขนส่งของตัวเองบนช่วงใต้ กระเป๋าจึงฝากที่ปลายหนึ่งของช่วงและไปรับอีกปลายหนึ่งได้ บนเที่ยวรถที่คุณขี่ขนานไปด้วย\n\n**จุดที่ต่างจากไปรษณีย์** พัสดุทางไปรษณีย์ไปที่ที่อยู่ ซึ่งแปลว่าที่พักต้องตกลงล่วงหน้าว่าจะรับกระเป๋าแทนแขกที่ยังไม่มาถึง แต่พัสดุทางรถไปที่ **เคาน์เตอร์ของผู้ประกอบการที่สถานีขนส่งปลายทาง** แล้วคุณไปรับเองตอนถึงเมือง ไม่ต้องให้ใครตกลงอะไรทั้งนั้น *อนุมาน —* บนเส้นทางที่คุณไปถึงคนละเมืองทุกเย็น นี่คือวิธีที่ง่ายกว่ามาก\n\n**สิ่งที่คุณยื่นให้จริงๆ** กระเป๋าผ้า ปิดสนิท เขียนปลายทางและเบอร์โทรไว้ มันไปอยู่ในห้องเก็บสัมภาระรวมกับกระเป๋าผู้โดยสาร ไม่มีแอปให้ติดตาม แต่มันอยู่บนเที่ยวรถที่ระบุ และมาถึงเมื่อรถคันนั้นมาถึง",
+    "how": "*ตามธรรมเนียม —* ขั้นตอนเป็นเรื่องปกติ และเป็นแบบนี้ ทุกขั้นตอนคือสิ่งที่บริการนี้มักเป็น ไม่ใช่นโยบายที่อ้างอิงได้ ส่วนราคา เวลาปิดรับ และสิ่งที่แต่ละเจ้ารับหรือไม่รับ **ไม่มีข้อมูลในชุดนี้**\n\n**1. ไปที่เคาน์เตอร์ของผู้เดินรถที่สถานีขนส่ง** ไม่ใช่ร้านรับส่งพัสดุ เป็นช่องเดียวกับที่ขายตั๋วเส้นทางของคุณ\n\n**2. บอกว่าจะทำอะไร** *ฝากของ* คือคำที่ใช้กันทั่วไป ส่วน *ส่งพัสดุ* เป็นคำทางการ แล้วตามด้วยปลายทาง เช่น *ฝากของไปแม่ฮ่องสอน*\n\n**3. ให้รายละเอียด** เมืองปลายทาง ชื่อคนที่จะมารับ และเบอร์โทรที่ใช้ได้ในไทย พร้อมชื่อและเบอร์ของคุณเอง\n\n**4. จ่ายเงินและรับใบ** ค่าส่งมักจ่ายโดยผู้ส่งที่ต้นทาง คิดตามน้ำหนักหรือขนาด คุณจะได้ *ใบรับของ* และเลขบนใบนั้นคือสิ่งสำคัญ ถ่ายรูปเก็บไว้\n\n**5. ถามว่าถึงกี่โมง** ของไปกับเที่ยวรถที่ระบุ คำตอบจึงเป็นเวลา ไม่ใช่การประมาณ\n\n**6. ไปรับ** ที่สถานีขนส่งปลายทาง ที่เคาน์เตอร์ของเจ้านั้น พร้อมใบรับของและพาสปอร์ต พูดว่า *มารับของ*\n\n**ไปให้ทัน** ของต้องถึงเคาน์เตอร์ก่อนรถออก และเร็วกว่าที่คิด ถ้าอยากได้กระเป๋าตอนเย็น ให้ฝากตั้งแต่เช้า\n\n**อย่าฝาก** เงินสด เอกสาร ของทางการแพทย์ และอะไรที่หาใหม่ไม่ได้ ของพวกนี้ไปกับตัว ดูหน้าสัมภาระ"
+   },
+   "kin": [
+    {
+     "to": "sending-the-bag-ahead",
+     "as": "The wider question, and the postal alternative.",
+     "rel": "kit"
+    },
+    {
+     "to": "no-storage",
+     "as": "Why the bag is not going on the bike in the first place.",
+     "rel": "kit"
+    },
+    {
+     "to": "songthaew",
+     "as": "The other thing that will carry a bag, over shorter distances.",
+     "rel": "term"
+    },
+    {
+     "to": "pai",
+     "as": "Where the northern operator's station is.",
+     "rel": "town"
+    },
+    {
+     "to": "mae-hong-son",
+     "as": "The far end of the northern leg, with its own station.",
+     "rel": "town"
+    },
+    {
+     "to": "packing-light",
+     "as": "What stays with you instead.",
+     "rel": "kit"
+    }
+   ],
+   "sources": [
+    "s:osm",
+    "s:wp-thailand-post"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "tradition",
+     "note": "the procedure is ordinary Thai practice, described and hedged; no operator's policy, price or cut-off time is quoted"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "harvested",
+      "source": "s:osm",
+      "note": "the operator names and station locations are read off the OpenStreetMap harvest on its fetch date; what those operators will carry is not stated there and is not asserted here"
+     },
+     "text.how": {
+      "tier": "tradition",
+      "note": "the steps and the Thai phrases are general practice and everyday language; prices, cut-offs and acceptance rules are marked as unverified"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending the bag ahead",
+     "as": "The bus method, step by step, with the words to say."
+    }
+   ]
+  },
+  {
    "id": "gear",
    "type": "kit",
    "names": {
@@ -11931,6 +12042,12 @@
    "updated": "2026-09-18",
    "kin_in": [
     {
+     "from": "bus-parcel",
+     "type": "kit",
+     "name": "Sending a bag on the bus",
+     "as": "Why the bag is not going on the bike in the first place."
+    },
+    {
      "from": "sending-the-bag-ahead",
      "type": "kit",
      "name": "Sending the bag ahead",
@@ -12079,6 +12196,12 @@
      "type": "hazard",
      "name": "The guesthouse driveway",
      "as": "The load that comes off first."
+    },
+    {
+     "from": "bus-parcel",
+     "type": "kit",
+     "name": "Sending a bag on the bus",
+     "as": "What stays with you instead."
     },
     {
      "from": "gear",
@@ -12268,6 +12391,11 @@
      "rel": "kit"
     },
     {
+     "to": "bus-parcel",
+     "as": "The bus method, step by step, with the words to say.",
+     "rel": "kit"
+    },
+    {
      "to": "no-storage",
      "as": "Why the bike itself is usually not the answer.",
      "rel": "kit"
@@ -12340,6 +12468,12 @@
      "type": "town",
      "name": "Mae Hong Son",
      "as": "The only sensible forwarding address on the circuit."
+    },
+    {
+     "from": "bus-parcel",
+     "type": "kit",
+     "name": "Sending a bag on the bus",
+     "as": "The wider question, and the postal alternative."
     },
     {
      "from": "no-storage",
@@ -13890,6 +14024,12 @@
    "schema": 1,
    "updated": "2026-09-18",
    "kin_in": [
+    {
+     "from": "bus-parcel",
+     "type": "kit",
+     "name": "Sending a bag on the bus",
+     "as": "The other thing that will carry a bag, over shorter distances."
+    },
     {
      "from": "sending-the-bag-ahead",
      "type": "kit",

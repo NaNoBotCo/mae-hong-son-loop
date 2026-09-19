@@ -1328,6 +1328,30 @@ def baggage(lang: str) -> str:
              f'<figcaption>{E(str(sum(1 for r in PLACES["rows"] if r["kind"] == "post")) + " post offices and " + str(sum(1 for r in PLACES["rows"] if r["kind"] == "bus")) + " bus stations in the corridor" if en else str(sum(1 for r in PLACES["rows"] if r["kind"] == "post")) + " ที่ทำการไปรษณีย์ และ " + str(sum(1 for r in PLACES["rows"] if r["kind"] == "bus")) + " สถานีขนส่ง ในเขตเส้นทาง")} · '
              f'© OpenStreetMap contributors</figcaption></figure>')
 
+    # the bus method, step by step: the part that usually gets a sentence rather than a procedure
+    bp = BY_ID.get("bus-parcel")
+    if bp:
+        b.append(band("pano-chaem", "Prempracha" if en else "เปรมประชา",
+                      T(bp, "names.name", lang), T(bp, "names.said", lang), d1, lang))
+        b.append(f'<div class="prose">{prose(T(bp, "text.story", lang))}</div>'
+                 f'<h3>{E("Step by step" if en else "ทีละขั้น")}</h3>'
+                 f'<div class="prose">{prose(T(bp, "text.how", lang))}</div>')
+        stations = [r_ for r_ in PLACES.get("rows", []) if r_["kind"] == "bus"]
+        named = [r_ for r_ in stations if (r_.get("name") or "").lower().find("songthaew") < 0
+                 and (r_.get("name") or r_.get("name_th"))]
+        if named:
+            b.append('<div class="scroll"><table><thead><tr>'
+                     f'<th>{E("Bus station" if en else "สถานีขนส่ง")}</th>'
+                     f'<th>{E("Thai" if en else "ภาษาไทย")}</th>'
+                     f'<th>{E("Operator, where OSM names one" if en else "ผู้เดินรถ ตามที่ OSM ระบุ")}</th>'
+                     "</tr></thead><tbody>")
+            for r_ in sorted(named, key=lambda x: -x["lat"])[:14]:
+                op = (r_.get("tags") or {}).get("operator") or "—"
+                b.append(f'<tr><th><a href="https://www.openstreetmap.org/{E(r_["osm"])}" '
+                         f'rel="noopener nofollow">{E(r_.get("name") or r_.get("name_th"))}</a></th>'
+                         f'<td class="th">{E(r_.get("name_th") or "—")}</td><td>{E(op)}</td></tr>')
+            b.append("</tbody></table></div>")
+
     if n:
         b.append(f'<h2>{E("Carry, do not ship" if en else "พกไปเอง อย่าส่ง")}</h2>'
                  f'<div class="prose">{prose(T(n, "text.how", lang))}</div>')
@@ -1335,11 +1359,10 @@ def baggage(lang: str) -> str:
     if ns:
         b.append(band("pai-canyon", "Pai" if en else "ปาย",
                       T(ns, "names.name", lang), T(ns, "names.said", lang), d1, lang, cls="right short"))
-        b.append(f'<h2>{E(T(ns, "names.name", lang))}</h2>'
-                 f'<div class="prose">{prose(T(ns, "text.story", lang))}</div>')
+        b.append(f'<div class="prose">{prose(T(ns, "text.story", lang))}</div>')
     b.append(f'<div class="grid">')
-    for rid in ("sending-the-bag-ahead", "no-storage", "packing-light", "one-way-rental",
-                "renting-a-bike", "loaded-bike"):
+    for rid in ("sending-the-bag-ahead", "bus-parcel", "no-storage", "packing-light",
+                "one-way-rental", "renting-a-bike", "loaded-bike"):
         r_ = BY_ID.get(rid)
         if r_:
             b.append(node_card(r_, lang, 1))

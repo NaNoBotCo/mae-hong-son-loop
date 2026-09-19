@@ -896,6 +896,12 @@
      "as": "The town below."
     },
     {
+     "from": "bus-parcel",
+     "type": "kit",
+     "name": "Sending a bag on the bus",
+     "as": "The far end of the northern leg, with its own station."
+    },
+    {
      "from": "one-way-rental",
      "type": "kit",
      "name": "Not coming back to Chiang Mai",
@@ -1249,6 +1255,12 @@
      "type": "stop",
      "name": "Pai Canyon",
      "as": "The town it is outside."
+    },
+    {
+     "from": "bus-parcel",
+     "type": "kit",
+     "name": "Sending a bag on the bus",
+     "as": "Where the northern operator's station is."
     },
     {
      "from": "the-smoke",

@@ -33,6 +33,11 @@
    "rel": "kit"
   },
   {
+   "to": "bus-parcel",
+   "as": "The bus method, step by step, with the words to say.",
+   "rel": "kit"
+  },
+  {
    "to": "no-storage",
    "as": "Why the bike itself is usually not the answer.",
    "rel": "kit"

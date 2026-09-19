@@ -49,6 +49,7 @@ on-the-back,bike,Riding on the back,นั่งซ้อนท้าย,,,,,,in
 step-through-110,bike,The 110–125 step-through,รถออโต้ 110–125 ซีซี,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/bike/step-through-110/
 trail-250,bike,The 250–450 trail bike,รถวิบาก 250–450,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/bike/trail-250/
 underbone-125,bike,The underbone with gears,รถครอบครัวมีเกียร์ 125,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/bike/underbone-125/
+bus-parcel,kit,Sending a bag on the bus,ฝากของไปกับรถโดยสาร,,,,,,tradition,medium,True,https://nanobotco.github.io/mae-hong-son-loop/kit/bus-parcel/
 gear,kit,What to wear,ใส่อะไร,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/kit/gear/
 no-storage,kit,The bike has nowhere to put it,รถไม่มีที่ใส่ของ,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/kit/no-storage/
 one-way-rental,kit,Not coming back to Chiang Mai,ไม่กลับเชียงใหม่,,,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/kit/one-way-rental/

@@ -69,6 +69,12 @@
    "as": "The load that comes off first."
   },
   {
+   "from": "bus-parcel",
+   "type": "kit",
+   "name": "Sending a bag on the bus",
+   "as": "What stays with you instead."
+  },
+  {
    "from": "gear",
    "type": "kit",
    "name": "What to wear",

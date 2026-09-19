@@ -34,7 +34,7 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Wats](https://nanobotco.github.io/mae-hong-son-loop/wats/) — 2
 - [Hazards](https://nanobotco.github.io/mae-hong-son-loop/hazards/) — 9
 - [Bikes](https://nanobotco.github.io/mae-hong-son-loop/bikes/) — 6
-- [Kit and logistics](https://nanobotco.github.io/mae-hong-son-loop/kit/) — 6
+- [Kit and logistics](https://nanobotco.github.io/mae-hong-son-loop/kit/) — 7
 - [People](https://nanobotco.github.io/mae-hong-son-loop/people/) — 2
 - [The calendar](https://nanobotco.github.io/mae-hong-son-loop/calendar/) — 6
 - [Words](https://nanobotco.github.io/mae-hong-son-loop/words/) — 5
@@ -872,6 +872,42 @@ The Super Cub layout it descends from has been in production since 1958 and is t
 
 Provenance: cited · s:wp-honda-super-cub
 Sources: s:wp-honda-wave-series, s:wp-honda-super-cub, s:wp-underbone
+
+## Sending a bag on the bus (kit/bus-parcel)
+Thai: ฝากของไปกับรถโดยสาร
+
+### what
+Thai intercity and minibus operators carry parcels on the same departures that carry passengers. On this circuit that matters more than it does most places, because the bus is going exactly where you are going, on the same day.
+
+### story
+**Who runs the buses you would be using.** OpenStreetMap tags the operator at the Mae Malai stop and at the stop above Soppong as **Prempracha Transport**, and gives Pai's bus station the Thai name **เปรมประชาขนส่ง** — Prempracha Transport. That is the northern leg: Chiang Mai, Mae Malai, Pai, Soppong, Mae Hong Son, which is the clockwise route. Mae Hong Son, Khun Yuam and Mae Sariang all have their own bus stations on the southern leg. So a bag can be handed over at one end of a leg and collected at the other, on the run you are riding alongside.
+
+**The step that makes it different from the post.** A posted parcel goes to an address, which means a guesthouse has to agree in advance to receive a bag for a guest who has not arrived. A bus parcel goes to **the operator's counter at the destination bus station**, and you collect it yourself when you get to town. Nobody else has to agree to anything. *Inference —* on a route where you are arriving in a different town every evening, that is the simpler arrangement by a distance.
+
+**What you are actually handing over.** A soft bag, closed, with the destination and a phone number on it. It goes in the luggage hold with the passengers' bags. It is not tracked by an app; it is on a named departure, and it arrives when that bus arrives.
+
+### how
+*Tradition holds —* the procedure is ordinary and it goes like this. Every step is what this service normally involves; none of it is a quoted policy, and prices, cut-off times and what any given operator will accept are **not on this disk**.
+
+**1. Go to the operator's counter at the bus station,** not to a parcel shop. It is the same window that sells tickets for your route.
+
+**2. Say what you want.** *ฝากของ* — *fàak khǎwng* — is the everyday phrase: to entrust goods. *ส่งพัสดุ* — *sòng phátsàdù* — is the formal one, to send a parcel. Then the destination: *ฝากของไปแม่ฮ่องสอน* — send this to Mae Hong Son.
+
+**3. Give them the details.** Destination town, the name of whoever is collecting, and a phone number that works in Thailand. Your own name and number go on it too.
+
+**4. Pay and take the slip.** The fee is usually paid by the sender, at the origin, by weight or size. You are given a receipt — *ใบรับของ* — and the number on it is the thing that matters. Photograph it.
+
+**5. Ask when it lands.** *ถึงกี่โมง* — *thǔeng kìi moong* — what time does it arrive. It travels on a specific departure, so the answer is a time, not an estimate.
+
+**6. Collect it.** At the destination bus station, at that operator's counter, with the slip and your passport. *มารับของ* — *maa ráp khǎwng* — I have come to collect a parcel.
+
+**Turn up early enough.** A parcel has to be at the counter before the bus goes, and that is earlier than you would think. Send it in the morning for a bag you want that evening.
+
+**Do not send:** cash, documents, anything medical, anything you cannot replace. Those ride with you. See the baggage page.
+
+Provenance: tradition
+Sources: s:osm, s:wp-thailand-post
+NEEDS VERIFICATION
 
 ## What to wear (kit/gear)
 Thai: ใส่อะไร
