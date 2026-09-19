@@ -17,14 +17,14 @@ import math
 BOX = (18.09, 97.86, 19.61, 99.04)
 
 
-def fit(lines, pad_deg=0.045):
+def fit(lines, pad_deg=0.045, pad_e=0.055):
     """A box around every drawn line, so a map is never mostly empty."""
     pts = [p for line in lines for p in line]
     if not pts:
         return BOX
     lats = [p[0] for p in pts]
     lons = [p[1] for p in pts]
-    return (min(lats) - pad_deg, min(lons) - pad_deg, max(lats) + pad_deg, max(lons) + pad_deg)
+    return (min(lats) - pad_deg, min(lons) - pad_deg, max(lats) + pad_deg, max(lons) + pad_e)
 
 
 class Proj:
@@ -92,6 +92,9 @@ def demand_path_layer(p: Proj, density: list, pts_by_window: list | None = None)
 
 
 def dots(p: Proj, rows: list, cls="dot", r=3.2, label=False) -> str:
+    """Pins, and optionally their names. A label near the right edge is anchored to the
+    end and drawn to the LEFT of its pin, because a label that runs off the canvas is
+    worse than one on the other side of the dot."""
     out = []
     for row in rows:
         lat, lon = row.get("lat"), row.get("lon")
@@ -103,7 +106,11 @@ def dots(p: Proj, rows: list, cls="dot", r=3.2, label=False) -> str:
         out.append(f'<circle class="{cls} {row.get("cls","")}" cx="{x:.1f}" cy="{y:.1f}" r="{r}">'
                    f'<title>{extra}</title></circle>')
         if label and name:
-            out.append(f'<text class="lbl" x="{x + 6:.1f}" y="{y + 3.5:.1f}">{name}</text>')
+            # roughly 6.4 px per character at the label's size and weight
+            flip = (x + 8 + len(name) * 6.4) > p.width
+            lx = x - 7 if flip else x + 7
+            anchor = ' text-anchor="end"' if flip else ""
+            out.append(f'<text class="lbl"{anchor} x="{lx:.1f}" y="{y + 3.5:.1f}">{name}</text>')
     return "".join(out)
 
 
