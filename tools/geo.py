@@ -49,10 +49,16 @@ class Proj:
         pts = line[::every] if every > 1 else line
         if pts[-1] is not line[-1]:
             pts = list(pts) + [line[-1]]
-        d = []
+        # integers, and no repeated point. A tenth of a pixel is not visible at any
+        # width this draws at, and the road polylines were most of the map's bytes.
+        d, last = [], None
         for i, (lat, lon) in enumerate(pts):
             x, y = self.xy(lat, lon)
-            d.append(f"{'M' if i == 0 else 'L'}{x:.1f} {y:.1f}")
+            xy = (round(x), round(y))
+            if xy == last:
+                continue
+            d.append(f"{'M' if not d else 'L'}{xy[0]} {xy[1]}")
+            last = xy
         return "".join(d)
 
 
@@ -89,6 +95,39 @@ def demand_path_layer(p: Proj, density: list, pts_by_window: list | None = None)
         out.append(f'<path class="dm dm-{band_class(d["band"])}" d="{p.path(seg)}">'
                    f'<title>{d["per_km"]} curves/km · {d["hairpins"]} hairpin · {d["km"]} km</title></path>')
     return "".join(out)
+
+
+_SWARM_N = 0
+
+
+def swarm(p: Proj, rows: list, cls="dot", r=2.4) -> str:
+    """Hundreds of harvested places as one reusable shape.
+
+    A <circle> with a <title> and a class costs about 130 bytes, and the coffee index
+    put twelve hundred of them on the page: 158 KB of the 216 KB it weighed, against
+    19 KB for the list of places anyone could actually read. A <use> at integer
+    coordinates is a quarter of that, and a two-pixel dot was never a hover target."""
+    out, seen = [], set()
+    for row in rows:
+        lat, lon = row.get("lat"), row.get("lon")
+        if lat is None:
+            continue
+        x, y = p.xy(lat, lon)
+        k = (round(x), round(y))
+        if k in seen:                 # two shops at one pixel are one pixel
+            continue
+        seen.add(k)
+        out.append((k[0], k[1]))
+    if not out:
+        return ""
+    # a one-character id: two swarms on a page must not collide, and the reference is
+    # repeated once per dot, so the name's length is paid a thousand times over
+    global _SWARM_N
+    _SWARM_N += 1
+    sid = f"s{_SWARM_N}"
+    body = "".join(f'<use href="#{sid}" x="{x}" y="{y}"/>' for x, y in out)
+    return (f'<defs><circle id="{sid}" cx="0" cy="0" r="{r}"/></defs>'
+            f'<g class="{cls}">{body}</g>")'.replace('</g>")', "</g>"))
 
 
 def dots(p: Proj, rows: list, cls="dot", r=3.2, label=False) -> str:

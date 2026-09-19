@@ -384,7 +384,7 @@ def basemap_svg() -> str:
 
 
 def base_map(width=820, demand=False, highlight=None, pins=None, labels=True, depth=1,
-             lang="en"):
+             lang="en", swarm=None):
     """The one map. Every page draws the same geography and adds its own layer.
 
     Every stitched chain is drawn, not just the longest: a route number goes missing for a
@@ -445,10 +445,16 @@ def base_map(width=820, demand=False, highlight=None, pins=None, labels=True, de
         poi = [{"lat": x["lat"], "lon": x["lon"], "cls": x["kind"],
                 "title": x.get("name") or x["kind"]}
                for x in PLACES.get("rows", []) if x["kind"] in ("viewpoint", "waterfall")]
-        out.append(geo.dots(p, poi, cls="poi", r=2.1))
+        # every viewpoint and waterfall OSM knows, as a swarm: they are a texture showing
+        # how much there is to stop for, not five hundred things to hover one at a time
+        out.append(geo.swarm(p, [x for x in poi if x["cls"] == "viewpoint"], cls="poi", r=2.1))
+        out.append(geo.swarm(p, [x for x in poi if x["cls"] == "waterfall"],
+                             cls="poi waterfall", r=2.1))
         out.append(geo.stars(p, starred, r=5.4))
         out.append(geo.dots(p, rows, r=4.2, label=labels))
     else:
+        if swarm:
+            out.append(geo.swarm(p, swarm, cls="poi " + (swarm[0].get("kind") or "")))
         out.append(geo.dots(p, pins, r=4.2, label=labels))
     out.append(geo.scalebar(p))
     out.append("</svg>")
@@ -2219,9 +2225,11 @@ def type_index(t: str, lang: str) -> str:
         pins = [{"lat": n["geo"]["lat"], "lon": n["geo"]["lon"], "name": n["names"]["name"], "cls": "town"}
                 for n in recs if n.get("geo")]
         if pins or named:
-            hp = pins + [{"lat": h["lat"], "lon": h["lon"], "name": "", "cls": t,
-                          "title": h.get("name") or ""} for h in named[:1200]]
-            b.append('<figure class="map">' + base_map(860, pins=hp, labels=False, depth=root_depth(1, lang), lang=lang) +
+            # the written-up few are pins; the harvested many are a swarm, which is a
+            # shape on the page rather than twelve hundred hoverable elements
+            hp = pins
+            b.append('<figure class="map">' + base_map(860, pins=hp, labels=False, depth=root_depth(1, lang), lang=lang,
+                                                       swarm=named[:1600]) +
                      f'<figcaption>{E(str(len(recs)) + " written up, " + format(len(harv), ",") + " harvested from OpenStreetMap" if lang == "en" else str(len(recs)) + " รายการที่เขียนไว้ " + format(len(harv), ",") + " รายการจาก OpenStreetMap")} · '
                      f'{MAP_CREDIT}</figcaption></figure>')
         if recs:

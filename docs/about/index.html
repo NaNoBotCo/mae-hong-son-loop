@@ -262,6 +262,10 @@ ul.places a{text-decoration:none;border-bottom:1px solid var(--line)}
 .starlink:focus-visible .star{stroke:var(--hot);stroke-width:2.4}
 .poi{fill:#3d7a55;stroke:none;opacity:.62}
 .poi.waterfall{fill:#2f7ea8}
+/* the swarm takes the colour of what it is, so a page's own kind reads against the rest */
+.poi.coffee{fill:#b5651d}.poi.stay{fill:#7b57c9}.poi.wat{fill:#d4a017}
+.poi.spring{fill:#d94f6a}.poi.fuel{fill:#3d7a55}.poi.repair{fill:#5a6b7a}
+.poi use{opacity:.72}
 .star.big{fill:var(--hot)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .relief .r0{fill:#1b1812}
  :root:not([data-theme="light"]) .relief .r1{fill:#211d16}
@@ -492,7 +496,7 @@ python3 tools/harvest_air.py --all
 python3 tools/curves.py
 python3 tools/validate.py
 python3 tools/build.py
-python3 tools/site.py</code></pre><p class="small mute">Built 2026-09-19 16:38</p>
+python3 tools/site.py</code></pre><p class="small mute">Built 2026-09-19 16:44</p>
 </main>
 <footer class="bot"><div class="in">
 <p><b>The Mae Hong Son Loop</b> — 1,864 curves between Chiang Mai and Mae Hong Son, and everything worth stopping for</p>
