@@ -789,6 +789,7 @@ BANDS = {
     "mae-surin":   ("mae-surin-waterfall", ""),
     "poy":         ("poy-sang-long", ""),
     "words":       ("mae-hong-son", ""),
+    "road-1095":   ("route-1095", ""),
 }
 
 
@@ -1243,12 +1244,21 @@ def danger(lang: str) -> str:
          f'{E("Where it asks the most" if lang == "en" else "ช่วงที่หนักที่สุด")}</h1>',
          f'<p class="lede">{E("Nobody publishes a crash map for these roads and this project will not invent one. This is a map of how much steering each two kilometres asks for, measured the same way everywhere." if lang == "en" else "ไม่มีใครเผยแพร่แผนที่อุบัติเหตุของถนนเหล่านี้ และโครงการนี้จะไม่แต่งขึ้นมา นี่คือแผนที่ว่าทุกสองกิโลเมตรต้องบังคับรถมากแค่ไหน วัดด้วยวิธีเดียวกันทุกที่")}</p>']
     d1 = root_depth(1, lang)
-    b.append(band("road-1263", "Route 1263" if lang == "en" else "ทางหลวง 1263",
-                  "Where it asks the most" if lang == "en" else "ช่วงที่หนักที่สุด",
+    # the figure was hardcoded at 7.45 and had gone stale against the road it named, and
+    # the band's kicker said 1263 while its label said 1095. Take both from the count.
+    top_ref, top_win = "1095", {"per_km": 0}
+    for ref_, rr_ in CURVES.get("roads", {}).items():
+        for d_ in rr_.get("hardest", [])[:1]:
+            if d_["per_km"] > top_win["per_km"]:
+                top_ref, top_win = ref_, d_
+    b.append(band(f"road-{top_ref}" if f"road-{top_ref}" in BANDS else "road-1095",
+                  f"Route {top_ref}" if lang == "en" else f"ทางหลวง {top_ref}",
+                  "Two kilometres at a time" if lang == "en" else "ครั้งละสองกิโลเมตร",
                   "Curves per kilometre in fixed two-kilometre windows, measured the same way everywhere."
                   if lang == "en" else "จำนวนโค้งต่อกิโลเมตรในหน้าต่างสองกิโลเมตร วัดด้วยวิธีเดียวกันทุกที่",
-                  d1, lang, big="7.45", big_label=("hardest 2 km on Route 1095"
-                                                   if lang == "en" else "2 กม. ที่หนักที่สุดบน 1095")))
+                  d1, lang, big=str(top_win["per_km"]),
+                  big_label=(f"hardest 2 km on the loop — Route {top_ref}" if lang == "en"
+                             else f"2 กม. ที่หนักที่สุด ทางหลวง {top_ref}")))
     b.append('<figure class="map">' + base_map(880, demand=True, depth=d1, lang=lang) +
              f'<figcaption>© OpenStreetMap contributors · {E("2 km windows, 25° threshold" if lang == "en" else "หน้าต่าง 2 กม. เกณฑ์ 25 องศา")}</figcaption></figure>')
     bands = CURVES.get("bands", {})

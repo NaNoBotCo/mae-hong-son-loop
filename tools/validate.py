@@ -220,6 +220,7 @@ def validate_all(strict=False, quiet=False) -> int:
             warns.append(f"{tag}: no geo (map will not show it)")
         if not r.get("sources") and prov.get("default", {}).get("tier") in ("cited", "harvested"):
             warns.append(f"{tag}: tier {prov['default']['tier']} but sources is empty")
+    errors += check_images(recs)
     if not quiet:
         for w in warns:
             print("warn ", w)
@@ -229,6 +230,34 @@ def validate_all(strict=False, quiet=False) -> int:
     if errors or (strict and warns):
         return 1
     return 0
+
+
+# ---------------------------------------------------------------- image sanity
+# A route number is a short string of digits and it turns up in things that are not
+# roads. The only picture on Route 1263 was an Airbus A330 on its way to a paintshop,
+# harvested because the airframe's serial was 1263. Names match; subjects do not.
+OFF_SUBJECT = re.compile(
+    r"\b(a3\d\d|a380|boeing|airbus|aircraft|airline|airplane|paintshop|fuselage|"
+    r"locomotive|railway|rolling stock|stadium|football|basketball|"
+    r"motherboard|postage stamp|banknote)\b", re.I)
+# Only proper nouns clear a picture. The first version of this list held "road" and
+# "route", and "en-route to the paintshop" cleared the aeroplane it was written to catch.
+ON_SUBJECT = re.compile(
+    r"\b(thailand|thai|chiang\s?mai|chiang|mae\s?hong\s?son|mae|hong\s?son|"
+    r"soppong|khun\s?yuam|sariang|chaem|lanna|shan|karen|hmong|lisu|lahu|akha|"
+    r"inthanon|salween|doi|wat|songthaew|tham|namtok)\b", re.I)
+
+
+def check_images(nodes: list) -> list:
+    """Flag a picture whose caption is about something the record is not about."""
+    bad = []
+    for n in nodes:
+        for im in (n.get("images") or []):
+            alt = im.get("alt") or ""
+            if OFF_SUBJECT.search(alt + " " + (im.get("file") or "")) and not ON_SUBJECT.search(alt):
+                bad.append(f"{n['type']}/{n['id']}: picture is off-subject — {alt[:70]!r} "
+                           f"({im.get('file','')[:60]})")
+    return bad
 
 
 if __name__ == "__main__":
