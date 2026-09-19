@@ -385,15 +385,35 @@ def shot_strip(ims: list, depth: int) -> str:
     return "".join(out)
 
 
-def gallery_pool(limit=12) -> list:
-    """One picture from each record that has one, for the front page."""
-    out = []
+# The front page's band is an invitation, so it is chosen by subject rather than by
+# whatever sorts first: places and scenery ahead of roads, and a named shortlist ahead of
+# everything. A picture of an airport apron is a true picture of Mae Hong Son and a poor
+# argument for going there.
+GALLERY_FIRST = ["pang-ung", "ban-rak-thai", "bua-tong-bloom", "doi-kong-mu", "pai",
+                 "tham-lot", "mae-surin-waterfall", "doi-inthanon", "op-luang",
+                 "chong-kham-chong-klang", "poy-sang-long", "pai-canyon", "cool-season",
+                 "mae-hong-son", "the-rains", "mae-sariang"]
+GALLERY_TYPES = ("stop", "wat", "town", "event", "leg")
+
+
+def gallery_pool(limit=8) -> list:
+    """One picture per record, best subjects first, capped at `limit`."""
+    out, seen = [], set()
+    for rid in GALLERY_FIRST:
+        n = BY_ID.get(rid)
+        ims = pictures(n) if n else []
+        if ims:
+            out.append((n, next((i for i in ims if i.get("primary")), ims[0])))
+            seen.add(rid)
     for n in NODES:
+        if len(out) >= limit:
+            break
+        if n["id"] in seen or n["type"] not in GALLERY_TYPES:
+            continue
         ims = pictures(n)
         if ims:
-            im = next((i for i in ims if i.get("primary")), ims[0])
-            out.append((n, im))
-    return out
+            out.append((n, next((i for i in ims if i.get("primary")), ims[0])))
+    return out[:limit]
 
 
 # ---------------------------------------------------------------- node page

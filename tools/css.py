@@ -105,8 +105,10 @@ figure.shot figcaption a{color:var(--mute)}
 .hero-shot .cap{position:absolute;right:0;bottom:0;background:var(--bg);color:var(--mute);
  font-size:.66rem;padding:.2rem .45rem;border-top:2px solid var(--ink);border-left:2px solid var(--ink);max-width:70%}
 .hero-shot .cap a{color:var(--mute)}
-.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));
+.strip{display:grid;grid-template-columns:repeat(2,1fr);
  border:3px solid var(--ink);margin:1.2rem 0;background:var(--bg)}
+@media (min-width:38rem){.strip{grid-template-columns:repeat(4,1fr)}}
+@media (min-width:62rem){.strip{grid-template-columns:repeat(4,1fr)}}
 .strip figure{margin:0;position:relative;background:var(--panel);
  border-right:3px solid var(--ink);border-bottom:3px solid var(--ink)}
 .strip figure:last-child{border-right:0}
