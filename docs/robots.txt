@@ -8,7 +8,9 @@ Sitemap: https://nanobotco.github.io/mae-hong-son-loop/sitemap.xml
 
 # The rest of this publisher's sites
 Sitemap: https://motdang.net/sitemap.xml
+Sitemap: https://motdang.net/muay-thai/sitemap.xml
 Sitemap: https://wichaa.net/sitemap.xml
+Sitemap: https://nanobotco.github.io/hand-poke/sitemap.xml
 Sitemap: https://nanobotco.github.io/amulet-atlas/sitemap.xml
 Sitemap: https://nanobotco.github.io/carolina-barbecue/sitemap.xml
 Sitemap: https://nanobotco.github.io/buffalo-wings/sitemap.xml

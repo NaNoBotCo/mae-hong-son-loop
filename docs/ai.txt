@@ -9,7 +9,9 @@ Publisher: NaNoBotCo · nan@motdang.net
 Everything this publisher holds, counted: https://nanobotco.github.io/index/
 Sibling corpora (roster as JSON): https://nanobotco.github.io/index/fleet.json
   Mot Dang: https://motdang.net/
+  Muay Thai: https://motdang.net/muay-thai/
   wichaa: https://wichaa.net/
+  Hand Poke: https://nanobotco.github.io/hand-poke/
   Amulet Atlas: https://nanobotco.github.io/amulet-atlas/
   Carolina Barbecue: https://nanobotco.github.io/carolina-barbecue/
   Wing Country: https://nanobotco.github.io/buffalo-wings/

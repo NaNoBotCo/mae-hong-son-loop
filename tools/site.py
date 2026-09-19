@@ -233,6 +233,7 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
 <p><a href="{rin}about/">{E(ui['about'])}</a> · <a href="{r}api/">API</a> · <a href="{rin}all/">{E(ui['all'])}</a> · <a href="{r}llms.txt">llms.txt</a></p>
 {fleet.row_html(SELF, label=("More from the same publisher" if lang == "en" else "เว็บอื่นของผู้จัดทำ"), roster=ROSTER)}
 {fleet.support_html(roster=ROSTER)}
+{fleet.maker_html(roster=ROSTER, lang=lang)}
 </div></footer>
 </body></html>
 """
