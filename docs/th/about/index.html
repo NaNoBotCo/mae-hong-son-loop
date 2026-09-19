@@ -59,6 +59,16 @@ img{max-width:100%;height:auto}
 
 /* ---- frame */
 header.top{border-bottom:2px solid var(--ink);position:sticky;top:0;z-index:30;background:var(--bg)}
+/* ---- the bar gets out of the way on a phone (added 2026-09-19)
+   The nav wraps to three or four rows at 375px; sticky kept them over a
+   quarter of the screen for the whole page. Scroll down and the bar slides
+   away; scroll up — any amount — and it comes back. Wide screens, where the
+   bar is one row, keep it pinned. */
+@media (max-width:52rem){
+ header.top{transition:transform .2s ease}
+ body.nav-away header.top{transform:translateY(-100%)}
+}
+
 header.top .in{max-width:68rem;margin:0 auto;padding:.5rem 1rem;display:flex;gap:.5rem 1rem;
  align-items:center;flex-wrap:wrap}
 .brand{font-family:var(--display);font-weight:800;font-size:1.22rem;letter-spacing:.01em;
@@ -519,7 +529,7 @@ python3 tools/harvest_air.py --all
 python3 tools/curves.py
 python3 tools/validate.py
 python3 tools/build.py
-python3 tools/site.py</code></pre><p class="small mute">Built 2026-09-19 17:00</p>
+python3 tools/site.py</code></pre><p class="small mute">Built 2026-09-19 20:21</p>
 </main>
 <footer class="bot"><div class="in">
 <p><b>วงรอบแม่ฮ่องสอน</b> — 1,864 โค้ง ระหว่างเชียงใหม่กับแม่ฮ่องสอน และทุกจุดที่ควรแวะ</p>

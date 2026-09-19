@@ -2657,7 +2657,17 @@ def main() -> int:
           "document.querySelectorAll('[data-copy]').forEach(function(b){"
           "b.addEventListener('click',function(){navigator.clipboard&&"
           "navigator.clipboard.writeText(b.dataset.copy);var t=b.textContent;"
-          "b.textContent='\\u2713';setTimeout(function(){b.textContent=t},1200)})});")
+          "b.textContent='\\u2713';setTimeout(function(){b.textContent=t},1200)})});"
+          # the top bar retracts on scroll-down, returns on scroll-up (2026-09-19)
+          '(function(){var h=document.querySelector("header.top");if(!h)return;'
+          'var b=document.body,last=window.pageYOffset,hh=h.offsetHeight;'
+          'addEventListener("resize",function(){hh=h.offsetHeight},{passive:true});'
+          'addEventListener("scroll",function(){var y=window.pageYOffset,d=y-last;'
+          'if(y<=hh||d<-4){b.classList.remove("nav-away")}'
+          'else if(d>4){b.classList.add("nav-away")}'
+          'if(Math.abs(d)>1)last=y},{passive:true});'
+          'addEventListener("focusin",function(e){if(h.contains(e.target))'
+          'b.classList.remove("nav-away")});})();')
 
     # the mount point, so serve.py and links.py can reproduce production exactly
     write(SITE / ".basepath", BASE_PATH)
