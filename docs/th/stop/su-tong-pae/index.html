@@ -8,6 +8,7 @@
 <link rel="canonical" href="https://nanobotco.github.io/mae-hong-son-loop/th/stop/su-tong-pae/">
 <link rel="alternate" hreflang="en" href="https://nanobotco.github.io/mae-hong-son-loop/stop/su-tong-pae/">
 <link rel="alternate" hreflang="th" href="https://nanobotco.github.io/mae-hong-son-loop/th/stop/su-tong-pae/">
+<link rel="alternate" hreflang="x-default" href="https://nanobotco.github.io/mae-hong-son-loop/stop/su-tong-pae/">
 <meta property="og:title" content="สะพานซูตองเป้ — วงรอบแม่ฮ่องสอน">
 <meta property="og:description" content="สะพานไม้ไผ่สายยาวข้ามทุ่งนาและลำธาร นอกตัวเมืองแม่ฮ่องสอน บนเส้นทางไปขุนยวม">
 <meta property="og:type" content="website">
@@ -15,9 +16,9 @@
 <meta property="og:site_name" content="วงรอบแม่ฮ่องสอน">
 <meta property="og:locale" content="th_TH">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="../../icon.svg" type="image/svg+xml">
-<link rel="manifest" href="../../manifest.webmanifest">
-<link rel="alternate" type="application/atom+xml" href="../../feed.xml">
+<link rel="icon" href="../../../icon.svg" type="image/svg+xml">
+<link rel="manifest" href="../../../manifest.webmanifest">
+<link rel="alternate" type="application/atom+xml" href="../../../feed.xml">
 <style>
 :root{
  --bg:#fdfbf4;--panel:#ffffff;--ink:#17110c;--mute:#6a5a49;--line:#e6dcc8;--chip:#f4ecd8;
@@ -111,6 +112,53 @@ mark.inf{background:none;color:var(--mute);font-style:italic}
 .dirsw button:last-child{border-right:0}
 .dirsw button[aria-pressed="true"]{background:var(--hot);color:#fff}
 .dirnote{font-size:.9rem;color:var(--mute);margin:.2rem 0 1rem;max-width:40rem}
+
+/* ---- parallax bands
+   Four layers, bottom to top: a fixed background photograph; a gradient scrim that is
+   heaviest where the text sits; a flat brand tint that pulls the whole thing to one
+   colour so a band never fights the page; and the text.
+
+   `background-attachment: fixed` is what makes the photograph hold still while the page
+   moves over it. It is also the property mobile Safari has never handled, and it forces
+   a repaint on every scroll frame, so it is switched off for coarse pointers and for
+   anyone who has asked for reduced motion — in both cases the band degrades to a plain
+   cover image, which still looks right. */
+.band{position:relative;isolation:isolate;
+ margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);width:100vw;
+ min-height:clamp(260px,52vh,520px);display:grid;align-items:center;
+ background-size:cover;background-position:center;background-repeat:no-repeat;
+ background-attachment:fixed;background-color:#0b0906;
+ border-top:3px solid var(--ink);border-bottom:3px solid var(--ink);margin-block:2.6rem}
+.band::before{content:"";position:absolute;inset:0;z-index:-2;
+ background:linear-gradient(180deg,rgba(6,5,4,.80) 0%,rgba(6,5,4,.34) 38%,
+  rgba(6,5,4,.46) 62%,rgba(6,5,4,.86) 100%)}
+.band::after{content:"";position:absolute;inset:0;z-index:-1;mix-blend-mode:multiply;
+ background:radial-gradient(120% 90% at 22% 32%,rgba(224,50,43,.20),transparent 62%),
+  linear-gradient(90deg,rgba(11,9,6,.55),transparent 55%)}
+.band .in{max-width:68rem;margin:0 auto;padding:clamp(2rem,6vw,4.2rem) 1rem;width:100%}
+.band .kicker{display:block;font-family:var(--display);font-size:.7rem;font-weight:800;
+ letter-spacing:.34em;text-transform:uppercase;color:#ff8f86;margin-bottom:.7rem}
+.band h2{font-family:var(--display);font-size:clamp(1.9rem,6vw,3.5rem);line-height:.98;
+ margin:0 0 .5rem;border:0;color:#fff;text-transform:uppercase;letter-spacing:-.01em;
+ text-shadow:0 2px 26px rgba(0,0,0,.55);max-width:22ch}
+.band p{color:#f2e9dc;font-size:clamp(1rem,2.2vw,1.2rem);max-width:34ch;margin:.3rem 0 0;
+ text-shadow:0 1px 14px rgba(0,0,0,.7)}
+.band .big{font-family:var(--display);font-size:clamp(3rem,11vw,7rem);line-height:.86;
+ font-weight:800;color:#fff;margin:0;text-shadow:0 3px 34px rgba(0,0,0,.6);letter-spacing:-.02em}
+.band .big small{display:block;font-family:var(--body);font-size:.16em;letter-spacing:.24em;
+ text-transform:uppercase;color:#ff8f86;margin-top:.5rem;font-weight:800}
+.band .btn{margin-top:1.3rem}
+.band .cred{position:absolute;right:0;bottom:0;z-index:1;font-size:.6rem;color:#cbbfae;
+ background:rgba(6,5,4,.72);padding:.22rem .5rem;max-width:72%}
+.band .cred a{color:#e4d9c8}
+.band.right .in{text-align:right;display:flex;flex-direction:column;align-items:flex-end}
+.band.right::after{background:radial-gradient(120% 90% at 78% 32%,rgba(224,50,43,.20),transparent 62%),
+ linear-gradient(270deg,rgba(11,9,6,.55),transparent 55%)}
+.band.tall{min-height:clamp(340px,72vh,680px)}
+.band.short{min-height:clamp(200px,34vh,320px)}
+@media (pointer:coarse),(prefers-reduced-motion:reduce){
+ .band{background-attachment:scroll}}
+@media print{.band{display:none}}
 
 /* ---- pictures */
 figure.shot{margin:1.2rem 0;border:3px solid var(--ink);background:var(--panel)}
@@ -262,7 +310,7 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
 }
 </style>
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "สะพานซูตองเป้", "inLanguage": "th", "url": "https://nanobotco.github.io/mae-hong-son-loop/th/stop/su-tong-pae/", "description": "สะพานไม้ไผ่สายยาวข้ามทุ่งนาและลำธาร นอกตัวเมืองแม่ฮ่องสอน บนเส้นทางไปขุนยวม", "author": {"@type": "Person", "name": "NaN", "url": "https://wichaa.net"}, "license": "https://creativecommons.org/licenses/by/4.0/", "dateModified": "2026-09-18", "isPartOf": {"@type": "WebSite", "name": "วงรอบแม่ฮ่องสอน", "url": "https://nanobotco.github.io/mae-hong-son-loop"}}, {"@context": "https://schema.org", "@type": "Place", "name": "สะพานซูตองเป้", "geo": {"@type": "GeoCoordinates", "latitude": 19.25, "longitude": 97.9833}}]</script>
-<script defer src="../../copy.js"></script>
+<script defer src="../../../copy.js"></script>
 </head>
 <body>
 <a class="sr" href="#main">Skip to content</a>
@@ -270,8 +318,8 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
 <a class="brand" href="../../">Mae Hong Son <b>Loop</b></a>
 <nav><a href="../../">วงรอบ</a><a href="../../legs/">ช่วงทาง</a><a href="../../which-way/">ไปทางไหน</a><a href="../../numbers/">ตัวเลข</a><a href="../../air/">อากาศ</a><a href="../../danger/">อันตราย</a><a href="../../quiz/">ขี่แบบไหน</a><a href="../../roadbook/">สมุดเส้นทาง</a></nav>
 <span class="langsw">
-<a href="../../" hreflang="en">EN</a>
-<a href="../../th/" aria-current="true" hreflang="th">ไทย</a>
+<a href="../../../stop/su-tong-pae/" hreflang="en">EN</a>
+<a href="../../../th/stop/su-tong-pae/" aria-current="true" hreflang="th">ไทย</a>
 </span>
 </div></header>
 <main id="main">
@@ -280,7 +328,7 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
 <footer class="bot"><div class="in">
 <p><b>วงรอบแม่ฮ่องสอน</b> — หกร้อยกิโลเมตร ป้ายบอก 1,864 โค้ง และแผนที่ให้คำตอบอีกแบบ</p>
 <p>บันทึกเผยแพร่ภายใต้ CC BY 4.0 เส้นทางและสถานที่ © ผู้ร่วมสร้าง OpenStreetMap ภายใต้ ODbL 1.0 ข้อมูลอากาศจาก Open-Meteo (CAMS) ภายใต้ CC BY 4.0 และกรมควบคุมมลพิษ เนื้อหาอ้างอิงจากวิกิพีเดีย ภายใต้ CC BY-SA 4.0</p>
-<p><a href="../../about/">ทำขึ้นอย่างไร</a> · <a href="../../api/">API</a> · <a href="../../all/">ทั้งหมด</a> · <a href="../../llms.txt">llms.txt</a></p>
+<p><a href="../../about/">ทำขึ้นอย่างไร</a> · <a href="../../../api/">API</a> · <a href="../../all/">ทั้งหมด</a> · <a href="../../../llms.txt">llms.txt</a></p>
 <div class="fleet">เว็บอื่นของผู้จัดทำ: <a href="https://motdang.net/" title="city directory for Chiang Mai and Chiang Rai">Mot Dang</a> · <a href="https://wichaa.net/" title="Lanna manuscripts, the amulet market, and the traditions around them">wichaa</a> · <a href="https://nanobotco.github.io/amulet-atlas/" title="amulets, charms and talismans worldwide">Amulet Atlas</a> · <a href="https://nanobotco.github.io/carolina-barbecue/" title="barbecue in North and South Carolina">Carolina Barbecue</a> · <a href="https://nanobotco.github.io/buffalo-wings/" title="the American chicken wing">Wing Country</a> · <a href="https://nanobotco.github.io/pink-box/" title="the American mom-and-pop donut shop">Pink Box</a> · <a href="https://nanobotco.github.io/basque-tables/" title="Basque dining rooms of California, Nevada and Idaho">Basque Tables</a> · <a href="https://nanobotco.github.io/pinot-noir/" title="pinot noir: the vine, the regions, the cellars">Pinot Country</a> · <a href="https://nanobotco.github.io/care-abroad/" title="treatment across borders, with published prices and their dates">Care Abroad</a> · <a href="https://nanobotco.github.io/thairoots/" title="a root dictionary of Thai, with a word decomposer">Thai Roots</a> · <a href="https://nanobotco.github.io/index/" title="every corpus, site and repository, counted">The index</a> · <a href="https://nanobotco.github.io/uptake/" title="a field manual on publishing for machines that copy">Uptake</a> · <a href="https://nanobotco.github.io/" title="the portal">NaNoBotCo</a> · <a href="https://hakfarang.net/" title="เรื่องเงิน วีซ่า และชีวิตกับแฟนฝรั่ง">ฮักฝรั่ง</a> · <a href="https://offrampt.net/" title="turning crypto into spendable local money, Thailand first">Offrampt</a></div>
 <div class="support">Contact: Nan · <a href="mailto:nan@motdang.net">nan@motdang.net</a> · Sponsor: <a href="https://www.patreon.com/nanobotco" rel="noopener" target="_blank">Patreon</a> · <a href="https://ko-fi.com/defiantchiangmai" rel="noopener" target="_blank">Ko-fi</a></div>
 </div></footer>

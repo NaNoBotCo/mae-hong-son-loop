@@ -8,6 +8,7 @@
 <link rel="canonical" href="https://nanobotco.github.io/mae-hong-son-loop/kit/">
 <link rel="alternate" hreflang="en" href="https://nanobotco.github.io/mae-hong-son-loop/kit/">
 <link rel="alternate" hreflang="th" href="https://nanobotco.github.io/mae-hong-son-loop/th/kit/">
+<link rel="alternate" hreflang="x-default" href="https://nanobotco.github.io/mae-hong-son-loop/kit/">
 <meta property="og:title" content="Kit and logistics — The Mae Hong Son Loop">
 <meta property="og:description" content="What rides with you, what goes ahead in a parcel, what stays in Chiang Mai, and what the rental contract actually says.">
 <meta property="og:type" content="website">
@@ -111,6 +112,53 @@ mark.inf{background:none;color:var(--mute);font-style:italic}
 .dirsw button:last-child{border-right:0}
 .dirsw button[aria-pressed="true"]{background:var(--hot);color:#fff}
 .dirnote{font-size:.9rem;color:var(--mute);margin:.2rem 0 1rem;max-width:40rem}
+
+/* ---- parallax bands
+   Four layers, bottom to top: a fixed background photograph; a gradient scrim that is
+   heaviest where the text sits; a flat brand tint that pulls the whole thing to one
+   colour so a band never fights the page; and the text.
+
+   `background-attachment: fixed` is what makes the photograph hold still while the page
+   moves over it. It is also the property mobile Safari has never handled, and it forces
+   a repaint on every scroll frame, so it is switched off for coarse pointers and for
+   anyone who has asked for reduced motion — in both cases the band degrades to a plain
+   cover image, which still looks right. */
+.band{position:relative;isolation:isolate;
+ margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);width:100vw;
+ min-height:clamp(260px,52vh,520px);display:grid;align-items:center;
+ background-size:cover;background-position:center;background-repeat:no-repeat;
+ background-attachment:fixed;background-color:#0b0906;
+ border-top:3px solid var(--ink);border-bottom:3px solid var(--ink);margin-block:2.6rem}
+.band::before{content:"";position:absolute;inset:0;z-index:-2;
+ background:linear-gradient(180deg,rgba(6,5,4,.80) 0%,rgba(6,5,4,.34) 38%,
+  rgba(6,5,4,.46) 62%,rgba(6,5,4,.86) 100%)}
+.band::after{content:"";position:absolute;inset:0;z-index:-1;mix-blend-mode:multiply;
+ background:radial-gradient(120% 90% at 22% 32%,rgba(224,50,43,.20),transparent 62%),
+  linear-gradient(90deg,rgba(11,9,6,.55),transparent 55%)}
+.band .in{max-width:68rem;margin:0 auto;padding:clamp(2rem,6vw,4.2rem) 1rem;width:100%}
+.band .kicker{display:block;font-family:var(--display);font-size:.7rem;font-weight:800;
+ letter-spacing:.34em;text-transform:uppercase;color:#ff8f86;margin-bottom:.7rem}
+.band h2{font-family:var(--display);font-size:clamp(1.9rem,6vw,3.5rem);line-height:.98;
+ margin:0 0 .5rem;border:0;color:#fff;text-transform:uppercase;letter-spacing:-.01em;
+ text-shadow:0 2px 26px rgba(0,0,0,.55);max-width:22ch}
+.band p{color:#f2e9dc;font-size:clamp(1rem,2.2vw,1.2rem);max-width:34ch;margin:.3rem 0 0;
+ text-shadow:0 1px 14px rgba(0,0,0,.7)}
+.band .big{font-family:var(--display);font-size:clamp(3rem,11vw,7rem);line-height:.86;
+ font-weight:800;color:#fff;margin:0;text-shadow:0 3px 34px rgba(0,0,0,.6);letter-spacing:-.02em}
+.band .big small{display:block;font-family:var(--body);font-size:.16em;letter-spacing:.24em;
+ text-transform:uppercase;color:#ff8f86;margin-top:.5rem;font-weight:800}
+.band .btn{margin-top:1.3rem}
+.band .cred{position:absolute;right:0;bottom:0;z-index:1;font-size:.6rem;color:#cbbfae;
+ background:rgba(6,5,4,.72);padding:.22rem .5rem;max-width:72%}
+.band .cred a{color:#e4d9c8}
+.band.right .in{text-align:right;display:flex;flex-direction:column;align-items:flex-end}
+.band.right::after{background:radial-gradient(120% 90% at 78% 32%,rgba(224,50,43,.20),transparent 62%),
+ linear-gradient(270deg,rgba(11,9,6,.55),transparent 55%)}
+.band.tall{min-height:clamp(340px,72vh,680px)}
+.band.short{min-height:clamp(200px,34vh,320px)}
+@media (pointer:coarse),(prefers-reduced-motion:reduce){
+ .band{background-attachment:scroll}}
+@media print{.band{display:none}}
 
 /* ---- pictures */
 figure.shot{margin:1.2rem 0;border:3px solid var(--ink);background:var(--panel)}
@@ -270,8 +318,8 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
 <a class="brand" href="../">Mae Hong Son <b>Loop</b></a>
 <nav><a href="../">The loop</a><a href="../legs/">Legs</a><a href="../which-way/">Which way</a><a href="../numbers/">Numbers</a><a href="../air/">Air</a><a href="../danger/">Danger</a><a href="../quiz/">Which ride</a><a href="../roadbook/">Roadbook</a></nav>
 <span class="langsw">
-<a href="../" aria-current="true" hreflang="en">EN</a>
-<a href="../th/"  hreflang="th">ไทย</a>
+<a href="../kit/" aria-current="true" hreflang="en">EN</a>
+<a href="../th/kit/"  hreflang="th">ไทย</a>
 </span>
 </div></header>
 <main id="main">

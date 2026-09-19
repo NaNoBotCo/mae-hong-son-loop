@@ -8,6 +8,7 @@
 <link rel="canonical" href="https://nanobotco.github.io/mae-hong-son-loop/legs/">
 <link rel="alternate" hreflang="en" href="https://nanobotco.github.io/mae-hong-son-loop/legs/">
 <link rel="alternate" hreflang="th" href="https://nanobotco.github.io/mae-hong-son-loop/th/legs/">
+<link rel="alternate" hreflang="x-default" href="https://nanobotco.github.io/mae-hong-son-loop/legs/">
 <meta property="og:title" content="Legs — The Mae Hong Son Loop">
 <meta property="og:description" content="The loop cut into rides. Each one runs both ways, with its own curve count, its own fuel gap and its own reason to stop.">
 <meta property="og:type" content="website">
@@ -111,6 +112,53 @@ mark.inf{background:none;color:var(--mute);font-style:italic}
 .dirsw button:last-child{border-right:0}
 .dirsw button[aria-pressed="true"]{background:var(--hot);color:#fff}
 .dirnote{font-size:.9rem;color:var(--mute);margin:.2rem 0 1rem;max-width:40rem}
+
+/* ---- parallax bands
+   Four layers, bottom to top: a fixed background photograph; a gradient scrim that is
+   heaviest where the text sits; a flat brand tint that pulls the whole thing to one
+   colour so a band never fights the page; and the text.
+
+   `background-attachment: fixed` is what makes the photograph hold still while the page
+   moves over it. It is also the property mobile Safari has never handled, and it forces
+   a repaint on every scroll frame, so it is switched off for coarse pointers and for
+   anyone who has asked for reduced motion — in both cases the band degrades to a plain
+   cover image, which still looks right. */
+.band{position:relative;isolation:isolate;
+ margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);width:100vw;
+ min-height:clamp(260px,52vh,520px);display:grid;align-items:center;
+ background-size:cover;background-position:center;background-repeat:no-repeat;
+ background-attachment:fixed;background-color:#0b0906;
+ border-top:3px solid var(--ink);border-bottom:3px solid var(--ink);margin-block:2.6rem}
+.band::before{content:"";position:absolute;inset:0;z-index:-2;
+ background:linear-gradient(180deg,rgba(6,5,4,.80) 0%,rgba(6,5,4,.34) 38%,
+  rgba(6,5,4,.46) 62%,rgba(6,5,4,.86) 100%)}
+.band::after{content:"";position:absolute;inset:0;z-index:-1;mix-blend-mode:multiply;
+ background:radial-gradient(120% 90% at 22% 32%,rgba(224,50,43,.20),transparent 62%),
+  linear-gradient(90deg,rgba(11,9,6,.55),transparent 55%)}
+.band .in{max-width:68rem;margin:0 auto;padding:clamp(2rem,6vw,4.2rem) 1rem;width:100%}
+.band .kicker{display:block;font-family:var(--display);font-size:.7rem;font-weight:800;
+ letter-spacing:.34em;text-transform:uppercase;color:#ff8f86;margin-bottom:.7rem}
+.band h2{font-family:var(--display);font-size:clamp(1.9rem,6vw,3.5rem);line-height:.98;
+ margin:0 0 .5rem;border:0;color:#fff;text-transform:uppercase;letter-spacing:-.01em;
+ text-shadow:0 2px 26px rgba(0,0,0,.55);max-width:22ch}
+.band p{color:#f2e9dc;font-size:clamp(1rem,2.2vw,1.2rem);max-width:34ch;margin:.3rem 0 0;
+ text-shadow:0 1px 14px rgba(0,0,0,.7)}
+.band .big{font-family:var(--display);font-size:clamp(3rem,11vw,7rem);line-height:.86;
+ font-weight:800;color:#fff;margin:0;text-shadow:0 3px 34px rgba(0,0,0,.6);letter-spacing:-.02em}
+.band .big small{display:block;font-family:var(--body);font-size:.16em;letter-spacing:.24em;
+ text-transform:uppercase;color:#ff8f86;margin-top:.5rem;font-weight:800}
+.band .btn{margin-top:1.3rem}
+.band .cred{position:absolute;right:0;bottom:0;z-index:1;font-size:.6rem;color:#cbbfae;
+ background:rgba(6,5,4,.72);padding:.22rem .5rem;max-width:72%}
+.band .cred a{color:#e4d9c8}
+.band.right .in{text-align:right;display:flex;flex-direction:column;align-items:flex-end}
+.band.right::after{background:radial-gradient(120% 90% at 78% 32%,rgba(224,50,43,.20),transparent 62%),
+ linear-gradient(270deg,rgba(11,9,6,.55),transparent 55%)}
+.band.tall{min-height:clamp(340px,72vh,680px)}
+.band.short{min-height:clamp(200px,34vh,320px)}
+@media (pointer:coarse),(prefers-reduced-motion:reduce){
+ .band{background-attachment:scroll}}
+@media print{.band{display:none}}
 
 /* ---- pictures */
 figure.shot{margin:1.2rem 0;border:3px solid var(--ink);background:var(--panel)}
@@ -297,12 +345,12 @@ document.addEventListener('DOMContentLoaded',function(){
 <a class="brand" href="../">Mae Hong Son <b>Loop</b></a>
 <nav><a href="../">The loop</a><a href="../legs/" aria-current="page">Legs</a><a href="../which-way/">Which way</a><a href="../numbers/">Numbers</a><a href="../air/">Air</a><a href="../danger/">Danger</a><a href="../quiz/">Which ride</a><a href="../roadbook/">Roadbook</a></nav>
 <span class="langsw">
-<a href="../" aria-current="true" hreflang="en">EN</a>
-<a href="../th/"  hreflang="th">ไทย</a>
+<a href="../legs/" aria-current="true" hreflang="en">EN</a>
+<a href="../th/legs/"  hreflang="th">ไทย</a>
 </span>
 </div></header>
 <main id="main">
-<h1><span class="kind">9 written up</span>Legs</h1><p class="lede">The loop cut into rides. Each one runs both ways, with its own curve count, its own fuel gap and its own reason to stop.</p><div class="dirsw" role="group" aria-label="Direction"><button type="button" data-dir="cw" aria-pressed="true">↻ Clockwise</button><button type="button" data-dir="ccw" aria-pressed="false">↺ Counter-clockwise</button></div><p class="dirnote" data-dir="cw">North first: up 107 and 1095 to Pai, on to Mae Hong Son, home down 108.</p><p class="dirnote" data-dir="ccw" hidden>South first: down 108 to Hot and Mae Sariang, up to Mae Hong Son, back over 1095.</p><ol class="legs" id="legs"><li data-order="1"><div class="hd"><span class="num">1.</span><a href="../leg/cnx-to-pai/">Chiang Mai to Pai</a><span class="meta">130 km · 395 curves · 65 hairpins · 3–4 hours</span></div><p data-dir="cw">Day one. Short, hard, and done on fresh arms — which is the whole case for going this way round.</p><p data-dir="ccw" hidden>The last leg. Four days of hills already in your forearms, and the descent into Mae Taeng at the end of it.</p></li><li data-order="2"><div class="hd"><span class="num">2.</span><a href="../leg/pai-to-soppong/">Pai to Soppong</a><span class="meta">37 km · 139 curves · 22 hairpins · 1–1.5 hours</span></div><p data-dir="cw">A half-day that leaves the afternoon for Tham Lot.</p><p data-dir="ccw" hidden>The run into Pai, and an easy end to a hard day.</p></li><li data-order="3"><div class="hd"><span class="num">3.</span><a href="../leg/soppong-to-mhs/">Soppong to Mae Hong Son</a><span class="meta">52 km · 190 curves · 23 hairpins · 1.5–2 hours</span></div><p data-dir="cw">Westward, into the afternoon sun in the cool season. Leave early or accept it.</p><p data-dir="ccw" hidden>Eastward in the morning, sun behind. The better half of this leg&#x27;s bargain.</p></li><li data-order="4"><div class="hd"><span class="num">4.</span><a href="../leg/mhs-to-khun-yuam/">Mae Hong Son to Khun Yuam</a><span class="meta">67 km · 1.5 hours</span></div><p data-dir="cw">The start of the way home, and the first easy riding in three days.</p><p data-dir="ccw" hidden>The last climb before Mae Hong Son.</p></li><li data-order="5"><div class="hd"><span class="num">5.</span><a href="../leg/khun-yuam-to-mae-sariang/">Khun Yuam to Mae Sariang</a><span class="meta">95 km · 2 hours</span></div><p data-dir="cw">Southbound, downhill on balance, and easy.</p><p data-dir="ccw" hidden>Northbound and climbing toward the end.</p></li><li data-order="6"><div class="hd"><span class="num">6.</span><a href="../leg/mae-sariang-to-hot/">Mae Sariang to Hot</a><span class="meta">150 km · 3 hours</span></div><p data-dir="cw">The last long haul before the four-lane run home.</p><p data-dir="ccw" hidden>Day one, and long. This is the leg that finds the rental bike&#x27;s faults.</p></li><li data-order="7"><div class="hd"><span class="num">7.</span><a href="../leg/hot-to-cnx/">Hot to Chiang Mai</a><span class="meta">88 km · 1.25 hours</span></div><p data-dir="cw">The end. Traffic, lanes, and a city.</p><p data-dir="ccw" hidden>The beginning, and the easiest hour of the trip.</p></li></ol><h2>Optional</h2><div class="grid"><article class="card"><figure class="thumb"><img src="../images/the-1263-cut/the-1263-cut-2013-pano-mae-chaem-district-1.thumb.jpg" alt="Countryside in the mountains of Mae Chaem District, Chiang Mai Province, seen from road 1263.
+<h1><span class="kind">9 written up</span>Legs</h1><p class="lede">The loop cut into rides. Each one runs both ways, with its own curve count, its own fuel gap and its own reason to stop.</p><section class="band short" style="background-image:url(../images/mae-hong-son/mae-hong-son-mae-hong-son-thailand-unsplash.jpg)"><div class="in"><span class="kicker">Mae Hong Son</span><h2>Both ways round</h2><p>Every leg reads differently depending on which way you came at it.</p></div><span class="cred">Stephanie Ecate steffny0206 · <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noopener">CC0 1.0</a></span></section><div class="dirsw" role="group" aria-label="Direction"><button type="button" data-dir="cw" aria-pressed="true">↻ Clockwise</button><button type="button" data-dir="ccw" aria-pressed="false">↺ Counter-clockwise</button></div><p class="dirnote" data-dir="cw">North first: up 107 and 1095 to Pai, on to Mae Hong Son, home down 108.</p><p class="dirnote" data-dir="ccw" hidden>South first: down 108 to Hot and Mae Sariang, up to Mae Hong Son, back over 1095.</p><ol class="legs" id="legs"><li data-order="1"><div class="hd"><span class="num">1.</span><a href="../leg/cnx-to-pai/">Chiang Mai to Pai</a><span class="meta">130 km · 395 curves · 65 hairpins · 3–4 hours</span></div><p data-dir="cw">Day one. Short, hard, and done on fresh arms — which is the whole case for going this way round.</p><p data-dir="ccw" hidden>The last leg. Four days of hills already in your forearms, and the descent into Mae Taeng at the end of it.</p></li><li data-order="2"><div class="hd"><span class="num">2.</span><a href="../leg/pai-to-soppong/">Pai to Soppong</a><span class="meta">37 km · 139 curves · 22 hairpins · 1–1.5 hours</span></div><p data-dir="cw">A half-day that leaves the afternoon for Tham Lot.</p><p data-dir="ccw" hidden>The run into Pai, and an easy end to a hard day.</p></li><li data-order="3"><div class="hd"><span class="num">3.</span><a href="../leg/soppong-to-mhs/">Soppong to Mae Hong Son</a><span class="meta">52 km · 190 curves · 23 hairpins · 1.5–2 hours</span></div><p data-dir="cw">Westward, into the afternoon sun in the cool season. Leave early or accept it.</p><p data-dir="ccw" hidden>Eastward in the morning, sun behind. The better half of this leg&#x27;s bargain.</p></li><li data-order="4"><div class="hd"><span class="num">4.</span><a href="../leg/mhs-to-khun-yuam/">Mae Hong Son to Khun Yuam</a><span class="meta">67 km · 1.5 hours</span></div><p data-dir="cw">The start of the way home, and the first easy riding in three days.</p><p data-dir="ccw" hidden>The last climb before Mae Hong Son.</p></li><li data-order="5"><div class="hd"><span class="num">5.</span><a href="../leg/khun-yuam-to-mae-sariang/">Khun Yuam to Mae Sariang</a><span class="meta">95 km · 2 hours</span></div><p data-dir="cw">Southbound, downhill on balance, and easy.</p><p data-dir="ccw" hidden>Northbound and climbing toward the end.</p></li><li data-order="6"><div class="hd"><span class="num">6.</span><a href="../leg/mae-sariang-to-hot/">Mae Sariang to Hot</a><span class="meta">150 km · 3 hours</span></div><p data-dir="cw">The last long haul before the four-lane run home.</p><p data-dir="ccw" hidden>Day one, and long. This is the leg that finds the rental bike&#x27;s faults.</p></li><li data-order="7"><div class="hd"><span class="num">7.</span><a href="../leg/hot-to-cnx/">Hot to Chiang Mai</a><span class="meta">88 km · 1.25 hours</span></div><p data-dir="cw">The end. Traffic, lanes, and a city.</p><p data-dir="ccw" hidden>The beginning, and the easiest hour of the trip.</p></li></ol><h2>Optional</h2><div class="grid"><article class="card"><figure class="thumb"><img src="../images/the-1263-cut/the-1263-cut-2013-pano-mae-chaem-district-1.thumb.jpg" alt="Countryside in the mountains of Mae Chaem District, Chiang Mai Province, seen from road 1263.
  This  image was created with Hugin." loading="lazy" decoding="async"></figure><h3><a href="../leg/the-1263-cut/">The 1263 cut</a></h3><p class="th">ทางลัด 1263</p><p>Khun Yuam east to Mae Chaem. Optional. A three-day loop instead of a four-day one, bought with the steepest and most curve-dense road here.</p><div class="tags"><span class="tag">38.1 km</span><span class="tag hot">159 curves</span><span class="tag">You are comfortable with a loaded bike on a steep descent</span></div></article><article class="card"><figure class="thumb"><img src="../images/samoeng-warmup/samoeng-warmup-lone-pine-tree-at-mon-ang-ket.thumb.jpg" alt="A lone pine tree at the summit of Mon Ang Ket, the highest peak in Samoeng District, Chiang Mai, Thailand (1,840 meters above sea level). The area is a protected natural site featuring a scenic landsc" loading="lazy" decoding="async"></figure><h3><a href="../leg/samoeng-warmup/">The Samoeng warm-up</a></h3><p class="th">วงรอบสะเมิง ซ้อมใหญ่</p><p>Chiang Mai to Mae Rim, Route 1096 to Samoeng, and back. A day. Not part of the loop.</p><div class="tags"><span class="tag">100 km</span><span class="tag hot">130 curves</span><span class="tag">You have ridden hills before</span></div></article></div><div class="share"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//nanobotco.github.io/mae-hong-son-loop/legs/" rel="noopener">Facebook</a><a href="https://line.me/R/msg/text/?Legs%20https%3A//nanobotco.github.io/mae-hong-son-loop/legs/" rel="noopener">LINE</a><a href="https://api.whatsapp.com/send?text=Legs%20https%3A//nanobotco.github.io/mae-hong-son-loop/legs/" rel="noopener">WhatsApp</a><a href="https://reddit.com/submit?url=https%3A//nanobotco.github.io/mae-hong-son-loop/legs/&title=Legs" rel="noopener">Reddit</a><a href="mailto:?subject=Legs&body=https%3A//nanobotco.github.io/mae-hong-son-loop/legs/">Email</a><button type="button" data-copy="https://nanobotco.github.io/mae-hong-son-loop/legs/">Copy link</button><button type="button" onclick="window.print()">Print</button></div>
 </main>
 <footer class="bot"><div class="in">
