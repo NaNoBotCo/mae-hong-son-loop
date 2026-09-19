@@ -1260,6 +1260,51 @@ def roadbook(lang: str) -> str:
                 cur="roadbook", path="roadbook/")
 
 
+# A band per type index, so every door into the site opens on a photograph. Keyed by
+# type: (band key, EN kicker, TH kicker, EN line, TH line, extra classes).
+TYPE_BANDS = {
+ "leg":    ("mhs", "Mae Hong Son", "แม่ฮ่องสอน", "", "", "short"),
+ "road":   ("road-1263", "Route 1263", "ทางหลวง 1263",
+            "Six numbers on a blue sign, and one of them is 4.46 curves a kilometre.",
+            "หกหมายเลขบนป้ายสีน้ำเงิน และหนึ่งในนั้นคือ 4.46 โค้งต่อกิโลเมตร", ""),
+ "town":   ("cnx-pano", "Chiang Mai", "เชียงใหม่",
+            "Nine places to sleep, eat, fill up and find a mechanic.",
+            "เก้าที่สำหรับนอน กิน เติมน้ำมัน และหาช่าง", ""),
+ "stop":   ("mae-surin", "Mae Surin", "น้ำตกแม่สุรินทร์",
+            "The reason the ride takes four days and not two.",
+            "เหตุผลที่ทริปนี้ใช้สี่วัน ไม่ใช่สองวัน", "right"),
+ "wat":    ("doi-kong-mu", "Doi Kong Mu", "ดอยกองมู",
+            "Shan spires and Burmese tin, in a Thai province. The border explains it.",
+            "เจดีย์ไทใหญ่และสังกะสีพม่า ในจังหวัดไทย ชายแดนคือคำอธิบาย", ""),
+ "coffee": ("ban-rak-thai2", "Ban Rak Thai", "บ้านรักไทย", "", "", "short"),
+ "spring": ("tham-pla" if "tham-pla" in BANDS else "op-luang", "Hot water", "น้ำพุร้อน",
+            "", "", "short"),
+ "stay":   ("ban-rak-thai", "Ban Rak Thai", "บ้านรักไทย", "", "", "short"),
+ "hazard": ("road-1263", "Route 1263", "ทางหลวง 1263",
+            "Gravel on the apex, diesel at the junction, and the drop with nothing beside it.",
+            "กรวดกลางโค้ง คราบน้ำมันตรงแยก และเหวที่ไม่มีอะไรกั้น", "right"),
+ "bike":   ("pai-canyon", "Pai", "ปาย",
+            "A 110 scooter and a 1200 adventure bike ride the same road.",
+            "สกู๊ตเตอร์ 110 กับแอดเวนเจอร์ 1200 ขี่ถนนเส้นเดียวกัน", ""),
+ "kit":    ("pano-chaem2", "Mae Chaem", "แม่แจ่ม",
+            "What rides with you, what goes ahead in a parcel, what stays in Chiang Mai.",
+            "อะไรไปกับรถ อะไรส่งล่วงหน้า อะไรฝากไว้เชียงใหม่", "right"),
+ "person": ("poy", "Poy Sang Long", "ปอยส่างลอง",
+            "Shan, Karen, Lisu, Lahu, Hmong, Lua, Pa-O and Chinese Yunnanese.",
+            "ไทใหญ่ กะเหรี่ยง ลีซู ลาหู่ ม้ง ลัวะ ปะโอ และจีนยูนนาน", ""),
+ "org":    ("cnx-pano", "Chiang Mai", "เชียงใหม่", "", "", "short"),
+ "event":  ("bua-tong", "Doi Mae U-Kho", "ดอยแม่อูคอ",
+            "When you go decides what you get.", "ไปเมื่อไหร่เป็นตัวกำหนดว่าจะได้อะไร", ""),
+ "term":   ("tham-lot", "Tham Lot", "ถ้ำลอด",
+            "Words for a pump, a checkpoint, a clinic and a noodle stall.",
+            "คำที่ใช้ที่ปั๊ม ด่าน คลินิก และร้านก๋วยเตี๋ยว", "right"),
+ "story":  ("pano-chaem", "Mae Chaem", "แม่แจ่ม",
+            "The arguments this road starts, and who is making them.",
+            "ข้อถกเถียงที่ถนนสายนี้ก่อ และใครเป็นคนเถียง", ""),
+ "art":    ("pai-canyon", "Pai", "ปาย", "", "", "short"),
+}
+
+
 # ---------------------------------------------------------------- type index
 KIND_TO_TYPE = {"wat": "wat", "coffee": "coffee", "spring": "spring", "stay": "stay",
                 "viewpoint": "stop", "waterfall": "stop", "cave": "stop", "market": "stop",
@@ -1281,6 +1326,11 @@ def type_index(t: str, lang: str) -> str:
     title = ti["th"] if lang == "th" else ti["name"]
     b = [f'<h1><span class="kind">{E(str(len(recs)) + " written up" if lang == "en" else str(len(recs)) + " รายการที่เขียนไว้")}</span>{E(title)}</h1>',
          f'<p class="lede">{E(ti["th_blurb"] if lang == "th" else ti["blurb"])}</p>']
+    tb = TYPE_BANDS.get(t)
+    if tb:
+        key, k_en, k_th, l_en, l_th, cls = tb
+        b.append(band(key, k_en if lang == "en" else k_th, title,
+                      l_en if lang == "en" else l_th, root_depth(1, lang), lang, cls=cls))
     if t == "leg":
         b.append(band("mhs", "Mae Hong Son" if lang == "en" else "แม่ฮ่องสอน",
                       "Both ways round" if lang == "en" else "ได้ทั้งสองทาง",
