@@ -199,6 +199,30 @@ figure.map figcaption{padding:.55rem .8rem;font-size:.78rem;color:var(--mute);bo
 .river{fill:none;stroke:#7fb6d6;stroke-width:1.1;stroke-linecap:round}
 .river.big{stroke-width:2.4;stroke:#6aa9cd}
 .bound path{fill:none;stroke:#8a7a5e;stroke-width:1.5;stroke-dasharray:7 5;opacity:.75}
+/* one curve-density window, at the scale of its own bends.
+   --ink is the TEXT colour here, not a surface: mixing a panel out of it produced a
+   pale box in dark mode with an invisible number on it. Surfaces are --panel. */
+.closeup-fig{margin:1.2rem 0;border:2px solid var(--line);border-radius:12px;overflow:hidden;
+  background:var(--panel)}
+.cu-head{padding:.9rem 1rem .1rem}
+.cu-head .kicker{display:block;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--hot);font-weight:700}
+.cu-head .big{font-family:var(--display);font-size:clamp(2.2rem,8vw,3.4rem);line-height:1;
+  font-weight:400;margin:.15rem 0 0;color:var(--ink)}
+.cu-head .big small{display:block;font-family:var(--body);font-size:.7rem;font-weight:700;
+  line-height:1.4;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin-top:.4rem}
+svg.closeup{display:block;width:100%;height:auto;padding:.5rem .6rem 0}
+.cu-case{fill:none;stroke:var(--line);stroke-width:9;stroke-linecap:round;stroke-linejoin:round}
+.cu-road{fill:none;stroke:var(--hot);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.cu-road.g{stroke:#6fbf73}.cu-road.b{stroke:#e8c548}
+.cu-road.h{stroke:#f08c34}.cu-road.r{stroke:var(--hot)}
+.cu-bend{fill:var(--bg);stroke:var(--ink);stroke-width:1.4;paint-order:stroke}
+.cu-bend.pin{fill:var(--sun);stroke-width:2}
+.cu-cap{fill:var(--ink);stroke:var(--bg);stroke-width:2}
+svg.closeup .scale line{stroke:var(--mute);stroke-width:1.4}
+svg.closeup .scale text{fill:var(--mute);font-size:10px;text-anchor:middle;font-weight:700}
+.closeup-fig figcaption{padding:.4rem 1rem .9rem;font-size:.78rem;color:var(--mute);line-height:1.5}
+
 /* the phrasebook: what you say, what it looks like, what it is for */
 table.phrases{width:100%;border-collapse:collapse;margin:.6rem 0 1.5rem;font-size:.92rem}
 table.phrases th{text-align:left;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;
@@ -468,7 +492,7 @@ python3 tools/harvest_air.py --all
 python3 tools/curves.py
 python3 tools/validate.py
 python3 tools/build.py
-python3 tools/site.py</code></pre><p class="small mute">Built 2026-09-19 16:12</p>
+python3 tools/site.py</code></pre><p class="small mute">Built 2026-09-19 16:38</p>
 </main>
 <footer class="bot"><div class="in">
 <p><b>The Mae Hong Son Loop</b> — 1,864 curves between Chiang Mai and Mae Hong Son, and everything worth stopping for</p>

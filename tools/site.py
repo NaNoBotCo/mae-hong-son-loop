@@ -358,6 +358,8 @@ MAP_CREDIT = (
     f'straight line where the route number is not tagged. '
     f'© OpenStreetMap contributors · relief Open-Meteo / Copernicus DEM'
 ) if _RING else "© OpenStreetMap contributors · relief Open-Meteo / Copernicus DEM"
+# a close-up of two kilometres does not need the bridging note for six hundred of them
+WAY_CREDIT = "© OpenStreetMap contributors"
 
 ALL_LINES = [[tuple(c) for c in ln]
              for r in ROADS.values() for ln in (r.get("lines") or ([r["line"]] if r.get("line") else []))]
@@ -605,6 +607,68 @@ def gallery_pool(limit=8) -> list:
 
 
 # ---------------------------------------------------------------- node page
+def leg_box(rt: dict, pad=0.07):
+    """The rectangle a leg runs inside, from the two towns it joins.
+
+    The first attempt cut route.line at the nearest point to each town, but a leg record
+    carries the whole traced road there -- all four legs on Route 108 carry the same 154
+    points -- and the nearest-index lookup put Hot to Chiang Mai at seventeen of them for
+    ninety kilometres of road. The towns' own coordinates are the reliable part."""
+    a = TOWN_GEO.get(rt.get("from") or "")
+    b = TOWN_GEO.get(rt.get("to") or "")
+    if not a or not b:
+        return None
+    return (min(a["lat"], b["lat"]) - pad, min(a["lon"], b["lon"]) - pad,
+            max(a["lat"], b["lat"]) + pad, max(a["lon"], b["lon"]) + pad)
+
+
+def hardest_window(refs: list, box=None) -> tuple:
+    """The hardest two-kilometre window on these roads, and which road it is on.
+
+    `box` narrows it to a leg: Route 108 runs the length of the west side, and its worst
+    stretch is not on every leg that uses it. With no box -- a road's own page, or a leg
+    whose ends are not both town records -- the answer is the road's worst anywhere."""
+    best, best_ref = None, None
+    for ref in refs or []:
+        for w in (CURVES.get("roads", {}).get(ref, {}).get("hardest") or []):
+            if not w.get("line"):
+                continue
+            if box:
+                m = w.get("mid") or []
+                if not m or not (box[0] <= m[0] <= box[2] and box[1] <= m[1] <= box[3]):
+                    continue
+            if best is None or w["per_km"] > best["per_km"]:
+                best, best_ref = w, ref
+    return best, best_ref
+
+
+def closeup_figure(w: dict, ref: str, lang: str, width: int = 620) -> str:
+    """The close-up, with the numbers that belong to it. Used where a record has no
+    photograph — which is five of the six roads and six of the nine legs, and a map
+    drawn from the road's own geometry beats a borrowed picture of somewhere else."""
+    if not w:
+        return ""
+    en = lang == "en"
+    km_ = w.get("km", 2)
+    pin = w.get("hairpins", 0)
+    kick = f"Route {ref}" if en else f"ทางหลวง {ref}"
+    lab = ("curves per kilometre — its hardest two kilometres" if en
+           else "โค้งต่อกิโลเมตร ช่วงสองกิโลเมตรที่หนักที่สุด")
+    cap = (f"{km_} km of Route {ref}, drawn to its own bounding box. Every mark is a "
+           f"direction reversal the counter scored"
+           + ("." if not pin else
+              f"; the big one is the hairpin." if pin == 1 else
+              f"; the big ones are the {pin} hairpins.")
+           if en else
+           f"ทางหลวง {ref} ระยะ {km_} กม. วาดตามขอบเขตของตัวเอง จุดแต่ละจุดคือการกลับทิศที่นับได้"
+           + (f" จุดใหญ่คือโค้งหักศอก {pin} โค้ง" if pin else ""))
+    return ('<figure class="closeup-fig"><div class="cu-head">'
+            f'<span class="kicker">{E(kick)}</span>'
+            f'<p class="big">{E(str(w["per_km"]))}<small>{E(lab)}</small></p></div>'
+            + geo.closeup(w, width)
+            + f'<figcaption>{E(cap)} · {WAY_CREDIT}</figcaption></figure>')
+
+
 def node_page(n: dict, lang: str) -> str:
     ui = UI[lang]
     depth = 2
@@ -658,6 +722,9 @@ def node_page(n: dict, lang: str) -> str:
             b.append('<figure class="map">' + base_map(820, highlight=rt["roads"], depth=rdepth, lang=lang) +
                      f'<figcaption>{E("Highlighted: " + ", ".join("Route " + x for x in rt["roads"]) if lang == "en" else "เน้น: " + ", ".join("ทางหลวง " + x for x in rt["roads"]))} · '
                      f'{MAP_CREDIT}</figcaption></figure>')
+            if n["type"] != "road":      # a road draws its own, below, unfiltered
+                hw, href_ = hardest_window(rt["roads"], box=leg_box(rt))
+                b.append(closeup_figure(hw, href_, lang))
 
     if n.get("geo"):
         g = n["geo"]
@@ -667,6 +734,12 @@ def node_page(n: dict, lang: str) -> str:
             f'<figcaption>{g["lat"]:.4f}, {g["lon"]:.4f}'
             f'{" · " + str(g["elevation_m"]) + " m" if g.get("elevation_m") else ""} · '
             f'{MAP_CREDIT}</figcaption></figure>')
+
+    # a road record is its own route number, so it can find its own worst stretch
+    if n["type"] == "road":
+        ref_ = n["id"].replace("route-", "")
+        hw_, _hr = hardest_window([ref_])
+        b.append(closeup_figure(hw_, ref_, lang))
 
     # prose
     for key, label in (("what", ui["what"]), ("story", ui["story"]), ("how", ui["how"]), ("today", ui["today"])):
@@ -1251,14 +1324,25 @@ def danger(lang: str) -> str:
         for d_ in rr_.get("hardest", [])[:1]:
             if d_["per_km"] > top_win["per_km"]:
                 top_ref, top_win = ref_, d_
-    b.append(band(f"road-{top_ref}" if f"road-{top_ref}" in BANDS else "road-1095",
-                  f"Route {top_ref}" if lang == "en" else f"ทางหลวง {top_ref}",
-                  "Two kilometres at a time" if lang == "en" else "ครั้งละสองกิโลเมตร",
-                  "Curves per kilometre in fixed two-kilometre windows, measured the same way everywhere."
-                  if lang == "en" else "จำนวนโค้งต่อกิโลเมตรในหน้าต่างสองกิโลเมตร วัดด้วยวิธีเดียวกันทุกที่",
-                  d1, lang, big=str(top_win["per_km"]),
-                  big_label=(f"hardest 2 km on the loop — Route {top_ref}" if lang == "en"
-                             else f"2 กม. ที่หนักที่สุด ทางหลวง {top_ref}")))
+    # a photograph of a road says nothing about how much it bends. The window itself,
+    # drawn at its own scale, is the argument.
+    w_km = top_win.get("km", 2)
+    w_pin = top_win.get("hairpins", 0)
+    cu_kick = f"Route {top_ref}" if lang == "en" else f"ทางหลวง {top_ref}"
+    cu_lab = ("curves per kilometre — the hardest 2 km on the loop" if lang == "en"
+              else "โค้งต่อกิโลเมตร ช่วง 2 กม. ที่หนักที่สุด")
+    pin_en = ("." if not w_pin else "; the big one is the hairpin." if w_pin == 1
+              else f"; the big ones are the {w_pin} hairpins.")
+    cu_cap = (f"{w_km} km of Route {top_ref}, drawn to its own bounding box. Every mark is a "
+              f"direction reversal the counter scored" + pin_en
+              if lang == "en" else
+              f"ทางหลวง {top_ref} ระยะ {w_km} กม. วาดตามขอบเขตของตัวเอง "
+              f"จุดแต่ละจุดคือการกลับทิศที่นับได้ จุดใหญ่คือโค้งหักศอก {w_pin} โค้ง")
+    b.append('<figure class="closeup-fig"><div class="cu-head">'
+             f'<span class="kicker">{E(cu_kick)}</span>'
+             f'<p class="big">{E(str(top_win["per_km"]))}<small>{E(cu_lab)}</small></p></div>'
+             + geo.closeup(top_win, 620)
+             + f'<figcaption>{E(cu_cap)} · {WAY_CREDIT}</figcaption></figure>')
     b.append('<figure class="map">' + base_map(880, demand=True, depth=d1, lang=lang) +
              f'<figcaption>© OpenStreetMap contributors · {E("2 km windows, 25° threshold" if lang == "en" else "หน้าต่าง 2 กม. เกณฑ์ 25 องศา")}</figcaption></figure>')
     bands = CURVES.get("bands", {})
@@ -1991,7 +2075,7 @@ def town_order() -> list:
 
 
 START_TOWN = "Chiang Mai"
-ROSTER_CAP = 40
+ROSTER_CAP = 20
 
 
 def by_town(rows: list, radius=6.0) -> list:

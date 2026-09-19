@@ -166,7 +166,11 @@ def density(line: list, window_km: float = 2.0) -> list:
                     "to": [round(seg[-1][0], 5), round(seg[-1][1], 5)],
                     "mid": [round(seg[len(seg) // 2][0], 5), round(seg[len(seg) // 2][1], 5)],
                     "km": round(run, 2), "curves": cv["curves"], "hairpins": cv["hairpins"],
-                    "per_km": round(per, 2), "band": band})
+                    "per_km": round(per, 2), "band": band,
+                    # dropped again below for all but the hardest few: a polyline per
+                    # window would multiply curves.json by the length of the road
+                    "_line": [[round(a, 5), round(b, 5)] for a, b in seg],
+                    "_apex": cv.get("apex", [])})
         i = j
     return out
 
@@ -219,8 +223,18 @@ def main() -> int:
         r["chains"] = len(r["lines"])
         r["density"] = density(line)
         r["bands"] = BANDS
-        worst = sorted(r["density"], key=lambda d: -d["per_km"])[:3]
-        r["hardest"] = worst
+        # twenty rather than three: a leg asks for the hardest window *on that leg*, and
+        # the worst few on a road can all sit inside one of the four legs that use it.
+        # Pai to Soppong had none of the top eight anywhere near it.
+        worst = sorted(r["density"], key=lambda d: -d["per_km"])[:20]
+        # the hardest windows keep their geometry; everything else sheds it
+        r["hardest"] = [dict(w, line=w["_line"], apex=w["_apex"]) for w in worst]
+        for w in r["density"]:
+            w.pop("_line", None)
+            w.pop("_apex", None)
+        for w in r["hardest"]:
+            w.pop("_line", None)
+            w.pop("_apex", None)
         out["roads"][ref] = r
         w = r["whole"]
         print(f"  {ref}: {w['km']} km, {w['curves']} curves at {DEFAULT}°, {w['hairpins']} hairpin, "

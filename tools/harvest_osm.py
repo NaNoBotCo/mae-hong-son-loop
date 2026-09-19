@@ -227,8 +227,8 @@ def count_curves(pts: list, min_turn: float = 25.0, step_km: float = 0.06) -> di
     res = resample(pts, step_km)
     if len(res) < 3:
         return {"curves": 0, "hairpins": 0, "km": 0.0, "arcs": []}
-    arcs = []
-    acc, sign = 0.0, 0
+    arcs, apex = [], []
+    acc, sign, start = 0.0, 0, 1
     for i in range(1, len(res) - 1):
         b1 = bearing(res[i - 1], res[i])
         b2 = bearing(res[i], res[i + 1])
@@ -241,14 +241,20 @@ def count_curves(pts: list, min_turn: float = 25.0, step_km: float = 0.06) -> di
         else:
             if abs(acc) >= min_turn:
                 arcs.append(round(abs(acc), 1))
-            acc, sign = d, s
+                # where the arc turned hardest, near enough: the middle of its run.
+                # Kept so a map can mark the bends rather than only count them.
+                m = res[(start + i) // 2]
+                apex.append([round(m[0], 5), round(m[1], 5), round(abs(acc), 1)])
+            acc, sign, start = d, s, i
     if abs(acc) >= min_turn:
         arcs.append(round(abs(acc), 1))
+        m = res[(start + len(res) - 2) // 2]
+        apex.append([round(m[0], 5), round(m[1], 5), round(abs(acc), 1)])
     km = sum(haversine(res[i], res[i + 1]) for i in range(len(res) - 1))
     return {"curves": len(arcs), "hairpins": sum(1 for a in arcs if a >= 120),
             "tight": sum(1 for a in arcs if 60 <= a < 120), "km": round(km, 2),
             "per_km": round(len(arcs) / km, 2) if km else 0,
-            "arcs": arcs}
+            "arcs": arcs, "apex": apex}
 
 
 def resample(pts: list, step_km: float) -> list:

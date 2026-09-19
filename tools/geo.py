@@ -345,6 +345,76 @@ def stars(p: Proj, rows: list, cls="star", r=6.0, label=False) -> str:
             out.append(f'<text class="lbl"{anchor} x="{lx:.1f}" y="{y + 3.5:.1f}">{name}</text>')
     return "".join(out)
 
+def metre_bar(p: Proj, m: int = 500) -> str:
+    """A scale bar in metres, for a map zoomed in far enough that kilometres are silly."""
+    lat = p.s + (p.n - p.s) * 0.08
+    dlon = (m / 1000.0) / (111.32 * p.kx)
+    x1, y1 = p.xy(lat, p.w + (p.e - p.w) * 0.07)
+    x2, _ = p.xy(lat, p.w + (p.e - p.w) * 0.07 + dlon)
+    return (f'<g class="scale"><line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y1:.1f}"/>'
+            f'<line x1="{x1:.1f}" y1="{y1 - 4:.1f}" x2="{x1:.1f}" y2="{y1 + 4:.1f}"/>'
+            f'<line x1="{x2:.1f}" y1="{y1 - 4:.1f}" x2="{x2:.1f}" y2="{y1 + 4:.1f}"/>'
+            f'<text x="{(x1 + x2) / 2:.1f}" y="{y1 - 7:.1f}">{m} m</text></g>')
+
+
+# The svg fills its container's width, so the viewBox aspect is what decides how tall
+# the figure lands on the page. Cap height against width; a genuinely north-south
+# stretch is letterboxed rather than allowed to run a thousand pixels down the page.
+TALLEST = 0.8
+SHORTEST = 0.42
+
+
+def closeup(window: dict, width: int = 520, label_every: int = 1) -> str:
+    """One curve-density window, drawn on its own at the scale of its own bends.
+
+    The whole-loop map is six hundred kilometres across, at which width a two-kilometre
+    stretch is four millimetres of line and every bend in it is a rounding error. Drawn
+    to its own bounding box it is a shape, which is what somebody arguing about a road
+    actually wants to see. Each mark is a direction reversal the counter scored: the
+    big ones are the hairpins."""
+    line = [tuple(c) for c in (window.get("line") or [])]
+    if len(line) < 3:
+        return ""
+    lats = [c[0] for c in line]
+    lons = [c[1] for c in line]
+    # pad each axis by its own span. Padding both by the longer one leaves the short
+    # axis swimming in margin, which is most of a frame spent on nothing.
+    dy, dx = max(lats) - min(lats), max(lons) - min(lons)
+    cy, cx = (max(lats) + min(lats)) / 2, (max(lons) + min(lons)) / 2
+    kx = math.cos(math.radians(cy))
+    # A near-vertical stretch has almost no longitude span, and the projection scales to
+    # width: the canvas came out 1,220 px tall for two kilometres of road.
+    wx, wy = dx * kx, dy
+    if wy > wx * TALLEST:
+        dx = (wy / TALLEST) / kx
+    elif wy < wx * SHORTEST:
+        # and the other way: an east-west stretch letterboxed to 79 px on a phone is a
+        # sliver nobody can read the bends in
+        dy = wx * SHORTEST
+    py = (dy * 0.09) or 0.0015
+    px = (dx * 0.09) or 0.0015
+    box = (cy - dy / 2 - py, cx - dx / 2 - px, cy + dy / 2 + py, cx + dx / 2 + px)
+    p = Proj(box=box, width=width, pad=10)
+    out = [f'<svg viewBox="0 0 {p.width:.0f} {p.height:.0f}" class="closeup" role="img" '
+           f'aria-label="The {window.get("km", 2)} km that asks the most, drawn close up">']
+    d = p.path(line)
+    out.append(f'<path class="cu-case" d="{d}"/>')
+    out.append(f'<path class="cu-road {band_class(window.get("band", ""))}" d="{d}"/>')
+    for a in (window.get("apex") or []):
+        lat, lon, deg = a[0], a[1], (a[2] if len(a) > 2 else 0)
+        x, y = p.xy(lat, lon)
+        hard = deg >= 120
+        r = 5.4 if hard else 3.4
+        out.append(f'<circle class="cu-bend{" pin" if hard else ""}" cx="{x:.1f}" cy="{y:.1f}" '
+                   f'r="{r}"><title>{deg:g}°{" — hairpin" if hard else ""}</title></circle>')
+    # the ends, so the direction of travel is legible
+    for c, cls in ((line[0], "start"), (line[-1], "end")):
+        x, y = p.xy(c[0], c[1])
+        out.append(f'<circle class="cu-cap {cls}" cx="{x:.1f}" cy="{y:.1f}" r="3"/>')
+    out.append(metre_bar(p, 500))
+    out.append("</svg>")
+    return "".join(out)
+
 
 # The basemap ships as its own file, so it carries its own styles. It is referenced by
 # <image>, which is an isolated document: the page's stylesheet does not reach inside it.
