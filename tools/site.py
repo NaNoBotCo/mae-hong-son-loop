@@ -517,12 +517,12 @@ def node_card(n: dict, lang: str, depth: int, n_label=None) -> str:
     thumb = ""
     if ims:
         im = next((i for i in ims if i.get("primary")), ims[0])
-        thumb = (f'<figure class="thumb"><img src="{E(img_url(im, root_depth(depth, lang), thumb=True))}" '
-                 f'alt="{E(im.get("alt") or "")}" loading="lazy" decoding="async"></figure>')
+        thumb = shot_link(f"{r}{url_of(n)}",
+                          img_url(im, root_depth(depth, lang), thumb=True), name, im)
     num = f'<span class="n">{n_label}</span>' if n_label else ""
     thai = f'<p class="th">{E(th)}</p>' if th and lang == "en" else ""
-    return (f'<article class="card">{num}{thumb}'
-            f'<h3><a href="{r}{url_of(n)}">{E(name)}</a></h3>{thai}'
+    head = "" if thumb else f'<h3><a href="{r}{url_of(n)}">{E(name)}</a></h3>'
+    return (f'<article class="card">{num}{thumb}{head}{thai}'
             f'<p>{E(clip(what, 150))}</p>'
             f'<div class="tags">{"".join(meta)}</div></article>')
 
@@ -549,6 +549,18 @@ def root_depth(depth: int, lang: str) -> int:
     """Depth below the SITE root. Body links count from the language root; anything that
     lives once at the top — images, the API, the machine files — needs this instead."""
     return depth + (1 if lang == "th" else 0)
+
+
+
+def shot_link(href: str, src: str, label: str, im: dict = None) -> str:
+    """A picture that leads somewhere, in four layers: the photograph as a background, a
+    scrim under the words, a spacer that gives the box its height, and the text over both.
+    The whole box is the link, so the picture is not a decoration beside one."""
+    cred = f'<span class="cred">{credit(im, short=True)}</span>' if im else ""
+    return (f'<figure class="thumb"><h3><a class="shot" href="{E(href)}">'
+            f'<span class="bg" style="background-image:url({E(src)})"></span>'
+            f'<span class="scrim"></span><span class="sp"></span>'
+            f'<span class="tx">{E(label)}</span></a></h3>{cred}</figure>')
 
 
 def img_url(im: dict, depth: int, thumb=False) -> str:
