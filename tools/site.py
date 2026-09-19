@@ -892,9 +892,6 @@ def danger(lang: str) -> str:
     b = [f'<h1><span class="kind">{E("Demand, not crashes" if lang == "en" else "ความยาก ไม่ใช่อุบัติเหตุ")}</span>'
          f'{E("Where it asks the most" if lang == "en" else "ช่วงที่หนักที่สุด")}</h1>',
          f'<p class="lede">{E("Nobody publishes a crash map for these roads and this project will not invent one. This is a map of how much steering each two kilometres asks for, measured the same way everywhere." if lang == "en" else "ไม่มีใครเผยแพร่แผนที่อุบัติเหตุของถนนเหล่านี้ และโครงการนี้จะไม่แต่งขึ้นมา นี่คือแผนที่ว่าทุกสองกิโลเมตรต้องบังคับรถมากแค่ไหน วัดด้วยวิธีเดียวกันทุกที่")}</p>']
-    pool = gallery_pool()
-    if pool:
-        b.append(shot_strip([im for _, im in pool[:8]], 0))
     b.append('<figure class="map">' + base_map(880, demand=True) +
              f'<figcaption>© OpenStreetMap contributors · {E("2 km windows, 25° threshold" if lang == "en" else "หน้าต่าง 2 กม. เกณฑ์ 25 องศา")}</figcaption></figure>')
     bands = CURVES.get("bands", {})

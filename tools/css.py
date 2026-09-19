@@ -105,9 +105,11 @@ figure.shot figcaption a{color:var(--mute)}
 .hero-shot .cap{position:absolute;right:0;bottom:0;background:var(--bg);color:var(--mute);
  font-size:.66rem;padding:.2rem .45rem;border-top:2px solid var(--ink);border-left:2px solid var(--ink);max-width:70%}
 .hero-shot .cap a{color:var(--mute)}
-.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:3px;
- border:3px solid var(--ink);margin:1.2rem 0;background:var(--ink)}
-.strip figure{margin:0;position:relative;background:var(--panel)}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));
+ border:3px solid var(--ink);margin:1.2rem 0;background:var(--bg)}
+.strip figure{margin:0;position:relative;background:var(--panel);
+ border-right:3px solid var(--ink);border-bottom:3px solid var(--ink)}
+.strip figure:last-child{border-right:0}
 .strip img{display:block;width:100%;height:clamp(96px,13vw,150px);object-fit:cover}
 .strip figcaption{position:absolute;left:0;right:0;bottom:0;font-size:.6rem;padding:.16rem .3rem;
  background:color-mix(in srgb,var(--bg) 86%,transparent);color:var(--mute);line-height:1.3}
