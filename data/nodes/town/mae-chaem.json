@@ -1,0 +1,79 @@
+{
+ "id": "mae-chaem",
+ "type": "town",
+ "names": {
+  "name": "Mae Chaem",
+  "th": "แม่แจ่ม",
+  "rtgs": "Mae Chaem",
+  "said": "The east end of the shortcut, and the back door to Doi Inthanon.",
+  "said_th": "ปลายตะวันออกของทางลัด และประตูหลังสู่ดอยอินทนนท์"
+ },
+ "region": [
+  "cnx",
+  "mae-chaem",
+  "the-cut"
+ ],
+ "facets": {
+  "province": "CNX",
+  "kind": "town"
+ },
+ "geo": {
+  "lat": 18.4967,
+  "lon": 98.3714,
+  "precision": "town",
+  "elevation_m": 470
+ },
+ "text": {
+  "what": "A Chiang Mai district in its own valley, reached from the loop only by Route 1263 or over the Inthanon massif.",
+  "story": "*Inference —* Mae Chaem is the town that turns the loop into a choice. Arriving here from Khun Yuam means the 1263 has been ridden and the circuit has been halved; the road on from here climbs over the Inthanon side and drops to Chom Thong on Route 108.\n\nIt is a weaving district and the cloth is its own subject, which this project has not yet written up.",
+  "today": "Small, and the services are small with it. Fill up in Khun Yuam before the cut, not here after it."
+ },
+ "text_th": {
+  "what": "อำเภอหนึ่งของเชียงใหม่ในหุบของตัวเอง เข้าถึงจากวงรอบได้ทางทางหลวง 1263 หรือข้ามเทือกดอยอินทนนท์เท่านั้น",
+  "story": "*อนุมาน —* แม่แจ่มคือเมืองที่เปลี่ยนวงรอบให้เป็นทางเลือก การมาถึงที่นี่จากขุนยวมแปลว่าได้ขี่ 1263 แล้ว และวงรอบถูกตัดครึ่ง ถนนต่อจากนี้ไต่ข้ามฝั่งอินทนนท์แล้วทิ้งตัวลงจอมทองบนทางหลวง 108\n\nที่นี่เป็นอำเภอทอผ้า และผ้าของที่นี่เป็นเรื่องของตัวเอง ซึ่งโครงการนี้ยังไม่ได้เขียนถึง",
+  "today": "เล็ก และบริการต่างๆ ก็เล็กตาม เติมน้ำมันที่ขุนยวมก่อนเข้าทางลัด ไม่ใช่ที่นี่หลังออกมา"
+ },
+ "kin": [
+  {
+   "to": "the-1263-cut",
+   "as": "The road that arrives here.",
+   "rel": "leg"
+  },
+  {
+   "to": "doi-inthanon",
+   "as": "The mountain on the other side.",
+   "rel": "stop"
+  },
+  {
+   "to": "khun-yuam",
+   "as": "The other end of the cut.",
+   "rel": "town"
+  }
+ ],
+ "sources": [
+  "s:wp-mae-chaem-district",
+  "s:wp-doi-inthanon"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mae-chaem-district"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the riding conclusions are this project's; the geography and history under them are cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

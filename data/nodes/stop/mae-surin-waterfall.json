@@ -1,0 +1,79 @@
+{
+ "id": "mae-surin-waterfall",
+ "type": "stop",
+ "names": {
+  "name": "Mae Surin Waterfall",
+  "th": "น้ำตกแม่สุรินทร์",
+  "said": "One drop, a long way, into a gorge.",
+  "said_th": "สายเดียว ตกลงมาไกล ลงสู่หุบเขา"
+ },
+ "region": [
+  "mhs",
+  "khun-yuam"
+ ],
+ "facets": {
+  "kind": "waterfall",
+  "price": "mid"
+ },
+ "text": {
+  "what": "A single-drop waterfall in Namtok Mae Surin National Park, in Khun Yuam district.",
+  "story": "The national park is named after it and also contains the Doi Mae U-Kho hillside where the *Tithonia* blooms in November, so a single detour off Route 108 near Khun Yuam can reach both.\n\n*Inference —* the waterfall is a rains-and-just-after phenomenon like every waterfall; by March there is much less of it. The bloom is the opposite, in November. The two reasons to go up there do not coincide."
+ },
+ "text_th": {
+  "what": "น้ำตกชั้นเดียวในอุทยานแห่งชาติน้ำตกแม่สุรินทร์ อำเภอขุนยวม",
+  "story": "อุทยานแห่งชาติตั้งชื่อตามน้ำตกนี้ และยังครอบคลุมดอยแม่อูคอที่ดอกบัวตองบานในเดือนพฤศจิกายน การแยกจากทางหลวง 108 ใกล้ขุนยวมครั้งเดียวจึงไปได้ทั้งสองที่\n\n*อนุมาน —* น้ำตกเป็นเรื่องของหน้าฝนและช่วงหลังฝนเหมือนน้ำตกทุกแห่ง พอถึงเดือนมีนาคมจะเหลือน้อยมาก ส่วนทุ่งดอกไม้ตรงกันข้าม คือเดือนพฤศจิกายน เหตุผลสองข้อที่จะขึ้นไปบนนั้นไม่ตรงกัน"
+ },
+ "kin": [
+  {
+   "to": "bua-tong-bloom",
+   "as": "The other reason to go up, in a different month.",
+   "rel": "event"
+  },
+  {
+   "to": "khun-yuam",
+   "as": "The town below.",
+   "rel": "town"
+  },
+  {
+   "to": "the-rains",
+   "as": "When there is water in it.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-namtok-mae-surin-national-park",
+  "s:wp-khun-yuam-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-namtok-mae-surin-national-park"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-namtok-mae-surin-national-park"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.0333,
+  "lon": 97.9333,
+  "precision": "town"
+ },
+ "recognitions": [
+  {
+   "by": "dnp",
+   "what": "Namtok Mae Surin National Park",
+   "source": "s:wp-namtok-mae-surin-national-park"
+  }
+ ],
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18"
+}

@@ -1,0 +1,78 @@
+{
+ "id": "route-1088",
+ "type": "road",
+ "names": {
+  "name": "Route 1088",
+  "th": "ทางหลวงแผ่นดินหมายเลข 1088",
+  "said": "The Mae Chaem side road, and the way onto the Inthanon massif from behind.",
+  "said_th": "ถนนเลียบแม่แจ่ม และทางขึ้นเทือกอินทนนท์จากด้านหลัง"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "surface": "asphalt",
+  "ref": "1088"
+ },
+ "text": {
+  "what": "North out of Mae Chaem. Relevant to this circuit only as part of the 1263 shortcut's eastern exit.",
+  "story": "*Inference —* if you have taken the 1263 cut you arrive at Mae Chaem with a choice, and this is one arm of it: north and over the Doi Inthanon side before dropping to Chom Thong on Route 108. Measured off OSM the run is about 32 kilometres with 96 curves at a 25-degree threshold, ten of them hairpins.\n\nIt is high, it is cold in the morning, and it puts the highest point in Thailand within reach of a detour."
+ },
+ "text_th": {
+  "what": "ขึ้นเหนือจากแม่แจ่ม เกี่ยวข้องกับวงรอบนี้เฉพาะในฐานะทางออกด้านตะวันออกของทางลัด 1263",
+  "story": "*อนุมาน —* ถ้าคุณใช้ทางลัด 1263 มาแล้ว คุณจะมาถึงแม่แจ่มพร้อมทางเลือก และนี่คือหนึ่งในนั้น ขึ้นเหนือข้ามฝั่งดอยอินทนนท์ก่อนทิ้งตัวลงจอมทองบนทางหลวง 108 เมื่อวัดจาก OSM ระยะราว 32 กิโลเมตร มี 96 โค้งที่เกณฑ์ 25 องศา และโค้งหักศอกสิบโค้ง\n\nมันสูง เช้าหนาว และทำให้จุดสูงสุดของประเทศไทยอยู่ในระยะที่แวะได้"
+ },
+ "route": {
+  "roads": [
+   "1088"
+  ],
+  "from": "Mae Chaem",
+  "from_th": "แม่แจ่ม",
+  "to": "Doi Inthanon / Chom Thong",
+  "to_th": "ดอยอินทนนท์ / จอมทอง",
+  "km": 86.8,
+  "km_source": "s:mhs-measured",
+  "curves": 286,
+  "hairpins": 45
+ },
+ "kin": [
+  {
+   "to": "doi-inthanon",
+   "as": "What it reaches.",
+   "rel": "stop"
+  },
+  {
+   "to": "mae-chaem",
+   "as": "Where it starts.",
+   "rel": "town"
+  },
+  {
+   "to": "the-1263-cut",
+   "as": "The road that delivers you to it.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:wp-doi-inthanon",
+  "s:wp-mae-chaem-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

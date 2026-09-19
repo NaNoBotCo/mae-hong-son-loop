@@ -1,0 +1,54 @@
+{
+ "id": "low-sun",
+ "type": "hazard",
+ "names": {
+  "name": "The low sun",
+  "th": "แดดต่ำ",
+  "said": "Twenty minutes of the afternoon where you cannot see the oncoming lane at all.",
+  "said_th": "ยี่สิบนาทีในตอนบ่ายที่มองไม่เห็นเลนรถสวนเลย"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "visibility"
+ },
+ "text": {
+  "what": "Late afternoon on a westward leg in the cool season puts the sun directly down the road. A dusty visor turns it into a white sheet.",
+  "story": "*Inference —* the stretch this bites on is the westward run into Mae Hong Son, and it is one of the few arguments in the whole clockwise-versus-counter-clockwise question that has a physical cause rather than a preference behind it. Riding that leg in the morning puts the sun behind you.\n\nThe cheap fixes are a clean visor — a dusty one scatters light into a wall where a clean one does not — and simply stopping for twenty minutes, which on this circuit is never a hardship because there is always something to look at."
+ },
+ "text_th": {
+  "what": "ช่วงบ่ายแก่ๆ บนเส้นทางที่มุ่งหน้าตะวันตกในฤดูหนาว ดวงอาทิตย์จะอยู่ตรงปลายถนนพอดี หน้ากากหมวกที่มีฝุ่นจะเปลี่ยนมันเป็นแผ่นสีขาว",
+  "story": "*อนุมาน —* ช่วงที่เจอหนักคือทางมุ่งตะวันตกเข้าแม่ฮ่องสอน และเป็นหนึ่งในไม่กี่เหตุผลในคำถามตามเข็มหรือทวนเข็มที่มีสาเหตุทางกายภาพจริงๆ ไม่ใช่แค่ความชอบ การขี่ช่วงนี้ตอนเช้าจะทำให้แดดอยู่ข้างหลัง\n\nวิธีแก้ราคาถูกคือหน้ากากหมวกที่สะอาด หน้ากากที่มีฝุ่นจะกระเจิงแสงเป็นผนัง ส่วนหน้ากากสะอาดจะไม่เป็น และอีกวิธีคือจอดพักยี่สิบนาที ซึ่งบนเส้นทางนี้ไม่เคยลำบากเลย เพราะมีอะไรให้ดูตลอด"
+ },
+ "kin": [
+  {
+   "to": "season-and-direction",
+   "as": "The argument this hazard feeds.",
+   "rel": "story"
+  },
+  {
+   "to": "soppong-to-mhs",
+   "as": "The leg it lands on.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:wp-motorcycle-safety"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "general riding knowledge applied to this circuit's measured shape"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

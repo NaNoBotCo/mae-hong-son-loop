@@ -1,0 +1,64 @@
+{
+ "id": "cool-season",
+ "type": "event",
+ "names": {
+  "name": "The cool season",
+  "th": "ฤดูหนาว",
+  "said": "November to February, and everyone knows it.",
+  "said_th": "พฤศจิกายนถึงกุมภาพันธ์ และทุกคนรู้"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "cool"
+ },
+ "text": {
+  "what": "Dry, clear, cold at altitude before dawn, and the busiest and most expensive months on the circuit.",
+  "story": "The measured air is good without being the year's best: Pai's November mean is 8.1 µg/m³ and December 9.9, against 3.0 in July. It is the dryness rather than the cleanliness that makes the season.\n\nWhat is actually here that is not here otherwise: the sea of mist at dawn off the ridges, which needs cold still air and is a November-to-January phenomenon; the *Tithonia* bloom above Khun Yuam in November; and dry tarmac on every descent.\n\n*Inference —* the cost is crowding and price, and the one real riding hazard is the low afternoon sun, which is worst at exactly this time of year on a westward leg. Mornings are genuinely cold on the high sections before nine — this is the one season on this circuit where a rider is underdressed rather than overheating."
+ },
+ "text_th": {
+  "what": "แห้ง ใส หนาวบนที่สูงก่อนรุ่งสาง และเป็นเดือนที่คนเยอะที่สุดและแพงที่สุดบนเส้นทาง",
+  "story": "อากาศที่วัดได้ดีโดยไม่ใช่ดีที่สุดของปี ค่าเฉลี่ยพฤศจิกายนของปายคือ 8.1 ธันวาคม 9.9 เทียบกับ 3.0 ในเดือนกรกฎาคม สิ่งที่ทำให้ฤดูนี้เป็นฤดูนี้คือความแห้ง ไม่ใช่ความสะอาด\n\nสิ่งที่มีเฉพาะช่วงนี้ ทะเลหมอกยามรุ่งสางบนสันเขา ซึ่งต้องการอากาศเย็นและนิ่ง เป็นปรากฏการณ์ช่วงพฤศจิกายนถึงมกราคม ทุ่งบัวตองเหนือขุนยวมในเดือนพฤศจิกายน และถนนแห้งบนทุกทางลง\n\n*อนุมาน —* ราคาที่จ่ายคือคนเยอะและของแพง และอันตรายจากการขี่ข้อเดียวที่จริงจังคือแดดต่ำตอนบ่าย ซึ่งแย่ที่สุดในช่วงนี้ของปีพอดีบนเส้นทางที่มุ่งตะวันตก ตอนเช้าบนช่วงสูงหนาวจริงก่อนเก้าโมง นี่เป็นฤดูเดียวบนเส้นทางนี้ที่คนขี่ใส่เสื้อน้อยเกินไป ไม่ใช่ร้อนเกินไป"
+ },
+ "kin": [
+  {
+   "to": "bua-tong-bloom",
+   "as": "The November thing worth timing for.",
+   "rel": "event"
+  },
+  {
+   "to": "low-sun",
+   "as": "The season's own hazard.",
+   "rel": "hazard"
+  },
+  {
+   "to": "doi-kong-mu",
+   "as": "Where the mist is watched from.",
+   "rel": "wat"
+  }
+ ],
+ "sources": [
+  "s:open-meteo-aq",
+  "s:wp-monsoon",
+  "s:wp-tithonia-diversifolia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:open-meteo-aq"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

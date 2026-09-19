@@ -1,0 +1,64 @@
+{
+ "id": "trail-250",
+ "type": "bike",
+ "names": {
+  "name": "The 250–450 trail bike",
+  "th": "รถวิบาก 250–450",
+  "said": "The one that makes the unsealed sections stop being a decision.",
+  "said_th": "รถที่ทำให้ช่วงทางลูกรังเลิกเป็นเรื่องต้องตัดสินใจ"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "class": "trail",
+  "grip": "moderate"
+ },
+ "text": {
+  "what": "A KLX, a CRF, a D-Tracker, a Versys-X: long travel, 21- or 19-inch front wheel, upright, light, and rented all over Chiang Mai.",
+  "story": "On a circuit that is sealed almost end to end, a trail bike's advantage is not the dirt. It is the suspension travel over broken edges, the ground clearance over the concrete water bars on steep sections, and the fact that dropping it at walking pace on a wet driveway costs nothing.\n\n*Inference —* it is also the machine that makes Route 1263 and the side roads to the villages a decision you make on the day rather than one you make when you rent. What you give up is a comfortable 100 km/h on the four-lane section of Route 108 out of Chiang Mai, where a tall single-cylinder is buzzy and tiring."
+ },
+ "text_th": {
+  "what": "KLX, CRF, D-Tracker, Versys-X ช่วงล่างยาว ล้อหน้า 21 หรือ 19 นิ้ว ท่านั่งตรง น้ำหนักเบา และมีให้เช่าทั่วเชียงใหม่",
+  "story": "บนเส้นทางที่ลาดยางเกือบตลอด ข้อได้เปรียบของรถวิบากไม่ใช่ทางดิน แต่คือช่วงล่างที่ยาวกว่าเวลาเจอขอบถนนแตก ความสูงใต้ท้องรถเวลาข้ามสันคอนกรีตกันน้ำบนทางชัน และการที่ล้มด้วยความเร็วเดินบนทางเข้าที่เปียกแล้วไม่เสียอะไรเลย\n\n*อนุมาน —* มันยังเป็นรถที่ทำให้ทางหลวง 1263 และทางแยกเข้าหมู่บ้านกลายเป็นเรื่องที่ตัดสินใจหน้างานได้ แทนที่จะต้องตัดสินใจตอนเช่า สิ่งที่แลกไปคือความสบายที่ 100 กม./ชม. บนช่วงสี่เลนของทางหลวง 108 ขาออกจากเชียงใหม่ ที่ซึ่งเครื่องสูบเดียวตัวสูงจะสั่นและทำให้ล้า"
+ },
+ "kin": [
+  {
+   "to": "the-1263-cut",
+   "as": "The leg this bike is for.",
+   "rel": "leg"
+  },
+  {
+   "to": "gravel-on-the-apex",
+   "as": "What the front wheel size is buying.",
+   "rel": "hazard"
+  },
+  {
+   "to": "which-bike",
+   "as": "Where this sits against everything else.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-dual-sport-motorcycle",
+  "s:mhs-measured"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-dual-sport-motorcycle"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

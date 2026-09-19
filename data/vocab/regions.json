@@ -1,0 +1,27 @@
+{
+ "note": "Open list. Regions are the ride's own geography plus the administrative units a Thai address actually uses. A record may name a region not listed here; validate.py warns so it can be added.",
+ "entries": [
+  {"key": "loop", "name": "The loop", "th": "วงรอบแม่ฮ่องสอน", "province": null, "note": "the whole circuit, both directions"},
+  {"key": "mhs", "name": "Mae Hong Son province", "th": "จังหวัดแม่ฮ่องสอน", "province": "MHS", "note": "Thailand's westernmost and most mountainous province; 12,765 km², 22 people per km², the lowest density of any province"},
+  {"key": "cnx", "name": "Chiang Mai province", "th": "จังหวัดเชียงใหม่", "province": "CNX", "note": "where the loop starts and ends, and where the bike is rented"},
+  {"key": "north-leg", "name": "The north leg", "th": "ช่วงเหนือ", "province": null, "note": "Route 1095: Chiang Mai to Pai to Pangmapha to Mae Hong Son. The curve road."},
+  {"key": "south-leg", "name": "The south leg", "th": "ช่วงใต้", "province": null, "note": "Route 108: Mae Hong Son to Khun Yuam to Mae Sariang to Hot to Chiang Mai. The long road."},
+  {"key": "the-cut", "name": "The 1263 cut", "th": "ทางลัด 1263", "province": null, "note": "Khun Yuam east to Mae Chaem: halves the loop and doubles the difficulty"},
+  {"key": "pai", "name": "Pai", "th": "อำเภอปาย", "province": "MHS"},
+  {"key": "pangmapha", "name": "Pang Mapha", "th": "อำเภอปางมะผ้า", "province": "MHS", "note": "Soppong, the caves, the karst"},
+  {"key": "mueang-mhs", "name": "Mueang Mae Hong Son", "th": "อำเภอเมืองแม่ฮ่องสอน", "province": "MHS"},
+  {"key": "khun-yuam", "name": "Khun Yuam", "th": "อำเภอขุนยวม", "province": "MHS", "note": "the Japanese memorial, the Bua Tong hill"},
+  {"key": "mae-la-noi", "name": "Mae La Noi", "th": "อำเภอแม่ลาน้อย", "province": "MHS"},
+  {"key": "mae-sariang", "name": "Mae Sariang", "th": "อำเภอแม่สะเรียง", "province": "MHS", "note": "the quiet southern base, on the Yuam river"},
+  {"key": "sop-moei", "name": "Sop Moei", "th": "อำเภอสบเมย", "province": "MHS", "note": "off the loop, down the Salween"},
+  {"key": "mae-chaem", "name": "Mae Chaem", "th": "อำเภอแม่แจ่ม", "province": "CNX", "note": "the east end of the 1263 cut"},
+  {"key": "hot", "name": "Hot", "th": "อำเภอฮอด", "province": "CNX", "note": "the roundabout where Route 108's kilometre marks restart at zero"},
+  {"key": "chom-thong", "name": "Chom Thong", "th": "อำเภอจอมทอง", "province": "CNX", "note": "the Doi Inthanon turn"},
+  {"key": "mae-taeng", "name": "Mae Taeng", "th": "อำเภอแม่แตง", "province": "CNX", "note": "Mae Malai market, where 1095 leaves 107"},
+  {"key": "mae-rim", "name": "Mae Rim", "th": "อำเภอแม่ริม", "province": "CNX", "note": "the Samoeng warm-up turn"},
+  {"key": "samoeng", "name": "Samoeng", "th": "อำเภอสะเมิง", "province": "CNX", "note": "the 100 km rehearsal loop you ride before committing to 600"},
+  {"key": "shan", "name": "Shan country", "th": "ไทใหญ่", "province": null, "note": "a people and a culture, not a border: the largest population group in Mae Hong Son, and the reason the wats look Burmese"},
+  {"key": "karen", "name": "Karen country", "th": "กะเหรี่ยง", "province": null, "note": "the hills south and west; the long-neck Kayan are one of the smallest Karen groups"},
+  {"key": "salween", "name": "The Salween", "th": "ลุ่มน้ำสาละวิน", "province": null, "note": "the river that is also the border, west of everything here"}
+ ]
+}

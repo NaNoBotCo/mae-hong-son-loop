@@ -1,0 +1,59 @@
+{
+ "id": "loaded-bike",
+ "type": "hazard",
+ "names": {
+  "name": "A loaded bike is a different bike",
+  "th": "รถที่บรรทุกคือรถคนละคัน",
+  "said": "It steers later, stops later and stands up in corners.",
+  "said_th": "เลี้ยวช้าลง หยุดช้าลง และตั้งตรงกลางโค้ง"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "mechanical"
+ },
+ "text": {
+  "what": "Weight added high and behind the rear axle — a tail pack, a rucksack, a pillion — changes the handling in ways that all show up on a descent.",
+  "story": "*Inference —* the effects compound rather than add. Higher centre of mass means more effort to lean and more reluctance to stay leant; more total mass means longer stopping and more heat in the brakes over a long descent; and weight behind the axle lightens the front, which is the wheel doing the steering and most of the braking.\n\nThe fix is placement before it is technique. Low and forward: footwell before rack, panniers before top box, and anything heavy against the tank rather than over the tail light. See the packing page."
+ },
+ "text_th": {
+  "what": "น้ำหนักที่เพิ่มไว้สูงและอยู่หลังเพลาล้อหลัง ทั้งกระเป๋าท้าย เป้ หรือคนซ้อน เปลี่ยนการควบคุมรถในแบบที่แสดงผลตอนลงเขาทั้งหมด",
+  "story": "*อนุมาน —* ผลกระทบมันทวีคูณ ไม่ใช่แค่บวกกัน จุดศูนย์ถ่วงสูงขึ้นแปลว่าต้องออกแรงเอียงรถมากขึ้นและรถไม่อยากคงมุมเอียง มวลรวมมากขึ้นแปลว่าระยะหยุดยาวขึ้นและความร้อนสะสมในเบรกมากขึ้นตลอดทางลงยาวๆ และน้ำหนักที่อยู่หลังเพลาทำให้ล้อหน้าเบา ซึ่งล้อหน้าคือล้อที่ทำหน้าที่เลี้ยวและเบรกเป็นส่วนใหญ่\n\nวิธีแก้อยู่ที่การจัดวางก่อนเทคนิค ต่ำและไปข้างหน้า พื้นวางเท้าก่อนแร็ค กระเป๋าข้างก่อนกล่องท้าย และของหนักให้ชิดถังน้ำมันแทนที่จะอยู่เหนือไฟท้าย ดูหน้าเรื่องการจัดสัมภาระ"
+ },
+ "kin": [
+  {
+   "to": "packing-light",
+   "as": "Where the weight should go instead.",
+   "rel": "kit"
+  },
+  {
+   "to": "brake-fade",
+   "as": "What the extra mass does to a long descent.",
+   "rel": "hazard"
+  },
+  {
+   "to": "on-the-back",
+   "as": "The heaviest thing you can add.",
+   "rel": "bike"
+  }
+ ],
+ "sources": [
+  "s:wp-motorcycle-safety"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "general riding knowledge applied to this circuit's measured shape"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

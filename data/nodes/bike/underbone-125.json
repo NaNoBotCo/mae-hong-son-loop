@@ -1,0 +1,71 @@
+{
+ "id": "underbone-125",
+ "type": "bike",
+ "names": {
+  "name": "The underbone with gears",
+  "th": "รถครอบครัวมีเกียร์ 125",
+  "said": "The same engine as the scooter, and a different road because of it.",
+  "said_th": "เครื่องยนต์ขนาดเดียวกับสกู๊ตเตอร์ แต่เป็นคนละถนนเพราะเกียร์"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "class": "underbone",
+  "grip": "easy"
+ },
+ "text": {
+  "what": "A Honda Wave, a Dream, a Sonic: a small four-stroke in a step-through frame with a four-speed gearbox and usually a centrifugal clutch, so there are gears but no clutch lever. The machine most of northern Thailand actually rides.",
+  "story": "The gearbox is the whole argument. Second gear holds a loaded 125 down a hairpin descent on the engine, and the brakes are then there for corners rather than for the entire hill. *Inference —* for a rider who has never come down ten kilometres of switchbacks before, this one change matters more than any amount of extra engine.\n\nIt is slower than a scooter off the line and faster everywhere that matters here, because 'faster' on this road means 'able to hold a steady speed up a long climb without the transmission hunting'.\n\nThe Super Cub layout it descends from has been in production since 1958 and is the most-produced motor vehicle in history, which is a way of saying that every mechanic between Chiang Mai and the Salween has seen one before."
+ },
+ "text_th": {
+  "what": "ฮอนด้า เวฟ ดรีม โซนิค เครื่องสี่จังหวะเล็กในโครงรถครอบครัว เกียร์สี่สปีด ส่วนใหญ่เป็นคลัตช์อัตโนมัติ คือมีเกียร์แต่ไม่มีก้านคลัตช์ เป็นรถที่คนภาคเหนือขี่กันจริงๆ",
+  "story": "เกียร์คือประเด็นทั้งหมด เกียร์สองหน่วงรถ 125 ที่บรรทุกของลงทางหักศอกได้ด้วยเครื่อง แล้วเบรกก็เหลือไว้ใช้กับโค้ง ไม่ใช่ใช้กับทั้งเขา *อนุมาน —* สำหรับคนที่ไม่เคยลงทางโค้งสิบกิโลเมตรมาก่อน การเปลี่ยนแค่จุดนี้สำคัญกว่าซีซีที่เพิ่มขึ้นเท่าไรก็ตาม\n\nมันออกตัวช้ากว่าสกู๊ตเตอร์ แต่เร็วกว่าในทุกที่ที่สำคัญบนเส้นทางนี้ เพราะคำว่าเร็วบนถนนสายนี้แปลว่ารักษาความเร็วคงที่ขึ้นเขายาวๆ ได้โดยเกียร์ไม่สับไปมา\n\nโครงสร้างแบบซูเปอร์คับที่มันสืบทอดมาผลิตมาตั้งแต่ปี 2501 และเป็นยานยนต์ที่ผลิตมากที่สุดในประวัติศาสตร์ ซึ่งเป็นอีกวิธีพูดว่าช่างทุกคนระหว่างเชียงใหม่ถึงสาละวินเคยเห็นมันมาแล้ว"
+ },
+ "kin": [
+  {
+   "to": "step-through-110",
+   "as": "The same size, without the gearbox that does the braking.",
+   "rel": "bike"
+  },
+  {
+   "to": "engine-braking",
+   "as": "The thing the gearbox buys you.",
+   "rel": "term"
+  },
+  {
+   "to": "brake-fade",
+   "as": "What it protects you from.",
+   "rel": "hazard"
+  },
+  {
+   "to": "which-bike",
+   "as": "Where this sits against everything else.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-honda-wave-series",
+  "s:wp-honda-super-cub",
+  "s:wp-underbone"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-honda-super-cub"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "production history cited; the riding argument is this project's"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

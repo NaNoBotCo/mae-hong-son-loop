@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "The Mae Hong Son Loop"
+message: "If you use the curve counts, the demand windows or the air summaries, please cite this."
+type: dataset
+authors:
+  - name: "NaN"
+    website: "https://wichaa.net"
+url: "https://nanobotco.github.io/mae-hong-son-loop/"
+license: CC-BY-4.0
+abstract: >-
+  A bilingual (English and Thai) route guide and directory for the Mae Hong Son motorcycle
+  loop in northern Thailand. Includes an original curve-density measurement of six Thai
+  highways computed from OpenStreetMap geometry at four angular thresholds, a per-2 km
+  riding-demand map, and four burning seasons of daily PM2.5 at ten points on the circuit.
+  Road geometry and harvested places are ODbL 1.0, © OpenStreetMap contributors.
+keywords:
+  - Mae Hong Son
+  - Thailand
+  - motorcycle touring
+  - OpenStreetMap
+  - road geometry
+  - PM2.5
+  - air quality

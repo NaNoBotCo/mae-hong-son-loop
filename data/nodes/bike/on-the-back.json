@@ -1,0 +1,60 @@
+{
+ "id": "on-the-back",
+ "type": "bike",
+ "names": {
+  "name": "Riding on the back",
+  "th": "นั่งซ้อนท้าย",
+  "said": "A pillion is not luggage, and the loop is longer from the back seat.",
+  "said_th": "คนซ้อนไม่ใช่สัมภาระ และเส้นทางนี้ยาวกว่าเมื่อนั่งข้างหลัง"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "class": "pillion",
+  "grip": "moderate"
+ },
+ "text": {
+  "what": "Two people, one bike, six hundred kilometres of camber changes. Common, and worth planning around rather than discovering.",
+  "story": "*Inference —* three things change with a passenger, and all three are worse on a descent. The bike is heavier so it stops later; the weight is high and behind the rear axle so it wants to stand the bike up mid-corner; and the passenger cannot see the road surface coming, so every unannounced brake application is a surprise that moves their weight forward into the rider.\n\nWhat fixes most of it is boring: more distance, earlier braking, and telling the passenger where the next stop is. Days should be shorter — *Inference —* about two-thirds of the distance a solo rider would plan.\n\nThe pillion needs their own helmet, their own long sleeves and their own gloves, and the rental shop's spare helmet is often the one nobody chose."
+ },
+ "text_th": {
+  "what": "สองคน หนึ่งคัน หกร้อยกิโลเมตรที่เอียงซ้ายเอียงขวาตลอด เป็นเรื่องปกติ และควรวางแผนไว้ก่อน ไม่ใช่ค่อยไปรู้เอาตอนนั้น",
+  "story": "*อนุมาน —* สามอย่างเปลี่ยนไปเมื่อมีคนซ้อน และทั้งสามอย่างแย่กว่าเดิมตอนลงเขา รถหนักขึ้นจึงหยุดช้าลง น้ำหนักอยู่สูงและอยู่หลังเพลาล้อหลังจึงพยายามดันรถให้ตั้งขึ้นกลางโค้ง และคนซ้อนมองไม่เห็นผิวถนนที่กำลังจะมาถึง ทุกครั้งที่เบรกโดยไม่บอกล่วงหน้าจึงเป็นความประหลาดใจที่ผลักน้ำหนักเขามาข้างหน้าทับคนขี่\n\nสิ่งที่แก้ได้เกือบหมดนั้นน่าเบื่อมาก คือเว้นระยะมากขึ้น เบรกเร็วขึ้น และบอกคนซ้อนว่าจุดพักถัดไปอยู่ตรงไหน ระยะต่อวันควรสั้นลง *อนุมาน —* ราวสองในสามของระยะที่คนขี่คนเดียวจะวางแผนไว้\n\nคนซ้อนต้องมีหมวกกันน็อกของตัวเอง เสื้อแขนยาวของตัวเอง และถุงมือของตัวเอง ส่วนหมวกสำรองของร้านเช่ามักเป็นใบที่ไม่มีใครเลือก"
+ },
+ "kin": [
+  {
+   "to": "loaded-bike",
+   "as": "The same physics, without the conversation.",
+   "rel": "hazard"
+  },
+  {
+   "to": "gear",
+   "as": "Two sets, not one.",
+   "rel": "kit"
+  },
+  {
+   "to": "which-bike",
+   "as": "Where this changes the answer.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-motorcycle-safety",
+  "s:wp-motorcycle-helmet"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

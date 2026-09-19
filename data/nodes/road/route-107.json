@@ -1,0 +1,69 @@
+{
+ "id": "route-107",
+ "type": "road",
+ "names": {
+  "name": "Route 107",
+  "th": "ทางหลวงแผ่นดินหมายเลข 107",
+  "said": "Thirty-five kilometres of nothing much, and then the turn.",
+  "said_th": "สามสิบห้ากิโลเมตรที่ไม่มีอะไร แล้วก็ถึงทางแยก"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "surface": "asphalt",
+  "ref": "107"
+ },
+ "text": {
+  "what": "Chiang Mai north towards Fang. The loop uses only its first stretch, as far as the Route 1095 turn near Mae Malai.",
+  "story": "*Inference —* the only thing to say about it is what it is for. It is a busy multi-lane road out of a city, it is the least interesting riding on the whole circuit, and it exists to get you to the junction. Ride it, do not judge the trip by it.\n\nRoute 1095 formerly began at Mae Malai market; since 1994 it begins at Ban Nong Khong on this road, which is the bypass. Both work; the signs use the new one."
+ },
+ "text_th": {
+  "what": "เชียงใหม่ขึ้นเหนือไปฝาง วงรอบใช้แค่ช่วงต้นของมัน จนถึงทางแยก 1095 ใกล้แม่มาลัย",
+  "story": "*อนุมาน —* สิ่งเดียวที่ควรพูดถึงมันคือมันมีไว้ทำอะไร มันเป็นถนนหลายเลนที่รถเยอะขาออกจากเมือง เป็นช่วงที่ขี่น่าเบื่อที่สุดของทั้งเส้นทาง และมันมีไว้พาคุณไปถึงทางแยก ขี่ผ่านไป อย่าตัดสินทริปจากมัน\n\nเดิมทางหลวง 1095 เริ่มที่ตลาดแม่มาลัย ตั้งแต่ปี พ.ศ. 2537 เริ่มที่บ้านหนองโค้งบนถนนสายนี้ ซึ่งเป็นเส้นเลี่ยงเมือง ใช้ได้ทั้งสองทาง แต่ป้ายใช้เส้นใหม่"
+ },
+ "route": {
+  "roads": [
+   "107"
+  ],
+  "from": "Chiang Mai",
+  "from_th": "เชียงใหม่",
+  "to": "Nong Khong / Mae Malai",
+  "to_th": "หนองโค้ง / แม่มาลัย",
+  "km": 35
+ },
+ "kin": [
+  {
+   "to": "route-1095",
+   "as": "What it hands you over to.",
+   "rel": "road"
+  },
+  {
+   "to": "cnx-to-pai",
+   "as": "The leg it starts.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:thwp-1095",
+  "s:wp-mae-taeng-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

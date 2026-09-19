@@ -1,0 +1,114 @@
+{
+ "id": "the-1263-cut",
+ "type": "leg",
+ "names": {
+  "name": "The 1263 cut",
+  "th": "ทางลัด 1263",
+  "said": "Sixty-four kilometres that halve the loop, and the hardest riding on it.",
+  "said_th": "หกสิบสี่กิโลเมตรที่ตัดวงรอบครึ่งหนึ่ง และเป็นช่วงที่ขี่ยากที่สุด"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "days": "1",
+  "direction": "both"
+ },
+ "text": {
+  "what": "Khun Yuam east to Mae Chaem. Optional. A three-day loop instead of a four-day one, bought with the steepest and most curve-dense road here.",
+  "story": "*Inference —* over the 38.1 kilometres OpenStreetMap has mapped of it: 159 curves at a 25-degree threshold, 25 hairpins, **4.25 a kilometre — denser than Route 1095**, with a fraction of the traffic and none of the infrastructure. The road runs roughly 64 km; the rest is not traced, so the totals here are a floor.\n\nWhat it actually costs. There is no town between the two ends. There are long stretches with no fuel. There are stretches with no phone signal. The gradients are steeper than anything on 1095 and some of the seal has broken up. If something goes wrong here, it goes wrong somewhere that nobody is passing.\n\n*Inference —* the recommendation this project would make, and it is a recommendation rather than a fact: take it on a trail bike or a midweight, in the dry, with a full tank, before noon, and not alone if that can be arranged. Take it on a 110 automatic only if you have already ridden Route 1095 and found it comfortable. In the rains, do not take it at all."
+ },
+ "text_th": {
+  "what": "จากขุนยวมไปตะวันออกสู่แม่แจ่ม เป็นทางเลือก ได้วงรอบสามวันแทนสี่วัน แลกกับถนนที่ชันที่สุดและโค้งหนาแน่นที่สุดที่นี่",
+  "story": "*อนุมาน —* บนระยะ 38.1 กิโลเมตรที่ OpenStreetMap ทำแผนที่ไว้ มี 159 โค้งที่เกณฑ์ 25 องศา โค้งหักศอก 25 โค้ง คิดเป็น **4.25 โค้งต่อกิโลเมตร หนาแน่นกว่าทางหลวง 1095** โดยมีรถน้อยกว่ามากและไม่มีสิ่งอำนวยความสะดวกใดๆ ถนนจริงยาวราว 64 กิโลเมตร ส่วนที่เหลือยังไม่มีในแผนที่ ตัวเลขนี้จึงเป็นขั้นต่ำ\n\nราคาที่จ่ายจริง ไม่มีเมืองคั่นระหว่างสองปลาย มีช่วงยาวที่ไม่มีปั๊มน้ำมัน มีช่วงที่ไม่มีสัญญาณโทรศัพท์ ความชันมากกว่าอะไรก็ตามบน 1095 และผิวลาดยางบางช่วงแตก ถ้ามีอะไรผิดพลาดที่นี่ มันผิดพลาดในที่ที่ไม่มีใครขับผ่าน\n\n*อนุมาน —* ข้อเสนอแนะของโครงการนี้ และเป็นข้อเสนอแนะ ไม่ใช่ข้อเท็จจริง ให้ไปด้วยรถวิบากหรือรถพิกัดกลาง ในหน้าแล้ง น้ำมันเต็มถัง ก่อนเที่ยง และถ้าจัดได้ อย่าไปคนเดียว ถ้าจะไปด้วยรถออโต้ 110 ให้ไปเฉพาะเมื่อขี่ทางหลวง 1095 มาแล้วและรู้สึกสบาย ส่วนหน้าฝน อย่าไปเลย"
+ },
+ "route": {
+  "roads": [
+   "1263"
+  ],
+  "from": "Khun Yuam",
+  "from_th": "ขุนยวม",
+  "to": "Mae Chaem",
+  "to_th": "แม่แจ่ม",
+  "km": 38.1,
+  "km_source": "s:mhs-measured",
+  "hours": "2.5–3",
+  "hours_big": "2",
+  "curves": 159,
+  "hairpins": 25,
+  "fuel_gap_km": 64,
+  "cw": "Leaves Route 108 heading east; climbs, then drops a long way into Mae Chaem.",
+  "ccw": "From Mae Chaem westward; the climb comes first and Mae Hong Son is still ahead.",
+  "cw_th": "แยกจากทางหลวง 108 ไปตะวันออก ไต่ขึ้น แล้วทิ้งตัวลงยาวสู่แม่แจ่ม",
+  "ccw_th": "จากแม่แจ่มไปตะวันตก ไต่ขึ้นก่อน และยังไม่ถึงแม่ฮ่องสอน",
+  "order": 8
+ },
+ "riding": {
+  "min_class": "small-manual",
+  "grip": "hard",
+  "pillion": "think",
+  "note": "The one leg on this circuit where the bike and the rider both matter.",
+  "note_th": "ช่วงเดียวบนเส้นทางนี้ที่ทั้งรถและคนขี่มีผลจริง",
+  "loaded": "Loaded, on a heavy bike, on a wet descent, this is the hardest thing here by a distance."
+ },
+ "kin": [
+  {
+   "to": "route-1263",
+   "as": "The road itself.",
+   "rel": "road"
+  },
+  {
+   "to": "trail-250",
+   "as": "The machine it suits.",
+   "rel": "bike"
+  },
+  {
+   "to": "the-rains",
+   "as": "The season it comes off the plan.",
+   "rel": "event"
+  },
+  {
+   "to": "mae-chaem",
+   "as": "The eastern end.",
+   "rel": "town"
+  },
+  {
+   "to": "brake-fade",
+   "as": "The descent that produces it.",
+   "rel": "hazard"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:osm",
+  "s:wp-khun-yuam-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:mhs-measured"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "curve figures measured; fuel, signal and surface descriptions are general and are not sourced to a survey — treat them as a floor, not a report"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "seasons": {
+  "rains": {
+   "note": "Off the plan. Steep, broken seal, and nobody passing.",
+   "note_th": "ตัดออกจากแผน ชัน ผิวแตก และไม่มีใครขับผ่าน",
+   "direction": "either",
+   "tier": "inference"
+  }
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "mae-sariang-to-hot",
+ "type": "leg",
+ "names": {
+  "name": "Mae Sariang to Hot",
+  "th": "แม่สะเรียง – ฮอด",
+  "said": "The long one. A hundred and fifty kilometres of mountain road and almost nothing on it.",
+  "said_th": "ช่วงยาว หนึ่งร้อยห้าสิบกิโลเมตรของถนนภูเขา และแทบไม่มีอะไรบนนั้น"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "days": "1",
+  "direction": "both"
+ },
+ "text": {
+  "what": "The emptiest stretch of the circuit. Sealed, two lanes, steep hillsides, few villages, and a national park in the middle.",
+  "story": "The Thai highway article puts it plainly: from Hot the road runs along steep hills all the way to Mae Sariang. Between the two there is Op Luang, a gorge the Chaem river cut, and not a great deal else with a name.\n\n*Inference —* the planning points are fuel and heat. This is the longest gap between towns of any size on the circuit, it is low and hot at the eastern end, and it is where a day that started late finishes in the dark. Counter-clockwise it is day one and it is a very long day one; clockwise it is the last real leg and it is the one that gets rushed."
+ },
+ "text_th": {
+  "what": "ช่วงที่ว่างเปล่าที่สุดของวงรอบ ลาดยาง สองเลน ไหล่เขาชัน หมู่บ้านน้อย และมีอุทยานแห่งชาติอยู่ตรงกลาง",
+  "story": "บทความทางหลวงภาษาไทยบอกไว้ตรงๆ จากฮอดถนนเลาะไปตามภูเขาสูงชันจนถึงแม่สะเรียง ระหว่างสองเมืองมีออบหลวง ซึ่งเป็นช่องเขาที่แม่น้ำแจ่มกัดเซาะ และไม่ค่อยมีอะไรอื่นที่มีชื่อ\n\n*อนุมาน —* จุดที่ต้องวางแผนคือน้ำมันกับความร้อน นี่คือช่วงห่างระหว่างเมืองที่ยาวที่สุดของวงรอบ ปลายด้านตะวันออกอยู่ต่ำและร้อน และเป็นช่วงที่วันซึ่งออกสายจะจบในความมืด ถ้าไปทวนเข็มนี่คือวันแรก และเป็นวันแรกที่ยาวมาก ถ้าไปตามเข็มนี่คือช่วงจริงจังช่วงสุดท้าย และเป็นช่วงที่มักถูกเร่ง"
+ },
+ "route": {
+  "roads": [
+   "108"
+  ],
+  "from": "Mae Sariang",
+  "from_th": "แม่สะเรียง",
+  "to": "Hot",
+  "to_th": "ฮอด",
+  "km": 150,
+  "hours": "3",
+  "hours_big": "2.5",
+  "fuel_gap_km": 60,
+  "cw": "The last long haul before the four-lane run home.",
+  "ccw": "Day one, and long. This is the leg that finds the rental bike's faults.",
+  "cw_th": "ช่วงลากยาวสุดท้ายก่อนเข้าสี่เลนกลับบ้าน",
+  "ccw_th": "วันแรก และยาว เป็นช่วงที่เจอข้อบกพร่องของรถเช่า",
+  "order": 6
+ },
+ "riding": {
+  "min_class": "auto",
+  "grip": "moderate",
+  "pillion": "think",
+  "note": "Long rather than difficult. Fill up in Mae Sariang, not after it.",
+  "note_th": "ยาวมากกว่ายาก เติมน้ำมันที่แม่สะเรียง ไม่ใช่หลังจากนั้น",
+  "loaded": "Nothing here punishes luggage; the distance punishes everything."
+ },
+ "kin": [
+  {
+   "to": "op-luang",
+   "as": "The gorge in the middle of it.",
+   "rel": "stop"
+  },
+  {
+   "to": "hot",
+   "as": "The town at the eastern end.",
+   "rel": "town"
+  },
+  {
+   "to": "night-riding",
+   "as": "What this leg turns into if you start late.",
+   "rel": "hazard"
+  },
+  {
+   "to": "hot-season",
+   "as": "The eastern end is the hottest riding of the circuit.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:thwp-108",
+  "s:wp-op-luang-national-park",
+  "s:wp-hot-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

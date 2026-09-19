@@ -1,0 +1,104 @@
+{
+ "id": "how-many-curves",
+ "type": "story",
+ "names": {
+  "name": "How many curves, actually",
+  "th": "โค้งกี่โค้งกันแน่",
+  "said": "The T-shirt says 1,864. The road sign says 1,864. Thai Wikipedia says more than 2,000. Counting the map gives a third number.",
+  "said_th": "เสื้อบอก 1,864 ป้ายบอก 1,864 วิกิพีเดียไทยบอกกว่า 2,000 และการนับจากแผนที่ได้อีกตัวเลขหนึ่ง"
+ },
+ "region": [
+  "loop",
+  "north-leg"
+ ],
+ "facets": {
+  "kind": "argument"
+ },
+ "text": {
+  "what": "Three numbers are in circulation for the curves on the Chiang Mai–Pai road, and they do not agree. This page prints all three, says where each came from, and shows the method for the one it made itself.",
+  "story": "The number everybody knows is **1,864**. It is on the road sign, on the shop fronts in Pai, and on a shirt sold in about four colours. Nobody publishes the survey it came from, and no agency claims it. It is a number that has become a name.\n\nThai Wikipedia's article on Route 1095 puts it differently: the road is known for being winding, *กว่า 2,000 โค้ง* — **more than 2,000 curves** — and steep, and it gives the Chiang Mai to Mae Hong Son distance by that road as about 245 kilometres.\n\nSo there is a third way to get a number, which is to count. *Inference —* tools/harvest_osm.py pulls every OpenStreetMap way tagged Route 1095, stitches the fragments end to end, resamples the line every 60 metres so a densely-traced stretch does not count for more than a sparsely-traced one, and walks it accumulating heading change. When the turn reverses, the arc closes; an arc of 25 degrees or more is counted as a curve, and one of 120 degrees or more as a hairpin. The count that method produces is printed on /numbers/ beside the method itself, and it is a measurement of a volunteer map rather than of a road.\n\nThree numbers, three methods, one road. The disagreement is the interesting part: 1,864 is a brand, 2,000-plus is a description, and a count off the map is an argument you can check. *Inference —* none of them is wrong about the thing they are each measuring, and the road does not care.",
+  "how": "What changes the count is the threshold. Drop it to 15 degrees and every camber correction becomes a curve; raise it to 45 and long sweepers vanish. The figure on /numbers/ uses 25 degrees, and the page shows what happens at 15, 25 and 45 so the sensitivity is visible rather than hidden.",
+  "today": "The sign is not coming down and the shirt still sells. *Inference —* the useful number for a rider is not the total at all: it is curves per kilometre, because that is what the wrists feel. On that measure Route 1263 and Route 1096 both beat the famous road."
+ },
+ "text_th": {
+  "what": "ตัวเลขจำนวนโค้งบนถนนเชียงใหม่–ปายมีอยู่สามตัว และไม่ตรงกัน หน้านี้พิมพ์ทั้งสามตัว บอกที่มาของแต่ละตัว และแสดงวิธีนับของตัวที่โครงการนี้ทำเอง",
+  "story": "ตัวเลขที่ทุกคนรู้จักคือ **1,864** อยู่บนป้ายริมทาง อยู่หน้าร้านในปาย และอยู่บนเสื้อยืดราวสี่สี ไม่มีใครเผยแพร่ผลสำรวจที่มาของตัวเลขนี้ และไม่มีหน่วยงานใดอ้างเป็นเจ้าของ มันคือตัวเลขที่กลายเป็นชื่อไปแล้ว\n\nวิกิพีเดียภาษาไทยเขียนต่างออกไป บทความทางหลวงแผ่นดินหมายเลข 1095 ระบุว่าเส้นทางนี้ขึ้นชื่อเรื่องความคดเคี้ยว *กว่า 2,000 โค้ง* และลาดชัน พร้อมให้ระยะทางเชียงใหม่ถึงแม่ฮ่องสอนทางนี้ประมาณ 245 กิโลเมตร\n\nจึงมีวิธีที่สาม คือนับเอง *อนุมาน —* เครื่องมือ harvest_osm.py ดึงเส้นทางทุกช่วงใน OpenStreetMap ที่ติดป้ายหมายเลข 1095 มาต่อกัน สุ่มจุดใหม่ทุก 60 เมตร แล้วเดินไปตามเส้นสะสมมุมเลี้ยว เมื่อทิศเลี้ยวกลับด้าน ถือว่าจบหนึ่งโค้ง โค้งที่สะสมได้ตั้งแต่ 25 องศาขึ้นไปนับเป็นโค้ง ตั้งแต่ 120 องศาขึ้นไปนับเป็นโค้งหักศอก ผลที่ได้อยู่ในหน้า /numbers/ พร้อมวิธีนับ และเป็นการวัดแผนที่อาสาสมัคร ไม่ใช่การสำรวจถนนจริง\n\nสามตัวเลข สามวิธี ถนนเดียว ความไม่ตรงกันคือส่วนที่น่าสนใจ 1,864 คือแบรนด์ กว่า 2,000 คือคำบรรยาย และการนับจากแผนที่คือข้อโต้แย้งที่ตรวจสอบได้",
+  "how": "สิ่งที่เปลี่ยนผลนับคือเกณฑ์องศา ถ้าลดเหลือ 15 องศา การแก้พวงมาลัยเล็กน้อยก็นับเป็นโค้ง ถ้าเพิ่มเป็น 45 องศา โค้งยาวๆ จะหายไป ตัวเลขในหน้า /numbers/ ใช้ 25 องศา และแสดงผลที่ 15, 25 และ 45 ไว้ให้เห็นความอ่อนไหวของวิธี",
+  "today": "ป้ายคงไม่ถูกถอด และเสื้อก็ยังขายได้ *อนุมาน —* ตัวเลขที่มีประโยชน์กับคนขี่จริงๆ ไม่ใช่ยอดรวม แต่คือจำนวนโค้งต่อกิโลเมตร เพราะนั่นคือสิ่งที่ข้อมือรู้สึก และด้วยเกณฑ์นี้ ทางหลวง 1263 กับ 1096 ชนะถนนสายดังทั้งคู่"
+ },
+ "kin": [
+  {
+   "to": "route-1095",
+   "as": "The road the number is attached to.",
+   "rel": "road"
+  },
+  {
+   "to": "route-1263",
+   "as": "More curves per kilometre than 1095, and no shirt.",
+   "rel": "road"
+  },
+  {
+   "to": "route-1096",
+   "as": "The Samoeng road: the same curve density, 100 km from your hotel.",
+   "rel": "road"
+  },
+  {
+   "to": "the-1864-sign",
+   "as": "The object the number lives on.",
+   "rel": "art"
+  },
+  {
+   "to": "which-way-round",
+   "as": "The other argument this road starts.",
+   "rel": "story"
+  },
+  {
+   "to": "cnx-to-pai",
+   "as": "Where you meet the curves, on day one or on day four.",
+   "rel": "leg"
+  },
+  {
+   "to": "hairpin",
+   "as": "What the 120-degree arcs are called.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:doh-1095",
+  "s:thwp-1095",
+  "s:osm",
+  "s:mhs-measured",
+  "s:wp-hairpin-turn"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:doh-1095"
+  },
+  "fields": {
+   "names.said": {
+    "tier": "cited",
+    "source": "s:thwp-1095"
+   },
+   "text.story": {
+    "tier": "cited",
+    "source": "s:thwp-1095",
+    "note": "the 1,864 figure is reported as what the sign and the merchandise carry; no agency publishes a survey behind it, and this page says so rather than attributing it"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "the threshold sensitivity is this project's own method, printed so it can be argued with"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project from the English, not machine-translated; the quoted Thai phrase กว่า 2,000 โค้ง is verbatim from the cited article"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

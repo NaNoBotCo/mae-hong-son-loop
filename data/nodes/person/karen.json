@@ -1,0 +1,67 @@
+{
+ "id": "karen",
+ "type": "person",
+ "names": {
+  "name": "The Karen",
+  "th": "กะเหรี่ยง",
+  "said": "Not one people. A group of closely related ones, across the hills the southern leg runs through.",
+  "said_th": "ไม่ใช่ชนกลุ่มเดียว แต่เป็นกลุ่มที่เกี่ยวพันกันหลายกลุ่ม อยู่ทั่วภูเขาที่ช่วงใต้วิ่งผ่าน"
+ },
+ "region": [
+  "mhs",
+  "karen"
+ ],
+ "facets": {
+  "role": "people"
+ },
+ "text": {
+  "what": "The largest group in the hills of the province after the Shan, spanning the Thai–Myanmar border, and the people whose villages line Route 108 south of Mae Hong Son.",
+  "story": "The Wikipedia article on the province is explicit that the Karen are not a single group but a mix of closely related tribes, and lists them among the seven groups making up 63 per cent of the provincial population alongside Lahu, Lisu, Lua, Miao, Chinese Yunnanese and Pa-O. Karen have their own spoken and written language.\n\nAmong the smallest of the Karen groups in Thailand are the Kayan Lahwi, whose women are recognised by the brass coils worn around the neck.\n\n*Inference —* the point worth carrying while riding Route 108: the roadside villages between Khun Yuam and Mae Sariang are people's homes and workplaces, and the difference between passing through respectfully and treating a village as scenery is mostly speed and cameras."
+ },
+ "text_th": {
+  "what": "กลุ่มใหญ่ที่สุดบนภูเขาของจังหวัดรองจากไทใหญ่ มีถิ่นฐานคร่อมชายแดนไทย-เมียนมา และเป็นเจ้าของหมู่บ้านที่เรียงอยู่ตามทางหลวง 108 ทางใต้ของแม่ฮ่องสอน",
+  "story": "บทความวิกิพีเดียเรื่องจังหวัดระบุชัดว่ากะเหรี่ยงไม่ใช่กลุ่มเดียว แต่เป็นการรวมกันของกลุ่มที่เกี่ยวพันกันอย่างใกล้ชิด และจัดอยู่ในเจ็ดกลุ่มที่รวมกันเป็นร้อยละ 63 ของประชากรจังหวัด ร่วมกับลาหู่ ลีซู ลัวะ ม้ง จีนยูนนาน และปะโอ กะเหรี่ยงมีภาษาพูดและภาษาเขียนของตัวเอง\n\nหนึ่งในกลุ่มกะเหรี่ยงที่เล็กที่สุดในไทยคือกะยันลาหวี ซึ่งผู้หญิงเป็นที่รู้จักจากห่วงทองเหลืองที่สวมรอบคอ\n\n*อนุมาน —* ประเด็นที่ควรพกไว้ระหว่างขี่ทางหลวง 108 หมู่บ้านริมถนนระหว่างขุนยวมกับแม่สะเรียงคือบ้านและที่ทำงานของผู้คน และความต่างระหว่างการผ่านไปด้วยความเคารพกับการมองหมู่บ้านเป็นทิวทัศน์ ส่วนใหญ่อยู่ที่ความเร็วและกล้อง"
+ },
+ "kin": [
+  {
+   "to": "khun-yuam-to-mae-sariang",
+   "as": "The leg that runs through their villages.",
+   "rel": "leg"
+  },
+  {
+   "to": "kayan-question",
+   "as": "The argument about the villages that charge admission.",
+   "rel": "story"
+  },
+  {
+   "to": "shan",
+   "as": "The majority group, in the valleys.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-karen-peoples",
+  "s:wp-mae-hong-son-province",
+  "s:wp-kayan-people-myanmar",
+  "s:thwp-karen"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mae-hong-son-province"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-mae-hong-son-province"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

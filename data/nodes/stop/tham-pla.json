@@ -1,0 +1,74 @@
+{
+ "id": "tham-pla",
+ "type": "stop",
+ "names": {
+  "name": "Tham Pla, the fish cave",
+  "th": "ถ้ำปลา",
+  "said": "A pool at the foot of a cliff, full of large carp nobody eats.",
+  "said_th": "สระน้ำที่เชิงผา เต็มไปด้วยปลาพลวงตัวใหญ่ที่ไม่มีใครกิน"
+ },
+ "region": [
+  "mhs",
+  "mueang-mhs"
+ ],
+ "facets": {
+  "kind": "spring",
+  "price": "mid"
+ },
+ "text": {
+  "what": "A spring-fed pool at a cave mouth north of Mae Hong Son town, in its own national park, holding a resident population of large barb.",
+  "story": "The park is Tham Pla–Namtok Pha Suea National Park, which also holds the Pha Suea waterfall further north near the border.\n\n*Tradition holds —* the fish are not taken, and that is the reason there are so many of them and they are that size. *Inference —* the place is a short ride from Mae Hong Son on the road toward Ban Rak Thai, which makes it a natural first stop on a day spent north of town rather than a destination in itself."
+ },
+ "text_th": {
+  "what": "สระน้ำจากตาน้ำที่ปากถ้ำ ทางเหนือของตัวเมืองแม่ฮ่องสอน อยู่ในอุทยานแห่งชาติของตัวเอง มีปลาพลวงขนาดใหญ่อาศัยอยู่ประจำ",
+  "story": "อุทยานชื่ออุทยานแห่งชาติถ้ำปลา–น้ำตกผาเสื่อ ซึ่งครอบคลุมน้ำตกผาเสื่อที่อยู่ถัดขึ้นไปทางเหนือใกล้ชายแดนด้วย\n\n*ตามธรรมเนียม —* ไม่มีใครจับปลาที่นี่ และนั่นคือเหตุผลที่มันมีมากและตัวใหญ่ขนาดนั้น *อนุมาน —* ที่นี่อยู่ห่างจากแม่ฮ่องสอนไม่ไกล บนถนนที่มุ่งไปบ้านรักไทย จึงเหมาะเป็นจุดแวะแรกของวันที่ใช้เวลาทางเหนือของเมือง มากกว่าจะเป็นจุดหมายในตัวเอง"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The town it is north of.",
+   "rel": "town"
+  },
+  {
+   "to": "ban-rak-thai",
+   "as": "Further up the same road.",
+   "rel": "stop"
+  }
+ ],
+ "sources": [
+  "s:wp-tham-pla-namtok-pha-suea-national-park",
+  "s:wp-mueang-mae-hong-son-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-tham-pla-namtok-pha-suea-national-park"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-tham-pla-namtok-pha-suea-national-park"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.4333,
+  "lon": 97.9833,
+  "precision": "town"
+ },
+ "recognitions": [
+  {
+   "by": "dnp",
+   "what": "Tham Pla–Namtok Pha Suea National Park",
+   "source": "s:wp-tham-pla-namtok-pha-suea-national-park"
+  }
+ ],
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18"
+}

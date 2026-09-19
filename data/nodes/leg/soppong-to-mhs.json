@@ -1,0 +1,93 @@
+{
+ "id": "soppong-to-mhs",
+ "type": "leg",
+ "names": {
+  "name": "Soppong to Mae Hong Son",
+  "th": "สบป่อง – แม่ฮ่องสอน",
+  "said": "The descent into the three mists, and the one to do in the morning.",
+  "said_th": "ทางลงสู่เมืองสามหมอก และเป็นช่วงที่ควรทำตอนเช้า"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "days": "1",
+  "direction": "both"
+ },
+ "text": {
+  "what": "Fifty-two kilometres, a hundred and ninety curves, and a long drop into the Mae Hong Son valley at the end.",
+  "story": "*Inference —* 51.5 kilometres, 190 curves at a 25-degree threshold, 3.74 a kilometre. On paper the gentlest of the three 1095 sections; in practice the one with the most sustained descent.\n\nThis is the leg the light argument is about. Ridden westward in the afternoon in the cool season the sun sits at the end of the road, on two lanes, with oncoming traffic, for the last hour. Ridden eastward in the morning it is behind you. *Inference —* it is the clearest single reason in the whole clockwise-versus-counter-clockwise question to consider going the other way round, and almost nobody raises it."
+ },
+ "text_th": {
+  "what": "ห้าสิบสองกิโลเมตร หนึ่งร้อยเก้าสิบโค้ง และจบด้วยทางลงยาวสู่หุบแม่ฮ่องสอน",
+  "story": "*อนุมาน —* ระยะ 51.5 กิโลเมตร มี 190 โค้งที่เกณฑ์ 25 องศา คิดเป็น 3.74 โค้งต่อกิโลเมตร บนกระดาษเป็นช่วงที่นุ่มที่สุดในสามช่วงของ 1095 แต่ในทางปฏิบัติเป็นช่วงที่มีทางลงต่อเนื่องยาวที่สุด\n\nนี่คือช่วงที่เรื่องแสงพูดถึง ถ้าขี่ไปทางตะวันตกตอนบ่ายในฤดูหนาว ดวงอาทิตย์จะอยู่ปลายถนน บนสองเลน มีรถสวน ตลอดชั่วโมงสุดท้าย ถ้าขี่ไปทางตะวันออกตอนเช้า มันจะอยู่ข้างหลัง *อนุมาน —* นี่คือเหตุผลเดี่ยวที่ชัดที่สุดในคำถามตามเข็มหรือทวนเข็มทั้งหมด ที่ควรพิจารณาไปอีกทาง และแทบไม่มีใครพูดถึง"
+ },
+ "route": {
+  "roads": [
+   "1095"
+  ],
+  "from": "Soppong",
+  "from_th": "สบป่อง",
+  "to": "Mae Hong Son",
+  "to_th": "แม่ฮ่องสอน",
+  "km": 52,
+  "km_source": "s:mhs-measured",
+  "hours": "1.5–2",
+  "hours_big": "1.5",
+  "curves": 190,
+  "hairpins": 23,
+  "cw": "Westward, into the afternoon sun in the cool season. Leave early or accept it.",
+  "ccw": "Eastward in the morning, sun behind. The better half of this leg's bargain.",
+  "cw_th": "ไปทางตะวันตก ปะทะแดดบ่ายในฤดูหนาว ออกเช้าหรือยอมรับมันไป",
+  "ccw_th": "ไปทางตะวันออกตอนเช้า แดดอยู่ข้างหลัง เป็นครึ่งที่ดีกว่าของช่วงนี้",
+  "order": 3
+ },
+ "riding": {
+  "min_class": "auto",
+  "grip": "moderate",
+  "pillion": "fine",
+  "note": "The descent is long. On an automatic, stop twice on it.",
+  "note_th": "ทางลงยาว ถ้าเป็นรถออโต้ ให้จอดพักสองครั้งระหว่างทาง"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The town at the bottom.",
+   "rel": "town"
+  },
+  {
+   "to": "low-sun",
+   "as": "The hazard this leg is famous for among people who have met it.",
+   "rel": "hazard"
+  },
+  {
+   "to": "season-and-direction",
+   "as": "The argument this leg supplies.",
+   "rel": "story"
+  },
+  {
+   "to": "brake-fade",
+   "as": "The long descent.",
+   "rel": "hazard"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:wp-mae-hong-son"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

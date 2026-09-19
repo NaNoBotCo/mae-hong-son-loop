@@ -1,0 +1,94 @@
+{
+ "id": "route-1263",
+ "type": "road",
+ "names": {
+  "name": "Route 1263",
+  "th": "ทางหลวงแผ่นดินหมายเลข 1263",
+  "said": "Sixty-three kilometres, no town, and more curves per kilometre than the famous road.",
+  "said_th": "หกสิบสามกิโลเมตร ไม่มีเมือง และมีโค้งต่อกิโลเมตรมากกว่าถนนสายดัง"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "surface": "asphalt-broken",
+  "ref": "1263"
+ },
+ "text": {
+  "what": "Khun Yuam east to Mae Chaem. The shortcut that halves the loop, and the hardest riding in this network.",
+  "story": "*Inference —* the OpenStreetMap trace of this road comes back incomplete: 38.1 kilometres of it stitched, against the roughly 64 the road runs. Over the part that is mapped it carries 159 curves at a 25-degree threshold with 25 hairpins — **4.25 a kilometre, denser than Route 1095's 4.03** — on a third of 1095's length, with a fraction of the traffic. The rest of the road is not on this disk; treat the total as a floor.\n\nWhat the numbers do not carry is the character: no town in between, long stretches with no fuel and no phone signal, gradients steeper than anything on 1095, and sections where the seal has broken up. It is the most rewarding road here and the one with the least margin.\n\n*Inference —* in the rains it comes off most plans. Steep, broken seal, and nobody coming past for a while is a combination that stops being fun when it is also wet."
+ },
+ "text_th": {
+  "what": "จากขุนยวมไปตะวันออกสู่แม่แจ่ม ทางลัดที่ตัดวงรอบครึ่งหนึ่ง และเป็นช่วงที่ขี่ยากที่สุดในเครือข่ายนี้",
+  "story": "*อนุมาน —* เส้นทางของถนนสายนี้ใน OpenStreetMap ยังไม่ครบ ต่อกันได้ 38.1 กิโลเมตร จากที่ถนนจริงยาวราว 64 กิโลเมตร เฉพาะส่วนที่มีในแผนที่มี 159 โค้งที่เกณฑ์ 25 องศา และโค้งหักศอก 25 โค้ง คิดเป็น **4.25 โค้งต่อกิโลเมตร หนาแน่นกว่าทางหลวง 1095 ที่ 4.03** บนระยะหนึ่งในสามของ 1095 และมีรถน้อยกว่ามาก ส่วนที่เหลือของถนนไม่มีในชุดข้อมูลนี้ ให้ถือว่ายอดรวมเป็นขั้นต่ำ\n\nสิ่งที่ตัวเลขไม่ได้บอกคือลักษณะของมัน ไม่มีเมืองคั่นกลาง มีช่วงยาวที่ไม่มีปั๊มและไม่มีสัญญาณโทรศัพท์ ความชันมากกว่าอะไรก็ตามบน 1095 และมีช่วงที่ผิวลาดยางแตก เป็นถนนที่คุ้มที่สุดที่นี่ และเป็นถนนที่มีระยะเผื่อน้อยที่สุด\n\n*อนุมาน —* หน้าฝนมันหลุดจากแผนเกือบทุกแผน ชัน ผิวแตก และไม่มีใครขับผ่านมาสักพัก เป็นส่วนผสมที่เลิกสนุกเมื่อมันเปียกด้วย"
+ },
+ "route": {
+  "roads": [
+   "1263"
+  ],
+  "from": "Khun Yuam",
+  "from_th": "ขุนยวม",
+  "to": "Mae Chaem",
+  "to_th": "แม่แจ่ม",
+  "km": 38.1,
+  "km_source": "s:mhs-measured",
+  "curves": 159,
+  "hairpins": 25,
+  "cw": "Taken eastward off Route 108 after Mae Hong Son: a long climb, then a long drop to Mae Chaem.",
+  "ccw": "Taken westward from Mae Chaem: climbs first, and puts you on Route 108 with Mae Hong Son still to come.",
+  "cw_th": "แยกไปตะวันออกจากทางหลวง 108 หลังแม่ฮ่องสอน ไต่ขึ้นยาว แล้วทิ้งตัวลงยาวสู่แม่แจ่ม",
+  "ccw_th": "ไปตะวันตกจากแม่แจ่ม ไต่ขึ้นก่อน แล้วออกทางหลวง 108 โดยที่ยังไม่ถึงแม่ฮ่องสอน"
+ },
+ "kin": [
+  {
+   "to": "the-1263-cut",
+   "as": "The leg this road is.",
+   "rel": "leg"
+  },
+  {
+   "to": "khun-yuam",
+   "as": "The western end.",
+   "rel": "town"
+  },
+  {
+   "to": "mae-chaem",
+   "as": "The eastern end.",
+   "rel": "town"
+  },
+  {
+   "to": "trail-250",
+   "as": "The bike this road suits.",
+   "rel": "bike"
+  },
+  {
+   "to": "the-rains",
+   "as": "The season that takes it off the plan.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:osm",
+  "s:wp-khun-yuam-district",
+  "s:wp-mae-chaem-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the curve figures are measured; the character description is this project's and is not sourced to a road survey"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

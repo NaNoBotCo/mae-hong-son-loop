@@ -1,0 +1,88 @@
+{
+ "id": "pai-to-soppong",
+ "type": "leg",
+ "names": {
+  "name": "Pai to Soppong",
+  "th": "ปาย – สบป่อง",
+  "said": "Thirty-seven kilometres, a hundred and thirty-nine curves, and a cave at the end.",
+  "said_th": "สามสิบเจ็ดกิโลเมตร หนึ่งร้อยสามสิบเก้าโค้ง และมีถ้ำรออยู่"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "days": "1",
+  "direction": "both"
+ },
+ "text": {
+  "what": "Short. Out of the Pai basin, up, and into limestone country.",
+  "story": "*Inference —* measured off OSM this section carries 139 curves in 36.7 kilometres, 3.87 a kilometre. It is the easiest of the three 1095 sections by that measure, and the shortest by a long way.\n\nWhich makes it the leg to use. A day that runs Pai to Soppong only is a half day with the caves in it; a day that runs Pai to Mae Hong Son is a full one that ends with the hardest descent of the northern leg. *Inference —* people who are tired when they reach Mae Hong Son usually made that choice without noticing it was one."
+ },
+ "text_th": {
+  "what": "สั้น ออกจากแอ่งปาย ไต่ขึ้น แล้วเข้าเขตหินปูน",
+  "story": "*อนุมาน —* เมื่อวัดจาก OSM ช่วงนี้มี 139 โค้งใน 36.7 กิโลเมตร คิดเป็น 3.87 โค้งต่อกิโลเมตร เป็นช่วงที่ง่ายที่สุดในสามช่วงของ 1095 ตามเกณฑ์นี้ และสั้นที่สุดแบบทิ้งห่าง\n\nซึ่งทำให้มันเป็นช่วงที่ควรใช้ประโยชน์ วันที่วิ่งแค่ปายถึงสบป่องคือครึ่งวันที่มีถ้ำอยู่ในนั้น ส่วนวันที่วิ่งปายถึงแม่ฮ่องสอนคือเต็มวันที่จบด้วยทางลงที่ยากที่สุดของช่วงเหนือ *อนุมาน —* คนที่เหนื่อยตอนถึงแม่ฮ่องสอนมักเลือกแบบหลังโดยไม่รู้ตัวว่ามันเป็นทางเลือก"
+ },
+ "route": {
+  "roads": [
+   "1095"
+  ],
+  "from": "Pai",
+  "from_th": "ปาย",
+  "to": "Soppong",
+  "to_th": "สบป่อง",
+  "km": 37,
+  "km_source": "s:mhs-measured",
+  "hours": "1–1.5",
+  "hours_big": "1",
+  "curves": 139,
+  "hairpins": 22,
+  "cw": "A half-day that leaves the afternoon for Tham Lot.",
+  "ccw": "The run into Pai, and an easy end to a hard day.",
+  "cw_th": "ครึ่งวันที่เหลือบ่ายไว้ให้ถ้ำลอด",
+  "ccw_th": "ช่วงเข้าปาย และเป็นการจบวันที่หนักแบบสบายๆ",
+  "order": 2
+ },
+ "riding": {
+  "min_class": "auto",
+  "grip": "easy",
+  "pillion": "fine",
+  "note": "The gentlest stretch of Route 1095.",
+  "note_th": "ช่วงที่นุ่มที่สุดของทางหลวง 1095"
+ },
+ "kin": [
+  {
+   "to": "soppong",
+   "as": "The town at the end.",
+   "rel": "town"
+  },
+  {
+   "to": "tham-lot",
+   "as": "The reason to stop short.",
+   "rel": "stop"
+  },
+  {
+   "to": "soppong-to-mhs",
+   "as": "The hard one, next.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:wp-pang-mapha-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

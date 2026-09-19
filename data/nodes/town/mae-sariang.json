@@ -1,0 +1,81 @@
+{
+ "id": "mae-sariang",
+ "type": "town",
+ "names": {
+  "name": "Mae Sariang",
+  "th": "แม่สะเรียง",
+  "rtgs": "Mae Sariang",
+  "said": "The southern base, on the Yuam river, with almost nobody in it.",
+  "said_th": "ฐานทางใต้ ริมแม่น้ำยวม และแทบไม่มีคน"
+ },
+ "region": [
+  "mhs",
+  "mae-sariang",
+  "loop",
+  "south-leg"
+ ],
+ "facets": {
+  "province": "MHS",
+  "kind": "town"
+ },
+ "geo": {
+  "lat": 18.1614,
+  "lon": 97.9308,
+  "precision": "town",
+  "elevation_m": 220
+ },
+ "text": {
+  "what": "The largest town on the southern leg and the natural overnight between Mae Hong Son and Chiang Mai. Teak-era shophouses, Burmese-style wats, and a river.",
+  "story": "Mae Sariang district reaches west to the Salween, which is the border, and the road on to Mae Sam Laep is the way to see it.\n\n*Inference —* the reason to give Mae Sariang a night rather than treating it as a lunch stop is arithmetic. Mae Hong Son to Chiang Mai in one day by Route 108 is a very long day on a mountain road; broken at Mae Sariang it is two comfortable ones. Riders on a tight schedule push through and arrive after dark, which is the single most avoidable mistake on this circuit.",
+  "today": "Quiet, cheap, and the last town of any size before the long empty run north or the long fast run east."
+ },
+ "text_th": {
+  "what": "เมืองใหญ่ที่สุดบนช่วงใต้ และเป็นที่พักค้างคืนตามธรรมชาติระหว่างแม่ฮ่องสอนกับเชียงใหม่ มีตึกแถวยุคไม้สัก วัดแบบพม่า และแม่น้ำ",
+  "story": "อำเภอแม่สะเรียงทอดตัวไปทางตะวันตกจนถึงแม่น้ำสาละวิน ซึ่งคือชายแดน และถนนต่อไปแม่สามแลบคือทางไปดูมัน\n\n*อนุมาน —* เหตุผลที่ควรให้แม่สะเรียงหนึ่งคืนแทนที่จะแวะกินข้าวเที่ยงคือเลขคณิต แม่ฮ่องสอนถึงเชียงใหม่ในวันเดียวทางหลวง 108 เป็นวันที่ยาวมากบนถนนภูเขา ถ้าแบ่งครึ่งที่แม่สะเรียงจะกลายเป็นสองวันสบายๆ คนขี่ที่ตารางแน่นมักฝืนไปต่อและไปถึงตอนมืด ซึ่งเป็นความผิดพลาดที่เลี่ยงได้ง่ายที่สุดบนเส้นทางนี้",
+  "today": "เงียบ ถูก และเป็นเมืองสุดท้ายที่มีขนาดก่อนทางยาวว่างเปล่าขึ้นเหนือ หรือทางยาวเร็วไปตะวันออก"
+ },
+ "kin": [
+  {
+   "to": "mae-sariang-to-hot",
+   "as": "The long eastern day.",
+   "rel": "leg"
+  },
+  {
+   "to": "khun-yuam-to-mae-sariang",
+   "as": "The way in from the north.",
+   "rel": "leg"
+  },
+  {
+   "to": "route-108",
+   "as": "The road it sits on.",
+   "rel": "road"
+  }
+ ],
+ "sources": [
+  "s:wp-mae-sariang-district",
+  "s:wp-salween-river",
+  "s:wp-mae-hong-son-province"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mae-sariang-district"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the riding conclusions are this project's; the geography and history under them are cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

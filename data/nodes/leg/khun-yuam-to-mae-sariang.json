@@ -1,0 +1,84 @@
+{
+ "id": "khun-yuam-to-mae-sariang",
+ "type": "leg",
+ "names": {
+  "name": "Khun Yuam to Mae Sariang",
+  "th": "ขุนยวม – แม่สะเรียง",
+  "said": "Down the Yuam river, through Mae La Noi, and into the quietest town on the loop.",
+  "said_th": "เลียบแม่น้ำยวม ผ่านแม่ลาน้อย เข้าสู่เมืองที่เงียบที่สุดบนเส้นทาง"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "days": "1",
+  "direction": "both"
+ },
+ "text": {
+  "what": "Ninety-odd kilometres of Route 108 that the Thai highway article describes as running parallel to the Yuam river.",
+  "story": "The article is precise about what this road does: from Mae Sariang it parallels the Yuam through Mae La Noi, then climbs after Ban Mae La Luang to Khun Yuam. A river road with a climb at the north end.\n\n*Inference —* it is the leg where the trip changes pace. The riding asks little, the villages are frequent, and the temptation is to cover it fast. The villages are exactly why not to: this is Karen country and the roadside is where most of what you will see of it happens."
+ },
+ "text_th": {
+  "what": "ราวเก้าสิบกิโลเมตรของทางหลวง 108 ที่บทความทางหลวงภาษาไทยบรรยายว่าขนานไปกับแม่น้ำยวม",
+  "story": "บทความระบุชัดว่าถนนช่วงนี้ทำอะไร จากแม่สะเรียงมันขนานไปกับแม่น้ำยวมผ่านแม่ลาน้อย แล้วไต่ขึ้นหลังพ้นบ้านแม่ลาหลวงถึงขุนยวม เป็นถนนเลียบแม่น้ำที่มีทางไต่อยู่ปลายเหนือ\n\n*อนุมาน —* เป็นช่วงที่จังหวะของทริปเปลี่ยน การขี่ไม่เรียกร้องอะไรมาก หมู่บ้านอยู่ถี่ และสิ่งที่ยั่วใจคือขี่ผ่านให้เร็ว หมู่บ้านนั่นแหละคือเหตุผลที่ไม่ควรทำ ที่นี่คือเขตกะเหรี่ยง และริมถนนคือที่ที่คุณจะได้เห็นมันเป็นส่วนใหญ่"
+ },
+ "route": {
+  "roads": [
+   "108"
+  ],
+  "from": "Khun Yuam",
+  "from_th": "ขุนยวม",
+  "to": "Mae Sariang",
+  "to_th": "แม่สะเรียง",
+  "km": 95,
+  "hours": "2",
+  "hours_big": "1.75",
+  "cw": "Southbound, downhill on balance, and easy.",
+  "ccw": "Northbound and climbing toward the end.",
+  "cw_th": "มุ่งใต้ โดยรวมเป็นทางลง และสบาย",
+  "ccw_th": "มุ่งเหนือ และไต่ขึ้นช่วงท้าย",
+  "order": 5
+ },
+ "riding": {
+  "min_class": "auto",
+  "grip": "easy",
+  "pillion": "fine"
+ },
+ "kin": [
+  {
+   "to": "mae-sariang",
+   "as": "The town at the end.",
+   "rel": "town"
+  },
+  {
+   "to": "karen",
+   "as": "Whose country this leg runs through.",
+   "rel": "person"
+  },
+  {
+   "to": "route-108",
+   "as": "The road it is on.",
+   "rel": "road"
+  }
+ ],
+ "sources": [
+  "s:thwp-108",
+  "s:wp-mae-la-noi-district",
+  "s:wp-karen-peoples"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

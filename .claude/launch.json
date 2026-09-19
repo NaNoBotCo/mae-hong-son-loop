@@ -1,0 +1,6 @@
+{
+ "version": "0.0.1",
+ "configurations": [
+  {"name": "mhs-loop", "runtimeExecutable": "python3", "runtimeArgs": ["tools/serve.py", "8812"], "port": 8812}
+ ]
+}

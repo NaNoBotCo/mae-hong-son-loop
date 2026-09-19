@@ -1,0 +1,108 @@
+{
+ "id": "mae-hong-son",
+ "type": "town",
+ "names": {
+  "name": "Mae Hong Son",
+  "th": "แม่ฮ่องสอน",
+  "rtgs": "Mae Hong Son",
+  "said": "The city of three mists, and a provincial capital you can walk across in twenty minutes.",
+  "said_th": "เมืองสามหมอก และเมืองหลวงของจังหวัดที่เดินข้ามได้ในยี่สิบนาที"
+ },
+ "region": [
+  "mhs",
+  "mueang-mhs",
+  "loop"
+ ],
+ "facets": {
+  "province": "MHS",
+  "kind": "city"
+ },
+ "geo": {
+  "lat": 19.302,
+  "lon": 97.9654,
+  "precision": "town",
+  "elevation_m": 270
+ },
+ "text": {
+  "what": "The far end of the loop and the only town on it with an airport, a hospital of size, and a chedi on a hill above the runway. Population small, altitude low, mountains on every side.",
+  "story": "Mae Hong Son province is the westernmost in Thailand and the most mountainous, 12,765 square kilometres at 22 people per square kilometre, the lowest population density of any province. As of 2012 it was also the poorest.\n\nThe province was formerly part of Mawkmai State, one of the Shan States, founded in 1767 by Hsai Khiao of a Chiang Mai noble family. The Anglo-Siamese Boundary Commission of 1892–93 ceded Mae Hong Son district to Siam while the trans-Salween districts stayed with British Burma — which is why the border runs where it does, and why the temples in town look Burmese rather than Lanna.\n\nThe town itself was established in the early nineteenth century as an elephant training camp, on the order of the then King of Chiang Mai. Shan people are the largest population group in the province; the other named groups are Karen, Lahu, Lisu, Lua, Miao and Pa-O, and Chinese Yunnanese. 77.5 per cent of inhabitants are Buddhist and 20.9 per cent Christian, which is a far higher Christian share than Thailand as a whole.",
+  "today": "For a rider it is the pivot: the point where the loop turns, the one place with a hospital and a full range of mechanics, and the town that deserves two nights rather than one. The dawn mist that gives the province its nickname is best seen from the chedi on the hill, which means being up before the town is."
+ },
+ "text_th": {
+  "what": "ปลายอีกด้านของวงรอบ และเป็นเมืองเดียวบนเส้นทางที่มีสนามบิน มีโรงพยาบาลขนาดใหญ่ และมีเจดีย์บนดอยเหนือรันเวย์ ประชากรน้อย พื้นที่ต่ำ ล้อมรอบด้วยภูเขาทุกด้าน",
+  "story": "จังหวัดแม่ฮ่องสอนเป็นจังหวัดตะวันตกสุดของไทยและเป็นภูเขามากที่สุด พื้นที่ 12,765 ตารางกิโลเมตร ความหนาแน่น 22 คนต่อตารางกิโลเมตร ต่ำที่สุดในบรรดาทุกจังหวัด และในปี 2555 ยังเป็นจังหวัดที่ยากจนที่สุด\n\nเดิมพื้นที่นี้เป็นส่วนหนึ่งของเมืองหมอกใหม่ หนึ่งในรัฐฉาน ก่อตั้งเมื่อ พ.ศ. 2310 โดยไสยเขียว จากตระกูลขุนนางเชียงใหม่ คณะกรรมการปักปันเขตแดนอังกฤษ-สยาม พ.ศ. 2435–2436 ยกอำเภอแม่ฮ่องสอนให้สยาม ขณะที่เขตฝั่งตะวันตกของสาละวินยังอยู่กับพม่าของอังกฤษ นั่นคือเหตุผลที่ชายแดนอยู่ตรงนี้ และเหตุผลที่วัดในเมืองดูเป็นพม่ามากกว่าล้านนา\n\nตัวเมืองตั้งขึ้นต้นศตวรรษที่ 19 เป็นปางคล้องช้าง ตามพระบัญชาของเจ้าผู้ครองนครเชียงใหม่ในเวลานั้น ชาวไทใหญ่เป็นกลุ่มประชากรใหญ่ที่สุดในจังหวัด กลุ่มอื่นที่ระบุไว้คือ กะเหรี่ยง ลาหู่ ลีซู ลัวะ ม้ง ปะโอ และจีนยูนนาน ประชากรร้อยละ 77.5 นับถือพุทธ ร้อยละ 20.9 นับถือคริสต์ ซึ่งเป็นสัดส่วนคริสต์ที่สูงกว่าค่าเฉลี่ยของประเทศมาก",
+  "today": "สำหรับคนขี่รถ ที่นี่คือจุดหมุน เป็นจุดที่วงรอบเลี้ยวกลับ เป็นที่เดียวที่มีโรงพยาบาลและมีช่างครบ และเป็นเมืองที่ควรได้สองคืนมากกว่าคืนเดียว หมอกยามรุ่งที่เป็นที่มาของฉายาจังหวัดนี้ดูได้ดีที่สุดจากเจดีย์บนดอย ซึ่งแปลว่าต้องตื่นก่อนเมืองตื่น"
+ },
+ "kin": [
+  {
+   "to": "doi-kong-mu",
+   "as": "The chedi above the airstrip, and the dawn.",
+   "rel": "wat"
+  },
+  {
+   "to": "shan",
+   "as": "The largest population group in the province.",
+   "rel": "person"
+  },
+  {
+   "to": "soppong-to-mhs",
+   "as": "The way in from the north.",
+   "rel": "leg"
+  },
+  {
+   "to": "mhs-to-khun-yuam",
+   "as": "The way out to the south.",
+   "rel": "leg"
+  },
+  {
+   "to": "the-smoke",
+   "as": "The one air monitor in the province is here.",
+   "rel": "story"
+  },
+  {
+   "to": "poy-sang-long",
+   "as": "The festival the town is known for.",
+   "rel": "event"
+  },
+  {
+   "to": "sending-the-bag-ahead",
+   "as": "The only sensible forwarding address on the circuit.",
+   "rel": "kit"
+  }
+ ],
+ "sources": [
+  "s:wp-mae-hong-son-province",
+  "s:wp-mae-hong-son",
+  "s:wp-mueang-mae-hong-son-district",
+  "s:wp-shan-state",
+  "s:air4thai"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mae-hong-son-province"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "tags": [
+  {
+   "source": "s:wp-mae-hong-son",
+   "tag": "hospital"
+  },
+  {
+   "source": "s:osm",
+   "tag": "on-the-loop"
+  }
+ ],
+ "schema": 1,
+ "updated": "2026-09-18"
+}

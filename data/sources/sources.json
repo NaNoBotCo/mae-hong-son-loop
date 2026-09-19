@@ -1,0 +1,946 @@
+{
+ "note": "Every source cited by a record. A record may cite only an id that appears here. Corpus articles were fetched by tools/fetch_wiki.py on the date each row carries; datasets are refetched by their own harvester and carry the licence they ship under.",
+ "count": 94,
+ "sources": [
+  {
+   "id": "s:wp-mae-hong-son-province",
+   "kind": "web",
+   "title": "Mae Hong Son province",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Mae_Hong_Son_province",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-mae-hong-son",
+   "kind": "web",
+   "title": "Mae Hong Son",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Mae_Hong_Son",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-pai-thailand",
+   "kind": "web",
+   "title": "Pai, Thailand",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Pai,_Thailand",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-pai-district",
+   "kind": "web",
+   "title": "Pai district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Pai_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-pang-mapha-district",
+   "kind": "web",
+   "title": "Pang Mapha district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Pang_Mapha_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-khun-yuam-district",
+   "kind": "web",
+   "title": "Khun Yuam district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Khun_Yuam_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-mae-sariang-district",
+   "kind": "web",
+   "title": "Mae Sariang district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Mae_Sariang_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-mae-la-noi-district",
+   "kind": "web",
+   "title": "Mae La Noi district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Mae_La_Noi_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-sop-moei-district",
+   "kind": "web",
+   "title": "Sop Moei district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Sop_Moei_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-mueang-mae-hong-son-district",
+   "kind": "web",
+   "title": "Mueang Mae Hong Son district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Mueang_Mae_Hong_Son_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-mae-chaem-district",
+   "kind": "web",
+   "title": "Mae Chaem district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Mae_Chaem_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-hot-district",
+   "kind": "web",
+   "title": "Hot district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Hot_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-chom-thong",
+   "kind": "web",
+   "title": "Chom Thong",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Chom_Thong",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-mae-taeng-district",
+   "kind": "web",
+   "title": "Mae Taeng district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Mae_Taeng_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-samoeng-district",
+   "kind": "web",
+   "title": "Samoeng district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Samoeng_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-mae-rim-district",
+   "kind": "web",
+   "title": "Mae Rim district",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Mae_Rim_district",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-chiang-mai",
+   "kind": "web",
+   "title": "Chiang Mai",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-chiang-mai-province",
+   "kind": "web",
+   "title": "Chiang Mai province",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai_province",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-thai-highway-network",
+   "kind": "web",
+   "title": "Thai highway network",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Thai_highway_network",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-doi-inthanon",
+   "kind": "web",
+   "title": "Doi Inthanon",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Doi_Inthanon",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-doi-pui",
+   "kind": "web",
+   "title": "Doi Pui",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Doi_Pui",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-salween-river",
+   "kind": "web",
+   "title": "Salween River",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Salween_River",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-pai-river",
+   "kind": "web",
+   "title": "Pai River",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Pai_River",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-ping-river",
+   "kind": "web",
+   "title": "Ping River",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Ping_River",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-shan-people",
+   "kind": "web",
+   "title": "Shan people",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Shan_people",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-shan-state",
+   "kind": "web",
+   "title": "Shan State",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Shan_State",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-karen-peoples",
+   "kind": "web",
+   "title": "Karen peoples",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Karen_peoples",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-kayan-people-myanmar",
+   "kind": "web",
+   "title": "Kayan people (Myanmar)",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Kayan_people_(Myanmar)",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-karenni-people",
+   "kind": "web",
+   "title": "Karenni people",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Karenni_people",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-lahu-people",
+   "kind": "web",
+   "title": "Lahu people",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Lahu_people",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-lisu-people",
+   "kind": "web",
+   "title": "Lisu people",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Lisu_people",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-hmong-people",
+   "kind": "web",
+   "title": "Hmong people",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Hmong_people",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-padaung",
+   "kind": "web",
+   "title": "Padaung",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Padaung",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-tai-peoples",
+   "kind": "web",
+   "title": "Tai peoples",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Tai_peoples",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-poy-sang-long",
+   "kind": "web",
+   "title": "Poy Sang Long",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Poy_Sang_Long",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-loy-krathong",
+   "kind": "web",
+   "title": "Loy Krathong",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Loy_Krathong",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-tham-lot-cave",
+   "kind": "web",
+   "title": "Tham Lot cave",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Tham_Lot_cave",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-mae-hong-son-airport",
+   "kind": "web",
+   "title": "Mae Hong Son Airport",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Mae_Hong_Son_Airport",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-pai-airport",
+   "kind": "web",
+   "title": "Pai Airport",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Pai_Airport",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-namtok-mae-surin-national-park",
+   "kind": "web",
+   "title": "Namtok Mae Surin National Park",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Namtok_Mae_Surin_National_Park",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-salawin-national-park",
+   "kind": "web",
+   "title": "Salawin National Park",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Salawin_National_Park",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-tham-pla-namtok-pha-suea-national-park",
+   "kind": "web",
+   "title": "Tham Pla–Namtok Pha Suea National Park",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Tham_Pla%E2%80%93Namtok_Pha_Suea_National_Park",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-op-luang-national-park",
+   "kind": "web",
+   "title": "Op Luang National Park",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Op_Luang_National_Park",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-mexican-sunflower",
+   "kind": "web",
+   "title": "Mexican sunflower",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Mexican_sunflower",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-tithonia-diversifolia",
+   "kind": "web",
+   "title": "Tithonia diversifolia",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Tithonia_diversifolia",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-southeast-asian-haze",
+   "kind": "web",
+   "title": "Southeast Asian haze",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Southeast_Asian_haze",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-hairpin-turn",
+   "kind": "web",
+   "title": "Hairpin turn",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Hairpin_turn",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-motorcycle-safety",
+   "kind": "web",
+   "title": "Motorcycle safety",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Motorcycle_safety",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-motorcycle-helmet",
+   "kind": "web",
+   "title": "Motorcycle helmet",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Motorcycle_helmet",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-honda-wave-series",
+   "kind": "web",
+   "title": "Honda Wave series",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Honda_Wave_series",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-honda-click",
+   "kind": "web",
+   "title": "Honda Click",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Honda_Click",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-honda-super-cub",
+   "kind": "web",
+   "title": "Honda Super Cub",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Honda_Super_Cub",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-honda-500-twins",
+   "kind": "web",
+   "title": "Honda 500 twins",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Honda_500_twins",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-royal-enfield-himalayan",
+   "kind": "web",
+   "title": "Royal Enfield Himalayan",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Royal_Enfield_Himalayan",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-underbone",
+   "kind": "web",
+   "title": "Underbone",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Underbone",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-scooter-motorcycle",
+   "kind": "web",
+   "title": "Scooter (motorcycle)",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Scooter_(motorcycle)",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-dual-sport-motorcycle",
+   "kind": "web",
+   "title": "Dual-sport motorcycle",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Dual-sport_motorcycle",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-international-driving-permit",
+   "kind": "web",
+   "title": "International Driving Permit",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/International_Driving_Permit",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-driving-licence-in-thailand",
+   "kind": "web",
+   "title": "Driving licence in Thailand",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Driving_licence_in_Thailand",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-road-signs-in-thailand",
+   "kind": "web",
+   "title": "Road signs in Thailand",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Road_signs_in_Thailand",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-thai-baht",
+   "kind": "web",
+   "title": "Thai baht",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Thai_baht",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-thailand-post",
+   "kind": "web",
+   "title": "Thailand Post",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Thailand_Post",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-monsoon",
+   "kind": "web",
+   "title": "Monsoon",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Monsoon",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-geography-of-thailand",
+   "kind": "web",
+   "title": "Geography of Thailand",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Geography_of_Thailand",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-teak",
+   "kind": "web",
+   "title": "Teak",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Teak",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-burma-road",
+   "kind": "web",
+   "title": "Burma Road",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Burma_Road",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-thailand-in-world-war-ii",
+   "kind": "web",
+   "title": "Thailand in World War II",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Thailand_in_World_War_II",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-japanese-occupation-of-burma",
+   "kind": "web",
+   "title": "Japanese occupation of Burma",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Japanese_occupation_of_Burma",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:thwp-mae-hong-son-province",
+   "kind": "web",
+   "title": "จังหวัดแม่ฮ่องสอน",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AE%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%AD%E0%B8%99",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-pai",
+   "kind": "web",
+   "title": "อำเภอปาย",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B8%9B%E0%B8%B2%E0%B8%A2",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-pang-mapha",
+   "kind": "web",
+   "title": "อำเภอปางมะผ้า",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B8%9B%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B8%B0%E0%B8%9C%E0%B9%89%E0%B8%B2",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-khun-yuam",
+   "kind": "web",
+   "title": "อำเภอขุนยวม",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B8%82%E0%B8%B8%E0%B8%99%E0%B8%A2%E0%B8%A7%E0%B8%A1",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-mae-sariang",
+   "kind": "web",
+   "title": "อำเภอแม่สะเรียง",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B0%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%87",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-mae-la-noi",
+   "kind": "web",
+   "title": "อำเภอแม่ลาน้อย",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%A5%E0%B8%B2%E0%B8%99%E0%B9%89%E0%B8%AD%E0%B8%A2",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-sop-moei",
+   "kind": "web",
+   "title": "อำเภอสบเมย",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B8%AA%E0%B8%9A%E0%B9%80%E0%B8%A1%E0%B8%A2",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-mueang-mhs",
+   "kind": "web",
+   "title": "อำเภอเมืองแม่ฮ่องสอน",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AE%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%AD%E0%B8%99",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-mae-chaem",
+   "kind": "web",
+   "title": "อำเภอแม่แจ่ม",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%81%E0%B8%88%E0%B9%88%E0%B8%A1",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-hot",
+   "kind": "web",
+   "title": "อำเภอฮอด",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B3%E0%B9%80%E0%B8%A0%E0%B8%AD%E0%B8%AE%E0%B8%AD%E0%B8%94",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-108",
+   "kind": "web",
+   "title": "ทางหลวงแผ่นดินหมายเลข 108",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%9C%E0%B9%88%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%82_108",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-1095",
+   "kind": "web",
+   "title": "ทางหลวงแผ่นดินหมายเลข 1095",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%9C%E0%B9%88%E0%B8%99%E0%B8%94%E0%B8%B4%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%A5%E0%B8%82_1095",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-doi-inthanon",
+   "kind": "web",
+   "title": "ดอยอินทนนท์",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%99%E0%B8%99%E0%B8%97%E0%B9%8C",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-salween",
+   "kind": "web",
+   "title": "แม่น้ำสาละวิน",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%AA%E0%B8%B2%E0%B8%A5%E0%B8%B0%E0%B8%A7%E0%B8%B4%E0%B8%99",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-shan",
+   "kind": "web",
+   "title": "ไทใหญ่",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B9%84%E0%B8%97%E0%B9%83%E0%B8%AB%E0%B8%8D%E0%B9%88",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-karen",
+   "kind": "web",
+   "title": "ชาวกะเหรี่ยง",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%8A%E0%B8%B2%E0%B8%A7%E0%B8%81%E0%B8%B0%E0%B9%80%E0%B8%AB%E0%B8%A3%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%87",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-poy-sang-long",
+   "kind": "web",
+   "title": "ปอยส่างลอง",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%9B%E0%B8%AD%E0%B8%A2%E0%B8%AA%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A5%E0%B8%AD%E0%B8%87",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-wat-phra-that-doi-kong-mu",
+   "kind": "web",
+   "title": "วัดพระธาตุดอยกองมู",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B9",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-ban-rak-thai",
+   "kind": "web",
+   "title": "บ้านรักไทย",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B9%84%E0%B8%97%E0%B8%A2",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-namtok-mae-surin",
+   "kind": "web",
+   "title": "อุทยานแห่งชาติน้ำตกแม่สุรินทร์",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C",
+   "accessed": "2026-09-18",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:osm",
+   "kind": "dataset",
+   "title": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/",
+   "accessed": "2026-09-18",
+   "licence": "ODbL 1.0",
+   "note": "Road geometry and every harvested point. A volunteer map: an absence is an absence from OSM on the fetch date."
+  },
+  {
+   "id": "s:mhs-measured",
+   "kind": "dataset",
+   "title": "Curve and distance measurements off the OSM polyline",
+   "publisher": "This project",
+   "url": "https://nanobotco.github.io/mae-hong-son-loop/numbers/",
+   "accessed": "2026-09-18",
+   "licence": "CC BY 4.0",
+   "note": "tools/harvest_osm.py resamples each road at 60 m and counts sustained direction changes above 25 degrees. A measurement of a volunteer trace, not a survey of a road. The method is printed on /numbers/ so it can be argued with."
+  },
+  {
+   "id": "s:open-meteo-aq",
+   "kind": "dataset",
+   "title": "Open-Meteo Air Quality API (Copernicus CAMS)",
+   "publisher": "Open-Meteo",
+   "url": "https://open-meteo.com/en/docs/air-quality-api",
+   "accessed": "2026-09-18",
+   "licence": "CC BY 4.0",
+   "note": "Hourly PM2.5 at ten points on the loop, 1 August 2022 to the fetch date. A continental model on a coarse grid."
+  },
+  {
+   "id": "s:air4thai",
+   "kind": "dataset",
+   "title": "air4thai — national air quality monitoring network",
+   "publisher": "Pollution Control Department, Thailand / กรมควบคุมมลพิษ",
+   "url": "https://air4thai.pcd.go.th/",
+   "accessed": "2026-09-18",
+   "lang": "th",
+   "note": "Ground stations. One station, 58t, covers the whole of Mae Hong Son province."
+  },
+  {
+   "id": "s:epa-pm25-2024",
+   "kind": "web",
+   "title": "Final Reconsideration of the National Ambient Air Quality Standards for Particulate Matter",
+   "publisher": "US Environmental Protection Agency",
+   "url": "https://www.epa.gov/pm-pollution/final-reconsideration-national-ambient-air-quality-standards-particulate-matter-pm",
+   "accessed": "2026-09-18",
+   "note": "The 2024 revision that moved the annual PM2.5 standard to 9.0 µg/m³; the AQI breakpoints used on this site."
+  },
+  {
+   "id": "s:doh-1095",
+   "kind": "web",
+   "title": "ทางหลวงแผ่นดินหมายเลข 1095",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/ทางหลวงแผ่นดินหมายเลข_1095",
+   "accessed": "2026-09-18",
+   "lang": "th",
+   "licence": "CC BY-SA 4.0",
+   "note": "Carries the 'over 2,000 curves' figure and the 245 km Chiang Mai–Mae Hong Son distance."
+  }
+ ]
+}

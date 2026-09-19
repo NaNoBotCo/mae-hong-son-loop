@@ -1,0 +1,69 @@
+{
+ "id": "pang-ung",
+ "type": "stop",
+ "names": {
+  "name": "Pang Ung",
+  "th": "ปางอุ๋ง",
+  "said": "A reservoir with pines round it, and mist on it at six in the morning.",
+  "said_th": "อ่างเก็บน้ำที่มีต้นสนล้อมรอบ และมีหมอกลอยอยู่บนน้ำตอนหกโมงเช้า"
+ },
+ "region": [
+  "mhs",
+  "mueang-mhs"
+ ],
+ "facets": {
+  "kind": "viewpoint"
+ },
+ "text": {
+  "what": "A royal-project reservoir in the hills north-west of Mae Hong Son, reached by the same road system as Ban Rak Thai.",
+  "story": "*Inference —* this is a dawn place and it is only a dawn place. The mist that makes it worth the ride is a cool-season, early-morning, still-air phenomenon, and at ten in the morning it is a reservoir with pine trees.\n\nWhich has a scheduling consequence that runs through this whole site: it requires sleeping within reach of it, which means two nights in Mae Hong Son, which means the four-day loop is really a five-day loop if you want the things Mae Hong Son is actually known for.\n\n**Not on this disk:** current access arrangements, charges or camping rules."
+ },
+ "text_th": {
+  "what": "อ่างเก็บน้ำโครงการหลวงบนเขาทางตะวันตกเฉียงเหนือของแม่ฮ่องสอน เข้าถึงด้วยระบบถนนเดียวกับบ้านรักไทย",
+  "story": "*อนุมาน —* ที่นี่เป็นที่สำหรับรุ่งสาง และเป็นที่สำหรับรุ่งสางเท่านั้น หมอกที่ทำให้มันคุ้มค่าการขี่ไปเป็นปรากฏการณ์ของฤดูหนาว เช้ามืด และอากาศนิ่ง พอสิบโมงเช้ามันก็เป็นอ่างเก็บน้ำที่มีต้นสน\n\nซึ่งมีผลต่อตารางเวลาที่ไหลผ่านทั้งเว็บนี้ มันต้องการให้คุณนอนในระยะที่ไปถึงได้ ซึ่งแปลว่าสองคืนที่แม่ฮ่องสอน ซึ่งแปลว่าวงรอบสี่วันจริงๆ แล้วคือห้าวัน ถ้าคุณอยากได้สิ่งที่แม่ฮ่องสอนขึ้นชื่อจริงๆ\n\n**ไม่มีข้อมูลในชุดนี้** การเข้าถึง ค่าธรรมเนียม หรือกฎการกางเต็นท์ในปัจจุบัน"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The town you sleep in to get here at dawn.",
+   "rel": "town"
+  },
+  {
+   "to": "cool-season",
+   "as": "The only season the mist happens.",
+   "rel": "event"
+  },
+  {
+   "to": "ban-rak-thai",
+   "as": "The other end of the same day.",
+   "rel": "stop"
+  }
+ ],
+ "sources": [
+  "s:wp-mueang-mae-hong-son-district",
+  "s:wp-mae-hong-son-province"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.4833,
+  "lon": 97.8667,
+  "precision": "town"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18"
+}

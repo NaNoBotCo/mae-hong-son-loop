@@ -1,0 +1,217 @@
+{
+ "note": "Open list. A facet is a fact about a record that the site groups, filters and colours by. Values not listed here are warned about, not refused.",
+ "facets": {
+  "direction": {
+   "label": "Direction",
+   "th": "ทิศทาง",
+   "values": {
+    "cw": "Clockwise — north first, up 1095 to Pai",
+    "ccw": "Counter-clockwise — south first, down 108 to Hot",
+    "both": "Reads the same either way"
+   },
+   "types": [
+    "leg",
+    "road",
+    "story",
+    "event"
+   ]
+  },
+  "days": {
+   "label": "Days",
+   "th": "จำนวนวัน",
+   "values": {
+    "1": "One day",
+    "2": "Two days",
+    "3": "Three days",
+    "4": "Four days",
+    "5": "Five or more"
+   },
+   "types": [
+    "leg",
+    "story"
+   ]
+  },
+  "class": {
+   "label": "Bike class",
+   "th": "ประเภทรถ",
+   "values": {
+    "auto": "Automatic scooter, 110–160cc",
+    "underbone": "Semi-automatic or manual underbone, 110–150cc",
+    "small-manual": "Small manual, 150–300cc",
+    "trail": "Trail or dual-sport, 150–450cc",
+    "midweight": "Midweight road or adventure, 300–700cc",
+    "big": "Big adventure or tourer, 700cc and up",
+    "pillion": "Riding on the back"
+   },
+   "types": [
+    "bike"
+   ]
+  },
+  "grip": {
+   "label": "What it asks of you",
+   "th": "ระดับความยาก",
+   "values": {
+    "easy": "Anyone with a licence",
+    "moderate": "You have ridden hills before",
+    "hard": "You are comfortable with a loaded bike on a steep descent",
+    "expert": "Gravel, gradient, and no help for an hour"
+   },
+   "types": [
+    "bike",
+    "leg",
+    "road",
+    "hazard"
+   ]
+  },
+  "surface": {
+   "label": "Surface",
+   "th": "ผิวทาง",
+   "values": {
+    "asphalt": "Sealed, two lanes",
+    "asphalt-broken": "Sealed, breaking up in places",
+    "concrete": "Concrete on the steep sections",
+    "mixed": "Sealed with unsealed stretches",
+    "unsealed": "Unsealed"
+   },
+   "types": [
+    "road",
+    "leg"
+   ]
+  },
+  "kind": {
+   "label": "Kind",
+   "th": "ประเภท",
+   "values": {},
+   "types": [
+    "leg",
+    "road",
+    "town",
+    "stop",
+    "wat",
+    "coffee",
+    "spring",
+    "stay",
+    "hazard",
+    "bike",
+    "kit",
+    "person",
+    "org",
+    "event",
+    "term",
+    "story",
+    "art"
+   ]
+  },
+  "province": {
+   "label": "Province",
+   "th": "จังหวัด",
+   "values": {
+    "MHS": "Mae Hong Son",
+    "CNX": "Chiang Mai",
+    "TAK": "Tak"
+   },
+   "types": [
+    "town",
+    "stop",
+    "wat",
+    "coffee",
+    "spring",
+    "stay",
+    "org"
+   ]
+  },
+  "tradition": {
+   "label": "Tradition",
+   "th": "สกุลช่าง",
+   "values": {
+    "shan": "Shan / Tai Yai",
+    "burmese": "Burmese",
+    "lanna": "Lanna",
+    "karen": "Karen",
+    "mixed": "More than one, layered"
+   },
+   "types": [
+    "wat",
+    "art",
+    "person"
+   ]
+  },
+  "month": {
+   "label": "When",
+   "th": "ช่วงเวลา",
+   "values": {
+    "jan": "January",
+    "feb": "February",
+    "mar": "March",
+    "apr": "April",
+    "may": "May",
+    "jun": "June",
+    "jul": "July",
+    "aug": "August",
+    "sep": "September",
+    "oct": "October",
+    "nov": "November",
+    "dec": "December",
+    "cool": "Cool season, November to February",
+    "hot": "Hot season, March to May",
+    "smoke": "Burning season, roughly February to April",
+    "rains": "The rains, June to October"
+   },
+   "types": [
+    "event",
+    "story"
+   ]
+  },
+  "role": {
+   "label": "Role",
+   "th": "บทบาท",
+   "values": {},
+   "types": [
+    "person",
+    "org"
+   ]
+  },
+  "price": {
+   "label": "Price band",
+   "th": "ราคา",
+   "values": {
+    "free": "No charge",
+    "cheap": "Under 100 baht",
+    "mid": "100–800 baht",
+    "high": "Over 800 baht",
+    "varies": "Depends"
+   },
+   "types": [
+    "stop",
+    "wat",
+    "spring",
+    "stay",
+    "coffee",
+    "kit"
+   ]
+  },
+  "fuel": {
+   "label": "Fuel",
+   "th": "น้ำมัน",
+   "values": {
+    "full": "Full-service station, 24 hours",
+    "day": "Station, daylight hours",
+    "bottle": "Bottles on a rack outside a shop",
+    "none": "Nothing until the next town"
+   },
+   "types": [
+    "town",
+    "org",
+    "leg"
+   ]
+  },
+  "ref": {
+   "label": "Route number",
+   "th": "หมายเลขทางหลวง",
+   "values": {},
+   "types": [
+    "road"
+   ]
+  }
+ }
+}

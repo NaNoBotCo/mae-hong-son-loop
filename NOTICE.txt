@@ -1,0 +1,34 @@
+The Mae Hong Son Loop — วงรอบแม่ฮ่องสอน
+https://nanobotco.github.io/mae-hong-son-loop/
+
+LICENCES, BY PART
+
+  Code (tools/, schema/, tests/)            MIT — see LICENSE
+  Records, prose and measurements           CC BY 4.0
+    data/nodes/, data/vocab/, and everything derived from them, including the curve
+    counts, the demand windows and the air summaries. Attribute as
+    "The Mae Hong Son Loop, https://nanobotco.github.io/mae-hong-son-loop/".
+
+  Road geometry and harvested places        ODbL 1.0
+    © OpenStreetMap contributors. data/harvest/osm-roads.json and osm-places.json, and
+    anything drawn from them, carry OpenStreetMap's share-alike terms. The licence and
+    the attribution ride with the data and are printed beside every map.
+
+  Air quality, modelled                     CC BY 4.0
+    Open-Meteo Air Quality API, from the Copernicus Atmosphere Monitoring Service.
+
+  Air quality, ground stations              Pollution Control Department, Thailand
+    air4thai. Fetched at build time and attributed on the page.
+
+  Drafting corpus                           CC BY-SA 4.0
+    Wikipedia, English and Thai. A working input, not republished. Article titles, URLs
+    and fetch dates are in data/sources/sources.json.
+
+  Photographs                               as each file states
+    Wikimedia Commons, CC0 / public domain / CC BY / CC BY-SA / FAL only. Every picture
+    carries its licence, its author and a link to its Commons page, beside the picture.
+    Nothing else is accepted; tools/validate.py refuses a licence that is not on the list.
+
+NO THIRD-PARTY REQUESTS
+  The built site loads no web font, no analytics, no tracker and no external script.
+  Everything a page needs is in the page or beside it.

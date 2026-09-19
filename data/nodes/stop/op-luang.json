@@ -1,0 +1,74 @@
+{
+ "id": "op-luang",
+ "type": "stop",
+ "names": {
+  "name": "Op Luang",
+  "th": "ออบหลวง",
+  "said": "The river cut a slot through the rock and the road goes over the top of it.",
+  "said_th": "แม่น้ำเซาะหินเป็นร่องแคบ และถนนข้ามอยู่ด้านบน"
+ },
+ "region": [
+  "cnx",
+  "hot",
+  "loop",
+  "south-leg"
+ ],
+ "facets": {
+  "kind": "gorge",
+  "price": "mid"
+ },
+ "text": {
+  "what": "A gorge on the Chaem river in a national park on Route 108, roughly midway between Hot and Mae Sariang.",
+  "story": "*Inference —* the practical value of this place on a long empty leg is that it exists. The Mae Sariang to Hot run is the emptiest on the circuit, and a gorge with a car park, shade and a bridge over it is the natural break in the middle of three hours.\n\nThe gorge itself is narrow and deep and the water goes through it fast; the national park around it covers a much larger area of hill forest."
+ },
+ "text_th": {
+  "what": "ช่องเขาบนแม่น้ำแจ่มในเขตอุทยานแห่งชาติ บนทางหลวง 108 ราวกึ่งกลางระหว่างฮอดกับแม่สะเรียง",
+  "story": "*อนุมาน —* คุณค่าในทางปฏิบัติของที่นี่บนช่วงยาวที่ว่างเปล่าคือการที่มันมีอยู่ ช่วงแม่สะเรียงถึงฮอดเป็นช่วงที่ว่างที่สุดของวงรอบ และช่องเขาที่มีลานจอดรถ มีร่มเงา และมีสะพานข้าม คือจุดพักตามธรรมชาติตรงกลางของสามชั่วโมง\n\nตัวช่องเขาแคบและลึก น้ำไหลผ่านเร็ว ส่วนอุทยานรอบๆ ครอบคลุมพื้นที่ป่าเขากว้างกว่ามาก"
+ },
+ "kin": [
+  {
+   "to": "mae-sariang-to-hot",
+   "as": "The long leg it breaks.",
+   "rel": "leg"
+  },
+  {
+   "to": "route-108",
+   "as": "The road it is on.",
+   "rel": "road"
+  }
+ ],
+ "sources": [
+  "s:wp-op-luang-national-park"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-op-luang-national-park"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-op-luang-national-park"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 18.2167,
+  "lon": 98.4167,
+  "precision": "town"
+ },
+ "recognitions": [
+  {
+   "by": "dnp",
+   "what": "Op Luang National Park",
+   "source": "s:wp-op-luang-national-park"
+  }
+ ],
+ "schema": 1,
+ "updated": "2026-09-18"
+}

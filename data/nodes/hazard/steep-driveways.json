@@ -1,0 +1,54 @@
+{
+ "id": "steep-driveways",
+ "type": "hazard",
+ "names": {
+  "name": "The guesthouse driveway",
+  "th": "ทางเข้าที่พักชัน",
+  "said": "Six hundred kilometres survived, and the bike goes over at walking pace outside the room.",
+  "said_th": "รอด 600 กิโลเมตรมาได้ แล้วรถล้มด้วยความเร็วเดินหน้าห้องพัก"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "surface"
+ },
+ "text": {
+  "what": "Hillside guesthouses are reached by short, very steep, often unsealed or wet-concrete ramps. It is where heavy bikes are dropped.",
+  "story": "*Inference —* the combination is specific: a gradient steeper than anything on the highway, a surface that is polished concrete or loose dirt, a tight turn at the top or bottom, and a rider who has been riding for six hours and has luggage on the back. Nothing about it is difficult in isolation.\n\nThe habits that prevent it are unglamorous. Stop at the bottom and look before committing. Take the luggage off first if it is steep. Walk it if the surface is wet concrete, which is far more slippery than it looks. And on a heavy bike, reverse in rather than discovering at checkout that you cannot push it back up."
+ },
+ "text_th": {
+  "what": "ที่พักบนไหล่เขาเข้าถึงด้วยทางลาดสั้นๆ ที่ชันมาก มักเป็นดินหรือคอนกรีตเปียก เป็นจุดที่รถหนักล้ม",
+  "story": "*อนุมาน —* ส่วนผสมมันเฉพาะเจาะจงมาก ความชันที่มากกว่าอะไรก็ตามบนทางหลวง ผิวที่เป็นคอนกรีตขัดมันหรือดินร่วน โค้งแคบที่หัวหรือท้ายทางลาด และคนขี่ที่ขี่มาหกชั่วโมงพร้อมสัมภาระท้ายรถ ไม่มีอะไรยากเลยถ้าแยกกัน\n\nนิสัยที่ป้องกันได้นั้นไม่เท่เลย จอดที่เชิงทางแล้วมองก่อนตัดสินใจ ถอดสัมภาระออกก่อนถ้ามันชัน เข็นถ้าเป็นคอนกรีตเปียก ซึ่งลื่นกว่าที่ตาเห็นมาก และถ้าเป็นรถหนัก ให้ถอยเข้า แทนที่จะมารู้ตอนเช็คเอาต์ว่าเข็นขึ้นไม่ไหว"
+ },
+ "kin": [
+  {
+   "to": "big-adventure",
+   "as": "The weight that makes this a two-person job.",
+   "rel": "bike"
+  },
+  {
+   "to": "packing-light",
+   "as": "The load that comes off first.",
+   "rel": "kit"
+  }
+ ],
+ "sources": [
+  "s:wp-motorcycle-safety"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "general riding knowledge applied to this circuit's measured shape"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

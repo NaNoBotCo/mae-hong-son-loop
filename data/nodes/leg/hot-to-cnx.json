@@ -1,0 +1,84 @@
+{
+ "id": "hot-to-cnx",
+ "type": "leg",
+ "names": {
+  "name": "Hot to Chiang Mai",
+  "th": "ฮอด – เชียงใหม่",
+  "said": "Eighty-eight kilometres of four lanes, and the trip is over an hour before you are.",
+  "said_th": "แปดสิบแปดกิโลเมตรของสี่เลน และทริปจบก่อนที่คุณจะจบหนึ่งชั่วโมง"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "days": "1",
+  "direction": "both"
+ },
+ "text": {
+  "what": "The commute home. Four to six lanes with a median, narrowing to two through the town centres.",
+  "story": "88 kilometres, per the Thai highway article, four to six lanes except through the centres of Hang Dong, San Pa Tong, Thung Sieo and Chom Thong where it drops to two.\n\n*Inference —* two things worth saying about a leg that is otherwise just a road. First, it is where tired riders relax and traffic increases at the same time, which is not a good combination — the circuit's easiest riding is at the end of its longest day. Second, Chom Thong is the turn for Doi Inthanon, so a rider with an extra day has a reason to stop here rather than push in."
+ },
+ "text_th": {
+  "what": "ทางกลับบ้าน สี่ถึงหกช่องจราจรมีเกาะกลาง แคบลงเหลือสองช่องเมื่อผ่านตัวอำเภอ",
+  "story": "88 กิโลเมตร ตามบทความทางหลวงภาษาไทย สี่ถึงหกช่องจราจร ยกเว้นเมื่อผ่านตัวอำเภอหางดง สันป่าตอง ชุมชนทุ่งเสี้ยว และจอมทอง ที่ลดเหลือสองช่อง\n\n*อนุมาน —* มีสองเรื่องที่ควรพูดถึงช่วงที่นอกนั้นก็แค่ถนน ข้อแรก เป็นช่วงที่คนขี่ที่ล้าเริ่มผ่อนคลายพร้อมกับที่รถเริ่มเยอะขึ้น ซึ่งไม่ใช่ส่วนผสมที่ดี การขี่ที่ง่ายที่สุดของวงรอบอยู่ตอนท้ายของวันที่ยาวที่สุด ข้อสอง จอมทองคือทางแยกขึ้นดอยอินทนนท์ คนที่มีเวลาเหลืออีกวันจึงมีเหตุผลที่จะแวะตรงนี้แทนที่จะฝืนเข้าเมือง"
+ },
+ "route": {
+  "roads": [
+   "108"
+  ],
+  "from": "Hot",
+  "from_th": "ฮอด",
+  "to": "Chiang Mai",
+  "to_th": "เชียงใหม่",
+  "km": 88,
+  "km_source": "s:thwp-108",
+  "hours": "1.25",
+  "hours_big": "1",
+  "cw": "The end. Traffic, lanes, and a city.",
+  "ccw": "The beginning, and the easiest hour of the trip.",
+  "cw_th": "จุดจบ รถเยอะ หลายเลน และเมือง",
+  "ccw_th": "จุดเริ่ม และเป็นชั่วโมงที่ง่ายที่สุดของทริป",
+  "order": 7
+ },
+ "riding": {
+  "min_class": "auto",
+  "grip": "easy",
+  "pillion": "fine"
+ },
+ "kin": [
+  {
+   "to": "chiang-mai",
+   "as": "Home.",
+   "rel": "town"
+  },
+  {
+   "to": "doi-inthanon",
+   "as": "The turn at Chom Thong, if there is a day left.",
+   "rel": "stop"
+  },
+  {
+   "to": "route-108",
+   "as": "The road it is on.",
+   "rel": "road"
+  }
+ ],
+ "sources": [
+  "s:thwp-108",
+  "s:wp-chom-thong"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

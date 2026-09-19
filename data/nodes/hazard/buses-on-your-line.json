@@ -1,0 +1,55 @@
+{
+ "id": "buses-on-your-line",
+ "type": "hazard",
+ "names": {
+  "name": "Buses and pickups on your line",
+  "th": "รถบัสและรถกระบะกินเลน",
+  "said": "A vehicle longer than the corner has to use some of your lane, and it will.",
+  "said_th": "รถที่ยาวกว่าโค้งต้องใช้เลนคุณบางส่วน และมันจะใช้"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "traffic"
+ },
+ "text": {
+  "what": "Route 1095 and the mountain half of Route 108 are two lanes, and the minibuses, songthaews and delivery trucks that serve these towns take a hairpin by crossing the centre line.",
+  "story": "*Inference —* this is geometry, not bad driving. A vehicle with a long wheelbase physically cannot hold its own lane through a radius this tight, so it takes the width it needs. The rider's job is to assume it.\n\nWhat that means on the road is that the correct position entering a blind left-hander is not the racing line. It is wide, slow enough to stop in the distance you can see, and off the centre line. The Chiang Mai to Pai minibus runs this road all day at a schedule, and it knows the corners far better than you do — which is the point: it is going faster than you through them and it is using your lane to do it."
+ },
+ "text_th": {
+  "what": "ทางหลวง 1095 และครึ่งที่เป็นภูเขาของทางหลวง 108 มีสองเลน และรถตู้ สองแถว รถส่งของ ที่วิ่งบริการเมืองเหล่านี้ เข้าโค้งหักศอกโดยการข้ามเส้นกลาง",
+  "story": "*อนุมาน —* นี่คือเรขาคณิต ไม่ใช่การขับแย่ รถที่ฐานล้อยาวไม่สามารถอยู่ในเลนตัวเองผ่านรัศมีแคบขนาดนี้ได้ทางกายภาพ มันจึงใช้ความกว้างเท่าที่ต้องการ หน้าที่ของคนขี่คือสมมติไว้ก่อนว่ามันจะทำ\n\nบนถนนจริงแปลว่าตำแหน่งที่ถูกต้องตอนเข้าโค้งซ้ายที่มองไม่เห็น ไม่ใช่ไลน์แบบสนามแข่ง แต่คืออยู่นอก ช้าพอที่จะหยุดได้ในระยะที่มองเห็น และอยู่ห่างเส้นกลาง รถตู้เชียงใหม่-ปายวิ่งถนนนี้ทั้งวันตามตาราง และรู้จักโค้งดีกว่าคุณมาก ซึ่งนั่นแหละคือประเด็น มันเข้าโค้งเร็วกว่าคุณ และมันใช้เลนคุณเพื่อทำอย่างนั้น"
+ },
+ "kin": [
+  {
+   "to": "hairpin",
+   "as": "The radius that forces it.",
+   "rel": "term"
+  },
+  {
+   "to": "route-1095",
+   "as": "Where the minibuses run.",
+   "rel": "road"
+  }
+ ],
+ "sources": [
+  "s:wp-hairpin-turn",
+  "s:wp-motorcycle-safety"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "general riding knowledge applied to this circuit's measured shape"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

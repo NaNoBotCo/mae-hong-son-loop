@@ -1,0 +1,54 @@
+{
+ "id": "hot-season",
+ "type": "event",
+ "names": {
+  "name": "The hot season",
+  "th": "หน้าร้อน",
+  "said": "Forty degrees in the Hot valley, and the name is a coincidence.",
+  "said_th": "สี่สิบองศาในหุบฮอด และชื่ออำเภอเป็นเรื่องบังเอิญ"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "hot"
+ },
+ "text": {
+  "what": "March to May. The low ground bakes, the high ground is bearable, and the difference between them is two thousand vertical feet and about eight degrees.",
+  "story": "*Inference —* heat on a motorcycle is a route-planning problem rather than a comfort one. The hottest riding on the circuit is the low, open, four-lane section of Route 108 between Chiang Mai and Hot, which has no shade and no altitude; the coolest is the ridge road on 1095 and the climb over 1263.\n\nThe practical consequence is the same as the smoke advice and reinforces it: start early, do the low sections before eleven, and take the long lunch that everyone here takes anyway. Dehydration on a bike arrives without a signal because the airflow keeps you from noticing you are sweating."
+ },
+ "text_th": {
+  "what": "มีนาคมถึงพฤษภาคม พื้นราบร้อนจัด ที่สูงยังพอทน และความต่างระหว่างสองที่คือความสูงราวหกร้อยเมตรกับอุณหภูมิราวแปดองศา",
+  "story": "*อนุมาน —* ความร้อนบนมอเตอร์ไซค์เป็นปัญหาการวางแผนเส้นทาง ไม่ใช่ปัญหาความสบาย ช่วงที่ร้อนที่สุดบนเส้นทางคือช่วงสี่เลนที่ต่ำและโล่งของทางหลวง 108 ระหว่างเชียงใหม่กับฮอด ที่ไม่มีร่มเงาและไม่มีความสูง ส่วนที่เย็นที่สุดคือถนนบนสันเขาสาย 1095 และทางไต่ขึ้น 1263\n\nผลในทางปฏิบัติเหมือนคำแนะนำเรื่องควันและเสริมกัน ออกเช้า ผ่านช่วงพื้นราบก่อนสิบเอ็ดโมง และพักเที่ยงยาวแบบที่คนที่นี่พักกันอยู่แล้ว ภาวะขาดน้ำบนรถมาถึงโดยไม่ส่งสัญญาณ เพราะลมที่ปะทะทำให้ไม่รู้ตัวว่ากำลังเสียเหงื่อ"
+ },
+ "kin": [
+  {
+   "to": "mae-sariang-to-hot",
+   "as": "The hottest leg on the circuit.",
+   "rel": "leg"
+  },
+  {
+   "to": "burning-season",
+   "as": "The same months, from the air's side.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-monsoon",
+  "s:wp-geography-of-thailand"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

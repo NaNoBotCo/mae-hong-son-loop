@@ -1,0 +1,73 @@
+{
+ "id": "the-rains",
+ "type": "event",
+ "names": {
+  "name": "The rains",
+  "th": "หน้าฝน",
+  "said": "The cleanest air of the year, the greenest hills, and a wet road.",
+  "said_th": "อากาศสะอาดที่สุดของปี ภูเขาเขียวที่สุด และถนนเปียก"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "rains"
+ },
+ "text": {
+  "what": "June to October. Afternoon rain most days rather than all-day rain, waterfalls running, rooms cheap, and PM2.5 at a tenth of its March figure.",
+  "story": "The figure that should change how this season is thought about: Pai's July mean PM2.5 is **3.0 µg/m³**, against 26.1 in March. Mae Sariang's is 2.3. These are among the cleanest air readings anywhere in the modelled record for this part of the world.\n\nWhat you trade for it. *Inference —* wet sealed road is manageable and wet unsealed road is not the same proposition, which is why Route 1263 comes off most wet-season plans. Landslides and road repairs are a live possibility on the mountain sections. Afternoon rain is heavy and short, so a day planned to finish at two usually finishes dry.\n\nThe upside people underrate is the light: the haze that flattens everything in March is gone, and the ridgelines are visible for fifty kilometres between storms."
+ },
+ "text_th": {
+  "what": "มิถุนายนถึงตุลาคม ฝนตกบ่ายเกือบทุกวันมากกว่าจะตกทั้งวัน น้ำตกมีน้ำ ห้องพักถูก และค่า PM2.5 เหลือหนึ่งในสิบของเดือนมีนาคม",
+  "story": "ตัวเลขที่ควรเปลี่ยนวิธีคิดเรื่องฤดูนี้ ค่าเฉลี่ย PM2.5 เดือนกรกฎาคมของปายคือ **3.0** เทียบกับ 26.1 ในเดือนมีนาคม แม่สะเรียงอยู่ที่ 2.3 นี่คืออากาศที่สะอาดที่สุดเท่าที่มีในข้อมูลแบบจำลองของภูมิภาคนี้\n\nสิ่งที่แลกไป *อนุมาน —* ถนนลาดยางเปียกยังจัดการได้ แต่ถนนลูกรังเปียกเป็นคนละเรื่อง ซึ่งเป็นเหตุผลที่ทางหลวง 1263 หลุดจากแผนหน้าฝนเกือบทุกแผน ดินสไลด์และการซ่อมถนนเป็นไปได้จริงบนช่วงภูเขา ฝนบ่ายตกหนักและสั้น วันที่วางแผนให้จบบ่ายสองจึงมักจบแบบแห้ง\n\nข้อดีที่คนมองข้ามคือแสง หมอกควันที่ทำให้ทุกอย่างแบนในเดือนมีนาคมหายไป และเห็นสันเขาได้ไกลห้าสิบกิโลเมตรในช่วงระหว่างพายุ"
+ },
+ "kin": [
+  {
+   "to": "burning-season",
+   "as": "What it washes away.",
+   "rel": "event"
+  },
+  {
+   "to": "the-1263-cut",
+   "as": "The leg that comes off the plan.",
+   "rel": "leg"
+  },
+  {
+   "to": "season-and-direction",
+   "as": "What it does to the route order.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:open-meteo-aq",
+  "s:wp-monsoon",
+  "s:wp-mae-hong-son-province"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:open-meteo-aq"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the riding consequences are this project's; the air figures are measured"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "seasons": {
+  "rains": {
+   "note": "Drop the 1263, keep everything else, finish each day by mid-afternoon.",
+   "note_th": "ตัด 1263 ออก เก็บที่เหลือไว้ และจบแต่ละวันก่อนบ่ายแก่",
+   "direction": "either",
+   "tier": "inference"
+  }
+ },
+ "schema": 1,
+ "updated": "2026-09-18"
+}

@@ -1,0 +1,60 @@
+{
+ "id": "hairpin",
+ "type": "term",
+ "names": {
+  "name": "Hairpin",
+  "th": "โค้งหักศอก",
+  "said": "A bend tight enough that you turn about 180 degrees to carry on. Called a switchback in American English.",
+  "said_th": "โค้งที่แคบพอจะต้องเลี้ยวราว 180 องศาเพื่อไปต่อ",
+  "rtgs": "khong hak sok"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "road"
+ },
+ "text": {
+  "what": "A bend tight enough that you turn about 180 degrees to carry on. Called a switchback in American English.",
+  "story": "Hairpins exist to reduce the steepness of a climb: zigzagging up a slope is longer and slower but easier and safer than going straight at it, and cheaper to build than tunnelling. That is why there are so many here — the road is trading distance for gradient.\n\nOn this site a curve is counted as a hairpin when the measured arc is 120 degrees or more. Route 1095 carries 110 of them, Route 1263 carries 31 in a third of the distance."
+ },
+ "text_th": {
+  "what": "โค้งที่แคบพอจะต้องเลี้ยวราว 180 องศาเพื่อไปต่อ",
+  "story": "โค้งหักศอกมีไว้เพื่อลดความชันของทางไต่ การซิกแซกขึ้นเนินนั้นไกลกว่าและช้ากว่า แต่ง่ายกว่าและปลอดภัยกว่าการพุ่งขึ้นตรงๆ และถูกกว่าการเจาะอุโมงค์ นั่นคือเหตุผลที่มีมากมายที่นี่ ถนนกำลังแลกระยะทางกับความชัน\n\nบนเว็บนี้ โค้งจะนับเป็นโค้งหักศอกเมื่อมุมที่วัดได้ตั้งแต่ 120 องศาขึ้นไป ทางหลวง 1095 มี 110 โค้ง ส่วนทางหลวง 1263 มี 31 โค้งในระยะหนึ่งในสาม"
+ },
+ "kin": [
+  {
+   "to": "how-many-curves",
+   "as": "How they get counted.",
+   "rel": "story"
+  },
+  {
+   "to": "gravel-on-the-apex",
+   "as": "What collects on the inside of one.",
+   "rel": "hazard"
+  }
+ ],
+ "sources": [
+  "s:wp-hairpin-turn",
+  "s:mhs-measured"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-hairpin-turn"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-hairpin-turn"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

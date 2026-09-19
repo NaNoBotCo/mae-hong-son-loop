@@ -1,0 +1,65 @@
+{
+ "id": "bua-tong-bloom",
+ "type": "event",
+ "names": {
+  "name": "The Bua Tong bloom",
+  "th": "ทุ่งบัวตอง",
+  "said": "A hillside above Khun Yuam turns yellow for a few weeks, and then it does not.",
+  "said_th": "ไหล่เขาเหนือขุนยวมกลายเป็นสีเหลืองอยู่ไม่กี่สัปดาห์ แล้วก็ไม่"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "nov"
+ },
+ "text": {
+  "what": "Tithonia diversifolia — Mexican sunflower, บัวตอง — flowers across Doi Mae U-Kho in November. It is the one thing on this circuit with a hard date.",
+  "story": "The plant is a member of the daisy family, native to Mexico and Central America, and is naturalised widely across the tropics — in many places it is treated as an invasive weed. Here it is the reason a province runs a festival.\n\n*Inference —* for a rider the consequence is a scheduling one. Khun Yuam sits on the southern leg, so which direction you ride decides whether you reach it on day two or day four — and a hillside like this wants morning light. If the bloom is the reason for the trip, pick the direction that puts Khun Yuam on a morning.\n\n*Tradition holds —* the bloom is short and the exact weeks move with the year, so a date fixed months ahead is a bet."
+ },
+ "text_th": {
+  "what": "ต้นบัวตอง หรือ Tithonia diversifolia ทานตะวันเม็กซิโก ออกดอกทั่วดอยแม่อูคอในเดือนพฤศจิกายน เป็นสิ่งเดียวบนเส้นทางนี้ที่มีกำหนดเวลาแน่นอน",
+  "story": "ต้นบัวตองอยู่ในวงศ์ทานตะวัน มีถิ่นกำเนิดในเม็กซิโกและอเมริกากลาง และแพร่กระจายทั่วเขตร้อน ในหลายที่ถือเป็นวัชพืชรุกราน แต่ที่นี่มันเป็นเหตุผลที่จังหวัดจัดเทศกาล\n\n*อนุมาน —* สำหรับคนขี่รถ ผลที่ตามมาคือเรื่องตารางเวลา ขุนยวมอยู่บนช่วงใต้ ทิศที่คุณขี่จึงเป็นตัวกำหนดว่าจะไปถึงวันที่สองหรือวันที่สี่ และไหล่เขาแบบนี้ต้องการแสงเช้า ถ้าทุ่งบัวตองคือเหตุผลของทริป ให้เลือกทิศที่ทำให้ถึงขุนยวมตอนเช้า\n\n*ตามธรรมเนียม —* ช่วงบานสั้นและสัปดาห์ที่บานเลื่อนไปตามปี การล็อกวันล่วงหน้าหลายเดือนจึงเป็นการเดิมพัน"
+ },
+ "kin": [
+  {
+   "to": "khun-yuam",
+   "as": "The town underneath it.",
+   "rel": "town"
+  },
+  {
+   "to": "season-and-direction",
+   "as": "Why the bloom argues for a direction.",
+   "rel": "story"
+  },
+  {
+   "to": "cool-season",
+   "as": "The season it opens.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-tithonia-diversifolia",
+  "s:wp-khun-yuam-district",
+  "s:wp-mexican-sunflower"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-tithonia-diversifolia"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18"
+}

@@ -1,0 +1,64 @@
+{
+ "id": "one-way-rental",
+ "type": "kit",
+ "names": {
+  "name": "Not coming back to Chiang Mai",
+  "th": "ไม่กลับเชียงใหม่",
+  "said": "The case where forwarding a bag stops being pointless.",
+  "said_th": "กรณีที่การส่งกระเป๋าล่วงหน้าเลิกไร้ประโยชน์"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "logistics"
+ },
+ "text": {
+  "what": "Flying out of Mae Hong Son, riding on to somewhere else, or leaving the bike at the far end. All three change the luggage arithmetic.",
+  "story": "Mae Hong Son has an airport. *Inference —* that single fact is what makes a one-way version of this trip possible, and it is also the only circumstance in which sending a bag ahead is clearly the right move rather than a solution to a problem you do not have.\n\n**Not on this disk:** which carriers currently fly it, on what days, what they charge, and — the question that actually matters — whether a rental shop will accept a bike back in Mae Hong Son and at what one-way fee. Those are arrangements between a rider and a shop, they change, and this project has not verified any of them.\n\n*Inference —* what can be said is the shape: a one-way is a negotiation, not a product; the fee is usually the cost of somebody driving the bike back; and it is a conversation to have before booking a flight, not after."
+ },
+ "text_th": {
+  "what": "บินออกจากแม่ฮ่องสอน ขี่ต่อไปที่อื่น หรือทิ้งรถไว้ปลายทาง ทั้งสามกรณีเปลี่ยนสมการเรื่องสัมภาระ",
+  "story": "แม่ฮ่องสอนมีสนามบิน *อนุมาน —* ข้อเท็จจริงข้อเดียวนี้คือสิ่งที่ทำให้ทริปนี้แบบเที่ยวเดียวเป็นไปได้ และเป็นสถานการณ์เดียวที่การส่งกระเป๋าล่วงหน้าเป็นทางเลือกที่ถูกต้องชัดเจน ไม่ใช่การแก้ปัญหาที่คุณไม่ได้มี\n\n**ไม่มีข้อมูลในชุดนี้** ปัจจุบันสายการบินใดบินเส้นทางนี้ บินวันไหน ราคาเท่าไร และคำถามที่สำคัญจริงๆ คือร้านเช่ารถจะรับคืนรถที่แม่ฮ่องสอนหรือไม่ และคิดค่าเที่ยวเดียวเท่าไร เรื่องเหล่านี้เป็นข้อตกลงระหว่างคนเช่ากับร้าน มันเปลี่ยนได้ และโครงการนี้ยังไม่ได้ตรวจสอบ\n\n*อนุมาน —* สิ่งที่พูดได้คือรูปร่างของมัน เที่ยวเดียวคือการเจรจา ไม่ใช่สินค้าสำเร็จรูป ค่าธรรมเนียมมักเท่ากับค่าจ้างคนขับรถกลับ และเป็นเรื่องที่ควรคุยก่อนจองตั๋วเครื่องบิน ไม่ใช่หลังจากนั้น"
+ },
+ "kin": [
+  {
+   "to": "sending-the-bag-ahead",
+   "as": "The case this one justifies.",
+   "rel": "kit"
+  },
+  {
+   "to": "renting-a-bike",
+   "as": "The conversation to have at the counter.",
+   "rel": "kit"
+  },
+  {
+   "to": "mae-hong-son",
+   "as": "The town with the airport.",
+   "rel": "town"
+  }
+ ],
+ "sources": [
+  "s:wp-mae-hong-son-airport"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mae-hong-son-airport"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-mae-hong-son-airport"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18"
+}

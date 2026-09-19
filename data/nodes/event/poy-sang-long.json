@@ -1,0 +1,66 @@
+{
+ "id": "poy-sang-long",
+ "type": "event",
+ "names": {
+  "name": "Poy Sang Long",
+  "th": "ปอยส่างลอง",
+  "said": "Boys in gold and face paint, carried on shoulders because their feet must not touch the ground.",
+  "said_th": "เด็กชายแต่งทองและแต่งหน้า ถูกแบกบนบ่าเพราะเท้าต้องไม่แตะพื้น"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "apr"
+ },
+ "text": {
+  "what": "The Shan ordination festival, held in Mae Hong Son and across the province, most commonly in late March and April. Boys are dressed as princes for the days before they are ordained as novices.",
+  "story": "Shan people are the largest population group in Mae Hong Son province, and this is their festival. The boys are dressed in ornamented clothing and jewellery and made up, and carried on the shoulders of relatives — their feet are not to touch the ground during the procession.\n\n*Inference —* the collision with the rest of this site is worth stating plainly: the festival falls in the two months the air is at its worst. A rider who wants to be in Mae Hong Son for Poy Sang Long is choosing the smoke, knowingly. That is a legitimate choice and this page is not going to pretend the trade is not there.\n\nIt is also a religious event in people's own town rather than a display. *Inference —* the difference between watching and intruding is mostly about distance and about asking before photographing a child."
+ },
+ "text_th": {
+  "what": "งานบวชลูกแก้วของชาวไทใหญ่ จัดที่แม่ฮ่องสอนและทั่วจังหวัด ส่วนใหญ่ปลายมีนาคมถึงเมษายน เด็กชายจะแต่งกายเป็นเจ้าชายในวันก่อนบรรพชาเป็นสามเณร",
+  "story": "ชาวไทใหญ่เป็นกลุ่มประชากรใหญ่ที่สุดในจังหวัดแม่ฮ่องสอน และนี่คืองานของพวกเขา เด็กชายจะแต่งกายด้วยเสื้อผ้าและเครื่องประดับอย่างวิจิตร แต่งหน้า และถูกแบกบนบ่าญาติ เท้าของพวกเขาต้องไม่แตะพื้นระหว่างขบวนแห่\n\n*อนุมาน —* ข้อขัดกันกับเนื้อหาส่วนอื่นของเว็บนี้ควรพูดตรงๆ งานนี้ตรงกับสองเดือนที่อากาศแย่ที่สุด คนขี่ที่อยากอยู่แม่ฮ่องสอนช่วงปอยส่างลองกำลังเลือกควันอย่างรู้ตัว นั่นเป็นทางเลือกที่ชอบธรรม และหน้านี้จะไม่แกล้งทำเป็นว่าไม่มีสิ่งที่ต้องแลก\n\nและนี่เป็นงานทางศาสนาในเมืองของผู้คนเอง ไม่ใช่การแสดง *อนุมาน —* ความต่างระหว่างการดูกับการล่วงล้ำส่วนใหญ่อยู่ที่ระยะห่าง และอยู่ที่การขออนุญาตก่อนถ่ายรูปเด็ก"
+ },
+ "kin": [
+  {
+   "to": "shan",
+   "as": "Whose festival it is.",
+   "rel": "person"
+  },
+  {
+   "to": "mae-hong-son",
+   "as": "Where the biggest processions are.",
+   "rel": "town"
+  },
+  {
+   "to": "burning-season",
+   "as": "The months it shares.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-poy-sang-long",
+  "s:wp-shan-people",
+  "s:wp-mae-hong-son-province"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-poy-sang-long"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the scheduling conflict and the conduct note are this project's reasoning, not the cited source's"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18"
+}

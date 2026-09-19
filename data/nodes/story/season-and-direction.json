@@ -1,0 +1,87 @@
+{
+ "id": "season-and-direction",
+ "type": "story",
+ "names": {
+  "name": "The season picks the direction",
+  "th": "ฤดูกาลเป็นคนเลือกทิศ",
+  "said": "The bar argument assumes every month is the same month.",
+  "said_th": "การเถียงกันในบาร์ตั้งอยู่บนสมมติฐานว่าทุกเดือนเหมือนกันหมด"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "argument",
+  "direction": "both"
+ },
+ "text": {
+  "what": "Clockwise against counter-clockwise is usually argued as if the road were the only variable. It is not. Four things change with the month — the light, the smoke, the water and what is flowering — and each of them argues for a direction.",
+  "story": "**Light.** The circuit is ridden in a day-sized bite and most riders leave late morning. Clockwise, the long westward run from Pangmapha into Mae Hong Son is an afternoon leg, and in the cool season the sun is low and ahead of you on a two-lane road with oncoming traffic. Counter-clockwise puts that same stretch in the morning with the sun behind. *Inference —* this is the single most underrated argument in the whole question, and it gets stronger the closer to the solstice you go.\n\n**Smoke, March and April.** The measured record says the smoke is worst in the afternoon of a still day and that it is worse in the basins than on the ridges. Riding a leg early gets the clearer air. Counter-clockwise reaches Mae Hong Son and the Pai basin later in the trip and later in the morning; clockwise gets Pai over with on the afternoon of day one. *Inference —* in the smoke months, whichever direction you pick, ride early and stop at two, and the direction matters less than the clock.\n\n**Water, June to October.** Route 1263 — the Khun Yuam to Mae Chaem cut — is the part of this network that the rains actually close off as a sensible option, and it is also the steepest. In the wet, drop it and stay on 108 and 1095. That removes one of the arguments for counter-clockwise, because the cut is easier taken as a descent toward Mae Chaem, which is the clockwise... no: the cut is ridden Khun Yuam to Mae Chaem going *counter*-clockwise only if you have already come down 108. Read the leg page.\n\n**Flowers, November.** Doi Mae U-Kho above Khun Yuam turns yellow with *Tithonia diversifolia* for a few weeks in November, and Khun Yuam sits on the southern leg. Clockwise puts Khun Yuam on day three or four, counter-clockwise on day two. If the bloom is the reason for the trip, go the way that reaches Khun Yuam on a morning.\n\n**Mist, November to January.** The sea of mist off Doi Kong Mu and at Pang Ung is a dawn phenomenon, so it requires sleeping in Mae Hong Son and getting up. Both directions can deliver that; what matters is that Mae Hong Son gets two nights, not one."
+ },
+ "text_th": {
+  "what": "การเถียงว่าตามเข็มหรือทวนเข็มมักตั้งอยู่บนสมมติฐานว่าถนนคือตัวแปรเดียว ซึ่งไม่จริง สี่อย่างเปลี่ยนไปตามเดือน คือ แสง ควัน น้ำ และดอกไม้ และแต่ละอย่างเถียงเข้าข้างคนละทิศ",
+  "story": "**แสง** คนส่วนใหญ่ออกเดินทางสายๆ ถ้าไปตามเข็ม ช่วงยาวที่มุ่งหน้าตะวันตกจากปางมะผ้าเข้าแม่ฮ่องสอนจะเป็นช่วงบ่าย และในฤดูหนาวดวงอาทิตย์จะอยู่ต่ำและอยู่ตรงหน้า บนถนนสองเลนที่มีรถสวน ทวนเข็มทำให้ช่วงเดียวกันนี้เป็นตอนเช้าโดยมีแดดอยู่ข้างหลัง *อนุมาน —* นี่คือเหตุผลที่ถูกมองข้ามที่สุดในคำถามทั้งหมด และยิ่งใกล้ครีษมายันยิ่งหนักข้อ\n\n**ควัน เดือนมีนาคมและเมษายน** ข้อมูลที่วัดได้บอกว่าควันหนาที่สุดในช่วงบ่ายของวันที่ลมนิ่ง และหนาในแอ่งมากกว่าบนสัน การออกแต่เช้าจึงได้อากาศที่ใสกว่า *อนุมาน —* ในเดือนที่มีควัน ไม่ว่าเลือกทิศไหน ให้ออกเช้าและหยุดบ่ายสอง ทิศทางสำคัญน้อยกว่านาฬิกา\n\n**น้ำ มิถุนายนถึงตุลาคม** ทางหลวง 1263 ช่วงขุนยวมถึงแม่แจ่ม คือส่วนที่ฝนทำให้เลิกเป็นตัวเลือกที่สมเหตุสมผล และเป็นช่วงที่ชันที่สุดด้วย หน้าฝนให้ตัดทิ้งแล้วอยู่กับ 108 และ 1095\n\n**ดอกไม้ เดือนพฤศจิกายน** ดอยแม่อูคอเหนือขุนยวมจะเหลืองด้วยดอกบัวตองอยู่ไม่กี่สัปดาห์ในเดือนพฤศจิกายน และขุนยวมอยู่บนช่วงใต้ ตามเข็มจะถึงขุนยวมวันที่สามหรือสี่ ทวนเข็มวันที่สอง ถ้าทุ่งบัวตองคือเหตุผลของทริป ให้ไปทางที่ถึงขุนยวมตอนเช้า\n\n**ทะเลหมอก พฤศจิกายนถึงมกราคม** ทะเลหมอกที่ดอยกองมูและปางอุ๋งเป็นปรากฏการณ์ตอนรุ่งสาง จึงต้องนอนแม่ฮ่องสอนและตื่นให้ทัน ทั้งสองทิศทำได้ สิ่งที่สำคัญคือแม่ฮ่องสอนต้องได้สองคืน ไม่ใช่คืนเดียว"
+ },
+ "kin": [
+  {
+   "to": "which-way-round",
+   "as": "The argument before the season is added to it.",
+   "rel": "story"
+  },
+  {
+   "to": "the-smoke",
+   "as": "The four years of figures behind the March advice.",
+   "rel": "story"
+  },
+  {
+   "to": "bua-tong-bloom",
+   "as": "The November reason to reach Khun Yuam early.",
+   "rel": "event"
+  },
+  {
+   "to": "the-rains",
+   "as": "Why the 1263 comes off the plan from June.",
+   "rel": "event"
+  },
+  {
+   "to": "the-1263-cut",
+   "as": "The leg the rains argue about.",
+   "rel": "leg"
+  },
+  {
+   "to": "doi-kong-mu",
+   "as": "The dawn that needs a second night in Mae Hong Son.",
+   "rel": "wat"
+  },
+  {
+   "to": "low-sun",
+   "as": "The hazard the light argument is about.",
+   "rel": "hazard"
+  }
+ ],
+ "sources": [
+  "s:open-meteo-aq",
+  "s:wp-tithonia-diversifolia",
+  "s:wp-monsoon",
+  "s:mhs-measured"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "the four arguments are this project reasoning from cited seasonal facts and from the measured shape of the road"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18"
+}

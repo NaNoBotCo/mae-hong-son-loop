@@ -1,0 +1,83 @@
+{
+ "id": "chiang-mai",
+ "type": "town",
+ "names": {
+  "name": "Chiang Mai",
+  "th": "เชียงใหม่",
+  "rtgs": "Chiang Mai",
+  "said": "Where the bike comes from and where the bag stays.",
+  "said_th": "ที่ที่รถมาจาก และที่ที่กระเป๋าอยู่"
+ },
+ "region": [
+  "cnx",
+  "loop"
+ ],
+ "facets": {
+  "province": "CNX",
+  "kind": "city"
+ },
+ "geo": {
+  "lat": 18.7883,
+  "lon": 98.9853,
+  "precision": "town",
+  "elevation_m": 310
+ },
+ "text": {
+  "what": "The start and the finish. Both roads out of it — 107 to the north, 108 to the south — are the loop's two ends.",
+  "story": "*Inference —* the useful thing to say about Chiang Mai on a page about the loop is what it is for: rental, spares, a proper helmet if the shop's is bad, and the place the suitcase sits for four days.\n\nOne measured fact worth carrying out of town: across four burning seasons Chiang Mai's March mean PM2.5 is 37.8 µg/m³, higher than any town on the circuit. The air improves as you leave.",
+  "today": "Everything the rest of the circuit does not have: tyres in stock, a dealer for most brands, and a hospital that does not need a transfer."
+ },
+ "text_th": {
+  "what": "จุดเริ่มและจุดจบ ถนนสองสายที่ออกจากเมือง คือ 107 ไปเหนือ และ 108 ไปใต้ เป็นสองปลายของวงรอบ",
+  "story": "*อนุมาน —* สิ่งที่มีประโยชน์ที่จะพูดถึงเชียงใหม่ในหน้าเรื่องวงรอบ คือมันมีไว้ทำอะไร เช่ารถ หาอะไหล่ ซื้อหมวกกันน็อกที่ดีถ้าของร้านแย่ และเป็นที่ที่กระเป๋าเดินทางอยู่สี่วัน\n\nข้อเท็จจริงที่วัดได้หนึ่งข้อที่ควรพกออกจากเมืองไป ตลอดสี่ฤดูเผา ค่าเฉลี่ย PM2.5 เดือนมีนาคมของเชียงใหม่คือ 37.8 สูงกว่าทุกเมืองบนเส้นทาง อากาศจะดีขึ้นเมื่อคุณออกจากเมือง",
+  "today": "ทุกอย่างที่ส่วนที่เหลือของเส้นทางไม่มี ยางพร้อมเปลี่ยน ศูนย์บริการเกือบทุกยี่ห้อ และโรงพยาบาลที่ไม่ต้องส่งต่อ"
+ },
+ "kin": [
+  {
+   "to": "renting-a-bike",
+   "as": "The transaction that starts the trip.",
+   "rel": "kit"
+  },
+  {
+   "to": "sending-the-bag-ahead",
+   "as": "Where the bag stays instead.",
+   "rel": "kit"
+  },
+  {
+   "to": "the-smoke",
+   "as": "The dirtiest air on the route is here.",
+   "rel": "story"
+  },
+  {
+   "to": "hot-to-cnx",
+   "as": "The way back in.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:wp-chiang-mai",
+  "s:open-meteo-aq"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-chiang-mai"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the riding conclusions are this project's; the geography and history under them are cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

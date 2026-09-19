@@ -1,0 +1,61 @@
+{
+ "id": "pm25",
+ "type": "term",
+ "names": {
+  "name": "PM2.5",
+  "th": "ฝุ่น PM2.5",
+  "said": "Particles under 2.5 micrometres across — small enough to go past the nose and into the lungs.",
+  "said_th": "อนุภาคที่เล็กกว่า 2.5 ไมโครเมตร เล็กพอจะผ่านจมูกเข้าไปถึงปอด",
+  "rtgs": "fun PM song chut ha"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "air"
+ },
+ "text": {
+  "what": "Particles under 2.5 micrometres across — small enough to go past the nose and into the lungs.",
+  "story": "It is measured in micrograms per cubic metre. The United States set its 24-hour standard at 35.4 µg/m³ and, in a 2024 revision, moved the annual standard to 9.0; the AQI figures on this site use that revision's breakpoints.\n\n*Inference —* the reason it is the number that matters here rather than visibility is that the size is what makes it dangerous, and the size is also what makes it invisible individually. A hazy day and a dangerous day are not the same list."
+ },
+ "text_th": {
+  "what": "อนุภาคที่เล็กกว่า 2.5 ไมโครเมตร เล็กพอจะผ่านจมูกเข้าไปถึงปอด",
+  "story": "วัดเป็นไมโครกรัมต่อลูกบาศก์เมตร สหรัฐอเมริกากำหนดมาตรฐาน 24 ชั่วโมงไว้ที่ 35.4 และในการทบทวนปี 2567 ปรับมาตรฐานรายปีเป็น 9.0 ค่า AQI บนเว็บนี้ใช้เกณฑ์จากการทบทวนครั้งนั้น\n\n*อนุมาน —* เหตุผลที่ตัวเลขนี้สำคัญกว่าทัศนวิสัยคือขนาดของมันคือสิ่งที่ทำให้มันอันตราย และขนาดของมันก็เป็นสิ่งที่ทำให้มองไม่เห็นทีละอนุภาค วันที่ฟ้าหม่นกับวันที่อันตรายไม่ใช่รายการเดียวกัน"
+ },
+ "kin": [
+  {
+   "to": "the-smoke",
+   "as": "Four years of it, measured.",
+   "rel": "story"
+  },
+  {
+   "to": "smoke-riding",
+   "as": "What it does on a bike.",
+   "rel": "hazard"
+  }
+ ],
+ "sources": [
+  "s:epa-pm25-2024",
+  "s:open-meteo-aq",
+  "s:wp-southeast-asian-haze"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:epa-pm25-2024"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:epa-pm25-2024"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

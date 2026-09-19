@@ -1,0 +1,78 @@
+{
+ "id": "route-1096",
+ "type": "road",
+ "names": {
+  "name": "Route 1096",
+  "th": "ทางหลวงแผ่นดินหมายเลข 1096",
+  "said": "The rehearsal. A hundred kilometres from your hotel, and the same curve density as the famous road.",
+  "said_th": "การซ้อมใหญ่ ห่างจากโรงแรมร้อยกิโลเมตร และมีโค้งหนาแน่นเท่าถนนสายดัง"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "surface": "asphalt",
+  "ref": "1096"
+ },
+ "text": {
+  "what": "Mae Rim to Samoeng, ridden as a day loop out of Chiang Mai and back. Not part of the Mae Hong Son circuit, and the best possible preparation for it.",
+  "story": "*Inference —* the case for riding this first is strong and almost nobody makes it. Measured off OSM the stitched run is 29.8 kilometres carrying 130 curves at a 25-degree threshold with 19 hairpins — **4.46 curves a kilometre, the densest road measured on this whole network**, ahead of Route 1095's 4.03.\n\nSo it is the same riding, in a day, from a hotel you are already in, on a bike you have just rented, with Chiang Mai an hour away if something is wrong. A rider who finds the Samoeng loop tiring has learned something very cheap about what four days of it would be."
+ },
+ "text_th": {
+  "what": "แม่ริมไปสะเมิง ขี่เป็นวงรอบหนึ่งวันออกจากเชียงใหม่แล้ววนกลับ ไม่ได้เป็นส่วนหนึ่งของวงรอบแม่ฮ่องสอน และเป็นการเตรียมตัวที่ดีที่สุดเท่าที่จะทำได้",
+  "story": "*อนุมาน —* เหตุผลที่ควรขี่เส้นนี้ก่อนนั้นหนักแน่นมาก และแทบไม่มีใครพูดถึง เมื่อวัดจาก OSM ช่วงที่ต่อกันได้ยาวราว 27 กิโลเมตร มี 127 โค้งที่เกณฑ์ 25 องศา และโค้งหักศอก 17 โค้ง ราว 4.5 โค้งต่อกิโลเมตร ซึ่งหนาแน่นกว่าทางหลวง 1095\n\nมันจึงเป็นการขี่แบบเดียวกัน ภายในวันเดียว ออกจากโรงแรมที่คุณพักอยู่แล้ว บนรถที่เพิ่งเช่ามา โดยมีเชียงใหม่อยู่ห่างหนึ่งชั่วโมงถ้ามีอะไรผิดพลาด คนขี่ที่พบว่าวงรอบสะเมิงเหนื่อย ได้เรียนรู้บางอย่างในราคาถูกมากว่าสี่วันแบบนั้นจะเป็นอย่างไร"
+ },
+ "route": {
+  "roads": [
+   "1096"
+  ],
+  "from": "Mae Rim",
+  "from_th": "แม่ริม",
+  "to": "Samoeng",
+  "to_th": "สะเมิง",
+  "km": 29.8,
+  "km_source": "s:mhs-measured",
+  "curves": 130,
+  "hairpins": 19
+ },
+ "kin": [
+  {
+   "to": "samoeng-warmup",
+   "as": "The day this road makes.",
+   "rel": "leg"
+  },
+  {
+   "to": "renting-a-bike",
+   "as": "The bike you are testing on it.",
+   "rel": "kit"
+  },
+  {
+   "to": "how-many-curves",
+   "as": "Denser than the road with the shirt.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:wp-samoeng-district",
+  "s:wp-mae-rim-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

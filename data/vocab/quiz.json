@@ -1,0 +1,866 @@
+{
+ "note": "Scored in the browser, nothing leaves the page. Every outcome links to records that carry their own sources, so a result is a route into the site rather than a verdict. The weights are this project's own and are printed in the JSON so they can be argued with.",
+ "title": {
+  "en": "Which ride is yours?",
+  "th": "คุณควรขี่แบบไหน"
+ },
+ "lede": {
+  "en": "Seven questions. Sixteen possible answers. Nobody gets the same loop.",
+  "th": "เจ็ดคำถาม สิบหกคำตอบที่เป็นไปได้ ไม่มีใครได้วงรอบเหมือนกัน"
+ },
+ "questions": [
+  {
+   "q": {
+    "en": "What will you actually be on?",
+    "th": "คุณจะขี่อะไรจริงๆ"
+   },
+   "a": [
+    {
+     "t": {
+      "en": "A 110–160 automatic scooter — whatever the shop hands me",
+      "th": "สกู๊ตเตอร์ออโต้ 110–160 อะไรก็ได้ที่ร้านให้มา"
+     },
+     "s": {
+      "click-run": 5,
+      "pai-and-back": 3,
+      "slow-coffee": 2,
+      "send-the-bag": 1
+     }
+    },
+    {
+     "t": {
+      "en": "A geared 125 — a Wave, a Dream, something with a gearbox",
+      "th": "รถมีเกียร์ 125 เวฟ ดรีม อะไรที่มีเกียร์"
+     },
+     "s": {
+      "four-days-both-ways": 4,
+      "click-run": 2,
+      "temples-and-tea": 2,
+      "hot-spring-circuit": 2
+     }
+    },
+    {
+     "t": {
+      "en": "A 250–450 trail bike",
+      "th": "รถวิบาก 250–450"
+     },
+     "s": {
+      "the-1263-cut-plan": 5,
+      "three-day-blast": 3
+     }
+    },
+    {
+     "t": {
+      "en": "A 400–700 twin, or something bigger",
+      "th": "รถสองสูบ 400–700 หรือใหญ่กว่า"
+     },
+     "s": {
+      "big-bike-ccw": 5,
+      "three-day-blast": 3
+     }
+    },
+    {
+     "t": {
+      "en": "I'm on the back",
+      "th": "ฉันนั่งซ้อน"
+     },
+     "s": {
+      "pillion-plan": 6,
+      "slow-coffee": 2,
+      "temples-and-tea": 2
+     }
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "How much riding have you actually done?",
+    "th": "คุณขี่รถมามากแค่ไหนจริงๆ"
+   },
+   "a": [
+    {
+     "t": {
+      "en": "I learned this week",
+      "th": "เพิ่งหัดสัปดาห์นี้"
+     },
+     "s": {
+      "samoeng-first": 6,
+      "pai-and-back": 4,
+      "take-the-bus": 3,
+      "click-run": 1
+     }
+    },
+    {
+     "t": {
+      "en": "I ride at home sometimes",
+      "th": "ที่บ้านขี่บ้าง"
+     },
+     "s": {
+      "samoeng-first": 3,
+      "click-run": 2
+     }
+    },
+    {
+     "t": {
+      "en": "I ride a lot, but never in Asia",
+      "th": "ขี่เยอะ แต่ไม่เคยขี่ในเอเชีย"
+     },
+     "s": {
+      "big-bike-ccw": 3,
+      "samoeng-first": 2
+     }
+    },
+    {
+     "t": {
+      "en": "I ride here. This is my commute",
+      "th": "ขี่ที่นี่อยู่แล้ว นี่คือทางไปทำงาน"
+     },
+     "s": {
+      "the-1263-cut-plan": 4,
+      "three-day-blast": 4,
+      "inthanon-addon": 2
+     }
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "How many days have you got?",
+    "th": "คุณมีกี่วัน"
+   },
+   "a": [
+    {
+     "t": {
+      "en": "One or two",
+      "th": "หนึ่งหรือสองวัน"
+     },
+     "s": {
+      "pai-and-back": 5,
+      "samoeng-first": 4,
+      "take-the-bus": 2
+     }
+    },
+    {
+     "t": {
+      "en": "Three",
+      "th": "สามวัน"
+     },
+     "s": {
+      "three-day-blast": 4,
+      "the-1263-cut-plan": 4
+     }
+    },
+    {
+     "t": {
+      "en": "Four",
+      "th": "สี่วัน"
+     },
+     "s": {
+      "four-days-both-ways": 5,
+      "click-run": 3,
+      "big-bike-ccw": 2
+     }
+    },
+    {
+     "t": {
+      "en": "Five to seven",
+      "th": "ห้าถึงเจ็ดวัน"
+     },
+     "s": {
+      "slow-coffee": 4,
+      "temples-and-tea": 3,
+      "inthanon-addon": 3,
+      "hot-spring-circuit": 3
+     }
+    },
+    {
+     "t": {
+      "en": "More than a week",
+      "th": "มากกว่าหนึ่งสัปดาห์"
+     },
+     "s": {
+      "slow-coffee": 5,
+      "hot-spring-circuit": 3,
+      "temples-and-tea": 3
+     }
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "What are you actually going for?",
+    "th": "คุณไปเพื่ออะไรจริงๆ"
+   },
+   "a": [
+    {
+     "t": {
+      "en": "The corners. Only the corners",
+      "th": "โค้ง โค้งอย่างเดียว"
+     },
+     "s": {
+      "three-day-blast": 5,
+      "the-1263-cut-plan": 4,
+      "samoeng-first": 2
+     }
+    },
+    {
+     "t": {
+      "en": "Photographs and viewpoints",
+      "th": "รูปถ่ายและจุดชมวิว"
+     },
+     "s": {
+      "slow-coffee": 3,
+      "inthanon-addon": 2
+     }
+    },
+    {
+     "t": {
+      "en": "Temples, people, markets",
+      "th": "วัด ผู้คน ตลาด"
+     },
+     "s": {
+      "temples-and-tea": 6,
+      "slow-coffee": 2
+     }
+    },
+    {
+     "t": {
+      "en": "Coffee, a hammock, nowhere to be",
+      "th": "กาแฟ เปลญวน ไม่ต้องไปไหน"
+     },
+     "s": {
+      "slow-coffee": 6,
+      "hot-spring-circuit": 2,
+      "pai-and-back": 2
+     }
+    },
+    {
+     "t": {
+      "en": "Hot water at the end of the day",
+      "th": "น้ำร้อนตอนจบวัน"
+     },
+     "s": {
+      "hot-spring-circuit": 6,
+      "slow-coffee": 2
+     }
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "When are you going?",
+    "th": "คุณจะไปเมื่อไหร่"
+   },
+   "a": [
+    {
+     "t": {
+      "en": "November to February — cool and dry",
+      "th": "พฤศจิกายนถึงกุมภาพันธ์ หนาวและแห้ง"
+     },
+     "s": {
+      "temples-and-tea": 2,
+      "big-bike-ccw": 2
+     }
+    },
+    {
+     "t": {
+      "en": "March or April",
+      "th": "มีนาคมหรือเมษายน"
+     },
+     "s": {
+      "smoke-contingency": 7
+     }
+    },
+    {
+     "t": {
+      "en": "May to October — the green months",
+      "th": "พฤษภาคมถึงตุลาคม เดือนสีเขียว"
+     },
+     "s": {
+      "green-season-run": 6,
+      "slow-coffee": 2
+     }
+    },
+    {
+     "t": {
+      "en": "Whenever is best",
+      "th": "ตอนไหนก็ได้ที่ดีที่สุด"
+     },
+     "s": {
+      "green-season-run": 3
+     }
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "What are you carrying?",
+    "th": "คุณเอาอะไรไปบ้าง"
+   },
+   "a": [
+    {
+     "t": {
+      "en": "One small bag, that's it",
+      "th": "กระเป๋าเล็กใบเดียว จบ"
+     },
+     "s": {
+      "three-day-blast": 2,
+      "click-run": 2
+     }
+    },
+    {
+     "t": {
+      "en": "A pannier's worth",
+      "th": "ประมาณกระเป๋าข้างหนึ่งใบ"
+     },
+     "s": {
+      "big-bike-ccw": 2
+     }
+    },
+    {
+     "t": {
+      "en": "A full suitcase I'd rather not strap on",
+      "th": "กระเป๋าเดินทางใบเต็มที่ไม่อยากมัดท้ายรถ"
+     },
+     "s": {
+      "send-the-bag": 6
+     }
+    },
+    {
+     "t": {
+      "en": "I'm flying out of Mae Hong Son, not coming back",
+      "th": "ฉันบินออกจากแม่ฮ่องสอน ไม่กลับมา"
+     },
+     "s": {
+      "send-the-bag": 5,
+      "one-way-plan": 6
+     }
+    }
+   ]
+  },
+  {
+   "q": {
+    "en": "A ten-kilometre descent, twenty hairpins, brakes getting warm. You…",
+    "th": "ทางลงสิบกิโลเมตร โค้งหักศอกยี่สิบโค้ง เบรกเริ่มร้อน คุณ…"
+   },
+   "a": [
+    {
+     "t": {
+      "en": "Drop a gear and enjoy it",
+      "th": "ลดเกียร์แล้วสนุกกับมัน"
+     },
+     "s": {
+      "three-day-blast": 4,
+      "the-1263-cut-plan": 4,
+      "big-bike-ccw": 2
+     }
+    },
+    {
+     "t": {
+      "en": "Slow right down and stop halfway",
+      "th": "ชะลอแล้วจอดพักกลางทาง"
+     },
+     "s": {
+      "click-run": 3,
+      "slow-coffee": 2
+     }
+    },
+    {
+     "t": {
+      "en": "What's a hairpin?",
+      "th": "โค้งหักศอกคืออะไร"
+     },
+     "s": {
+      "samoeng-first": 6,
+      "take-the-bus": 3,
+      "pai-and-back": 2
+     }
+    },
+    {
+     "t": {
+      "en": "I'd rather someone else was driving",
+      "th": "อยากให้คนอื่นขับมากกว่า"
+     },
+     "s": {
+      "take-the-bus": 7,
+      "pillion-plan": 3
+     }
+    }
+   ]
+  }
+ ],
+ "results": {
+  "four-days-both-ways": {
+   "name": {
+    "en": "Four days, the classic",
+    "th": "สี่วัน แบบคลาสสิก"
+   },
+   "say": {
+    "en": "The whole circuit, unhurried, with a night in each of the towns that deserves one.",
+    "th": "วงรอบเต็ม ไม่รีบ นอนคืนละเมืองในเมืองที่ควรได้นอน"
+   },
+   "how": {
+    "en": "Chiang Mai → Pai → Soppong → Mae Hong Son (two nights) → Mae Sariang → home. Clockwise unless you are collecting an unfamiliar rental, in which case go the other way and learn the bike on Route 108 first.",
+    "th": "เชียงใหม่ → ปาย → สบป่อง → แม่ฮ่องสอน (สองคืน) → แม่สะเรียง → กลับบ้าน ไปตามเข็ม เว้นแต่คุณเพิ่งรับรถเช่าที่ยังไม่รู้จัก ถ้าอย่างนั้นไปอีกทางแล้วทำความรู้จักรถบนทางหลวง 108 ก่อน"
+   },
+   "legs": [
+    "cnx-to-pai",
+    "pai-to-soppong",
+    "soppong-to-mhs",
+    "mhs-to-khun-yuam",
+    "khun-yuam-to-mae-sariang",
+    "mae-sariang-to-hot",
+    "hot-to-cnx"
+   ],
+   "see": [
+    "which-way-round",
+    "route-1095",
+    "doi-kong-mu",
+    "packing-light"
+   ],
+   "dir": "cw",
+   "layer": "plan"
+  },
+  "click-run": {
+   "name": {
+    "en": "The Click run",
+    "th": "ทริปรถคลิก"
+   },
+   "say": {
+    "en": "A 110 automatic goes all the way round. Thousands do it a year. The transmission is the thing to plan around, not the engine.",
+    "th": "รถออโต้ 110 วิ่งจบรอบได้ ปีหนึ่งมีเป็นพันคัน สิ่งที่ต้องวางแผนคือระบบส่งกำลัง ไม่ใช่เครื่องยนต์"
+   },
+   "how": {
+    "en": "Four or five days, clockwise, and every long descent taken in stages with a two-minute stop to let the brakes cool. Skip Route 1263 entirely. Fill up at every town.",
+    "th": "สี่หรือห้าวัน ไปตามเข็ม และทางลงยาวทุกช่วงให้ลงเป็นช่วงๆ จอดพักสองนาทีให้เบรกเย็น ตัดทางหลวง 1263 ออกทั้งหมด เติมน้ำมันทุกเมือง"
+   },
+   "legs": [
+    "cnx-to-pai",
+    "pai-to-soppong",
+    "soppong-to-mhs",
+    "mhs-to-khun-yuam",
+    "khun-yuam-to-mae-sariang",
+    "mae-sariang-to-hot",
+    "hot-to-cnx"
+   ],
+   "see": [
+    "step-through-110",
+    "brake-fade",
+    "engine-braking",
+    "gasohol"
+   ],
+   "dir": "cw",
+   "layer": "plan"
+  },
+  "three-day-blast": {
+   "name": {
+    "en": "Three days, no stopping",
+    "th": "สามวัน ไม่หยุด"
+   },
+   "say": {
+    "en": "You came for the corners and you know what you are doing. Fine — but the mistakes on this road happen in the last hour of a long day.",
+    "th": "คุณมาเพื่อโค้งและคุณรู้ว่ากำลังทำอะไร ก็ได้ แต่ความผิดพลาดบนถนนสายนี้เกิดในชั่วโมงสุดท้ายของวันที่ยาว"
+   },
+   "how": {
+    "en": "Chiang Mai → Mae Hong Son in one, Mae Hong Son → Mae Sariang, Mae Sariang → home. Or take the 1263 and make it a tighter triangle. Start at six, not nine.",
+    "th": "เชียงใหม่ → แม่ฮ่องสอน ในวันเดียว แม่ฮ่องสอน → แม่สะเรียง แม่สะเรียง → กลับบ้าน หรือใช้ 1263 ทำให้เป็นสามเหลี่ยมที่แคบลง ออกหกโมง ไม่ใช่เก้าโมง"
+   },
+   "legs": [
+    "cnx-to-pai",
+    "soppong-to-mhs",
+    "mhs-to-khun-yuam",
+    "mae-sariang-to-hot"
+   ],
+   "see": [
+    "route-1095",
+    "route-1263",
+    "night-riding",
+    "how-many-curves"
+   ],
+   "dir": "cw",
+   "layer": "plan"
+  },
+  "the-1263-cut-plan": {
+   "name": {
+    "en": "Take the 1263",
+    "th": "ไปทางลัด 1263"
+   },
+   "say": {
+    "en": "The densest curves measured on this network after the Samoeng road, no town in the middle, and nobody coming past for a while.",
+    "th": "โค้งหนาแน่นที่สุดในเครือข่ายนี้รองจากถนนสะเมิง ไม่มีเมืองคั่นกลาง และไม่มีใครขับผ่านมาสักพัก"
+   },
+   "how": {
+    "en": "Khun Yuam east to Mae Chaem, in the dry, before noon, full tank, and not alone if you can arrange it. In the rains, do not.",
+    "th": "จากขุนยวมไปตะวันออกสู่แม่แจ่ม ในหน้าแล้ง ก่อนเที่ยง น้ำมันเต็มถัง และถ้าจัดได้ อย่าไปคนเดียว หน้าฝนอย่าไป"
+   },
+   "legs": [
+    "the-1263-cut",
+    "mhs-to-khun-yuam",
+    "cnx-to-pai"
+   ],
+   "see": [
+    "route-1263",
+    "trail-250",
+    "the-rains",
+    "gasohol"
+   ],
+   "dir": "cw",
+   "layer": "overlay"
+  },
+  "big-bike-ccw": {
+   "name": {
+    "en": "Big bike, counter-clockwise",
+    "th": "รถใหญ่ ทวนเข็ม"
+   },
+   "say": {
+    "en": "Nothing here is beyond a big adventure bike. The arithmetic is about fatigue and U-turns, not capability.",
+    "th": "ไม่มีอะไรที่นี่เกินความสามารถของรถแอดเวนเจอร์คันใหญ่ เรื่องที่ต้องคิดคือความล้าและการกลับรถ ไม่ใช่ความสามารถ"
+   },
+   "how": {
+    "en": "Go counter-clockwise: a long easy first day on Route 108 to learn a heavy loaded bike, and the technical 1095 descent last, done in the morning with the sun behind you. Reverse into steep driveways.",
+    "th": "ไปทวนเข็ม วันแรกยาวและสบายบนทางหลวง 108 เพื่อทำความรู้จักรถหนักที่บรรทุกของ แล้วเก็บทางลง 1095 ที่ยากไว้ท้ายสุด ทำตอนเช้าโดยมีแดดอยู่ข้างหลัง ทางเข้าที่ชันให้ถอยเข้า"
+   },
+   "legs": [
+    "hot-to-cnx",
+    "mae-sariang-to-hot",
+    "khun-yuam-to-mae-sariang",
+    "soppong-to-mhs",
+    "cnx-to-pai"
+   ],
+   "see": [
+    "big-adventure",
+    "steep-driveways",
+    "low-sun",
+    "which-way-round"
+   ],
+   "dir": "ccw",
+   "layer": "plan"
+  },
+  "samoeng-first": {
+   "name": {
+    "en": "Ride Samoeng first",
+    "th": "ไปสะเมิงก่อน"
+   },
+   "say": {
+    "en": "One day, a hundred kilometres from your hotel, on the densest curves measured anywhere on this network. It will tell you whether four days of it is a holiday.",
+    "th": "หนึ่งวัน ร้อยกิโลเมตรจากโรงแรม บนโค้งที่หนาแน่นที่สุดในเครือข่ายนี้ มันจะบอกคุณว่าสี่วันแบบนั้นจะเป็นวันหยุดหรือไม่"
+   },
+   "how": {
+    "en": "Chiang Mai → Mae Rim → Route 1096 → Samoeng → back. Do it on the bike you have just rented, with your luggage still in the room. Then decide.",
+    "th": "เชียงใหม่ → แม่ริม → ทางหลวง 1096 → สะเมิง → กลับ ทำด้วยรถที่เพิ่งเช่ามา โดยที่สัมภาระยังอยู่ในห้อง แล้วค่อยตัดสินใจ"
+   },
+   "legs": [
+    "samoeng-warmup"
+   ],
+   "see": [
+    "route-1096",
+    "renting-a-bike",
+    "brake-fade",
+    "gear"
+   ],
+   "dir": "cw",
+   "layer": "overlay"
+  },
+  "pai-and-back": {
+   "name": {
+    "en": "Pai and back — don't do the loop",
+    "th": "ไปปายแล้วกลับ ไม่ต้องวนรอบ"
+   },
+   "say": {
+    "en": "The best part of the road is the part you were going to ride anyway. Ride it, stay two nights, ride it back.",
+    "th": "ส่วนที่ดีที่สุดของถนนคือส่วนที่คุณจะขี่อยู่แล้ว ขี่ไป นอนสองคืน แล้วขี่กลับ"
+   },
+   "how": {
+    "en": "Chiang Mai → Pai, two or three nights, and back the same way. 395 curves each way. Nobody will think less of you and you will not be riding tired.",
+    "th": "เชียงใหม่ → ปาย นอนสองหรือสามคืน แล้วกลับทางเดิม โค้ง 395 โค้งต่อเที่ยว ไม่มีใครคิดอะไร และคุณจะไม่ได้ขี่ตอนล้า"
+   },
+   "legs": [
+    "cnx-to-pai"
+   ],
+   "see": [
+    "pai",
+    "route-1095",
+    "pai-canyon",
+    "brake-fade"
+   ],
+   "dir": "cw",
+   "layer": "plan"
+  },
+  "pillion-plan": {
+   "name": {
+    "en": "Two up",
+    "th": "ซ้อนสองคน"
+   },
+   "say": {
+    "en": "A pillion is not luggage. Three things change and all three are worse on a descent.",
+    "th": "คนซ้อนไม่ใช่สัมภาระ สามอย่างเปลี่ยนไป และทั้งสามอย่างแย่กว่าตอนลงเขา"
+   },
+   "how": {
+    "en": "Plan about two-thirds the distance a solo rider would. Five days, not four. Tell the passenger where the next stop is, brake earlier than feels necessary, and buy them their own helmet and gloves rather than using the shop's spare.",
+    "th": "วางแผนราวสองในสามของระยะที่คนขี่คนเดียวจะวางไว้ ห้าวัน ไม่ใช่สี่ บอกคนซ้อนว่าจุดพักถัดไปอยู่ไหน เบรกเร็วกว่าที่รู้สึกว่าจำเป็น และซื้อหมวกกับถุงมือของเขาเอง แทนที่จะใช้ของสำรองจากร้าน"
+   },
+   "legs": [
+    "cnx-to-pai",
+    "pai-to-soppong",
+    "soppong-to-mhs",
+    "khun-yuam-to-mae-sariang"
+   ],
+   "see": [
+    "on-the-back",
+    "loaded-bike",
+    "gear",
+    "packing-light"
+   ],
+   "dir": "cw",
+   "layer": "overlay"
+  },
+  "slow-coffee": {
+   "name": {
+    "en": "The slow loop",
+    "th": "วงรอบแบบช้า"
+   },
+   "say": {
+    "en": "Six or seven days. The riding stops being the point and starts being the transport between the points.",
+    "th": "หกหรือเจ็ดวัน การขี่เลิกเป็นจุดประสงค์ และกลายเป็นการเดินทางระหว่างจุดต่างๆ"
+   },
+   "how": {
+    "en": "Two nights in Pai, two in Mae Hong Son, one in Soppong for the cave, one in Mae Sariang. Ride mornings, stop at two. This is the only version that gets you Pang Ung at dawn and Ban Rak Thai in the same trip.",
+    "th": "นอนปายสองคืน แม่ฮ่องสอนสองคืน สบป่องหนึ่งคืนเพื่อถ้ำ แม่สะเรียงหนึ่งคืน ขี่ตอนเช้า หยุดบ่ายสอง นี่เป็นแบบเดียวที่ได้ทั้งปางอุ๋งตอนรุ่งสางและบ้านรักไทยในทริปเดียว"
+   },
+   "legs": [
+    "cnx-to-pai",
+    "pai-to-soppong",
+    "soppong-to-mhs",
+    "mhs-to-khun-yuam",
+    "khun-yuam-to-mae-sariang",
+    "mae-sariang-to-hot",
+    "hot-to-cnx"
+   ],
+   "see": [
+    "pang-ung",
+    "ban-rak-thai",
+    "tham-lot",
+    "soppong"
+   ],
+   "dir": "cw",
+   "layer": "plan"
+  },
+  "temples-and-tea": {
+   "name": {
+    "en": "Temples, people, markets",
+    "th": "วัด ผู้คน ตลาด"
+   },
+   "say": {
+    "en": "You are riding through a province whose majority culture, script and architecture come from the other side of a border drawn in the 1890s.",
+    "th": "คุณกำลังขี่ผ่านจังหวัดที่วัฒนธรรม อักษร และสถาปัตยกรรมของคนส่วนใหญ่มาจากอีกฝั่งของชายแดนที่ขีดไว้ในทศวรรษ 1890"
+   },
+   "how": {
+    "en": "Two nights in Mae Hong Son — the lake temples after dark, the chedi on the hill before dawn. Ride Route 108 south slowly: the roadside villages between Khun Yuam and Mae Sariang are the point, not the scenery.",
+    "th": "นอนแม่ฮ่องสอนสองคืน วัดริมหนองตอนค่ำ เจดีย์บนดอยก่อนรุ่ง ขี่ทางหลวง 108 ลงใต้ช้าๆ หมู่บ้านริมถนนระหว่างขุนยวมกับแม่สะเรียงคือสาระ ไม่ใช่ทิวทัศน์"
+   },
+   "legs": [
+    "soppong-to-mhs",
+    "mhs-to-khun-yuam",
+    "khun-yuam-to-mae-sariang"
+   ],
+   "see": [
+    "doi-kong-mu",
+    "chong-kham-chong-klang",
+    "shan",
+    "karen",
+    "kayan-question"
+   ],
+   "dir": "cw",
+   "layer": "plan"
+  },
+  "hot-spring-circuit": {
+   "name": {
+    "en": "Hot water every night",
+    "th": "น้ำร้อนทุกคืน"
+   },
+   "say": {
+    "en": "Geothermal water is scattered right along this circuit, and it is very good for a body that has done 400 curves.",
+    "th": "น้ำพุร้อนกระจายอยู่ตลอดเส้นทางนี้ และมันดีมากกับร่างกายที่ผ่านมาสี่ร้อยโค้ง"
+   },
+   "how": {
+    "en": "Five or six days, unhurried. The harvested map on this site shows what OpenStreetMap has; the count is a floor, not a survey.",
+    "th": "ห้าหรือหกวัน ไม่ต้องรีบ แผนที่ที่เก็บมาในเว็บนี้แสดงสิ่งที่ OpenStreetMap มี ตัวเลขเป็นขั้นต่ำ ไม่ใช่การสำรวจ"
+   },
+   "legs": [
+    "cnx-to-pai",
+    "pai-to-soppong",
+    "soppong-to-mhs",
+    "khun-yuam-to-mae-sariang"
+   ],
+   "see": [
+    "pai",
+    "mae-hong-son",
+    "khun-yuam"
+   ],
+   "dir": "cw",
+   "kind": "spring",
+   "layer": "plan"
+  },
+  "smoke-contingency": {
+   "name": {
+    "en": "You are going in the smoke",
+    "th": "คุณจะไปช่วงมีควัน"
+   },
+   "say": {
+    "en": "March and April are the two months this ride has a reason not to happen. It is still rideable. The views are not.",
+    "th": "มีนาคมและเมษายนคือสองเดือนที่ทริปนี้มีเหตุผลที่จะไม่เกิด ถนนยังขี่ได้ แต่วิวไม่ได้"
+   },
+   "how": {
+    "en": "Ride early, stop by two — the air is worst in the still afternoon. Carry a fitted FFP2 or N95 for under the helmet; a buff filters nothing at this particle size. Treat viewpoints as a bonus. If you have asthma, this is a medical decision, not a scheduling one. And check whether the dates can move to May, when Pai drops from 29.8 to 10.0 µg/m³.",
+    "th": "ออกเช้า หยุดบ่ายสอง อากาศแย่ที่สุดในบ่ายที่ลมนิ่ง พกหน้ากาก FFP2 หรือ N95 ที่กระชับไว้ใส่ใต้หมวก ผ้าบัฟไม่กรองอนุภาคขนาดนี้เลย ถือว่าจุดชมวิวเป็นของแถม ถ้าเป็นหอบหืด นี่คือการตัดสินใจทางการแพทย์ ไม่ใช่เรื่องตาราง และลองดูว่าเลื่อนไปพฤษภาคมได้ไหม ตอนที่ปายลงจาก 29.8 เหลือ 10.0"
+   },
+   "legs": [
+    "cnx-to-pai",
+    "soppong-to-mhs",
+    "khun-yuam-to-mae-sariang"
+   ],
+   "see": [
+    "the-smoke",
+    "burning-season",
+    "smoke-riding",
+    "pm25"
+   ],
+   "dir": "cw",
+   "layer": "overlay"
+  },
+  "green-season-run": {
+   "name": {
+    "en": "The green run",
+    "th": "ทริปหน้าเขียว"
+   },
+   "say": {
+    "en": "The cleanest air of the year by a wide margin — Pai at 3.0 µg/m³ in July against 26.1 in March — green hills, running waterfalls, cheap rooms. You trade dry tarmac.",
+    "th": "อากาศสะอาดที่สุดของปีแบบทิ้งห่าง ปายอยู่ที่ 3.0 ในเดือนกรกฎาคม เทียบกับ 26.1 ในเดือนมีนาคม ภูเขาเขียว น้ำตกมีน้ำ ห้องพักถูก สิ่งที่แลกไปคือถนนแห้ง"
+   },
+   "how": {
+    "en": "Counter-clockwise, so you learn the bike in the wet on the forgiving road first. Drop Route 1263. Finish each day by mid-afternoon — the rain is heavy and short. Expect a landslide repair somewhere.",
+    "th": "ไปทวนเข็ม เพื่อทำความรู้จักรถตอนถนนเปียกบนถนนที่ให้อภัยก่อน ตัดทางหลวง 1263 ออก จบแต่ละวันก่อนบ่ายแก่ ฝนตกหนักและสั้น คาดว่าจะเจอการซ่อมดินสไลด์สักจุด"
+   },
+   "legs": [
+    "hot-to-cnx",
+    "mae-sariang-to-hot",
+    "khun-yuam-to-mae-sariang",
+    "soppong-to-mhs",
+    "cnx-to-pai"
+   ],
+   "see": [
+    "the-rains",
+    "gravel-on-the-apex",
+    "the-smoke",
+    "which-way-round"
+   ],
+   "dir": "ccw",
+   "layer": "overlay"
+  },
+  "send-the-bag": {
+   "name": {
+    "en": "Send the bag, ride light",
+    "th": "ส่งกระเป๋า ขี่ตัวเบา"
+   },
+   "say": {
+    "en": "Yes, a bag can travel separately. But this is a loop — it ends where it started — so for most people the cheaper answer is to leave it behind.",
+    "th": "ใช่ กระเป๋าเดินทางแยกได้ แต่นี่คือวงรอบ มันจบที่เดิมที่เริ่ม สำหรับคนส่วนใหญ่คำตอบที่ถูกกว่าคือฝากไว้"
+   },
+   "how": {
+    "en": "Leave the big bag with the rental shop or the guesthouse you are returning to, and get it written on the agreement. If it genuinely has to move: post, private courier, or the bus, which is the only one as fast as you are. Send two days early, address it to a named person who has agreed to receive it.",
+    "th": "ฝากกระเป๋าใบใหญ่ไว้กับร้านเช่ารถหรือเกสต์เฮาส์ที่คุณจะกลับไป และขอให้ระบุในสัญญา ถ้าต้องย้ายจริงๆ ใช้ไปรษณีย์ บริษัทขนส่ง หรือรถทัวร์ ซึ่งเป็นทางเดียวที่เร็วเท่าตัวคุณ ส่งล่วงหน้าสองวัน จ่าหน้าถึงชื่อคนจริงที่ตกลงรับไว้แล้ว"
+   },
+   "legs": [
+    "cnx-to-pai",
+    "soppong-to-mhs"
+   ],
+   "see": [
+    "sending-the-bag-ahead",
+    "packing-light",
+    "renting-a-bike",
+    "loaded-bike"
+   ],
+   "dir": "cw",
+   "layer": "overlay"
+  },
+  "one-way-plan": {
+   "name": {
+    "en": "One way out",
+    "th": "ไปทางเดียว"
+   },
+   "say": {
+    "en": "Mae Hong Son has an airport. That single fact is what makes a one-way version possible — and it is the only case where forwarding a bag is clearly right.",
+    "th": "แม่ฮ่องสอนมีสนามบิน ข้อเท็จจริงข้อเดียวนี้ทำให้ทริปเที่ยวเดียวเป็นไปได้ และเป็นกรณีเดียวที่การส่งกระเป๋าล่วงหน้าถูกต้องชัดเจน"
+   },
+   "how": {
+    "en": "A one-way rental is a negotiation, not a product, and the fee is usually the cost of somebody driving the bike back. Have that conversation before booking the flight, not after.",
+    "th": "การเช่าเที่ยวเดียวคือการเจรจา ไม่ใช่สินค้าสำเร็จรูป ค่าธรรมเนียมมักเท่ากับค่าจ้างคนขับรถกลับ คุยเรื่องนี้ก่อนจองตั๋ว ไม่ใช่หลังจากนั้น"
+   },
+   "legs": [
+    "cnx-to-pai",
+    "pai-to-soppong",
+    "soppong-to-mhs"
+   ],
+   "see": [
+    "one-way-rental",
+    "sending-the-bag-ahead",
+    "mae-hong-son"
+   ],
+   "dir": "cw",
+   "layer": "overlay"
+  },
+  "inthanon-addon": {
+   "name": {
+    "en": "Add Doi Inthanon",
+    "th": "เพิ่มดอยอินทนนท์"
+   },
+   "say": {
+    "en": "The highest ground in Thailand is one turn off the loop, and it is a full extra day to do properly.",
+    "th": "จุดสูงสุดของประเทศไทยแยกจากวงรอบครั้งเดียว และต้องใช้เวลาเพิ่มเต็มวันถ้าจะทำให้ดี"
+   },
+   "how": {
+    "en": "Either from Chom Thong on Route 108 near the end of a clockwise loop, or — better — over Route 1088 from Mae Chaem if you have taken the 1263 cut. The Mae Chaem side is the quiet approach. A rushed half-day gets you a car park in cloud.",
+    "th": "ขึ้นจากจอมทองบนทางหลวง 108 ตอนใกล้จบวงรอบตามเข็ม หรือดีกว่านั้นคือขึ้นทางหลวง 1088 จากแม่แจ่มถ้าคุณใช้ทางลัด 1263 มา ฝั่งแม่แจ่มเป็นทางที่เงียบกว่า ครึ่งวันแบบเร่งรีบจะได้แค่ลานจอดรถในเมฆ"
+   },
+   "legs": [
+    "the-1263-cut",
+    "hot-to-cnx"
+   ],
+   "see": [
+    "doi-inthanon",
+    "route-1088",
+    "mae-chaem"
+   ],
+   "dir": "cw",
+   "layer": "overlay"
+  },
+  "take-the-bus": {
+   "name": {
+    "en": "Don't ride it",
+    "th": "อย่าขี่เลย"
+   },
+   "say": {
+    "en": "This is a real answer and it is on this page on purpose. Six hundred kilometres of mountain road is not the place to find out whether you like motorcycles.",
+    "th": "นี่เป็นคำตอบจริงและอยู่ในหน้านี้อย่างตั้งใจ ถนนภูเขาหกร้อยกิโลเมตรไม่ใช่ที่สำหรับค้นหาว่าคุณชอบมอเตอร์ไซค์หรือไม่"
+   },
+   "how": {
+    "en": "Minibuses and buses run Chiang Mai–Pai–Mae Hong Son all day and the road is the same road from a seat. Or ride the Samoeng day first and decide afterwards — that is one day and it answers the question honestly.",
+    "th": "รถตู้และรถบัสวิ่งเชียงใหม่–ปาย–แม่ฮ่องสอนทั้งวัน และถนนก็เป็นถนนเดียวกันเมื่อมองจากเบาะผู้โดยสาร หรือไปขี่วันสะเมิงก่อนแล้วค่อยตัดสินใจ ใช้เวลาวันเดียวและได้คำตอบที่ตรงไปตรงมา"
+   },
+   "legs": [
+    "samoeng-warmup"
+   ],
+   "see": [
+    "samoeng-warmup",
+    "songthaew",
+    "route-1096"
+   ],
+   "dir": "cw",
+   "layer": "plan"
+  }
+ },
+ "scoring": {
+  "note": "One plan wins on points. Every overlay that reaches its own threshold is shown alongside it, because a season, a passenger and a suitcase are facts about your trip rather than rival itineraries.",
+  "overlay_threshold": 5
+ }
+}

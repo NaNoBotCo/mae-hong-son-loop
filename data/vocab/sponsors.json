@@ -1,0 +1,14 @@
+{
+ "note": "EMPTY ON PURPOSE. Nothing here is filled in until the site's owner decides it should be. While this list is empty the site renders no sponsor block at all — there is no placeholder, no 'advertise here', no reserved space. A filled row prints the word in `kind` to the reader, so a paid placement is labelled as one wherever it appears.",
+ "how": {
+  "kind": {
+   "sponsor": "A named business paid to appear on a page. The page says 'Sponsor' beside it.",
+   "listing": "A business paid for an upgraded entry in a directory list. The entry says 'Paid listing'.",
+   "affiliate": "A link that pays a commission if someone books through it. The link says 'Affiliate link'.",
+   "own-product": "Something the publisher sells. No label needed beyond the price."
+  },
+  "placement": "A record id, a type name, or 'site' for the footer.",
+  "rule": "A row must name who paid, what they paid for, and when it started. A row without those is refused by validate.py."
+ },
+ "rows": []
+}

@@ -1,0 +1,12 @@
+{
+ "note": "Bodies whose recognition of a place is a fact worth printing, with what each one actually certifies. One entry per recognizer per place.",
+ "entries": [
+  {"key": "unesco-mab", "name": "UNESCO Man and the Biosphere", "th": "ยูเนสโก", "what": "biosphere reserve designation"},
+  {"key": "dnp", "name": "Department of National Parks, Wildlife and Plant Conservation", "th": "กรมอุทยานแห่งชาติฯ", "what": "national park, forest park or wildlife sanctuary status"},
+  {"key": "finearts", "name": "Fine Arts Department", "th": "กรมศิลปากร", "what": "registered ancient monument"},
+  {"key": "tat", "name": "Tourism Authority of Thailand", "th": "การท่องเที่ยวแห่งประเทศไทย", "what": "listing or award; a promotional body, and the record says so"},
+  {"key": "doh", "name": "Department of Highways", "th": "กรมทางหลวง", "what": "route number, kilometre marks and maintenance district"},
+  {"key": "otop", "name": "OTOP", "th": "โอทอป", "what": "One Tambon One Product registration for a local maker"},
+  {"key": "michelin", "name": "Michelin Guide Thailand", "th": "มิชลินไกด์", "what": "a listing, a Bib Gourmand or a star"}
+ ]
+}

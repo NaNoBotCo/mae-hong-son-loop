@@ -1,0 +1,71 @@
+{
+ "id": "ban-rak-thai",
+ "type": "stop",
+ "names": {
+  "name": "Ban Rak Thai",
+  "th": "บ้านรักไทย",
+  "said": "A Yunnanese tea village against the Myanmar border, at the end of a road that only goes there.",
+  "said_th": "หมู่บ้านชาวจีนยูนนานติดชายแดนเมียนมา ที่ปลายถนนซึ่งไปที่อื่นไม่ได้"
+ },
+ "region": [
+  "mhs",
+  "mueang-mhs"
+ ],
+ "facets": {
+  "kind": "village"
+ },
+ "text": {
+  "what": "A village north of Mae Hong Son settled by Chinese Yunnanese, on a reservoir, with tea terraces and the border immediately behind it.",
+  "story": "Chinese Yunnanese are one of the named population groups of Mae Hong Son province. *Inference —* this village is the most visible expression of that on the circuit: the food is Yunnanese, the tea is grown on the slopes above, and the architecture is not Thai.\n\nIt is a dead end. The road goes there and comes back, which means an afternoon out of Mae Hong Son rather than a leg of the loop — and which is a large part of why a rider should give Mae Hong Son two nights.\n\n*Inference —* the altitude and the water make it cold in the mornings in the cool season in a way the valley is not."
+ },
+ "text_th": {
+  "what": "หมู่บ้านทางเหนือของแม่ฮ่องสอน ตั้งถิ่นฐานโดยชาวจีนยูนนาน อยู่ริมอ่างเก็บน้ำ มีไร่ชา และมีชายแดนอยู่ข้างหลังทันที",
+  "story": "ชาวจีนยูนนานเป็นหนึ่งในกลุ่มประชากรที่ระบุไว้ของจังหวัดแม่ฮ่องสอน *อนุมาน —* หมู่บ้านนี้คือการแสดงออกที่เห็นชัดที่สุดของเรื่องนั้นบนเส้นทาง อาหารเป็นยูนนาน ชาปลูกบนเนินเหนือหมู่บ้าน และสถาปัตยกรรมไม่ใช่ไทย\n\nมันเป็นทางตัน ถนนไปถึงแล้วต้องกลับ ซึ่งแปลว่าเป็นบ่ายหนึ่งบ่ายที่ออกจากแม่ฮ่องสอน ไม่ใช่ช่วงหนึ่งของวงรอบ และนั่นเป็นเหตุผลใหญ่ที่คนขี่ควรให้แม่ฮ่องสอนสองคืน\n\n*อนุมาน —* ความสูงและน้ำทำให้ตอนเช้าที่นี่หนาวในฤดูหนาวในแบบที่หุบเขาข้างล่างไม่เป็น"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The town the day starts from.",
+   "rel": "town"
+  },
+  {
+   "to": "tham-pla",
+   "as": "On the way up.",
+   "rel": "stop"
+  },
+  {
+   "to": "pang-ung",
+   "as": "The other reason to spend a day north of town.",
+   "rel": "stop"
+  }
+ ],
+ "sources": [
+  "s:thwp-ban-rak-thai",
+  "s:wp-mae-hong-son-province"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:thwp-ban-rak-thai"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:thwp-ban-rak-thai"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.5,
+  "lon": 97.85,
+  "precision": "town"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18"
+}

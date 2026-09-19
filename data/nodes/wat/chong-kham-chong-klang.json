@@ -1,0 +1,74 @@
+{
+ "id": "chong-kham-chong-klang",
+ "type": "wat",
+ "names": {
+  "name": "Wat Chong Kham and Wat Chong Klang",
+  "th": "วัดจองคำ และวัดจองกลาง",
+  "said": "Two temples side by side on a lake in the middle of town, lit and reflected after dark.",
+  "said_th": "วัดสองแห่งเคียงกันริมหนองน้ำกลางเมือง สว่างและสะท้อนน้ำหลังพลบ"
+ },
+ "region": [
+  "mhs",
+  "mueang-mhs",
+  "shan"
+ ],
+ "facets": {
+  "tradition": "shan",
+  "price": "free"
+ },
+ "text": {
+  "what": "The pair of Shan-Burmese temples on Nong Chong Kham, the pond at the centre of Mae Hong Son town.",
+  "story": "*Inference —* the tiered roofs, the tin, the fretwork and the whitewash are all Shan and Burmese rather than Lanna, and the reason is the border: this town was on the Shan side of a line that was drawn in the 1890s.\n\n*Tradition holds —* Wat Chong Klang holds a set of painted glass panels and carved figures brought from Burma, on Buddhist narrative subjects.\n\nThe practical note for a rider: this is a two-minute walk from anywhere in the town centre, it is free, and the hour that makes it is after dark, when both are lit and the pond does the work. It is the reason an evening in Mae Hong Son is not wasted."
+ },
+ "text_th": {
+  "what": "วัดไทใหญ่-พม่าคู่หนึ่งริมหนองจองคำ สระน้ำกลางตัวเมืองแม่ฮ่องสอน",
+  "story": "*อนุมาน —* หลังคาซ้อนชั้น สังกะสี ลายฉลุ และสีขาว ล้วนเป็นไทใหญ่และพม่า ไม่ใช่ล้านนา และเหตุผลคือชายแดน เมืองนี้อยู่ฝั่งไทใหญ่ของเส้นที่ขีดขึ้นในทศวรรษ 1890\n\n*ตามธรรมเนียม —* วัดจองกลางเก็บภาพเขียนบนกระจกและตุ๊กตาแกะสลักชุดหนึ่งที่นำมาจากพม่า เป็นเรื่องราวทางพุทธศาสนา\n\nข้อสังเกตเชิงปฏิบัติสำหรับคนขี่รถ ที่นี่เดินสองนาทีจากที่ไหนก็ได้ในตัวเมือง เข้าฟรี และชั่วโมงที่ทำให้มันสวยคือหลังมืด ตอนที่ทั้งสองวัดเปิดไฟและหนองน้ำทำหน้าที่ของมัน เป็นเหตุผลที่เย็นหนึ่งเย็นในแม่ฮ่องสอนไม่สูญเปล่า"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The town they are the centre of.",
+   "rel": "town"
+  },
+  {
+   "to": "doi-kong-mu",
+   "as": "The other one, on the hill.",
+   "rel": "wat"
+  },
+  {
+   "to": "shan",
+   "as": "Whose temples these are.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-mae-hong-son",
+  "s:wp-shan-people",
+  "s:wp-mae-hong-son-province"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mae-hong-son"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-mae-hong-son"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.2969,
+  "lon": 97.9681,
+  "precision": "street"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18"
+}

@@ -1,0 +1,79 @@
+{
+ "id": "doi-inthanon",
+ "type": "stop",
+ "names": {
+  "name": "Doi Inthanon",
+  "th": "ดอยอินทนนท์",
+  "said": "The highest ground in Thailand, and cold enough at the top to surprise you.",
+  "said_th": "จุดสูงสุดของประเทศไทย และหนาวพอที่จะทำให้คุณประหลาดใจ"
+ },
+ "region": [
+  "cnx",
+  "chom-thong"
+ ],
+ "facets": {
+  "kind": "mountain",
+  "price": "mid"
+ },
+ "text": {
+  "what": "2,565 metres, in Chom Thong district, reached from Route 108 or from Mae Chaem over Route 1088. Not on the loop; one turn off it.",
+  "story": "The summit is the highest point in Thailand and sits in a national park. The road up is sealed the whole way and steep in places.\n\n*Inference —* on this circuit it is a decision about a day rather than about a mountain. Clockwise it lands near the end, at Chom Thong, when you are nearly home and tired; counter-clockwise it lands on day one, when you are fresh but have a long way to go. Either way it is a full extra day to do properly, and a rushed half-day gets you a car park in cloud.\n\nA rider coming over the 1263 cut can reach it from the Mae Chaem side on Route 1088, which is the quieter approach."
+ },
+ "text_th": {
+  "what": "สูง 2,565 เมตร ในอำเภอจอมทอง ขึ้นได้จากทางหลวง 108 หรือจากแม่แจ่มทางทางหลวง 1088 ไม่ได้อยู่บนวงรอบ แต่แยกจากมันครั้งเดียว",
+  "story": "ยอดดอยเป็นจุดสูงสุดของประเทศไทยและอยู่ในเขตอุทยานแห่งชาติ ถนนขึ้นลาดยางตลอดสายและชันเป็นช่วงๆ\n\n*อนุมาน —* บนเส้นทางนี้มันเป็นการตัดสินใจเรื่องวัน มากกว่าเรื่องภูเขา ถ้าไปตามเข็มมันจะมาถึงตอนท้าย ที่จอมทอง ตอนที่ใกล้ถึงบ้านและเหนื่อยแล้ว ถ้าไปทวนเข็มมันจะมาถึงวันแรก ตอนที่ยังสดแต่ยังมีทางอีกไกล ไม่ว่าทางไหนมันคือหนึ่งวันเต็มถ้าจะทำให้ดี และครึ่งวันแบบเร่งรีบจะได้แค่ลานจอดรถในเมฆ\n\nคนที่มาทางทางลัด 1263 ขึ้นได้จากฝั่งแม่แจ่มทางทางหลวง 1088 ซึ่งเป็นทางที่เงียบกว่า"
+ },
+ "kin": [
+  {
+   "to": "route-1088",
+   "as": "The quiet way up, from Mae Chaem.",
+   "rel": "road"
+  },
+  {
+   "to": "hot-to-cnx",
+   "as": "The leg with the Chom Thong turn on it.",
+   "rel": "leg"
+  },
+  {
+   "to": "mae-chaem",
+   "as": "The town on the back side.",
+   "rel": "town"
+  }
+ ],
+ "sources": [
+  "s:wp-doi-inthanon",
+  "s:wp-chom-thong"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doi-inthanon"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-doi-inthanon"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 18.5885,
+  "lon": 98.4867,
+  "precision": "street",
+  "elevation_m": 2565
+ },
+ "recognitions": [
+  {
+   "by": "dnp",
+   "what": "Doi Inthanon National Park",
+   "source": "s:wp-doi-inthanon"
+  }
+ ],
+ "schema": 1,
+ "updated": "2026-09-18"
+}

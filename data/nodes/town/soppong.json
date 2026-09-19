@@ -1,0 +1,80 @@
+{
+ "id": "soppong",
+ "type": "town",
+ "names": {
+  "name": "Soppong",
+  "th": "สบป่อง",
+  "rtgs": "Soppong",
+  "said": "A junction, a caves district, and the quietest useful stop on the northern leg.",
+  "said_th": "ทางแยก อำเภอถ้ำ และจุดพักที่เงียบที่สุดที่ยังใช้ประโยชน์ได้บนช่วงเหนือ"
+ },
+ "region": [
+  "mhs",
+  "pangmapha",
+  "loop",
+  "north-leg"
+ ],
+ "facets": {
+  "province": "MHS",
+  "kind": "town"
+ },
+ "geo": {
+  "lat": 19.4906,
+  "lon": 98.2694,
+  "precision": "town",
+  "elevation_m": 640
+ },
+ "text": {
+  "what": "The main settlement of Pang Mapha district, in limestone karst country. Officially Pang Mapha; on the road signs and in every conversation, Soppong.",
+  "story": "Pang Mapha district is limestone, and limestone here means caves — the district holds a large number of them, including the one at Tham Lot with its river running through.\n\n*Inference —* for a rider Soppong is the answer to a specific problem: the Pai to Mae Hong Son run is long enough to be a poor half-day and short enough to be a wasted full one, and Soppong sits in the middle of it. Staying here rather than pushing on buys you the caves in the morning light and takes the hardest descent off the end of a long day.",
+  "today": "Fuel, food, a few guesthouses, and no more than that. Treat the pump here as the last certain one before Mae Hong Son."
+ },
+ "text_th": {
+  "what": "ชุมชนหลักของอำเภอปางมะผ้า อยู่ในเขตภูเขาหินปูน ชื่อทางการคือปางมะผ้า แต่บนป้ายและในทุกบทสนทนาเรียกสบป่อง",
+  "story": "อำเภอปางมะผ้าเป็นหินปูน และหินปูนที่นี่แปลว่าถ้ำ อำเภอนี้มีถ้ำจำนวนมาก รวมถึงถ้ำลอดที่มีลำน้ำไหลผ่าน\n\n*อนุมาน —* สำหรับคนขี่รถ สบป่องคือคำตอบของปัญหาเฉพาะอย่างหนึ่ง ระยะปายถึงแม่ฮ่องสอนยาวเกินกว่าจะเป็นครึ่งวันที่ดี และสั้นเกินกว่าจะเป็นเต็มวันที่คุ้ม และสบป่องอยู่ตรงกลางพอดี การพักที่นี่แทนที่จะฝืนไปต่อ ทำให้ได้ถ้ำในแสงเช้า และเอาทางลงที่ยากที่สุดออกจากปลายวันที่ยาว",
+  "today": "น้ำมัน อาหาร เกสต์เฮาส์ไม่กี่แห่ง และไม่มีอะไรมากกว่านั้น ให้ถือว่าปั๊มที่นี่คือปั๊มสุดท้ายที่แน่นอนก่อนถึงแม่ฮ่องสอน"
+ },
+ "kin": [
+  {
+   "to": "tham-lot",
+   "as": "The cave the district is known for.",
+   "rel": "stop"
+  },
+  {
+   "to": "pai-to-soppong",
+   "as": "The way in.",
+   "rel": "leg"
+  },
+  {
+   "to": "soppong-to-mhs",
+   "as": "The way on, and the hardest descent of the northern leg.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:wp-pang-mapha-district",
+  "s:wp-tham-lot-cave"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-pang-mapha-district"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the riding conclusions are this project's; the geography and history under them are cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

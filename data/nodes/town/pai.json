@@ -1,0 +1,92 @@
+{
+ "id": "pai",
+ "type": "town",
+ "names": {
+  "name": "Pai",
+  "th": "ปาย",
+  "rtgs": "Pai",
+  "said": "A river valley that became a destination, and is now busy arguing about what that did to it.",
+  "said_th": "หุบแม่น้ำที่กลายเป็นจุดหมาย และตอนนี้กำลังเถียงกันว่ามันทำอะไรกับที่นี่"
+ },
+ "region": [
+  "mhs",
+  "pai",
+  "loop",
+  "north-leg"
+ ],
+ "facets": {
+  "province": "MHS",
+  "kind": "town"
+ },
+ "geo": {
+  "lat": 19.3592,
+  "lon": 98.4407,
+  "precision": "town",
+  "elevation_m": 480
+ },
+ "text": {
+  "what": "Night one clockwise. A small district town in a flat river basin ringed by hills, with more guesthouses, coffee and motorcycle rental per head than anywhere else on the circuit.",
+  "story": "Pai sits on the Pai river in a basin at around 480 metres, which is the thing that explains both the climate and the smoke: cool air pools here at night, and so does everything else in the air.\n\nWhat it is now is contested locally in the ordinary way, and this page reports the argument rather than joining it. *Inference —* what is not in dispute is the practical picture for a rider: it is the best-supplied town on the northern leg, it has mechanics who see foreign bikes daily, and it is the one place on the circuit where a room can be hard to find without booking in the cool season.",
+  "today": "The measured air here is the mildest of the circuit in March — a 26.1 µg/m³ monthly mean against Chiang Mai's 37.8 — and the province's single air monitor is a hundred kilometres away in Mae Hong Son, so nobody official is measuring it."
+ },
+ "text_th": {
+  "what": "คืนแรกถ้าไปตามเข็ม เมืองอำเภอเล็กๆ ในแอ่งแม่น้ำราบล้อมด้วยเขา มีเกสต์เฮาส์ กาแฟ และร้านเช่ามอเตอร์ไซค์ต่อหัวมากกว่าที่ไหนบนเส้นทาง",
+  "story": "ปายตั้งอยู่ริมแม่น้ำปายในแอ่งที่ความสูงราว 480 เมตร ซึ่งเป็นสิ่งที่อธิบายทั้งภูมิอากาศและควัน อากาศเย็นมาขังที่นี่ตอนกลางคืน และทุกอย่างที่ลอยอยู่ในอากาศก็มาขังด้วย\n\nสิ่งที่ปายเป็นอยู่ตอนนี้เป็นเรื่องที่คนในพื้นที่ถกเถียงกันตามปกติ และหน้านี้รายงานข้อถกเถียง ไม่ได้เข้าร่วม *อนุมาน —* สิ่งที่ไม่มีใครเถียงคือภาพในทางปฏิบัติสำหรับคนขี่รถ ที่นี่มีของครบที่สุดบนช่วงเหนือ มีช่างที่เห็นรถต่างชาติทุกวัน และเป็นที่เดียวบนเส้นทางที่หาห้องยากถ้าไม่จองล่วงหน้าในฤดูหนาว",
+  "today": "อากาศที่วัดได้ที่นี่ดีที่สุดบนเส้นทางในเดือนมีนาคม ค่าเฉลี่ยรายเดือน 26.1 เทียบกับเชียงใหม่ 37.8 และสถานีวัดอากาศเพียงแห่งเดียวของจังหวัดอยู่ห่างออกไปร้อยกิโลเมตรที่แม่ฮ่องสอน จึงไม่มีหน่วยงานใดวัดอากาศที่นี่"
+ },
+ "kin": [
+  {
+   "to": "cnx-to-pai",
+   "as": "The leg that ends here, and the curves that get you here.",
+   "rel": "leg"
+  },
+  {
+   "to": "pai-to-soppong",
+   "as": "The way on.",
+   "rel": "leg"
+  },
+  {
+   "to": "route-1095",
+   "as": "The road the town is on.",
+   "rel": "road"
+  },
+  {
+   "to": "the-smoke",
+   "as": "Why the basin matters, and what the numbers say.",
+   "rel": "story"
+  },
+  {
+   "to": "how-many-curves",
+   "as": "The number on the shirts sold here.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-pai-thailand",
+  "s:wp-pai-district",
+  "s:wp-pai-river",
+  "s:open-meteo-aq"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-pai-district"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:open-meteo-aq"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

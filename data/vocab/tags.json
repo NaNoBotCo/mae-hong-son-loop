@@ -1,0 +1,28 @@
+{
+ "note": "A tag carries the source it came from. The validator rejects tier `tradition` or `inference` on a tag: a tag is a claim about a real business or a real road, and a guess is worse than a blank. Open list.",
+ "entries": [
+  {"key": "on-the-loop", "name": "On the loop", "th": "อยู่บนเส้นทาง", "note": "on Route 107, 1095, 108 or 1263 itself, not down a side road"},
+  {"key": "detour", "name": "Worth the detour", "th": "ควรแวะ", "note": "off the route; the record says how far"},
+  {"key": "24h", "name": "Open 24 hours", "th": "เปิด 24 ชม.", "note": "needs the operator's own posted hours"},
+  {"key": "fuel-91", "name": "Gasohol 91", "th": "แก๊สโซฮอล์ 91"},
+  {"key": "fuel-95", "name": "Gasohol 95", "th": "แก๊สโซฮอล์ 95"},
+  {"key": "big-bike-ok", "name": "Big bike can park", "th": "จอดบิ๊กไบค์ได้"},
+  {"key": "scooter-ok", "name": "A 110 gets up it", "th": "รถ 110 ขึ้นได้"},
+  {"key": "steep-drive", "name": "Steep driveway", "th": "ทางเข้าชัน", "note": "the thing that drops a loaded bike at walking pace"},
+  {"key": "shan-owned", "name": "Shan-owned", "th": "เจ้าของไทใหญ่", "note": "rests on the owner's own words or a press profile naming them — never a surname or a guess"},
+  {"key": "karen-owned", "name": "Karen-owned", "th": "เจ้าของกะเหรี่ยง", "note": "same rule"},
+  {"key": "grows-own", "name": "Grows its own coffee", "th": "ปลูกกาแฟเอง", "note": "needs the grower's own statement or a named press piece"},
+  {"key": "english-spoken", "name": "English spoken", "th": "พูดอังกฤษได้"},
+  {"key": "thai-only", "name": "Thai only", "th": "ภาษาไทยเท่านั้น"},
+  {"key": "cash-only", "name": "Cash only", "th": "เงินสดเท่านั้น"},
+  {"key": "promptpay", "name": "PromptPay QR", "th": "พร้อมเพย์"},
+  {"key": "luggage-hold", "name": "Holds your bag", "th": "ฝากกระเป๋าได้"},
+  {"key": "parcel-agent", "name": "Parcel agent on site", "th": "มีจุดรับส่งพัสดุ"},
+  {"key": "mechanic", "name": "Mechanic", "th": "ช่างซ่อม"},
+  {"key": "tyres", "name": "Tyres in stock", "th": "มียางเปลี่ยน"},
+  {"key": "hospital", "name": "Hospital", "th": "โรงพยาบาล"},
+  {"key": "no-phone-signal", "name": "No signal", "th": "ไม่มีสัญญาณ"},
+  {"key": "national-park-fee", "name": "National park fee", "th": "ค่าธรรมเนียมอุทยาน", "note": "Thailand charges a separate foreigner rate; the record prints both with their date"},
+  {"key": "ethical-question", "name": "Carries an ethical question", "th": "มีข้อถกเถียง", "note": "the record states the argument and names who makes it, on both sides"}
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "id": "shan",
+ "type": "person",
+ "names": {
+  "name": "The Shan",
+  "th": "ไทใหญ่",
+  "said": "The largest population group in the province, and the reason the temples look the way they do.",
+  "said_th": "กลุ่มประชากรใหญ่ที่สุดในจังหวัด และเป็นเหตุผลที่วัดหน้าตาแบบนั้น"
+ },
+ "region": [
+  "mhs",
+  "shan"
+ ],
+ "facets": {
+  "role": "people"
+ },
+ "text": {
+  "what": "Tai Yai. A Tai people whose territory spans the Thai–Myanmar border, and the majority group in Mae Hong Son province.",
+  "story": "Shan people are the largest population group in Mae Hong Son province, having migrated from Shan State in Myanmar. Tai Yai speak their own language; the written form uses a rounded script related to Mon and Burmese.\n\nThe province was formerly part of Mawkmai State, one of the Shan States, founded in 1767 by Hsai Khiao of a Chiang Mai noble family, and the Anglo-Siamese Boundary Commission of 1892–93 put Mae Hong Son district on the Siamese side while the trans-Salween districts stayed with British Burma.\n\n*Inference —* that sequence is what a rider is actually looking at all week: a Thai province whose majority culture, script, architecture and festivals come from the other side of a line drawn by two empires in the 1890s. The wats are the visible part; Poy Sang Long is the audible one."
+ },
+ "text_th": {
+  "what": "ไทใหญ่ กลุ่มชนไทกลุ่มหนึ่งที่มีถิ่นฐานคร่อมชายแดนไทย-เมียนมา และเป็นกลุ่มประชากรส่วนใหญ่ของจังหวัดแม่ฮ่องสอน",
+  "story": "ชาวไทใหญ่เป็นกลุ่มประชากรใหญ่ที่สุดในจังหวัดแม่ฮ่องสอน อพยพมาจากรัฐฉานในเมียนมา ไทใหญ่มีภาษาของตัวเอง อักษรที่ใช้เขียนมีลักษณะกลม เกี่ยวข้องกับอักษรมอญและพม่า\n\nจังหวัดนี้เดิมเป็นส่วนหนึ่งของเมืองหมอกใหม่ หนึ่งในรัฐฉาน ก่อตั้งเมื่อ พ.ศ. 2310 โดยไสยเขียว จากตระกูลขุนนางเชียงใหม่ และคณะกรรมการปักปันเขตแดนอังกฤษ-สยาม พ.ศ. 2435–2436 ทำให้อำเภอแม่ฮ่องสอนอยู่ฝั่งสยาม ขณะที่เขตฝั่งตะวันตกของสาละวินยังอยู่กับพม่าของอังกฤษ\n\n*อนุมาน —* ลำดับเหตุการณ์นั้นคือสิ่งที่คนขี่รถมองอยู่ตลอดสัปดาห์ จังหวัดไทยที่วัฒนธรรม อักษร สถาปัตยกรรม และงานประเพณีของคนส่วนใหญ่มาจากอีกฝั่งของเส้นที่สองจักรวรรดิขีดไว้ในทศวรรษ 1890 วัดคือส่วนที่มองเห็น ปอยส่างลองคือส่วนที่ได้ยิน"
+ },
+ "kin": [
+  {
+   "to": "doi-kong-mu",
+   "as": "Shan chedis on the hill.",
+   "rel": "wat"
+  },
+  {
+   "to": "poy-sang-long",
+   "as": "Their ordination festival.",
+   "rel": "event"
+  },
+  {
+   "to": "mae-hong-son",
+   "as": "The province where they are the majority.",
+   "rel": "town"
+  },
+  {
+   "to": "karen",
+   "as": "The other large group, in the hills south and west.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-shan-people",
+  "s:wp-mae-hong-son-province",
+  "s:wp-shan-state",
+  "s:wp-tai-peoples",
+  "s:thwp-shan"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mae-hong-son-province"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-mae-hong-son-province"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

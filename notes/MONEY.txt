@@ -1,0 +1,63 @@
+MAE HONG SON LOOP — THE MONEY LANE
+Written 2026-09-19. Nothing below is live. Every option needs your word first.
+
+WHAT IS ALREADY BUILT AND EARNING NOTHING
+  The Patreon and Ko-fi line is in the footer of all 192 pages, via the shared roster.
+  That is the only money mechanism currently on the site, and it is the fleet default.
+
+THE ONE INSTRUMENT BUILT TO COMPLETION
+  /roadbook/ — every leg, every measured number, the fuel gaps, the hazard list and the
+  glossary on one page, with print CSS so it comes off a printer folded into a tank bag.
+  It is free and it stays free. That is the $0 version and it is the default.
+
+  The paid version, if you want one: the same content as a PDF pack — one card per leg,
+  A6, double-sided, plus a one-page emergency card (hospital, police, the Thai for
+  'I have fallen', the nearest fuel). It needs no third-party account and nothing
+  recurring. It is a file you sell once and never touch again.
+  YOUR CALL: price, or no.   Suggested band: 150–300 THB / $5–9.
+  Cost to build: about two hours. Cost to run: zero.
+
+THE FORK, WITH NUMBERS
+
+  A. SELL THE PDF ROADBOOK
+     Revenue per sale: whatever you set, minus the platform's cut (Ko-fi takes 0% on
+     the free tier for one-off shop items; Gumroad takes 10%).
+     Worst case: nobody buys it and the free HTML page is still the best thing on the site.
+     Needs from you: a price, and a yes.
+     Expiry: none. This can sit undone indefinitely without cost.
+
+  B. PAID LISTINGS FOR BUSINESSES ON THE LOOP
+     Rental shops in Chiang Mai, guesthouses, coffee places. The machinery is already
+     built: data/vocab/sponsors.json is empty and the site renders nothing while it is.
+     A filled row prints "Paid listing" to the reader wherever it appears, so it is
+     labelled, always.
+     Revenue: a flat annual fee per listing. At 1,000 THB/year and 20 listings that is
+     20,000 THB/year for work you do once.
+     Worst case: you have to chase 20 small businesses for 1,000 baht each, which is a
+     job, not an income. And a directory that takes money from the places it lists has
+     to be visibly clean about it forever after.
+     Needs from you: a price, a yes, and a decision about whether you want that job.
+     Expiry: none.
+
+  C. BOOKING AFFILIATES
+     Hotel and rental booking commissions. NOT SET UP and I did not set it up — it needs
+     accounts in your name, which is yours to open, not mine.
+     Revenue: typically 3–6% of a booking.
+     Worst case: it puts a commercial incentive on which beds the site recommends, on a
+     site whose whole argument is that it shows its sources. I would not do this one.
+     Needs from you: accounts, and a yes.
+
+  D. THE DATA
+     curves.json, air.json and places.json are already public and CC BY 4.0. The curve
+     measurement method is original and nobody else publishes it.
+     Revenue: none directly. It is the thing that gets the site cited, which is the
+     thing that brings the readers the other three options need.
+     No decision needed. It is already done.
+
+MY RECOMMENDATION, WHICH IS NOT A DECISION
+  A first, because it is finished-shaped, costs nothing to run, and the free version
+  makes the paid one honest. B only if you actually want to talk to twenty guesthouses.
+  C not at all. D is already running.
+
+⏳ IF SILENT: nothing fires. No price goes on the site and no listing is sold.
+   The free roadbook stays up either way.

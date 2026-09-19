@@ -1,0 +1,87 @@
+{
+ "id": "khun-yuam",
+ "type": "town",
+ "names": {
+  "name": "Khun Yuam",
+  "th": "ขุนยวม",
+  "rtgs": "Khun Yuam",
+  "said": "A small town with a Japanese memorial hall and a yellow hillside above it.",
+  "said_th": "เมืองเล็กๆ ที่มีอนุสรณ์สถานญี่ปุ่นและไหล่เขาสีเหลืองอยู่เหนือเมือง"
+ },
+ "region": [
+  "mhs",
+  "khun-yuam",
+  "loop",
+  "south-leg",
+  "the-cut"
+ ],
+ "facets": {
+  "province": "MHS",
+  "kind": "town"
+ },
+ "geo": {
+  "lat": 18.8228,
+  "lon": 97.9336,
+  "precision": "town",
+  "elevation_m": 620
+ },
+ "text": {
+  "what": "On Route 108 between Mae Hong Son and Mae La Noi, and the western end of the 1263 cut to Mae Chaem. Two reasons to stop, and both of them are specific.",
+  "story": "The first reason is Doi Mae U-Kho above the town, which turns yellow with *Tithonia diversifolia* in November.\n\nThe second is the war. Japanese forces used the route through this district during the Second World War, and the town holds a memorial hall to that period. *Inference —* what makes it worth the stop is not the military history but the domestic one: the relationship between a Thai town and the soldiers who came through it, which is a much less told story than the campaign.\n\nKhun Yuam is also the junction where the loop can be halved. Route 1263 leaves here for Mae Chaem, 63 kilometres of the steepest and most curve-dense road in this whole network.",
+  "today": "Fuel, food, a bed, and the decision about whether to take the cut."
+ },
+ "text_th": {
+  "what": "อยู่บนทางหลวง 108 ระหว่างแม่ฮ่องสอนกับแม่ลาน้อย และเป็นปลายด้านตะวันตกของทางลัด 1263 ไปแม่แจ่ม มีเหตุผลให้แวะสองข้อ และทั้งสองข้อเฉพาะเจาะจงมาก",
+  "story": "เหตุผลแรกคือดอยแม่อูคอเหนือเมือง ที่กลายเป็นสีเหลืองด้วยดอกบัวตองในเดือนพฤศจิกายน\n\nเหตุผลที่สองคือสงคราม กองทัพญี่ปุ่นใช้เส้นทางผ่านอำเภอนี้ในสงครามโลกครั้งที่สอง และในเมืองมีอนุสรณ์สถานของช่วงเวลานั้น *อนุมาน —* สิ่งที่ทำให้ควรแวะไม่ใช่ประวัติศาสตร์การทหาร แต่คือประวัติศาสตร์ของผู้คน ความสัมพันธ์ระหว่างเมืองไทยเมืองหนึ่งกับทหารที่ผ่านมา ซึ่งเป็นเรื่องที่ถูกเล่าน้อยกว่าเรื่องยุทธการมาก\n\nขุนยวมยังเป็นทางแยกที่ตัดวงรอบให้สั้นลงครึ่งหนึ่งได้ ทางหลวง 1263 ออกจากที่นี่ไปแม่แจ่ม ระยะ 63 กิโลเมตรที่ชันที่สุดและโค้งหนาแน่นที่สุดในเครือข่ายถนนทั้งหมดนี้",
+  "today": "น้ำมัน อาหาร ที่นอน และการตัดสินใจว่าจะไปทางลัดหรือไม่"
+ },
+ "kin": [
+  {
+   "to": "bua-tong-bloom",
+   "as": "The hillside above the town, in November.",
+   "rel": "event"
+  },
+  {
+   "to": "the-1263-cut",
+   "as": "The road that leaves from here.",
+   "rel": "leg"
+  },
+  {
+   "to": "khun-yuam-memorial",
+   "as": "The hall, and the story it holds.",
+   "rel": "stop"
+  },
+  {
+   "to": "mhs-to-khun-yuam",
+   "as": "The way in from the north.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:wp-khun-yuam-district",
+  "s:wp-thailand-in-world-war-ii",
+  "s:wp-tithonia-diversifolia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-khun-yuam-district"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the riding conclusions are this project's; the geography and history under them are cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

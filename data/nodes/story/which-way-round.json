@@ -1,0 +1,91 @@
+{
+ "id": "which-way-round",
+ "type": "story",
+ "names": {
+  "name": "Clockwise or counter-clockwise",
+  "th": "ตามเข็มหรือทวนเข็ม",
+  "said": "Ask six riders in a Chiang Mai bar and you get six answers and one fight.",
+  "said_th": "ถามคนขี่หกคนในบาร์เชียงใหม่ ได้คำตอบหกแบบ กับการเถียงหนึ่งยก"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "argument",
+  "direction": "both"
+ },
+ "text": {
+  "what": "Clockwise means north first: Chiang Mai up Route 107 and 1095 to Pai, on to Mae Hong Son, then south on 108 and home. Counter-clockwise reverses it — down 108 to Hot and Mae Sariang, up to Mae Hong Son, and back over the curve road last. Both are 600-odd kilometres. They are not the same ride.",
+  "story": "**The case for clockwise.** You hit the hardest riding on day one, fresh, on a light bike, before the panniers have settled and before four days of hills have taken your forearms. Day one is short — Chiang Mai to Pai is the least distance of any leg — so a slow, cautious first afternoon costs nothing. Pai is a soft landing with food and a mechanic. And the long, straight, fast southern run on Route 108 comes at the end, when you want to be pointing at home rather than at a hairpin.\n\n**The case for counter-clockwise.** The first day is Route 108 to Mae Sariang: wide, sealed, four to six lanes as far as Hot, and 265 kilometres of two-lane after it that never asks anything sudden. That is a long, cheap day for bedding in a rented bike, finding out what the brakes do, and discovering the rear tyre is ten years old while you are still near a town that can change it. You arrive at the curve road knowing the machine. Mae Hong Son comes on night two or three rather than night three or four, which matters if you want a morning there.\n\n**Where they actually differ.** Clockwise puts your hardest descent — 1095 dropping into the Pai valley — early. Counter-clockwise puts it last, on tired arms, and on Route 1095 tired arms are a real argument. Against that: counter-clockwise gets the rental bike's unknowns out of the way on the forgiving road, which is the same argument pointed the other way.\n\n*Inference —* the disagreement survives because both sides are right about different riders. A confident rider on a familiar bike should go clockwise and enjoy day one. A rider collecting an unknown rental should go counter-clockwise and spend day one finding out what they have got.\n\n**And then the season changes the answer,** which is the part the bar argument usually misses. See the grid on /which-way/."
+ },
+ "text_th": {
+  "what": "ตามเข็มคือขึ้นเหนือก่อน เชียงใหม่ไปตามทางหลวง 107 และ 1095 สู่ปาย ต่อไปแม่ฮ่องสอน แล้วลงใต้ตามทางหลวง 108 กลับบ้าน ทวนเข็มคือกลับด้าน ลงทางหลวง 108 ไปฮอดและแม่สะเรียง ขึ้นไปแม่ฮ่องสอน แล้วกลับทางถนนโค้งเป็นช่วงสุดท้าย ระยะทางราว 600 กิโลเมตรเท่ากัน แต่ไม่ใช่การขี่แบบเดียวกัน",
+  "story": "**ข้อดีของตามเข็ม** คุณเจอช่วงยากที่สุดในวันแรก ตอนที่ยังสด รถยังเบา สัมภาระยังไม่กดท้าย และแขนยังไม่ผ่านเขาสี่วัน วันแรกสั้นที่สุดในทุกช่วง เชียงใหม่ถึงปายระยะน้อยที่สุด ดังนั้นบ่ายวันแรกที่ขี่ช้าและระวังจึงไม่เสียอะไรเลย ปายเป็นที่ลงจอดที่นุ่มนวล มีอาหารและมีช่าง ส่วนทางหลวง 108 ช่วงใต้ที่ตรงและเร็วจะมาตอนท้าย ตอนที่คุณอยากมุ่งหน้ากลับบ้านมากกว่าจะเข้าโค้งหักศอก\n\n**ข้อดีของทวนเข็ม** วันแรกคือทางหลวง 108 ไปแม่สะเรียง ถนนกว้าง ลาดยาง สี่ถึงหกช่องจราจรจนถึงฮอด แล้วต่อด้วยสองช่องจราจรอีก 265 กิโลเมตรที่ไม่เรียกร้องอะไรกะทันหัน นั่นคือวันยาวๆ ราคาถูกสำหรับทำความรู้จักรถเช่า ได้รู้ว่าเบรกทำงานยังไง และได้พบว่ายางหลังอายุสิบปีตั้งแต่ยังอยู่ใกล้เมืองที่เปลี่ยนยางได้ พอถึงถนนโค้งคุณรู้จักรถแล้ว และถึงแม่ฮ่องสอนคืนที่สองหรือสาม แทนที่จะเป็นคืนที่สามหรือสี่ ซึ่งสำคัญถ้าอยากได้เช้าที่นั่น\n\n**จุดต่างที่แท้จริง** ตามเข็มทำให้ทางลงที่ยากที่สุด คือ 1095 ที่ทิ้งตัวลงหุบปาย มาถึงเร็ว ทวนเข็มทำให้มันมาถึงท้ายสุด ตอนแขนล้า และบนถนน 1095 แขนล้าเป็นเหตุผลที่จริงจัง แต่ในทางกลับกัน ทวนเข็มก็จัดการความไม่รู้เรื่องรถเช่าให้จบบนถนนที่ให้อภัย ซึ่งเป็นเหตุผลเดียวกันที่ชี้คนละทาง\n\n*อนุมาน —* ข้อถกเถียงนี้ไม่จบเพราะทั้งสองฝ่ายถูกกับคนขี่คนละแบบ คนที่มั่นใจและคุ้นรถควรไปตามเข็มและสนุกกับวันแรก คนที่เพิ่งรับรถเช่าที่ยังไม่รู้จักควรไปทวนเข็ม และใช้วันแรกทำความรู้จักสิ่งที่ตัวเองได้มา\n\n**แล้วฤดูกาลก็เปลี่ยนคำตอบอีก** ซึ่งเป็นส่วนที่การเถียงในบาร์มักลืม ดูตารางในหน้า /which-way/"
+ },
+ "kin": [
+  {
+   "to": "season-and-direction",
+   "as": "The same question, answered month by month.",
+   "rel": "story"
+  },
+  {
+   "to": "cnx-to-pai",
+   "as": "Day one clockwise, day four counter-clockwise, and it is a different road each way.",
+   "rel": "leg"
+  },
+  {
+   "to": "mae-sariang-to-hot",
+   "as": "The long forgiving day that counter-clockwise puts first.",
+   "rel": "leg"
+  },
+  {
+   "to": "route-1095",
+   "as": "The descent that the argument is really about.",
+   "rel": "road"
+  },
+  {
+   "to": "route-108",
+   "as": "The road that makes counter-clockwise a gentle start.",
+   "rel": "road"
+  },
+  {
+   "to": "renting-a-bike",
+   "as": "Whether you know the machine is half the argument.",
+   "rel": "kit"
+  },
+  {
+   "to": "how-many-curves",
+   "as": "The other thing this road makes people argue about.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:thwp-108",
+  "s:doh-1095",
+  "s:mhs-measured",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "the two cases are this project's reasoning from the road's own measured shape; the road facts underneath them are cited"
+  },
+  "fields": {
+   "text.what": {
+    "tier": "cited",
+    "source": "s:thwp-108"
+   },
+   "names.said": {
+    "tier": "tradition"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": false,
+ "schema": 1,
+ "updated": "2026-09-18"
+}

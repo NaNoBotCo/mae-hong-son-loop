@@ -1,0 +1,69 @@
+{
+ "id": "gear",
+ "type": "kit",
+ "names": {
+  "name": "What to wear",
+  "th": "ใส่อะไร",
+  "said": "It is thirty-three degrees and you are going to want long sleeves anyway.",
+  "said_th": "อากาศสามสิบสามองศา และคุณจะอยากใส่แขนยาวอยู่ดี"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "gear"
+ },
+ "text": {
+  "what": "The helmet argument, the long-sleeves argument, and the gloves argument — all three of which are made worse by the heat and none of which the heat answers.",
+  "story": "**Helmets.** A full-face shell covers the chin; an open-face does not, and the chin bar is the part that meets the road first in a great many falls. A modular helmet's chin bar is designed as a convenience and some are certified for use open and some are not. *Inference —* the rental shop's spare helmet is usually the one nobody chose, and buying one in Chiang Mai costs less than one night of the trip.\n\n**Sleeves and gloves.** *Inference —* the injury that actually happens on this circuit is not the dramatic one. It is a low-speed slide on gravel at a hairpin, and what it takes off is forearm and palm. Gloves are the highest-value item per gram on the bike. Long sleeves in this heat are more comfortable than bare arms in this sun regardless of the argument about crashing.\n\n**Cold.** This is the part visitors get wrong. Mornings on the high sections in the cool season are genuinely cold, and a rider dressed for a Thai afternoon at six in the morning above a thousand metres is not having a good hour. Something windproof that packs small earns its place."
+ },
+ "text_th": {
+  "what": "ข้อถกเถียงเรื่องหมวกกันน็อก เรื่องแขนยาว และเรื่องถุงมือ ทั้งสามข้อแย่ลงเพราะความร้อน และความร้อนก็ไม่ได้ตอบข้อไหนเลย",
+  "story": "**หมวกกันน็อก** หมวกเต็มใบคลุมคาง หมวกเปิดหน้าไม่คลุม และคางคือส่วนที่กระทบพื้นก่อนในการล้มจำนวนมาก คางหมวกแบบยกได้ออกแบบมาเพื่อความสะดวก บางรุ่นได้รับการรับรองให้ใช้แบบเปิด บางรุ่นไม่ได้ *อนุมาน —* หมวกสำรองของร้านเช่ามักเป็นใบที่ไม่มีใครเลือก และการซื้อใบหนึ่งที่เชียงใหม่ราคาถูกกว่าค่าที่พักหนึ่งคืนของทริป\n\n**แขนเสื้อและถุงมือ** *อนุมาน —* การบาดเจ็บที่เกิดขึ้นจริงบนเส้นทางนี้ไม่ใช่แบบดราม่า แต่คือการไถลด้วยความเร็วต่ำบนกรวดตรงโค้งหักศอก และสิ่งที่มันถลกออกไปคือท้องแขนกับฝ่ามือ ถุงมือคือของที่คุ้มค่าที่สุดต่อน้ำหนักหนึ่งกรัมบนรถ ส่วนแขนยาวในอากาศร้อนแบบนี้สบายกว่าแขนเปล่าใต้แดดแบบนี้ โดยไม่ต้องเถียงเรื่องการล้มเลย\n\n**ความหนาว** นี่คือส่วนที่คนมาเยือนคิดผิด ตอนเช้าบนช่วงสูงในฤดูหนาวหนาวจริง และคนที่แต่งตัวสำหรับบ่ายเมืองไทยตอนหกโมงเช้าที่ความสูงเกินพันเมตรจะไม่มีความสุขเลย เสื้อกันลมที่พับเก็บได้เล็กคุ้มค่าที่จะพก"
+ },
+ "kin": [
+  {
+   "to": "packing-light",
+   "as": "Where it all goes.",
+   "rel": "kit"
+  },
+  {
+   "to": "gravel-on-the-apex",
+   "as": "The fall this is for.",
+   "rel": "hazard"
+  },
+  {
+   "to": "cool-season",
+   "as": "The season that needs the extra layer.",
+   "rel": "event"
+  },
+  {
+   "to": "on-the-back",
+   "as": "Two of everything, not one.",
+   "rel": "bike"
+  }
+ ],
+ "sources": [
+  "s:wp-motorcycle-helmet",
+  "s:wp-motorcycle-safety"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-motorcycle-helmet"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-motorcycle-helmet"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

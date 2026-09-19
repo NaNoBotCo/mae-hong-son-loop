@@ -1,0 +1,59 @@
+{
+ "id": "gasohol",
+ "type": "term",
+ "names": {
+  "name": "Gasohol 91 and 95",
+  "th": "แก๊สโซฮอล์ 91 และ 95",
+  "said": "What comes out of the pump. The numbers are octane ratings, and 91 is what most small bikes here run on.",
+  "said_th": "สิ่งที่ออกมาจากหัวจ่าย ตัวเลขคือค่าออกเทน และ 91 คือสิ่งที่รถเล็กส่วนใหญ่ที่นี่ใช้",
+  "rtgs": "kaesohol"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "logistics"
+ },
+ "text": {
+  "what": "What comes out of the pump. The numbers are octane ratings, and 91 is what most small bikes here run on.",
+  "story": "*Inference —* the practical point on this circuit is not which grade but where. Route 1263 has a 64-kilometre stretch with no town in it, and the Mae Sariang to Hot leg has the longest inter-town gap on the loop.\n\nThe rule people ride to here is to fill at every town whether or not the tank needs it, because the cost of a half-full tank is nothing and the cost of an empty one on 1263 is a long afternoon. Where there is no station, small shops sell fuel by the bottle from a rack outside — the price is higher and the quantity is a litre."
+ },
+ "text_th": {
+  "what": "สิ่งที่ออกมาจากหัวจ่าย ตัวเลขคือค่าออกเทน และ 91 คือสิ่งที่รถเล็กส่วนใหญ่ที่นี่ใช้",
+  "story": "*อนุมาน —* ประเด็นในทางปฏิบัติบนเส้นทางนี้ไม่ใช่เกรดไหน แต่คือที่ไหน ทางหลวง 1263 มีช่วง 64 กิโลเมตรที่ไม่มีเมืองเลย และช่วงแม่สะเรียงถึงฮอดมีระยะห่างระหว่างเมืองที่ยาวที่สุดของวงรอบ\n\nกฎที่คนที่นี่ใช้คือเติมทุกเมืองไม่ว่าถังจะพร่องหรือไม่ เพราะราคาของถังที่เติมครึ่งเดียวคือศูนย์ ส่วนราคาของถังเปล่าบน 1263 คือบ่ายที่ยาวมาก ที่ไหนไม่มีปั๊ม ร้านเล็กๆ จะขายน้ำมันใส่ขวดวางบนชั้นหน้าร้าน ราคาสูงกว่าและปริมาณคือหนึ่งลิตร"
+ },
+ "kin": [
+  {
+   "to": "the-1263-cut",
+   "as": "The leg this rule exists for.",
+   "rel": "leg"
+  },
+  {
+   "to": "mae-sariang-to-hot",
+   "as": "The longest gap on the loop.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:wp-thai-baht"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-thai-baht"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-thai-baht"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}
