@@ -533,6 +533,17 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
  a{color:#000;text-decoration:none}
  .slab b{color:#000}
 }
+
+/* ---- fixed fills
+   A text box paints its fill the way a band paints its photograph: as a background the
+   page moves over, anchored to the window rather than to the box. The colours are the
+   ones already set above; only where they sit changes. Off for coarse pointers and for
+   reduced motion, the same places the bands drop theirs. */
+.card,figure.shot,.hero-shot,.strip figure,figure.map,details,.sharebar,.result,
+.slab,.band .cred{background-attachment:fixed}
+@media (pointer:coarse),(prefers-reduced-motion:reduce){
+ .card,figure.shot,.hero-shot,.strip figure,figure.map,details,.sharebar,.result,
+ .slab,.band .cred{background-attachment:scroll}}
 </style>
 <script type="application/ld+json">[]</script>
 <script defer src="/mae-hong-son-loop/copy.js"></script>
@@ -554,7 +565,7 @@ python3 tools/harvest_air.py --all
 python3 tools/curves.py
 python3 tools/validate.py
 python3 tools/build.py
-python3 tools/site.py</code></pre><p class="small mute">Built 2026-09-19 22:19</p>
+python3 tools/site.py</code></pre><p class="small mute">Built 2026-09-19 22:37</p>
 </main>
 <footer class="bot"><div class="in">
 <p><b>วงรอบแม่ฮ่องสอน</b> — 1,864 โค้ง ระหว่างเชียงใหม่กับแม่ฮ่องสอน และทุกจุดที่ควรแวะ</p>

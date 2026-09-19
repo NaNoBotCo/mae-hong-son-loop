@@ -533,6 +533,17 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
  a{color:#000;text-decoration:none}
  .slab b{color:#000}
 }
+
+/* ---- fixed fills
+   A text box paints its fill the way a band paints its photograph: as a background the
+   page moves over, anchored to the window rather than to the box. The colours are the
+   ones already set above; only where they sit changes. Off for coarse pointers and for
+   reduced motion, the same places the bands drop theirs. */
+.card,figure.shot,.hero-shot,.strip figure,figure.map,details,.sharebar,.result,
+.slab,.band .cred{background-attachment:fixed}
+@media (pointer:coarse),(prefers-reduced-motion:reduce){
+ .card,figure.shot,.hero-shot,.strip figure,figure.map,details,.sharebar,.result,
+ .slab,.band .cred{background-attachment:scroll}}
 </style>
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "Route 107", "inLanguage": "en", "url": "https://nanobotco.github.io/mae-hong-son-loop/road/route-107/", "description": "Chiang Mai north towards Fang. The loop uses only its first stretch, as far as the Route 1095 turn near Mae Malai.", "author": {"@type": "Person", "name": "NaN", "url": "https://wichaa.net"}, "license": "https://creativecommons.org/licenses/by/4.0/", "dateModified": "2026-09-18", "isPartOf": {"@type": "WebSite", "name": "The Mae Hong Son Loop", "url": "https://nanobotco.github.io/mae-hong-son-loop"}}]</script>
 <script defer src="/mae-hong-son-loop/copy.js"></script>
