@@ -164,7 +164,7 @@ if __name__ == "__main__":
          "", "", "road-1263" if "road-1263" in by_id else "the-1263-cut"),
         ("danger", "Where the road asks the most", "Demand, not crashes",
          "8.93", "curves per km, hardest 2 km", "op-luang"),
-        ("quiz", "Seventeen answers. Nobody gets the same loop.", "Which ride is yours",
+        ("quiz", "Nine plans, eight overlays, 761 ways it comes out.", "Which ride is yours",
          "", "", "ban-rak-thai"),
         ("which-way", "Clockwise or not? The season decides.", "The argument",
          "", "", "cnx-pano" if "cnx-pano" in by_id else "chiang-mai"),

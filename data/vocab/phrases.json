@@ -1,0 +1,465 @@
+{
+ "note": "Central Thai. Mae Hong Son is Shan country and older people may answer in Tai Yai, but Central Thai is understood the whole way round. Tones on the 'say' line: a mid, a-grave low, a-circumflex falling, a-acute high, a-caron rising.",
+ "particle": {
+  "en": "End a sentence with khrap if you are a man, kha if you are a woman. It is most of the difference between a question and an order.",
+  "th": "ลงท้ายด้วย ครับ หรือ ค่ะ",
+  "rows": [
+   {
+    "en": "(man speaking)",
+    "th": "ครับ",
+    "rtgs": "khrap",
+    "say": "khráp"
+   },
+   {
+    "en": "(woman speaking)",
+    "th": "ค่ะ",
+    "rtgs": "kha",
+    "say": "khâ"
+   }
+  ]
+ },
+ "groups": [
+  {
+   "id": "pump",
+   "en": "At the pump",
+   "th": "ที่ปั๊มน้ำมัน",
+   "rows": [
+    {
+     "en": "Petrol station",
+     "th": "ปั๊มน้ำมัน",
+     "rtgs": "pam nam man",
+     "say": "pám náam-man"
+    },
+    {
+     "en": "Fill it up",
+     "th": "เต็มถัง",
+     "rtgs": "tem thang",
+     "say": "tem thǎng"
+    },
+    {
+     "en": "A hundred baht's worth",
+     "th": "ร้อยนึง",
+     "rtgs": "roi nueng",
+     "say": "rói nueng",
+     "note": "Number first: sǒng rói is two hundred."
+    },
+    {
+     "en": "Gasohol 91",
+     "th": "แก๊สโซฮอล์ เก้าสิบเอ็ด",
+     "rtgs": "kaetsohol kao sip et",
+     "say": "gáet-soh-hol kâo-sìp-èt",
+     "note": "What most rental bikes take."
+    },
+    {
+     "en": "Gasohol 95",
+     "th": "แก๊สโซฮอล์ เก้าสิบห้า",
+     "rtgs": "kaetsohol kao sip ha",
+     "say": "gáet-soh-hol kâo-sìp-hâa"
+    },
+    {
+     "en": "Where is the next petrol station?",
+     "th": "ปั๊มถัดไปอยู่ที่ไหน",
+     "rtgs": "pam that pai yu thi nai",
+     "say": "pám thàt-pai yùu thîi nǎi"
+    },
+    {
+     "en": "Is it open?",
+     "th": "เปิดไหม",
+     "rtgs": "poet mai",
+     "say": "pèrt mǎi",
+     "note": "Village pumps shut at dusk."
+    },
+    {
+     "en": "Check the tyres, please",
+     "th": "ช่วยเช็คลมยางหน่อย",
+     "rtgs": "chuai chek lom yang noi",
+     "say": "chûai chék lom-yaang nòi"
+    }
+   ]
+  },
+  {
+   "id": "checkpoint",
+   "en": "At a checkpoint",
+   "th": "ที่ด่านตรวจ",
+   "rows": [
+    {
+     "en": "Checkpoint",
+     "th": "ด่านตรวจ",
+     "rtgs": "dan truat",
+     "say": "dàan trùat",
+     "note": "Routine on 108 and near the border. Slow down, helmet on, stop if waved down."
+    },
+    {
+     "en": "Driving licence",
+     "th": "ใบขับขี่",
+     "rtgs": "bai khap khi",
+     "say": "bai khàp-khìi",
+     "note": "An international permit with the motorcycle class filled in, or a Thai one."
+    },
+    {
+     "en": "Passport",
+     "th": "หนังสือเดินทาง",
+     "rtgs": "nangsue doen thang",
+     "say": "nǎng-sǔe dern-thaang"
+    },
+    {
+     "en": "It is a rental bike",
+     "th": "รถเช่าครับ",
+     "rtgs": "rot chao khrap",
+     "say": "rót châo khráp"
+    },
+    {
+     "en": "Registration book",
+     "th": "เล่มทะเบียน",
+     "rtgs": "lem thabian",
+     "say": "lêm thá-bian",
+     "note": "The green book. Ask the rental shop for a copy before you leave."
+    },
+    {
+     "en": "Insurance",
+     "th": "ประกัน",
+     "rtgs": "prakan",
+     "say": "prà-kan"
+    },
+    {
+     "en": "I am going to Mae Hong Son",
+     "th": "จะไปแม่ฮ่องสอน",
+     "rtgs": "cha pai mae hong son",
+     "say": "jà pai mâe-hông-sǒn"
+    },
+    {
+     "en": "I don't understand",
+     "th": "ไม่เข้าใจ",
+     "rtgs": "mai khao chai",
+     "say": "mâi khâo-jai"
+    },
+    {
+     "en": "Sorry",
+     "th": "ขอโทษ",
+     "rtgs": "kho thot",
+     "say": "khǒr-thôot"
+    }
+   ]
+  },
+  {
+   "id": "clinic",
+   "en": "Clinic, pharmacy, hospital",
+   "th": "คลินิก ร้านขายยา โรงพยาบาล",
+   "rows": [
+    {
+     "en": "Hospital",
+     "th": "โรงพยาบาล",
+     "rtgs": "rong phayaban",
+     "say": "rohng-phá-yaa-baan"
+    },
+    {
+     "en": "Pharmacy",
+     "th": "ร้านขายยา",
+     "rtgs": "ran khai ya",
+     "say": "ráan khǎai yaa"
+    },
+    {
+     "en": "Call an ambulance",
+     "th": "เรียกรถพยาบาล",
+     "rtgs": "riak rot phayaban",
+     "say": "rîak rót phá-yaa-baan",
+     "note": "1669. Free, nationwide."
+    },
+    {
+     "en": "There has been an accident",
+     "th": "เกิดอุบัติเหตุ",
+     "rtgs": "koet ubattihet",
+     "say": "gèrt ù-bàt-tì-hèet"
+    },
+    {
+     "en": "It hurts here",
+     "th": "เจ็บตรงนี้",
+     "rtgs": "chep trong ni",
+     "say": "jèp trong níi"
+    },
+    {
+     "en": "Road rash",
+     "th": "แผลถลอก",
+     "rtgs": "phlae thalok",
+     "say": "phlǎe thà-lòrk",
+     "note": "The usual souvenir. Clean it the same day, not the next."
+    },
+    {
+     "en": "I think the bone is broken",
+     "th": "คิดว่ากระดูกหัก",
+     "rtgs": "khit wa kraduk hak",
+     "say": "khít wâa grà-dùuk hàk"
+    },
+    {
+     "en": "Painkiller",
+     "th": "ยาแก้ปวด",
+     "rtgs": "ya kae puat",
+     "say": "yaa gâe-pùat"
+    },
+    {
+     "en": "Antiseptic",
+     "th": "ยาฆ่าเชื้อ",
+     "rtgs": "ya kha chuea",
+     "say": "yaa khâa-chúea"
+    },
+    {
+     "en": "Bandage",
+     "th": "ผ้าพันแผล",
+     "rtgs": "pha phan phlae",
+     "say": "phâa-phan-phlǎe"
+    },
+    {
+     "en": "I am allergic to this",
+     "th": "แพ้อันนี้",
+     "rtgs": "phae an ni",
+     "say": "pháe an-níi",
+     "note": "Write the drug name down and show the paper."
+    },
+    {
+     "en": "Inhaler",
+     "th": "ยาพ่น",
+     "rtgs": "ya phon",
+     "say": "yaa-phôn",
+     "note": "Worth the word in March."
+    }
+   ]
+  },
+  {
+   "id": "repair",
+   "en": "When the bike stops",
+   "th": "เมื่อรถเสีย",
+   "rows": [
+    {
+     "en": "Motorcycle repair shop",
+     "th": "ร้านซ่อมมอเตอร์ไซค์",
+     "rtgs": "ran som motoesai",
+     "say": "ráan sôm mor-ter-sai"
+    },
+    {
+     "en": "Flat tyre",
+     "th": "ยางแบน",
+     "rtgs": "yang baen",
+     "say": "yaang baen"
+    },
+    {
+     "en": "Patch the tyre",
+     "th": "ปะยาง",
+     "rtgs": "pa yang",
+     "say": "pà yaang",
+     "note": "Roadside, usually while you wait."
+    },
+    {
+     "en": "The brakes",
+     "th": "เบรก",
+     "rtgs": "brek",
+     "say": "brèek"
+    },
+    {
+     "en": "The chain",
+     "th": "โซ่",
+     "rtgs": "so",
+     "say": "sôo"
+    },
+    {
+     "en": "It won't start",
+     "th": "สตาร์ทไม่ติด",
+     "rtgs": "sathat mai tit",
+     "say": "sà-tâat mâi tìt"
+    },
+    {
+     "en": "Out of petrol",
+     "th": "น้ำมันหมด",
+     "rtgs": "nam man mot",
+     "say": "náam-man mòt"
+    },
+    {
+     "en": "How much?",
+     "th": "เท่าไหร่",
+     "rtgs": "thao rai",
+     "say": "thâo-rài"
+    },
+    {
+     "en": "Will it take long?",
+     "th": "ใช้เวลานานไหม",
+     "rtgs": "chai wela nan mai",
+     "say": "chái wee-laa naan mǎi"
+    },
+    {
+     "en": "Can you come and get me?",
+     "th": "มารับได้ไหม",
+     "rtgs": "ma rap dai mai",
+     "say": "maa ráp dâi mǎi"
+    }
+   ]
+  },
+  {
+   "id": "road",
+   "en": "About the road",
+   "th": "เรื่องถนน",
+   "rows": [
+    {
+     "en": "Is the road closed?",
+     "th": "ถนนปิดไหม",
+     "rtgs": "thanon pit mai",
+     "say": "thà-nǒn pìt mǎi"
+    },
+    {
+     "en": "Landslide",
+     "th": "ดินถล่ม",
+     "rtgs": "din thalom",
+     "say": "din thà-lòm",
+     "note": "Ask before the wet season, not after it."
+    },
+    {
+     "en": "Fog",
+     "th": "หมอก",
+     "rtgs": "mok",
+     "say": "mòrk"
+    },
+    {
+     "en": "Slippery",
+     "th": "ลื่น",
+     "rtgs": "luen",
+     "say": "lûen"
+    },
+    {
+     "en": "Careful",
+     "th": "ระวัง",
+     "rtgs": "rawang",
+     "say": "rá-wang"
+    },
+    {
+     "en": "How many kilometres?",
+     "th": "กี่กิโล",
+     "rtgs": "ki kilo",
+     "say": "gìi gì-loh"
+    },
+    {
+     "en": "Turn left",
+     "th": "เลี้ยวซ้าย",
+     "rtgs": "liao sai",
+     "say": "líao sáai"
+    },
+    {
+     "en": "Turn right",
+     "th": "เลี้ยวขวา",
+     "rtgs": "liao khwa",
+     "say": "líao khwǎa"
+    },
+    {
+     "en": "Straight on",
+     "th": "ตรงไป",
+     "rtgs": "trong pai",
+     "say": "trong pai"
+    }
+   ]
+  },
+  {
+   "id": "bed",
+   "en": "A room for the night",
+   "th": "ห้องพัก",
+   "rows": [
+    {
+     "en": "Do you have a room free?",
+     "th": "มีห้องว่างไหม",
+     "rtgs": "mi hong wang mai",
+     "say": "mii hông wâang mǎi"
+    },
+    {
+     "en": "One night",
+     "th": "หนึ่งคืน",
+     "rtgs": "nueng khuen",
+     "say": "nùeng khuen"
+    },
+    {
+     "en": "How much a night?",
+     "th": "คืนละเท่าไหร่",
+     "rtgs": "khuen la thao rai",
+     "say": "khuen-lá thâo-rài"
+    },
+    {
+     "en": "Is there hot water?",
+     "th": "มีน้ำอุ่นไหม",
+     "rtgs": "mi nam un mai",
+     "say": "mii náam-ùn mǎi",
+     "note": "Worth asking above Soppong in December."
+    },
+    {
+     "en": "A blanket, please",
+     "th": "ขอผ้าห่ม",
+     "rtgs": "kho pha hom",
+     "say": "khǒr phâa-hòm"
+    },
+    {
+     "en": "Can I park the bike here?",
+     "th": "จอดรถตรงนี้ได้ไหม",
+     "rtgs": "chot rot trong ni dai mai",
+     "say": "jòrt rót trong níi dâi mǎi"
+    },
+    {
+     "en": "Is there laundry?",
+     "th": "มีที่ซักผ้าไหม",
+     "rtgs": "mi thi sak pha mai",
+     "say": "mii thîi sák-phâa mǎi"
+    }
+   ]
+  },
+  {
+   "id": "stall",
+   "en": "At the noodle stall",
+   "th": "ที่ร้านก๋วยเตี๋ยว",
+   "rows": [
+    {
+     "en": "Not spicy",
+     "th": "ไม่เผ็ด",
+     "rtgs": "mai phet",
+     "say": "mâi phèt",
+     "note": "Said early, and said again."
+    },
+    {
+     "en": "A little spicy",
+     "th": "เผ็ดนิดหน่อย",
+     "rtgs": "phet nit noi",
+     "say": "phèt nít-nòi"
+    },
+    {
+     "en": "No coriander",
+     "th": "ไม่ใส่ผักชี",
+     "rtgs": "mai sai phak chi",
+     "say": "mâi sài phàk-chii"
+    },
+    {
+     "en": "Vegetarian",
+     "th": "มังสวิรัติ",
+     "rtgs": "mangsawirat",
+     "say": "mang-sà-wí-rát",
+     "note": "jay (เจ) is the stricter one: no egg, no dairy, no garlic."
+    },
+    {
+     "en": "Plain water",
+     "th": "น้ำเปล่า",
+     "rtgs": "nam plao",
+     "say": "náam-plào"
+    },
+    {
+     "en": "Delicious",
+     "th": "อร่อย",
+     "rtgs": "aroi",
+     "say": "à-ròi"
+    },
+    {
+     "en": "The bill, please",
+     "th": "คิดเงิน",
+     "rtgs": "khit ngoen",
+     "say": "khít-ngern"
+    },
+    {
+     "en": "Thank you",
+     "th": "ขอบคุณ",
+     "rtgs": "khop khun",
+     "say": "khòrp-khun"
+    }
+   ]
+  }
+ ]
+}

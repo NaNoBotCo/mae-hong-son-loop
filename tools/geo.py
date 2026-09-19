@@ -333,8 +333,11 @@ def stars(p: Proj, rows: list, cls="star", r=6.0, label=False) -> str:
             continue
         x, y = p.xy(lat, lon)
         name = (row.get("name") or "").replace("&", "&amp;").replace("<", "&lt;")
-        out.append(f'<polygon class="{cls} {row.get("cls","")}" points="{star(x, y, r)}">'
-                   f'<title>{row.get("title") or name}</title></polygon>')
+        poly = (f'<polygon class="{cls} {row.get("cls","")}" points="{star(x, y, r)}">'
+                f'<title>{row.get("title") or name}</title></polygon>')
+        # a star marks a place that is written up, so it goes to the write-up
+        href = row.get("href")
+        out.append(f'<a href="{href}" class="starlink">{poly}</a>' if href else poly)
         if label and name:
             flip = (x + 9 + len(name) * 6.4) > p.width
             lx = x - 8 if flip else x + 8

@@ -173,8 +173,8 @@
     "th": "คำศัพท์",
     "one": "word",
     "path": "term",
-    "blurb": "Thai and Shan you will need at a pump, a checkpoint, a clinic and a noodle stall. Written, romanised, and said.",
-    "th_blurb": "คำไทยและไทใหญ่ที่ต้องใช้ที่ปั๊ม ด่าน คลินิก และร้านก๋วยเตี๋ยว",
+    "blurb": "Sixty-three things to say at a pump, a checkpoint, a clinic, a repair shop and a noodle stall. Thai script, romanised, and the tones marked.",
+    "th_blurb": "หกสิบสามประโยคสำหรับปั๊ม ด่าน คลินิก ร้านซ่อม และร้านก๋วยเตี๋ยว มีทั้งคำอ่านและวรรณยุกต์",
     "group_by": "facets.kind",
     "icon": "term"
    },

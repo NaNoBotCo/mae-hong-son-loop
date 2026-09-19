@@ -199,7 +199,43 @@ figure.map figcaption{padding:.55rem .8rem;font-size:.78rem;color:var(--mute);bo
 .river{fill:none;stroke:#7fb6d6;stroke-width:1.1;stroke-linecap:round}
 .river.big{stroke-width:2.4;stroke:#6aa9cd}
 .bound path{fill:none;stroke:#8a7a5e;stroke-width:1.5;stroke-dasharray:7 5;opacity:.75}
+/* the phrasebook: what you say, what it looks like, what it is for */
+table.phrases{width:100%;border-collapse:collapse;margin:.6rem 0 1.5rem;font-size:.92rem}
+table.phrases th{text-align:left;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--mute);border-bottom:2px solid var(--line);padding:.35rem .5rem .35rem 0;font-weight:700}
+table.phrases td{border-bottom:1px solid var(--line);padding:.55rem .5rem .55rem 0;
+  vertical-align:top;overflow-wrap:anywhere}
+table.phrases td.say b{font-size:1.02rem;letter-spacing:.01em}
+table.phrases td.th.big{font-size:1.18rem;line-height:1.5;white-space:normal}
+table.phrases tr:hover td{background:color-mix(in srgb,var(--sun) 9%,transparent)}
+@media (max-width:560px){
+  table.phrases,table.phrases tbody,table.phrases tr,table.phrases td{display:block;width:100%}
+  table.phrases thead{display:none}
+  table.phrases tr{border-bottom:1px solid var(--line);padding:.5rem 0}
+  table.phrases td{border:none;padding:.1rem 0}
+  table.phrases td.th.big{font-size:1.24rem}}
+
+/* the harvested roster: a town, then what is in it */
+.roster{display:grid;gap:1.4rem;margin:1rem 0}
+.roster section{border-top:2px solid var(--line);padding-top:.7rem}
+.roster h3{margin:0 0 .5rem;font-size:1.05rem;display:flex;align-items:baseline;gap:.5rem}
+.roster h3 .count{font:700 .72rem/1 var(--mono,ui-monospace,monospace);color:var(--mute);
+  border:1px solid var(--line);border-radius:99px;padding:.18rem .45rem}
+ul.places{list-style:none;margin:0;padding:0;display:grid;gap:.42rem;
+  grid-template-columns:repeat(auto-fill,minmax(min(100%,17rem),1fr))}
+ul.places li{font-size:.9rem;line-height:1.45;padding:.4rem .55rem;border:1px solid var(--line);
+  border-radius:8px;background:var(--card,transparent);overflow-wrap:anywhere}
+ul.places b{font-weight:700}
+ul.places .tag{font-size:.7rem;margin:.1rem .15rem 0 0}
+ul.places a{text-decoration:none;border-bottom:1px solid var(--line)}
+.tag.lnk{border-bottom:none}
 .star{fill:var(--sun);stroke:var(--ink);stroke-width:1.2;paint-order:stroke}
+/* a star goes to its write-up, so it has to feel like it does */
+.starlink{cursor:pointer}
+.starlink .star{transition:fill .12s,transform .12s;transform-box:fill-box;transform-origin:center}
+.starlink:hover .star,.starlink:focus .star{fill:var(--hot);transform:scale(1.35)}
+.starlink:focus{outline:none}
+.starlink:focus-visible .star{stroke:var(--hot);stroke-width:2.4}
 .poi{fill:#3d7a55;stroke:none;opacity:.62}
 .poi.waterfall{fill:#2f7ea8}
 .star.big{fill:var(--hot)}
@@ -229,6 +265,9 @@ figure.map figcaption{padding:.55rem .8rem;font-size:.78rem;color:var(--mute);bo
 /* the circuit — a dark casing under a bright core, so it reads over any terrain */
 .loop-case{fill:none;stroke:#100c06;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;opacity:.62}
 .loop{fill:none;stroke:#ff3b2f;stroke-width:3.6;stroke-linecap:round;stroke-linejoin:round}
+/* under the curve-density heat the circuit is the base coat: subordinate to the heat,
+   but bright enough to read on its own where the count did not reach */
+.loop.under{stroke:#c0503f;stroke-width:3.2;opacity:.9}
 .terrain-dark{display:none}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .terrain-light{display:none}
  :root:not([data-theme="light"]) .terrain-dark{display:block}}
@@ -416,7 +455,7 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
 <a class="sr" href="#main">Skip to content</a>
 <header class="top"><div class="in">
 <a class="brand" href="/mae-hong-son-loop/">Mae Hong Son <b>Loop</b></a>
-<nav><a href="/mae-hong-son-loop/">The loop</a><a href="/mae-hong-son-loop/legs/">Legs</a><a href="/mae-hong-son-loop/which-way/">Which way</a><a href="/mae-hong-son-loop/numbers/">Numbers</a><a href="/mae-hong-son-loop/good/">The good part</a><a href="/mae-hong-son-loop/year/">The year</a><a href="/mae-hong-son-loop/air/">Air</a><a href="/mae-hong-son-loop/danger/">Danger</a><a href="/mae-hong-son-loop/baggage/">Baggage</a><a href="/mae-hong-son-loop/quiz/">Which ride</a><a href="/mae-hong-son-loop/roadbook/">Roadbook</a></nav>
+<nav><a href="/mae-hong-son-loop/">The loop</a><a href="/mae-hong-son-loop/legs/">Legs</a><a href="/mae-hong-son-loop/which-way/">Which way</a><a href="/mae-hong-son-loop/numbers/">Numbers</a><a href="/mae-hong-son-loop/good/">The good part</a><a href="/mae-hong-son-loop/year/">The year</a><a href="/mae-hong-son-loop/air/">Air</a><a href="/mae-hong-son-loop/danger/">Danger</a><a href="/mae-hong-son-loop/baggage/">Baggage</a><a href="/mae-hong-son-loop/quiz/">Which ride</a><a href="/mae-hong-son-loop/words/">Words</a><a href="/mae-hong-son-loop/roadbook/">Roadbook</a></nav>
 <span class="langsw">
 <a href="/mae-hong-son-loop/dish/nam-ngiao/" aria-current="true" hreflang="en">EN</a>
 <a href="/mae-hong-son-loop/th/dish/nam-ngiao/"  hreflang="th">ไทย</a>

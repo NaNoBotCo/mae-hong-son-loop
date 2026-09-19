@@ -97,6 +97,7 @@ UI = {
  "en": {"home": "The loop", "legs": "Legs", "which": "Which way", "numbers": "Numbers",
         "good": "The good part", "year": "The year", "air": "Air", "danger": "Danger", "baggage": "Baggage",
         "quiz": "Which ride",
+        "words": "Words",
         "roadbook": "Roadbook",
         "all": "Everything", "about": "How this was made",
         "cw": "Clockwise", "ccw": "Counter-clockwise",
@@ -111,6 +112,7 @@ UI = {
  "th": {"home": "วงรอบ", "legs": "ช่วงทาง", "which": "ไปทางไหน", "numbers": "ตัวเลข",
         "good": "ส่วนที่ดี", "year": "ทั้งปี", "air": "อากาศ", "danger": "อันตราย", "baggage": "สัมภาระ",
         "quiz": "ขี่แบบไหน",
+        "words": "คำพูด",
         "roadbook": "สมุดเส้นทาง",
         "all": "ทั้งหมด", "about": "ทำขึ้นอย่างไร",
         "cw": "ตามเข็มนาฬิกา", "ccw": "ทวนเข็มนาฬิกา",
@@ -127,7 +129,7 @@ UI = {
 
 NAV = [("", "home"), ("legs/", "legs"), ("which-way/", "which"), ("numbers/", "numbers"),
        ("good/", "good"), ("year/", "year"), ("air/", "air"), ("danger/", "danger"), ("baggage/", "baggage"),
-       ("quiz/", "quiz"), ("roadbook/", "roadbook")]
+       ("quiz/", "quiz"), ("words/", "words"), ("roadbook/", "roadbook")]
 
 
 def rel(depth: int = 0) -> str:
@@ -324,6 +326,7 @@ AIR = jload(API / "air.json")
 AIR_NOW = jload(API / "air-now.json")
 PLACES = jload(API / "places.json")
 PACKLIST = jload(Path(__file__).resolve().parent.parent / "data" / "vocab" / "packlist.json")
+PHRASES = jload(Path(__file__).resolve().parent.parent / "data" / "vocab" / "phrases.json")
 BASE = jload(API / "base.json") if (API / "base.json").exists() else {}
 ELEV = jload(API / "elevation.json") if (API / "elevation.json").exists() else {}
 SOURCES = {s["id"]: s for s in jload(API / "sources.json")["sources"]}
@@ -378,7 +381,8 @@ def basemap_svg() -> str:
     return "".join(out)
 
 
-def base_map(width=820, demand=False, highlight=None, pins=None, labels=True, depth=1):
+def base_map(width=820, demand=False, highlight=None, pins=None, labels=True, depth=1,
+             lang="en"):
     """The one map. Every page draws the same geography and adds its own layer.
 
     Every stitched chain is drawn, not just the longest: a route number goes missing for a
@@ -404,15 +408,18 @@ def base_map(width=820, demand=False, highlight=None, pins=None, labels=True, de
             out.append(f'<path class="road" d="{p.path([tuple(c) for c in ln])}"/>')
     # then the circuit itself, as one closed line
     ring = (ITIN.get("ring") or {}).get("line") or []
-    if ring and not demand:
+    if ring:
         d_ring = p.path([tuple(c) for c in ring])
         out.append(f'<path class="loop-case" d="{d_ring}"/>')
-        out.append(f'<path class="loop" d="{d_ring}"><title>The circuit</title></path>')
+        cls = "loop under" if demand else "loop"
+        out.append(f'<path class="{cls}" d="{d_ring}"><title>The circuit</title></path>')
     if demand:
+        # the heat rides on top of the closed circuit. It is only traced where the curve
+        # count reached, so on its own it shows a loop with holes in it that are not there
         for ref, r in CURVES.get("roads", {}).items():
             if r.get("density"):
                 out.append(geo.demand_path_layer(p, r["density"]))
-    elif not ring:
+    if not ring and not demand:
         for ref, r in ROADS.items():
             for ln in (r.get("lines") or ([r["line"]] if r.get("line") else [])):
                 out.append(f'<path class="road-on" d="{p.path([tuple(c) for c in ln])}">'
@@ -425,9 +432,10 @@ def base_map(width=820, demand=False, highlight=None, pins=None, labels=True, de
     if pins is None:
         # written-up stops are stars, towns are dots; a waypoint and a destination should
         # not look the same on the page
-        starred = [{"lat": n["geo"]["lat"], "lon": n["geo"]["lon"], "name": n["names"]["name"],
-                    "cls": ""} for n in NODES
-                   if n["type"] in ("stop", "wat", "spring") and n.get("geo")]
+        starred = [{"lat": n["geo"]["lat"], "lon": n["geo"]["lon"],
+                    "name": T(n, "names.name", lang), "cls": "",
+                    "href": f"{lroot(lang)}{url_of(n)}"} for n in NODES
+                   if n["type"] in ("stop", "wat", "spring", "coffee", "stay") and n.get("geo")]
         rows = [{"lat": n["geo"]["lat"], "lon": n["geo"]["lon"], "name": n["names"]["name"],
                  "cls": "town"} for n in NODES if n["type"] == "town" and n.get("geo")]
         # everything OpenStreetMap calls a viewpoint or a waterfall, small, underneath —
@@ -647,7 +655,7 @@ def node_page(n: dict, lang: str) -> str:
                      f'<article class="card"><h3>↺ {E(ui["ccw"])}</h3><p>{E(ccw or "")}</p></article>'
                      f'</div>')
         if rt.get("roads"):
-            b.append('<figure class="map">' + base_map(820, highlight=rt["roads"], depth=rdepth) +
+            b.append('<figure class="map">' + base_map(820, highlight=rt["roads"], depth=rdepth, lang=lang) +
                      f'<figcaption>{E("Highlighted: " + ", ".join("Route " + x for x in rt["roads"]) if lang == "en" else "เน้น: " + ", ".join("ทางหลวง " + x for x in rt["roads"]))} · '
                      f'{MAP_CREDIT}</figcaption></figure>')
 
@@ -780,6 +788,7 @@ BANDS = {
     "mhs":         ("mae-hong-son", ""),
     "mae-surin":   ("mae-surin-waterfall", ""),
     "poy":         ("poy-sang-long", ""),
+    "words":       ("mae-hong-son", ""),
 }
 
 
@@ -908,7 +917,7 @@ def front(lang: str) -> str:
     pool = gallery_pool()
     if pool:
         b.append(shot_strip([im for _, im in pool[:8]], root_depth(0, lang)))
-    b.append('<figure class="map">' + base_map(880, demand=True, depth=d0) +
+    b.append('<figure class="map">' + base_map(880, demand=True, depth=d0, lang=lang) +
              f'<figcaption>{E("Coloured by how much steering each 2 km asks for — not a crash map." if lang == "en" else "สีบอกว่าทุก 2 กม. ต้องบังคับรถมากแค่ไหน ไม่ใช่แผนที่อุบัติเหตุ")} '
              f'{MAP_CREDIT}</figcaption></figure>')
     b.append('<div class="legend">' + "".join(
@@ -973,8 +982,7 @@ def front(lang: str) -> str:
 
     b.append(band("pang-ung", "Pang Ung, before six" if lang == "en" else "ปางอุ๋ง ก่อนหกโมง",
                   "Which ride is yours?" if lang == "en" else "คุณควรขี่แบบไหน",
-                  "Seven questions. Seventeen answers. Nobody gets the same loop."
-                  if lang == "en" else "เจ็ดคำถาม สิบเจ็ดคำตอบ ไม่มีใครได้วงรอบเหมือนกัน",
+                  quiz_line(lang),
                   d0, lang, href=f"{r}quiz/", cta="Take it" if lang == "en" else "เริ่มเลย",
                   cls="right tall"))
 
@@ -1045,7 +1053,7 @@ def which_way(lang: str) -> str:
                   "North first up the curves, or south first down the long one."
                   if lang == "en" else "ขึ้นเหนือเจอโค้งก่อน หรือลงใต้เจอทางยาวก่อน", d1, lang))
     b.append(dirsw(lang))
-    b.append('<figure class="map">' + base_map(880, depth=root_depth(1, lang)) +
+    b.append('<figure class="map">' + base_map(880, depth=root_depth(1, lang), lang=lang) +
              f'<figcaption>{E("Same road, either direction." if lang == "en" else "ถนนเดียวกัน ไปได้ทั้งสองทาง")} {MAP_CREDIT}</figcaption></figure>')
     b.append(leg_list(lang, 1))
     b.append(band("bua-tong", "Doi Mae U-Kho, November" if lang == "en" else "ดอยแม่อูคอ พฤศจิกายน",
@@ -1241,7 +1249,7 @@ def danger(lang: str) -> str:
                   if lang == "en" else "จำนวนโค้งต่อกิโลเมตรในหน้าต่างสองกิโลเมตร วัดด้วยวิธีเดียวกันทุกที่",
                   d1, lang, big="7.45", big_label=("hardest 2 km on Route 1095"
                                                    if lang == "en" else "2 กม. ที่หนักที่สุดบน 1095")))
-    b.append('<figure class="map">' + base_map(880, demand=True, depth=d1) +
+    b.append('<figure class="map">' + base_map(880, demand=True, depth=d1, lang=lang) +
              f'<figcaption>© OpenStreetMap contributors · {E("2 km windows, 25° threshold" if lang == "en" else "หน้าต่าง 2 กม. เกณฑ์ 25 องศา")}</figcaption></figure>')
     bands = CURVES.get("bands", {})
     b.append('<div class="legend">' + "".join(
@@ -1331,6 +1339,47 @@ document.addEventListener('DOMContentLoaded',function(){
 });
 </script>
 """
+
+
+def quiz_reach() -> dict:
+    """What the quiz can actually produce, counted rather than asserted.
+
+    The page claimed seventeen answers and the data file claimed sixteen, and both were
+    the number of *outcomes* rather than the number of results anyone can get: one plan
+    wins on points and any overlay over its threshold rides along with it, so the pairs
+    are what a rider sees. Walking all of them takes a moment at build time and means
+    the sentence on the page cannot drift away from the file underneath it."""
+    import itertools
+    res = QUIZ["results"]
+    thr = QUIZ["scoring"]["overlay_threshold"]
+    plans = {k for k, v in res.items() if v.get("layer") == "plan"}
+    overlays = {k for k, v in res.items() if v.get("layer") == "overlay"}
+    qs = QUIZ["questions"]
+    seen, paths = set(), 1
+    for x in qs:
+        paths *= len(x["a"])
+    for pick in itertools.product(*[range(len(x["a"])) for x in qs]):
+        sc = {}
+        for qi, ai in enumerate(pick):
+            for k, v in (qs[qi]["a"][ai].get("s") or {}).items():
+                sc[k] = sc.get(k, 0) + v
+        pl = max(plans, key=lambda k: (sc.get(k, 0), k))
+        seen.add((pl, tuple(sorted(k for k in overlays if sc.get(k, 0) >= thr))))
+    return {"plans": len(plans), "overlays": len(overlays),
+            "paths": paths, "distinct": len(seen), "questions": len(qs)}
+
+
+QUIZ_REACH = quiz_reach()
+
+
+def quiz_line(lang: str) -> str:
+    """The one sentence about the quiz, in both places it is said."""
+    r = QUIZ_REACH
+    if lang == "en":
+        return (f"{r['questions']} questions. {r['plans']} plans, {r['overlays']} overlays, "
+                f"{r['distinct']:,} combinations that actually come out.")
+    return (f"{r['questions']} คำถาม {r['plans']} แผน {r['overlays']} ชั้นเสริม "
+            f"รวม {r['distinct']:,} แบบที่เป็นไปได้จริง")
 
 
 def quiz_page(lang: str) -> str:
@@ -1486,7 +1535,7 @@ def good(lang: str) -> str:
     b = [f'<h1><span class="kind">{E("Why you would" if en else "ทำไมถึงไป")}</span>'
          f'{E("The good part" if en else "ส่วนที่ดี")}</h1>',
          f'<p class="lede">{E("Six hundred kilometres of mountain road with something worth stopping for every twenty minutes of it." if en else "ถนนภูเขาหกร้อยกิโลเมตร ที่มีอะไรให้หยุดดูทุกยี่สิบนาที")}</p>']
-    b.append(band("pang-ung", "Pang Ung, six in the morning" if en else "ปางอุ๋ง หกโมงเช้า",
+    b.append(band("pano-chaem", "Road 1263, above Mae Chaem" if en else "ทางหลวง 1263 เหนือแม่แจ่ม",
                   "Four curves a kilometre, for four days"
                   if en else "สี่โค้งต่อกิโลเมตร ต่อเนื่องสี่วัน",
                   "A steering input every few seconds, for four days. That is the whole attraction."
@@ -1496,25 +1545,28 @@ def good(lang: str) -> str:
                              if en else "โค้งต่อกิโลเมตรบนทางหลวง 1095")))
     joy_en = ("""**{c} curves over {k} kilometres. {h} of them hairpins.** On a road this tight engine size stops mattering and line choice starts, which is why a 110cc step-through is as absorbing here as anything with four times the power. You are never not doing something.
 
-The riding is the obvious pleasure and it is not the biggest one. What the circuit actually gives you is a rhythm: you are somewhere different every evening, the days are short enough to stop constantly, and there is something worth stopping for roughly every twenty minutes. Nobody rides this loop fast twice.
-
-**The province is quiet in a way that is hard to find.** Mae Hong Son has the lowest population density of any province in Thailand — twenty-two people per square kilometre across nearly thirteen thousand of them. On the long southern leg you can ride for half an hour and meet four vehicles.
-
-And the thing nobody puts in the itinerary: **the ten minutes after you stop.** You get off, the engine ticks as it cools, your hearing comes back, and whatever you climbed for is just sitting there. That happens six or seven times a day on this road. It is the whole thing.""").format(
+The riding is the obvious pleasure and it is not the biggest one. What the circuit actually gives you is a rhythm: you are somewhere different every evening, the days are short enough to stop constantly, and there is something worth stopping for roughly every twenty minutes. Nobody rides this loop fast twice.""").format(
         c=cur.get("curves", 729), k=cur.get("km", 185), h=cur.get("hairpins", 110))
     joy_th = ("""**{c} โค้งในระยะ {k} กิโลเมตร เป็นโค้งหักศอก {h} โค้ง** บนถนนที่แคบขนาดนี้ ขนาดเครื่องยนต์เลิกมีความหมาย แล้วการเลือกไลน์เริ่มมีแทน นั่นคือเหตุผลที่รถออโต้ 110 ซีซี สนุกที่นี่ได้เท่ารถที่แรงกว่าสี่เท่า คุณไม่มีวินาทีไหนที่ไม่ได้ทำอะไร
 
-การขี่คือความสุขที่เห็นชัด และไม่ใช่ความสุขที่ใหญ่ที่สุด สิ่งที่เส้นทางนี้ให้จริงๆ คือจังหวะ คุณอยู่คนละที่ทุกเย็น วันสั้นพอที่จะหยุดได้ตลอด และมีอะไรให้หยุดดูราวทุกยี่สิบนาที ไม่มีใครขี่วงรอบนี้เร็วเป็นครั้งที่สอง
-
-**จังหวัดนี้เงียบในแบบที่หายาก** แม่ฮ่องสอนมีความหนาแน่นประชากรต่ำที่สุดในบรรดาทุกจังหวัดของไทย ยี่สิบสองคนต่อตารางกิโลเมตร บนพื้นที่เกือบหนึ่งหมื่นสามพันตารางกิโลเมตร บนช่วงใต้ที่ยาว คุณขี่ครึ่งชั่วโมงแล้วอาจสวนกับรถแค่สี่คัน
-
-และสิ่งที่ไม่มีใครใส่ไว้ในแผนการเดินทาง **สิบนาทีหลังจากคุณหยุด** คุณลงจากรถ เครื่องยนต์ดังติ๊กๆ ขณะเย็นตัว การได้ยินกลับมา และสิ่งที่คุณไต่ขึ้นมาดูก็นั่งอยู่ตรงนั้น เรื่องนี้เกิดขึ้นหกหรือเจ็ดครั้งต่อวันบนถนนสายนี้ นั่นแหละคือทั้งหมด""").format(
+การขี่คือความสุขที่เห็นชัด และไม่ใช่ความสุขที่ใหญ่ที่สุด สิ่งที่เส้นทางนี้ให้จริงๆ คือจังหวะ คุณอยู่คนละที่ทุกเย็น วันสั้นพอที่จะหยุดได้ตลอด และมีอะไรให้หยุดดูราวทุกยี่สิบนาที ไม่มีใครขี่วงรอบนี้เร็วเป็นครั้งที่สอง""").format(
         c=cur.get("curves", 729), k=cur.get("km", 185), h=cur.get("hairpins", 110))
     b.append(f'<div class="prose">{prose(joy_en if en else joy_th)}</div>')
 
-    b.append(band("bua-tong", "Doi Mae U-Kho" if en else "ดอยแม่อูคอ",
-                  "A day built round the stops" if en else "วันที่สร้างขึ้นรอบจุดแวะ",
+    b.append(band("pang-ung", "Pang Ung, six in the morning" if en else "ปางอุ๋ง หกโมงเช้า",
+                  "The ten minutes after you stop" if en else "สิบนาทีหลังจากคุณหยุด",
                   "", d1, lang, cls="right"))
+    quiet_en = """**The province is quiet in a way that is hard to find.** Mae Hong Son has the lowest population density of any province in Thailand — twenty-two people per square kilometre across nearly thirteen thousand of them. On the long southern leg you can ride for half an hour and meet four vehicles.
+
+And the thing nobody puts in the itinerary: **the ten minutes after you stop.** You get off, the engine ticks as it cools, your hearing comes back, and whatever you climbed for is just sitting there. That happens six or seven times a day on this road. It is the whole thing."""
+    quiet_th = """**จังหวัดนี้เงียบในแบบที่หายาก** แม่ฮ่องสอนมีความหนาแน่นประชากรต่ำที่สุดในบรรดาทุกจังหวัดของไทย ยี่สิบสองคนต่อตารางกิโลเมตร บนพื้นที่เกือบหนึ่งหมื่นสามพันตารางกิโลเมตร บนช่วงใต้ที่ยาว คุณขี่ครึ่งชั่วโมงแล้วอาจสวนกับรถแค่สี่คัน
+
+และสิ่งที่ไม่มีใครใส่ไว้ในแผนการเดินทาง **สิบนาทีหลังจากคุณหยุด** คุณลงจากรถ เครื่องยนต์ดังติ๊กๆ ขณะเย็นตัว การได้ยินกลับมา และสิ่งที่คุณไต่ขึ้นมาดูก็นั่งอยู่ตรงนั้น เรื่องนี้เกิดขึ้นหกหรือเจ็ดครั้งต่อวันบนถนนสายนี้ นั่นแหละคือทั้งหมด"""
+    b.append(f'<div class="prose">{prose(quiet_en if en else quiet_th)}</div>')
+    # the day ends at a lit temple over a pond, so the day's timetable sits under one
+    b.append(band("mhs", "Jong Kham, after dark" if en else "หนองจองคำ หลังค่ำ",
+                  "A day built round the stops" if en else "วันที่สร้างขึ้นรอบจุดแวะ",
+                  "", d1, lang))
     day_en = """**06:00** The morning market. Curry in a bag, sticky rice, coffee. It is packing up by nine.
 **08:00** Ride. The first two hours are the clearest air and the emptiest road of the day.
 **10:00** The stall at the top of the climb. Twenty minutes, a bench, a valley.
@@ -1533,23 +1585,33 @@ And the thing nobody puts in the itinerary: **the ten minutes after you stop.** 
 """
     b.append(f'<div class="prose">{prose(day_en if en else day_th)}</div>')
 
-    for t, head_en, head_th in (("dish", "What you eat", "ของกิน"),
-                                ("coffee", "Coffee", "กาแฟ"),
-                                ("spring", "Hot water", "น้ำพุร้อน"),
-                                ("wat", "Wats", "วัด"),
-                                ("stop", "Stops", "จุดแวะ"),
-                                ("stay", "Beds", "ที่พัก")):
+    # a band before a section shows what that section is about — the tea village over the
+    # coffee, the cave over the stops — rather than a scenic picture over whatever is next
+    SECTIONS = (("dish", "What you eat", "ของกิน", "", "", ""),
+                ("coffee", "Coffee", "กาแฟ", "ban-rak-thai2",
+                 "Ban Rak Thai", "บ้านรักไทย"),
+                ("spring", "Hot water", "น้ำพุร้อน", "", "", ""),
+                ("wat", "Wats", "วัด", "doi-kong-mu",
+                 "Wat Phrathat Doi Kong Mu", "วัดพระธาตุดอยกองมู"),
+                ("stop", "Stops", "จุดแวะ", "tham-lot", "Tham Lot", "ถ้ำลอด"),
+                ("stay", "Beds", "ที่พัก", "", "", ""))
+    for t, head_en, head_th, bkey, bk_en, bk_th in SECTIONS:
         recs = sorted([n for n in NODES if n["type"] == t], key=lambda n: n["names"]["name"])
         if not recs:
             continue
+        if bkey:
+            b.append(band(bkey, bk_en if en else bk_th, head_en if en else head_th,
+                          "", d1, lang, cls="short"))
         b.append(f'<h2><a href="{lroot(lang)}{DIR_OF[t]}/">{E(head_en if en else head_th)}</a></h2>'
                  '<div class="grid">')
         b += [node_card(n_, lang, 1) for n_ in recs[:6]]
         b.append("</div>")
 
-    b.append(band("ban-rak-thai2", "Ban Rak Thai" if en else "บ้านรักไทย",
-                  "Nobody rides it fast twice" if en else "ไม่มีใครขี่เร็วเป็นครั้งที่สอง",
-                  "", d1, lang, cls="short"))
+    b.append(band("bua-tong", "Doi Mae U-Kho, November" if en else "ดอยแม่อูคอ พฤศจิกายน",
+                  "The hills go yellow for three weeks" if en else "ดอยเหลืองทั้งลูก สามสัปดาห์",
+                  "Bua tong — Mexican sunflower — above Khun Yuam. It is the one stop with a date on it."
+                  if en else "ดอกบัวตอง เหนือขุนยวม จุดแวะเดียวที่มีวันกำกับ",
+                  d1, lang, cls="short"))
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}good/"
     b.append(share_row(url, "The good part of the Mae Hong Son loop", lang))
     return page(f'{"The good part" if en else "ส่วนที่ดี"} — {NAME[lang]}', "".join(b), 1, lang,
@@ -1676,7 +1738,7 @@ def baggage(lang: str) -> str:
             if row["kind"] == kind:
                 pins.append({"lat": row["lat"], "lon": row["lon"], "cls": cls, "name": "",
                              "title": (row.get("name") or kind)})
-    b.append('<figure class="map">' + base_map(860, pins=pins, labels=False, depth=root_depth(1, lang)) +
+    b.append('<figure class="map">' + base_map(860, pins=pins, labels=False, depth=root_depth(1, lang), lang=lang) +
              f'<figcaption>{E(str(sum(1 for r in PLACES["rows"] if r["kind"] == "post")) + " post offices and " + str(sum(1 for r in PLACES["rows"] if r["kind"] == "bus")) + " bus stations in the corridor" if en else str(sum(1 for r in PLACES["rows"] if r["kind"] == "post")) + " ที่ทำการไปรษณีย์ และ " + str(sum(1 for r in PLACES["rows"] if r["kind"] == "bus")) + " สถานีขนส่ง ในเขตเส้นทาง")} · '
              f'{MAP_CREDIT}</figcaption></figure>')
 
@@ -1812,7 +1874,7 @@ def roadbook(lang: str) -> str:
                  f'{" · " + E(n["names"]["rtgs"]) if n["names"].get("rtgs") else ""} — '
                  f'{E(clip(T(n, "text.what", lang) or "", 110))}</li>')
     b.append("</ul>")
-    b.append('<figure class="map">' + base_map(820, depth=root_depth(1, lang)) + "</figure>")
+    b.append('<figure class="map">' + base_map(820, depth=root_depth(1, lang), lang=lang) + "</figure>")
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}roadbook/"
     b.append(share_row(url, "Mae Hong Son loop roadbook", lang))
     return page(f'{"The roadbook" if lang == "en" else "สมุดเส้นทาง"} — {NAME[lang]}', "".join(b), 1, lang,
@@ -1889,14 +1951,159 @@ def harvested_for(t: str) -> list:
     return [r for r in PLACES.get("rows", []) if r["kind"] in kinds]
 
 
+# --------------------------------------------------- harvested rows, grouped by town
+def _km(a, b) -> float:
+    import math
+    dy = (a[0] - b[0]) * 111.32
+    dx = (a[1] - b[1]) * 111.32 * math.cos(math.radians((a[0] + b[0]) / 2))
+    return math.hypot(dx, dy)
+
+
+TOWN_GEO = {n["names"]["name"]: n["geo"] for n in NODES if n["type"] == "town" and n.get("geo")}
+TOWN_ID = {n["names"]["name"]: n["id"] for n in NODES if n["type"] == "town"}
+
+
+def town_order() -> list:
+    """The loop's towns in riding order, then the ones off the main ring, Chiang Mai last.
+
+    Mae Chaem is on the 1263 cut rather than a numbered leg, so walking the legs alone
+    drops it — and a town with fifteen places to sleep should not vanish from a list of
+    places to sleep. Chiang Mai goes to the end although the ride starts there: it holds
+    a thousand cafes, none of which is why anyone rides to Khun Yuam, and leading with
+    it buries the six towns that are the reason for the trip."""
+    seq = []
+    for l in ITIN["legs"]:
+        for t in (l.get("from"), l.get("to")):
+            if t and t not in seq:
+                seq.append(t)
+    seq += sorted(t for t in TOWN_GEO if t not in seq)
+    return [t for t in seq if t != START_TOWN] + ([START_TOWN] if START_TOWN in seq else [])
+
+
+START_TOWN = "Chiang Mai"
+ROSTER_CAP = 40
+
+
+def by_town(rows: list, radius=6.0) -> list:
+    """Sort harvested rows into the towns they are actually near, in riding order.
+
+    An alphabetical list of every row in the corridor is not a directory — Chiang Mai
+    alone carries a thousand of them, so the seven towns that are the reason for the
+    trip disappear into the Cs. Grouped by town, the same data says what is in Khun
+    Yuam, which is the question somebody riding this actually has."""
+    buckets = {t: [] for t in town_order()}
+    loose = []
+    for r in rows:
+        near, best = None, radius
+        for t, g in TOWN_GEO.items():
+            d = _km((r["lat"], r["lon"]), (g["lat"], g["lon"]))
+            if d < best:
+                near, best = t, d
+        if near:
+            buckets[near].append((best, r))
+        else:
+            loose.append(r)
+    out = []
+    for t in town_order():
+        got = sorted(buckets.get(t) or [], key=lambda x: (x[1].get("name") or "").lower())
+        if got:
+            out.append((t, [r for _, r in got]))
+    return out, loose
+
+
+PLACE_BADGE = {"internet_access": ("wifi", "wifi"), "phone": ("phone", "โทร"),
+               "opening_hours": ("hours", "เวลา"), "website": ("site", "เว็บ"),
+               "rooms": ("rooms", "ห้อง"), "cuisine": ("", ""), "fuel:diesel": ("diesel", "ดีเซล")}
+
+
+def place_row(h: dict, lang: str) -> str:
+    """One harvested place: its name, and only the facts OpenStreetMap actually holds."""
+    nm = h.get("name_th") if lang == "th" and h.get("name_th") else h.get("name")
+    tags = h.get("tags") or {}
+    bits = []
+    cu = tags.get("cuisine")
+    if cu:
+        bits.append(f'<span class="tag">{E(cu.replace("_", " ").replace(";", ", "))}</span>')
+    if tags.get("internet_access") not in (None, "no"):
+        bits.append(f'<span class="tag">{E("wifi" if lang == "en" else "ไวไฟ")}</span>')
+    if tags.get("rooms"):
+        bits.append(f'<span class="tag">{E(tags["rooms"])} {E("rooms" if lang == "en" else "ห้อง")}</span>')
+    if tags.get("stars"):
+        bits.append(f'<span class="tag">{E(tags["stars"])}★</span>')
+    if tags.get("fuel:diesel") == "yes":
+        bits.append(f'<span class="tag">{E("diesel" if lang == "en" else "ดีเซล")}</span>')
+    oh = tags.get("opening_hours")
+    if oh:
+        bits.append(f'<span class="tag">{E(clip(oh, 34))}</span>')
+    links = [f'<a href="https://www.openstreetmap.org/{E(h["osm"])}" rel="noopener nofollow">OSM</a>']
+    if tags.get("website"):
+        w = tags["website"]
+        w = w if w.startswith("http") else "https://" + w
+        bits.append(f'<a class="tag lnk" href="{E(w)}" rel="noopener nofollow">{E("site" if lang == "en" else "เว็บ")}</a>')
+    ph = tags.get("phone") or tags.get("contact:phone")
+    if ph:
+        bits.append(f'<a class="tag lnk" href="tel:{E(ph.replace(" ", ""))}">{E(ph)}</a>')
+    return (f'<li><b>{E(nm)}</b>'
+            + (f' <span class="th">{E(h["name_th"])}</span>' if lang == "en" and h.get("name_th") and h["name_th"] != nm else "")
+            + (" " + "".join(bits) if bits else "")
+            + " " + " ".join(links) + "</li>")
+
+
+def _section(head: str, got: list, lang: str, api: str) -> str:
+    """One heading and its places, capped. A page that lists a thousand rows is not more
+    useful than one that lists forty and says where the rest are; it is only heavier,
+    and this is read on hotel wifi in Khun Yuam."""
+    shown = got[:ROSTER_CAP]
+    out = [f'<section><h3>{head} <span class="count">{len(got)}</span></h3><ul class="places">']
+    out += [place_row(h, lang) for h in shown]
+    out.append("</ul>")
+    if len(got) > ROSTER_CAP:
+        rest = len(got) - ROSTER_CAP
+        out.append(f'<p class="small mute">{E(f"and {rest:,} more here, in " if lang == "en" else f"และอีก {rest:,} รายการที่นี่ ดูใน ")}'
+                   f'<a href="{api}">places.json</a>.</p>')
+    out.append("</section>")
+    return "".join(out)
+
+
+def town_roster(rows: list, lang: str, radius=6.0) -> str:
+    """Every named harvested row, under the town it belongs to."""
+    groups, loose = by_town(rows, radius)
+    if not groups and not loose:
+        return ""
+    api = f"{rel()}api/places.json"
+    out = ['<div class="roster">']
+    for t, got in groups:
+        tid = TOWN_ID.get(t)
+        head = (f'<a href="{lroot(lang)}town/{tid}/">{E(t)}</a>' if tid else E(t))
+        out.append(_section(head, got, lang, api))
+    if loose:
+        # hot springs, waterfalls and viewpoints are rural by definition; bucketing only
+        # by town would report that the loop has no hot springs on it
+        head = E("Out on the road" if lang == "en" else "ตามทาง")
+        out.append(_section(head, sorted(loose, key=lambda h: (h.get("name") or "").lower()),
+                            lang, api))
+    out.append("</div>")
+    return "".join(out)
+
+
 def type_index(t: str, lang: str) -> str:
+    if t == "term":
+        return words_page(lang)          # /words/ is the phrasebook, glossary included
     ui = UI[lang]
     ti = TYPE_INFO[t]
     recs = sorted([n for n in NODES if n["type"] == t], key=lambda n: n["names"]["name"])
     harv = harvested_for(t)
     named = [h for h in harv if h.get("name")]
     title = ti["th"] if lang == "th" else ti["name"]
-    b = [f'<h1><span class="kind">{E(str(len(recs)) + " written up" if lang == "en" else str(len(recs)) + " รายการที่เขียนไว้")}</span>{E(title)}</h1>',
+    # the chip counted only the written-up records, so a page carrying a hundred and
+    # thirty-five named coffee shops announced itself as four
+    on_loop = sum(len(g) for _, g in by_town(named)[0] if _ != START_TOWN) if named else 0
+    if on_loop:
+        chip = (f"{len(recs)} written up · {on_loop:,} more on the loop" if lang == "en"
+                else f"เขียนไว้ {len(recs)} · อีก {on_loop:,} แห่งบนลูป")
+    else:
+        chip = f"{len(recs)} written up" if lang == "en" else f"{len(recs)} รายการที่เขียนไว้"
+    b = [f'<h1><span class="kind">{E(chip)}</span>{E(title)}</h1>',
          f'<p class="lede">{E(ti["th_blurb"] if lang == "th" else ti["blurb"])}</p>']
     tb = TYPE_BANDS.get(t)
     if tb:
@@ -1920,7 +2127,7 @@ def type_index(t: str, lang: str) -> str:
         if pins or named:
             hp = pins + [{"lat": h["lat"], "lon": h["lon"], "name": "", "cls": t,
                           "title": h.get("name") or ""} for h in named[:1200]]
-            b.append('<figure class="map">' + base_map(860, pins=hp, labels=False, depth=root_depth(1, lang)) +
+            b.append('<figure class="map">' + base_map(860, pins=hp, labels=False, depth=root_depth(1, lang), lang=lang) +
                      f'<figcaption>{E(str(len(recs)) + " written up, " + format(len(harv), ",") + " harvested from OpenStreetMap" if lang == "en" else str(len(recs)) + " รายการที่เขียนไว้ " + format(len(harv), ",") + " รายการจาก OpenStreetMap")} · '
                      f'{MAP_CREDIT}</figcaption></figure>')
         if recs:
@@ -1941,21 +2148,70 @@ def type_index(t: str, lang: str) -> str:
                    f"เป็นสิ่งที่อาสาสมัครทำแผนที่ไว้เมื่อ {fetched} "
                    f"การไม่มีในนี้คือไม่มีใน OpenStreetMap ไม่ใช่ไม่มีบนถนน")
         b.append(f"<p>{E(msg)}</p>")
-        b.append('<div class="cols">')
-        for h in sorted(named, key=lambda h: h["name"])[:400]:
-            nm = h.get("name_th") if lang == "th" and h.get("name_th") else h["name"]
-            b.append(f'<a href="https://www.openstreetmap.org/{E(h["osm"])}" rel="noopener nofollow">'
-                     f'{E(nm)}</a>')
-        b.append("</div>")
-        if len(named) > 400:
-            b.append(f'<p class="small mute">{E(f"First 400 of {len(named):,}. The rest are in " if lang == "en" else f"400 แรกจาก {len(named):,} ที่เหลืออยู่ใน ")}'
-                     f'<a href="{rel(root_depth(1, lang))}api/places.json">places.json</a>.</p>')
+        b.append(town_roster(named, lang))
+        b.append(f'<p class="small mute">{E("Everything here, with its coordinates, is in " if lang == "en" else "ทั้งหมดนี้พร้อมพิกัดอยู่ใน ")}'
+                 f'<a href="{rel()}api/places.json">places.json</a>.</p>')
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}{DIR_OF[t]}/"
     b.append(share_row(url, title, lang))
     return page(f"{title} — {NAME[lang]}", "".join(b), 1, lang,
                 ti["th_blurb"] if lang == "th" else ti["blurb"], None, url,
                 head=DIRJS if t == "leg" else "", cur="legs" if t == "leg" else "",
                 path=f"{DIR_OF[t]}/", card="legs" if t == "leg" else "index")
+
+
+def phrase_table(g: dict, lang: str) -> str:
+    """One situation's phrases. Thai, a plain romanisation, and the tones marked —
+    the romanisation is what you read, the tone line is what makes it understood."""
+    out = ['<table class="phrases"><thead><tr>'
+           f'<th>{E("Say this" if lang == "en" else "พูดว่า")}</th>'
+           f'<th>{E("Thai" if lang == "en" else "ไทย")}</th>'
+           f'<th>{E("For" if lang == "en" else "เมื่อ")}</th></tr></thead><tbody>']
+    for r in g["rows"]:
+        note = f'<br><span class="small mute">{E(r["note"])}</span>' if r.get("note") else ""
+        out.append(f'<tr><td class="say"><b>{E(r["say"])}</b>'
+                   f'<br><span class="small mute">{E(r["rtgs"])}</span></td>'
+                   f'<td class="th big">{E(r["th"])}</td>'
+                   f'<td>{E(r["en"])}{note}</td></tr>')
+    out.append("</tbody></table>")
+    return "".join(out)
+
+
+def words_page(lang: str) -> str:
+    """The phrasebook. Sixty-three things to say, in the seven places you will need them.
+
+    The roadbook used to head a list of five glossary entries -- engine braking, gasohol,
+    hairpin, PM2.5, songthaew -- with a promise of words for a pump, a clinic and a
+    checkpoint. None of those five is a thing you say to anybody."""
+    en = lang == "en"
+    n = sum(len(g["rows"]) for g in PHRASES["groups"])
+    b = [f'<h1><span class="kind">{E(f"{n} phrases" if en else f"{n} ประโยค")}</span>'
+         f'{E("What to say" if en else "คำที่ต้องใช้")}</h1>',
+         f'<p class="lede">{E("At a pump, a checkpoint, a clinic, a repair shop and a noodle stall. Written, romanised, and with the tones marked." if en else "ที่ปั๊ม ด่าน คลินิก ร้านซ่อม และร้านก๋วยเตี๋ยว มีคำอ่านและวรรณยุกต์")}</p>']
+    b.append(band("words", "Thai and Shan" if en else "ไทยและไทใหญ่",
+                  "Sixty-three things worth being able to say" if en else "หกสิบสามประโยคที่ควรพูดได้",
+                  "", root_depth(1, lang), lang))
+    b.append(f'<p class="note">{E(PHRASES["note"])}</p>')
+    pt = PHRASES["particle"]
+    b.append(f'<h2>{E("Two words first" if en else "สองคำก่อน")}</h2>')
+    b.append(f'<p>{E(pt["en"] if en else pt["th"])}</p>')
+    b.append(phrase_table(pt, lang))
+    for g in PHRASES["groups"]:
+        b.append(f'<h2 id="{E(g["id"])}">{E(g["en"] if en else g["th"])}</h2>')
+        b.append(phrase_table(g, lang))
+    # the five glossary records are concepts, not phrases; they belong under their own head
+    terms = sorted([x for x in NODES if x["type"] == "term"], key=lambda n: n["names"]["name"])
+    if terms:
+        b.append(f'<h2>{E("Words about the riding" if en else "ศัพท์เกี่ยวกับการขี่")}</h2><ul>')
+        for t in terms:
+            b.append(f'<li><b><a href="{lroot(lang)}{url_of(t)}">{E(T(t, "names.name", lang))}</a></b>'
+                     f'{" · " + E(t["names"]["th"]) if t["names"].get("th") else ""} — '
+                     f'{E(clip(T(t, "text.what", lang) or "", 130))}</li>')
+        b.append("</ul>")
+    url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}words/"
+    b.append(share_row(url, "What to say on the Mae Hong Son loop", lang))
+    return page(f'{"What to say" if en else "คำที่ต้องใช้"} — {NAME[lang]}', "".join(b), 1, lang,
+                "Thai for a pump, a checkpoint, a clinic and a noodle stall — with the tones marked.",
+                None, url, cur="words", path="words/", card="index")
 
 
 def all_page(lang: str) -> str:
