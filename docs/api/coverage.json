@@ -1,5 +1,5 @@
 {
- "built": "2026-09-19 10:19",
+ "built": "2026-09-19 10:30",
  "records": 109,
  "by_type": {
   "leg": 9,
@@ -21,7 +21,7 @@
   "story": 9,
   "art": 2
  },
- "kin_edges": 390,
+ "kin_edges": 391,
  "sources": 115,
  "needs_verification": 31,
  "bilingual": 109,
@@ -97,8 +97,8 @@
  },
  "tiers": {
   "harvested": 19,
-  "inference": 25,
-  "cited": 52,
+  "inference": 26,
+  "cited": 51,
   "tradition": 13
  }
 }

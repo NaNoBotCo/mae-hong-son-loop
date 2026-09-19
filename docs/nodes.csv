@@ -1,19 +1,19 @@
 id,type,name,name_th,lat,lon,km,curves,hairpins,tier,confidence,needs_verification,url
-cnx-to-pai,leg,Chiang Mai to Pai,เชียงใหม่ – ปาย,,,130,395,65,harvested,high,False,https://nanobotco.github.io/mae-hong-son-loop/leg/cnx-to-pai/
+cnx-to-pai,leg,Chiang Mai to Pai,เชียงใหม่ – ปาย,,,130,580,60,harvested,high,False,https://nanobotco.github.io/mae-hong-son-loop/leg/cnx-to-pai/
 hot-to-cnx,leg,Hot to Chiang Mai,ฮอด – เชียงใหม่,,,88,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/leg/hot-to-cnx/
 khun-yuam-to-mae-sariang,leg,Khun Yuam to Mae Sariang,ขุนยวม – แม่สะเรียง,,,95,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/leg/khun-yuam-to-mae-sariang/
 mae-sariang-to-hot,leg,Mae Sariang to Hot,แม่สะเรียง – ฮอด,,,150,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/leg/mae-sariang-to-hot/
 mhs-to-khun-yuam,leg,Mae Hong Son to Khun Yuam,แม่ฮ่องสอน – ขุนยวม,,,67,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/leg/mhs-to-khun-yuam/
-pai-to-soppong,leg,Pai to Soppong,ปาย – สบป่อง,,,37,139,22,inference,high,False,https://nanobotco.github.io/mae-hong-son-loop/leg/pai-to-soppong/
-samoeng-warmup,leg,The Samoeng warm-up,วงรอบสะเมิง ซ้อมใหญ่,,,100,130,19,inference,high,False,https://nanobotco.github.io/mae-hong-son-loop/leg/samoeng-warmup/
-soppong-to-mhs,leg,Soppong to Mae Hong Son,สบป่อง – แม่ฮ่องสอน,,,52,190,23,inference,high,False,https://nanobotco.github.io/mae-hong-son-loop/leg/soppong-to-mhs/
-the-1263-cut,leg,The 1263 cut,ทางลัด 1263,,,38.1,159,25,harvested,medium,True,https://nanobotco.github.io/mae-hong-son-loop/leg/the-1263-cut/
+pai-to-soppong,leg,Pai to Soppong,ปาย – สบป่อง,,,37,197,25,inference,high,False,https://nanobotco.github.io/mae-hong-son-loop/leg/pai-to-soppong/
+samoeng-warmup,leg,The Samoeng warm-up,วงรอบสะเมิง ซ้อมใหญ่,,,100,189,19,inference,high,False,https://nanobotco.github.io/mae-hong-son-loop/leg/samoeng-warmup/
+soppong-to-mhs,leg,Soppong to Mae Hong Son,สบป่อง – แม่ฮ่องสอน,,,52,281,27,inference,high,False,https://nanobotco.github.io/mae-hong-son-loop/leg/soppong-to-mhs/
+the-1263-cut,leg,The 1263 cut,ทางลัด 1263,,,38.1,230,25,harvested,medium,True,https://nanobotco.github.io/mae-hong-son-loop/leg/the-1263-cut/
 route-107,road,Route 107,ทางหลวงแผ่นดินหมายเลข 107,,,35,,,harvested,medium,False,https://nanobotco.github.io/mae-hong-son-loop/road/route-107/
-route-108,road,Route 108,ทางหลวงแผ่นดินหมายเลข 108,,,350,694,63,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/road/route-108/
-route-1088,road,Route 1088,ทางหลวงแผ่นดินหมายเลข 1088,,,86.8,286,45,harvested,medium,False,https://nanobotco.github.io/mae-hong-son-loop/road/route-1088/
-route-1095,road,Route 1095,ทางหลวงแผ่นดินหมายเลข 1095,,,185,729,110,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/road/route-1095/
-route-1096,road,Route 1096,ทางหลวงแผ่นดินหมายเลข 1096,,,29.8,130,19,harvested,medium,False,https://nanobotco.github.io/mae-hong-son-loop/road/route-1096/
-route-1263,road,Route 1263,ทางหลวงแผ่นดินหมายเลข 1263,,,38.1,159,25,harvested,medium,False,https://nanobotco.github.io/mae-hong-son-loop/road/route-1263/
+route-108,road,Route 108,ทางหลวงแผ่นดินหมายเลข 108,,,350,1075,63,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/road/route-108/
+route-1088,road,Route 1088,ทางหลวงแผ่นดินหมายเลข 1088,,,86.8,427,45,harvested,medium,False,https://nanobotco.github.io/mae-hong-son-loop/road/route-1088/
+route-1095,road,Route 1095,ทางหลวงแผ่นดินหมายเลข 1095,,,185,1056,110,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/road/route-1095/
+route-1096,road,Route 1096,ทางหลวงแผ่นดินหมายเลข 1096,,,29.8,189,19,harvested,medium,False,https://nanobotco.github.io/mae-hong-son-loop/road/route-1096/
+route-1263,road,Route 1263,ทางหลวงแผ่นดินหมายเลข 1263,,,38.1,230,25,harvested,medium,False,https://nanobotco.github.io/mae-hong-son-loop/road/route-1263/
 chiang-mai,town,Chiang Mai,เชียงใหม่,18.7883,98.9853,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/town/chiang-mai/
 hot,town,Hot,ฮอด,18.1447,98.5847,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/town/hot/
 khun-yuam,town,Khun Yuam,ขุนยวม,18.8228,97.9336,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/town/khun-yuam/
@@ -97,7 +97,7 @@ gasohol,term,Gasohol 91 and 95,แก๊สโซฮอล์ 91 และ 95,,,
 hairpin,term,Hairpin,โค้งหักศอก,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/term/hairpin/
 pm25,term,PM2.5,ฝุ่น PM2.5,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/term/pm25/
 songthaew,term,Songthaew,สองแถว,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/term/songthaew/
-how-many-curves,story,"How many curves, actually",โค้งกี่โค้งกันแน่,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/story/how-many-curves/
+how-many-curves,story,"1,864 curves","1,864 โค้ง",,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/story/how-many-curves/
 how-old-is-this-ride,story,How old is this ride,ทริปนี้เก่าแค่ไหน,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/story/how-old-is-this-ride/
 kayan-question,story,The villages that charge admission,หมู่บ้านที่เก็บค่าเข้า,,,,,,cited,low,True,https://nanobotco.github.io/mae-hong-son-loop/story/kayan-question/
 season-and-direction,story,The season picks the direction,ฤดูกาลเป็นคนเลือกทิศ,,,,,,inference,medium,True,https://nanobotco.github.io/mae-hong-son-loop/story/season-and-direction/
@@ -106,5 +106,5 @@ ten-minutes,story,The ten minutes after you stop,สิบนาทีหลั�
 the-smoke,story,The smoke,ควันไฟ,,,,,,harvested,high,False,https://nanobotco.github.io/mae-hong-son-loop/story/the-smoke/
 which-bike,story,Every bike goes up there,รถทุกแบบขึ้นไปได้,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/story/which-bike/
 which-way-round,story,Clockwise or counter-clockwise,ตามเข็มหรือทวนเข็ม,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/story/which-way-round/
-the-1864-sign,art,"The 1,864 sign","ป้าย 1,864 โค้ง",,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/art/the-1864-sign/
+the-1864-sign,art,"The 1,864 sign","ป้าย 1,864 โค้ง",,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/art/the-1864-sign/
 the-kilometre-stone,art,The kilometre stone,หลักกิโลเมตร,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/art/the-kilometre-stone/

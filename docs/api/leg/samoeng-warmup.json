@@ -16,11 +16,11 @@
  },
  "text": {
   "what": "Chiang Mai to Mae Rim, Route 1096 to Samoeng, and back. A day. Not part of the loop.",
-  "story": "*Inference —* this is the single most useful thing on this site for a rider who is not sure, and it costs a day.\n\nMeasured off OSM, Route 1096 carries **4.46 curves a kilometre** over its 29.8-kilometre run — the densest road measured anywhere on this network, ahead of Route 1095's 4.03. So the Samoeng day is the same riding in miniature, an hour from a city with a hospital, on the bike you have just rented, with your luggage still in the room.\n\nWhat it tells you: whether the rental is sound, whether the brakes fade, whether your wrists last, whether a pillion enjoys it, and whether four days of this is a holiday or an ordeal. Anyone who finishes it tired and happy should go. Anyone who finishes it tired and quiet has learned something worth a day."
+  "story": "*Inference —* this is the single most useful thing on this site for a rider who is not sure, and it costs a day.\n\nMeasured off OSM, Route 1096 carries **6.34 curves a kilometre** over its 29.8-kilometre run — the densest road measured anywhere on this network, against Route 1095's 5.71. So the Samoeng day is the same riding in miniature, an hour from a city with a hospital, on the bike you have just rented, with your luggage still in the room.\n\nWhat it tells you: whether the rental is sound, whether the brakes fade, whether your wrists last, whether a pillion enjoys it, and whether four days of this is a holiday or an ordeal. Anyone who finishes it tired and happy should go. Anyone who finishes it tired and quiet has learned something worth a day."
  },
  "text_th": {
   "what": "เชียงใหม่ไปแม่ริม ทางหลวง 1096 ไปสะเมิง แล้ววนกลับ ใช้เวลาหนึ่งวัน ไม่ได้เป็นส่วนหนึ่งของวงรอบ",
-  "story": "*อนุมาน —* นี่คือสิ่งที่มีประโยชน์ที่สุดในเว็บนี้สำหรับคนขี่ที่ยังไม่แน่ใจ และราคาของมันคือหนึ่งวัน\n\nเมื่อวัดจาก OSM ทางหลวง 1096 มี **4.46 โค้งต่อกิโลเมตร** ตลอดระยะ 29.8 กิโลเมตร หนาแน่นที่สุดในเครือข่ายนี้ นำหน้าทางหลวง 1095 ที่ 4.03 วันสะเมิงจึงเป็นของจริงแบบย่อส่วน ห่างจากเมืองที่มีโรงพยาบาลหนึ่งชั่วโมง บนรถที่เพิ่งเช่ามา โดยที่สัมภาระยังอยู่ในห้อง\n\nสิ่งที่มันบอกคุณ รถเช่าสภาพดีไหม เบรกเฟดไหม ข้อมือคุณทนได้ไหม คนซ้อนสนุกไหม และสี่วันแบบนี้จะเป็นวันหยุดหรือเป็นการทรมาน ใครที่จบวันนี้แบบเหนื่อยและมีความสุข ควรไป ใครที่จบแบบเหนื่อยและเงียบ ได้เรียนรู้บางอย่างที่คุ้มค่าหนึ่งวัน"
+  "story": "*อนุมาน —* นี่คือสิ่งที่มีประโยชน์ที่สุดในเว็บนี้สำหรับคนขี่ที่ยังไม่แน่ใจ และราคาของมันคือหนึ่งวัน\n\nเมื่อวัดจาก OSM ทางหลวง 1096 มี **6.34 โค้งต่อกิโลเมตร** ตลอดระยะ 29.8 กิโลเมตร หนาแน่นที่สุดในเครือข่ายนี้ เทียบกับทางหลวง 1095 ที่ 5.71 วันสะเมิงจึงเป็นของจริงแบบย่อส่วน ห่างจากเมืองที่มีโรงพยาบาลหนึ่งชั่วโมง บนรถที่เพิ่งเช่ามา โดยที่สัมภาระยังอยู่ในห้อง\n\nสิ่งที่มันบอกคุณ รถเช่าสภาพดีไหม เบรกเฟดไหม ข้อมือคุณทนได้ไหม คนซ้อนสนุกไหม และสี่วันแบบนี้จะเป็นวันหยุดหรือเป็นการทรมาน ใครที่จบวันนี้แบบเหนื่อยและมีความสุข ควรไป ใครที่จบแบบเหนื่อยและเงียบ ได้เรียนรู้บางอย่างที่คุ้มค่าหนึ่งวัน"
  },
  "route": {
   "roads": [
@@ -33,7 +33,7 @@
   "km": 100,
   "hours": "4–5",
   "hours_big": "3.5",
-  "curves": 130,
+  "curves": 189,
   "hairpins": 19,
   "cw": "Either way round. That is rather the point of a rehearsal.",
   "ccw": "Either way round.",

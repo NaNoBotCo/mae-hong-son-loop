@@ -16,7 +16,7 @@
  },
  "text": {
   "what": "Mae Rim to Samoeng, ridden as a day loop out of Chiang Mai and back. Not part of the Mae Hong Son circuit, and the best possible preparation for it.",
-  "story": "*Inference —* the case for riding this first is strong and almost nobody makes it. Measured off OSM the stitched run is 29.8 kilometres carrying 130 curves at a 25-degree threshold with 19 hairpins — **4.46 curves a kilometre, the densest road measured on this whole network**, ahead of Route 1095's 4.03.\n\nSo it is the same riding, in a day, from a hotel you are already in, on a bike you have just rented, with Chiang Mai an hour away if something is wrong. A rider who finds the Samoeng loop tiring has learned something very cheap about what four days of it would be."
+  "story": "*Inference —* the case for riding this first is strong and almost nobody makes it. Measured off OSM the stitched run is 29.8 kilometres carrying 130 curves at a 25-degree threshold with 19 hairpins — **6.34 curves a kilometre, the densest road measured on this whole network**, against Route 1095's 5.71.\n\nSo it is the same riding, in a day, from a hotel you are already in, on a bike you have just rented, with Chiang Mai an hour away if something is wrong. A rider who finds the Samoeng loop tiring has learned something very cheap about what four days of it would be."
  },
  "text_th": {
   "what": "แม่ริมไปสะเมิง ขี่เป็นวงรอบหนึ่งวันออกจากเชียงใหม่แล้ววนกลับ ไม่ได้เป็นส่วนหนึ่งของวงรอบแม่ฮ่องสอน และเป็นการเตรียมตัวที่ดีที่สุดเท่าที่จะทำได้",
@@ -32,7 +32,7 @@
   "to_th": "สะเมิง",
   "km": 29.8,
   "km_source": "s:mhs-measured",
-  "curves": 130,
+  "curves": 189,
   "hairpins": 19,
   "line": [
    [
@@ -148,8 +148,8 @@
   {
    "from": "how-many-curves",
    "type": "story",
-   "name": "How many curves, actually",
-   "as": "The Samoeng road: the same curve density, 100 km from your hotel."
+   "name": "1,864 curves",
+   "as": "Densest of all, and an hour from Chiang Mai."
   },
   {
    "from": "small-bike-more-fun",

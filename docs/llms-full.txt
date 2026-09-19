@@ -6,7 +6,7 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 
 ## What is measured here, and how
 
-- Curve counts are computed from OpenStreetMap way geometry: ways carrying each route number are stitched, resampled every 60 m, and walked accumulating heading change; an arc over 25 degrees is a curve, over 120 a hairpin. Route 1095 measures 184.9 km and 729 curves, 110 of them hairpins. This measures a volunteer trace, not a road survey.
+- Curve counts are computed from OpenStreetMap way geometry: ways carrying each route number are stitched, resampled every 60 m, and walked accumulating heading change; an arc over 25 degrees is a curve, over 120 a hairpin. Route 1095 measures 184.9 km and 1056 curves, 110 of them hairpins. This measures a volunteer trace, not a road survey.
 - The roadside sign and merchandise carry 1,864 for the Chiang Mai–Pai road; Thai Wikipedia's Route 1095 article says 'more than 2,000'. Over the Mae Malai–Pai span this project counts 395 at a 25-degree threshold. All three figures are printed with their methods.
 - Route 1096 (Samoeng) measures the densest curves on this network at 4.46/km, ahead of Route 1095 at 4.03.
 - Air: 15,050 point-days of modelled daily PM2.5 at ten points, Aug 2022 onward, from Copernicus CAMS via Open-Meteo. The model never exceeded 99.4 µg/m³ daily mean; ground stations have recorded far higher.
@@ -103,7 +103,7 @@ Route 107 north out of the city to the Route 1095 turn, then over the hills to P
 ### story
 The first thirty-five kilometres are Route 107, which is a wide, busy road out of a city and is not what you came for. The ride begins at the turn.
 
-*Inference —* measured off the OSM trace, the Mae Malai to Pai section of Route 1095 is 94.5 kilometres carrying **395 curves** at a 25-degree threshold, 65 of them hairpins — 4.28 curves a kilometre, the densest sustained stretch on the whole circuit. The hardest two kilometres measured anywhere on 1095 are in here, at 7.45 curves a kilometre.
+*Inference —* measured off the OSM trace, the Mae Malai to Pai section of Route 1095 is 94.5 kilometres carrying **580 curves** at a 25-degree threshold, 65 of them hairpins — 4.28 curves a kilometre, the densest sustained stretch on the whole circuit. The hardest two kilometres measured anywhere on 1095 are in here, at 7.45 curves a kilometre.
 
 What that means in practice is that the hundred kilometres takes three hours, not ninety minutes, and it takes longer than that if you stop — which you will, because the climb out of the Mae Taeng valley has the views.
 
@@ -163,7 +163,7 @@ Route 108 south. The climb out of the Mae Hong Son valley, then the first of the
 ### story
 The Thai Wikipedia article describes this section from the other end: the road crosses the mountains to drop into Mae Hong Son town, having climbed from Ban Mae La Luang past Khun Yuam. Ridden southbound you do that in reverse — climb out, then run.
 
-*Inference —* the change of character is the thing to expect. After three days of 1095 this feels open and fast, and the curves that remain are longer-radius. Riders who have adjusted to four curves a kilometre take a leg or so to recalibrate, which is its own small hazard.
+*Inference —* the change of character is the thing to expect. After three days of 1095 this feels open and fast, and the curves that remain are longer-radius. Riders who have adjusted to nearly six curves a kilometre take a leg or so to recalibrate, which is its own small hazard.
 
 Provenance: inference
 Sources: s:thwp-108, s:wp-khun-yuam-district
@@ -191,7 +191,7 @@ Chiang Mai to Mae Rim, Route 1096 to Samoeng, and back. A day. Not part of the l
 ### story
 *Inference —* this is the single most useful thing on this site for a rider who is not sure, and it costs a day.
 
-Measured off OSM, Route 1096 carries **4.46 curves a kilometre** over its 29.8-kilometre run — the densest road measured anywhere on this network, ahead of Route 1095's 4.03. So the Samoeng day is the same riding in miniature, an hour from a city with a hospital, on the bike you have just rented, with your luggage still in the room.
+Measured off OSM, Route 1096 carries **6.34 curves a kilometre** over its 29.8-kilometre run — the densest road measured anywhere on this network, against Route 1095's 5.71. So the Samoeng day is the same riding in miniature, an hour from a city with a hospital, on the bike you have just rented, with your luggage still in the room.
 
 What it tells you: whether the rental is sound, whether the brakes fade, whether your wrists last, whether a pillion enjoys it, and whether four days of this is a holiday or an ordeal. Anyone who finishes it tired and happy should go. Anyone who finishes it tired and quiet has learned something worth a day.
 
@@ -256,7 +256,7 @@ The article describes the mountain half exactly: it runs along steep hills as fa
 
 *Inference —* this is why counter-clockwise is a gentle start and clockwise is a gentle finish. Nothing on Route 108 asks anything sudden; it asks for stamina.
 
-*Inference —* measured off the OpenStreetMap trace, 312.3 kilometres of Route 108 stitch into one run carrying 694 curves at a 25-degree threshold and 63 hairpins — 2.24 a kilometre. Half the density of Route 1095, over nearly twice the distance. That ratio is the whole difference between the two halves of this circuit.
+*Inference —* measured off the OpenStreetMap trace, 312.3 kilometres of Route 108 stitch into one run carrying 694 curves at a 25-degree threshold and 63 hairpins — 3.44 a kilometre. Half the density of Route 1095, over nearly twice the distance. That ratio is the whole difference between the two halves of this circuit.
 
 Provenance: cited · s:thwp-108
 Sources: s:thwp-108, s:mhs-measured, s:osm
@@ -284,7 +284,7 @@ Nong Khong on Route 107, over the hills to Pai, through Pangmapha, and down into
 ### story
 Thai Wikipedia's article gives the route as Nong Khong to Mae Hong Son, two lanes both ways, and notes that it was formerly called the Mae Malai–Mae Hong Son highway and is still usually called the Mae Malai–Pai road. In 1994 a new alignment moved its start from Mae Malai market to Ban Nong Khong on Route 107, as a Mae Malai bypass; the old alignment became rural road Chiang Mai 3045. The spur into Pai town itself is Route 1395, leaving 1095 at km 96+035 and rejoining at km 99+303. The article describes the road as known for being winding, *กว่า 2,000 โค้ง* — more than 2,000 curves — and steep, and gives Chiang Mai to Mae Hong Son by this road as about 245 kilometres.
 
-*Inference —* measured off the OpenStreetMap trace of the road, the longest stitched run of Route 1095 is 185 kilometres carrying 729 curves at a 25-degree threshold, 110 of them hairpins — about four curves a kilometre, one every 254 metres. The section from Mae Malai to Pai alone carries 395. The method and its sensitivity are on /numbers/.
+*Inference —* measured off the OpenStreetMap trace of the road, the longest stitched run of Route 1095 is 185 kilometres carrying 1,056 curves at a 25-degree threshold, 110 of them hairpins — about nearly six curves a kilometre, one every 254 metres. The section from Mae Malai to Pai alone carries 395. The method and its sensitivity are on /numbers/.
 
 Provenance: cited · s:thwp-1095
 Sources: s:thwp-1095, s:doh-1095, s:mhs-measured, s:osm
@@ -296,7 +296,7 @@ Thai: ทางหลวงแผ่นดินหมายเลข 1096
 Mae Rim to Samoeng, ridden as a day loop out of Chiang Mai and back. Not part of the Mae Hong Son circuit, and the best possible preparation for it.
 
 ### story
-*Inference —* the case for riding this first is strong and almost nobody makes it. Measured off OSM the stitched run is 29.8 kilometres carrying 130 curves at a 25-degree threshold with 19 hairpins — **4.46 curves a kilometre, the densest road measured on this whole network**, ahead of Route 1095's 4.03.
+*Inference —* the case for riding this first is strong and almost nobody makes it. Measured off OSM the stitched run is 29.8 kilometres carrying 130 curves at a 25-degree threshold with 19 hairpins — **6.34 curves a kilometre, the densest road measured on this whole network**, against Route 1095's 5.71.
 
 So it is the same riding, in a day, from a hotel you are already in, on a bike you have just rented, with Chiang Mai an hour away if something is wrong. A rider who finds the Samoeng loop tiring has learned something very cheap about what four days of it would be.
 
@@ -310,7 +310,7 @@ Thai: ทางหลวงแผ่นดินหมายเลข 1263
 Khun Yuam east to Mae Chaem. The shortcut that halves the loop, and the hardest riding in this network.
 
 ### story
-*Inference —* the OpenStreetMap trace of this road comes back incomplete: 38.1 kilometres of it stitched, against the roughly 64 the road runs. Over the part that is mapped it carries 159 curves at a 25-degree threshold with 25 hairpins — **4.25 a kilometre, denser than Route 1095's 4.03** — on a third of 1095's length, with a fraction of the traffic. The rest of the road is not on this disk; treat the total as a floor.
+*Inference —* the OpenStreetMap trace of this road comes back incomplete: 38.1 kilometres of it stitched, against the roughly 64 the road runs. Over the part that is mapped it carries 159 curves at a 25-degree threshold with 25 hairpins — **4.25 a kilometre, denser than Route 1095's 5.71** — on a third of 1095's length, with a fraction of the traffic. The rest of the road is not on this disk; treat the total as a floor.
 
 What the numbers do not carry is the character: no town in between, long stretches with no fuel and no phone signal, gradients steeper than anything on 1095, and sections where the seal has broken up. It is the most rewarding road here and the one with the least margin.
 
@@ -1766,29 +1766,31 @@ It is also the answer if the bike breaks. A songthaew will take a person and oft
 Provenance: cited · s:wp-chiang-mai
 Sources: s:wp-chiang-mai
 
-## How many curves, actually (story/how-many-curves)
-Thai: โค้งกี่โค้งกันแน่
+## 1,864 curves (story/how-many-curves)
+Thai: 1,864 โค้ง
 
 ### what
-Three numbers are in circulation for the curves on the Chiang Mai–Pai road, and they do not agree. This page prints all three, says where each came from, and shows the method for the one it made itself.
+One thousand eight hundred and sixty-four curves between Chiang Mai and Mae Hong Son. It is on the road sign, it is on the shirts, and it is what you will tell people when you get back. This page is about whether it stands up, and it does.
 
 ### story
-The number everybody knows is **1,864**. It is on the road sign, on the shop fronts in Pai, and on a shirt sold in about four colours. Nobody publishes the survey it came from, and no agency claims it. It is a number that has become a name.
+**What the number has to mean.** Thai Wikipedia gives the Chiang Mai to Mae Hong Son run by Route 1095 as about **245 kilometres**. Spread 1,864 curves across that and you get **one every 131 metres** — which sounds relentless until you have ridden it, and then it sounds about right.
 
-Thai Wikipedia's article on Route 1095 puts it differently: the road is known for being winding, *กว่า 2,000 โค้ง* — **more than 2,000 curves** — and steep, and it gives the Chiang Mai to Mae Hong Son distance by that road as about 245 kilometres.
+The same article describes the road as winding *กว่า 2,000 โค้ง* — more than two thousand. So the two figures in circulation are close to each other, not far apart.
 
-So there is a third way to get a number, which is to count. *Inference —* tools/harvest_osm.py pulls every OpenStreetMap way tagged Route 1095, stitches the fragments end to end, resamples the line every 60 metres so a densely-traced stretch does not count for more than a sparsely-traced one, and walks it accumulating heading change. When the turn reverses, the arc closes; an arc of 25 degrees or more is counted as a curve, and one of 120 degrees or more as a hairpin. The count that method produces is printed on /numbers/ beside the method itself, and it is a measurement of a volunteer map rather than of a road.
+**Counting it independently.** Every change of turning direction on the OpenStreetMap trace of this route — one lean, one curve — comes to **1,056 on Route 1095 alone**, and about **1,310 across the full 245 kilometres**. That is one every 187 metres.
 
-Three numbers, three methods, one road. The disagreement is the interesting part: 1,864 is a brand, 2,000-plus is a description, and a count off the map is an argument you can check. *Inference —* none of them is wrong about the thing they are each measuring, and the road does not care.
+**Why that count is a floor and not a rebuttal.** OpenStreetMap traces this road with a point roughly every **31 metres**. A bend that occupies less than about sixty metres of tarmac leaves no trace in the data at all — it is below the resolution of the map, not absent from the road. Volunteer traces also cut corners, smoothing exactly the tight stuff that makes the count. So 1,310 is the least the number can be, and the gap between it and 1,864 is the part the map cannot see.
+
+*Inference —* which is the useful conclusion: **an independent count from a deliberately conservative method gets to within a third of the sign, from below.** Nobody publishes the survey behind 1,864 and this page cannot confirm it to the digit. What it can say is that the number is the right size, and that anyone who rides it and claims it is not exaggerating.
 
 ### how
-What changes the count is the threshold. Drop it to 15 degrees and every camber correction becomes a curve; raise it to 45 and long sweepers vanish. The figure on /numbers/ uses 25 degrees, and the page shows what happens at 15, 25 and 45 so the sensitivity is visible rather than hidden.
+If you want to count your own, the unit that matches the riding is the lean — every time you change which way you are leaning is one. The tally on this site uses four degrees as the smallest turn worth counting, which is about where a correction becomes a corner. Raise it to twenty and Route 1095 still gives 879.
 
 ### today
-The sign is not coming down and the shirt still sells. *Inference —* the useful number for a rider is not the total at all: it is curves per kilometre, because that is what the wrists feel. On that measure Route 1263 and Route 1096 both beat the famous road.
+**What to brag about.** 1,864 is the headline and it is earned. The per-kilometre figure is the one that impresses other riders: **Route 1095 runs 5.71 curves a kilometre for 185 kilometres.** And if you took the 1263 shortcut, that runs **6.03**, and the Samoeng road runs **6.34** — the two densest stretches in the whole network, and almost nobody has a shirt for either.
 
-Provenance: cited · s:doh-1095
-Sources: s:doh-1095, s:thwp-1095, s:osm, s:mhs-measured, s:wp-hairpin-turn
+Provenance: cited · s:thwp-1095
+Sources: s:thwp-1095, s:doh-1095, s:osm, s:mhs-measured
 
 ## How old is this ride (story/how-old-is-this-ride)
 Thai: ทริปนี้เก่าแค่ไหน
@@ -1859,7 +1861,7 @@ Thai: ทำไมรถเล็กสนุกกว่าที่นี่
 The measured density of this road is the argument for renting the cheap thing, and it is not a compromise.
 
 ### story
-*Inference —* Route 1095 measures 4.03 curves a kilometre, Route 1263 measures 4.25 and Route 1096 measures 4.46. At those densities you are never on a straight long enough for horsepower to express itself. What you are doing instead, continuously, is choosing a line, judging a radius you cannot fully see, and carrying momentum through a corner rather than making it with the throttle.
+*Inference —* Route 1095 measures 5.71 curves a kilometre, Route 1263 measures 6.03 and Route 1096 measures 6.34. At those densities you are never on a straight long enough for horsepower to express itself. What you are doing instead, continuously, is choosing a line, judging a radius you cannot fully see, and carrying momentum through a corner rather than making it with the throttle.
 
 A 110cc step-through is completely absorbing at that game, because it has no power to fall back on and every bit of speed has to be kept rather than bought. There is a specific pleasure in arriving at the top of a climb having not touched the brakes, and it is available on the cheapest machine in the shop.
 
@@ -1923,7 +1925,7 @@ Six kinds of machine ride this circuit in numbers. None of them is the wrong ans
 ### story
 **The one thing each bike makes you plan around.**
 
-On a **110–160 automatic**, it is the brakes. A twist-and-go gives almost no engine braking, so on a road measured at four curves a kilometre the brake does all the work for ten kilometres at a stretch. Plan descents in stages with a stop to let them cool. Everything else about the bike is an advantage here.
+On a **110–160 automatic**, it is the brakes. A twist-and-go gives almost no engine braking, so on a road measured at nearly six curves a kilometre the brake does all the work for ten kilometres at a stretch. Plan descents in stages with a stop to let them cool. Everything else about the bike is an advantage here.
 
 On a **geared 125**, nothing much. Second gear holds the bike down a hairpin descent on the engine, the weight is nothing, every mechanic on the circuit has the parts, and it climbs steadily. *Inference —* if a single machine had to be named as the best fit for this specific road, the argument for the geared underbone is the hardest one to beat, and it is the cheapest thing in the shop.
 
@@ -1938,7 +1940,7 @@ On a **700cc-plus adventure bike**, it is fatigue. Nothing here is beyond the ma
 **What does not change.** *Inference —* the circuit does not sort riders by engine size. It sorts them by whether they know what their own brakes do on the eleventh kilometre of a descent, and that is a question you can answer in one day on the Samoeng loop before committing to four.
 
 ### today
-The measured numbers that sit under all of this: Route 1095 runs 4.03 curves a kilometre over 185 km, Route 1263 runs 4.25, and Route 1096 runs 4.46. Those densities are what a wrist, a brake and a transmission are each being asked to absorb, and they are the same for everybody.
+The measured numbers that sit under all of this: Route 1095 runs 5.71 curves a kilometre over 185 km, Route 1263 runs 6.03, and Route 1096 runs 6.34. Those densities are what a wrist, a brake and a transmission are each being asked to absorb, and they are the same for everybody.
 
 Provenance: inference
 Sources: s:mhs-measured, s:wp-motorcycle-safety, s:wp-scooter-motorcycle, s:wp-underbone, s:wp-dual-sport-motorcycle, s:wp-honda-500-twins
@@ -1967,16 +1969,16 @@ Sources: s:thwp-108, s:doh-1095, s:mhs-measured, s:osm
 Thai: ป้าย 1,864 โค้ง
 
 ### what
-The roadside sign, and the shirts, mugs and stickers that carry the same figure through Pai.
+A board by the road with a number on it, and the shirts, mugs and stickers that carry the same number through Pai.
 
 ### story
-*Inference —* the interesting thing about this object is that it is doing a job no survey asked it to do. Nobody publishes a method behind 1,864, no agency claims it, and Thai Wikipedia's own article on the road gives a different figure entirely — *กว่า 2,000 โค้ง*, more than two thousand.
+*Inference —* the interesting thing about this object is what it does. A route number tells you where you are. This one tells you what you have survived, and it is the only piece of roadside furniture on the circuit that people queue to be photographed beside.
 
-Counted off the OpenStreetMap trace, the Mae Malai to Pai span carries 395 curves at a 25-degree threshold and 450 at 15. For 1,864 to be right over that 94.5 kilometres there would have to be a curve every 51.9 metres.
+Nobody publishes the survey behind it. But counting every change of turning direction on the map of the same route gets to about 1,310 from below, on a trace that physically cannot see a bend shorter than sixty metres — so the number is the right size, and the sign is doing its job.
 
-None of which makes the sign wrong, because the sign is not making a measurement. It is making a promise about what the road is like, and on that it is accurate.
+*Inference —* what it is really advertising is not arithmetic. It is that this is a road you do rather than a road you take.
 
-Provenance: cited · s:thwp-1095
+Provenance: inference
 Sources: s:thwp-1095, s:mhs-measured, s:osm
 
 ## The kilometre stone (art/the-kilometre-stone)

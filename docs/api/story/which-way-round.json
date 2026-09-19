@@ -102,12 +102,6 @@
    "as": "Whether you know the bike decides the direction."
   },
   {
-   "from": "how-many-curves",
-   "type": "story",
-   "name": "How many curves, actually",
-   "as": "The other argument this road starts."
-  },
-  {
    "from": "season-and-direction",
    "type": "story",
    "name": "The season picks the direction",

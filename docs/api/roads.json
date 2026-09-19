@@ -2274,9 +2274,9 @@
 ]
 ]
 ],
-"curves": 729,
+"curves": 1056,
 "hairpins": 110,
-"per_km": 4.03,
+"per_km": 5.71,
 "density": [
 {
 "from": [
@@ -2292,10 +2292,10 @@
 97.99675
 ],
 "km": 2.03,
-"curves": 2,
+"curves": 7,
 "hairpins": 0,
-"per_km": 0.98,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -2311,10 +2311,10 @@
 98.00353
 ],
 "km": 2.02,
-"curves": 12,
+"curves": 15,
 "hairpins": 3,
-"per_km": 5.93,
-"band": "hard"
+"per_km": 7.42,
+"band": "relentless"
 },
 {
 "from": [
@@ -2330,9 +2330,9 @@
 98.00799
 ],
 "km": 2.05,
-"curves": 10,
+"curves": 12,
 "hairpins": 0,
-"per_km": 4.89,
+"per_km": 5.87,
 "band": "hard"
 },
 {
@@ -2349,10 +2349,10 @@
 98.02051
 ],
 "km": 2.0,
-"curves": 6,
+"curves": 10,
 "hairpins": 1,
-"per_km": 2.99,
-"band": "busy"
+"per_km": 4.99,
+"band": "hard"
 },
 {
 "from": [
@@ -2368,10 +2368,10 @@
 98.02627
 ],
 "km": 2.02,
-"curves": 10,
+"curves": 15,
 "hairpins": 0,
-"per_km": 4.95,
-"band": "hard"
+"per_km": 7.43,
+"band": "relentless"
 },
 {
 "from": [
@@ -2387,10 +2387,10 @@
 98.03494
 ],
 "km": 2.02,
-"curves": 8,
+"curves": 11,
 "hairpins": 0,
-"per_km": 3.97,
-"band": "busy"
+"per_km": 5.46,
+"band": "hard"
 },
 {
 "from": [
@@ -2425,9 +2425,9 @@
 98.06359
 ],
 "km": 2.02,
-"curves": 6,
+"curves": 7,
 "hairpins": 0,
-"per_km": 2.97,
+"per_km": 3.46,
 "band": "busy"
 },
 {
@@ -2444,10 +2444,10 @@
 98.07516
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 9,
 "hairpins": 1,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 4.43,
+"band": "hard"
 },
 {
 "from": [
@@ -2463,10 +2463,10 @@
 98.08811
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 3.45,
+"band": "busy"
 },
 {
 "from": [
@@ -2482,9 +2482,9 @@
 98.0955
 ],
 "km": 2.06,
-"curves": 6,
+"curves": 8,
 "hairpins": 2,
-"per_km": 2.91,
+"per_km": 3.89,
 "band": "busy"
 },
 {
@@ -2501,9 +2501,9 @@
 98.10841
 ],
 "km": 2.0,
-"curves": 6,
+"curves": 7,
 "hairpins": 2,
-"per_km": 2.99,
+"per_km": 3.49,
 "band": "busy"
 },
 {
@@ -2520,10 +2520,10 @@
 98.12119
 ],
 "km": 2.05,
-"curves": 11,
+"curves": 14,
 "hairpins": 0,
-"per_km": 5.36,
-"band": "hard"
+"per_km": 6.83,
+"band": "relentless"
 },
 {
 "from": [
@@ -2539,9 +2539,9 @@
 98.13601
 ],
 "km": 2.04,
-"curves": 10,
+"curves": 12,
 "hairpins": 1,
-"per_km": 4.9,
+"per_km": 5.88,
 "band": "hard"
 },
 {
@@ -2558,9 +2558,9 @@
 98.14251
 ],
 "km": 2.03,
-"curves": 10,
+"curves": 12,
 "hairpins": 1,
-"per_km": 4.93,
+"per_km": 5.91,
 "band": "hard"
 },
 {
@@ -2577,10 +2577,10 @@
 98.15412
 ],
 "km": 2.0,
-"curves": 7,
+"curves": 12,
 "hairpins": 2,
-"per_km": 3.5,
-"band": "busy"
+"per_km": 5.99,
+"band": "hard"
 },
 {
 "from": [
@@ -2596,10 +2596,10 @@
 98.16716
 ],
 "km": 2.02,
-"curves": 4,
+"curves": 11,
 "hairpins": 1,
-"per_km": 1.98,
-"band": "gentle"
+"per_km": 5.44,
+"band": "hard"
 },
 {
 "from": [
@@ -2615,10 +2615,10 @@
 98.18358
 ],
 "km": 2.03,
-"curves": 8,
+"curves": 9,
 "hairpins": 0,
-"per_km": 3.95,
-"band": "busy"
+"per_km": 4.44,
+"band": "hard"
 },
 {
 "from": [
@@ -2634,10 +2634,10 @@
 98.19656
 ],
 "km": 2.02,
-"curves": 8,
+"curves": 11,
 "hairpins": 1,
-"per_km": 3.97,
-"band": "busy"
+"per_km": 5.46,
+"band": "hard"
 },
 {
 "from": [
@@ -2653,10 +2653,10 @@
 98.20649
 ],
 "km": 2.04,
-"curves": 9,
+"curves": 13,
 "hairpins": 2,
-"per_km": 4.4,
-"band": "hard"
+"per_km": 6.36,
+"band": "relentless"
 },
 {
 "from": [
@@ -2672,10 +2672,10 @@
 98.2209
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.95,
+"band": "busy"
 },
 {
 "from": [
@@ -2691,10 +2691,10 @@
 98.23491
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 5,
 "hairpins": 0,
-"per_km": 1.96,
-"band": "gentle"
+"per_km": 2.46,
+"band": "busy"
 },
 {
 "from": [
@@ -2710,10 +2710,10 @@
 98.2484
 ],
 "km": 2.03,
-"curves": 3,
+"curves": 5,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.46,
+"band": "busy"
 },
 {
 "from": [
@@ -2729,9 +2729,9 @@
 98.26535
 ],
 "km": 2.03,
-"curves": 6,
+"curves": 8,
 "hairpins": 0,
-"per_km": 2.96,
+"per_km": 3.95,
 "band": "busy"
 },
 {
@@ -2748,10 +2748,10 @@
 98.27461
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 12,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 5.92,
+"band": "hard"
 },
 {
 "from": [
@@ -2767,10 +2767,10 @@
 98.28695
 ],
 "km": 2.03,
-"curves": 8,
+"curves": 11,
 "hairpins": 0,
-"per_km": 3.95,
-"band": "busy"
+"per_km": 5.43,
+"band": "hard"
 },
 {
 "from": [
@@ -2786,9 +2786,9 @@
 98.29229
 ],
 "km": 2.03,
-"curves": 6,
+"curves": 7,
 "hairpins": 0,
-"per_km": 2.96,
+"per_km": 3.45,
 "band": "busy"
 },
 {
@@ -2824,10 +2824,10 @@
 98.30404
 ],
 "km": 2.02,
-"curves": 7,
+"curves": 11,
 "hairpins": 3,
-"per_km": 3.46,
-"band": "busy"
+"per_km": 5.44,
+"band": "hard"
 },
 {
 "from": [
@@ -2843,10 +2843,10 @@
 98.30613
 ],
 "km": 2.03,
-"curves": 11,
+"curves": 14,
 "hairpins": 4,
-"per_km": 5.41,
-"band": "hard"
+"per_km": 6.89,
+"band": "relentless"
 },
 {
 "from": [
@@ -2862,10 +2862,10 @@
 98.31231
 ],
 "km": 2.04,
-"curves": 9,
+"curves": 13,
 "hairpins": 2,
-"per_km": 4.41,
-"band": "hard"
+"per_km": 6.37,
+"band": "relentless"
 },
 {
 "from": [
@@ -2881,9 +2881,9 @@
 98.32243
 ],
 "km": 2.04,
-"curves": 9,
+"curves": 11,
 "hairpins": 2,
-"per_km": 4.42,
+"per_km": 5.4,
 "band": "hard"
 },
 {
@@ -2900,10 +2900,10 @@
 98.33311
 ],
 "km": 2.01,
-"curves": 11,
+"curves": 14,
 "hairpins": 3,
-"per_km": 5.47,
-"band": "hard"
+"per_km": 6.96,
+"band": "relentless"
 },
 {
 "from": [
@@ -2919,10 +2919,10 @@
 98.33931
 ],
 "km": 2.02,
-"curves": 7,
+"curves": 14,
 "hairpins": 3,
-"per_km": 3.47,
-"band": "busy"
+"per_km": 6.93,
+"band": "relentless"
 },
 {
 "from": [
@@ -2938,10 +2938,10 @@
 98.34984
 ],
 "km": 2.05,
-"curves": 8,
+"curves": 11,
 "hairpins": 1,
-"per_km": 3.91,
-"band": "busy"
+"per_km": 5.37,
+"band": "hard"
 },
 {
 "from": [
@@ -2957,10 +2957,10 @@
 98.36085
 ],
 "km": 2.01,
-"curves": 6,
+"curves": 11,
 "hairpins": 1,
-"per_km": 2.98,
-"band": "busy"
+"per_km": 5.46,
+"band": "hard"
 },
 {
 "from": [
@@ -2976,9 +2976,9 @@
 98.37881
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 6,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 2.95,
 "band": "busy"
 },
 {
@@ -2995,10 +2995,10 @@
 98.39613
 ],
 "km": 2.02,
-"curves": 7,
+"curves": 12,
 "hairpins": 0,
-"per_km": 3.47,
-"band": "busy"
+"per_km": 5.94,
+"band": "hard"
 },
 {
 "from": [
@@ -3014,9 +3014,9 @@
 98.40625
 ],
 "km": 2.03,
-"curves": 6,
+"curves": 7,
 "hairpins": 1,
-"per_km": 2.96,
+"per_km": 3.46,
 "band": "busy"
 },
 {
@@ -3033,9 +3033,9 @@
 98.41401
 ],
 "km": 2.02,
-"curves": 6,
+"curves": 8,
 "hairpins": 0,
-"per_km": 2.97,
+"per_km": 3.95,
 "band": "busy"
 },
 {
@@ -3052,9 +3052,9 @@
 98.42002
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 4,
 "hairpins": 0,
-"per_km": 1.47,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -3090,9 +3090,9 @@
 98.42625
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 4,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -3147,10 +3147,10 @@
 98.44427
 ],
 "km": 2.03,
-"curves": 3,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.48,
-"band": "gentle"
+"per_km": 3.45,
+"band": "busy"
 },
 {
 "from": [
@@ -3166,10 +3166,10 @@
 98.45627
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 8,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 3.93,
+"band": "busy"
 },
 {
 "from": [
@@ -3185,9 +3185,9 @@
 98.47107
 ],
 "km": 2.03,
-"curves": 6,
+"curves": 7,
 "hairpins": 0,
-"per_km": 2.96,
+"per_km": 3.45,
 "band": "busy"
 },
 {
@@ -3204,10 +3204,10 @@
 98.48119
 ],
 "km": 2.03,
-"curves": 6,
+"curves": 12,
 "hairpins": 0,
-"per_km": 2.96,
-"band": "busy"
+"per_km": 5.92,
+"band": "hard"
 },
 {
 "from": [
@@ -3223,10 +3223,10 @@
 98.49695
 ],
 "km": 2.01,
-"curves": 10,
+"curves": 16,
 "hairpins": 0,
-"per_km": 4.98,
-"band": "hard"
+"per_km": 7.96,
+"band": "relentless"
 },
 {
 "from": [
@@ -3242,9 +3242,9 @@
 98.50664
 ],
 "km": 2.02,
-"curves": 14,
+"curves": 18,
 "hairpins": 2,
-"per_km": 6.95,
+"per_km": 8.93,
 "band": "relentless"
 },
 {
@@ -3261,9 +3261,9 @@
 98.52009
 ],
 "km": 2.04,
-"curves": 13,
+"curves": 14,
 "hairpins": 3,
-"per_km": 6.38,
+"per_km": 6.87,
 "band": "relentless"
 },
 {
@@ -3280,10 +3280,10 @@
 98.53538
 ],
 "km": 2.05,
-"curves": 9,
+"curves": 13,
 "hairpins": 0,
-"per_km": 4.39,
-"band": "hard"
+"per_km": 6.34,
+"band": "relentless"
 },
 {
 "from": [
@@ -3299,10 +3299,10 @@
 98.55016
 ],
 "km": 2.04,
-"curves": 11,
+"curves": 15,
 "hairpins": 1,
-"per_km": 5.39,
-"band": "hard"
+"per_km": 7.34,
+"band": "relentless"
 },
 {
 "from": [
@@ -3318,9 +3318,9 @@
 98.56688
 ],
 "km": 2.02,
-"curves": 6,
+"curves": 7,
 "hairpins": 1,
-"per_km": 2.97,
+"per_km": 3.47,
 "band": "busy"
 },
 {
@@ -3337,10 +3337,10 @@
 98.58053
 ],
 "km": 2.02,
-"curves": 11,
+"curves": 14,
 "hairpins": 2,
-"per_km": 5.44,
-"band": "hard"
+"per_km": 6.92,
+"band": "relentless"
 },
 {
 "from": [
@@ -3356,10 +3356,10 @@
 98.59573
 ],
 "km": 2.02,
-"curves": 8,
+"curves": 14,
 "hairpins": 0,
-"per_km": 3.97,
-"band": "busy"
+"per_km": 6.94,
+"band": "relentless"
 },
 {
 "from": [
@@ -3375,10 +3375,10 @@
 98.60805
 ],
 "km": 2.05,
-"curves": 8,
+"curves": 14,
 "hairpins": 1,
-"per_km": 3.9,
-"band": "busy"
+"per_km": 6.83,
+"band": "relentless"
 },
 {
 "from": [
@@ -3394,10 +3394,10 @@
 98.62223
 ],
 "km": 2.01,
-"curves": 8,
+"curves": 10,
 "hairpins": 0,
-"per_km": 3.97,
-"band": "busy"
+"per_km": 4.96,
+"band": "hard"
 },
 {
 "from": [
@@ -3413,10 +3413,10 @@
 98.63408
 ],
 "km": 2.04,
-"curves": 10,
+"curves": 13,
 "hairpins": 1,
-"per_km": 4.91,
-"band": "hard"
+"per_km": 6.39,
+"band": "relentless"
 },
 {
 "from": [
@@ -3432,9 +3432,9 @@
 98.63852
 ],
 "km": 2.01,
-"curves": 15,
+"curves": 17,
 "hairpins": 2,
-"per_km": 7.45,
+"per_km": 8.45,
 "band": "relentless"
 },
 {
@@ -3451,10 +3451,10 @@
 98.64399
 ],
 "km": 2.01,
-"curves": 11,
+"curves": 13,
 "hairpins": 3,
-"per_km": 5.48,
-"band": "hard"
+"per_km": 6.48,
+"band": "relentless"
 },
 {
 "from": [
@@ -3470,10 +3470,10 @@
 98.65065
 ],
 "km": 2.01,
-"curves": 12,
+"curves": 14,
 "hairpins": 2,
-"per_km": 5.98,
-"band": "hard"
+"per_km": 6.97,
+"band": "relentless"
 },
 {
 "from": [
@@ -3489,10 +3489,10 @@
 98.65836
 ],
 "km": 2.03,
-"curves": 10,
+"curves": 15,
 "hairpins": 3,
-"per_km": 4.93,
-"band": "hard"
+"per_km": 7.4,
+"band": "relentless"
 },
 {
 "from": [
@@ -3508,10 +3508,10 @@
 98.66641
 ],
 "km": 2.04,
-"curves": 11,
+"curves": 13,
 "hairpins": 5,
-"per_km": 5.4,
-"band": "hard"
+"per_km": 6.39,
+"band": "relentless"
 },
 {
 "from": [
@@ -3527,9 +3527,9 @@
 98.67145
 ],
 "km": 2.05,
-"curves": 14,
+"curves": 18,
 "hairpins": 2,
-"per_km": 6.83,
+"per_km": 8.79,
 "band": "relentless"
 },
 {
@@ -3546,9 +3546,9 @@
 98.67059
 ],
 "km": 2.04,
-"curves": 9,
+"curves": 10,
 "hairpins": 6,
-"per_km": 4.41,
+"per_km": 4.9,
 "band": "hard"
 },
 {
@@ -3565,9 +3565,9 @@
 98.67004
 ],
 "km": 2.01,
-"curves": 10,
+"curves": 11,
 "hairpins": 0,
-"per_km": 4.97,
+"per_km": 5.46,
 "band": "hard"
 },
 {
@@ -3584,9 +3584,9 @@
 98.68311
 ],
 "km": 2.01,
-"curves": 10,
+"curves": 11,
 "hairpins": 0,
-"per_km": 4.98,
+"per_km": 5.48,
 "band": "hard"
 },
 {
@@ -3603,10 +3603,10 @@
 98.69201
 ],
 "km": 2.02,
-"curves": 4,
+"curves": 9,
 "hairpins": 0,
-"per_km": 1.98,
-"band": "gentle"
+"per_km": 4.46,
+"band": "hard"
 },
 {
 "from": [
@@ -3622,10 +3622,10 @@
 98.69141
 ],
 "km": 2.02,
-"curves": 8,
+"curves": 13,
 "hairpins": 0,
-"per_km": 3.95,
-"band": "busy"
+"per_km": 6.43,
+"band": "relentless"
 },
 {
 "from": [
@@ -3641,10 +3641,10 @@
 98.69402
 ],
 "km": 2.01,
-"curves": 9,
+"curves": 13,
 "hairpins": 0,
-"per_km": 4.47,
-"band": "hard"
+"per_km": 6.46,
+"band": "relentless"
 },
 {
 "from": [
@@ -3660,9 +3660,9 @@
 98.7012
 ],
 "km": 2.04,
-"curves": 9,
+"curves": 12,
 "hairpins": 2,
-"per_km": 4.41,
+"per_km": 5.88,
 "band": "hard"
 },
 {
@@ -3679,9 +3679,9 @@
 98.7073
 ],
 "km": 2.05,
-"curves": 10,
+"curves": 11,
 "hairpins": 2,
-"per_km": 4.88,
+"per_km": 5.37,
 "band": "hard"
 },
 {
@@ -3698,10 +3698,10 @@
 98.71706
 ],
 "km": 2.05,
-"curves": 10,
+"curves": 15,
 "hairpins": 1,
-"per_km": 4.89,
-"band": "hard"
+"per_km": 7.33,
+"band": "relentless"
 },
 {
 "from": [
@@ -3717,10 +3717,10 @@
 98.7337
 ],
 "km": 2.02,
-"curves": 7,
+"curves": 9,
 "hairpins": 1,
-"per_km": 3.47,
-"band": "busy"
+"per_km": 4.46,
+"band": "hard"
 },
 {
 "from": [
@@ -3736,10 +3736,10 @@
 98.74205
 ],
 "km": 2.05,
-"curves": 12,
+"curves": 13,
 "hairpins": 3,
-"per_km": 5.86,
-"band": "hard"
+"per_km": 6.35,
+"band": "relentless"
 },
 {
 "from": [
@@ -3755,9 +3755,9 @@
 98.7553
 ],
 "km": 2.01,
-"curves": 7,
+"curves": 8,
 "hairpins": 1,
-"per_km": 3.48,
+"per_km": 3.97,
 "band": "busy"
 },
 {
@@ -3774,10 +3774,10 @@
 98.77025
 ],
 "km": 2.05,
-"curves": 8,
+"curves": 10,
 "hairpins": 1,
-"per_km": 3.9,
-"band": "busy"
+"per_km": 4.87,
+"band": "hard"
 },
 {
 "from": [
@@ -3793,10 +3793,10 @@
 98.78468
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 8,
 "hairpins": 0,
-"per_km": 0.49,
-"band": "gentle"
+"per_km": 3.93,
+"band": "busy"
 },
 {
 "from": [
@@ -3812,10 +3812,10 @@
 98.80161
 ],
 "km": 2.04,
-"curves": 5,
+"curves": 9,
 "hairpins": 0,
-"per_km": 2.46,
-"band": "busy"
+"per_km": 4.42,
+"band": "hard"
 },
 {
 "from": [
@@ -3850,10 +3850,10 @@
 98.83404
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 5,
 "hairpins": 1,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 2.46,
+"band": "busy"
 },
 {
 "from": [
@@ -3869,10 +3869,10 @@
 98.84841
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.95,
+"band": "busy"
 },
 {
 "from": [
@@ -3888,9 +3888,9 @@
 98.86589
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 7,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 3.44,
 "band": "busy"
 },
 {
@@ -3907,10 +3907,10 @@
 98.88336
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 9,
 "hairpins": 0,
-"per_km": 1.96,
-"band": "gentle"
+"per_km": 4.42,
+"band": "hard"
 },
 {
 "from": [
@@ -3926,10 +3926,10 @@
 98.90066
 ],
 "km": 2.05,
-"curves": 4,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.96,
-"band": "gentle"
+"per_km": 2.93,
+"band": "busy"
 },
 {
 "from": [
@@ -3945,9 +3945,9 @@
 98.9097
 ],
 "km": 2.05,
-"curves": 0,
+"curves": 1,
 "hairpins": 0,
-"per_km": 0.0,
+"per_km": 0.49,
 "band": "gentle"
 },
 {
@@ -3964,9 +3964,9 @@
 98.92675
 ],
 "km": 2.04,
-"curves": 0,
+"curves": 1,
 "hairpins": 0,
-"per_km": 0.0,
+"per_km": 0.49,
 "band": "gentle"
 }
 ],
@@ -3982,29 +3982,30 @@
 "to_off_km": 1.3,
 "km": 51.5,
 "at_threshold": {
-"15": {
-"curves": 226,
-"per_km": 4.39
+"4": {
+"curves": 281,
+"per_km": 5.45
 },
-"25": {
-"curves": 190,
-"per_km": 3.69
+"6": {
+"curves": 271,
+"per_km": 5.26
 },
-"35": {
-"curves": 159,
-"per_km": 3.09
+"10": {
+"curves": 256,
+"per_km": 4.97
 },
-"45": {
-"curves": 135,
-"per_km": 2.62
+"20": {
+"curves": 229,
+"per_km": 4.44
 }
 },
-"threshold_used": 25,
-"curves": 190,
+"threshold_used": 4,
+"curves": 281,
 "hairpins": 27,
 "tight": 69,
-"per_km": 3.74,
-"metres_per_curve": 271.2
+"per_km": 5.45,
+"metres_per_curve": 183.4,
+"is_floor": true
 },
 {
 "from": "soppong",
@@ -4017,29 +4018,30 @@
 "to_off_km": 1.29,
 "km": 36.7,
 "at_threshold": {
-"15": {
-"curves": 159,
-"per_km": 4.33
+"4": {
+"curves": 197,
+"per_km": 5.37
 },
-"25": {
-"curves": 139,
-"per_km": 3.79
+"6": {
+"curves": 195,
+"per_km": 5.31
 },
-"35": {
-"curves": 112,
-"per_km": 3.05
+"10": {
+"curves": 185,
+"per_km": 5.04
 },
-"45": {
-"curves": 99,
-"per_km": 2.7
+"20": {
+"curves": 169,
+"per_km": 4.6
 }
 },
-"threshold_used": 25,
-"curves": 139,
+"threshold_used": 4,
+"curves": 197,
 "hairpins": 25,
 "tight": 52,
-"per_km": 3.87,
-"metres_per_curve": 264.1
+"per_km": 5.37,
+"metres_per_curve": 186.4,
+"is_floor": true
 },
 {
 "from": "pai",
@@ -4052,51 +4054,33 @@
 "to_off_km": 5.29,
 "km": 94.5,
 "at_threshold": {
-"15": {
-"curves": 450,
-"per_km": 4.76
+"4": {
+"curves": 580,
+"per_km": 6.14
 },
-"25": {
-"curves": 395,
-"per_km": 4.18
+"6": {
+"curves": 567,
+"per_km": 6.0
 },
-"35": {
-"curves": 336,
-"per_km": 3.56
+"10": {
+"curves": 542,
+"per_km": 5.74
 },
-"45": {
-"curves": 280,
-"per_km": 2.96
+"20": {
+"curves": 479,
+"per_km": 5.07
 }
 },
-"threshold_used": 25,
-"curves": 395,
+"threshold_used": 4,
+"curves": 580,
 "hairpins": 60,
 "tight": 155,
-"per_km": 4.28,
-"metres_per_curve": 239.2
+"per_km": 6.14,
+"metres_per_curve": 162.9,
+"is_floor": true
 }
 ],
 "hardest": [
-{
-"from": [
-19.26051,
-98.63883
-],
-"to": [
-19.24999,
-98.64207
-],
-"mid": [
-19.25404,
-98.63852
-],
-"km": 2.01,
-"curves": 15,
-"hairpins": 2,
-"per_km": 7.45,
-"band": "relentless"
-},
 {
 "from": [
 19.27106,
@@ -4111,9 +4095,9 @@
 98.50664
 ],
 "km": 2.02,
-"curves": 14,
+"curves": 18,
 "hairpins": 2,
-"per_km": 6.95,
+"per_km": 8.93,
 "band": "relentless"
 },
 {
@@ -4130,9 +4114,28 @@
 98.67145
 ],
 "km": 2.05,
-"curves": 14,
+"curves": 18,
 "hairpins": 2,
-"per_km": 6.83,
+"per_km": 8.79,
+"band": "relentless"
+},
+{
+"from": [
+19.26051,
+98.63883
+],
+"to": [
+19.24999,
+98.64207
+],
+"mid": [
+19.25404,
+98.63852
+],
+"km": 2.01,
+"curves": 17,
+"hairpins": 2,
+"per_km": 8.45,
 "band": "relentless"
 }
 ]
@@ -4462,9 +4465,9 @@
 ]
 ]
 ],
-"curves": 10,
+"curves": 25,
 "hairpins": 3,
-"per_km": 0.6,
+"per_km": 1.44,
 "density": [
 {
 "from": [
@@ -4480,9 +4483,9 @@
 98.95272
 ],
 "km": 2.0,
-"curves": 1,
+"curves": 3,
 "hairpins": 1,
-"per_km": 0.5,
+"per_km": 1.5,
 "band": "gentle"
 },
 {
@@ -4499,10 +4502,10 @@
 98.9595
 ],
 "km": 2.04,
-"curves": 0,
+"curves": 5,
 "hairpins": 0,
-"per_km": 0.0,
-"band": "gentle"
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
@@ -4518,9 +4521,9 @@
 98.95687
 ],
 "km": 2.03,
-"curves": 0,
+"curves": 3,
 "hairpins": 0,
-"per_km": 0.0,
+"per_km": 1.48,
 "band": "gentle"
 },
 {
@@ -4537,9 +4540,9 @@
 98.94988
 ],
 "km": 2.01,
-"curves": 1,
+"curves": 3,
 "hairpins": 1,
-"per_km": 0.5,
+"per_km": 1.49,
 "band": "gentle"
 },
 {
@@ -4575,9 +4578,9 @@
 98.94368
 ],
 "km": 2.02,
-"curves": 1,
+"curves": 4,
 "hairpins": 0,
-"per_km": 0.5,
+"per_km": 1.98,
 "band": "gentle"
 },
 {
@@ -4594,9 +4597,9 @@
 98.94129
 ],
 "km": 2.0,
-"curves": 2,
+"curves": 3,
 "hairpins": 0,
-"per_km": 1.0,
+"per_km": 1.5,
 "band": "gentle"
 },
 {
@@ -4613,69 +4616,69 @@
 98.94659
 ],
 "km": 2.02,
-"curves": 0,
+"curves": 6,
 "hairpins": 0,
-"per_km": 0.0,
-"band": "gentle"
+"per_km": 2.97,
+"band": "busy"
 }
 ],
 "spans": [],
 "hardest": [
 {
 "from": [
-18.92587,
-98.93945
-],
-"to": [
 18.91329,
 98.94569
 ],
-"mid": [
-18.92143,
-98.94129
+"to": [
+18.90935,
+98.94729
 ],
-"km": 2.0,
-"curves": 2,
+"mid": [
+18.91095,
+98.94659
+],
+"km": 2.02,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.0,
-"band": "gentle"
+"per_km": 2.97,
+"band": "busy"
 },
 {
 "from": [
-18.88551,
-98.95693
-],
-"to": [
 18.88992,
 98.95444
 ],
-"mid": [
-18.89372,
-98.95272
+"to": [
+18.8779,
+98.96183
 ],
-"km": 2.0,
-"curves": 1,
-"hairpins": 1,
-"per_km": 0.5,
-"band": "gentle"
+"mid": [
+18.88165,
+98.9595
+],
+"km": 2.04,
+"curves": 5,
+"hairpins": 0,
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
-18.89406,
-98.95304
+18.90946,
+98.94716
 ],
 "to": [
-18.90143,
-98.95031
+18.92587,
+98.93945
 ],
 "mid": [
-18.90237,
-98.94988
+18.91781,
+98.94368
 ],
-"km": 2.01,
-"curves": 1,
-"hairpins": 1,
-"per_km": 0.5,
+"km": 2.02,
+"curves": 4,
+"hairpins": 0,
+"per_km": 1.98,
 "band": "gentle"
 }
 ]
@@ -7851,9 +7854,9 @@
 ]
 ]
 ],
-"curves": 694,
+"curves": 1075,
 "hairpins": 63,
-"per_km": 2.24,
+"per_km": 3.44,
 "density": [
 {
 "from": [
@@ -7869,9 +7872,9 @@
 98.66224
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 2,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 0.98,
 "band": "gentle"
 },
 {
@@ -7888,9 +7891,9 @@
 98.67259
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 2,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 0.98,
 "band": "gentle"
 },
 {
@@ -7907,9 +7910,9 @@
 98.68009
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 3,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 1.47,
 "band": "gentle"
 },
 {
@@ -7926,10 +7929,10 @@
 98.68013
 ],
 "km": 2.04,
-"curves": 0,
+"curves": 5,
 "hairpins": 0,
-"per_km": 0.0,
-"band": "gentle"
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
@@ -7945,9 +7948,9 @@
 98.67869
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 4,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -7964,9 +7967,9 @@
 98.67689
 ],
 "km": 2.04,
-"curves": 2,
+"curves": 3,
 "hairpins": 0,
-"per_km": 0.98,
+"per_km": 1.47,
 "band": "gentle"
 },
 {
@@ -8002,9 +8005,9 @@
 98.68673
 ],
 "km": 2.03,
-"curves": 0,
+"curves": 3,
 "hairpins": 0,
-"per_km": 0.0,
+"per_km": 1.48,
 "band": "gentle"
 },
 {
@@ -8021,10 +8024,10 @@
 98.68489
 ],
 "km": 2.04,
-"curves": 0,
+"curves": 5,
 "hairpins": 0,
-"per_km": 0.0,
-"band": "gentle"
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
@@ -8040,10 +8043,10 @@
 98.67685
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.96,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -8059,9 +8062,9 @@
 98.67799
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 3,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 1.47,
 "band": "gentle"
 },
 {
@@ -8078,9 +8081,9 @@
 98.6795
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 3,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 1.47,
 "band": "gentle"
 },
 {
@@ -8097,10 +8100,10 @@
 98.68011
 ],
 "km": 2.04,
-"curves": 0,
+"curves": 5,
 "hairpins": 0,
-"per_km": 0.0,
-"band": "gentle"
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
@@ -8116,9 +8119,9 @@
 98.68018
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 4,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -8135,9 +8138,9 @@
 98.6702
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 2,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 0.98,
 "band": "gentle"
 },
 {
@@ -8154,10 +8157,10 @@
 98.66082
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 5,
 "hairpins": 0,
-"per_km": 0.49,
-"band": "gentle"
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
@@ -8173,9 +8176,9 @@
 98.64502
 ],
 "km": 2.04,
-"curves": 2,
+"curves": 4,
 "hairpins": 0,
-"per_km": 0.98,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -8192,9 +8195,9 @@
 98.6406
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 4,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -8211,10 +8214,10 @@
 98.63648
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 5,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
@@ -8230,10 +8233,10 @@
 98.62246
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 5,
 "hairpins": 0,
-"per_km": 1.96,
-"band": "gentle"
+"per_km": 2.46,
+"band": "busy"
 },
 {
 "from": [
@@ -8249,10 +8252,10 @@
 98.60797
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 5,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
@@ -8268,10 +8271,10 @@
 98.60856
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.94,
+"band": "busy"
 },
 {
 "from": [
@@ -8287,9 +8290,9 @@
 98.6152
 ],
 "km": 2.0,
-"curves": 0,
+"curves": 2,
 "hairpins": 0,
-"per_km": 0.0,
+"per_km": 1.0,
 "band": "gentle"
 },
 {
@@ -8306,10 +8309,10 @@
 98.61335
 ],
 "km": 2.05,
-"curves": 3,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.46,
-"band": "gentle"
+"per_km": 2.92,
+"band": "busy"
 },
 {
 "from": [
@@ -8325,9 +8328,9 @@
 98.60148
 ],
 "km": 2.04,
-"curves": 2,
+"curves": 4,
 "hairpins": 0,
-"per_km": 0.98,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -8344,9 +8347,9 @@
 98.5929
 ],
 "km": 2.02,
-"curves": 6,
+"curves": 7,
 "hairpins": 1,
-"per_km": 2.97,
+"per_km": 3.46,
 "band": "busy"
 },
 {
@@ -8363,10 +8366,10 @@
 98.58047
 ],
 "km": 2.03,
-"curves": 3,
+"curves": 11,
 "hairpins": 0,
-"per_km": 1.48,
-"band": "gentle"
+"per_km": 5.42,
+"band": "hard"
 },
 {
 "from": [
@@ -8401,10 +8404,10 @@
 98.54991
 ],
 "km": 2.03,
-"curves": 6,
+"curves": 10,
 "hairpins": 0,
-"per_km": 2.95,
-"band": "busy"
+"per_km": 4.92,
+"band": "hard"
 },
 {
 "from": [
@@ -8420,10 +8423,10 @@
 98.53147
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 14,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 6.89,
+"band": "relentless"
 },
 {
 "from": [
@@ -8439,10 +8442,10 @@
 98.51362
 ],
 "km": 2.03,
-"curves": 3,
+"curves": 15,
 "hairpins": 0,
-"per_km": 1.48,
-"band": "gentle"
+"per_km": 7.38,
+"band": "relentless"
 },
 {
 "from": [
@@ -8458,9 +8461,9 @@
 98.49611
 ],
 "km": 2.03,
-"curves": 6,
+"curves": 7,
 "hairpins": 0,
-"per_km": 2.96,
+"per_km": 3.45,
 "band": "busy"
 },
 {
@@ -8477,10 +8480,10 @@
 98.47901
 ],
 "km": 2.03,
-"curves": 9,
+"curves": 14,
 "hairpins": 0,
-"per_km": 4.44,
-"band": "hard"
+"per_km": 6.91,
+"band": "relentless"
 },
 {
 "from": [
@@ -8496,9 +8499,9 @@
 98.46052
 ],
 "km": 2.04,
-"curves": 5,
+"curves": 6,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 2.95,
 "band": "busy"
 },
 {
@@ -8515,10 +8518,10 @@
 98.44518
 ],
 "km": 2.03,
-"curves": 7,
+"curves": 9,
 "hairpins": 0,
-"per_km": 3.45,
-"band": "busy"
+"per_km": 4.44,
+"band": "hard"
 },
 {
 "from": [
@@ -8534,10 +8537,10 @@
 98.44877
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 9,
 "hairpins": 0,
-"per_km": 2.47,
-"band": "busy"
+"per_km": 4.44,
+"band": "hard"
 },
 {
 "from": [
@@ -8591,10 +8594,10 @@
 98.43639
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -8629,10 +8632,10 @@
 98.40621
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -8648,9 +8651,9 @@
 98.38784
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 4,
 "hairpins": 0,
-"per_km": 1.47,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -8686,9 +8689,9 @@
 98.35958
 ],
 "km": 2.04,
-"curves": 0,
+"curves": 1,
 "hairpins": 0,
-"per_km": 0.0,
+"per_km": 0.49,
 "band": "gentle"
 },
 {
@@ -8705,9 +8708,9 @@
 98.3411
 ],
 "km": 2.04,
-"curves": 2,
+"curves": 4,
 "hairpins": 0,
-"per_km": 0.98,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -8724,9 +8727,9 @@
 98.3256
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 6,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 2.95,
 "band": "busy"
 },
 {
@@ -8743,10 +8746,10 @@
 98.30984
 ],
 "km": 2.04,
-"curves": 2,
+"curves": 6,
 "hairpins": 0,
-"per_km": 0.98,
-"band": "gentle"
+"per_km": 2.95,
+"band": "busy"
 },
 {
 "from": [
@@ -8762,10 +8765,10 @@
 98.29233
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.96,
-"band": "gentle"
+"per_km": 2.95,
+"band": "busy"
 },
 {
 "from": [
@@ -8781,9 +8784,9 @@
 98.27968
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 6,
 "hairpins": 1,
-"per_km": 2.46,
+"per_km": 2.95,
 "band": "busy"
 },
 {
@@ -8800,10 +8803,10 @@
 98.26695
 ],
 "km": 2.03,
-"curves": 3,
+"curves": 5,
 "hairpins": 2,
-"per_km": 1.48,
-"band": "gentle"
+"per_km": 2.47,
+"band": "busy"
 },
 {
 "from": [
@@ -8819,10 +8822,10 @@
 98.25247
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 5,
 "hairpins": 0,
-"per_km": 1.96,
-"band": "gentle"
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
@@ -8857,10 +8860,10 @@
 98.22774
 ],
 "km": 2.04,
-"curves": 2,
+"curves": 7,
 "hairpins": 0,
-"per_km": 0.98,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -8876,10 +8879,10 @@
 98.21477
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -8895,9 +8898,9 @@
 98.20261
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 6,
 "hairpins": 1,
-"per_km": 2.46,
+"per_km": 2.95,
 "band": "busy"
 },
 {
@@ -8914,9 +8917,9 @@
 98.18692
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 8,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 3.94,
 "band": "busy"
 },
 {
@@ -8933,10 +8936,10 @@
 98.17239
 ],
 "km": 2.03,
-"curves": 6,
+"curves": 9,
 "hairpins": 0,
-"per_km": 2.95,
-"band": "busy"
+"per_km": 4.43,
+"band": "hard"
 },
 {
 "from": [
@@ -8952,10 +8955,10 @@
 98.1586
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 7,
 "hairpins": 1,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 3.45,
+"band": "busy"
 },
 {
 "from": [
@@ -8971,9 +8974,9 @@
 98.14106
 ],
 "km": 2.03,
-"curves": 7,
+"curves": 8,
 "hairpins": 0,
-"per_km": 3.44,
+"per_km": 3.93,
 "band": "busy"
 },
 {
@@ -9009,9 +9012,9 @@
 98.1141
 ],
 "km": 2.03,
-"curves": 3,
+"curves": 4,
 "hairpins": 1,
-"per_km": 1.48,
+"per_km": 1.97,
 "band": "gentle"
 },
 {
@@ -9028,9 +9031,9 @@
 98.10088
 ],
 "km": 2.03,
-"curves": 3,
+"curves": 4,
 "hairpins": 0,
-"per_km": 1.48,
+"per_km": 1.97,
 "band": "gentle"
 },
 {
@@ -9066,10 +9069,10 @@
 98.07701
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 5,
 "hairpins": 1,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.46,
+"band": "busy"
 },
 {
 "from": [
@@ -9123,9 +9126,9 @@
 98.04971
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 6,
 "hairpins": 1,
-"per_km": 2.46,
+"per_km": 2.96,
 "band": "busy"
 },
 {
@@ -9142,9 +9145,9 @@
 98.03569
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 6,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 2.95,
 "band": "busy"
 },
 {
@@ -9161,9 +9164,9 @@
 98.02502
 ],
 "km": 2.04,
-"curves": 6,
+"curves": 8,
 "hairpins": 0,
-"per_km": 2.95,
+"per_km": 3.93,
 "band": "busy"
 },
 {
@@ -9180,10 +9183,10 @@
 98.01199
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 2.95,
+"band": "busy"
 },
 {
 "from": [
@@ -9199,9 +9202,9 @@
 97.9942
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 4,
 "hairpins": 0,
-"per_km": 1.47,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -9237,10 +9240,10 @@
 97.96707
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.95,
+"band": "busy"
 },
 {
 "from": [
@@ -9275,9 +9278,9 @@
 97.93694
 ],
 "km": 2.04,
-"curves": 2,
+"curves": 4,
 "hairpins": 0,
-"per_km": 0.98,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -9294,9 +9297,9 @@
 97.93492
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 2,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 0.98,
 "band": "gentle"
 },
 {
@@ -9313,10 +9316,10 @@
 97.93772
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 5,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 2.46,
+"band": "busy"
 },
 {
 "from": [
@@ -9332,9 +9335,9 @@
 97.93931
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 4,
 "hairpins": 0,
-"per_km": 1.47,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -9351,9 +9354,9 @@
 97.9448
 ],
 "km": 2.04,
-"curves": 0,
+"curves": 4,
 "hairpins": 0,
-"per_km": 0.0,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -9370,9 +9373,9 @@
 97.94333
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 4,
 "hairpins": 0,
-"per_km": 1.47,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -9389,10 +9392,10 @@
 97.94163
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -9408,9 +9411,9 @@
 97.93722
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 7,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 3.44,
 "band": "busy"
 },
 {
@@ -9427,9 +9430,9 @@
 97.92429
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 7,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 3.45,
 "band": "busy"
 },
 {
@@ -9446,9 +9449,9 @@
 97.91919
 ],
 "km": 2.03,
-"curves": 3,
+"curves": 4,
 "hairpins": 0,
-"per_km": 1.47,
+"per_km": 1.97,
 "band": "gentle"
 },
 {
@@ -9465,9 +9468,9 @@
 97.90788
 ],
 "km": 2.04,
-"curves": 2,
+"curves": 3,
 "hairpins": 0,
-"per_km": 0.98,
+"per_km": 1.47,
 "band": "gentle"
 },
 {
@@ -9484,9 +9487,9 @@
 97.91372
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 2,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 0.98,
 "band": "gentle"
 },
 {
@@ -9503,9 +9506,9 @@
 97.92793
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 7,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 3.44,
 "band": "busy"
 },
 {
@@ -9522,9 +9525,9 @@
 97.93014
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 7,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 3.44,
 "band": "busy"
 },
 {
@@ -9541,10 +9544,10 @@
 97.94103
 ],
 "km": 2.02,
-"curves": 4,
+"curves": 5,
 "hairpins": 1,
-"per_km": 1.98,
-"band": "gentle"
+"per_km": 2.48,
+"band": "busy"
 },
 {
 "from": [
@@ -9560,10 +9563,10 @@
 97.93796
 ],
 "km": 2.06,
-"curves": 2,
+"curves": 5,
 "hairpins": 1,
-"per_km": 0.97,
-"band": "gentle"
+"per_km": 2.43,
+"band": "busy"
 },
 {
 "from": [
@@ -9579,10 +9582,10 @@
 97.9421
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 5,
 "hairpins": 1,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 2.46,
+"band": "busy"
 },
 {
 "from": [
@@ -9617,10 +9620,10 @@
 97.9432
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 2.95,
+"band": "busy"
 },
 {
 "from": [
@@ -9655,9 +9658,9 @@
 97.93792
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 2,
 "hairpins": 0,
-"per_km": 0.49,
+"per_km": 0.98,
 "band": "gentle"
 },
 {
@@ -9674,10 +9677,10 @@
 97.93996
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 5,
 "hairpins": 0,
-"per_km": 1.96,
-"band": "gentle"
+"per_km": 2.46,
+"band": "busy"
 },
 {
 "from": [
@@ -9750,10 +9753,10 @@
 97.93694
 ],
 "km": 2.04,
-"curves": 6,
+"curves": 11,
 "hairpins": 1,
-"per_km": 2.94,
-"band": "busy"
+"per_km": 5.39,
+"band": "hard"
 },
 {
 "from": [
@@ -9769,10 +9772,10 @@
 97.93725
 ],
 "km": 2.02,
-"curves": 12,
+"curves": 13,
 "hairpins": 6,
-"per_km": 5.93,
-"band": "hard"
+"per_km": 6.42,
+"band": "relentless"
 },
 {
 "from": [
@@ -9788,10 +9791,10 @@
 97.93457
 ],
 "km": 2.02,
-"curves": 6,
+"curves": 14,
 "hairpins": 1,
-"per_km": 2.97,
-"band": "busy"
+"per_km": 6.93,
+"band": "relentless"
 },
 {
 "from": [
@@ -9807,10 +9810,10 @@
 97.9253
 ],
 "km": 2.04,
-"curves": 8,
+"curves": 13,
 "hairpins": 0,
-"per_km": 3.92,
-"band": "busy"
+"per_km": 6.37,
+"band": "relentless"
 },
 {
 "from": [
@@ -9826,9 +9829,9 @@
 97.93645
 ],
 "km": 2.05,
-"curves": 9,
+"curves": 10,
 "hairpins": 1,
-"per_km": 4.39,
+"per_km": 4.88,
 "band": "hard"
 },
 {
@@ -9845,10 +9848,10 @@
 97.94129
 ],
 "km": 2.02,
-"curves": 12,
+"curves": 13,
 "hairpins": 3,
-"per_km": 5.94,
-"band": "hard"
+"per_km": 6.44,
+"band": "relentless"
 },
 {
 "from": [
@@ -9864,10 +9867,10 @@
 97.94232
 ],
 "km": 2.03,
-"curves": 7,
+"curves": 9,
 "hairpins": 1,
-"per_km": 3.45,
-"band": "busy"
+"per_km": 4.44,
+"band": "hard"
 },
 {
 "from": [
@@ -9883,10 +9886,10 @@
 97.94342
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 11,
 "hairpins": 0,
-"per_km": 2.46,
-"band": "busy"
+"per_km": 5.42,
+"band": "hard"
 },
 {
 "from": [
@@ -9902,9 +9905,9 @@
 97.94657
 ],
 "km": 2.02,
-"curves": 9,
+"curves": 10,
 "hairpins": 0,
-"per_km": 4.45,
+"per_km": 4.94,
 "band": "hard"
 },
 {
@@ -9921,9 +9924,9 @@
 97.94065
 ],
 "km": 2.01,
-"curves": 9,
+"curves": 11,
 "hairpins": 0,
-"per_km": 4.47,
+"per_km": 5.46,
 "band": "hard"
 },
 {
@@ -9940,10 +9943,10 @@
 97.93085
 ],
 "km": 2.02,
-"curves": 8,
+"curves": 10,
 "hairpins": 0,
-"per_km": 3.95,
-"band": "busy"
+"per_km": 4.94,
+"band": "hard"
 },
 {
 "from": [
@@ -9959,10 +9962,10 @@
 97.92722
 ],
 "km": 2.03,
-"curves": 8,
+"curves": 12,
 "hairpins": 0,
-"per_km": 3.94,
-"band": "busy"
+"per_km": 5.91,
+"band": "hard"
 },
 {
 "from": [
@@ -9978,10 +9981,10 @@
 97.91951
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -9997,10 +10000,10 @@
 97.91693
 ],
 "km": 2.02,
-"curves": 6,
+"curves": 9,
 "hairpins": 0,
-"per_km": 2.97,
-"band": "busy"
+"per_km": 4.45,
+"band": "hard"
 },
 {
 "from": [
@@ -10016,10 +10019,10 @@
 97.90862
 ],
 "km": 2.03,
-"curves": 3,
+"curves": 8,
 "hairpins": 0,
-"per_km": 1.48,
-"band": "gentle"
+"per_km": 3.94,
+"band": "busy"
 },
 {
 "from": [
@@ -10035,10 +10038,10 @@
 97.91554
 ],
 "km": 2.04,
-"curves": 2,
+"curves": 7,
 "hairpins": 0,
-"per_km": 0.98,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -10054,10 +10057,10 @@
 97.92699
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 12,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 5.9,
+"band": "hard"
 },
 {
 "from": [
@@ -10073,9 +10076,9 @@
 97.93206
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 4,
 "hairpins": 0,
-"per_km": 1.47,
+"per_km": 1.96,
 "band": "gentle"
 },
 {
@@ -10092,10 +10095,10 @@
 97.94043
 ],
 "km": 2.06,
-"curves": 6,
+"curves": 11,
 "hairpins": 1,
-"per_km": 2.92,
-"band": "busy"
+"per_km": 5.35,
+"band": "hard"
 },
 {
 "from": [
@@ -10111,10 +10114,10 @@
 97.93856
 ],
 "km": 2.01,
-"curves": 7,
+"curves": 10,
 "hairpins": 1,
-"per_km": 3.48,
-"band": "busy"
+"per_km": 4.97,
+"band": "hard"
 },
 {
 "from": [
@@ -10130,10 +10133,10 @@
 97.93102
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.95,
+"band": "busy"
 },
 {
 "from": [
@@ -10168,10 +10171,10 @@
 97.93667
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -10187,10 +10190,10 @@
 97.94341
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -10225,10 +10228,10 @@
 97.94164
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.96,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -10244,10 +10247,10 @@
 97.93119
 ],
 "km": 2.06,
-"curves": 7,
+"curves": 10,
 "hairpins": 0,
-"per_km": 3.41,
-"band": "busy"
+"per_km": 4.87,
+"band": "hard"
 },
 {
 "from": [
@@ -10263,9 +10266,9 @@
 97.93583
 ],
 "km": 2.05,
-"curves": 9,
+"curves": 10,
 "hairpins": 3,
-"per_km": 4.39,
+"per_km": 4.88,
 "band": "hard"
 },
 {
@@ -10282,10 +10285,10 @@
 97.94849
 ],
 "km": 2.01,
-"curves": 7,
+"curves": 11,
 "hairpins": 1,
-"per_km": 3.48,
-"band": "busy"
+"per_km": 5.47,
+"band": "hard"
 },
 {
 "from": [
@@ -10301,10 +10304,10 @@
 97.95451
 ],
 "km": 2.01,
-"curves": 6,
+"curves": 14,
 "hairpins": 0,
-"per_km": 2.98,
-"band": "busy"
+"per_km": 6.96,
+"band": "relentless"
 },
 {
 "from": [
@@ -10320,10 +10323,10 @@
 97.9579
 ],
 "km": 2.0,
-"curves": 8,
+"curves": 11,
 "hairpins": 0,
-"per_km": 3.99,
-"band": "busy"
+"per_km": 5.49,
+"band": "hard"
 },
 {
 "from": [
@@ -10339,10 +10342,10 @@
 97.96651
 ],
 "km": 2.04,
-"curves": 8,
+"curves": 11,
 "hairpins": 4,
-"per_km": 3.93,
-"band": "busy"
+"per_km": 5.41,
+"band": "hard"
 },
 {
 "from": [
@@ -10358,10 +10361,10 @@
 97.96905
 ],
 "km": 2.02,
-"curves": 6,
+"curves": 10,
 "hairpins": 1,
-"per_km": 2.98,
-"band": "busy"
+"per_km": 4.96,
+"band": "hard"
 },
 {
 "from": [
@@ -10377,10 +10380,10 @@
 97.96969
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 9,
 "hairpins": 0,
-"per_km": 2.46,
-"band": "busy"
+"per_km": 4.43,
+"band": "hard"
 },
 {
 "from": [
@@ -10396,10 +10399,10 @@
 97.97375
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 9,
 "hairpins": 0,
-"per_km": 2.46,
-"band": "busy"
+"per_km": 4.43,
+"band": "hard"
 },
 {
 "from": [
@@ -10415,10 +10418,10 @@
 97.97288
 ],
 "km": 2.02,
-"curves": 6,
+"curves": 10,
 "hairpins": 0,
-"per_km": 2.97,
-"band": "busy"
+"per_km": 4.95,
+"band": "hard"
 },
 {
 "from": [
@@ -10434,9 +10437,9 @@
 97.98257
 ],
 "km": 2.02,
-"curves": 9,
+"curves": 10,
 "hairpins": 0,
-"per_km": 4.47,
+"per_km": 4.96,
 "band": "hard"
 },
 {
@@ -10453,10 +10456,10 @@
 97.98827
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 9,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 4.42,
+"band": "hard"
 },
 {
 "from": [
@@ -10472,10 +10475,10 @@
 97.99459
 ],
 "km": 2.03,
-"curves": 7,
+"curves": 10,
 "hairpins": 0,
-"per_km": 3.45,
-"band": "busy"
+"per_km": 4.93,
+"band": "hard"
 },
 {
 "from": [
@@ -10491,9 +10494,9 @@
 97.99324
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 7,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 3.45,
 "band": "busy"
 },
 {
@@ -10510,10 +10513,10 @@
 97.99116
 ],
 "km": 2.02,
-"curves": 8,
+"curves": 9,
 "hairpins": 0,
-"per_km": 3.96,
-"band": "busy"
+"per_km": 4.45,
+"band": "hard"
 },
 {
 "from": [
@@ -10529,10 +10532,10 @@
 97.99582
 ],
 "km": 2.06,
-"curves": 8,
+"curves": 13,
 "hairpins": 1,
-"per_km": 3.89,
-"band": "busy"
+"per_km": 6.32,
+"band": "relentless"
 },
 {
 "from": [
@@ -10548,10 +10551,10 @@
 97.99111
 ],
 "km": 2.02,
-"curves": 7,
+"curves": 9,
 "hairpins": 1,
-"per_km": 3.47,
-"band": "busy"
+"per_km": 4.46,
+"band": "hard"
 },
 {
 "from": [
@@ -10567,10 +10570,10 @@
 97.99327
 ],
 "km": 2.04,
-"curves": 12,
+"curves": 14,
 "hairpins": 2,
-"per_km": 5.87,
-"band": "hard"
+"per_km": 6.85,
+"band": "relentless"
 },
 {
 "from": [
@@ -10586,10 +10589,10 @@
 97.99253
 ],
 "km": 2.02,
-"curves": 5,
+"curves": 9,
 "hairpins": 0,
-"per_km": 2.47,
-"band": "busy"
+"per_km": 4.45,
+"band": "hard"
 },
 {
 "from": [
@@ -10605,10 +10608,10 @@
 97.99172
 ],
 "km": 2.01,
-"curves": 7,
+"curves": 10,
 "hairpins": 1,
-"per_km": 3.48,
-"band": "busy"
+"per_km": 4.97,
+"band": "hard"
 },
 {
 "from": [
@@ -10624,10 +10627,10 @@
 97.98848
 ],
 "km": 2.04,
-"curves": 10,
+"curves": 13,
 "hairpins": 4,
-"per_km": 4.91,
-"band": "hard"
+"per_km": 6.39,
+"band": "relentless"
 },
 {
 "from": [
@@ -10662,9 +10665,9 @@
 97.98281
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 6,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 2.95,
 "band": "busy"
 },
 {
@@ -10681,10 +10684,10 @@
 97.97326
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 5,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
@@ -10700,10 +10703,10 @@
 97.96913
 ],
 "km": 2.04,
-"curves": 2,
+"curves": 5,
 "hairpins": 0,
-"per_km": 0.98,
-"band": "gentle"
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
@@ -10719,10 +10722,10 @@
 97.97206
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -10738,10 +10741,10 @@
 97.96528
 ],
 "km": 2.04,
-"curves": 4,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.96,
-"band": "gentle"
+"per_km": 2.95,
+"band": "busy"
 },
 {
 "from": [
@@ -10757,9 +10760,9 @@
 97.95794
 ],
 "km": 1.19,
-"curves": 1,
+"curves": 2,
 "hairpins": 0,
-"per_km": 0.84,
+"per_km": 1.69,
 "band": "gentle"
 }
 ],
@@ -10775,29 +10778,30 @@
 "to_off_km": 5.7,
 "km": 33.6,
 "at_threshold": {
-"15": {
-"curves": 49,
-"per_km": 1.46
+"4": {
+"curves": 82,
+"per_km": 2.44
 },
-"25": {
-"curves": 30,
-"per_km": 0.89
+"6": {
+"curves": 76,
+"per_km": 2.26
 },
-"35": {
-"curves": 18,
-"per_km": 0.53
+"10": {
+"curves": 61,
+"per_km": 1.81
 },
-"45": {
-"curves": 7,
-"per_km": 0.21
+"20": {
+"curves": 44,
+"per_km": 1.31
 }
 },
-"threshold_used": 25,
-"curves": 30,
+"threshold_used": 4,
+"curves": 82,
 "hairpins": 0,
 "tight": 3,
-"per_km": 0.9,
-"metres_per_curve": 1121.6
+"per_km": 2.44,
+"metres_per_curve": 410.3,
+"is_floor": true
 },
 {
 "from": "hot",
@@ -10810,29 +10814,30 @@
 "to_off_km": 0.83,
 "km": 102.4,
 "at_threshold": {
-"15": {
-"curves": 281,
-"per_km": 2.74
+"4": {
+"curves": 333,
+"per_km": 3.25
 },
-"25": {
-"curves": 229,
-"per_km": 2.24
+"6": {
+"curves": 320,
+"per_km": 3.12
 },
-"35": {
-"curves": 169,
-"per_km": 1.65
+"10": {
+"curves": 296,
+"per_km": 2.89
 },
-"45": {
-"curves": 124,
-"per_km": 1.21
+"20": {
+"curves": 268,
+"per_km": 2.62
 }
 },
-"threshold_used": 25,
-"curves": 229,
+"threshold_used": 4,
+"curves": 333,
 "hairpins": 13,
 "tight": 55,
-"per_km": 2.24,
-"metres_per_curve": 447.2
+"per_km": 3.25,
+"metres_per_curve": 307.5,
+"is_floor": true
 },
 {
 "from": "mae-sariang",
@@ -10845,29 +10850,30 @@
 "to_off_km": 2.71,
 "km": 37.7,
 "at_threshold": {
-"15": {
-"curves": 80,
-"per_km": 2.12
+"4": {
+"curves": 86,
+"per_km": 2.28
 },
-"25": {
-"curves": 65,
-"per_km": 1.72
+"6": {
+"curves": 84,
+"per_km": 2.23
 },
-"35": {
-"curves": 50,
-"per_km": 1.33
+"10": {
+"curves": 81,
+"per_km": 2.15
 },
-"45": {
-"curves": 39,
-"per_km": 1.03
+"20": {
+"curves": 72,
+"per_km": 1.91
 }
 },
-"threshold_used": 25,
-"curves": 65,
+"threshold_used": 4,
+"curves": 86,
 "hairpins": 4,
 "tight": 18,
-"per_km": 1.73,
-"metres_per_curve": 579.9
+"per_km": 2.28,
+"metres_per_curve": 438.3,
+"is_floor": true
 },
 {
 "from": "mae-la-noi",
@@ -10880,29 +10886,30 @@
 "to_off_km": 0.16,
 "km": 57.3,
 "at_threshold": {
-"15": {
-"curves": 204,
-"per_km": 3.56
+"4": {
+"curves": 261,
+"per_km": 4.55
 },
-"25": {
-"curves": 173,
-"per_km": 3.02
+"6": {
+"curves": 253,
+"per_km": 4.41
 },
-"35": {
-"curves": 129,
-"per_km": 2.25
+"10": {
+"curves": 234,
+"per_km": 4.08
 },
-"45": {
-"curves": 104,
-"per_km": 1.81
+"20": {
+"curves": 196,
+"per_km": 3.42
 }
 },
-"threshold_used": 25,
-"curves": 173,
+"threshold_used": 4,
+"curves": 261,
 "hairpins": 22,
 "tight": 59,
-"per_km": 3.05,
-"metres_per_curve": 331.4
+"per_km": 4.55,
+"metres_per_curve": 219.7,
+"is_floor": true
 },
 {
 "from": "khun-yuam",
@@ -10915,88 +10922,89 @@
 "to_off_km": 2.22,
 "km": 65.1,
 "at_threshold": {
-"15": {
-"curves": 241,
-"per_km": 3.7
+"4": {
+"curves": 294,
+"per_km": 4.52
 },
-"25": {
-"curves": 201,
-"per_km": 3.09
+"6": {
+"curves": 287,
+"per_km": 4.41
 },
-"35": {
-"curves": 160,
-"per_km": 2.46
+"10": {
+"curves": 273,
+"per_km": 4.2
 },
-"45": {
-"curves": 117,
-"per_km": 1.8
+"20": {
+"curves": 236,
+"per_km": 3.63
 }
 },
-"threshold_used": 25,
-"curves": 201,
+"threshold_used": 4,
+"curves": 294,
 "hairpins": 26,
 "tight": 60,
-"per_km": 3.12,
-"metres_per_curve": 323.7
+"per_km": 4.52,
+"metres_per_curve": 221.3,
+"is_floor": true
 }
 ],
 "hardest": [
 {
 "from": [
-18.578,
-97.94202
+18.23134,
+98.52298
 ],
 "to": [
-18.59096,
-97.94289
+18.22785,
+98.50473
 ],
 "mid": [
-18.58449,
-97.94129
+18.22995,
+98.51362
 ],
-"km": 2.02,
-"curves": 12,
-"hairpins": 3,
-"per_km": 5.94,
-"band": "hard"
+"km": 2.03,
+"curves": 15,
+"hairpins": 0,
+"per_km": 7.38,
+"band": "relentless"
 },
 {
 "from": [
-18.54964,
-97.93395
+18.91628,
+97.95466
 ],
 "to": [
+18.93274,
+97.95558
+],
+"mid": [
+18.92427,
+97.95451
+],
+"km": 2.01,
+"curves": 14,
+"hairpins": 0,
+"per_km": 6.96,
+"band": "relentless"
+},
+{
+"from": [
 18.55672,
 97.94299
 ],
+"to": [
+18.55708,
+97.92517
+],
 "mid": [
-18.55362,
-97.93725
+18.55693,
+97.93457
 ],
 "km": 2.02,
-"curves": 12,
-"hairpins": 6,
-"per_km": 5.93,
-"band": "hard"
-},
-{
-"from": [
-19.12478,
-97.98993
-],
-"to": [
-19.13812,
-97.99591
-],
-"mid": [
-19.13217,
-97.99327
-],
-"km": 2.04,
-"curves": 12,
-"hairpins": 2,
-"per_km": 5.87,
-"band": "hard"
+"curves": 14,
+"hairpins": 1,
+"per_km": 6.93,
+"band": "relentless"
 }
 ]
 },
@@ -11479,9 +11487,9 @@
 ]
 ]
 ],
-"curves": 159,
+"curves": 230,
 "hairpins": 25,
-"per_km": 4.25,
+"per_km": 6.03,
 "density": [
 {
 "from": [
@@ -11497,10 +11505,10 @@
 98.1539
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.95,
+"band": "busy"
 },
 {
 "from": [
@@ -11516,10 +11524,10 @@
 98.15546
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 6,
 "hairpins": 1,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 2.96,
+"band": "busy"
 },
 {
 "from": [
@@ -11535,10 +11543,10 @@
 98.16874
 ],
 "km": 2.05,
-"curves": 8,
+"curves": 10,
 "hairpins": 3,
-"per_km": 3.89,
-"band": "busy"
+"per_km": 4.87,
+"band": "hard"
 },
 {
 "from": [
@@ -11554,9 +11562,9 @@
 98.18002
 ],
 "km": 2.06,
-"curves": 6,
+"curves": 7,
 "hairpins": 3,
-"per_km": 2.91,
+"per_km": 3.4,
 "band": "busy"
 },
 {
@@ -11573,10 +11581,10 @@
 98.18857
 ],
 "km": 2.06,
-"curves": 7,
+"curves": 15,
 "hairpins": 1,
-"per_km": 3.4,
-"band": "busy"
+"per_km": 7.3,
+"band": "relentless"
 },
 {
 "from": [
@@ -11592,10 +11600,10 @@
 98.20098
 ],
 "km": 2.05,
-"curves": 11,
+"curves": 13,
 "hairpins": 0,
-"per_km": 5.35,
-"band": "hard"
+"per_km": 6.33,
+"band": "relentless"
 },
 {
 "from": [
@@ -11611,10 +11619,10 @@
 98.21685
 ],
 "km": 2.04,
-"curves": 10,
+"curves": 13,
 "hairpins": 2,
-"per_km": 4.9,
-"band": "hard"
+"per_km": 6.37,
+"band": "relentless"
 },
 {
 "from": [
@@ -11630,9 +11638,9 @@
 98.22788
 ],
 "km": 2.04,
-"curves": 9,
+"curves": 11,
 "hairpins": 1,
-"per_km": 4.4,
+"per_km": 5.38,
 "band": "hard"
 },
 {
@@ -11649,9 +11657,9 @@
 98.24154
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 8,
 "hairpins": 0,
-"per_km": 2.46,
+"per_km": 3.94,
 "band": "busy"
 },
 {
@@ -11668,10 +11676,10 @@
 98.25486
 ],
 "km": 2.05,
-"curves": 11,
+"curves": 13,
 "hairpins": 0,
-"per_km": 5.36,
-"band": "hard"
+"per_km": 6.34,
+"band": "relentless"
 },
 {
 "from": [
@@ -11687,10 +11695,10 @@
 98.24712
 ],
 "km": 2.02,
-"curves": 7,
+"curves": 11,
 "hairpins": 0,
-"per_km": 3.46,
-"band": "busy"
+"per_km": 5.44,
+"band": "hard"
 },
 {
 "from": [
@@ -11706,9 +11714,9 @@
 98.26107
 ],
 "km": 2.0,
-"curves": 9,
+"curves": 11,
 "hairpins": 4,
-"per_km": 4.49,
+"per_km": 5.49,
 "band": "hard"
 },
 {
@@ -11725,10 +11733,10 @@
 98.271
 ],
 "km": 2.05,
-"curves": 11,
+"curves": 14,
 "hairpins": 2,
-"per_km": 5.38,
-"band": "hard"
+"per_km": 6.84,
+"band": "relentless"
 },
 {
 "from": [
@@ -11744,10 +11752,10 @@
 98.28409
 ],
 "km": 2.04,
-"curves": 8,
+"curves": 10,
 "hairpins": 1,
-"per_km": 3.92,
-"band": "busy"
+"per_km": 4.9,
+"band": "hard"
 },
 {
 "from": [
@@ -11763,9 +11771,9 @@
 98.29711
 ],
 "km": 2.05,
-"curves": 10,
+"curves": 12,
 "hairpins": 1,
-"per_km": 4.87,
+"per_km": 5.85,
 "band": "hard"
 },
 {
@@ -11782,9 +11790,9 @@
 98.3107
 ],
 "km": 2.05,
-"curves": 11,
+"curves": 12,
 "hairpins": 1,
-"per_km": 5.36,
+"per_km": 5.84,
 "band": "hard"
 },
 {
@@ -11801,9 +11809,9 @@
 98.32139
 ],
 "km": 2.0,
-"curves": 6,
+"curves": 8,
 "hairpins": 1,
-"per_km": 2.99,
+"per_km": 3.99,
 "band": "busy"
 },
 {
@@ -11820,10 +11828,10 @@
 98.33942
 ],
 "km": 2.02,
-"curves": 7,
+"curves": 9,
 "hairpins": 0,
-"per_km": 3.46,
-"band": "busy"
+"per_km": 4.45,
+"band": "hard"
 }
 ],
 "spans": [
@@ -11838,32 +11846,52 @@
 "to_off_km": 21.92,
 "km": 33.4,
 "at_threshold": {
-"15": {
-"curves": 171,
-"per_km": 5.12
+"4": {
+"curves": 213,
+"per_km": 6.37
 },
-"25": {
-"curves": 147,
-"per_km": 4.4
+"6": {
+"curves": 212,
+"per_km": 6.34
 },
-"35": {
-"curves": 129,
-"per_km": 3.86
+"10": {
+"curves": 204,
+"per_km": 6.1
 },
-"45": {
-"curves": 106,
-"per_km": 3.17
+"20": {
+"curves": 184,
+"per_km": 5.5
 }
 },
-"threshold_used": 25,
-"curves": 147,
+"threshold_used": 4,
+"curves": 213,
 "hairpins": 24,
 "tight": 61,
-"per_km": 4.49,
-"metres_per_curve": 227.4
+"per_km": 6.37,
+"metres_per_curve": 156.9,
+"is_floor": true
 }
 ],
 "hardest": [
+{
+"from": [
+18.76419,
+98.18472
+],
+"to": [
+18.75128,
+98.19399
+],
+"mid": [
+18.75758,
+98.18857
+],
+"km": 2.06,
+"curves": 15,
+"hairpins": 1,
+"per_km": 7.3,
+"band": "relentless"
+},
 {
 "from": [
 18.70514,
@@ -11878,48 +11906,29 @@
 98.271
 ],
 "km": 2.05,
-"curves": 11,
+"curves": 14,
 "hairpins": 2,
-"per_km": 5.38,
-"band": "hard"
+"per_km": 6.84,
+"band": "relentless"
 },
 {
 "from": [
-18.72714,
-98.24728
+18.74611,
+98.20833
 ],
 "to": [
-18.71788,
-98.25147
+18.74201,
+98.22264
 ],
 "mid": [
-18.72264,
-98.25486
+18.74444,
+98.21685
 ],
-"km": 2.05,
-"curves": 11,
-"hairpins": 0,
-"per_km": 5.36,
-"band": "hard"
-},
-{
-"from": [
-18.68527,
-98.30271
-],
-"to": [
-18.68762,
-98.31755
-],
-"mid": [
-18.68789,
-98.3107
-],
-"km": 2.05,
-"curves": 11,
-"hairpins": 1,
-"per_km": 5.36,
-"band": "hard"
+"km": 2.04,
+"curves": 13,
+"hairpins": 2,
+"per_km": 6.37,
+"band": "relentless"
 }
 ]
 },
@@ -12930,9 +12939,9 @@
 ]
 ]
 ],
-"curves": 286,
+"curves": 427,
 "hairpins": 45,
-"per_km": 3.35,
+"per_km": 4.92,
 "density": [
 {
 "from": [
@@ -12948,9 +12957,9 @@
 98.37303
 ],
 "km": 2.03,
-"curves": 6,
+"curves": 8,
 "hairpins": 0,
-"per_km": 2.96,
+"per_km": 3.95,
 "band": "busy"
 },
 {
@@ -12967,10 +12976,10 @@
 98.36675
 ],
 "km": 2.04,
-"curves": 8,
+"curves": 12,
 "hairpins": 3,
-"per_km": 3.91,
-"band": "busy"
+"per_km": 5.87,
+"band": "hard"
 },
 {
 "from": [
@@ -12986,9 +12995,9 @@
 98.35878
 ],
 "km": 2.04,
-"curves": 2,
+"curves": 3,
 "hairpins": 0,
-"per_km": 0.98,
+"per_km": 1.47,
 "band": "gentle"
 },
 {
@@ -13005,10 +13014,10 @@
 98.3648
 ],
 "km": 2.04,
-"curves": 1,
+"curves": 5,
 "hairpins": 0,
-"per_km": 0.49,
-"band": "gentle"
+"per_km": 2.45,
+"band": "busy"
 },
 {
 "from": [
@@ -13024,10 +13033,10 @@
 98.37218
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 6,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 2.94,
+"band": "busy"
 },
 {
 "from": [
@@ -13043,10 +13052,10 @@
 98.37778
 ],
 "km": 2.0,
-"curves": 6,
+"curves": 10,
 "hairpins": 2,
-"per_km": 3.0,
-"band": "busy"
+"per_km": 4.99,
+"band": "hard"
 },
 {
 "from": [
@@ -13062,10 +13071,10 @@
 98.38217
 ],
 "km": 2.02,
-"curves": 7,
+"curves": 12,
 "hairpins": 0,
-"per_km": 3.47,
-"band": "busy"
+"per_km": 5.95,
+"band": "hard"
 },
 {
 "from": [
@@ -13081,10 +13090,10 @@
 98.38779
 ],
 "km": 2.0,
-"curves": 7,
+"curves": 14,
 "hairpins": 1,
-"per_km": 3.5,
-"band": "busy"
+"per_km": 7.0,
+"band": "relentless"
 },
 {
 "from": [
@@ -13100,10 +13109,10 @@
 98.37438
 ],
 "km": 2.01,
-"curves": 7,
+"curves": 10,
 "hairpins": 1,
-"per_km": 3.48,
-"band": "busy"
+"per_km": 4.97,
+"band": "hard"
 },
 {
 "from": [
@@ -13119,9 +13128,9 @@
 98.3738
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 8,
 "hairpins": 0,
-"per_km": 2.47,
+"per_km": 3.95,
 "band": "busy"
 },
 {
@@ -13138,9 +13147,9 @@
 98.38322
 ],
 "km": 2.01,
-"curves": 9,
+"curves": 10,
 "hairpins": 1,
-"per_km": 4.47,
+"per_km": 4.97,
 "band": "hard"
 },
 {
@@ -13157,9 +13166,9 @@
 98.39248
 ],
 "km": 2.02,
-"curves": 6,
+"curves": 8,
 "hairpins": 1,
-"per_km": 2.97,
+"per_km": 3.96,
 "band": "busy"
 },
 {
@@ -13176,9 +13185,9 @@
 98.38611
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 6,
 "hairpins": 0,
-"per_km": 2.47,
+"per_km": 2.96,
 "band": "busy"
 },
 {
@@ -13195,10 +13204,10 @@
 98.38664
 ],
 "km": 2.03,
-"curves": 5,
+"curves": 9,
 "hairpins": 0,
-"per_km": 2.46,
-"band": "busy"
+"per_km": 4.42,
+"band": "hard"
 },
 {
 "from": [
@@ -13214,10 +13223,10 @@
 98.39074
 ],
 "km": 2.02,
-"curves": 7,
+"curves": 12,
 "hairpins": 0,
-"per_km": 3.47,
-"band": "busy"
+"per_km": 5.94,
+"band": "hard"
 },
 {
 "from": [
@@ -13233,10 +13242,10 @@
 98.37631
 ],
 "km": 2.02,
-"curves": 4,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.98,
-"band": "gentle"
+"per_km": 3.46,
+"band": "busy"
 },
 {
 "from": [
@@ -13252,9 +13261,9 @@
 98.37053
 ],
 "km": 2.04,
-"curves": 0,
+"curves": 3,
 "hairpins": 0,
-"per_km": 0.0,
+"per_km": 1.47,
 "band": "gentle"
 },
 {
@@ -13271,10 +13280,10 @@
 98.35927
 ],
 "km": 2.03,
-"curves": 2,
+"curves": 5,
 "hairpins": 0,
-"per_km": 0.99,
-"band": "gentle"
+"per_km": 2.47,
+"band": "busy"
 },
 {
 "from": [
@@ -13290,10 +13299,10 @@
 98.36651
 ],
 "km": 2.05,
-"curves": 9,
+"curves": 13,
 "hairpins": 1,
-"per_km": 4.39,
-"band": "hard"
+"per_km": 6.33,
+"band": "relentless"
 },
 {
 "from": [
@@ -13309,10 +13318,10 @@
 98.37503
 ],
 "km": 2.0,
-"curves": 9,
+"curves": 13,
 "hairpins": 0,
-"per_km": 4.5,
-"band": "hard"
+"per_km": 6.5,
+"band": "relentless"
 },
 {
 "from": [
@@ -13328,10 +13337,10 @@
 98.38958
 ],
 "km": 2.02,
-"curves": 6,
+"curves": 9,
 "hairpins": 0,
-"per_km": 2.97,
-"band": "busy"
+"per_km": 4.45,
+"band": "hard"
 },
 {
 "from": [
@@ -13347,9 +13356,9 @@
 98.38746
 ],
 "km": 2.02,
-"curves": 9,
+"curves": 11,
 "hairpins": 1,
-"per_km": 4.45,
+"per_km": 5.44,
 "band": "hard"
 },
 {
@@ -13366,10 +13375,10 @@
 98.38127
 ],
 "km": 2.04,
-"curves": 3,
+"curves": 7,
 "hairpins": 0,
-"per_km": 1.47,
-"band": "gentle"
+"per_km": 3.44,
+"band": "busy"
 },
 {
 "from": [
@@ -13385,10 +13394,10 @@
 98.38416
 ],
 "km": 2.02,
-"curves": 8,
+"curves": 13,
 "hairpins": 0,
-"per_km": 3.96,
-"band": "busy"
+"per_km": 6.44,
+"band": "relentless"
 },
 {
 "from": [
@@ -13404,10 +13413,10 @@
 98.38079
 ],
 "km": 2.03,
-"curves": 6,
+"curves": 10,
 "hairpins": 0,
-"per_km": 2.96,
-"band": "busy"
+"per_km": 4.93,
+"band": "hard"
 },
 {
 "from": [
@@ -13423,10 +13432,10 @@
 98.37792
 ],
 "km": 2.02,
-"curves": 4,
+"curves": 10,
 "hairpins": 0,
-"per_km": 1.98,
-"band": "gentle"
+"per_km": 4.94,
+"band": "hard"
 },
 {
 "from": [
@@ -13442,9 +13451,9 @@
 98.37786
 ],
 "km": 2.03,
-"curves": 6,
+"curves": 8,
 "hairpins": 0,
-"per_km": 2.95,
+"per_km": 3.94,
 "band": "busy"
 },
 {
@@ -13461,10 +13470,10 @@
 98.37715
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 6,
 "hairpins": 1,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 2.96,
+"band": "busy"
 },
 {
 "from": [
@@ -13480,10 +13489,10 @@
 98.38188
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 5,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 2.46,
+"band": "busy"
 },
 {
 "from": [
@@ -13537,10 +13546,10 @@
 98.36204
 ],
 "km": 2.01,
-"curves": 5,
+"curves": 9,
 "hairpins": 0,
-"per_km": 2.49,
-"band": "busy"
+"per_km": 4.48,
+"band": "hard"
 },
 {
 "from": [
@@ -13556,10 +13565,10 @@
 98.34731
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 8,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 3.93,
+"band": "busy"
 },
 {
 "from": [
@@ -13575,10 +13584,10 @@
 98.33639
 ],
 "km": 2.03,
-"curves": 8,
+"curves": 9,
 "hairpins": 0,
-"per_km": 3.95,
-"band": "busy"
+"per_km": 4.44,
+"band": "hard"
 },
 {
 "from": [
@@ -13613,9 +13622,9 @@
 98.34174
 ],
 "km": 2.05,
-"curves": 9,
+"curves": 11,
 "hairpins": 5,
-"per_km": 4.39,
+"per_km": 5.36,
 "band": "hard"
 },
 {
@@ -13632,10 +13641,10 @@
 98.33529
 ],
 "km": 2.02,
-"curves": 7,
+"curves": 10,
 "hairpins": 1,
-"per_km": 3.47,
-"band": "busy"
+"per_km": 4.96,
+"band": "hard"
 },
 {
 "from": [
@@ -13651,10 +13660,10 @@
 98.33567
 ],
 "km": 2.02,
-"curves": 8,
+"curves": 9,
 "hairpins": 4,
-"per_km": 3.95,
-"band": "busy"
+"per_km": 4.45,
+"band": "hard"
 },
 {
 "from": [
@@ -13670,10 +13679,10 @@
 98.32812
 ],
 "km": 2.0,
-"curves": 7,
+"curves": 10,
 "hairpins": 0,
-"per_km": 3.49,
-"band": "busy"
+"per_km": 4.99,
+"band": "hard"
 },
 {
 "from": [
@@ -13689,10 +13698,10 @@
 98.32812
 ],
 "km": 2.01,
-"curves": 6,
+"curves": 12,
 "hairpins": 1,
-"per_km": 2.99,
-"band": "busy"
+"per_km": 5.98,
+"band": "hard"
 },
 {
 "from": [
@@ -13708,10 +13717,10 @@
 98.32551
 ],
 "km": 2.06,
-"curves": 11,
+"curves": 13,
 "hairpins": 4,
-"per_km": 5.35,
-"band": "hard"
+"per_km": 6.32,
+"band": "relentless"
 },
 {
 "from": [
@@ -13727,9 +13736,9 @@
 98.32678
 ],
 "km": 2.02,
-"curves": 14,
+"curves": 16,
 "hairpins": 5,
-"per_km": 6.95,
+"per_km": 7.94,
 "band": "relentless"
 }
 ],
@@ -13749,48 +13758,48 @@
 98.32678
 ],
 "km": 2.02,
-"curves": 14,
+"curves": 16,
 "hairpins": 5,
-"per_km": 6.95,
+"per_km": 7.94,
 "band": "relentless"
 },
 {
 "from": [
-18.72531,
-98.34263
+18.38855,
+98.38681
 ],
 "to": [
-18.73178,
-98.3455
+18.39952,
+98.38142
 ],
 "mid": [
-18.72974,
-98.34923
+18.39455,
+98.38779
 ],
-"km": 2.03,
-"curves": 11,
+"km": 2.0,
+"curves": 14,
 "hairpins": 1,
-"per_km": 5.43,
-"band": "hard"
+"per_km": 7.0,
+"band": "relentless"
 },
 {
 "from": [
-18.79148,
-98.32541
+18.53462,
+98.37063
 ],
 "to": [
-18.80421,
-98.32617
+18.5451,
+98.38162
 ],
 "mid": [
-18.79807,
-98.32551
+18.54132,
+98.37503
 ],
-"km": 2.06,
-"curves": 11,
-"hairpins": 4,
-"per_km": 5.35,
-"band": "hard"
+"km": 2.0,
+"curves": 13,
+"hairpins": 0,
+"per_km": 6.5,
+"band": "relentless"
 }
 ]
 },
@@ -14201,9 +14210,9 @@
 ]
 ]
 ],
-"curves": 130,
+"curves": 189,
 "hairpins": 19,
-"per_km": 4.46,
+"per_km": 6.34,
 "density": [
 {
 "from": [
@@ -14219,10 +14228,10 @@
 98.77174
 ],
 "km": 2.03,
-"curves": 10,
+"curves": 15,
 "hairpins": 1,
-"per_km": 4.92,
-"band": "hard"
+"per_km": 7.38,
+"band": "relentless"
 },
 {
 "from": [
@@ -14238,9 +14247,9 @@
 98.77655
 ],
 "km": 2.04,
-"curves": 9,
+"curves": 12,
 "hairpins": 2,
-"per_km": 4.41,
+"per_km": 5.88,
 "band": "hard"
 },
 {
@@ -14257,9 +14266,9 @@
 98.78289
 ],
 "km": 2.04,
-"curves": 10,
+"curves": 12,
 "hairpins": 0,
-"per_km": 4.89,
+"per_km": 5.87,
 "band": "hard"
 },
 {
@@ -14276,10 +14285,10 @@
 98.78491
 ],
 "km": 2.01,
-"curves": 12,
+"curves": 13,
 "hairpins": 2,
-"per_km": 5.97,
-"band": "hard"
+"per_km": 6.46,
+"band": "relentless"
 },
 {
 "from": [
@@ -14295,10 +14304,10 @@
 98.8012
 ],
 "km": 2.05,
-"curves": 7,
+"curves": 13,
 "hairpins": 0,
-"per_km": 3.42,
-"band": "busy"
+"per_km": 6.35,
+"band": "relentless"
 },
 {
 "from": [
@@ -14314,10 +14323,10 @@
 98.80832
 ],
 "km": 2.01,
-"curves": 10,
+"curves": 13,
 "hairpins": 3,
-"per_km": 4.97,
-"band": "hard"
+"per_km": 6.46,
+"band": "relentless"
 },
 {
 "from": [
@@ -14333,9 +14342,9 @@
 98.82257
 ],
 "km": 2.01,
-"curves": 10,
+"curves": 11,
 "hairpins": 0,
-"per_km": 4.98,
+"per_km": 5.48,
 "band": "hard"
 },
 {
@@ -14352,10 +14361,10 @@
 98.83781
 ],
 "km": 2.02,
-"curves": 5,
+"curves": 12,
 "hairpins": 0,
-"per_km": 2.47,
-"band": "busy"
+"per_km": 5.93,
+"band": "hard"
 },
 {
 "from": [
@@ -14371,10 +14380,10 @@
 98.85388
 ],
 "km": 2.01,
-"curves": 8,
+"curves": 10,
 "hairpins": 0,
-"per_km": 3.98,
-"band": "busy"
+"per_km": 4.97,
+"band": "hard"
 },
 {
 "from": [
@@ -14390,10 +14399,10 @@
 98.8713
 ],
 "km": 2.03,
-"curves": 8,
+"curves": 14,
 "hairpins": 0,
-"per_km": 3.95,
-"band": "busy"
+"per_km": 6.91,
+"band": "relentless"
 },
 {
 "from": [
@@ -14409,9 +14418,9 @@
 98.88829
 ],
 "km": 2.01,
-"curves": 6,
+"curves": 8,
 "hairpins": 2,
-"per_km": 2.98,
+"per_km": 3.97,
 "band": "busy"
 },
 {
@@ -14428,9 +14437,9 @@
 98.90174
 ],
 "km": 2.03,
-"curves": 7,
+"curves": 8,
 "hairpins": 2,
-"per_km": 3.44,
+"per_km": 3.93,
 "band": "busy"
 },
 {
@@ -14466,14 +14475,52 @@
 98.92709
 ],
 "km": 2.03,
-"curves": 4,
+"curves": 9,
 "hairpins": 0,
-"per_km": 1.97,
-"band": "gentle"
+"per_km": 4.43,
+"band": "hard"
 }
 ],
 "spans": [],
 "hardest": [
+{
+"from": [
+18.8451,
+98.77355
+],
+"to": [
+18.85396,
+98.77859
+],
+"mid": [
+18.85265,
+98.77174
+],
+"km": 2.03,
+"curves": 15,
+"hairpins": 1,
+"per_km": 7.38,
+"band": "relentless"
+},
+{
+"from": [
+18.89904,
+98.86213
+],
+"to": [
+18.90028,
+98.88037
+],
+"mid": [
+18.90045,
+98.8713
+],
+"km": 2.03,
+"curves": 14,
+"hairpins": 0,
+"per_km": 6.91,
+"band": "relentless"
+},
 {
 "from": [
 18.87489,
@@ -14488,48 +14535,10 @@
 98.78491
 ],
 "km": 2.01,
-"curves": 12,
+"curves": 13,
 "hairpins": 2,
-"per_km": 5.97,
-"band": "hard"
-},
-{
-"from": [
-18.88425,
-98.81501
-],
-"to": [
-18.88901,
-98.83054
-],
-"mid": [
-18.88667,
-98.82257
-],
-"km": 2.01,
-"curves": 10,
-"hairpins": 0,
-"per_km": 4.98,
-"band": "hard"
-},
-{
-"from": [
-18.87887,
-98.80536
-],
-"to": [
-18.88425,
-98.81501
-],
-"mid": [
-18.88086,
-98.80832
-],
-"km": 2.01,
-"curves": 10,
-"hairpins": 3,
-"per_km": 4.97,
-"band": "hard"
+"per_km": 6.46,
+"band": "relentless"
 }
 ]
 }

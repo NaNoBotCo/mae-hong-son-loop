@@ -4,8 +4,8 @@
  "names": {
   "name": "Why a small bike is more fun here",
   "th": "ทำไมรถเล็กสนุกกว่าที่นี่",
-  "said": "On a road with four curves a kilometre, power stops being the interesting variable.",
-  "said_th": "บนถนนที่มีสี่โค้งต่อกิโลเมตร แรงม้าเลิกเป็นตัวแปรที่น่าสนใจ"
+  "said": "On a road with nearly six curves a kilometre, power stops being the interesting variable.",
+  "said_th": "บนถนนที่มีเกือบหกโค้งต่อกิโลเมตร แรงม้าเลิกเป็นตัวแปรที่น่าสนใจ"
  },
  "region": [
   "loop"
@@ -15,11 +15,11 @@
  },
  "text": {
   "what": "The measured density of this road is the argument for renting the cheap thing, and it is not a compromise.",
-  "story": "*Inference —* Route 1095 measures 4.03 curves a kilometre, Route 1263 measures 4.25 and Route 1096 measures 4.46. At those densities you are never on a straight long enough for horsepower to express itself. What you are doing instead, continuously, is choosing a line, judging a radius you cannot fully see, and carrying momentum through a corner rather than making it with the throttle.\n\nA 110cc step-through is completely absorbing at that game, because it has no power to fall back on and every bit of speed has to be kept rather than bought. There is a specific pleasure in arriving at the top of a climb having not touched the brakes, and it is available on the cheapest machine in the shop.\n\nThe measured figures also say something less obvious: **the road with the merchandise is only third.** Route 1096, the Samoeng day loop an hour from Chiang Mai, is denser than the famous one. So is the 1263.\n\n*Inference —* which means the best riding on this network is not where the shirts are sold, and a rider on a 125 has access to all of it."
+  "story": "*Inference —* Route 1095 measures 5.71 curves a kilometre, Route 1263 measures 6.03 and Route 1096 measures 6.34. At those densities you are never on a straight long enough for horsepower to express itself. What you are doing instead, continuously, is choosing a line, judging a radius you cannot fully see, and carrying momentum through a corner rather than making it with the throttle.\n\nA 110cc step-through is completely absorbing at that game, because it has no power to fall back on and every bit of speed has to be kept rather than bought. There is a specific pleasure in arriving at the top of a climb having not touched the brakes, and it is available on the cheapest machine in the shop.\n\nThe measured figures also say something less obvious: **the road with the merchandise is only third.** Route 1096, the Samoeng day loop an hour from Chiang Mai, is denser than the famous one. So is the 1263.\n\n*Inference —* which means the best riding on this network is not where the shirts are sold, and a rider on a 125 has access to all of it."
  },
  "text_th": {
   "what": "ความหนาแน่นของโค้งที่วัดได้บนถนนสายนี้คือเหตุผลที่ควรเช่ารถถูกๆ และไม่ใช่การยอมลดมาตรฐาน",
-  "story": "*อนุมาน —* ทางหลวง 1095 วัดได้ 4.03 โค้งต่อกิโลเมตร ทางหลวง 1263 วัดได้ 4.25 และทางหลวง 1096 วัดได้ 4.46 ที่ความหนาแน่นแบบนั้น คุณไม่เคยอยู่บนทางตรงนานพอให้แรงม้าได้แสดงตัว สิ่งที่คุณทำแทนอย่างต่อเนื่องคือการเลือกไลน์ กะรัศมีที่มองไม่เห็นทั้งหมด และรักษาโมเมนตัมผ่านโค้ง แทนที่จะสร้างมันขึ้นมาด้วยคันเร่ง\n\nรถออโต้ 110 ซีซี สนุกเต็มที่กับเกมนั้น เพราะมันไม่มีแรงให้พึ่ง และความเร็วทุกหน่วยต้องรักษาไว้ ไม่ใช่ซื้อเอา มีความสุขเฉพาะตัวในการไปถึงยอดเขาโดยไม่ได้แตะเบรกเลย และมันมีให้ใช้บนรถที่ถูกที่สุดในร้าน\n\nตัวเลขที่วัดได้ยังบอกอะไรที่ไม่ชัดนัก **ถนนที่มีเสื้อขายอยู่อันดับสามเท่านั้น** ทางหลวง 1096 วงรอบสะเมิงที่ห่างเชียงใหม่ชั่วโมงเดียว หนาแน่นกว่าสายดัง ทางหลวง 1263 ก็เช่นกัน\n\n*อนุมาน —* แปลว่าการขี่ที่ดีที่สุดในเครือข่ายนี้ไม่ได้อยู่ที่ที่ขายเสื้อ และคนขี่รถ 125 เข้าถึงมันได้ทั้งหมด"
+  "story": "*อนุมาน —* ทางหลวง 1095 วัดได้ 5.71 โค้งต่อกิโลเมตร ทางหลวง 1263 วัดได้ 6.03 และทางหลวง 1096 วัดได้ 6.34 ที่ความหนาแน่นแบบนั้น คุณไม่เคยอยู่บนทางตรงนานพอให้แรงม้าได้แสดงตัว สิ่งที่คุณทำแทนอย่างต่อเนื่องคือการเลือกไลน์ กะรัศมีที่มองไม่เห็นทั้งหมด และรักษาโมเมนตัมผ่านโค้ง แทนที่จะสร้างมันขึ้นมาด้วยคันเร่ง\n\nรถออโต้ 110 ซีซี สนุกเต็มที่กับเกมนั้น เพราะมันไม่มีแรงให้พึ่ง และความเร็วทุกหน่วยต้องรักษาไว้ ไม่ใช่ซื้อเอา มีความสุขเฉพาะตัวในการไปถึงยอดเขาโดยไม่ได้แตะเบรกเลย และมันมีให้ใช้บนรถที่ถูกที่สุดในร้าน\n\nตัวเลขที่วัดได้ยังบอกอะไรที่ไม่ชัดนัก **ถนนที่มีเสื้อขายอยู่อันดับสามเท่านั้น** ทางหลวง 1096 วงรอบสะเมิงที่ห่างเชียงใหม่ชั่วโมงเดียว หนาแน่นกว่าสายดัง ทางหลวง 1263 ก็เช่นกัน\n\n*อนุมาน —* แปลว่าการขี่ที่ดีที่สุดในเครือข่ายนี้ไม่ได้อยู่ที่ที่ขายเสื้อ และคนขี่รถ 125 เข้าถึงมันได้ทั้งหมด"
  },
  "kin": [
   {
@@ -124,5 +124,12 @@
    "sha256": "3948c98d472e0c71f971d863376c1fc324e200a6e15d8a52acc6edc94fc990ee"
   }
  ],
- "kin_in": []
+ "kin_in": [
+  {
+   "from": "how-many-curves",
+   "type": "story",
+   "name": "1,864 curves",
+   "as": "Why the density matters more than the total."
+  }
+ ]
 }

@@ -332,12 +332,31 @@ ul.kin a{font-weight:700}
 ul.kin .rel{font-size:.62rem;text-transform:uppercase;letter-spacing:.1em;color:var(--mute);
  font-weight:800;margin-right:.4rem}
 
-/* ---- share + quiz */
-.share{display:flex;gap:.45rem;flex-wrap:wrap;margin:1.2rem 0}
-.share a,.share button{font-size:.76rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em;
- padding:.45rem .75rem;border:2px solid var(--ink);background:var(--bg);color:var(--ink);
- text-decoration:none;cursor:pointer;border-radius:0}
-.share a:hover,.share button:hover{background:var(--ink);color:var(--bg)}
+/* ---- sharing
+   A row of small grey words gets the clicks it deserves. This is a block with a reason
+   attached, and the buttons are sized for a thumb. */
+.sharebar{border:3px solid var(--ink);background:var(--panel);margin:2.2rem 0 1.2rem;
+ padding:.9rem 1rem 1rem;box-shadow:5px 5px 0 var(--shadow)}
+.shhead{display:flex;gap:.2rem .7rem;flex-wrap:wrap;align-items:baseline;margin-bottom:.7rem}
+.shhead b{font-family:var(--display);font-size:1.02rem;text-transform:uppercase;letter-spacing:.01em}
+.shrow{display:flex;gap:.45rem;flex-wrap:wrap}
+.sh{display:inline-flex;align-items:center;gap:.4rem;font-size:.78rem;font-weight:800;
+ letter-spacing:.03em;padding:.5rem .7rem;border:2px solid var(--line);background:var(--bg);
+ color:var(--ink);text-decoration:none;cursor:pointer;line-height:1;min-height:2.3rem}
+.sh:hover{border-color:var(--ink);background:var(--ink);color:var(--bg)}
+.sh svg{flex:0 0 auto}
+.sh-facebook:hover{background:#1877f2;border-color:#1877f2;color:#fff}
+.sh-line:hover{background:#06c755;border-color:#06c755;color:#fff}
+.sh-whatsapp:hover{background:#25d366;border-color:#25d366;color:#fff}
+.sh-x:hover{background:#000;border-color:#000;color:#fff}
+.sh-reddit:hover{background:#ff4500;border-color:#ff4500;color:#fff}
+.sh-mail:hover{background:var(--plum);border-color:var(--plum);color:#fff}
+.sh-link:hover,.sh-print:hover,.sh-native:hover{background:var(--hot);border-color:var(--hot);color:#fff}
+@media (max-width:30rem){.sh span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+ .sh{padding:.6rem .72rem}}
+@media print{.sharebar{display:none}}
+
+/* ---- quiz */
 fieldset{border:2px solid var(--line);margin:1rem 0;padding:.7rem .9rem}
 legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:.95rem;padding:0 .4rem}
 .opts{display:grid;gap:.35rem}

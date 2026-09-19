@@ -1,7 +1,7 @@
 # The Mae Hong Son Loop · วงรอบแม่ฮ่องสอน
 
-**74 records · 94 sources · English and ไทย on every page ·
-9,187 places from OpenStreetMap · 15,050 point-days of air data**
+**109 records · 115 sources · English and ไทย on every page ·
+9,319 places from OpenStreetMap · 15,050 point-days of air data**
 
 A directory and route guide for motorcycling the 600 km loop out of Chiang Mai through
 Pai, Mae Hong Son and Mae Sariang. Static HTML, no framework, no web font, no third-party
@@ -17,30 +17,38 @@ primary one instead.
 
 ## Three things this site found by measuring rather than repeating
 
-**1. The curve count is an argument, and here is a third answer.**
-The roadside sign and the shirts sold in Pai say **1,864**. Thai Wikipedia's article on
-Route 1095 says **more than 2,000**. Counting the OpenStreetMap trace of the same
-36.7 km Mae Malai–Pai span at a 25° threshold gives **139**.
-For 1,864 to hold over that distance there would have to be a curve every
-**19.7 metres**. The method, and what happens to the count at
-15°, 25°, 35° and 45°, is printed at `/numbers/` so it can be argued with.
+**1. The 1,864 on the sign holds up.**
+Thai Wikipedia gives Chiang Mai to Mae Hong Son by Route 1095 as about **245 km**, which
+puts 1,864 curves at **one every 131 metres**. Counting every change of turning direction
+on the OpenStreetMap trace — one lean, one curve — gets to **1,310**
+across the same distance, and **1,056 on Route 1095 alone**. That count is a
+**floor**: the trace carries a point roughly every 31 metres, so a bend shorter than about
+sixty metres leaves no mark in the data, and volunteer traces cut corners. An independent,
+deliberately conservative method arrives within a third of the sign, from below. Nobody
+publishes the survey behind 1,864 and this repo cannot confirm it to the digit — what it
+can say is that the number is the right size.
 
-**2. The famous road is not the densest road.**
-Route 1095 measures 4.03 curves per kilometre over 184.9 km.
-Route 1096 — the Samoeng day loop, a hundred kilometres from a Chiang Mai hotel —
-measures **4.46**. Route 1263 measures 4.25. The road with the merchandise
-comes third.
+*(An earlier version of this README claimed 395 over a 97 km span and read as a debunking.
+It was wrong twice: the method collapsed a whole snaking sequence into a single arc, and
+1,864 is carried for the full 245 km run, not that span. Both are fixed; `tools/curves.py`
+carries the note.)*
+
+**2. The famous road is not the densest.**
+Route 1095 measures **5.71 curves per kilometre** over 184.9 km. Route 1263,
+the Khun Yuam–Mae Chaem shortcut, measures **6.03**. Route
+1096, the Samoeng day loop an hour from a Chiang Mai hotel, measures **6.34** —
+the densest in the network, and nobody sells a shirt for it.
 
 **3. Chiang Mai has worse air than the loop, and the rains are the cleanest time to ride.**
 Four burning seasons of daily PM2.5 at ten points: Chiang Mai's March mean is 37.8 µg/m³
-against Pai's 26.1. Pai swings from **3.0 in July to 29.8 in April** — a factor of ten.
-Mae Hong Son province, 12,765 km², has **one** government air monitor. Pai, Soppong,
-Khun Yuam and Mae Sariang have none.
+against Pai's 26.1. Pai swings from **3.0 in July to 29.8 in April**. Mae Hong Son
+province, 12,765 km², has **one** government air monitor; Pai, Soppong, Khun Yuam and Mae
+Sariang have none.
 
 ## What it will not tell you
 
 - The curve counts measure an OpenStreetMap polyline — a volunteer trace of a road, not a
-  survey of one.
+  survey of one — and they are reported as a floor, never a total.
 - `/danger/` is a **demand map**, not a crash map: it says where a road asks the most of a
   rider. Nobody publishes crash locations for these roads and none are invented here.
 - The air model never exceeded 99.4 µg/m³ daily mean in

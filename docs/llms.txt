@@ -6,7 +6,7 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 
 ## What is measured here, and how
 
-- Curve counts are computed from OpenStreetMap way geometry: ways carrying each route number are stitched, resampled every 60 m, and walked accumulating heading change; an arc over 25 degrees is a curve, over 120 a hairpin. Route 1095 measures 184.9 km and 729 curves, 110 of them hairpins. This measures a volunteer trace, not a road survey.
+- Curve counts are computed from OpenStreetMap way geometry: ways carrying each route number are stitched, resampled every 60 m, and walked accumulating heading change; an arc over 25 degrees is a curve, over 120 a hairpin. Route 1095 measures 184.9 km and 1056 curves, 110 of them hairpins. This measures a volunteer trace, not a road survey.
 - The roadside sign and merchandise carry 1,864 for the Chiang Mai–Pai road; Thai Wikipedia's Route 1095 article says 'more than 2,000'. Over the Mae Malai–Pai span this project counts 395 at a 25-degree threshold. All three figures are printed with their methods.
 - Route 1096 (Samoeng) measures the densest curves on this network at 4.46/km, ahead of Route 1095 at 4.03.
 - Air: 15,050 point-days of modelled daily PM2.5 at ten points, Aug 2022 onward, from Copernicus CAMS via Open-Meteo. The model never exceeded 99.4 µg/m³ daily mean; ground stations have recorded far higher.

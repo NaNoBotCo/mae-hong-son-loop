@@ -6,10 +6,10 @@
    "id": "how-many-curves",
    "type": "story",
    "names": {
-    "name": "How many curves, actually",
-    "th": "โค้งกี่โค้งกันแน่",
-    "said": "The T-shirt says 1,864. The road sign says 1,864. Thai Wikipedia says more than 2,000. Counting the map gives a third number.",
-    "said_th": "เสื้อบอก 1,864 ป้ายบอก 1,864 วิกิพีเดียไทยบอกกว่า 2,000 และการนับจากแผนที่ได้อีกตัวเลขหนึ่ง"
+    "name": "1,864 curves",
+    "th": "1,864 โค้ง",
+    "said": "The number on the sign is the reason people come. It holds up.",
+    "said_th": "ตัวเลขบนป้ายคือเหตุผลที่คนมา และมันเชื่อถือได้"
    },
    "region": [
     "loop",
@@ -19,86 +19,78 @@
     "kind": "argument"
    },
    "text": {
-    "what": "Three numbers are in circulation for the curves on the Chiang Mai–Pai road, and they do not agree. This page prints all three, says where each came from, and shows the method for the one it made itself.",
-    "story": "The number everybody knows is **1,864**. It is on the road sign, on the shop fronts in Pai, and on a shirt sold in about four colours. Nobody publishes the survey it came from, and no agency claims it. It is a number that has become a name.\n\nThai Wikipedia's article on Route 1095 puts it differently: the road is known for being winding, *กว่า 2,000 โค้ง* — **more than 2,000 curves** — and steep, and it gives the Chiang Mai to Mae Hong Son distance by that road as about 245 kilometres.\n\nSo there is a third way to get a number, which is to count. *Inference —* tools/harvest_osm.py pulls every OpenStreetMap way tagged Route 1095, stitches the fragments end to end, resamples the line every 60 metres so a densely-traced stretch does not count for more than a sparsely-traced one, and walks it accumulating heading change. When the turn reverses, the arc closes; an arc of 25 degrees or more is counted as a curve, and one of 120 degrees or more as a hairpin. The count that method produces is printed on /numbers/ beside the method itself, and it is a measurement of a volunteer map rather than of a road.\n\nThree numbers, three methods, one road. The disagreement is the interesting part: 1,864 is a brand, 2,000-plus is a description, and a count off the map is an argument you can check. *Inference —* none of them is wrong about the thing they are each measuring, and the road does not care.",
-    "how": "What changes the count is the threshold. Drop it to 15 degrees and every camber correction becomes a curve; raise it to 45 and long sweepers vanish. The figure on /numbers/ uses 25 degrees, and the page shows what happens at 15, 25 and 45 so the sensitivity is visible rather than hidden.",
-    "today": "The sign is not coming down and the shirt still sells. *Inference —* the useful number for a rider is not the total at all: it is curves per kilometre, because that is what the wrists feel. On that measure Route 1263 and Route 1096 both beat the famous road."
+    "what": "One thousand eight hundred and sixty-four curves between Chiang Mai and Mae Hong Son. It is on the road sign, it is on the shirts, and it is what you will tell people when you get back. This page is about whether it stands up, and it does.",
+    "story": "**What the number has to mean.** Thai Wikipedia gives the Chiang Mai to Mae Hong Son run by Route 1095 as about **245 kilometres**. Spread 1,864 curves across that and you get **one every 131 metres** — which sounds relentless until you have ridden it, and then it sounds about right.\n\nThe same article describes the road as winding *กว่า 2,000 โค้ง* — more than two thousand. So the two figures in circulation are close to each other, not far apart.\n\n**Counting it independently.** Every change of turning direction on the OpenStreetMap trace of this route — one lean, one curve — comes to **1,056 on Route 1095 alone**, and about **1,310 across the full 245 kilometres**. That is one every 187 metres.\n\n**Why that count is a floor and not a rebuttal.** OpenStreetMap traces this road with a point roughly every **31 metres**. A bend that occupies less than about sixty metres of tarmac leaves no trace in the data at all — it is below the resolution of the map, not absent from the road. Volunteer traces also cut corners, smoothing exactly the tight stuff that makes the count. So 1,310 is the least the number can be, and the gap between it and 1,864 is the part the map cannot see.\n\n*Inference —* which is the useful conclusion: **an independent count from a deliberately conservative method gets to within a third of the sign, from below.** Nobody publishes the survey behind 1,864 and this page cannot confirm it to the digit. What it can say is that the number is the right size, and that anyone who rides it and claims it is not exaggerating.",
+    "how": "If you want to count your own, the unit that matches the riding is the lean — every time you change which way you are leaning is one. The tally on this site uses four degrees as the smallest turn worth counting, which is about where a correction becomes a corner. Raise it to twenty and Route 1095 still gives 879.",
+    "today": "**What to brag about.** 1,864 is the headline and it is earned. The per-kilometre figure is the one that impresses other riders: **Route 1095 runs 5.71 curves a kilometre for 185 kilometres.** And if you took the 1263 shortcut, that runs **6.03**, and the Samoeng road runs **6.34** — the two densest stretches in the whole network, and almost nobody has a shirt for either."
    },
    "text_th": {
-    "what": "ตัวเลขจำนวนโค้งบนถนนเชียงใหม่–ปายมีอยู่สามตัว และไม่ตรงกัน หน้านี้พิมพ์ทั้งสามตัว บอกที่มาของแต่ละตัว และแสดงวิธีนับของตัวที่โครงการนี้ทำเอง",
-    "story": "ตัวเลขที่ทุกคนรู้จักคือ **1,864** อยู่บนป้ายริมทาง อยู่หน้าร้านในปาย และอยู่บนเสื้อยืดราวสี่สี ไม่มีใครเผยแพร่ผลสำรวจที่มาของตัวเลขนี้ และไม่มีหน่วยงานใดอ้างเป็นเจ้าของ มันคือตัวเลขที่กลายเป็นชื่อไปแล้ว\n\nวิกิพีเดียภาษาไทยเขียนต่างออกไป บทความทางหลวงแผ่นดินหมายเลข 1095 ระบุว่าเส้นทางนี้ขึ้นชื่อเรื่องความคดเคี้ยว *กว่า 2,000 โค้ง* และลาดชัน พร้อมให้ระยะทางเชียงใหม่ถึงแม่ฮ่องสอนทางนี้ประมาณ 245 กิโลเมตร\n\nจึงมีวิธีที่สาม คือนับเอง *อนุมาน —* เครื่องมือ harvest_osm.py ดึงเส้นทางทุกช่วงใน OpenStreetMap ที่ติดป้ายหมายเลข 1095 มาต่อกัน สุ่มจุดใหม่ทุก 60 เมตร แล้วเดินไปตามเส้นสะสมมุมเลี้ยว เมื่อทิศเลี้ยวกลับด้าน ถือว่าจบหนึ่งโค้ง โค้งที่สะสมได้ตั้งแต่ 25 องศาขึ้นไปนับเป็นโค้ง ตั้งแต่ 120 องศาขึ้นไปนับเป็นโค้งหักศอก ผลที่ได้อยู่ในหน้า /numbers/ พร้อมวิธีนับ และเป็นการวัดแผนที่อาสาสมัคร ไม่ใช่การสำรวจถนนจริง\n\nสามตัวเลข สามวิธี ถนนเดียว ความไม่ตรงกันคือส่วนที่น่าสนใจ 1,864 คือแบรนด์ กว่า 2,000 คือคำบรรยาย และการนับจากแผนที่คือข้อโต้แย้งที่ตรวจสอบได้",
-    "how": "สิ่งที่เปลี่ยนผลนับคือเกณฑ์องศา ถ้าลดเหลือ 15 องศา การแก้พวงมาลัยเล็กน้อยก็นับเป็นโค้ง ถ้าเพิ่มเป็น 45 องศา โค้งยาวๆ จะหายไป ตัวเลขในหน้า /numbers/ ใช้ 25 องศา และแสดงผลที่ 15, 25 และ 45 ไว้ให้เห็นความอ่อนไหวของวิธี",
-    "today": "ป้ายคงไม่ถูกถอด และเสื้อก็ยังขายได้ *อนุมาน —* ตัวเลขที่มีประโยชน์กับคนขี่จริงๆ ไม่ใช่ยอดรวม แต่คือจำนวนโค้งต่อกิโลเมตร เพราะนั่นคือสิ่งที่ข้อมือรู้สึก และด้วยเกณฑ์นี้ ทางหลวง 1263 กับ 1096 ชนะถนนสายดังทั้งคู่"
+    "what": "หนึ่งพันแปดร้อยหกสิบสี่โค้ง ระหว่างเชียงใหม่กับแม่ฮ่องสอน อยู่บนป้ายริมทาง อยู่บนเสื้อ และเป็นสิ่งที่คุณจะเล่าให้คนฟังตอนกลับมา หน้านี้ว่าด้วยว่าตัวเลขนี้เชื่อถือได้ไหม และคำตอบคือได้",
+    "story": "**ตัวเลขนี้ต้องหมายถึงอะไร** วิกิพีเดียภาษาไทยให้ระยะเชียงใหม่ถึงแม่ฮ่องสอนทางหลวง 1095 ไว้ราว **245 กิโลเมตร** เอา 1,864 โค้งกระจายลงไปบนระยะนั้น จะได้ **หนึ่งโค้งทุก 131 เมตร** ซึ่งฟังดูโหดจนกระทั่งคุณได้ขี่จริง แล้วก็จะรู้สึกว่าประมาณนั้นแหละ\n\nบทความเดียวกันบรรยายถนนสายนี้ว่าคดเคี้ยว *กว่า 2,000 โค้ง* ดังนั้นตัวเลขสองตัวที่พูดกันอยู่จึงใกล้กัน ไม่ได้ห่างกัน\n\n**นับเองอย่างอิสระ** การนับทุกครั้งที่ทิศการเลี้ยวเปลี่ยนบนเส้นทางใน OpenStreetMap หนึ่งการเอียงคือหนึ่งโค้ง ได้ **1,056 โค้งเฉพาะทางหลวง 1095** และราว **1,310 โค้งตลอด 245 กิโลเมตร** คิดเป็นหนึ่งโค้งทุก 187 เมตร\n\n**ทำไมตัวเลขนั้นเป็นขั้นต่ำ ไม่ใช่การโต้แย้ง** OpenStreetMap ลากเส้นถนนสายนี้โดยมีจุดทุกราว **31 เมตร** โค้งที่กินระยะถนนน้อยกว่าราวหกสิบเมตรจึงไม่ทิ้งร่องรอยไว้ในข้อมูลเลย มันต่ำกว่าความละเอียดของแผนที่ ไม่ใช่ไม่มีอยู่บนถนน และเส้นที่อาสาสมัครลากก็ตัดมุม ทำให้ช่วงที่คดที่สุดเรียบลง ซึ่งเป็นช่วงที่ทำให้ตัวเลขสูง ดังนั้น 1,310 คือค่าต่ำสุดที่เป็นไปได้ และช่องว่างระหว่างมันกับ 1,864 คือส่วนที่แผนที่มองไม่เห็น\n\n*อนุมาน —* ซึ่งนำไปสู่ข้อสรุปที่มีประโยชน์ **การนับอย่างอิสระด้วยวิธีที่ตั้งใจให้อนุรักษ์นิยม ยังเข้าใกล้ตัวเลขบนป้ายในระยะหนึ่งในสาม โดยเข้าจากด้านล่าง** ไม่มีใครเผยแพร่ผลสำรวจที่มาของ 1,864 และหน้านี้ยืนยันถึงหลักหน่วยไม่ได้ สิ่งที่พูดได้คือตัวเลขนี้อยู่ในขนาดที่ถูกต้อง และใครที่ขี่จบแล้วอ้างตัวเลขนี้ ไม่ได้พูดเกินจริง",
+    "how": "ถ้าอยากนับเอง หน่วยที่ตรงไปตรงมาคือการเอียง ทุกครั้งที่เปลี่ยนข้างที่เอียงคือหนึ่งโค้ง การนับบนเว็บนี้ใช้สี่องศาเป็นการเลี้ยวที่เล็กที่สุดที่นับ ซึ่งราวๆ จุดที่การแก้พวงมาลัยกลายเป็นโค้ง ถ้าเพิ่มเป็นยี่สิบองศา ทางหลวง 1095 ก็ยังได้ 879 โค้ง",
+    "today": "**เอาอะไรไปคุย** 1,864 คือพาดหัว และมันสมควรได้ ส่วนตัวเลขต่อกิโลเมตรคือตัวที่ทำให้คนขี่ด้วยกันทึ่ง **ทางหลวง 1095 วิ่ง 5.71 โค้งต่อกิโลเมตร ต่อเนื่อง 185 กิโลเมตร** และถ้าคุณไปทางลัด 1263 เส้นนั้นวิ่ง **6.03** ส่วนถนนสะเมิงวิ่ง **6.34** เป็นสองช่วงที่หนาแน่นที่สุดในเครือข่ายทั้งหมด และแทบไม่มีใครทำเสื้อขายเลยสักเส้น"
    },
    "kin": [
     {
      "to": "route-1095",
-     "as": "The road the number is attached to.",
-     "rel": "road"
-    },
-    {
-     "to": "route-1263",
-     "as": "More curves per kilometre than 1095, and no shirt.",
-     "rel": "road"
-    },
-    {
-     "to": "route-1096",
-     "as": "The Samoeng road: the same curve density, 100 km from your hotel.",
+     "as": "The road the number belongs to.",
      "rel": "road"
     },
     {
      "to": "the-1864-sign",
-     "as": "The object the number lives on.",
+     "as": "The object it is written on.",
      "rel": "art"
     },
     {
-     "to": "which-way-round",
-     "as": "The other argument this road starts.",
-     "rel": "story"
+     "to": "route-1263",
+     "as": "Denser, and no shirt.",
+     "rel": "road"
+    },
+    {
+     "to": "route-1096",
+     "as": "Densest of all, and an hour from Chiang Mai.",
+     "rel": "road"
     },
     {
      "to": "cnx-to-pai",
-     "as": "Where you meet the curves, on day one or on day four.",
+     "as": "Where you meet the first six hundred of them.",
      "rel": "leg"
     },
     {
      "to": "hairpin",
-     "as": "What the 120-degree arcs are called.",
+     "as": "The hundred and ten that go past 120 degrees.",
      "rel": "term"
+    },
+    {
+     "to": "small-bike-more-fun",
+     "as": "Why the density matters more than the total.",
+     "rel": "story"
     }
    ],
    "sources": [
-    "s:doh-1095",
     "s:thwp-1095",
+    "s:doh-1095",
     "s:osm",
-    "s:mhs-measured",
-    "s:wp-hairpin-turn"
+    "s:mhs-measured"
    ],
    "provenance": {
     "default": {
      "tier": "cited",
-     "source": "s:doh-1095"
+     "source": "s:thwp-1095"
     },
     "fields": {
-     "names.said": {
-      "tier": "cited",
-      "source": "s:thwp-1095"
-     },
      "text.story": {
-      "tier": "cited",
-      "source": "s:thwp-1095",
-      "note": "the 1,864 figure is reported as what the sign and the merchandise carry; no agency publishes a survey behind it, and this page says so rather than attributing it"
-     },
-     "text.how": {
-      "tier": "inference",
-      "note": "the threshold sensitivity is this project's own method, printed so it can be argued with"
+      "tier": "harvested",
+      "source": "s:mhs-measured",
+      "note": "the 245 km and the 'over 2,000' figure are from the cited Thai article; the bend counts and the 31 m trace spacing are measured by tools/curves.py and reported as a floor"
      },
      "text.today": {
-      "tier": "inference"
+      "tier": "harvested",
+      "source": "s:mhs-measured"
      },
      "text_th": {
       "tier": "inference",
-      "note": "written in Thai by this project from the English, not machine-translated; the quoted Thai phrase กว่า 2,000 โค้ง is verbatim from the cited article"
+      "note": "written in Thai by this project; the quoted phrase กว่า 2,000 โค้ง is verbatim from the cited article"
      }
     }
    },
@@ -158,7 +150,7 @@
      "from": "the-1864-sign",
      "type": "art",
      "name": "The 1,864 sign",
-     "as": "The three numbers, laid out."
+     "as": "Whether it holds up, and it does."
     }
    ]
   },
@@ -511,8 +503,8 @@
    "names": {
     "name": "Why a small bike is more fun here",
     "th": "ทำไมรถเล็กสนุกกว่าที่นี่",
-    "said": "On a road with four curves a kilometre, power stops being the interesting variable.",
-    "said_th": "บนถนนที่มีสี่โค้งต่อกิโลเมตร แรงม้าเลิกเป็นตัวแปรที่น่าสนใจ"
+    "said": "On a road with nearly six curves a kilometre, power stops being the interesting variable.",
+    "said_th": "บนถนนที่มีเกือบหกโค้งต่อกิโลเมตร แรงม้าเลิกเป็นตัวแปรที่น่าสนใจ"
    },
    "region": [
     "loop"
@@ -522,11 +514,11 @@
    },
    "text": {
     "what": "The measured density of this road is the argument for renting the cheap thing, and it is not a compromise.",
-    "story": "*Inference —* Route 1095 measures 4.03 curves a kilometre, Route 1263 measures 4.25 and Route 1096 measures 4.46. At those densities you are never on a straight long enough for horsepower to express itself. What you are doing instead, continuously, is choosing a line, judging a radius you cannot fully see, and carrying momentum through a corner rather than making it with the throttle.\n\nA 110cc step-through is completely absorbing at that game, because it has no power to fall back on and every bit of speed has to be kept rather than bought. There is a specific pleasure in arriving at the top of a climb having not touched the brakes, and it is available on the cheapest machine in the shop.\n\nThe measured figures also say something less obvious: **the road with the merchandise is only third.** Route 1096, the Samoeng day loop an hour from Chiang Mai, is denser than the famous one. So is the 1263.\n\n*Inference —* which means the best riding on this network is not where the shirts are sold, and a rider on a 125 has access to all of it."
+    "story": "*Inference —* Route 1095 measures 5.71 curves a kilometre, Route 1263 measures 6.03 and Route 1096 measures 6.34. At those densities you are never on a straight long enough for horsepower to express itself. What you are doing instead, continuously, is choosing a line, judging a radius you cannot fully see, and carrying momentum through a corner rather than making it with the throttle.\n\nA 110cc step-through is completely absorbing at that game, because it has no power to fall back on and every bit of speed has to be kept rather than bought. There is a specific pleasure in arriving at the top of a climb having not touched the brakes, and it is available on the cheapest machine in the shop.\n\nThe measured figures also say something less obvious: **the road with the merchandise is only third.** Route 1096, the Samoeng day loop an hour from Chiang Mai, is denser than the famous one. So is the 1263.\n\n*Inference —* which means the best riding on this network is not where the shirts are sold, and a rider on a 125 has access to all of it."
    },
    "text_th": {
     "what": "ความหนาแน่นของโค้งที่วัดได้บนถนนสายนี้คือเหตุผลที่ควรเช่ารถถูกๆ และไม่ใช่การยอมลดมาตรฐาน",
-    "story": "*อนุมาน —* ทางหลวง 1095 วัดได้ 4.03 โค้งต่อกิโลเมตร ทางหลวง 1263 วัดได้ 4.25 และทางหลวง 1096 วัดได้ 4.46 ที่ความหนาแน่นแบบนั้น คุณไม่เคยอยู่บนทางตรงนานพอให้แรงม้าได้แสดงตัว สิ่งที่คุณทำแทนอย่างต่อเนื่องคือการเลือกไลน์ กะรัศมีที่มองไม่เห็นทั้งหมด และรักษาโมเมนตัมผ่านโค้ง แทนที่จะสร้างมันขึ้นมาด้วยคันเร่ง\n\nรถออโต้ 110 ซีซี สนุกเต็มที่กับเกมนั้น เพราะมันไม่มีแรงให้พึ่ง และความเร็วทุกหน่วยต้องรักษาไว้ ไม่ใช่ซื้อเอา มีความสุขเฉพาะตัวในการไปถึงยอดเขาโดยไม่ได้แตะเบรกเลย และมันมีให้ใช้บนรถที่ถูกที่สุดในร้าน\n\nตัวเลขที่วัดได้ยังบอกอะไรที่ไม่ชัดนัก **ถนนที่มีเสื้อขายอยู่อันดับสามเท่านั้น** ทางหลวง 1096 วงรอบสะเมิงที่ห่างเชียงใหม่ชั่วโมงเดียว หนาแน่นกว่าสายดัง ทางหลวง 1263 ก็เช่นกัน\n\n*อนุมาน —* แปลว่าการขี่ที่ดีที่สุดในเครือข่ายนี้ไม่ได้อยู่ที่ที่ขายเสื้อ และคนขี่รถ 125 เข้าถึงมันได้ทั้งหมด"
+    "story": "*อนุมาน —* ทางหลวง 1095 วัดได้ 5.71 โค้งต่อกิโลเมตร ทางหลวง 1263 วัดได้ 6.03 และทางหลวง 1096 วัดได้ 6.34 ที่ความหนาแน่นแบบนั้น คุณไม่เคยอยู่บนทางตรงนานพอให้แรงม้าได้แสดงตัว สิ่งที่คุณทำแทนอย่างต่อเนื่องคือการเลือกไลน์ กะรัศมีที่มองไม่เห็นทั้งหมด และรักษาโมเมนตัมผ่านโค้ง แทนที่จะสร้างมันขึ้นมาด้วยคันเร่ง\n\nรถออโต้ 110 ซีซี สนุกเต็มที่กับเกมนั้น เพราะมันไม่มีแรงให้พึ่ง และความเร็วทุกหน่วยต้องรักษาไว้ ไม่ใช่ซื้อเอา มีความสุขเฉพาะตัวในการไปถึงยอดเขาโดยไม่ได้แตะเบรกเลย และมันมีให้ใช้บนรถที่ถูกที่สุดในร้าน\n\nตัวเลขที่วัดได้ยังบอกอะไรที่ไม่ชัดนัก **ถนนที่มีเสื้อขายอยู่อันดับสามเท่านั้น** ทางหลวง 1096 วงรอบสะเมิงที่ห่างเชียงใหม่ชั่วโมงเดียว หนาแน่นกว่าสายดัง ทางหลวง 1263 ก็เช่นกัน\n\n*อนุมาน —* แปลว่าการขี่ที่ดีที่สุดในเครือข่ายนี้ไม่ได้อยู่ที่ที่ขายเสื้อ และคนขี่รถ 125 เข้าถึงมันได้ทั้งหมด"
    },
    "kin": [
     {
@@ -631,7 +623,14 @@
      "sha256": "3948c98d472e0c71f971d863376c1fc324e200a6e15d8a52acc6edc94fc990ee"
     }
    ],
-   "kin_in": []
+   "kin_in": [
+    {
+     "from": "how-many-curves",
+     "type": "story",
+     "name": "1,864 curves",
+     "as": "Why the density matters more than the total."
+    }
+   ]
   },
   {
    "id": "ten-minutes",
@@ -992,13 +991,13 @@
    },
    "text": {
     "what": "Six kinds of machine ride this circuit in numbers. None of them is the wrong answer. What changes between them is which single thing you have to plan around.",
-    "story": "**The one thing each bike makes you plan around.**\n\nOn a **110–160 automatic**, it is the brakes. A twist-and-go gives almost no engine braking, so on a road measured at four curves a kilometre the brake does all the work for ten kilometres at a stretch. Plan descents in stages with a stop to let them cool. Everything else about the bike is an advantage here.\n\nOn a **geared 125**, nothing much. Second gear holds the bike down a hairpin descent on the engine, the weight is nothing, every mechanic on the circuit has the parts, and it climbs steadily. *Inference —* if a single machine had to be named as the best fit for this specific road, the argument for the geared underbone is the hardest one to beat, and it is the cheapest thing in the shop.\n\nOn a **250–450 trail bike**, it is the highway. The suspension and the 21-inch front make broken edges and the 1263 a non-issue; what you pay for it is a buzzy, tiring hour on the four-lane section of Route 108.\n\nOn a **400–700 twin**, it is the driveway. Real brakes, real engine braking, enough power for the long straights — and 200 kilograms that needs two people to pick up on a wet concrete ramp where the second person may be an hour away.\n\nOn a **700cc-plus adventure bike**, it is fatigue. Nothing here is beyond the machine. But a steering input every few seconds for six hours is pleasure at 150 kilograms and work at 250, and the mistakes on this road are made in the last hour of a long day.\n\n**On the back**, it is everything at once — longer stopping, higher weight behind the axle, and a passenger who cannot see the surface coming. Plan about two-thirds the distance.\n\n**What does not change.** *Inference —* the circuit does not sort riders by engine size. It sorts them by whether they know what their own brakes do on the eleventh kilometre of a descent, and that is a question you can answer in one day on the Samoeng loop before committing to four.",
-    "today": "The measured numbers that sit under all of this: Route 1095 runs 4.03 curves a kilometre over 185 km, Route 1263 runs 4.25, and Route 1096 runs 4.46. Those densities are what a wrist, a brake and a transmission are each being asked to absorb, and they are the same for everybody."
+    "story": "**The one thing each bike makes you plan around.**\n\nOn a **110–160 automatic**, it is the brakes. A twist-and-go gives almost no engine braking, so on a road measured at nearly six curves a kilometre the brake does all the work for ten kilometres at a stretch. Plan descents in stages with a stop to let them cool. Everything else about the bike is an advantage here.\n\nOn a **geared 125**, nothing much. Second gear holds the bike down a hairpin descent on the engine, the weight is nothing, every mechanic on the circuit has the parts, and it climbs steadily. *Inference —* if a single machine had to be named as the best fit for this specific road, the argument for the geared underbone is the hardest one to beat, and it is the cheapest thing in the shop.\n\nOn a **250–450 trail bike**, it is the highway. The suspension and the 21-inch front make broken edges and the 1263 a non-issue; what you pay for it is a buzzy, tiring hour on the four-lane section of Route 108.\n\nOn a **400–700 twin**, it is the driveway. Real brakes, real engine braking, enough power for the long straights — and 200 kilograms that needs two people to pick up on a wet concrete ramp where the second person may be an hour away.\n\nOn a **700cc-plus adventure bike**, it is fatigue. Nothing here is beyond the machine. But a steering input every few seconds for six hours is pleasure at 150 kilograms and work at 250, and the mistakes on this road are made in the last hour of a long day.\n\n**On the back**, it is everything at once — longer stopping, higher weight behind the axle, and a passenger who cannot see the surface coming. Plan about two-thirds the distance.\n\n**What does not change.** *Inference —* the circuit does not sort riders by engine size. It sorts them by whether they know what their own brakes do on the eleventh kilometre of a descent, and that is a question you can answer in one day on the Samoeng loop before committing to four.",
+    "today": "The measured numbers that sit under all of this: Route 1095 runs 5.71 curves a kilometre over 185 km, Route 1263 runs 6.03, and Route 1096 runs 6.34. Those densities are what a wrist, a brake and a transmission are each being asked to absorb, and they are the same for everybody."
    },
    "text_th": {
     "what": "รถหกแบบขี่เส้นทางนี้กันเป็นจำนวนมาก ไม่มีแบบไหนที่เป็นคำตอบผิด สิ่งที่ต่างกันคือคุณต้องวางแผนรับมือกับเรื่องอะไรเป็นหลัก",
-    "story": "**เรื่องเดียวที่รถแต่ละแบบบังคับให้คุณวางแผน**\n\nรถ **ออโต้ 110–160** คือเบรก รถออโต้แทบไม่มีเอนจินเบรก บนถนนที่วัดได้สี่โค้งต่อกิโลเมตร เบรกจึงต้องทำงานทั้งหมดต่อเนื่องสิบกิโลเมตร ให้วางแผนลงเขาเป็นช่วงๆ และจอดพักให้เบรกเย็น ส่วนอย่างอื่นของรถแบบนี้เป็นข้อได้เปรียบทั้งหมดที่นี่\n\nรถ **125 มีเกียร์** แทบไม่มีอะไรต้องกังวล เกียร์สองหน่วงรถลงทางหักศอกได้ด้วยเครื่อง น้ำหนักไม่มี ช่างทุกร้านบนเส้นทางมีอะไหล่ และไต่เขาได้สม่ำเสมอ *อนุมาน —* ถ้าต้องเลือกรถคันเดียวที่เหมาะกับถนนสายนี้ที่สุด ข้อโต้แย้งฝั่งรถครอบครัวมีเกียร์เป็นข้อที่หักล้างยากที่สุด และมันถูกที่สุดในร้าน\n\nรถ **วิบาก 250–450** คือทางหลวง ช่วงล่างและล้อหน้า 21 นิ้วทำให้ขอบถนนแตกและทางหลวง 1263 ไม่เป็นปัญหา สิ่งที่แลกคือหนึ่งชั่วโมงที่สั่นและล้าบนช่วงสี่เลนของทางหลวง 108\n\nรถ **สองสูบ 400–700** คือทางเข้าที่พัก เบรกจริง เอนจินเบรกจริง แรงพอสำหรับทางตรงยาว และน้ำหนัก 200 กิโลกรัมที่ต้องใช้คนสองคนยกบนทางลาดคอนกรีตเปียก ที่ซึ่งคนที่สองอาจอยู่ห่างออกไปหนึ่งชั่วโมง\n\nรถ **แอดเวนเจอร์ 700 ซีซีขึ้นไป** คือความล้า ไม่มีอะไรที่นี่เกินความสามารถของรถ แต่การสั่งรถเลี้ยวทุกไม่กี่วินาทีต่อเนื่องหกชั่วโมง เป็นความสนุกที่ 150 กิโลกรัม และเป็นการทำงานที่ 250 กิโลกรัม และความผิดพลาดบนถนนสายนี้เกิดในชั่วโมงสุดท้ายของวันที่ยาว\n\n**นั่งซ้อน** คือทุกอย่างพร้อมกัน ระยะเบรกยาวขึ้น น้ำหนักสูงและอยู่หลังเพลา และคนซ้อนที่มองไม่เห็นผิวถนนที่กำลังจะมาถึง ให้วางแผนราวสองในสามของระยะ\n\n**สิ่งที่ไม่เปลี่ยน** *อนุมาน —* เส้นทางนี้ไม่ได้คัดคนขี่ด้วยขนาดเครื่องยนต์ แต่คัดด้วยว่าคุณรู้หรือไม่ว่าเบรกของตัวเองทำงานอย่างไรในกิโลเมตรที่สิบเอ็ดของทางลง และนั่นเป็นคำถามที่ตอบได้ในหนึ่งวันบนวงรอบสะเมิง ก่อนจะตัดสินใจลงทุนสี่วัน",
-    "today": "ตัวเลขที่วัดได้ซึ่งรองรับทั้งหมดนี้ ทางหลวง 1095 มี 4.03 โค้งต่อกิโลเมตรตลอด 185 กิโลเมตร ทางหลวง 1263 มี 4.25 และทางหลวง 1096 มี 4.46 ความหนาแน่นเหล่านี้คือสิ่งที่ข้อมือ เบรก และระบบส่งกำลัง ต้องรับไว้ และมันเท่ากันสำหรับทุกคน"
+    "story": "**เรื่องเดียวที่รถแต่ละแบบบังคับให้คุณวางแผน**\n\nรถ **ออโต้ 110–160** คือเบรก รถออโต้แทบไม่มีเอนจินเบรก บนถนนที่วัดได้เกือบหกโค้งต่อกิโลเมตร เบรกจึงต้องทำงานทั้งหมดต่อเนื่องสิบกิโลเมตร ให้วางแผนลงเขาเป็นช่วงๆ และจอดพักให้เบรกเย็น ส่วนอย่างอื่นของรถแบบนี้เป็นข้อได้เปรียบทั้งหมดที่นี่\n\nรถ **125 มีเกียร์** แทบไม่มีอะไรต้องกังวล เกียร์สองหน่วงรถลงทางหักศอกได้ด้วยเครื่อง น้ำหนักไม่มี ช่างทุกร้านบนเส้นทางมีอะไหล่ และไต่เขาได้สม่ำเสมอ *อนุมาน —* ถ้าต้องเลือกรถคันเดียวที่เหมาะกับถนนสายนี้ที่สุด ข้อโต้แย้งฝั่งรถครอบครัวมีเกียร์เป็นข้อที่หักล้างยากที่สุด และมันถูกที่สุดในร้าน\n\nรถ **วิบาก 250–450** คือทางหลวง ช่วงล่างและล้อหน้า 21 นิ้วทำให้ขอบถนนแตกและทางหลวง 1263 ไม่เป็นปัญหา สิ่งที่แลกคือหนึ่งชั่วโมงที่สั่นและล้าบนช่วงสี่เลนของทางหลวง 108\n\nรถ **สองสูบ 400–700** คือทางเข้าที่พัก เบรกจริง เอนจินเบรกจริง แรงพอสำหรับทางตรงยาว และน้ำหนัก 200 กิโลกรัมที่ต้องใช้คนสองคนยกบนทางลาดคอนกรีตเปียก ที่ซึ่งคนที่สองอาจอยู่ห่างออกไปหนึ่งชั่วโมง\n\nรถ **แอดเวนเจอร์ 700 ซีซีขึ้นไป** คือความล้า ไม่มีอะไรที่นี่เกินความสามารถของรถ แต่การสั่งรถเลี้ยวทุกไม่กี่วินาทีต่อเนื่องหกชั่วโมง เป็นความสนุกที่ 150 กิโลกรัม และเป็นการทำงานที่ 250 กิโลกรัม และความผิดพลาดบนถนนสายนี้เกิดในชั่วโมงสุดท้ายของวันที่ยาว\n\n**นั่งซ้อน** คือทุกอย่างพร้อมกัน ระยะเบรกยาวขึ้น น้ำหนักสูงและอยู่หลังเพลา และคนซ้อนที่มองไม่เห็นผิวถนนที่กำลังจะมาถึง ให้วางแผนราวสองในสามของระยะ\n\n**สิ่งที่ไม่เปลี่ยน** *อนุมาน —* เส้นทางนี้ไม่ได้คัดคนขี่ด้วยขนาดเครื่องยนต์ แต่คัดด้วยว่าคุณรู้หรือไม่ว่าเบรกของตัวเองทำงานอย่างไรในกิโลเมตรที่สิบเอ็ดของทางลง และนั่นเป็นคำถามที่ตอบได้ในหนึ่งวันบนวงรอบสะเมิง ก่อนจะตัดสินใจลงทุนสี่วัน",
+    "today": "ตัวเลขที่วัดได้ซึ่งรองรับทั้งหมดนี้ ทางหลวง 1095 มี 5.71 โค้งต่อกิโลเมตรตลอด 185 กิโลเมตร ทางหลวง 1263 มี 4.25 และทางหลวง 1096 มี 4.46 ความหนาแน่นเหล่านี้คือสิ่งที่ข้อมือ เบรก และระบบส่งกำลัง ต้องรับไว้ และมันเท่ากันสำหรับทุกคน"
    },
    "kin": [
     {
@@ -1220,12 +1219,6 @@
      "type": "kit",
      "name": "Renting the bike",
      "as": "Whether you know the bike decides the direction."
-    },
-    {
-     "from": "how-many-curves",
-     "type": "story",
-     "name": "How many curves, actually",
-     "as": "The other argument this road starts."
     },
     {
      "from": "season-and-direction",

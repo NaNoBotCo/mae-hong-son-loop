@@ -96,6 +96,12 @@
    "type": "hazard",
    "name": "Annoyances",
    "as": "What tells you where you are when the phone does not."
+  },
+  {
+   "from": "the-1864-sign",
+   "type": "art",
+   "name": "The 1,864 sign",
+   "as": "The other roadside number, and the useful one."
   }
  ]
 }

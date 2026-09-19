@@ -17,6 +17,7 @@
 <meta property="og:site_name" content="The Mae Hong Son Loop">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="https://motdang.net/loop/cards/index.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="How this was made — The Mae Hong Son Loop"><meta name="twitter:image" content="https://motdang.net/loop/cards/index.jpg">
 <link rel="icon" href="../icon.svg" type="image/svg+xml">
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="alternate" type="application/atom+xml" href="../feed.xml">
@@ -351,12 +352,31 @@ ul.kin a{font-weight:700}
 ul.kin .rel{font-size:.62rem;text-transform:uppercase;letter-spacing:.1em;color:var(--mute);
  font-weight:800;margin-right:.4rem}
 
-/* ---- share + quiz */
-.share{display:flex;gap:.45rem;flex-wrap:wrap;margin:1.2rem 0}
-.share a,.share button{font-size:.76rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em;
- padding:.45rem .75rem;border:2px solid var(--ink);background:var(--bg);color:var(--ink);
- text-decoration:none;cursor:pointer;border-radius:0}
-.share a:hover,.share button:hover{background:var(--ink);color:var(--bg)}
+/* ---- sharing
+   A row of small grey words gets the clicks it deserves. This is a block with a reason
+   attached, and the buttons are sized for a thumb. */
+.sharebar{border:3px solid var(--ink);background:var(--panel);margin:2.2rem 0 1.2rem;
+ padding:.9rem 1rem 1rem;box-shadow:5px 5px 0 var(--shadow)}
+.shhead{display:flex;gap:.2rem .7rem;flex-wrap:wrap;align-items:baseline;margin-bottom:.7rem}
+.shhead b{font-family:var(--display);font-size:1.02rem;text-transform:uppercase;letter-spacing:.01em}
+.shrow{display:flex;gap:.45rem;flex-wrap:wrap}
+.sh{display:inline-flex;align-items:center;gap:.4rem;font-size:.78rem;font-weight:800;
+ letter-spacing:.03em;padding:.5rem .7rem;border:2px solid var(--line);background:var(--bg);
+ color:var(--ink);text-decoration:none;cursor:pointer;line-height:1;min-height:2.3rem}
+.sh:hover{border-color:var(--ink);background:var(--ink);color:var(--bg)}
+.sh svg{flex:0 0 auto}
+.sh-facebook:hover{background:#1877f2;border-color:#1877f2;color:#fff}
+.sh-line:hover{background:#06c755;border-color:#06c755;color:#fff}
+.sh-whatsapp:hover{background:#25d366;border-color:#25d366;color:#fff}
+.sh-x:hover{background:#000;border-color:#000;color:#fff}
+.sh-reddit:hover{background:#ff4500;border-color:#ff4500;color:#fff}
+.sh-mail:hover{background:var(--plum);border-color:var(--plum);color:#fff}
+.sh-link:hover,.sh-print:hover,.sh-native:hover{background:var(--hot);border-color:var(--hot);color:#fff}
+@media (max-width:30rem){.sh span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+ .sh{padding:.6rem .72rem}}
+@media print{.sharebar{display:none}}
+
+/* ---- quiz */
 fieldset{border:2px solid var(--line);margin:1rem 0;padding:.7rem .9rem}
 legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:.95rem;padding:0 .4rem}
 .opts{display:grid;gap:.35rem}
@@ -403,13 +423,13 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
 </span>
 </div></header>
 <main id="main">
-<h1><span class="kind">Method</span>How this was made</h1><div class="slab"><div><b>109</b><span>records</span></div><div><b>390</b><span>links between them</span></div><div><b>115</b><span>sources</span></div><div><b>234</b><span>Thai fields</span></div><div><b>9,319</b><span>OSM places</span></div><div><b>15,050</b><span>air point-days</span></div></div><h2>Where each claim comes from</h2><div class="scroll"><table><thead><tr><th>Tier</th><th class="num">Records</th><th>What it means</th></tr></thead><tbody><tr><td><span class="tier cited">cited</span></td><td class="num">52</td><td>Cited — a named source, linked</td></tr><tr><td><span class="tier inference">inference</span></td><td class="num">25</td><td>Inference — this project&#x27;s own reasoning from the above</td></tr><tr><td><span class="tier harvested">harvested</span></td><td class="num">19</td><td>Harvested — fetched from an open dataset, with its licence</td></tr><tr><td><span class="tier tradition">tradition</span></td><td class="num">13</td><td>Tradition — general knowledge of the tradition, hedged</td></tr></tbody></table></div><p>31 records carry needs_verification: parts of them are marked as unconfirmed on the page itself.</p><h2>What this site does not claim</h2><ul><li>The curve counts measure an OpenStreetMap polyline, which is a volunteer trace of a road rather than a survey of one.</li><li>The demand map says where a road asks the most of a rider. It is not a record of where anyone has crashed; no such record is published for these roads.</li><li>The air model never produced a daily mean above 99.4 µg/m³ in 15,050 point-days. Ground stations have recorded far higher. Read the season from it, not the ceiling.</li><li>Harvested places are what volunteers mapped on a date. An absence is an absence from the dataset.</li><li>Prices, opening hours and business details are not published here unless a named source was checked. Where they were not, the page says so.</li></ul><h2>Rebuild it</h2><pre class="small"><code>python3 tools/fetch_wiki.py
+<h1><span class="kind">Method</span>How this was made</h1><div class="slab"><div><b>109</b><span>records</span></div><div><b>391</b><span>links between them</span></div><div><b>115</b><span>sources</span></div><div><b>234</b><span>Thai fields</span></div><div><b>9,319</b><span>OSM places</span></div><div><b>15,050</b><span>air point-days</span></div></div><h2>Where each claim comes from</h2><div class="scroll"><table><thead><tr><th>Tier</th><th class="num">Records</th><th>What it means</th></tr></thead><tbody><tr><td><span class="tier cited">cited</span></td><td class="num">51</td><td>Cited — a named source, linked</td></tr><tr><td><span class="tier inference">inference</span></td><td class="num">26</td><td>Inference — this project&#x27;s own reasoning from the above</td></tr><tr><td><span class="tier harvested">harvested</span></td><td class="num">19</td><td>Harvested — fetched from an open dataset, with its licence</td></tr><tr><td><span class="tier tradition">tradition</span></td><td class="num">13</td><td>Tradition — general knowledge of the tradition, hedged</td></tr></tbody></table></div><p>31 records carry needs_verification: parts of them are marked as unconfirmed on the page itself.</p><h2>What this site does not claim</h2><ul><li>The curve counts measure an OpenStreetMap polyline, which is a volunteer trace of a road rather than a survey of one.</li><li>The demand map says where a road asks the most of a rider. It is not a record of where anyone has crashed; no such record is published for these roads.</li><li>The air model never produced a daily mean above 99.4 µg/m³ in 15,050 point-days. Ground stations have recorded far higher. Read the season from it, not the ceiling.</li><li>Harvested places are what volunteers mapped on a date. An absence is an absence from the dataset.</li><li>Prices, opening hours and business details are not published here unless a named source was checked. Where they were not, the page says so.</li></ul><h2>Rebuild it</h2><pre class="small"><code>python3 tools/fetch_wiki.py
 python3 tools/harvest_osm.py --all
 python3 tools/harvest_air.py --all
 python3 tools/curves.py
 python3 tools/validate.py
 python3 tools/build.py
-python3 tools/site.py</code></pre><p class="small mute">Built 2026-09-19 10:19</p>
+python3 tools/site.py</code></pre><p class="small mute">Built 2026-09-19 10:30</p>
 </main>
 <footer class="bot"><div class="in">
 <p><b>The Mae Hong Son Loop</b> — 600 kilometres, 1,864 curves on the sign, and a different answer from the map</p>

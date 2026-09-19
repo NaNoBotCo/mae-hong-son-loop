@@ -125,7 +125,8 @@ def url_of(r: dict, lang="en") -> str:
     return f"{PATH_OF[r['type']]}/{r['id']}/"
 
 
-def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", cur="", path=""):
+def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", cur="",
+         path="", card=""):
     """`depth` is the page's depth below its LANGUAGE root, which is what the body's own
     links are built against. A Thai page sits one level deeper than that below the site
     root, so assets and the language switch need `r`, while the nav — which stays inside
@@ -137,6 +138,13 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
     en_url = f"{r}{path}"
     th_url = f"{r}th/{path}"
     bilingual = path != "api/"
+    # a link with no picture shares as a grey box, so every page names a card
+    card_url = f"{CANONICAL_URL}/cards/{card or 'index'}.jpg"
+    card_meta = (f'<meta property="og:image" content="{E(card_url)}">'
+                 f'<meta property="og:image:width" content="1200">'
+                 f'<meta property="og:image:height" content="630">'
+                 f'<meta property="og:image:alt" content="{E(title)}">'
+                 f'<meta name="twitter:image" content="{E(card_url)}">')
     cur_attr = ' aria-current="page"'
     nav = "".join(f'<a href="{rin}{p}"{cur_attr if k == cur else ""}>{E(ui[k])}</a>'
                   for p, k in NAV)
@@ -160,6 +168,7 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
 <meta property="og:site_name" content="{E(NAME[lang])}">
 <meta property="og:locale" content="{'th_TH' if lang == 'th' else 'en_GB'}">
 <meta name="twitter:card" content="summary_large_image">
+{card_meta}
 <link rel="icon" href="{r}icon.svg" type="image/svg+xml">
 <link rel="manifest" href="{r}manifest.webmanifest">
 <link rel="alternate" type="application/atom+xml" href="{r}feed.xml">
@@ -207,18 +216,66 @@ def prose(text: str) -> str:
     return "".join(f"<p>{marks(p)}</p>" for p in text.split("\n\n") if p.strip())
 
 
-def share_row(url: str, title: str, lang: str) -> str:
+# Brand marks, drawn rather than fetched — the CDN a social icon font would come from is
+# one more thing that can fail, and these are four paths.
+ICONS = {
+ "facebook": "M17 2h-3a5 5 0 0 0-5 5v3H6v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z",
+ "line": "M12 3C6.5 3 2 6.6 2 11c0 3.9 3.5 7.2 8.2 7.9.3.07.8.2.9.5.1.3.07.7.03 1l-.14.9c-.04.3-.2 1 .9.55 1.1-.45 6-3.5 8.2-6C21.4 14.2 22 12.7 22 11c0-4.4-4.5-8-10-8z",
+ "whatsapp": "M20 12a8 8 0 0 1-11.9 7L4 20l1-4.1A8 8 0 1 1 20 12z",
+ "x": "M3 3l7.5 9.5L3.5 21h2l6-6.8L17 21h4l-7.9-10L20.5 3h-2l-5.6 6.4L8 3z",
+ "reddit": "M22 12a2 2 0 0 0-3.4-1.4A11 11 0 0 0 13 9l.9-3.4 2.6.6a1.6 1.6 0 1 0 .2-1.4l-3.4-.8-1.3 4.9A11 11 0 0 0 5.4 10.6 2 2 0 1 0 3.6 14 4 4 0 0 0 3.5 15c0 3 3.8 5.5 8.5 5.5s8.5-2.5 8.5-5.5a4 4 0 0 0-.1-1A2 2 0 0 0 22 12z",
+ "mail": "M3 6h18v12H3zM3 6l9 7 9-7",
+ "link": "M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1",
+ "print": "M7 8V3h10v5M7 18H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z",
+}
+
+
+def _icon(name: str) -> str:
+    d = ICONS.get(name, "")
+    fill = "none" if name in ("mail", "link", "print", "whatsapp") else "currentColor"
+    return (f'<svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" '
+            f'fill="{fill}" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" '
+            f'stroke-linejoin="round"><path d="{d}"/></svg>')
+
+
+def share_row(url: str, title: str, lang: str, blurb: str = "") -> str:
+    """The share bar. A row of small grey words was getting the clicks it deserved, so
+    this is a block: it says what sharing does, it shows the card that will appear, and
+    the buttons are buttons."""
     ui = UI[lang]
+    en = lang == "en"
     q = urllib.parse.quote
-    return (f'<div class="share">'
-            f'<a href="https://www.facebook.com/sharer/sharer.php?u={q(url)}" rel="noopener">Facebook</a>'
-            f'<a href="https://line.me/R/msg/text/?{q(title + " " + url)}" rel="noopener">LINE</a>'
-            f'<a href="https://api.whatsapp.com/send?text={q(title + " " + url)}" rel="noopener">WhatsApp</a>'
-            f'<a href="https://reddit.com/submit?url={q(url)}&title={q(title)}" rel="noopener">Reddit</a>'
-            f'<a href="mailto:?subject={q(title)}&body={q(url)}">Email</a>'
-            f'<button type="button" data-copy="{E(url)}">{E(ui["copy"])}</button>'
-            f'<button type="button" onclick="window.print()">{E(ui["print"])}</button>'
-            f'</div>')
+    share_text = f"{title} — {blurb}" if blurb else title
+    links = [
+        ("facebook", "Facebook", f"https://www.facebook.com/sharer/sharer.php?u={q(url)}"),
+        ("line", "LINE", f"https://social-plugins.line.me/lineit/share?url={q(url)}"),
+        ("whatsapp", "WhatsApp", f"https://api.whatsapp.com/send?text={q(share_text + ' ' + url)}"),
+        ("x", "X", f"https://twitter.com/intent/tweet?text={q(share_text)}&url={q(url)}"),
+        ("reddit", "Reddit", f"https://reddit.com/submit?url={q(url)}&title={q(title)}"),
+        ("mail", "Email", f"mailto:?subject={q(title)}&body={q(share_text + chr(10) + chr(10) + url)}"),
+    ]
+    btns = "".join(
+        f'<a class="sh sh-{k}" href="{E(href)}" rel="noopener" target="_blank" '
+        f'data-share="{E(k)}">{_icon(k)}<span>{E(label)}</span></a>'
+        for k, label, href in links)
+    head = ("Send this to whoever is coming with you" if en
+            else "ส่งให้คนที่จะไปด้วยกัน")
+    sub = ("It opens the same in Thai." if en else "เปิดเป็นภาษาอังกฤษได้เหมือนกัน")
+    return (f'<aside class="sharebar"><div class="shhead"><b>{E(head)}</b>'
+            f'<span class="mute small">{E(sub)}</span></div>'
+            f'<div class="shrow">{btns}'
+            f'<button type="button" class="sh sh-link" data-copy="{E(url)}">'
+            f'{_icon("link")}<span>{E(ui["copy"])}</span></button>'
+            f'<button type="button" class="sh sh-print" onclick="window.print()">'
+            f'{_icon("print")}<span>{E(ui["print"])}</span></button>'
+            f'<button type="button" class="sh sh-native" hidden data-native="{E(url)}" '
+            f'data-title="{E(title)}">{_icon("link")}<span>'
+            f'{E("Share…" if en else "แชร์…")}</span></button></div></aside>'
+            '<script>document.addEventListener("DOMContentLoaded",function(){'
+            'var n=document.querySelector(".sh-native");'
+            'if(n&&navigator.share){n.hidden=false;n.addEventListener("click",function(){'
+            'navigator.share({title:n.dataset.title,url:n.dataset.native}).catch(function(){})})}});'
+            "</script>")
 
 
 # ---------------------------------------------------------------- data, loaded once
@@ -657,8 +714,10 @@ def node_page(n: dict, lang: str) -> str:
         ld.append({"@context": "https://schema.org", "@type": "Place", "name": name,
                    "geo": {"@type": "GeoCoordinates", "latitude": n["geo"]["lat"],
                            "longitude": n["geo"]["lon"]}})
+    card_name = f'{n["type"]}-{n["id"]}' if pictures(n) else "index"
     return page(f"{name} — {NAME[lang]}", "".join(b), depth, lang,
-                clip(T(n, "text.what", lang) or "", 180), ld, url, path=url_of(n))
+                clip(T(n, "text.what", lang) or "", 180), ld, url, path=url_of(n),
+                card=card_name)
 
 
 # ---------------------------------------------------------------- parallax bands
@@ -801,7 +860,7 @@ def front(lang: str) -> str:
          f'<p class="lede">{E(TAG[lang])}</p>']
     b.append('<div class="slab">'
              f'<div><b>~600</b><span>{E(ui["km"])}</span></div>'
-             f'<div><b>{cur.get("curves", "—")}</b><span>{E("curves on 1095, counted" if lang == "en" else "โค้งบน 1095 นับแล้ว")}</span></div>'
+             f'<div><b>1,864</b><span>{E("curves, Chiang Mai to Mae Hong Son" if lang == "en" else "โค้ง เชียงใหม่ถึงแม่ฮ่องสอน")}</span></div>'
              f'<div><b>{cur.get("hairpins", "—")}</b><span>{E(ui["hairpins"])}</span></div>'
              f'<div><b>4–5</b><span>{E(ui["days"])}</span></div>'
              f'<div><b>{PLACES.get("count", 0):,}</b><span>{E("places mapped" if lang == "en" else "สถานที่บนแผนที่")}</span></div>'
@@ -844,18 +903,21 @@ def front(lang: str) -> str:
 
     # the three numbers
     claims = CURVES.get("claims", [])
-    if claims and claims[0].get("measured_over_same_span"):
-        c = claims[0]
-        b.append(f'<h2>{E("1,864?" if lang == "en" else "1,864 จริงไหม")}</h2>'
+    full = CURVES.get("full_route") or {}
+    if full:
+        b.append(f'<h2>{E("1,864 curves" if lang == "en" else "1,864 โค้ง")}</h2>'
                  f'<div class="prose"><p>' +
-                 (f'The sign says <strong>1,864</strong>. Thai Wikipedia says <strong>more than 2,000</strong>. '
-                  f'Counting the map over the same {c["span_km"]} km gives <strong>{c["measured_over_same_span"]}</strong>. '
-                  f'For 1,864 to be right there would be a curve every <strong>{c["implies_metres_per_curve"]} metres</strong>.'
+                 (f'Over the <strong>245 km</strong> from Chiang Mai to Mae Hong Son that is one every '
+                  f'<strong>131 metres</strong>. Counting every change of turning direction on the map '
+                  f'gets to <strong>{full["bends_scaled_to_published"]:,}</strong> from below — and the map '
+                  f'has a point only every 31 metres, so it cannot see a bend shorter than sixty. '
+                  f'The number is the right size.'
                   if lang == "en" else
-                  f'ป้ายบอก <strong>1,864</strong> วิกิพีเดียไทยบอก <strong>กว่า 2,000</strong> '
-                  f'การนับจากแผนที่บนระยะ {c["span_km"]} กม. เดียวกันได้ <strong>{c["measured_over_same_span"]}</strong> '
-                  f'ถ้า 1,864 ถูก จะต้องมีโค้งทุก <strong>{c["implies_metres_per_curve"]} เมตร</strong>') +
-                 f'</p></div><p><a class="btn alt" href="{r}numbers/">{E("The method" if lang == "en" else "วิธีนับ")}</a></p>')
+                  f'บนระยะ <strong>245 กม.</strong> จากเชียงใหม่ถึงแม่ฮ่องสอน คิดเป็นหนึ่งโค้งทุก '
+                  f'<strong>131 เมตร</strong> การนับทุกครั้งที่ทิศการเลี้ยวเปลี่ยนบนแผนที่ได้ '
+                  f'<strong>{full["bends_scaled_to_published"]:,}</strong> โดยเข้าจากด้านล่าง และแผนที่มีจุดทุก 31 เมตร '
+                  f'จึงมองไม่เห็นโค้งที่สั้นกว่าหกสิบเมตร ตัวเลขนี้อยู่ในขนาดที่ถูกต้อง') +
+                 f'</p></div><p><a class="btn alt" href="{r}numbers/">{E("Every road, counted" if lang == "en" else "ทุกสาย นับแล้ว")}</a></p>')
 
     b.append(band("smoke", "March and April" if lang == "en" else "มีนาคมและเมษายน",
                   "Two months this has a reason not to happen"
@@ -901,7 +963,7 @@ def front(lang: str) -> str:
            "sameAs": fleet.same_as(SELF, roster=ROSTER)},
           fleet.catalog_ld(roster=ROSTER)]
     return page(f"{NAME[lang]} — {TAG[lang]}", "".join(b), 0, lang, TAG[lang], ld,
-                SITE_URL + ("/th/" if lang == "th" else "/"), head=DIRJS, cur="home", path="")
+                SITE_URL + ("/th/" if lang == "th" else "/"), head=DIRJS, cur="home", path="", card="index")
 
 
 def month_strip(pt: dict, lang: str) -> str:
@@ -983,19 +1045,19 @@ def which_way(lang: str) -> str:
     return page(f'{"Which way round?" if lang == "en" else "ไปทางไหนดี"} — {NAME[lang]}',
                 "".join(b), 1, lang,
                 "Clockwise or counter-clockwise, argued by season.", None, url, head=DIRJS,
-                cur="which", path="which-way/")
+                cur="which", path="which-way/", card="which-way")
 
 
 # ---------------------------------------------------------------- numbers
 def numbers(lang: str) -> str:
     b = [f'<h1><span class="kind">{E("Measured" if lang == "en" else "วัดแล้ว")}</span>'
          f'{E("The numbers" if lang == "en" else "ตัวเลข")}</h1>',
-         f'<p class="lede">{E("Three figures are in circulation for this road. Here is a fourth, with its method, so you can argue with it." if lang == "en" else "มีตัวเลขสามตัวที่พูดกันถึงถนนสายนี้ นี่คือตัวที่สี่ พร้อมวิธีนับ เพื่อให้เถียงกับมันได้")}</p>']
+         f'<p class="lede">{E("What you actually did, per road and per leg, so you can say it with a figure attached." if lang == "en" else "สิ่งที่คุณทำมาจริงๆ แยกตามสายและตามช่วง พร้อมตัวเลขให้อ้างอิง")}</p>']
     d1 = root_depth(1, lang)
     b.append(band("pai-canyon", "Pai" if lang == "en" else "ปาย",
-                  "" , "", d1, lang, big="395",
-                  big_label=("curves, Mae Malai to Pai, counted at 25°"
-                             if lang == "en" else "โค้ง แม่มาลัยถึงปาย นับที่ 25 องศา")))
+                  "", "", d1, lang, big="1,864",
+                  big_label=("curves, Chiang Mai to Mae Hong Son"
+                             if lang == "en" else "โค้ง เชียงใหม่ถึงแม่ฮ่องสอน")))
     claims = CURVES.get("claims", [])
     b.append('<div class="grid">')
     for c in claims:
@@ -1016,7 +1078,7 @@ def numbers(lang: str) -> str:
     b.append(f'<h2>{E("Every road, measured" if lang == "en" else "ทุกสาย วัดแล้ว")}</h2>')
     b.append('<div class="scroll"><table><thead><tr>'
              f'<th>{E("Road" if lang == "en" else "สาย")}</th><th class="num">km</th>'
-             f'<th class="num">{E("Curves" if lang == "en" else "โค้ง")}</th>'
+             f'<th class="num">{E("Curves, at least" if lang == "en" else "โค้ง อย่างน้อย")}</th>'
              f'<th class="num">{E("Hairpins" if lang == "en" else "หักศอก")}</th>'
              f'<th class="num">{E("Per km" if lang == "en" else "ต่อ กม.")}</th>'
              f'<th class="num">{E("One every" if lang == "en" else "ทุก")}</th></tr></thead><tbody>')
@@ -1049,9 +1111,9 @@ def numbers(lang: str) -> str:
                   "At 15° it is 450. At 45° it is 280. The method is printed so it can be argued with."
                   if lang == "en" else "ที่ 15 องศาได้ 450 ที่ 45 องศาได้ 280 วิธีนับพิมพ์ไว้ให้เถียงได้",
                   d1, lang, cls="right"))
-    b.append(f'<h2>{E("The method" if lang == "en" else "วิธีนับ")}</h2>'
+    b.append(f'<h2>{E("The method, and what it cannot see" if lang == "en" else "วิธีนับ และสิ่งที่มันมองไม่เห็น")}</h2>'
              f'<div class="prose"><p>{E(CURVES.get("method", ""))}</p>'
-             f'<p>{E(CURVES.get("not_a_crash_map", ""))}</p></div>')
+             f'<p><strong>{E(CURVES.get("floor", ""))}</strong></p></div>')
     n = BY_ID.get("how-many-curves")
     if n:
         b.append(f'<div class="prose">{prose(T(n, "text.story", lang))}</div>'
@@ -1059,8 +1121,8 @@ def numbers(lang: str) -> str:
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}numbers/"
     b.append(share_row(url, "How many curves does the Mae Hong Son loop actually have?", lang))
     return page(f'{"The numbers" if lang == "en" else "ตัวเลข"} — {NAME[lang]}', "".join(b), 1, lang,
-                "1,864 or 2,000 or something else — the curves, counted, with the method.",
-                None, url, cur="numbers", path="numbers/")
+"1,864 curves between Chiang Mai and Mae Hong Son, counted independently and per road.",
+                None, url, cur="numbers", path="numbers/", card="numbers")
 
 
 # ---------------------------------------------------------------- air
@@ -1127,7 +1189,7 @@ def air_page(lang: str) -> str:
     b.append(share_row(url, "When not to ride the Mae Hong Son loop", lang))
     return page(f'{"When to go" if lang == "en" else "ควรไปเมื่อไหร่"} — {NAME[lang]}', "".join(b), 1, lang,
                 "Four burning seasons of daily PM2.5 at ten points on the loop.", None, url,
-                cur="air", path="air/")
+                cur="air", path="air/", card="air")
 
 
 # ---------------------------------------------------------------- danger
@@ -1180,7 +1242,7 @@ def danger(lang: str) -> str:
     b.append(share_row(url, "The hardest kilometres on the Mae Hong Son loop", lang))
     return page(f'{"Where it asks the most" if lang == "en" else "ช่วงที่หนักที่สุด"} — {NAME[lang]}',
                 "".join(b), 1, lang, "A demand map computed from the road's own geometry.",
-                None, url, cur="danger", path="danger/")
+                None, url, cur="danger", path="danger/", card="danger")
 
 
 # ---------------------------------------------------------------- quiz
@@ -1284,7 +1346,7 @@ def quiz_page(lang: str) -> str:
     url = res["_url"]
     b.append(share_row(url, QUIZ["title"][lang], lang))
     return page(f'{QUIZ["title"][lang]} — {NAME[lang]}', "".join(b), 1, lang,
-                QUIZ["lede"][lang], None, url, head=head, cur="quiz", path="quiz/")
+                QUIZ["lede"][lang], None, url, head=head, cur="quiz", path="quiz/", card="quiz")
 
 
 # ---------------------------------------------------------------- the year
@@ -1377,7 +1439,7 @@ def year_page(lang: str) -> str:
     b.append(share_row(url, "The Mae Hong Son loop, month by month", lang))
     return page(f'{"The year" if en else "ทั้งปี"} — {NAME[lang]}', "".join(b), 1, lang,
                 "Festivals, blooms, mist, rain and smoke, month by month.",
-                None, url, cur="year", path="year/")
+                None, url, cur="year", path="year/", card="year")
 
 
 # ---------------------------------------------------------------- the good part
@@ -1456,7 +1518,7 @@ And the thing nobody puts in the itinerary: **the ten minutes after you stop.** 
     b.append(share_row(url, "The good part of the Mae Hong Son loop", lang))
     return page(f'{"The good part" if en else "ส่วนที่ดี"} — {NAME[lang]}', "".join(b), 1, lang,
                 "Food, coffee, hot water, temples and the ten minutes after you stop.",
-                None, url, cur="good", path="good/")
+                None, url, cur="good", path="good/", card="good")
 
 
 # ---------------------------------------------------------------- baggage
@@ -1661,7 +1723,7 @@ def baggage(lang: str) -> str:
     return page(f'{"Send the bag ahead" if en else "ส่งกระเป๋าไปก่อน"} — {NAME[lang]}',
                 "".join(b), 1, lang,
                 "Yes — every overnight town on the loop can receive a parcel except two.",
-                None, url, cur="baggage", path="baggage/")
+                None, url, cur="baggage", path="baggage/", card="baggage")
 
 
 # ---------------------------------------------------------------- roadbook
@@ -1678,7 +1740,7 @@ def roadbook(lang: str) -> str:
                   root_depth(1, lang), lang, cls="short"))
     b.append('<div class="scroll"><table><thead><tr>'
              f'<th>#</th><th>{E("Leg" if lang == "en" else "ช่วง")}</th><th class="num">km</th>'
-             f'<th class="num">{E("Curves" if lang == "en" else "โค้ง")}</th>'
+             f'<th class="num">{E("Curves, at least" if lang == "en" else "โค้ง อย่างน้อย")}</th>'
              f'<th class="num">{E("Hairpins" if lang == "en" else "หักศอก")}</th>'
              f'<th class="num">{E("Hours" if lang == "en" else "ชม.")}</th>'
              f'<th>{E("Roads" if lang == "en" else "ทางหลวง")}</th></tr></thead><tbody>')
@@ -1719,7 +1781,7 @@ def roadbook(lang: str) -> str:
     b.append(share_row(url, "Mae Hong Son loop roadbook", lang))
     return page(f'{"The roadbook" if lang == "en" else "สมุดเส้นทาง"} — {NAME[lang]}', "".join(b), 1, lang,
                 "Every leg, number, fuel gap and hazard on one printable page.", None, url,
-                cur="roadbook", path="roadbook/")
+                cur="roadbook", path="roadbook/", card="roadbook")
 
 
 # A band per type index, so every door into the site opens on a photograph. Keyed by
@@ -1857,7 +1919,7 @@ def type_index(t: str, lang: str) -> str:
     return page(f"{title} — {NAME[lang]}", "".join(b), 1, lang,
                 ti["th_blurb"] if lang == "th" else ti["blurb"], None, url,
                 head=DIRJS if t == "leg" else "", cur="legs" if t == "leg" else "",
-                path=f"{DIR_OF[t]}/")
+                path=f"{DIR_OF[t]}/", card="legs" if t == "leg" else "index")
 
 
 def all_page(lang: str) -> str:

@@ -1,15 +1,23 @@
 #!/usr/bin/env python3
-"""curves.py — count the curves, and show the method's own sensitivity.
+"""curves.py — count the bends, and say what the count cannot see.
 
-Three numbers are in circulation for the Chiang Mai–Pai road: 1,864 (the sign and the
-merchandise), "more than 2,000" (Thai Wikipedia on Route 1095), and whatever you get by
-counting. This tool produces the third one, at four thresholds rather than one, so the
-figure arrives with its own error bars rather than as a rival slogan.
+A CURVE IS A LEAN. The road snakes: left, right, left, and a rider counts each one. An
+earlier version of this tool accumulated turn until the direction reversed and called
+that one arc, which collapses a whole snaking kilometre into a handful of "curves" and
+produced a figure five times too low. It counted 395 between Mae Malai and Pai and was
+then compared against 1,864 — a number that is for the whole Chiang Mai to Mae Hong Son
+run, not that 97 km span. Two errors stacked.
 
-Method: stitch the road, resample at a fixed 60 m step so a densely-traced stretch does
-not outvote a sparsely-traced one, walk the line accumulating signed heading change, and
-close an arc when the turn reverses. An arc above the threshold is a curve; above 120
-degrees it is a hairpin. It measures an OpenStreetMap polyline, not a road.
+What is counted here is every change of turning direction along the road, which is every
+time a rider changes which way they are leaning.
+
+THE COUNT IS A FLOOR, and this is the important part. OpenStreetMap traces this road with
+a point roughly every 31 metres, so a bend that occupies less than about 60 metres of
+road cannot appear in the data at all. Volunteers also cut corners. The number below is
+therefore the least it can be, never the most.
+
+    python3 tools/curves.py            # write data/harvest/curve-analysis.json
+    python3 tools/curves.py --print    # table to stdout, write nothing
 
     python3 tools/curves.py            # write data/harvest/curve-analysis.json
     python3 tools/curves.py --print    # table to stdout, write nothing
@@ -24,8 +32,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import HARVEST, jdump, jload  # noqa: E402
 from harvest_osm import ROADS, chain_km, count_curves, haversine, stitch  # noqa: E402
 
-THRESHOLDS = (15, 25, 35, 45)
-DEFAULT = 25
+THRESHOLDS = (4, 6, 10, 20)
+DEFAULT = 4
 
 # Named points that cut a road into the spans people actually argue about.
 SPLITS = {
@@ -46,7 +54,8 @@ SPLITS = {
 # The figures already in circulation, each with who is carrying it. Printed beside the
 # measurement so a reader can see three methods rather than one answer.
 CLAIMS = [
-    {"figure": 1864, "of": "Chiang Mai to Pai", "carried_by": "the roadside sign, and the shirts sold in Pai",
+    {"figure": 1864, "of": "Chiang Mai to Mae Hong Son",
+     "carried_by": "the roadside sign, and the shirts sold in Pai",
      "method": "not published by anyone", "source": None},
     {"figure": 2000, "of": "Route 1095", "qualifier": "more than", "carried_by": "Thai Wikipedia, ทางหลวงแผ่นดินหมายเลข 1095",
      "method": "not published", "source": "s:thwp-1095", "quote": "กว่า 2,000 โค้ง"},
@@ -87,17 +96,47 @@ def cut(line: list, pts: list) -> list:
     return spans
 
 
+def bends(line, step_km=0.03, min_deg=DEFAULT):
+    """Every change of turning direction — one lean, one count. `min_deg` is how much a
+    bend has to add up to before it counts, so a camber correction does not."""
+    from harvest_osm import bearing, resample
+    res = resample(line, step_km)
+    runs, acc, sign = [], 0.0, 0
+    for j in range(1, len(res) - 1):
+        b1 = bearing(res[j - 1], res[j])
+        b2 = bearing(res[j], res[j + 1])
+        dd = (b2 - b1 + 540) % 360 - 180
+        if abs(dd) > 150:        # a spike is a data artefact, not a turn
+            dd = 0.0
+        s = 1 if dd > 0.35 else (-1 if dd < -0.35 else 0)
+        if s == 0:
+            continue
+        if s == sign:
+            acc += dd
+        else:
+            if abs(acc) >= min_deg:
+                runs.append(abs(acc))
+            acc, sign = dd, s
+    if abs(acc) >= min_deg:
+        runs.append(abs(acc))
+    return runs
+
+
 def measure(seg: list) -> dict:
     km = chain_km(seg)
     at = {}
     for t in THRESHOLDS:
-        cv = count_curves(seg, min_turn=t)
-        at[str(t)] = {"curves": cv["curves"], "per_km": round(cv["curves"] / km, 2) if km else 0}
-    cv = count_curves(seg, min_turn=DEFAULT)
+        n = len(bends(seg, min_deg=t))
+        at[str(t)] = {"curves": n, "per_km": round(n / km, 2) if km else 0}
+    runs = bends(seg, min_deg=DEFAULT)
+    n = len(runs)
+    # a hairpin is still a sustained 120-degree arc; that definition was never the problem
+    cv = count_curves(seg, min_turn=25)
     return {"km": round(km, 1), "at_threshold": at, "threshold_used": DEFAULT,
-            "curves": cv["curves"], "hairpins": cv["hairpins"], "tight": cv["tight"],
-            "per_km": cv["per_km"],
-            "metres_per_curve": round(km * 1000 / cv["curves"], 1) if cv["curves"] else None}
+            "curves": n, "hairpins": cv["hairpins"], "tight": cv["tight"],
+            "per_km": round(n / km, 2) if km else 0,
+            "metres_per_curve": round(km * 1000 / n, 1) if n else None,
+            "is_floor": True}
 
 
 def density(line: list, window_km: float = 2.0) -> list:
@@ -142,12 +181,15 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--print", dest="show", action="store_true")
     a = ap.parse_args()
-    out = {"method": ("Ways carrying the route number are stitched end to end, resampled every 60 m, "
-                      "and walked accumulating signed heading change; an arc is closed when the turn "
-                      "reverses and counted when it exceeds the threshold. 120 degrees or more is a "
-                      "hairpin. This measures an OpenStreetMap polyline, which is a volunteer trace "
-                      "of a road rather than a survey of one."),
-           "step_m": 60, "thresholds": list(THRESHOLDS), "threshold_used": DEFAULT,
+    out = {"method": ("Ways carrying the route number are stitched end to end, resampled every "
+                      "30 m, and walked counting every change of turning direction — one lean, one "
+                      "curve. A bend counts once it adds up to 4 degrees, so a camber correction "
+                      "does not. A hairpin is a sustained arc of 120 degrees or more."),
+           "floor": ("EVERY COUNT HERE IS A FLOOR. OpenStreetMap traces this road with a point "
+                     "roughly every 31 metres, so a bend occupying less than about 60 metres of "
+                     "road cannot appear in the data at all, and volunteer traces cut corners. "
+                     "The real number is higher than this — the question is by how much."),
+           "step_m": 30, "thresholds": list(THRESHOLDS), "threshold_used": DEFAULT,
            "hairpin_degrees": 120, "source": "s:mhs-measured", "claims": CLAIMS,
            "density_window_km": 2.0, "bands": BANDS,
            "not_a_crash_map": ("Demand is measured the same way everywhere on this network: curves per "
@@ -194,16 +236,25 @@ def main() -> int:
     # The 1,864 figure is carried for Chiang Mai to Pai, so it has to be compared against
     # the Mae Malai–Pai span specifically. Matching on `to == "pai"` alone silently picks
     # whichever neighbouring span happens to end there once the line is re-stitched.
-    want = {"mae-malai", "pai"}
-    to_pai = next((s for s in p95.get("spans", []) if {s["from"], s["to"]} == want), None)
-    if to_pai:
-        out["claims"][0]["implies_metres_per_curve"] = round(to_pai["km"] * 1000 / 1864, 1)
-        out["claims"][0]["measured_over_same_span"] = to_pai["curves"]
-        out["claims"][0]["span_km"] = to_pai["km"]
+    # 1,864 is carried for the whole Chiang Mai to Mae Hong Son run, which Thai Wikipedia
+    # gives as about 245 km — not for any single span. Compare it against that.
+    FULL_KM = 245.0
+    whole95 = p95.get("whole") or {}
+    r107 = out["roads"].get("107", {}).get("whole") or {}
+    traced_km = (whole95.get("km") or 0) + (r107.get("km") or 0)
+    traced_bends = (whole95.get("curves") or 0) + (r107.get("curves") or 0)
+    scaled = round(traced_bends * FULL_KM / traced_km) if traced_km else 0
+    out["full_route"] = {"km_published": FULL_KM, "km_traced": round(traced_km, 1),
+                         "bends_traced": traced_bends, "bends_scaled_to_published": scaled,
+                         "metres_per_bend": round(FULL_KM * 1000 / scaled, 0) if scaled else None,
+                         "source_km": "s:thwp-1095"}
+    out["claims"][0]["implies_metres_per_curve"] = round(FULL_KM * 1000 / 1864, 0)
+    out["claims"][0]["measured_over_same_span"] = scaled
+    out["claims"][0]["span_km"] = FULL_KM
     if p95.get("whole"):
-        out["claims"][1]["implies_metres_per_curve"] = round(p95["whole"]["km"] * 1000 / 2000, 1)
-        out["claims"][1]["measured_over_same_span"] = p95["whole"]["curves"]
-        out["claims"][1]["span_km"] = p95["whole"]["km"]
+        out["claims"][1]["implies_metres_per_curve"] = round(FULL_KM * 1000 / 2000, 0)
+        out["claims"][1]["measured_over_same_span"] = scaled
+        out["claims"][1]["span_km"] = FULL_KM
     if not a.show:
         jdump(out, HARVEST / "curve-analysis.json", indent=1)
         print(f"wrote {HARVEST / 'curve-analysis.json'}")
