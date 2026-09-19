@@ -36,8 +36,8 @@ SITE_URL = os.environ.get("SITE_URL", "https://nanobotco.github.io/mae-hong-son-
 # CANONICAL_URL overrides where that points; set it to SITE_URL to make a copy primary.
 CANONICAL_URL = os.environ.get("CANONICAL_URL", "https://motdang.net/loop").rstrip("/")
 NAME = {"en": "The Mae Hong Son Loop", "th": "วงรอบแม่ฮ่องสอน"}
-TAG = {"en": "600 kilometres, 1,864 curves on the sign, and a different answer from the map",
-       "th": "หกร้อยกิโลเมตร ป้ายบอก 1,864 โค้ง และแผนที่ให้คำตอบอีกแบบ"}
+TAG = {"en": "1,864 curves between Chiang Mai and Mae Hong Son, and everything worth stopping for",
+       "th": "1,864 โค้ง ระหว่างเชียงใหม่กับแม่ฮ่องสอน และทุกจุดที่ควรแวะ"}
 DATA_LICENSE = "https://creativecommons.org/licenses/by/4.0/"
 AUTHOR = {"@type": "Person", "name": "NaN", "url": "https://wichaa.net"}
 LANGS = ("en", "th")
@@ -138,13 +138,27 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
     en_url = f"{r}{path}"
     th_url = f"{r}th/{path}"
     bilingual = path != "api/"
+    # Share titles are short: every platform truncates around eighty characters and cuts
+    # mid-sentence. The <title> keeps the long form for the browser tab; og:title takes
+    # the page's own name. og:url matches the canonical so both published copies share
+    # as the same link rather than as two competing ones.
+    og_title = title.split(" — ")[0] if " — " in title else title
+    if og_title.strip() == NAME[lang]:
+        og_title = NAME[lang]
+    og_desc = desc or TAG[lang]
+    if og_desc.strip() == og_title.strip():
+        og_desc = TAG[lang]
+    og_url = f"{CANONICAL_URL}/{'th/' if lang == 'th' else ''}{path}"
     # a link with no picture shares as a grey box, so every page names a card
     card_url = f"{CANONICAL_URL}/cards/{card or 'index'}.jpg"
     card_meta = (f'<meta property="og:image" content="{E(card_url)}">'
+                 f'<meta property="og:image:secure_url" content="{E(card_url)}">'
+                 f'<meta property="og:image:type" content="image/jpeg">'
                  f'<meta property="og:image:width" content="1200">'
                  f'<meta property="og:image:height" content="630">'
-                 f'<meta property="og:image:alt" content="{E(title)}">'
-                 f'<meta name="twitter:image" content="{E(card_url)}">')
+                 f'<meta property="og:image:alt" content="{E(og_title)}">'
+                 f'<meta name="twitter:image" content="{E(card_url)}">'
+                 f'<meta name="twitter:image:alt" content="{E(og_title)}">')
     cur_attr = ' aria-current="page"'
     nav = "".join(f'<a href="{rin}{p}"{cur_attr if k == cur else ""}>{E(ui[k])}</a>'
                   for p, k in NAV)
@@ -161,10 +175,10 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
 <link rel="alternate" hreflang="en" href="{SITE_URL}/{E(path)}">
 <link rel="alternate" hreflang="th" href="{SITE_URL}/th/{E(path)}">
 <link rel="alternate" hreflang="x-default" href="{SITE_URL}/{E(path)}">
-<meta property="og:title" content="{E(title)}">
-<meta property="og:description" content="{E(desc)}">
+<meta property="og:title" content="{E(og_title)}">
+<meta property="og:description" content="{E(og_desc)}">
 <meta property="og:type" content="website">
-<meta property="og:url" content="{E(canonical or SITE_URL)}">
+<meta property="og:url" content="{E(og_url)}">
 <meta property="og:site_name" content="{E(NAME[lang])}">
 <meta property="og:locale" content="{'th_TH' if lang == 'th' else 'en_GB'}">
 <meta name="twitter:card" content="summary_large_image">
