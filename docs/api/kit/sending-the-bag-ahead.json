@@ -1,0 +1,119 @@
+{
+ "id": "sending-the-bag-ahead",
+ "type": "kit",
+ "names": {
+  "name": "Sending your bag ahead",
+  "th": "ส่งกระเป๋าล่วงหน้า",
+  "said": "Yes. But for most people on this particular loop the better answer is: leave it behind instead.",
+  "said_th": "ส่งได้ แต่สำหรับคนส่วนใหญ่บนเส้นทางนี้ คำตอบที่ดีกว่าคือ ฝากไว้เฉยๆ"
+ },
+ "region": [
+  "loop",
+  "cnx",
+  "mhs"
+ ],
+ "facets": {
+  "kind": "logistics",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "Whether a suitcase can travel separately from the bike. It can, by three separate channels. But the loop is a loop — it ends where it started — so the question most riders are really asking has a cheaper answer.",
+  "story": "**Start with the shape of the trip.** The circuit returns to Chiang Mai. A bag sent ahead to Mae Hong Son has to be collected in Mae Hong Son and then carried for the remaining three hundred kilometres, which is the problem you were trying to avoid. *Inference —* forwarding earns its keep in exactly two cases: you are not returning to Chiang Mai, or you want a specific thing waiting at the halfway point and nothing else.\n\n**The cheap answer, and the usual one.** Leave the big bag in Chiang Mai. Motorcycle rental shops and guesthouses there commonly hold luggage for riders who are coming back for it, and many do it at no charge as part of the rental. *Tradition holds —* this is the standard arrangement and the thing to ask about when you book, not when you arrive. Get it in writing on the rental agreement, photograph the bag and the room it goes into, and take the valuables with you.\n\n**Three ways to move a bag that must move.**\n\n*Thailand Post.* Post offices operate in Chiang Mai, Pai, Mae Hong Son, Mae Sariang and the district towns. Domestic parcel and EMS services exist and are the cheapest of the three. *Tradition holds —* upcountry post offices keep government hours and close at lunchtime and at weekends, so a parcel that arrives Saturday sits until Monday.\n\n*A private courier.* Several nationwide parcel networks run branches and agent counters across the north, often inside a shop or a petrol station, with longer hours than the post office. **Not on this disk:** which specific branches were open on the day you read this, what they charged, or their size limits. Those change, and this project has not verified them.\n\n*The bus.* Thai intercity and minibus operators carry parcels on the same runs that carry passengers — you hand the parcel in at the operator's counter, it rides in the hold, and it is collected at the destination office, often the same day. *Tradition holds —* this is ordinary and widely used across Thailand. It is also the only one of the three that is as fast as you are.\n\n**What actually goes wrong.** A parcel needs a real address and a person willing to sign for it: a guesthouse has to agree in advance to receive a bag for a guest who has not arrived yet, and not all will. Collection usually needs the ID the parcel was addressed to. And the bag has to survive being stacked — soft luggage is fine, a hard shell with a TSA lock is fine, a paper bag is not.",
+  "how": "If you are doing it: send it two days before you need it, not the night before; address it to a named person at a named guesthouse with that guesthouse's phone number on the label, having already asked them; keep the tracking slip photographed rather than folded in a tank bag; and put nothing in it you would cancel the trip over."
+ },
+ "text_th": {
+  "what": "กระเป๋าเดินทางแยกจากรถได้ไหม ได้ ผ่านสามช่องทาง แต่เส้นทางนี้เป็นวงรอบ คือจบที่เดิมที่เริ่ม คำถามที่คนส่วนใหญ่ถามจริงๆ จึงมีคำตอบที่ถูกกว่า",
+  "story": "**เริ่มจากรูปร่างของทริป** เส้นทางนี้วนกลับเชียงใหม่ กระเป๋าที่ส่งไปแม่ฮ่องสอนต้องไปรับที่แม่ฮ่องสอน แล้วแบกต่ออีกสามร้อยกิโลเมตร ซึ่งคือปัญหาที่พยายามจะเลี่ยงตั้งแต่แรก *อนุมาน —* การส่งล่วงหน้าคุ้มค่าในสองกรณีเท่านั้น คือคุณไม่กลับเชียงใหม่ หรือคุณอยากให้ของบางอย่างรออยู่ที่จุดกึ่งกลางโดยเฉพาะ\n\n**คำตอบที่ถูกกว่า และเป็นคำตอบปกติ** ฝากกระเป๋าใบใหญ่ไว้ที่เชียงใหม่ ร้านเช่ารถและเกสต์เฮาส์ที่นั่นรับฝากสัมภาระให้คนที่จะกลับมาเอาเป็นเรื่องปกติ และหลายแห่งไม่คิดเงินเพราะถือเป็นส่วนหนึ่งของการเช่า *ตามธรรมเนียม —* นี่คือข้อตกลงมาตรฐาน และเป็นสิ่งที่ควรถามตอนจอง ไม่ใช่ตอนไปถึง ขอให้ระบุในสัญญาเช่า ถ่ายรูปกระเป๋าและห้องที่เก็บไว้ และเอาของมีค่าไปกับตัว\n\n**สามวิธีย้ายกระเป๋าที่ต้องย้ายจริงๆ**\n\n*ไปรษณีย์ไทย* มีที่ทำการในเชียงใหม่ ปาย แม่ฮ่องสอน แม่สะเรียง และเมืองอำเภอต่างๆ มีบริการพัสดุในประเทศและ EMS และถูกที่สุดในสามทาง *ตามธรรมเนียม —* ที่ทำการต่างอำเภอเปิดตามเวลาราชการ ปิดพักเที่ยงและปิดเสาร์อาทิตย์ พัสดุที่มาถึงวันเสาร์จะค้างถึงวันจันทร์\n\n*บริษัทขนส่งเอกชน* มีเครือข่ายสาขาและจุดรับส่งทั่วภาคเหนือ มักอยู่ในร้านค้าหรือปั๊มน้ำมัน และเปิดนานกว่าไปรษณีย์ **ไม่มีข้อมูลในชุดนี้** ว่าสาขาไหนเปิดในวันที่คุณอ่าน ราคาเท่าไร หรือจำกัดขนาดอย่างไร เรื่องพวกนี้เปลี่ยน และโครงการนี้ยังไม่ได้ตรวจสอบ\n\n*รถทัวร์และรถตู้* ผู้ประกอบการเดินรถรับฝากพัสดุไปกับเที่ยวเดียวกับผู้โดยสาร ฝากที่เคาน์เตอร์ ของไปในห้องเก็บสัมภาระ แล้วไปรับที่สำนักงานปลายทาง มักถึงในวันเดียวกัน *ตามธรรมเนียม —* เป็นเรื่องปกติและใช้กันทั่วประเทศ และเป็นทางเดียวในสามทางที่เร็วเท่ากับตัวคุณเอง\n\n**สิ่งที่มักพลาด** พัสดุต้องมีที่อยู่จริงและมีคนยอมเซ็นรับ เกสต์เฮาส์ต้องตกลงล่วงหน้าว่าจะรับกระเป๋าแทนแขกที่ยังไม่มาถึง และไม่ใช่ทุกที่จะรับ การรับของมักต้องใช้บัตรประชาชนหรือพาสปอร์ตตรงกับชื่อหน้ากล่อง และกระเป๋าต้องทนการวางซ้อน กระเป๋าผ้าได้ กระเป๋าแข็งได้ ถุงกระดาษไม่ได้",
+  "how": "ถ้าจะส่งจริง ส่งล่วงหน้าสองวัน ไม่ใช่คืนก่อนหน้า จ่าหน้าถึงชื่อคนจริงที่เกสต์เฮาส์ที่ระบุชื่อ พร้อมเบอร์โทรของเกสต์เฮาส์บนกล่อง โดยถามเขาไว้ก่อนแล้ว ถ่ายรูปใบพัสดุไว้แทนที่จะพับใส่กระเป๋าถังน้ำมัน และอย่าใส่อะไรที่ถ้าหายแล้วต้องยกเลิกทริป"
+ },
+ "kin": [
+  {
+   "to": "packing-light",
+   "as": "What fits on the bike if the big bag stays behind.",
+   "rel": "kit"
+  },
+  {
+   "to": "renting-a-bike",
+   "as": "The contract that should say who is holding your suitcase.",
+   "rel": "kit"
+  },
+  {
+   "to": "chiang-mai",
+   "as": "Where the bag stays, and where you come back to.",
+   "rel": "town"
+  },
+  {
+   "to": "mae-hong-son",
+   "as": "The one sensible forwarding destination on the circuit.",
+   "rel": "town"
+  },
+  {
+   "to": "loaded-bike",
+   "as": "What weight on the back actually does on a hairpin.",
+   "rel": "hazard"
+  },
+  {
+   "to": "one-way-rental",
+   "as": "The case where forwarding stops being pointless.",
+   "rel": "kit"
+  }
+ ],
+ "sources": [
+  "s:wp-thailand-post"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition",
+   "note": "ordinary Thai practice, hedged throughout; no branch, price, hour or size limit is asserted"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "tradition",
+    "note": "the post office is cited only for existing; everything about hours, couriers and bus parcels is marked as general practice and explicitly flagged where this project has not verified it"
+   },
+   "text.how": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "chiang-mai",
+   "type": "town",
+   "name": "Chiang Mai",
+   "as": "Where the bag stays instead."
+  },
+  {
+   "from": "mae-hong-son",
+   "type": "town",
+   "name": "Mae Hong Son",
+   "as": "The only sensible forwarding address on the circuit."
+  },
+  {
+   "from": "one-way-rental",
+   "type": "kit",
+   "name": "Not coming back to Chiang Mai",
+   "as": "The case this one justifies."
+  },
+  {
+   "from": "packing-light",
+   "type": "kit",
+   "name": "What actually fits",
+   "as": "The other half of the question: what does not come at all."
+  },
+  {
+   "from": "renting-a-bike",
+   "type": "kit",
+   "name": "Renting the bike",
+   "as": "The luggage half of this conversation."
+  }
+ ]
+}

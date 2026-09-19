@@ -65,5 +65,67 @@
  },
  "needs_verification": true,
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "pang-ung/pang-ung-pang-oung-tham-pla-namtok-pha-suea-national-park.jpg",
+   "source": "commons",
+   "title": "File:Pang Oung - Tham Pla – Namtok Pha Suea National Park.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Pang_Oung_-_Tham_Pla_%E2%80%93_Namtok_Pha_Suea_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APang_Oung_-_Tham_Pla_%E2%80%93_Namtok_Pha_Suea_National_Park.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Nutchana",
+   "credit": "Own work",
+   "alt": "Pang Oung - Tham Pla – Namtok Pha Suea National Park",
+   "date": "2022-02-13 07:28:39",
+   "primary": true,
+   "sha256": "70bde1c878b98bdd3fca3f006f72d15cd55e3c94219be8fce42f9781b9b459e2"
+  },
+  {
+   "file": "pang-ung/pang-ung-.jpg",
+   "source": "commons",
+   "title": "File:กลิ่นอายแห่งรุ่งสาง.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%87.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "สิทธิเดช หนูห่วง",
+   "credit": "Own work",
+   "alt": "แสงแรกของวันสะท้อนผ่านแนวสนและผืนน้ำอันเงียบสงบ สร้างภาพความงดงามที่เรียบง่าย แต่ตราตรึงอยู่ในความทรงจำ",
+   "date": "2017-12-16 07:20:29",
+   "primary": false,
+   "sha256": "55e60f79616e2069171813253b021b331e78eefe00167d8f087369d40937574d"
+  },
+  {
+   "file": "pang-ung/pang-ung-.jpg",
+   "source": "commons",
+   "title": "File:เเพกลางม่านหมอก.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/%E0%B9%80%E0%B9%80%E0%B8%9E%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B9%80%E0%B9%80%E0%B8%9E%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "สิทธิเดช หนูห่วง",
+   "credit": "Own work",
+   "alt": "แสงแรกของวันทอดตัวผ่านสายหมอกบางๆ ขณะที่แพลำน้อยค่อยๆ เคลื่อนผ่านผืนน้ำ สร้างความงดงามที่เรียบง่ายและน่าจดจำ",
+   "date": "2017-12-16 07:38:19",
+   "primary": false,
+   "sha256": "bbac199e1d163fd00f73f0572fa40824f3a067a08a1608e87b5340a38e6435a1"
+  },
+  {
+   "file": "pang-ung/pang-ung-.jpg",
+   "source": "commons",
+   "title": "File:เเสงทองกลางสายหมอก.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/%E0%B9%80%E0%B9%80%E0%B8%AA%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B9%80%E0%B9%80%E0%B8%AA%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "สิทธิเดช หนูห่วง",
+   "credit": "Own work",
+   "alt": "เเสงเเรกของวันค่อยๆ เเตะผืนน้ำ ท่ามกลางสายหมอกบางเบา ราวกับธรรมชาติกำลังเริ่มต้นบทเพลงบทใหม่อย่างเเผ่วเบา",
+   "date": "2017-12-16 07:42:44",
+   "primary": false,
+   "sha256": "d71b7d6a3bbbf37e6de6d06dfaf9204a9eabd405397ef731e6fecc614fb59cac"
+  }
+ ]
 }

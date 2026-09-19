@@ -1,0 +1,173 @@
+{
+ "id": "doi-kong-mu",
+ "type": "wat",
+ "names": {
+  "name": "Wat Phra That Doi Kong Mu",
+  "th": "วัดพระธาตุดอยกองมู",
+  "said": "Two white chedis on the hill above the airstrip, and the whole valley under them at dawn.",
+  "said_th": "เจดีย์ขาวสององค์บนดอยเหนือสนามบิน และหุบเขาทั้งหุบอยู่ใต้มันตอนรุ่งสาง"
+ },
+ "region": [
+  "mhs",
+  "mueang-mhs",
+  "shan"
+ ],
+ "facets": {
+  "tradition": "shan",
+  "price": "free"
+ },
+ "text": {
+  "what": "The temple on the hill west of Mae Hong Son town. Two Shan-style chedis, a road to the top, and the view that gives the province its nickname.",
+  "story": "*Inference —* the architecture is the province's history in one object. Mae Hong Son was Shan before it was Thai — part of Mawkmai, one of the Shan States, until the Anglo-Siamese boundary settlement of 1892–93 — and the chedis here are Shan and Burmese in form rather than Lanna. A rider who has come from Chiang Mai has spent three days looking at Lanna wats and arrives at something that is plainly not one.\n\nThe practical note: there is a road to the top, so this is a ride rather than a climb, and the reason to be there is the hour rather than the building. 'City of three mists' is a description of what is visible from up here before the sun gets to work."
+ },
+ "text_th": {
+  "what": "วัดบนดอยทางตะวันตกของตัวเมืองแม่ฮ่องสอน มีเจดีย์ศิลปะไทใหญ่สององค์ มีถนนขึ้นถึงยอด และมีวิวที่เป็นที่มาของฉายาจังหวัด",
+  "story": "*อนุมาน —* สถาปัตยกรรมคือประวัติศาสตร์ของจังหวัดในวัตถุชิ้นเดียว แม่ฮ่องสอนเป็นไทใหญ่ก่อนจะเป็นไทย เคยเป็นส่วนหนึ่งของเมืองหมอกใหม่ หนึ่งในรัฐฉาน จนถึงการปักปันเขตแดนอังกฤษ-สยาม พ.ศ. 2435–2436 และเจดีย์ที่นี่เป็นรูปแบบไทใหญ่และพม่า ไม่ใช่ล้านนา คนขี่ที่มาจากเชียงใหม่ใช้เวลาสามวันมองวัดล้านนา แล้วมาถึงสิ่งที่เห็นชัดว่าไม่ใช่\n\nข้อสังเกตเชิงปฏิบัติ มีถนนขึ้นถึงยอด ที่นี่จึงเป็นการขี่ ไม่ใช่การเดินขึ้น และเหตุผลที่จะมาอยู่ที่ชั่วโมง ไม่ใช่ที่ตัวอาคาร คำว่าเมืองสามหมอกคือคำบรรยายสิ่งที่มองเห็นได้จากบนนี้ก่อนที่แดดจะเริ่มทำงาน"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The town below.",
+   "rel": "town"
+  },
+  {
+   "to": "shan",
+   "as": "Whose architecture this is.",
+   "rel": "person"
+  },
+  {
+   "to": "cool-season",
+   "as": "When the mist is there.",
+   "rel": "event"
+  },
+  {
+   "to": "season-and-direction",
+   "as": "Why this needs two nights in town.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:thwp-wat-phra-that-doi-kong-mu",
+  "s:wp-mae-hong-son",
+  "s:wp-mae-hong-son-province",
+  "s:wp-shan-state"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:thwp-wat-phra-that-doi-kong-mu"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:thwp-wat-phra-that-doi-kong-mu"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.2983,
+  "lon": 97.9569,
+  "precision": "street"
+ },
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "doi-kong-mu/doi-kong-mu-wat-phrathat-doi-kong-mu-7.jpg",
+   "source": "commons",
+   "title": "File:Wat Phrathat Doi Kong Mu 7.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Wat_Phrathat_Doi_Kong_Mu_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Phrathat_Doi_Kong_Mu_7.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Wat Phrathat Doi Kong Mu in Mae Hong Son.",
+   "date": "2018-09-01 19:19:32",
+   "primary": true,
+   "sha256": "eb1f511d7bfc1fc696d90a93a09546c7c84a2e0d8ea0c40c81762b54e3557662"
+  },
+  {
+   "file": "doi-kong-mu/doi-kong-mu-wat-phrathat-doi-kong-mu-8.jpg",
+   "source": "commons",
+   "title": "File:Wat Phrathat Doi Kong Mu 8.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Wat_Phrathat_Doi_Kong_Mu_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Phrathat_Doi_Kong_Mu_8.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Wat Phrathat Doi Kong Mu in Mae Hong Son.",
+   "date": "2018-09-01 19:22:28",
+   "primary": false,
+   "sha256": "92094bc55dfd17bf610b1289315e7b60abfdd271946771de94952084ab2d0efc"
+  },
+  {
+   "file": "doi-kong-mu/doi-kong-mu-1.jpg",
+   "source": "commons",
+   "title": "File:วัดพระธาตุดอยกองมู -1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B9_-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B9_-1.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Yakuzakorat",
+   "credit": "Own work",
+   "alt": "This is a photo of a monument in Thailand identified by the ID",
+   "date": "2021-12-18 12:47:45",
+   "primary": false,
+   "sha256": "a6ab332465ed9f5560c1328434ca1886c0a4bf5a371fc397b3b6230edbafc46f"
+  },
+  {
+   "file": "doi-kong-mu/doi-kong-mu-3.jpg",
+   "source": "commons",
+   "title": "File:วัดพระธาตุดอยกองมู -3.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B9_-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B9_-3.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Yakuzakorat",
+   "credit": "Own work",
+   "alt": "This is a photo of a monument in Thailand identified by the ID",
+   "date": "2021-12-18 12:38:15",
+   "primary": false,
+   "sha256": "98c0237d7d98011d4b50680192afea630a7500c29c19da2178ecc57eb72783f5"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "mae-hong-son",
+   "type": "town",
+   "name": "Mae Hong Son",
+   "as": "The chedi above the airstrip, and the dawn."
+  },
+  {
+   "from": "chong-kham-chong-klang",
+   "type": "wat",
+   "name": "Wat Chong Kham and Wat Chong Klang",
+   "as": "The other one, on the hill."
+  },
+  {
+   "from": "shan",
+   "type": "person",
+   "name": "The Shan",
+   "as": "Shan chedis on the hill."
+  },
+  {
+   "from": "cool-season",
+   "type": "event",
+   "name": "The cool season",
+   "as": "Where the mist is watched from."
+  },
+  {
+   "from": "season-and-direction",
+   "type": "story",
+   "name": "The season picks the direction",
+   "as": "The dawn that needs a second night in Mae Hong Son."
+  }
+ ]
+}

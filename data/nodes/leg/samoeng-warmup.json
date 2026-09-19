@@ -88,5 +88,67 @@
  },
  "confidence": "high",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "samoeng-warmup/samoeng-warmup-lone-pine-tree-at-mon-ang-ket.jpg",
+   "source": "commons",
+   "title": "File:Lone Pine tree at Mon Ang Ket.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Lone_Pine_tree_at_Mon_Ang_Ket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALone_Pine_tree_at_Mon_Ang_Ket.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Catchiangmai",
+   "credit": "Own work",
+   "alt": "A lone pine tree at the summit of Mon Ang Ket, the highest peak in Samoeng District, Chiang Mai, Thailand (1,840 meters above sea level). The area is a protected natural site featuring a scenic landsc",
+   "date": "2026-01-13 13:59:32",
+   "primary": true,
+   "sha256": "0a15f17ad32b9f7ad3515aaf04d00f4fbc861e07a53c54ea6a1fb9af97dade62"
+  },
+  {
+   "file": "samoeng-warmup/samoeng-warmup-mae-sap-samoeng-district-chiang-mai-50250-thailand-panoramio.jpg",
+   "source": "commons",
+   "title": "File:Mae Sap, Samoeng District, Chiang Mai 50250, Thailand - panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Mae_Sap%2C_Samoeng_District%2C_Chiang_Mai_50250%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Sap%2C_Samoeng_District%2C_Chiang_Mai_50250%2C_Thailand_-_panoramio.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Maxim Cruiser",
+   "credit": "https://web.archive.org/web/20161025002942/http://www.panoramio.com/photo/70435636",
+   "alt": "Mae Sap, Samoeng District, Chiang Mai 50250, Thailand",
+   "date": "Taken on 15 April 2012",
+   "primary": false,
+   "sha256": "9d1156f59e63f39596feaa38b3098004c6ee02056250efc07704bc77a703962c"
+  },
+  {
+   "file": "samoeng-warmup/samoeng-warmup-samoeng4.jpg",
+   "source": "commons",
+   "title": "File:Samoeng4.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Samoeng4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASamoeng4.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Millevache",
+   "credit": "Own work",
+   "alt": "Samoeng, Chiang Mai Province, Thailand",
+   "date": "2009",
+   "primary": false,
+   "sha256": "929bbb4636d18b635b5fa266a423e62376a0157652cf7d32ff2b86c0e6fe3487"
+  },
+  {
+   "file": "samoeng-warmup/samoeng-warmup-.jpg",
+   "source": "commons",
+   "title": "File:ถ้ำหลวงแม่สาบ.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B2%E0%B8%9A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B2%E0%B8%9A.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Krutiew",
+   "credit": "Own work",
+   "alt": "Tham Luang Mae Sap Cave: Where Nature Paints the Cave in Rainbow Colors",
+   "date": "2025-02-15 14:26:09",
+   "primary": false,
+   "sha256": "0939ca6bdb54218f61b02c68c0d256922d55dbd6a3e2430cc5a3a6d015867a03"
+  }
+ ]
 }

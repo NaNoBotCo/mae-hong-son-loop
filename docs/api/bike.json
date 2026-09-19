@@ -1,0 +1,828 @@
+{
+ "type": "bike",
+ "count": 6,
+ "nodes": [
+  {
+   "id": "big-adventure",
+   "type": "bike",
+   "names": {
+    "name": "The 700cc-and-up adventure bike",
+    "th": "รถแอดเวนเจอร์ 700 ซีซีขึ้นไป",
+    "said": "It goes round. Ask what it is like in the last hour of the last day.",
+    "said_th": "มันวิ่งจบรอบได้ ลองถามว่าชั่วโมงสุดท้ายของวันสุดท้ายเป็นอย่างไร"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "class": "big",
+    "grip": "hard"
+   },
+   "text": {
+    "what": "An Africa Twin, a GS, a Tiger, a V-Strom 1050: 220 to 260 kilograms wet, tall, and entirely capable.",
+    "story": "There is nothing on this circuit a large adventure bike cannot do. The question is arithmetic, not capability.\n\n*Inference —* the measured curve density on Route 1095 and 1263 means a rider is making a steering input every few seconds for hours. On a light bike that is pleasure. At 250 kilograms it is work, and work accumulates: the mistakes on this road are made in the last hour of a long day, not the first.\n\nThe second arithmetic is the U-turn. A one-and-a-half-lane hairpin with a bank on one side and nothing on the other is a place where a tall, heavy bike has to be paddled round, and the surface there is often exactly the loose stuff that has washed down."
+   },
+   "text_th": {
+    "what": "Africa Twin, GS, Tiger, V-Strom 1050 น้ำหนักพร้อมของเหลว 220 ถึง 260 กิโลกรัม ตัวสูง และทำได้ทุกอย่าง",
+    "story": "ไม่มีอะไรบนเส้นทางนี้ที่รถแอดเวนเจอร์คันใหญ่ทำไม่ได้ คำถามคือเลขคณิต ไม่ใช่ความสามารถ\n\n*อนุมาน —* ความหนาแน่นของโค้งที่วัดได้บนทางหลวง 1095 และ 1263 แปลว่าคนขี่ต้องสั่งรถเลี้ยวทุกไม่กี่วินาที ต่อเนื่องหลายชั่วโมง บนรถเบานั่นคือความสนุก ที่ 250 กิโลกรัมนั่นคือการทำงาน และงานมันสะสม ความผิดพลาดบนถนนสายนี้เกิดในชั่วโมงสุดท้ายของวันยาวๆ ไม่ใช่ชั่วโมงแรก\n\nเลขคณิตข้อที่สองคือการกลับรถ โค้งหักศอกกว้างหนึ่งเลนครึ่งที่มีเขาอยู่ด้านหนึ่งและไม่มีอะไรอยู่อีกด้าน คือที่ที่รถสูงและหนักต้องใช้เท้าถีบกลับ และผิวถนนตรงนั้นมักเป็นเศษหินที่น้ำพัดลงมากองพอดี"
+   },
+   "kin": [
+    {
+     "to": "midweight-twin",
+     "as": "One size down, and most of the same pleasure.",
+     "rel": "bike"
+    },
+    {
+     "to": "hairpin",
+     "as": "The manoeuvre the weight is felt in.",
+     "rel": "term"
+    },
+    {
+     "to": "steep-driveways",
+     "as": "Where the weight actually bites.",
+     "rel": "hazard"
+    },
+    {
+     "to": "which-bike",
+     "as": "Where this sits against everything else.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:mhs-measured",
+    "s:wp-motorcycle-safety"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "big-adventure/big-adventure-gims-2019-le-grand-saconnex-gims0706.jpg",
+     "source": "commons",
+     "title": "File:GIMS 2019, Le Grand-Saconnex (GIMS0706).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0706%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AGIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0706%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Matti Blume",
+     "credit": "Own work",
+     "alt": "Geneva International Motor Show 2019, Le Grand-Saconnex",
+     "date": "2019-03-04",
+     "primary": true,
+     "sha256": "fd54c175b282ee2da0df82b602e1f4dd231b79b822555b09821765a20e8a6350"
+    },
+    {
+     "file": "big-adventure/big-adventure-honda-crf1000l.jpg",
+     "source": "commons",
+     "title": "File:Honda CRF1000L.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Honda_CRF1000L.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_CRF1000L.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Matteo Casarico",
+     "credit": "Own work",
+     "alt": "Honda CRF1000L Africa Twin - Modello 2016 con ABS e cambio meccanico.",
+     "date": "2016-01-26",
+     "primary": false,
+     "sha256": "ce6106e80c889c18257f98b54d0096e1cb838db9627e846a167dc05a7bc7071d"
+    },
+    {
+     "file": "big-adventure/big-adventure-motodays-2019-49.jpg",
+     "source": "commons",
+     "title": "File:Motodays 2019 49.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Motodays_2019_49.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMotodays_2019_49.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Nicholas Gemini",
+     "credit": "Own work",
+     "alt": "Motodays 2019",
+     "date": "2019-03-07 17:14:46",
+     "primary": false,
+     "sha256": "ea8a09c56e2c516ad2ae74e51fc9dc471ad53ebbdea70b79676b98b1996dfdd9"
+    },
+    {
+     "file": "big-adventure/big-adventure-the-44th-tokyo-motor-show-2015-143-22733993445.jpg",
+     "source": "commons",
+     "title": "File:The 44th Tokyo Motor Show 2015 143 (22733993445).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/The_44th_Tokyo_Motor_Show_2015_143_%2822733993445%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_44th_Tokyo_Motor_Show_2015_143_%2822733993445%29.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "author": "TAKA@P.P.R.S",
+     "credit": "The 44th Tokyo Motor Show 2015_143",
+     "alt": "The 44th Tokyo Motor Show 2015_143",
+     "date": "2015-11-01 17:26",
+     "primary": false,
+     "sha256": "fc41dcdefab2c6487ef57625928a06951c2242f72ea3b57a86efaef89d73cb0d"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "steep-driveways",
+     "type": "hazard",
+     "name": "The guesthouse driveway",
+     "as": "The weight that makes this a two-person job."
+    },
+    {
+     "from": "midweight-twin",
+     "type": "bike",
+     "name": "The 400–700 twin",
+     "as": "One size up, and the driveway problem doubles."
+    },
+    {
+     "from": "which-bike",
+     "type": "story",
+     "name": "Every bike goes up there",
+     "as": "Capable of everything; the arithmetic is fatigue."
+    }
+   ]
+  },
+  {
+   "id": "midweight-twin",
+   "type": "bike",
+   "names": {
+    "name": "The 400–700 twin",
+    "th": "รถสองสูบ 400–700",
+    "said": "Enough bike to enjoy the straights and still turn round on a hairpin.",
+    "said_th": "แรงพอจะสนุกกับทางตรง และยังกลับรถในโค้งหักศอกได้"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "class": "midweight",
+    "grip": "moderate"
+   },
+   "text": {
+    "what": "A CB500X, an MT-07, a Rally 500, a Himalayan 450: mid-capacity, torque low down, real brakes, and 17- or 19-inch wheels.",
+    "story": "*Inference —* this is the range that suits the circuit best on paper: the engine braking to hold a descent, brakes that do not fade, enough power for the long Route 108 straights, and a weight you can still turn around on a one-and-a-half-lane switchback when you find a landslide.\n\nThe catch is the same weight. A 200-kilogram bike that falls over on a steep gravel guesthouse driveway needs two people to pick up, and on this circuit the second person may be an hour away."
+   },
+   "text_th": {
+    "what": "CB500X, MT-07, Rally 500, Himalayan 450 พิกัดกลาง แรงบิดมาตั้งแต่รอบต่ำ เบรกจริงจัง ล้อ 17 หรือ 19 นิ้ว",
+    "story": "*อนุมาน —* พิกัดนี้เหมาะกับเส้นทางที่สุดบนกระดาษ มีเอนจินเบรกพอหน่วงทางลง เบรกไม่เฟด แรงพอสำหรับทางตรงยาวๆ ของทางหลวง 108 และน้ำหนักที่ยังกลับรถได้ในโค้งหักศอกกว้างหนึ่งเลนครึ่งเวลาเจอดินสไลด์\n\nข้อเสียคือน้ำหนักเดียวกันนั้น รถ 200 กิโลกรัมที่ล้มบนทางเข้าเกสต์เฮาส์ที่ชันและเป็นกรวด ต้องใช้คนสองคนยก และบนเส้นทางนี้คนที่สองอาจอยู่ห่างออกไปหนึ่งชั่วโมง"
+   },
+   "kin": [
+    {
+     "to": "big-adventure",
+     "as": "One size up, and the driveway problem doubles.",
+     "rel": "bike"
+    },
+    {
+     "to": "steep-driveways",
+     "as": "The hazard that scales with kerb weight.",
+     "rel": "hazard"
+    },
+    {
+     "to": "which-bike",
+     "as": "Where this sits against everything else.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:wp-honda-500-twins",
+    "s:wp-royal-enfield-himalayan"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-honda-500-twins"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "midweight-twin/midweight-twin-honda-cb500x-2024-05-23.jpg",
+     "source": "commons",
+     "title": "File:Honda CB500X 2024-05-23.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Honda_CB500X_2024-05-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_CB500X_2024-05-23.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Wikisympathisant",
+     "credit": "Own work",
+     "alt": "Honda CB 500X",
+     "date": "2024-05-23 15:44:30",
+     "primary": true,
+     "sha256": "02542a9d4f2db7bbfebf999799fcde53140853713dd680169ec05d45930ec2fc"
+    },
+    {
+     "file": "midweight-twin/midweight-twin-honda-cb500x-close-up.jpg",
+     "source": "commons",
+     "title": "File:Honda CB500X close-up.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Honda_CB500X_close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_CB500X_close-up.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Danrok",
+     "credit": "Own work",
+     "alt": "Close-up of the front of a Honda CB500X.",
+     "date": "2021-04-04 14:03:25",
+     "primary": false,
+     "sha256": "08c5d7514a972fcf28b8dfbe1bb8b1da96ee1ad6e1350c75107331235f92ad4a"
+    },
+    {
+     "file": "midweight-twin/midweight-twin-honda-cb500x-rear-2024-05-23.jpg",
+     "source": "commons",
+     "title": "File:Honda CB500X rear 2024-05-23.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Honda_CB500X_rear_2024-05-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_CB500X_rear_2024-05-23.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Wikisympathisant",
+     "credit": "Own work",
+     "alt": "Honda CB 500X rerar view",
+     "date": "2024-05-23 15:45:04",
+     "primary": false,
+     "sha256": "d97ee5cffd20563bb88727c01447ea5d99e35831c030bfa50ddb0e08d0416d1a"
+    },
+    {
+     "file": "midweight-twin/midweight-twin-salon-de-la-moto-et-du-scooter-de-paris-2013-honda-c-7e61b3a.jpg",
+     "source": "commons",
+     "title": "File:Salon de la Moto et du Scooter de Paris 2013 - Honda - CB500F - 006.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Salon_de_la_Moto_et_du_Scooter_de_Paris_2013_-_Honda_-_CB500F_-_006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASalon_de_la_Moto_et_du_Scooter_de_Paris_2013_-_Honda_-_CB500F_-_006.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Thesupermat",
+     "credit": "Own work",
+     "alt": "Une Honda CBR présentée lors du salon de la moto 2013.",
+     "date": "2013-12-02 10:42:36",
+     "primary": false,
+     "sha256": "0fb7c5718ce2f84c56bb6df627230d3fa62d10a95e4f55873a895d68da5aa071"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "big-adventure",
+     "type": "bike",
+     "name": "The 700cc-and-up adventure bike",
+     "as": "One size down, and most of the same pleasure."
+    },
+    {
+     "from": "which-bike",
+     "type": "story",
+     "name": "Every bike goes up there",
+     "as": "Enough bike to enjoy the straights and still turn round on a hairpin."
+    }
+   ]
+  },
+  {
+   "id": "on-the-back",
+   "type": "bike",
+   "names": {
+    "name": "Riding on the back",
+    "th": "นั่งซ้อนท้าย",
+    "said": "A pillion is not luggage, and the loop is longer from the back seat.",
+    "said_th": "คนซ้อนไม่ใช่สัมภาระ และเส้นทางนี้ยาวกว่าเมื่อนั่งข้างหลัง"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "class": "pillion",
+    "grip": "moderate"
+   },
+   "text": {
+    "what": "Two people, one bike, six hundred kilometres of camber changes. Common, and worth planning around rather than discovering.",
+    "story": "*Inference —* three things change with a passenger, and all three are worse on a descent. The bike is heavier so it stops later; the weight is high and behind the rear axle so it wants to stand the bike up mid-corner; and the passenger cannot see the road surface coming, so every unannounced brake application is a surprise that moves their weight forward into the rider.\n\nWhat fixes most of it is boring: more distance, earlier braking, and telling the passenger where the next stop is. Days should be shorter — *Inference —* about two-thirds of the distance a solo rider would plan.\n\nThe pillion needs their own helmet, their own long sleeves and their own gloves, and the rental shop's spare helmet is often the one nobody chose."
+   },
+   "text_th": {
+    "what": "สองคน หนึ่งคัน หกร้อยกิโลเมตรที่เอียงซ้ายเอียงขวาตลอด เป็นเรื่องปกติ และควรวางแผนไว้ก่อน ไม่ใช่ค่อยไปรู้เอาตอนนั้น",
+    "story": "*อนุมาน —* สามอย่างเปลี่ยนไปเมื่อมีคนซ้อน และทั้งสามอย่างแย่กว่าเดิมตอนลงเขา รถหนักขึ้นจึงหยุดช้าลง น้ำหนักอยู่สูงและอยู่หลังเพลาล้อหลังจึงพยายามดันรถให้ตั้งขึ้นกลางโค้ง และคนซ้อนมองไม่เห็นผิวถนนที่กำลังจะมาถึง ทุกครั้งที่เบรกโดยไม่บอกล่วงหน้าจึงเป็นความประหลาดใจที่ผลักน้ำหนักเขามาข้างหน้าทับคนขี่\n\nสิ่งที่แก้ได้เกือบหมดนั้นน่าเบื่อมาก คือเว้นระยะมากขึ้น เบรกเร็วขึ้น และบอกคนซ้อนว่าจุดพักถัดไปอยู่ตรงไหน ระยะต่อวันควรสั้นลง *อนุมาน —* ราวสองในสามของระยะที่คนขี่คนเดียวจะวางแผนไว้\n\nคนซ้อนต้องมีหมวกกันน็อกของตัวเอง เสื้อแขนยาวของตัวเอง และถุงมือของตัวเอง ส่วนหมวกสำรองของร้านเช่ามักเป็นใบที่ไม่มีใครเลือก"
+   },
+   "kin": [
+    {
+     "to": "loaded-bike",
+     "as": "The same physics, without the conversation.",
+     "rel": "hazard"
+    },
+    {
+     "to": "gear",
+     "as": "Two sets, not one.",
+     "rel": "kit"
+    },
+    {
+     "to": "which-bike",
+     "as": "Where this changes the answer.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-safety",
+    "s:wp-motorcycle-helmet"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "loaded-bike",
+     "type": "hazard",
+     "name": "A loaded bike is a different bike",
+     "as": "The heaviest thing you can add."
+    },
+    {
+     "from": "gear",
+     "type": "kit",
+     "name": "What to wear",
+     "as": "Two of everything, not one."
+    },
+    {
+     "from": "which-bike",
+     "type": "story",
+     "name": "Every bike goes up there",
+     "as": "Not a bike — a different trip."
+    }
+   ]
+  },
+  {
+   "id": "step-through-110",
+   "type": "bike",
+   "names": {
+    "name": "The 110–125 step-through",
+    "th": "รถออโต้ 110–125 ซีซี",
+    "said": "The most common bike on this road, and the one the road was not designed around.",
+    "said_th": "รถที่พบมากที่สุดบนถนนสายนี้ และเป็นรถที่ถนนไม่ได้ออกแบบมาเพื่อมัน"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "class": "auto",
+    "grip": "moderate"
+   },
+   "text": {
+    "what": "A Honda Click, a Scoopy, a Mio, a Nouvo: automatic, small wheels, drum or single-disc brakes, and the rental shop's default. It will complete the loop. Several thousand a year do.",
+    "story": "Two things about a twist-and-go on a long mountain descent, and they are the same thing said twice.\n\nAn automatic transmission gives you **no engine braking worth the name**. On a road with the hairpin density of Route 1095 or 1263 that means the brakes do all the work for tens of kilometres at a stretch, and a small drum brake that has been dragged for four minutes stops working the way it did in the first minute. *Inference —* this is the single mechanical fact that most changes how a scooter should be ridden here: come down slowly, in stages, and stop to let the brakes cool, which feels absurd until the lever comes back to the bar.\n\nSecond, the wheels are small. A 12- or 14-inch wheel drops into a pothole a 17-inch wheel rides over, and the loop has potholes, gravel wash and edge break on every unsealed patch.\n\nWhat it is good at is everything else: the towns, the fuel economy, the parking, the weight when you have dropped it, and the fact that any mechanic on the circuit has the parts."
+   },
+   "text_th": {
+    "what": "ฮอนด้า คลิก สกู๊ปปี้ มิโอ นูโว เกียร์ออโต้ ล้อเล็ก เบรกดรัมหรือดิสก์เดี่ยว และเป็นรถเริ่มต้นของร้านเช่า มันวิ่งจบรอบได้ ปีหนึ่งมีหลายพันคันที่ทำได้",
+    "story": "สองเรื่องเกี่ยวกับรถออโต้บนทางลงเขายาวๆ และจริงๆ คือเรื่องเดียวกันพูดสองครั้ง\n\nเกียร์ออโต้แทบ**ไม่มีเอนจินเบรก** บนถนนที่มีโค้งหักศอกหนาแน่นอย่าง 1095 หรือ 1263 นั่นแปลว่าเบรกต้องทำงานทั้งหมดต่อเนื่องเป็นสิบกิโลเมตร และเบรกดรัมเล็กๆ ที่ถูกลากมาสี่นาทีจะไม่หยุดรถได้เหมือนนาทีแรก *อนุมาน —* นี่คือข้อเท็จจริงเชิงกลไกข้อเดียวที่เปลี่ยนวิธีขี่สกู๊ตเตอร์ที่นี่มากที่สุด ลงช้าๆ ลงเป็นช่วงๆ และจอดพักให้เบรกเย็น ซึ่งฟังดูเกินจำเป็นจนกระทั่งก้านเบรกกดติดแฮนด์\n\nข้อสอง ล้อมันเล็ก ล้อ 12 หรือ 14 นิ้วตกหลุมที่ล้อ 17 นิ้วข้ามไปได้ และเส้นทางนี้มีหลุม มีกรวดที่น้ำพัดมากอง และมีขอบถนนแตกในทุกช่วงที่ไม่ได้ลาดยาง\n\nสิ่งที่มันเก่งคือทุกอย่างที่เหลือ ในเมือง ความประหยัด การจอด น้ำหนักตอนที่ล้มแล้วต้องยก และความจริงที่ว่าช่างทุกร้านบนเส้นทางมีอะไหล่"
+   },
+   "kin": [
+    {
+     "to": "brake-fade",
+     "as": "The specific way this bike fails on a long descent.",
+     "rel": "hazard"
+    },
+    {
+     "to": "route-1263",
+     "as": "The leg to think hardest about on a small automatic.",
+     "rel": "road"
+    },
+    {
+     "to": "underbone-125",
+     "as": "The same size of engine with gears, which changes the descent entirely.",
+     "rel": "bike"
+    },
+    {
+     "to": "renting-a-bike",
+     "as": "The bike the shop will hand you unless you ask otherwise.",
+     "rel": "kit"
+    },
+    {
+     "to": "which-bike",
+     "as": "Where this sits against everything else.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:wp-scooter-motorcycle",
+    "s:wp-honda-click",
+    "s:wp-motorcycle-safety",
+    "s:mhs-measured"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-scooter-motorcycle"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "the transmission and wheel-size facts are cited; the riding conclusion drawn from them is this project's"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "step-through-110/step-through-110-2014-honda-vario-fi-110-20210930.jpg",
+     "source": "commons",
+     "title": "File:2014 Honda Vario FI 110 (20210930).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/2014_Honda_Vario_FI_110_%2820210930%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A2014_Honda_Vario_FI_110_%2820210930%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "オーバードライブ83",
+     "credit": "Own work",
+     "alt": "2014 Honda Vario FI 110",
+     "date": "2021-09-30 15:44:31",
+     "primary": true,
+     "sha256": "69e0ab5d6197429af70f23bc2d4bf980fa90553186ea34cb2e426b92d2df5224"
+    },
+    {
+     "file": "step-through-110/step-through-110-2014-honda-vario-fi-110-20220214.jpg",
+     "source": "commons",
+     "title": "File:2014 Honda Vario FI 110 (20220214).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/2014_Honda_Vario_FI_110_%2820220214%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A2014_Honda_Vario_FI_110_%2820220214%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "オーバードライブ83",
+     "credit": "Own work",
+     "alt": "2014 Honda Vario FI 110",
+     "date": "2022-02-14 12:44:04",
+     "primary": false,
+     "sha256": "385bfba9e66f67d7d26e5e3f52136620aee39e591bc89a30a8d230dae902e64d"
+    },
+    {
+     "file": "step-through-110/step-through-110-honda-vario-150-techno-idling-stop-pgm-fi-fuel-injection.jpg",
+     "source": "commons",
+     "title": "File:Honda Vario 150 Techno Idling Stop PGM-FI Fuel Injection.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Honda_Vario_150_Techno_Idling_Stop_PGM-FI_Fuel_Injection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Vario_150_Techno_Idling_Stop_PGM-FI_Fuel_Injection.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Syced",
+     "credit": "Own work",
+     "alt": "Honda Vario 150 Techno Idling Stop PGM-FI Fuel Injection",
+     "date": "22 January 2024 (according to Exif data)",
+     "primary": false,
+     "sha256": "169bcc6aff5e62137d649fbe86f579da0f5f302dc7bc3b7c20895a6e8d1b6a43"
+    },
+    {
+     "file": "step-through-110/step-through-110-thai-scooter-taxi-bangkok-panoramio.jpg",
+     "source": "commons",
+     "title": "File:Thai Scooter Taxi Bangkok - panoramio.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Thai_Scooter_Taxi_Bangkok_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThai_Scooter_Taxi_Bangkok_-_panoramio.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Lobster1",
+     "credit": "https://web.archive.org/web/20161025075022/http://www.panoramio.com/photo/74482833",
+     "alt": "Thai Scooter Taxi Bangkok",
+     "date": "Taken on 27 June 2012",
+     "primary": false,
+     "sha256": "a468814fc41143deaab3de2622cd317ce83503390b840d41a3df9238db23fdd0"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "brake-fade",
+     "type": "hazard",
+     "name": "Brake fade",
+     "as": "The bike this happens to."
+    },
+    {
+     "from": "underbone-125",
+     "type": "bike",
+     "name": "The underbone with gears",
+     "as": "The same size, without the gearbox that does the braking."
+    },
+    {
+     "from": "engine-braking",
+     "type": "term",
+     "name": "Engine braking",
+     "as": "The cheap bike that does not."
+    },
+    {
+     "from": "which-bike",
+     "type": "story",
+     "name": "Every bike goes up there",
+     "as": "The most common bike on the road, and the one the road was not designed around."
+    }
+   ]
+  },
+  {
+   "id": "trail-250",
+   "type": "bike",
+   "names": {
+    "name": "The 250–450 trail bike",
+    "th": "รถวิบาก 250–450",
+    "said": "The one that makes the unsealed sections stop being a decision.",
+    "said_th": "รถที่ทำให้ช่วงทางลูกรังเลิกเป็นเรื่องต้องตัดสินใจ"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "class": "trail",
+    "grip": "moderate"
+   },
+   "text": {
+    "what": "A KLX, a CRF, a D-Tracker, a Versys-X: long travel, 21- or 19-inch front wheel, upright, light, and rented all over Chiang Mai.",
+    "story": "On a circuit that is sealed almost end to end, a trail bike's advantage is not the dirt. It is the suspension travel over broken edges, the ground clearance over the concrete water bars on steep sections, and the fact that dropping it at walking pace on a wet driveway costs nothing.\n\n*Inference —* it is also the machine that makes Route 1263 and the side roads to the villages a decision you make on the day rather than one you make when you rent. What you give up is a comfortable 100 km/h on the four-lane section of Route 108 out of Chiang Mai, where a tall single-cylinder is buzzy and tiring."
+   },
+   "text_th": {
+    "what": "KLX, CRF, D-Tracker, Versys-X ช่วงล่างยาว ล้อหน้า 21 หรือ 19 นิ้ว ท่านั่งตรง น้ำหนักเบา และมีให้เช่าทั่วเชียงใหม่",
+    "story": "บนเส้นทางที่ลาดยางเกือบตลอด ข้อได้เปรียบของรถวิบากไม่ใช่ทางดิน แต่คือช่วงล่างที่ยาวกว่าเวลาเจอขอบถนนแตก ความสูงใต้ท้องรถเวลาข้ามสันคอนกรีตกันน้ำบนทางชัน และการที่ล้มด้วยความเร็วเดินบนทางเข้าที่เปียกแล้วไม่เสียอะไรเลย\n\n*อนุมาน —* มันยังเป็นรถที่ทำให้ทางหลวง 1263 และทางแยกเข้าหมู่บ้านกลายเป็นเรื่องที่ตัดสินใจหน้างานได้ แทนที่จะต้องตัดสินใจตอนเช่า สิ่งที่แลกไปคือความสบายที่ 100 กม./ชม. บนช่วงสี่เลนของทางหลวง 108 ขาออกจากเชียงใหม่ ที่ซึ่งเครื่องสูบเดียวตัวสูงจะสั่นและทำให้ล้า"
+   },
+   "kin": [
+    {
+     "to": "the-1263-cut",
+     "as": "The leg this bike is for.",
+     "rel": "leg"
+    },
+    {
+     "to": "gravel-on-the-apex",
+     "as": "What the front wheel size is buying.",
+     "rel": "hazard"
+    },
+    {
+     "to": "which-bike",
+     "as": "Where this sits against everything else.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:wp-dual-sport-motorcycle",
+    "s:mhs-measured"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-dual-sport-motorcycle"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "trail-250/trail-250-gro-img-9207-54773452978.jpg",
+     "source": "commons",
+     "title": "File:Groß (IMG 9207) (54773452978).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Gro%C3%9F_%28IMG_9207%29_%2854773452978%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AGro%C3%9F_%28IMG_9207%29_%2854773452978%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Clemens Anderlitschka",
+     "credit": "Groß (IMG_9207)",
+     "alt": "265 Hercules 350 GS\n266 Kramer 250\n267 Kawasaki KLX 250\n268 Nürnb. Herculeswerke GS 175",
+     "date": "2025-09-08 02:44",
+     "primary": true,
+     "sha256": "186cdb50adc8d8bfb11d06284465090139e3cd11e11df2385f034a240ce4c48c"
+    },
+    {
+     "file": "trail-250/trail-250-gro-img-9208-54773555040.jpg",
+     "source": "commons",
+     "title": "File:Groß (IMG 9208) (54773555040).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Gro%C3%9F_%28IMG_9208%29_%2854773555040%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AGro%C3%9F_%28IMG_9208%29_%2854773555040%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Clemens Anderlitschka",
+     "credit": "Groß (IMG_9208)",
+     "alt": "265 Hercules 350 GS\n266 Kramer 250\n267 Kawasaki KLX 250\n268 Nürnb. Herculeswerke GS 175",
+     "date": "2025-09-08 02:44",
+     "primary": false,
+     "sha256": "b42332c17295c262e4b90f6abd69627b8b0cd9692d63f2e8149201ac76be4b99"
+    },
+    {
+     "file": "trail-250/trail-250-gro-img-9209-54773215981.jpg",
+     "source": "commons",
+     "title": "File:Groß (IMG 9209) (54773215981).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Gro%C3%9F_%28IMG_9209%29_%2854773215981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AGro%C3%9F_%28IMG_9209%29_%2854773215981%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Clemens Anderlitschka",
+     "credit": "Groß (IMG_9209)",
+     "alt": "265 Hercules 350 GS\n266 Kramer 250\n267 Kawasaki KLX 250\n268 Nürnb. Herculeswerke GS 175",
+     "date": "2025-09-08 02:44",
+     "primary": false,
+     "sha256": "169bff2889b660973098854bfffdcfef6c1b6248599e1d7a6a03b84fbe6fc917"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "the-1263-cut",
+     "type": "leg",
+     "name": "The 1263 cut",
+     "as": "The machine it suits."
+    },
+    {
+     "from": "route-1263",
+     "type": "road",
+     "name": "Route 1263",
+     "as": "The bike this road suits."
+    },
+    {
+     "from": "gravel-on-the-apex",
+     "type": "hazard",
+     "name": "Gravel on the apex",
+     "as": "The front wheel that minds it least."
+    },
+    {
+     "from": "which-bike",
+     "type": "story",
+     "name": "Every bike goes up there",
+     "as": "The one that makes the unsealed sections stop being a decision."
+    }
+   ]
+  },
+  {
+   "id": "underbone-125",
+   "type": "bike",
+   "names": {
+    "name": "The underbone with gears",
+    "th": "รถครอบครัวมีเกียร์ 125",
+    "said": "The same engine as the scooter, and a different road because of it.",
+    "said_th": "เครื่องยนต์ขนาดเดียวกับสกู๊ตเตอร์ แต่เป็นคนละถนนเพราะเกียร์"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "class": "underbone",
+    "grip": "easy"
+   },
+   "text": {
+    "what": "A Honda Wave, a Dream, a Sonic: a small four-stroke in a step-through frame with a four-speed gearbox and usually a centrifugal clutch, so there are gears but no clutch lever. The machine most of northern Thailand actually rides.",
+    "story": "The gearbox is the whole argument. Second gear holds a loaded 125 down a hairpin descent on the engine, and the brakes are then there for corners rather than for the entire hill. *Inference —* for a rider who has never come down ten kilometres of switchbacks before, this one change matters more than any amount of extra engine.\n\nIt is slower than a scooter off the line and faster everywhere that matters here, because 'faster' on this road means 'able to hold a steady speed up a long climb without the transmission hunting'.\n\nThe Super Cub layout it descends from has been in production since 1958 and is the most-produced motor vehicle in history, which is a way of saying that every mechanic between Chiang Mai and the Salween has seen one before."
+   },
+   "text_th": {
+    "what": "ฮอนด้า เวฟ ดรีม โซนิค เครื่องสี่จังหวะเล็กในโครงรถครอบครัว เกียร์สี่สปีด ส่วนใหญ่เป็นคลัตช์อัตโนมัติ คือมีเกียร์แต่ไม่มีก้านคลัตช์ เป็นรถที่คนภาคเหนือขี่กันจริงๆ",
+    "story": "เกียร์คือประเด็นทั้งหมด เกียร์สองหน่วงรถ 125 ที่บรรทุกของลงทางหักศอกได้ด้วยเครื่อง แล้วเบรกก็เหลือไว้ใช้กับโค้ง ไม่ใช่ใช้กับทั้งเขา *อนุมาน —* สำหรับคนที่ไม่เคยลงทางโค้งสิบกิโลเมตรมาก่อน การเปลี่ยนแค่จุดนี้สำคัญกว่าซีซีที่เพิ่มขึ้นเท่าไรก็ตาม\n\nมันออกตัวช้ากว่าสกู๊ตเตอร์ แต่เร็วกว่าในทุกที่ที่สำคัญบนเส้นทางนี้ เพราะคำว่าเร็วบนถนนสายนี้แปลว่ารักษาความเร็วคงที่ขึ้นเขายาวๆ ได้โดยเกียร์ไม่สับไปมา\n\nโครงสร้างแบบซูเปอร์คับที่มันสืบทอดมาผลิตมาตั้งแต่ปี 2501 และเป็นยานยนต์ที่ผลิตมากที่สุดในประวัติศาสตร์ ซึ่งเป็นอีกวิธีพูดว่าช่างทุกคนระหว่างเชียงใหม่ถึงสาละวินเคยเห็นมันมาแล้ว"
+   },
+   "kin": [
+    {
+     "to": "step-through-110",
+     "as": "The same size, without the gearbox that does the braking.",
+     "rel": "bike"
+    },
+    {
+     "to": "engine-braking",
+     "as": "The thing the gearbox buys you.",
+     "rel": "term"
+    },
+    {
+     "to": "brake-fade",
+     "as": "What it protects you from.",
+     "rel": "hazard"
+    },
+    {
+     "to": "which-bike",
+     "as": "Where this sits against everything else.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:wp-honda-wave-series",
+    "s:wp-honda-super-cub",
+    "s:wp-underbone"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-honda-super-cub"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "production history cited; the riding argument is this project's"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "underbone-125/underbone-125-2007-honda-revo-r-100-20211019.jpg",
+     "source": "commons",
+     "title": "File:2007 Honda Revo R 100 (20211019).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/2007_Honda_Revo_R_100_%2820211019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A2007_Honda_Revo_R_100_%2820211019%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "オーバードライブ83",
+     "credit": "Own work",
+     "alt": "2007 Honda Revo R 100",
+     "date": "2021-10-19 14:21:51",
+     "primary": true,
+     "sha256": "f85bfd9e7fb3cec43737a320744c6a404f2483af7245048bd3387aa7166b6b0e"
+    },
+    {
+     "file": "underbone-125/underbone-125-honda-supra-x-125.jpg",
+     "source": "commons",
+     "title": "File:Honda Supra X 125.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Honda_Supra_X_125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Supra_X_125.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Rubah Hitam Vukova",
+     "credit": "Own work",
+     "alt": "Honda Supra X 125, 2018",
+     "date": "2025-04-16 14:13:35",
+     "primary": false,
+     "sha256": "d307912646a8b3b4e8ab15b1146a6dca9d8ab95d6592ce029b46175fb4d76a2f"
+    },
+    {
+     "file": "underbone-125/underbone-125-honda-supra-x-125-fi-jakarta-fair-2016-june-21-2016-03.jpg",
+     "source": "commons",
+     "title": "File:Honda Supra X 125 FI - Jakarta Fair 2016 - June 21 2016 03.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Honda_Supra_X_125_FI_-_Jakarta_Fair_2016_-_June_21_2016_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Supra_X_125_FI_-_Jakarta_Fair_2016_-_June_21_2016_03.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Wilzz99",
+     "credit": "Own work",
+     "alt": "A Honda Supra X 125 FI photographed in Jakarta Fair 2016, Jakarta, Indonesia on June 21, 2016.",
+     "date": "2016-06-21 17:46:03",
+     "primary": false,
+     "sha256": "276db72f9557b8601e4991062b0752779a8e7f823e9a3fd8de2fd167e2f10566"
+    },
+    {
+     "file": "underbone-125/underbone-125-honda-wave-s-dx-2023.jpg",
+     "source": "commons",
+     "title": "File:Honda Wave S-DX 2023.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Honda_Wave_S-DX_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Wave_S-DX_2023.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Zaldi.txiki.75",
+     "credit": "Own work",
+     "alt": "Honda Wave S-DX 2023, cast disk edition",
+     "date": "2023-02-10",
+     "primary": false,
+     "sha256": "eed23a927ae50126eef41129da2c48d6f7f90fa313a565205df32b79b7fdf83b"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "step-through-110",
+     "type": "bike",
+     "name": "The 110–125 step-through",
+     "as": "The same size of engine with gears, which changes the descent entirely."
+    },
+    {
+     "from": "engine-braking",
+     "type": "term",
+     "name": "Engine braking",
+     "as": "The cheap bike that has it."
+    },
+    {
+     "from": "which-bike",
+     "type": "story",
+     "name": "Every bike goes up there",
+     "as": "The same engine with a gearbox, which changes the descent entirely."
+    }
+   ]
+  }
+ ]
+}

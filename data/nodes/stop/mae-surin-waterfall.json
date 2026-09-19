@@ -75,5 +75,67 @@
  ],
  "needs_verification": true,
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "mae-surin-waterfall/mae-surin-waterfall-namtok-mae-surin-waterfall-thailand.jpg",
+   "source": "commons",
+   "title": "File:Namtok Mae Surin, Waterfall, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Namtok_Mae_Surin%2C_Waterfall%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANamtok_Mae_Surin%2C_Waterfall%2C_Thailand.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Vyacheslav Argenberg",
+   "credit": "Own work",
+   "alt": "Mae Surin Waterfall. Numerous streams and rivers around. A mix of evergreen and deciduous hill forest with some Dipterocarp trees. It was the last place in northern Thailand where you could spot an In",
+   "date": "2010-11-23 15:27:33",
+   "primary": true,
+   "sha256": "50bd0a7eae447243800a19cf16adbe6674eb2d50114b27cf8e108e7b42b710d7"
+  },
+  {
+   "file": "mae-surin-waterfall/mae-surin-waterfall-namtok-mae-surin-waterfall-3-thailand.jpg",
+   "source": "commons",
+   "title": "File:Namtok Mae Surin, Waterfall 3, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Namtok_Mae_Surin%2C_Waterfall_3%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANamtok_Mae_Surin%2C_Waterfall_3%2C_Thailand.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Vyacheslav Argenberg",
+   "credit": "Own work",
+   "alt": "Mae Surin Waterfall. Numerous streams and rivers around. A mix of evergreen and deciduous hill forest with some Dipterocarp trees. Namtok Mae Surin, Doi Pui Area, Mae Hong Son Province, Thanon Thong C",
+   "date": "2010-11-23 15:36:21",
+   "primary": false,
+   "sha256": "16cfbd002c27337586c8b4d98d27ad17437b83c469c76c70d0322002b296748b"
+  },
+  {
+   "file": "mae-surin-waterfall/mae-surin-waterfall-namtok-mae-surin-waterfall-4-thailand.jpg",
+   "source": "commons",
+   "title": "File:Namtok Mae Surin, Waterfall 4, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Namtok_Mae_Surin%2C_Waterfall_4%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANamtok_Mae_Surin%2C_Waterfall_4%2C_Thailand.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Vyacheslav Argenberg",
+   "credit": "Own work",
+   "alt": "Mae Surin Waterfall. A mix of evergreen and deciduous hill forest with some Dipterocarp trees. Namtok Mae Surin, Doi Pui Area, Mae Hong Son Province, Thanon Thong Chai Range, Thailand.",
+   "date": "2010-11-23 15:27:38",
+   "primary": false,
+   "sha256": "5ff657adc887f0be748ced2b3b2fabfb43fcc708f809f330bbea56398a85c30a"
+  },
+  {
+   "file": "mae-surin-waterfall/mae-surin-waterfall-.jpg",
+   "source": "commons",
+   "title": "File:อุทยานแห่งชาติน้ำตกแม่สุรินทร์.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Hapong",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติน้ำตกแม่สุรินทร์ จังหวัดแม่ฮ่องสอน",
+   "date": "2014-11-08 16:28:00",
+   "primary": false,
+   "sha256": "a6603a6366d5ac2df74c760faa207d9d8709663dfedc22799d982b0f65700546"
+  }
+ ]
 }

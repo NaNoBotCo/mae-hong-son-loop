@@ -1,0 +1,214 @@
+{
+ "id": "the-smoke",
+ "type": "story",
+ "names": {
+  "name": "The smoke",
+  "th": "ควันไฟ",
+  "said": "Ten months of the year this is some of the cleanest air in Thailand. Two months of the year it is not.",
+  "said_th": "สิบเดือนในหนึ่งปี อากาศที่นี่สะอาดที่สุดแห่งหนึ่งในประเทศไทย อีกสองเดือนไม่ใช่"
+ },
+ "region": [
+  "loop",
+  "mhs",
+  "cnx"
+ ],
+ "facets": {
+  "kind": "argument",
+  "month": "smoke"
+ },
+ "text": {
+  "what": "From late February the hills burn — crop residue, forest undergrowth, land clearance, on both sides of the border — and the smoke settles into exactly the valleys this road runs through. It lifts with the first rains. This page carries four years of daily figures for every town on the circuit, and says plainly where those figures are weaker than they look.",
+  "story": "Two sources were fetched, and they are printed together because they disagree.\n\n**The long record** is Copernicus CAMS through the Open-Meteo air quality service: hourly PM2.5 at ten points around the loop from 1 August 2022 to the day of the build. That is 15,050 point-days. Reduced to a daily mean and then to a month, the shape is not subtle. Take Pai: a July mean of 3.0 micrograms per cubic metre, a December mean of 9.9, a March mean of 26.1, an April mean of 29.8. Thirty of the thirty April days measured sat above 35.4 µg/m³, the figure the United States uses as its 24-hour standard. In July, across four years, not one day did.\n\nThe same shape repeats at every point on the circuit, and one thing about it is worth saying out loud: **Chiang Mai is worse than the loop.** Chiang Mai's March mean is 37.8 µg/m³ against Mae Hong Son's 29.1 and Pai's 26.1. The city you leave from is the dirtiest air on the route.\n\n**Where the long record fails.** In 15,050 point-days the model never once produced a daily mean above 99.4 µg/m³. Ground stations in northern Thailand have recorded far higher. A model cell is tens of kilometres across; a Mae Hong Son valley on a windless March morning is not, and the averaging that makes a continental model tractable is exactly the averaging that removes the worst hour of the worst day. *Inference —* read the monthly shape from this data and do not read the ceiling from it.\n\n**The ground record**, such as it is. Thailand's Pollution Control Department runs a national network and publishes the current hour. Its historical endpoint returned 404 on the fetch date, so what this site can show from it is now, not then. And there is a second problem, which is a finding in itself: **Mae Hong Son province — 12,765 square kilometres, the largest by area in the north — has one station.** It is 58t, in Mae Hong Son town. Pai has none. Soppong has none. Khun Yuam, Mae La Noi and Mae Sariang have none. Nobody official is measuring the air in the town most riders sleep in on night one.",
+  "how": "The practical version. **February is not the problem** up-country: Pai's February mean is 15.0 µg/m³ and no February day in four years cleared 35.4 there. **March and April are.** **May is over** — Pai drops to 10.0 and stays down. If the dates are fixed and they land in March, the ride is still rideable; what changes is that a viewpoint is a white wall, a long descent is done with stinging eyes, and anyone with asthma is having a bad week. A fitted FFP2 or N95 under the helmet is the mitigation people use; a surgical mask and a buff are not filtering PM2.5.",
+  "today": "*Inference —* the scheduling advice this data supports reverses the usual one. The cool season is sold as the season, and November to February is genuinely lovely. But the cleanest air on this circuit by a wide margin is **the rains** — Pai at 3.0 µg/m³ in July against 26.1 in March — and the hills are green, the waterfalls are running and the rooms are cheap. What you trade is dry tarmac."
+ },
+ "text_th": {
+  "what": "ตั้งแต่ปลายเดือนกุมภาพันธ์ ภูเขาจะถูกเผา ทั้งตอซังพืช ใบไม้ในป่า และการเปิดพื้นที่ ทั้งสองฝั่งชายแดน แล้วควันก็ลงมานอนอยู่ในหุบเขาที่ถนนสายนี้วิ่งผ่านพอดี ควันจะหายไปเมื่อฝนแรกมา หน้านี้มีข้อมูลรายวันสี่ปีของทุกเมืองบนเส้นทาง และบอกตรงๆ ว่าข้อมูลชุดนี้อ่อนตรงไหน",
+  "story": "ข้อมูลสองชุดถูกดึงมา และพิมพ์ไว้ด้วยกันเพราะทั้งสองไม่ตรงกัน\n\n**ชุดยาว** คือ Copernicus CAMS ผ่านบริการ Open-Meteo ค่า PM2.5 รายชั่วโมงที่สิบจุดรอบเส้นทาง ตั้งแต่ 1 สิงหาคม 2565 ถึงวันที่สร้างเว็บ รวม 15,050 จุด-วัน เมื่อย่อเป็นค่าเฉลี่ยรายวันแล้วเป็นรายเดือน รูปร่างของมันชัดมาก ดูปายเป็นตัวอย่าง ค่าเฉลี่ยเดือนกรกฎาคม 3.0 ไมโครกรัมต่อลูกบาศก์เมตร ธันวาคม 9.9 มีนาคม 26.1 เมษายน 29.8 และในสามสิบวันของเดือนเมษายนที่วัดได้ ทั้งสามสิบวันเกิน 35.4 ซึ่งเป็นค่ามาตรฐาน 24 ชั่วโมงของสหรัฐฯ ส่วนเดือนกรกฎาคมตลอดสี่ปี ไม่มีสักวันเดียว\n\nรูปแบบเดียวกันนี้เกิดขึ้นทุกจุดบนเส้นทาง และมีเรื่องหนึ่งที่ควรพูดออกมาดังๆ **เชียงใหม่แย่กว่าบนเส้นทาง** ค่าเฉลี่ยเดือนมีนาคมของเชียงใหม่คือ 37.8 เทียบกับแม่ฮ่องสอน 29.1 และปาย 26.1 เมืองที่คุณออกเดินทางคืออากาศที่สกปรกที่สุดของทริป\n\n**จุดอ่อนของชุดยาว** ใน 15,050 จุด-วัน แบบจำลองไม่เคยให้ค่าเฉลี่ยรายวันเกิน 99.4 เลยสักครั้ง สถานีภาคพื้นดินในภาคเหนือเคยวัดได้สูงกว่านั้นมาก ช่องกริดของแบบจำลองกว้างหลายสิบกิโลเมตร แต่หุบเขาแม่ฮ่องสอนในเช้าที่ลมนิ่งของเดือนมีนาคมไม่กว้างขนาดนั้น การเฉลี่ยที่ทำให้แบบจำลองระดับทวีปคำนวณไหว คือการเฉลี่ยที่ลบชั่วโมงที่แย่ที่สุดของวันที่แย่ที่สุดออกไปพอดี *อนุมาน —* ให้อ่านรูปร่างของฤดูกาลจากข้อมูลนี้ แต่อย่าอ่านเพดานสูงสุดจากมัน\n\n**ชุดภาคพื้นดิน** กรมควบคุมมลพิษมีเครือข่ายสถานีทั่วประเทศและเผยแพร่ค่าชั่วโมงล่าสุด แต่ปลายทางข้อมูลย้อนหลังตอบ 404 ในวันที่ดึงข้อมูล เว็บนี้จึงแสดงได้แค่ตอนนี้ ไม่ใช่ตอนนั้น และมีปัญหาที่สอง ซึ่งตัวมันเองคือข้อค้นพบ **จังหวัดแม่ฮ่องสอน พื้นที่ 12,765 ตารางกิโลเมตร มีสถานีวัดเดียว** คือ 58t ในตัวเมืองแม่ฮ่องสอน ปายไม่มี สบป่องไม่มี ขุนยวม แม่ลาน้อย แม่สะเรียง ไม่มีสักแห่ง ไม่มีหน่วยงานใดวัดอากาศในเมืองที่คนขี่ส่วนใหญ่นอนคืนแรก",
+  "how": "ฉบับใช้งานจริง **กุมภาพันธ์ไม่ใช่ปัญหา** สำหรับพื้นที่บนดอย ค่าเฉลี่ยกุมภาพันธ์ของปายคือ 15.0 และตลอดสี่ปีไม่มีวันไหนในกุมภาพันธ์ที่เกิน 35.4 ที่นั่นเลย **มีนาคมกับเมษายนคือปัญหา** **พฤษภาคมจบแล้ว** ปายลงมาที่ 10.0 และอยู่ต่ำต่อไป ถ้าวันเดินทางล็อกไว้แล้วและตรงกับเดือนมีนาคม ถนนก็ยังขี่ได้ สิ่งที่เปลี่ยนคือจุดชมวิวจะเป็นผนังสีขาว ทางลงยาวๆ ต้องทำด้วยตาที่แสบ และคนเป็นหอบจะเจอสัปดาห์ที่แย่ หน้ากาก FFP2 หรือ N95 ที่กระชับใต้หมวกกันน็อกคือสิ่งที่คนใช้กัน ส่วนหน้ากากอนามัยกับผ้าบัฟไม่ได้กรอง PM2.5",
+  "today": "*อนุมาน —* คำแนะนำเรื่องช่วงเวลาที่ซื่อตรงกลับหัวกลับหางจากที่ขายกันทั่วไป ฤดูหนาวถูกขายว่าเป็นฤดูกาลของที่นี่ และพฤศจิกายนถึงกุมภาพันธ์ก็งามจริง แต่อากาศที่สะอาดที่สุดบนเส้นทางนี้แบบทิ้งห่าง คือ **หน้าฝน** ปายอยู่ที่ 3.0 ในเดือนกรกฎาคม เทียบกับ 26.1 ในเดือนมีนาคม ภูเขาเขียว น้ำตกมีน้ำ ห้องพักถูก สิ่งที่แลกไปคือถนนแห้ง"
+ },
+ "kin": [
+  {
+   "to": "season-and-direction",
+   "as": "What the smoke does to the choice of direction.",
+   "rel": "story"
+  },
+  {
+   "to": "burning-season",
+   "as": "The season itself, as a date range.",
+   "rel": "event"
+  },
+  {
+   "to": "the-rains",
+   "as": "The cleanest air of the year, and the wettest road.",
+   "rel": "event"
+  },
+  {
+   "to": "cool-season",
+   "as": "The season everyone books, and why.",
+   "rel": "event"
+  },
+  {
+   "to": "pai",
+   "as": "The town with no air monitor and the softest March of the circuit.",
+   "rel": "town"
+  },
+  {
+   "to": "chiang-mai",
+   "as": "The dirtiest air on the route, and where you start.",
+   "rel": "town"
+  },
+  {
+   "to": "smoke-riding",
+   "as": "Riding in it: what it does to sight and to lungs.",
+   "rel": "hazard"
+  },
+  {
+   "to": "pm25",
+   "as": "What the number measures.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:open-meteo-aq",
+  "s:air4thai",
+  "s:epa-pm25-2024",
+  "s:wp-southeast-asian-haze",
+  "s:wp-mae-hong-son-province"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:open-meteo-aq"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "harvested",
+    "source": "s:open-meteo-aq",
+    "note": "every figure is computed by tools/harvest_air.py from the fetched series; the station count is read off the air4thai station list on the fetch date"
+   },
+   "text.how": {
+    "tier": "inference",
+    "note": "the mask advice is this project reasoning from what PM2.5 is; no clinical source is cited for it and none should be read into it"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "needs_verification": false,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "the-smoke/the-smoke-150132main-image-feature-589-alaska.jpg",
+   "source": "commons",
+   "title": "File:150132main image feature 589 alaska.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/150132main_image_feature_589_alaska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A150132main_image_feature_589_alaska.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "National Aeronautics and Space Administration (NASA)",
+   "credit": "NASA (Image galleries)",
+   "alt": "Satellite picture of the Aleutian Islands and the Alaska Peninsula, located in the south of the state of Alaska, United States.",
+   "date": "25 May 2006",
+   "primary": true,
+   "sha256": "54b257cb40d22dd7fce1483645c0a7f95991f5504d9fabf8985c80de51a47d36"
+  },
+  {
+   "file": "the-smoke/the-smoke-burning-mountains-thailand.jpg",
+   "source": "commons",
+   "title": "File:Burning mountains Thailand.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Burning_mountains_Thailand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABurning_mountains_Thailand.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "The photo shows the smoke coming off from several wildfires in the mountains of northern Thailand. Farmers in northern Thailand always set fire to the forests in the mountains nearing the end of the d",
+   "date": "2011-02-07",
+   "primary": false,
+   "sha256": "64a99eca43c77801db81bdc8db8dea09fe6a578799a93165e01e686c7a5d6254"
+  },
+  {
+   "file": "the-smoke/the-smoke-smoke-shrouds-northern-thailand-1214791.jpg",
+   "source": "commons",
+   "title": "File:Smoke Shrouds Northern Thailand (1214791).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Smoke_Shrouds_Northern_Thailand_%281214791%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASmoke_Shrouds_Northern_Thailand_%281214791%29.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "NASA Earth Observatory/Lauren Dauphin",
+   "credit": "Smoke Shrouds Northern Thailand",
+   "alt": "The MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA's Terra satellite captured this hazy view of the city and the surrounding region on April 22, 2026.",
+   "date": "2026-04-22",
+   "primary": false,
+   "sha256": "de28aaae6a2e94abe44b53c6c3bbaf8b529c9cb44f503b5f863d02a16b69bb92"
+  },
+  {
+   "file": "the-smoke/the-smoke-smoke-shrouds-northern-thailand-1214791-lrg.jpg",
+   "source": "commons",
+   "title": "File:Smoke Shrouds Northern Thailand (1214791 - lrg).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Smoke_Shrouds_Northern_Thailand_%281214791_-_lrg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASmoke_Shrouds_Northern_Thailand_%281214791_-_lrg%29.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "NASA Earth Observatory/Lauren Dauphin",
+   "credit": "Smoke Shrouds Northern Thailand",
+   "alt": "The MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA's Terra satellite captured this hazy view of the city and the surrounding region on April 22, 2026.",
+   "date": "2026-04-22",
+   "primary": false,
+   "sha256": "78ec528b038933053c8727e55231b0501b9f558cfc3050c4d2b82559b477c42c"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "chiang-mai",
+   "type": "town",
+   "name": "Chiang Mai",
+   "as": "The dirtiest air on the route is here."
+  },
+  {
+   "from": "mae-hong-son",
+   "type": "town",
+   "name": "Mae Hong Son",
+   "as": "The one air monitor in the province is here."
+  },
+  {
+   "from": "pai",
+   "type": "town",
+   "name": "Pai",
+   "as": "Why the basin matters, and what the numbers say."
+  },
+  {
+   "from": "smoke-riding",
+   "type": "hazard",
+   "name": "Riding in the smoke",
+   "as": "The four years of measurements behind this."
+  },
+  {
+   "from": "burning-season",
+   "type": "event",
+   "name": "Burning season",
+   "as": "The data and where it is weak."
+  },
+  {
+   "from": "pm25",
+   "type": "term",
+   "name": "PM2.5",
+   "as": "Four years of it, measured."
+  },
+  {
+   "from": "season-and-direction",
+   "type": "story",
+   "name": "The season picks the direction",
+   "as": "The four years of figures behind the March advice."
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "type": "person",
+ "count": 2,
+ "nodes": [
+  {
+   "id": "karen",
+   "type": "person",
+   "names": {
+    "name": "The Karen",
+    "th": "กะเหรี่ยง",
+    "said": "Not one people. A group of closely related ones, across the hills the southern leg runs through.",
+    "said_th": "ไม่ใช่ชนกลุ่มเดียว แต่เป็นกลุ่มที่เกี่ยวพันกันหลายกลุ่ม อยู่ทั่วภูเขาที่ช่วงใต้วิ่งผ่าน"
+   },
+   "region": [
+    "mhs",
+    "karen"
+   ],
+   "facets": {
+    "role": "people"
+   },
+   "text": {
+    "what": "The largest group in the hills of the province after the Shan, spanning the Thai–Myanmar border, and the people whose villages line Route 108 south of Mae Hong Son.",
+    "story": "The Wikipedia article on the province is explicit that the Karen are not a single group but a mix of closely related tribes, and lists them among the seven groups making up 63 per cent of the provincial population alongside Lahu, Lisu, Lua, Miao, Chinese Yunnanese and Pa-O. Karen have their own spoken and written language.\n\nAmong the smallest of the Karen groups in Thailand are the Kayan Lahwi, whose women are recognised by the brass coils worn around the neck.\n\n*Inference —* the point worth carrying while riding Route 108: the roadside villages between Khun Yuam and Mae Sariang are people's homes and workplaces, and the difference between passing through respectfully and treating a village as scenery is mostly speed and cameras."
+   },
+   "text_th": {
+    "what": "กลุ่มใหญ่ที่สุดบนภูเขาของจังหวัดรองจากไทใหญ่ มีถิ่นฐานคร่อมชายแดนไทย-เมียนมา และเป็นเจ้าของหมู่บ้านที่เรียงอยู่ตามทางหลวง 108 ทางใต้ของแม่ฮ่องสอน",
+    "story": "บทความวิกิพีเดียเรื่องจังหวัดระบุชัดว่ากะเหรี่ยงไม่ใช่กลุ่มเดียว แต่เป็นการรวมกันของกลุ่มที่เกี่ยวพันกันอย่างใกล้ชิด และจัดอยู่ในเจ็ดกลุ่มที่รวมกันเป็นร้อยละ 63 ของประชากรจังหวัด ร่วมกับลาหู่ ลีซู ลัวะ ม้ง จีนยูนนาน และปะโอ กะเหรี่ยงมีภาษาพูดและภาษาเขียนของตัวเอง\n\nหนึ่งในกลุ่มกะเหรี่ยงที่เล็กที่สุดในไทยคือกะยันลาหวี ซึ่งผู้หญิงเป็นที่รู้จักจากห่วงทองเหลืองที่สวมรอบคอ\n\n*อนุมาน —* ประเด็นที่ควรพกไว้ระหว่างขี่ทางหลวง 108 หมู่บ้านริมถนนระหว่างขุนยวมกับแม่สะเรียงคือบ้านและที่ทำงานของผู้คน และความต่างระหว่างการผ่านไปด้วยความเคารพกับการมองหมู่บ้านเป็นทิวทัศน์ ส่วนใหญ่อยู่ที่ความเร็วและกล้อง"
+   },
+   "kin": [
+    {
+     "to": "khun-yuam-to-mae-sariang",
+     "as": "The leg that runs through their villages.",
+     "rel": "leg"
+    },
+    {
+     "to": "kayan-question",
+     "as": "The argument about the villages that charge admission.",
+     "rel": "story"
+    },
+    {
+     "to": "shan",
+     "as": "The majority group, in the valleys.",
+     "rel": "person"
+    }
+   ],
+   "sources": [
+    "s:wp-karen-peoples",
+    "s:wp-mae-hong-son-province",
+    "s:wp-kayan-people-myanmar",
+    "s:thwp-karen"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-mae-hong-son-province"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-mae-hong-son-province"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "karen/karen-baskets-karen-people-northern-thailand-collected-in-4aedeed.jpg",
+     "source": "commons",
+     "title": "File:Baskets, Karen people, Northern Thailand, collected in 1986 - Ethnological Museum, Berlin - DSC01358.JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Baskets%2C_Karen_people%2C_Northern_Thailand%2C_collected_in_1986_-_Ethnological_Museum%2C_Berlin_-_DSC01358.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ABaskets%2C_Karen_people%2C_Northern_Thailand%2C_collected_in_1986_-_Ethnological_Museum%2C_Berlin_-_DSC01358.JPG",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Daderot",
+     "credit": "Own work",
+     "alt": "Exhibit in the Ethnological Museum, Berlin, Germany. Photography was permitted in the museum without restriction.",
+     "date": "2014-11-11 08:15:54",
+     "primary": true,
+     "sha256": "e05ca03020be702ca62d311f8086d876f9c6ea41e22d31b5c08271b35d53a641"
+    },
+    {
+     "file": "karen/karen-karen-tribe-representative-in-traditional-attire-dem-e6ea82b.jpg",
+     "source": "commons",
+     "title": "File:Karen Tribe Representative in Traditional Attire Demonstrating Traditional Craftsmanship, Northern Thailand, March 2024. By Superdan.art ((Wiki Loves Folklore 2024)).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Karen_Tribe_Representative_in_Traditional_Attire_Demonstrating_Traditional_Craftsmanship%2C_Northern_Thailand%2C_March_2024._By_Superdan.art_%28%28Wiki_Loves_Folklore_2024%29%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AKaren_Tribe_Representative_in_Traditional_Attire_Demonstrating_Traditional_Craftsmanship%2C_Northern_Thailand%2C_March_2024._By_Superdan.art_%28%28Wiki_Loves_Folklore_2024%29%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Superdan.art",
+     "credit": "Own work",
+     "alt": "Witness a representative of the Karen tribe adorned in traditional attire, showcasing the artistry of their people, captured in Northern Thailand in March 2024 by Superdan.art \n((Wiki Loves Folklore 2",
+     "date": "2024-03-15 13:30:26",
+     "primary": false,
+     "sha256": "04c12345369b72d03fba3dff068613aaa199c5e4ad2ce807e78d932a0b7e6107"
+    },
+    {
+     "file": "karen/karen-karen-woman-in-traditional-clothes-sitting-and-sewing.jpg",
+     "source": "commons",
+     "title": "File:Karen woman in traditional clothes sitting and sewing.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Karen_woman_in_traditional_clothes_sitting_and_sewing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AKaren_woman_in_traditional_clothes_sitting_and_sewing.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Varvara Kless-Kaminskaia",
+     "credit": "Own work",
+     "alt": "Karen tribal woman in traditional clothes sitting and sewing, ethnic village, Pattaya, Thailand.",
+     "date": "Taken on 17 September 2018, 07:04:14",
+     "primary": false,
+     "sha256": "e2d8c25e51cfa0c9b0b65d6d402cbb8890b150742c8c0c53d35b8c97f270cfa3"
+    },
+    {
+     "file": "karen/karen-people-in-karen-tribal-village-near-pattaya.jpg",
+     "source": "commons",
+     "title": "File:People in Karen tribal village near Pattaya.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/People_in_Karen_tribal_village_near_Pattaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APeople_in_Karen_tribal_village_near_Pattaya.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Varvara Kless-Kaminskaia",
+     "credit": "Own work",
+     "alt": "People in Karen tribal village near Pattaya, Thailand.",
+     "date": "Taken on 17 September 2018, 07:17:11",
+     "primary": false,
+     "sha256": "c8e7bbc169b0f738e14d878931841836e32452a837e131fa9724adeecfdb89d4"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "khun-yuam-to-mae-sariang",
+     "type": "leg",
+     "name": "Khun Yuam to Mae Sariang",
+     "as": "Whose country this leg runs through."
+    },
+    {
+     "from": "shan",
+     "type": "person",
+     "name": "The Shan",
+     "as": "The other large group, in the hills south and west."
+    },
+    {
+     "from": "kayan-question",
+     "type": "story",
+     "name": "The villages that charge admission",
+     "as": "The larger group the Kayan are one of."
+    }
+   ]
+  },
+  {
+   "id": "shan",
+   "type": "person",
+   "names": {
+    "name": "The Shan",
+    "th": "ไทใหญ่",
+    "said": "The largest population group in the province, and the reason the temples look the way they do.",
+    "said_th": "กลุ่มประชากรใหญ่ที่สุดในจังหวัด และเป็นเหตุผลที่วัดหน้าตาแบบนั้น"
+   },
+   "region": [
+    "mhs",
+    "shan"
+   ],
+   "facets": {
+    "role": "people"
+   },
+   "text": {
+    "what": "Tai Yai. A Tai people whose territory spans the Thai–Myanmar border, and the majority group in Mae Hong Son province.",
+    "story": "Shan people are the largest population group in Mae Hong Son province, having migrated from Shan State in Myanmar. Tai Yai speak their own language; the written form uses a rounded script related to Mon and Burmese.\n\nThe province was formerly part of Mawkmai State, one of the Shan States, founded in 1767 by Hsai Khiao of a Chiang Mai noble family, and the Anglo-Siamese Boundary Commission of 1892–93 put Mae Hong Son district on the Siamese side while the trans-Salween districts stayed with British Burma.\n\n*Inference —* that sequence is what a rider is actually looking at all week: a Thai province whose majority culture, script, architecture and festivals come from the other side of a line drawn by two empires in the 1890s. The wats are the visible part; Poy Sang Long is the audible one."
+   },
+   "text_th": {
+    "what": "ไทใหญ่ กลุ่มชนไทกลุ่มหนึ่งที่มีถิ่นฐานคร่อมชายแดนไทย-เมียนมา และเป็นกลุ่มประชากรส่วนใหญ่ของจังหวัดแม่ฮ่องสอน",
+    "story": "ชาวไทใหญ่เป็นกลุ่มประชากรใหญ่ที่สุดในจังหวัดแม่ฮ่องสอน อพยพมาจากรัฐฉานในเมียนมา ไทใหญ่มีภาษาของตัวเอง อักษรที่ใช้เขียนมีลักษณะกลม เกี่ยวข้องกับอักษรมอญและพม่า\n\nจังหวัดนี้เดิมเป็นส่วนหนึ่งของเมืองหมอกใหม่ หนึ่งในรัฐฉาน ก่อตั้งเมื่อ พ.ศ. 2310 โดยไสยเขียว จากตระกูลขุนนางเชียงใหม่ และคณะกรรมการปักปันเขตแดนอังกฤษ-สยาม พ.ศ. 2435–2436 ทำให้อำเภอแม่ฮ่องสอนอยู่ฝั่งสยาม ขณะที่เขตฝั่งตะวันตกของสาละวินยังอยู่กับพม่าของอังกฤษ\n\n*อนุมาน —* ลำดับเหตุการณ์นั้นคือสิ่งที่คนขี่รถมองอยู่ตลอดสัปดาห์ จังหวัดไทยที่วัฒนธรรม อักษร สถาปัตยกรรม และงานประเพณีของคนส่วนใหญ่มาจากอีกฝั่งของเส้นที่สองจักรวรรดิขีดไว้ในทศวรรษ 1890 วัดคือส่วนที่มองเห็น ปอยส่างลองคือส่วนที่ได้ยิน"
+   },
+   "kin": [
+    {
+     "to": "doi-kong-mu",
+     "as": "Shan chedis on the hill.",
+     "rel": "wat"
+    },
+    {
+     "to": "poy-sang-long",
+     "as": "Their ordination festival.",
+     "rel": "event"
+    },
+    {
+     "to": "mae-hong-son",
+     "as": "The province where they are the majority.",
+     "rel": "town"
+    },
+    {
+     "to": "karen",
+     "as": "The other large group, in the hills south and west.",
+     "rel": "person"
+    }
+   ],
+   "sources": [
+    "s:wp-shan-people",
+    "s:wp-mae-hong-son-province",
+    "s:wp-shan-state",
+    "s:wp-tai-peoples",
+    "s:thwp-shan"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-mae-hong-son-province"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-mae-hong-son-province"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "shan/shan-khone-phapheng-falls-si-phan-don-laos-widest-waterfa-d7c09b5.jpg",
+     "source": "commons",
+     "title": "File:Khone Phapheng Falls, Si Phan Don, Laos, widest waterfall in the world.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Khone_Phapheng_Falls%2C_Si_Phan_Don%2C_Laos%2C_widest_waterfall_in_the_world.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AKhone_Phapheng_Falls%2C_Si_Phan_Don%2C_Laos%2C_widest_waterfall_in_the_world.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Basile Morin",
+     "credit": "Own work",
+     "alt": "Khone Phapheng Falls, Si Phan Don, Laos. Located on the Mekong River near the border with Cambodia, at 10.7 kilometres (6.6 mi) wide, it is the widest waterfall in the world.",
+     "date": "2019-12-25 15:20:29",
+     "primary": true,
+     "sha256": "77f2b0782258a9e2383e211cfd2eee1dd53bbe3d64d3b60439601ef282cb721e"
+    },
+    {
+     "file": "shan/shan-knife-shan-people-northern-thailand-collected-in-198-70f7e74.jpg",
+     "source": "commons",
+     "title": "File:Knife, Shan people, Northern Thailand, collected in 1986 - Ethnological Museum, Berlin - DSC01335.JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Knife%2C_Shan_people%2C_Northern_Thailand%2C_collected_in_1986_-_Ethnological_Museum%2C_Berlin_-_DSC01335.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AKnife%2C_Shan_people%2C_Northern_Thailand%2C_collected_in_1986_-_Ethnological_Museum%2C_Berlin_-_DSC01335.JPG",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Daderot",
+     "credit": "Own work",
+     "alt": "Exhibit in the Ethnological Museum, Berlin, Germany. Photography was permitted in the museum without restriction.",
+     "date": "2014-11-11 08:12:19",
+     "primary": false,
+     "sha256": "7bc247e904bcbb7a0bf8853eeafc8373264f4d1363bafd02240494f59db4f6c0"
+    },
+    {
+     "file": "shan/shan-pirogue-running-on-the-mekong-at-sunset-with-pink-cl-bf01e49.jpg",
+     "source": "commons",
+     "title": "File:Pirogue running on the Mekong at sunset with pink clouds in Don Det Laos.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Pirogue_running_on_the_Mekong_at_sunset_with_pink_clouds_in_Don_Det_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APirogue_running_on_the_Mekong_at_sunset_with_pink_clouds_in_Don_Det_Laos.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Basile Morin",
+     "credit": "Own work",
+     "alt": "Pirogue running on the Mekong in front of an island hosting a Samanea saman (rain tree) and other trees, at sunset with pink clouds, seen from Don Det, Si Phan Don, Laos.",
+     "date": "2021-12-29 17:36:24",
+     "primary": false,
+     "sha256": "d84355e59ff3788d74455f154bfcbb9a3c077eb1232121d3eaaf6a02d5dffc7e"
+    },
+    {
+     "file": "shan/shan-water-reflection-of-karst-mountains-at-golden-hour-i-103c2db.jpg",
+     "source": "commons",
+     "title": "File:Water reflection of karst mountains at golden hour in Vang Vieng Laos (panoramic).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Water_reflection_of_karst_mountains_at_golden_hour_in_Vang_Vieng_Laos_%28panoramic%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AWater_reflection_of_karst_mountains_at_golden_hour_in_Vang_Vieng_Laos_%28panoramic%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Basile Morin",
+     "credit": "Own work",
+     "alt": "Water reflection of karst mountains at golden hour in the countryside of Vang Vieng, Vientiane Province, Laos, during the monsoon.",
+     "date": "2020-06-21 18:14:05",
+     "primary": false,
+     "sha256": "3732df567acda8cc5183878fa50ef207712e944dda1d80eb0063f8c443667c5f"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "mae-hong-son",
+     "type": "town",
+     "name": "Mae Hong Son",
+     "as": "The largest population group in the province."
+    },
+    {
+     "from": "chong-kham-chong-klang",
+     "type": "wat",
+     "name": "Wat Chong Kham and Wat Chong Klang",
+     "as": "Whose temples these are."
+    },
+    {
+     "from": "doi-kong-mu",
+     "type": "wat",
+     "name": "Wat Phra That Doi Kong Mu",
+     "as": "Whose architecture this is."
+    },
+    {
+     "from": "karen",
+     "type": "person",
+     "name": "The Karen",
+     "as": "The majority group, in the valleys."
+    },
+    {
+     "from": "poy-sang-long",
+     "type": "event",
+     "name": "Poy Sang Long",
+     "as": "Whose festival it is."
+    }
+   ]
+  }
+ ]
+}

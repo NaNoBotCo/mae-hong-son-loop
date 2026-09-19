@@ -1,0 +1,142 @@
+{
+ "id": "poy-sang-long",
+ "type": "event",
+ "names": {
+  "name": "Poy Sang Long",
+  "th": "ปอยส่างลอง",
+  "said": "Boys in gold and face paint, carried on shoulders because their feet must not touch the ground.",
+  "said_th": "เด็กชายแต่งทองและแต่งหน้า ถูกแบกบนบ่าเพราะเท้าต้องไม่แตะพื้น"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "apr"
+ },
+ "text": {
+  "what": "The Shan ordination festival, held in Mae Hong Son and across the province, most commonly in late March and April. Boys are dressed as princes for the days before they are ordained as novices.",
+  "story": "Shan people are the largest population group in Mae Hong Son province, and this is their festival. The boys are dressed in ornamented clothing and jewellery and made up, and carried on the shoulders of relatives — their feet are not to touch the ground during the procession.\n\n*Inference —* the collision with the rest of this site is worth stating plainly: the festival falls in the two months the air is at its worst. A rider who wants to be in Mae Hong Son for Poy Sang Long is choosing the smoke, knowingly. That is a legitimate choice and this page is not going to pretend the trade is not there.\n\nIt is also a religious event in people's own town rather than a display. *Inference —* the difference between watching and intruding is mostly about distance and about asking before photographing a child."
+ },
+ "text_th": {
+  "what": "งานบวชลูกแก้วของชาวไทใหญ่ จัดที่แม่ฮ่องสอนและทั่วจังหวัด ส่วนใหญ่ปลายมีนาคมถึงเมษายน เด็กชายจะแต่งกายเป็นเจ้าชายในวันก่อนบรรพชาเป็นสามเณร",
+  "story": "ชาวไทใหญ่เป็นกลุ่มประชากรใหญ่ที่สุดในจังหวัดแม่ฮ่องสอน และนี่คืองานของพวกเขา เด็กชายจะแต่งกายด้วยเสื้อผ้าและเครื่องประดับอย่างวิจิตร แต่งหน้า และถูกแบกบนบ่าญาติ เท้าของพวกเขาต้องไม่แตะพื้นระหว่างขบวนแห่\n\n*อนุมาน —* ข้อขัดกันกับเนื้อหาส่วนอื่นของเว็บนี้ควรพูดตรงๆ งานนี้ตรงกับสองเดือนที่อากาศแย่ที่สุด คนขี่ที่อยากอยู่แม่ฮ่องสอนช่วงปอยส่างลองกำลังเลือกควันอย่างรู้ตัว นั่นเป็นทางเลือกที่ชอบธรรม และหน้านี้จะไม่แกล้งทำเป็นว่าไม่มีสิ่งที่ต้องแลก\n\nและนี่เป็นงานทางศาสนาในเมืองของผู้คนเอง ไม่ใช่การแสดง *อนุมาน —* ความต่างระหว่างการดูกับการล่วงล้ำส่วนใหญ่อยู่ที่ระยะห่าง และอยู่ที่การขออนุญาตก่อนถ่ายรูปเด็ก"
+ },
+ "kin": [
+  {
+   "to": "shan",
+   "as": "Whose festival it is.",
+   "rel": "person"
+  },
+  {
+   "to": "mae-hong-son",
+   "as": "Where the biggest processions are.",
+   "rel": "town"
+  },
+  {
+   "to": "burning-season",
+   "as": "The months it shares.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-poy-sang-long",
+  "s:wp-shan-people",
+  "s:wp-mae-hong-son-province"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-poy-sang-long"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the scheduling conflict and the conduct note are this project's reasoning, not the cited source's"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "poy-sang-long/poy-sang-long-poy-sang-long-festival-in-chiang-mai-p1000295.jpg",
+   "source": "commons",
+   "title": "File:Poy Sang Long Festival in Chiang Mai P1000295.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Poy_Sang_Long_Festival_in_Chiang_Mai_P1000295.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APoy_Sang_Long_Festival_in_Chiang_Mai_P1000295.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "FredTC",
+   "credit": "Own work",
+   "alt": "Jaarlijks in maart of april is er het Poy Sang Long Festival, waar jongens in de leeftijd 7-14 jaar als prinsjes worden rondgedragen. Dit kan op schouders of op een pony.",
+   "date": "2006-04-05 10:30:18",
+   "primary": true,
+   "sha256": "8ee55e4a17711f7eebbd56c1a37273d77e379bdcbcb8fb66104f716c52148c2e"
+  },
+  {
+   "file": "poy-sang-long/poy-sang-long-poy-sang-long-festival-in-chiang-mai-p1020781.jpg",
+   "source": "commons",
+   "title": "File:Poy Sang Long Festival in Chiang Mai P1020781.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Poy_Sang_Long_Festival_in_Chiang_Mai_P1020781.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APoy_Sang_Long_Festival_in_Chiang_Mai_P1020781.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "FredTC",
+   "credit": "Own work",
+   "alt": "Jaarlijks in maart of april is er het Poy Sang Long Festival, waar jongens in de leeftijd 7-14 jaar als prinsjes worden rondgedragen. Dit kan op schouders of op een pony.",
+   "date": "2007-04-04 10:06:19",
+   "primary": false,
+   "sha256": "47bb84bfdfd8a05050121e1f3089f42c606dd543dbe272eff307fe3d5d1700d9"
+  },
+  {
+   "file": "poy-sang-long/poy-sang-long-poy-sang-long-festival-in-chiang-mai-p1020783.jpg",
+   "source": "commons",
+   "title": "File:Poy Sang Long Festival in Chiang Mai P1020783.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Poy_Sang_Long_Festival_in_Chiang_Mai_P1020783.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APoy_Sang_Long_Festival_in_Chiang_Mai_P1020783.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "FredTC",
+   "credit": "Own work",
+   "alt": "Jaarlijks in maart of april is er het Poy Sang Long Festival, waar jongens in de leeftijd 7-14 jaar als prinsjes worden rondgedragen. Dit kan op schouders of op een pony.",
+   "date": "2007-04-04 10:06:33",
+   "primary": false,
+   "sha256": "2810724e0dfabca1a9fa65fd4002e91dc2f041923bb4bd40a2647f33325aaa66"
+  },
+  {
+   "file": "poy-sang-long/poy-sang-long-poy-sang-long-festival-in-chiang-mai-p1020785.jpg",
+   "source": "commons",
+   "title": "File:Poy Sang Long Festival in Chiang Mai P1020785.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Poy_Sang_Long_Festival_in_Chiang_Mai_P1020785.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APoy_Sang_Long_Festival_in_Chiang_Mai_P1020785.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "FredTC",
+   "credit": "Own work",
+   "alt": "Jaarlijks in maart of april is er het Poy Sang Long Festival, waar jongens in de leeftijd 7-14 jaar als prinsjes worden rondgedragen. Dit kan op schouders of op een pony.",
+   "date": "2007-04-04 10:07:34",
+   "primary": false,
+   "sha256": "222abaab90e59a7cba2c76348c7507e9c35edb0f5ecd9d1340dd644cc5ac0202"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "mae-hong-son",
+   "type": "town",
+   "name": "Mae Hong Son",
+   "as": "The festival the town is known for."
+  },
+  {
+   "from": "shan",
+   "type": "person",
+   "name": "The Shan",
+   "as": "Their ordination festival."
+  }
+ ]
+}

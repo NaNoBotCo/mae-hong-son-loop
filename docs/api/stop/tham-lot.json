@@ -1,0 +1,157 @@
+{
+ "id": "tham-lot",
+ "type": "stop",
+ "names": {
+  "name": "Tham Lot",
+  "th": "ถ้ำลอด",
+  "said": "A river goes into a hill and comes out the other side, and you go with it.",
+  "said_th": "แม่น้ำไหลเข้าไปในเขาแล้วออกอีกด้าน และคุณไปกับมัน"
+ },
+ "region": [
+  "mhs",
+  "pangmapha",
+  "loop",
+  "north-leg"
+ ],
+ "facets": {
+  "kind": "cave",
+  "price": "mid"
+ },
+ "text": {
+  "what": "A limestone cave in Pang Mapha district with the Nam Lang stream running through it. Entered by lamp and by bamboo raft, with a local guide.",
+  "story": "The cave carries prehistoric material — wooden coffins of the kind the district is known for — as well as the river. *Tradition holds —* visitors are taken through by local guides with pressure lamps, and the raft sections are poled.\n\n*Inference —* the reason to sleep in Soppong rather than push on is largely this: the cave wants a couple of hours and morning is when the guides and the light are both there.\n\nAt dusk a very large roost of birds and bats exchanges places at the entrance, which is a spectacle that costs nothing and needs you to be there at the right hour rather than to pay for anything.",
+  "today": "A national park fee applies and Thailand charges foreigners a separate rate; the guide and lamp are a separate, locally set charge. Neither figure is printed here because neither was verified on the build date."
+ },
+ "text_th": {
+  "what": "ถ้ำหินปูนในอำเภอปางมะผ้า มีลำน้ำลางไหลผ่าน เข้าชมด้วยตะเกียงและแพไม้ไผ่ พร้อมผู้นำทางท้องถิ่น",
+  "story": "ในถ้ำมีหลักฐานยุคก่อนประวัติศาสตร์ ทั้งโลงไม้แบบที่อำเภอนี้ขึ้นชื่อ และมีแม่น้ำ *ตามธรรมเนียม —* ผู้มาเยือนจะถูกนำชมโดยผู้นำทางท้องถิ่นพร้อมตะเกียงเจ้าพายุ และช่วงที่เป็นแพใช้ไม้ถ่อ\n\n*อนุมาน —* เหตุผลที่ควรนอนสบป่องแทนที่จะฝืนไปต่อ ส่วนใหญ่คือเรื่องนี้ ถ้ำต้องใช้เวลาสองสามชั่วโมง และตอนเช้าคือเวลาที่ทั้งผู้นำทางและแสงอยู่พร้อมกัน\n\nตอนพลบค่ำจะมีนกและค้างคาวจำนวนมหาศาลสลับที่กันตรงปากถ้ำ ซึ่งเป็นภาพที่ไม่ต้องจ่ายอะไร ต้องการแค่ให้คุณอยู่ตรงนั้นในเวลาที่ถูกต้อง",
+  "today": "มีค่าธรรมเนียมอุทยาน และไทยเก็บค่าธรรมเนียมชาวต่างชาติในอัตราแยกต่างหาก ส่วนค่าผู้นำทางและตะเกียงเป็นค่าใช้จ่ายอีกส่วนที่กำหนดโดยคนในพื้นที่ ไม่พิมพ์ตัวเลขทั้งสองไว้ที่นี่ เพราะไม่ได้ตรวจสอบในวันที่สร้างเว็บ"
+ },
+ "kin": [
+  {
+   "to": "soppong",
+   "as": "The town it belongs to.",
+   "rel": "town"
+  },
+  {
+   "to": "pai-to-soppong",
+   "as": "The half-day that buys you the time for it.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:wp-tham-lot-cave",
+  "s:wp-pang-mapha-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-tham-lot-cave"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-tham-lot-cave"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.5686,
+  "lon": 98.2694,
+  "precision": "town"
+ },
+ "tags": [
+  {
+   "source": "s:wp-tham-lot-cave",
+   "tag": "national-park-fee"
+  },
+  {
+   "source": "s:osm",
+   "tag": "detour"
+  }
+ ],
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "tham-lot/tham-lot-tham-lot-cave-stalactites-ceiling-thailand.jpg",
+   "source": "commons",
+   "title": "File:Tham Lot (cave), Stalactites, Ceiling, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Tham_Lot_%28cave%29%2C_Stalactites%2C_Ceiling%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATham_Lot_%28cave%29%2C_Stalactites%2C_Ceiling%2C_Thailand.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Vyacheslav Argenberg",
+   "credit": "Own work",
+   "alt": "Nam Lod (cave), Tham Lot (cave), Mae Hong Son, Thailand. The Mae Lang River flows through the cave which is filled with stalactites and stalagmites.",
+   "date": "2010-11-22 12:35:04",
+   "primary": true,
+   "sha256": "b512c0d284077b6a7928d9c78d0d549b9444f3aa58f236e515cdacc184202066"
+  },
+  {
+   "file": "tham-lot/tham-lot-tham-lot-cave-stalactites-thailand.jpg",
+   "source": "commons",
+   "title": "File:Tham Lot (cave), Stalactites, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Tham_Lot_%28cave%29%2C_Stalactites%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATham_Lot_%28cave%29%2C_Stalactites%2C_Thailand.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Vyacheslav Argenberg",
+   "credit": "Own work",
+   "alt": "Nam Lod (cave), Tham Lot (cave), Mae Hong Son, Thailand. The Mae Lang River flows through the cave which is filled with stalactites and stalagmites.",
+   "date": "2010-11-22 12:34:35",
+   "primary": false,
+   "sha256": "e75ec043cd03f6b2a2988cf3e13349f85c09dc0efe679cbb8568deab6e078c54"
+  },
+  {
+   "file": "tham-lot/tham-lot-tham-lot-cave-stalagmites-thailand.jpg",
+   "source": "commons",
+   "title": "File:Tham Lot (cave), Stalagmites, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Tham_Lot_%28cave%29%2C_Stalagmites%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATham_Lot_%28cave%29%2C_Stalagmites%2C_Thailand.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Vyacheslav Argenberg",
+   "credit": "Own work",
+   "alt": "Nam Lod (cave), Tham Lot (cave), Mae Hong Son, Thailand. The Mae Lang River flows through the cave which is filled with stalactites and stalagmites.",
+   "date": "2010-11-22 12:32:46",
+   "primary": false,
+   "sha256": "50a29eb0dabfd25217d886f78f53747082dce4ca01445fdd07acbf5c39f043bf"
+  },
+  {
+   "file": "tham-lot/tham-lot-tham-lot-cave-thailand.jpg",
+   "source": "commons",
+   "title": "File:Tham Lot (cave), Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Tham_Lot_%28cave%29%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATham_Lot_%28cave%29%2C_Thailand.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Vyacheslav Argenberg",
+   "credit": "Own work",
+   "alt": "Nam Lod (cave), Tham Lot (cave), Mae Hong Son, Thailand. The Mae Lang River flows through the cave which is filled with stalactites and stalagmites.",
+   "date": "2010-11-22 12:30:36",
+   "primary": false,
+   "sha256": "09a4cf2991c1b4793a4826808df1d74e2ff6f0788d7637f60cfcae63548b7e4e"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "pai-to-soppong",
+   "type": "leg",
+   "name": "Pai to Soppong",
+   "as": "The reason to stop short."
+  },
+  {
+   "from": "soppong",
+   "type": "town",
+   "name": "Soppong",
+   "as": "The cave the district is known for."
+  }
+ ]
+}

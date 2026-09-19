@@ -1,0 +1,85 @@
+{
+ "id": "engine-braking",
+ "type": "term",
+ "names": {
+  "name": "Engine braking",
+  "th": "เอนจินเบรก",
+  "said": "Letting the engine slow the bike instead of the brakes, by staying in a low gear.",
+  "said_th": "ปล่อยให้เครื่องยนต์หน่วงรถแทนเบรก ด้วยการคาเกียร์ต่ำ",
+  "rtgs": "engine brake"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "riding"
+ },
+ "text": {
+  "what": "Letting the engine slow the bike instead of the brakes, by staying in a low gear.",
+  "story": "*Inference —* on a long mountain descent this is not a technique, it is the difference between arriving and not. A brake converts speed into heat in a small metal part; an engine converts it into pumping losses across the whole engine, which does not fade.\n\nThe reason this matters so much on this circuit is transmissions. A geared bike has it. A twist-and-go automatic scooter has almost none, which is why the descent advice on a scooter is different in kind rather than in degree."
+ },
+ "text_th": {
+  "what": "ปล่อยให้เครื่องยนต์หน่วงรถแทนเบรก ด้วยการคาเกียร์ต่ำ",
+  "story": "*อนุมาน —* บนทางลงเขายาวๆ นี่ไม่ใช่เทคนิค แต่คือความต่างระหว่างไปถึงกับไม่ถึง เบรกแปลงความเร็วเป็นความร้อนในชิ้นโลหะเล็กๆ ส่วนเครื่องยนต์แปลงมันเป็นการสูญเสียจากการปั๊มทั่วทั้งเครื่อง ซึ่งไม่เฟด\n\nเหตุผลที่เรื่องนี้สำคัญมากบนเส้นทางนี้คือระบบส่งกำลัง รถมีเกียร์มีเอนจินเบรก รถออโต้แทบไม่มีเลย ซึ่งเป็นเหตุผลที่คำแนะนำเรื่องทางลงสำหรับสกู๊ตเตอร์ต่างกันโดยชนิด ไม่ใช่ต่างกันโดยระดับ"
+ },
+ "kin": [
+  {
+   "to": "brake-fade",
+   "as": "What it prevents.",
+   "rel": "hazard"
+  },
+  {
+   "to": "underbone-125",
+   "as": "The cheap bike that has it.",
+   "rel": "bike"
+  },
+  {
+   "to": "step-through-110",
+   "as": "The cheap bike that does not.",
+   "rel": "bike"
+  }
+ ],
+ "sources": [
+  "s:wp-motorcycle-safety",
+  "s:wp-underbone"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-motorcycle-safety"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-motorcycle-safety"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "brake-fade",
+   "type": "hazard",
+   "name": "Brake fade",
+   "as": "The thing that stops it happening."
+  },
+  {
+   "from": "underbone-125",
+   "type": "bike",
+   "name": "The underbone with gears",
+   "as": "The thing the gearbox buys you."
+  },
+  {
+   "from": "which-bike",
+   "type": "story",
+   "name": "Every bike goes up there",
+   "as": "The thing a gearbox buys and an automatic does not."
+  }
+ ]
+}

@@ -110,5 +110,67 @@
  },
  "needs_verification": true,
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "the-1263-cut/the-1263-cut-2013-pano-mae-chaem-district-1.jpg",
+   "source": "commons",
+   "title": "File:2013 Pano Mae Chaem District 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/2013_Pano_Mae_Chaem_District_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A2013_Pano_Mae_Chaem_District_1.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "Countryside in the mountains of Mae Chaem District, Chiang Mai Province, seen from road 1263.\n This  image was created with Hugin.",
+   "date": "2013-12-27 13:47:11",
+   "primary": true,
+   "sha256": "20fdce8dbd559b2c00bb0a4000ac8061673820b6611d5a22fe73b8a1938a50c0"
+  },
+  {
+   "file": "the-1263-cut/the-1263-cut-2013-pano-mae-chaem-district-2.jpg",
+   "source": "commons",
+   "title": "File:2013 Pano Mae Chaem District 2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2013_Pano_Mae_Chaem_District_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A2013_Pano_Mae_Chaem_District_2.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "Countryside in the mountains of Mae Chaem District, Chiang Mai Province, seen from road 1263.\n This  image was created with Hugin.",
+   "date": "2013-12-27 14:16:46",
+   "primary": false,
+   "sha256": "7371d382cc7e1b29c84ffb160a1ab6780d3081e93f6626f555fdba384dbf349e"
+  },
+  {
+   "file": "the-1263-cut/the-1263-cut-chiang-mai-province-road-1263.jpg",
+   "source": "commons",
+   "title": "File:Chiang mai province road 1263.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Chiang_mai_province_road_1263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_mai_province_road_1263.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "Rice paddies and recently cleared forest land in Amphoe Mae Chaem, along road 1263 between the town of Khun Yuam (Mae Hong Son province) and the town of Mae Chaem (Chiang Mai province), on the west fl",
+   "date": "2010-03-14",
+   "primary": false,
+   "sha256": "69a0f120642437d82b467367fdca646effc33fbe2c0d83ce132bda6a6706ae84"
+  },
+  {
+   "file": "the-1263-cut/the-1263-cut-f-wwyc-1263-a330-343e-abus-thai-intl-tls-29aug11-6094067099.jpg",
+   "source": "commons",
+   "title": "File:F-WWYC (1263) A330-343E Abus-Thai Intl TLS 29AUG11 (6094067099).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/F-WWYC_%281263%29_A330-343E_Abus-Thai_Intl_TLS_29AUG11_%286094067099%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AF-WWYC_%281263%29_A330-343E_Abus-Thai_Intl_TLS_29AUG11_%286094067099%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Ken Fielding",
+   "credit": "Flickr",
+   "alt": "en-route to the paintshop by the A380 facility for painting.  Became HS-TBA.",
+   "date": "2011-08-29 14:54:26",
+   "primary": false,
+   "sha256": "cdf8cd09cb85614f8b2a577a68b3839cd42682a3ef869d795a5cff41914ff107"
+  }
+ ]
 }

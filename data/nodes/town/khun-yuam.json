@@ -83,5 +83,67 @@
  },
  "confidence": "medium",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-c34cbe2.jpg",
+   "source": "commons",
+   "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161102073521/http://www.panoramio.com/photo/124380088",
+   "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+   "date": "Taken on 14 July 2015",
+   "primary": true,
+   "sha256": "5c2236494f2d57374500b4e041f0adbd5b18cb0d7708e962b93a59457005386e"
+  },
+  {
+   "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-566b732.jpg",
+   "source": "commons",
+   "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio (7).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%287%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161030152729/http://www.panoramio.com/photo/124380148",
+   "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+   "date": "Taken on 14 July 2015",
+   "primary": false,
+   "sha256": "e72aa3a07a8f5644b573cabc780b660530363a2502caab9884ccbc8261afd3fa"
+  },
+  {
+   "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-6a6ed5e.jpg",
+   "source": "commons",
+   "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio (8).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%288%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031160128/http://www.panoramio.com/photo/124380161",
+   "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+   "date": "Taken on 14 July 2015",
+   "primary": false,
+   "sha256": "2ec8ba46a7a2c590d0182ca7e5145d4b43bbde66124e20933f9d1d99b4655f3f"
+  },
+  {
+   "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-1b252c0.jpg",
+   "source": "commons",
+   "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio (9).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%289%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031084154/http://www.panoramio.com/photo/124380177",
+   "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+   "date": "Taken on 14 July 2015",
+   "primary": false,
+   "sha256": "b5cf9d8e9bab47559d233877fd776cb4aa96b3db023b3e7cec5e137ff75d61e1"
+  }
+ ]
 }

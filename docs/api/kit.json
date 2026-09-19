@@ -1,0 +1,497 @@
+{
+ "type": "kit",
+ "count": 5,
+ "nodes": [
+  {
+   "id": "gear",
+   "type": "kit",
+   "names": {
+    "name": "What to wear",
+    "th": "ใส่อะไร",
+    "said": "It is thirty-three degrees and you are going to want long sleeves anyway.",
+    "said_th": "อากาศสามสิบสามองศา และคุณจะอยากใส่แขนยาวอยู่ดี"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "gear"
+   },
+   "text": {
+    "what": "The helmet argument, the long-sleeves argument, and the gloves argument — all three of which are made worse by the heat and none of which the heat answers.",
+    "story": "**Helmets.** A full-face shell covers the chin; an open-face does not, and the chin bar is the part that meets the road first in a great many falls. A modular helmet's chin bar is designed as a convenience and some are certified for use open and some are not. *Inference —* the rental shop's spare helmet is usually the one nobody chose, and buying one in Chiang Mai costs less than one night of the trip.\n\n**Sleeves and gloves.** *Inference —* the injury that actually happens on this circuit is not the dramatic one. It is a low-speed slide on gravel at a hairpin, and what it takes off is forearm and palm. Gloves are the highest-value item per gram on the bike. Long sleeves in this heat are more comfortable than bare arms in this sun regardless of the argument about crashing.\n\n**Cold.** This is the part visitors get wrong. Mornings on the high sections in the cool season are genuinely cold, and a rider dressed for a Thai afternoon at six in the morning above a thousand metres is not having a good hour. Something windproof that packs small earns its place."
+   },
+   "text_th": {
+    "what": "ข้อถกเถียงเรื่องหมวกกันน็อก เรื่องแขนยาว และเรื่องถุงมือ ทั้งสามข้อแย่ลงเพราะความร้อน และความร้อนก็ไม่ได้ตอบข้อไหนเลย",
+    "story": "**หมวกกันน็อก** หมวกเต็มใบคลุมคาง หมวกเปิดหน้าไม่คลุม และคางคือส่วนที่กระทบพื้นก่อนในการล้มจำนวนมาก คางหมวกแบบยกได้ออกแบบมาเพื่อความสะดวก บางรุ่นได้รับการรับรองให้ใช้แบบเปิด บางรุ่นไม่ได้ *อนุมาน —* หมวกสำรองของร้านเช่ามักเป็นใบที่ไม่มีใครเลือก และการซื้อใบหนึ่งที่เชียงใหม่ราคาถูกกว่าค่าที่พักหนึ่งคืนของทริป\n\n**แขนเสื้อและถุงมือ** *อนุมาน —* การบาดเจ็บที่เกิดขึ้นจริงบนเส้นทางนี้ไม่ใช่แบบดราม่า แต่คือการไถลด้วยความเร็วต่ำบนกรวดตรงโค้งหักศอก และสิ่งที่มันถลกออกไปคือท้องแขนกับฝ่ามือ ถุงมือคือของที่คุ้มค่าที่สุดต่อน้ำหนักหนึ่งกรัมบนรถ ส่วนแขนยาวในอากาศร้อนแบบนี้สบายกว่าแขนเปล่าใต้แดดแบบนี้ โดยไม่ต้องเถียงเรื่องการล้มเลย\n\n**ความหนาว** นี่คือส่วนที่คนมาเยือนคิดผิด ตอนเช้าบนช่วงสูงในฤดูหนาวหนาวจริง และคนที่แต่งตัวสำหรับบ่ายเมืองไทยตอนหกโมงเช้าที่ความสูงเกินพันเมตรจะไม่มีความสุขเลย เสื้อกันลมที่พับเก็บได้เล็กคุ้มค่าที่จะพก"
+   },
+   "kin": [
+    {
+     "to": "packing-light",
+     "as": "Where it all goes.",
+     "rel": "kit"
+    },
+    {
+     "to": "gravel-on-the-apex",
+     "as": "The fall this is for.",
+     "rel": "hazard"
+    },
+    {
+     "to": "cool-season",
+     "as": "The season that needs the extra layer.",
+     "rel": "event"
+    },
+    {
+     "to": "on-the-back",
+     "as": "Two of everything, not one.",
+     "rel": "bike"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-helmet",
+    "s:wp-motorcycle-safety"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-motorcycle-helmet"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-motorcycle-helmet"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "on-the-back",
+     "type": "bike",
+     "name": "Riding on the back",
+     "as": "Two sets, not one."
+    },
+    {
+     "from": "packing-light",
+     "type": "kit",
+     "name": "What actually fits",
+     "as": "The part of the load that is not optional."
+    },
+    {
+     "from": "renting-a-bike",
+     "type": "kit",
+     "name": "Renting the bike",
+     "as": "What the shop's helmet is not."
+    }
+   ]
+  },
+  {
+   "id": "one-way-rental",
+   "type": "kit",
+   "names": {
+    "name": "Not coming back to Chiang Mai",
+    "th": "ไม่กลับเชียงใหม่",
+    "said": "The case where forwarding a bag stops being pointless.",
+    "said_th": "กรณีที่การส่งกระเป๋าล่วงหน้าเลิกไร้ประโยชน์"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "logistics"
+   },
+   "text": {
+    "what": "Flying out of Mae Hong Son, riding on to somewhere else, or leaving the bike at the far end. All three change the luggage arithmetic.",
+    "story": "Mae Hong Son has an airport. *Inference —* that single fact is what makes a one-way version of this trip possible, and it is also the only circumstance in which sending a bag ahead is clearly the right move rather than a solution to a problem you do not have.\n\n**Not on this disk:** which carriers currently fly it, on what days, what they charge, and — the question that actually matters — whether a rental shop will accept a bike back in Mae Hong Son and at what one-way fee. Those are arrangements between a rider and a shop, they change, and this project has not verified any of them.\n\n*Inference —* what can be said is the shape: a one-way is a negotiation, not a product; the fee is usually the cost of somebody driving the bike back; and it is a conversation to have before booking a flight, not after."
+   },
+   "text_th": {
+    "what": "บินออกจากแม่ฮ่องสอน ขี่ต่อไปที่อื่น หรือทิ้งรถไว้ปลายทาง ทั้งสามกรณีเปลี่ยนสมการเรื่องสัมภาระ",
+    "story": "แม่ฮ่องสอนมีสนามบิน *อนุมาน —* ข้อเท็จจริงข้อเดียวนี้คือสิ่งที่ทำให้ทริปนี้แบบเที่ยวเดียวเป็นไปได้ และเป็นสถานการณ์เดียวที่การส่งกระเป๋าล่วงหน้าเป็นทางเลือกที่ถูกต้องชัดเจน ไม่ใช่การแก้ปัญหาที่คุณไม่ได้มี\n\n**ไม่มีข้อมูลในชุดนี้** ปัจจุบันสายการบินใดบินเส้นทางนี้ บินวันไหน ราคาเท่าไร และคำถามที่สำคัญจริงๆ คือร้านเช่ารถจะรับคืนรถที่แม่ฮ่องสอนหรือไม่ และคิดค่าเที่ยวเดียวเท่าไร เรื่องเหล่านี้เป็นข้อตกลงระหว่างคนเช่ากับร้าน มันเปลี่ยนได้ และโครงการนี้ยังไม่ได้ตรวจสอบ\n\n*อนุมาน —* สิ่งที่พูดได้คือรูปร่างของมัน เที่ยวเดียวคือการเจรจา ไม่ใช่สินค้าสำเร็จรูป ค่าธรรมเนียมมักเท่ากับค่าจ้างคนขับรถกลับ และเป็นเรื่องที่ควรคุยก่อนจองตั๋วเครื่องบิน ไม่ใช่หลังจากนั้น"
+   },
+   "kin": [
+    {
+     "to": "sending-the-bag-ahead",
+     "as": "The case this one justifies.",
+     "rel": "kit"
+    },
+    {
+     "to": "renting-a-bike",
+     "as": "The conversation to have at the counter.",
+     "rel": "kit"
+    },
+    {
+     "to": "mae-hong-son",
+     "as": "The town with the airport.",
+     "rel": "town"
+    }
+   ],
+   "sources": [
+    "s:wp-mae-hong-son-airport"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-mae-hong-son-airport"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-mae-hong-son-airport"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending your bag ahead",
+     "as": "The case where forwarding stops being pointless."
+    }
+   ]
+  },
+  {
+   "id": "packing-light",
+   "type": "kit",
+   "names": {
+    "name": "What actually fits",
+    "th": "ของที่ใส่ได้จริง",
+    "said": "The bike will carry more than you should ask it to.",
+    "said_th": "รถบรรทุกได้มากกว่าที่ควรจะให้มันบรรทุก"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "logistics"
+   },
+   "text": {
+    "what": "Four days, one small bag. The constraint is not volume — it is where the weight sits and what it does to the front wheel on a downhill hairpin.",
+    "story": "*Inference —* the useful rule on this circuit is that weight belongs low and forward, and that anything strapped high behind the rider turns every hairpin into an argument with the bike. A tail pack sitting above the pillion seat lifts the centre of mass exactly where a steep descent least wants it.\n\nOn a 110 to 160 automatic there is a footwell, a hook, a small underseat compartment and nothing else. The footwell takes a soft bag and that is where it should go. A rucksack on your back is worse than the same weight bungeed to the seat, because it moves when you do.\n\nOn anything with a rack, soft panniers low on either side beat one big bag on top for the same reason.\n\nLaundry exists in every town on this list, which is the real reason four days needs three shirts and not six."
+   },
+   "text_th": {
+    "what": "สี่วัน กระเป๋าใบเล็กใบเดียว ข้อจำกัดไม่ใช่ปริมาตร แต่คือน้ำหนักไปอยู่ตรงไหน และมันทำอะไรกับล้อหน้าตอนเข้าโค้งหักศอกขาลง",
+    "story": "*อนุมาน —* กฎที่ใช้ได้บนเส้นทางนี้คือ น้ำหนักควรอยู่ต่ำและค่อนไปข้างหน้า และอะไรก็ตามที่มัดสูงไว้ข้างหลังคนขี่จะทำให้ทุกโค้งหักศอกกลายเป็นการเถียงกับรถ กระเป๋าท้ายที่วางสูงเหนือเบาะซ้อนจะยกจุดศูนย์ถ่วงขึ้นตรงจุดที่ทางลงชันต้องการน้อยที่สุด\n\nรถออโต้ 110 ถึง 160 มีพื้นที่วางเท้า มีตะขอ มีช่องใต้เบาะเล็กๆ และไม่มีอะไรอีก พื้นที่วางเท้ารับกระเป๋าผ้าได้ และนั่นคือที่ที่มันควรอยู่ เป้สะพายหลังแย่กว่าน้ำหนักเท่ากันที่มัดไว้กับเบาะ เพราะมันขยับตามตัวคุณ\n\nรถที่มีแร็ค กระเป๋าข้างแบบอ่อนสองใบวางต่ำดีกว่ากระเป๋าใบใหญ่ใบเดียววางบน ด้วยเหตุผลเดียวกัน\n\nทุกเมืองในรายการนี้มีร้านซักผ้า ซึ่งเป็นเหตุผลจริงๆ ว่าทำไมสี่วันใช้เสื้อสามตัว ไม่ใช่หกตัว"
+   },
+   "kin": [
+    {
+     "to": "sending-the-bag-ahead",
+     "as": "The other half of the question: what does not come at all.",
+     "rel": "kit"
+    },
+    {
+     "to": "loaded-bike",
+     "as": "What the weight does when the road turns down.",
+     "rel": "hazard"
+    },
+    {
+     "to": "gear",
+     "as": "The part of the load that is not optional.",
+     "rel": "kit"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-safety"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "loaded-bike",
+     "type": "hazard",
+     "name": "A loaded bike is a different bike",
+     "as": "Where the weight should go instead."
+    },
+    {
+     "from": "steep-driveways",
+     "type": "hazard",
+     "name": "The guesthouse driveway",
+     "as": "The load that comes off first."
+    },
+    {
+     "from": "gear",
+     "type": "kit",
+     "name": "What to wear",
+     "as": "Where it all goes."
+    },
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending your bag ahead",
+     "as": "What fits on the bike if the big bag stays behind."
+    }
+   ]
+  },
+  {
+   "id": "renting-a-bike",
+   "type": "kit",
+   "names": {
+    "name": "Renting the bike",
+    "th": "การเช่ารถ",
+    "said": "The contract, the passport, the insurance that is usually not insurance, and the photographs you take before you ride away.",
+    "said_th": "สัญญา พาสปอร์ต ประกันที่มักไม่ใช่ประกัน และรูปที่คุณถ่ายก่อนขี่ออกไป"
+   },
+   "region": [
+    "cnx",
+    "loop"
+   ],
+   "facets": {
+    "kind": "logistics"
+   },
+   "text": {
+    "what": "What to check, what to ask for, and the three things that most often go wrong afterwards.",
+    "story": "**The licence.** Thailand recognises the International Driving Permit, issued under the 1949 and 1968 conventions, alongside a valid home licence. A permit is a translation of a licence, not a substitute for one, and the motorcycle entitlement has to be on the home licence for the permit to carry it. *Inference —* whether a given insurer pays a claim when the rider held no motorcycle entitlement is the question that makes this worth getting right, and the answer is not usually generous.\n\n**The deposit.** *Tradition holds —* many shops ask to hold a passport against the bike. Handing over a passport is a decision with consequences that have nothing to do with motorcycles, and some shops will take a cash deposit instead if asked. Ask before you need to.\n\n**The photographs.** Before riding away, photograph every existing scratch, the tyres including the date code if it is legible, the odometer, the chain, and the contract itself. *Inference —* this is the single cheapest thing on this page and it resolves the most common dispute.\n\n**The three things that go wrong.** Tyres older than they look — check the sidewall date, not the tread. Brakes that were fine in town and are not fine on a ten-kilometre descent — which is what the Samoeng day is for. And a bike that is not permitted to leave the province under the contract, which is a clause worth actually reading on a trip that crosses into Mae Hong Son.\n\n**Ask about the bag.** Most shops will hold your main luggage while you ride. Get it written on the agreement."
+   },
+   "text_th": {
+    "what": "สิ่งที่ต้องตรวจ สิ่งที่ต้องขอ และสามเรื่องที่มักผิดพลาดตามมาภายหลัง",
+    "story": "**ใบขับขี่** ประเทศไทยรับรองใบอนุญาตขับขี่สากลที่ออกตามอนุสัญญาปี 1949 และ 1968 ควบคู่กับใบขับขี่ของประเทศตนที่ยังไม่หมดอายุ ใบอนุญาตสากลคือคำแปลของใบขับขี่ ไม่ใช่สิ่งทดแทน และสิทธิ์ขับขี่รถจักรยานยนต์ต้องมีอยู่ในใบขับขี่ต้นทางด้วย ใบสากลจึงจะครอบคลุม *อนุมาน —* คำถามที่ทำให้เรื่องนี้ควรทำให้ถูกคือ บริษัทประกันจะจ่ายหรือไม่เมื่อคนขี่ไม่มีสิทธิ์ขับขี่รถจักรยานยนต์ และคำตอบมักไม่ใจดี\n\n**เงินมัดจำ** *ตามธรรมเนียม —* หลายร้านขอยึดพาสปอร์ตไว้แลกกับรถ การมอบพาสปอร์ตเป็นการตัดสินใจที่มีผลตามมาซึ่งไม่เกี่ยวกับมอเตอร์ไซค์เลย และบางร้านยอมรับเงินสดเป็นมัดจำแทนถ้าขอ ให้ถามก่อนที่จะจำเป็น\n\n**รูปถ่าย** ก่อนขี่ออกไป ถ่ายรอยขีดข่วนทุกจุดที่มีอยู่แล้ว ถ่ายยางรวมถึงรหัสวันผลิตถ้าอ่านออก ถ่ายเลขไมล์ ถ่ายโซ่ และถ่ายตัวสัญญา *อนุมาน —* นี่คือสิ่งที่ถูกที่สุดในหน้านี้ และแก้ข้อพิพาทที่พบบ่อยที่สุดได้\n\n**สามเรื่องที่มักผิดพลาด** ยางเก่ากว่าที่ตาเห็น ให้ดูรหัสวันที่แก้มยาง ไม่ใช่ดอกยาง เบรกที่ดีในเมืองแต่ไม่ดีบนทางลงสิบกิโลเมตร ซึ่งวันสะเมิงมีไว้เพื่อการนี้ และรถที่ตามสัญญาแล้วห้ามออกนอกจังหวัด ซึ่งเป็นข้อที่ควรอ่านจริงๆ สำหรับทริปที่ข้ามเข้าแม่ฮ่องสอน\n\n**ถามเรื่องกระเป๋า** ร้านส่วนใหญ่รับฝากสัมภาระหลักไว้ระหว่างที่คุณไปขี่ ให้ระบุลงในสัญญา"
+   },
+   "kin": [
+    {
+     "to": "sending-the-bag-ahead",
+     "as": "The luggage half of this conversation.",
+     "rel": "kit"
+    },
+    {
+     "to": "samoeng-warmup",
+     "as": "The day that tests what you were given.",
+     "rel": "leg"
+    },
+    {
+     "to": "which-way-round",
+     "as": "Whether you know the bike decides the direction.",
+     "rel": "story"
+    },
+    {
+     "to": "gear",
+     "as": "What the shop's helmet is not.",
+     "rel": "kit"
+    },
+    {
+     "to": "chiang-mai",
+     "as": "Where the transaction happens.",
+     "rel": "town"
+    }
+   ],
+   "sources": [
+    "s:wp-international-driving-permit",
+    "s:wp-driving-licence-in-thailand",
+    "s:wp-motorcycle-safety"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-international-driving-permit"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-international-driving-permit"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "samoeng-warmup",
+     "type": "leg",
+     "name": "The Samoeng warm-up",
+     "as": "The bike this day is testing."
+    },
+    {
+     "from": "route-1096",
+     "type": "road",
+     "name": "Route 1096",
+     "as": "The bike you are testing on it."
+    },
+    {
+     "from": "chiang-mai",
+     "type": "town",
+     "name": "Chiang Mai",
+     "as": "The transaction that starts the trip."
+    },
+    {
+     "from": "step-through-110",
+     "type": "bike",
+     "name": "The 110–125 step-through",
+     "as": "The bike the shop will hand you unless you ask otherwise."
+    },
+    {
+     "from": "one-way-rental",
+     "type": "kit",
+     "name": "Not coming back to Chiang Mai",
+     "as": "The conversation to have at the counter."
+    },
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending your bag ahead",
+     "as": "The contract that should say who is holding your suitcase."
+    },
+    {
+     "from": "which-bike",
+     "type": "story",
+     "name": "Every bike goes up there",
+     "as": "What you actually get handed, and what to check."
+    },
+    {
+     "from": "which-way-round",
+     "type": "story",
+     "name": "Clockwise or counter-clockwise",
+     "as": "Whether you know the machine is half the argument."
+    }
+   ]
+  },
+  {
+   "id": "sending-the-bag-ahead",
+   "type": "kit",
+   "names": {
+    "name": "Sending your bag ahead",
+    "th": "ส่งกระเป๋าล่วงหน้า",
+    "said": "Yes. But for most people on this particular loop the better answer is: leave it behind instead.",
+    "said_th": "ส่งได้ แต่สำหรับคนส่วนใหญ่บนเส้นทางนี้ คำตอบที่ดีกว่าคือ ฝากไว้เฉยๆ"
+   },
+   "region": [
+    "loop",
+    "cnx",
+    "mhs"
+   ],
+   "facets": {
+    "kind": "logistics",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "Whether a suitcase can travel separately from the bike. It can, by three separate channels. But the loop is a loop — it ends where it started — so the question most riders are really asking has a cheaper answer.",
+    "story": "**Start with the shape of the trip.** The circuit returns to Chiang Mai. A bag sent ahead to Mae Hong Son has to be collected in Mae Hong Son and then carried for the remaining three hundred kilometres, which is the problem you were trying to avoid. *Inference —* forwarding earns its keep in exactly two cases: you are not returning to Chiang Mai, or you want a specific thing waiting at the halfway point and nothing else.\n\n**The cheap answer, and the usual one.** Leave the big bag in Chiang Mai. Motorcycle rental shops and guesthouses there commonly hold luggage for riders who are coming back for it, and many do it at no charge as part of the rental. *Tradition holds —* this is the standard arrangement and the thing to ask about when you book, not when you arrive. Get it in writing on the rental agreement, photograph the bag and the room it goes into, and take the valuables with you.\n\n**Three ways to move a bag that must move.**\n\n*Thailand Post.* Post offices operate in Chiang Mai, Pai, Mae Hong Son, Mae Sariang and the district towns. Domestic parcel and EMS services exist and are the cheapest of the three. *Tradition holds —* upcountry post offices keep government hours and close at lunchtime and at weekends, so a parcel that arrives Saturday sits until Monday.\n\n*A private courier.* Several nationwide parcel networks run branches and agent counters across the north, often inside a shop or a petrol station, with longer hours than the post office. **Not on this disk:** which specific branches were open on the day you read this, what they charged, or their size limits. Those change, and this project has not verified them.\n\n*The bus.* Thai intercity and minibus operators carry parcels on the same runs that carry passengers — you hand the parcel in at the operator's counter, it rides in the hold, and it is collected at the destination office, often the same day. *Tradition holds —* this is ordinary and widely used across Thailand. It is also the only one of the three that is as fast as you are.\n\n**What actually goes wrong.** A parcel needs a real address and a person willing to sign for it: a guesthouse has to agree in advance to receive a bag for a guest who has not arrived yet, and not all will. Collection usually needs the ID the parcel was addressed to. And the bag has to survive being stacked — soft luggage is fine, a hard shell with a TSA lock is fine, a paper bag is not.",
+    "how": "If you are doing it: send it two days before you need it, not the night before; address it to a named person at a named guesthouse with that guesthouse's phone number on the label, having already asked them; keep the tracking slip photographed rather than folded in a tank bag; and put nothing in it you would cancel the trip over."
+   },
+   "text_th": {
+    "what": "กระเป๋าเดินทางแยกจากรถได้ไหม ได้ ผ่านสามช่องทาง แต่เส้นทางนี้เป็นวงรอบ คือจบที่เดิมที่เริ่ม คำถามที่คนส่วนใหญ่ถามจริงๆ จึงมีคำตอบที่ถูกกว่า",
+    "story": "**เริ่มจากรูปร่างของทริป** เส้นทางนี้วนกลับเชียงใหม่ กระเป๋าที่ส่งไปแม่ฮ่องสอนต้องไปรับที่แม่ฮ่องสอน แล้วแบกต่ออีกสามร้อยกิโลเมตร ซึ่งคือปัญหาที่พยายามจะเลี่ยงตั้งแต่แรก *อนุมาน —* การส่งล่วงหน้าคุ้มค่าในสองกรณีเท่านั้น คือคุณไม่กลับเชียงใหม่ หรือคุณอยากให้ของบางอย่างรออยู่ที่จุดกึ่งกลางโดยเฉพาะ\n\n**คำตอบที่ถูกกว่า และเป็นคำตอบปกติ** ฝากกระเป๋าใบใหญ่ไว้ที่เชียงใหม่ ร้านเช่ารถและเกสต์เฮาส์ที่นั่นรับฝากสัมภาระให้คนที่จะกลับมาเอาเป็นเรื่องปกติ และหลายแห่งไม่คิดเงินเพราะถือเป็นส่วนหนึ่งของการเช่า *ตามธรรมเนียม —* นี่คือข้อตกลงมาตรฐาน และเป็นสิ่งที่ควรถามตอนจอง ไม่ใช่ตอนไปถึง ขอให้ระบุในสัญญาเช่า ถ่ายรูปกระเป๋าและห้องที่เก็บไว้ และเอาของมีค่าไปกับตัว\n\n**สามวิธีย้ายกระเป๋าที่ต้องย้ายจริงๆ**\n\n*ไปรษณีย์ไทย* มีที่ทำการในเชียงใหม่ ปาย แม่ฮ่องสอน แม่สะเรียง และเมืองอำเภอต่างๆ มีบริการพัสดุในประเทศและ EMS และถูกที่สุดในสามทาง *ตามธรรมเนียม —* ที่ทำการต่างอำเภอเปิดตามเวลาราชการ ปิดพักเที่ยงและปิดเสาร์อาทิตย์ พัสดุที่มาถึงวันเสาร์จะค้างถึงวันจันทร์\n\n*บริษัทขนส่งเอกชน* มีเครือข่ายสาขาและจุดรับส่งทั่วภาคเหนือ มักอยู่ในร้านค้าหรือปั๊มน้ำมัน และเปิดนานกว่าไปรษณีย์ **ไม่มีข้อมูลในชุดนี้** ว่าสาขาไหนเปิดในวันที่คุณอ่าน ราคาเท่าไร หรือจำกัดขนาดอย่างไร เรื่องพวกนี้เปลี่ยน และโครงการนี้ยังไม่ได้ตรวจสอบ\n\n*รถทัวร์และรถตู้* ผู้ประกอบการเดินรถรับฝากพัสดุไปกับเที่ยวเดียวกับผู้โดยสาร ฝากที่เคาน์เตอร์ ของไปในห้องเก็บสัมภาระ แล้วไปรับที่สำนักงานปลายทาง มักถึงในวันเดียวกัน *ตามธรรมเนียม —* เป็นเรื่องปกติและใช้กันทั่วประเทศ และเป็นทางเดียวในสามทางที่เร็วเท่ากับตัวคุณเอง\n\n**สิ่งที่มักพลาด** พัสดุต้องมีที่อยู่จริงและมีคนยอมเซ็นรับ เกสต์เฮาส์ต้องตกลงล่วงหน้าว่าจะรับกระเป๋าแทนแขกที่ยังไม่มาถึง และไม่ใช่ทุกที่จะรับ การรับของมักต้องใช้บัตรประชาชนหรือพาสปอร์ตตรงกับชื่อหน้ากล่อง และกระเป๋าต้องทนการวางซ้อน กระเป๋าผ้าได้ กระเป๋าแข็งได้ ถุงกระดาษไม่ได้",
+    "how": "ถ้าจะส่งจริง ส่งล่วงหน้าสองวัน ไม่ใช่คืนก่อนหน้า จ่าหน้าถึงชื่อคนจริงที่เกสต์เฮาส์ที่ระบุชื่อ พร้อมเบอร์โทรของเกสต์เฮาส์บนกล่อง โดยถามเขาไว้ก่อนแล้ว ถ่ายรูปใบพัสดุไว้แทนที่จะพับใส่กระเป๋าถังน้ำมัน และอย่าใส่อะไรที่ถ้าหายแล้วต้องยกเลิกทริป"
+   },
+   "kin": [
+    {
+     "to": "packing-light",
+     "as": "What fits on the bike if the big bag stays behind.",
+     "rel": "kit"
+    },
+    {
+     "to": "renting-a-bike",
+     "as": "The contract that should say who is holding your suitcase.",
+     "rel": "kit"
+    },
+    {
+     "to": "chiang-mai",
+     "as": "Where the bag stays, and where you come back to.",
+     "rel": "town"
+    },
+    {
+     "to": "mae-hong-son",
+     "as": "The one sensible forwarding destination on the circuit.",
+     "rel": "town"
+    },
+    {
+     "to": "loaded-bike",
+     "as": "What weight on the back actually does on a hairpin.",
+     "rel": "hazard"
+    },
+    {
+     "to": "one-way-rental",
+     "as": "The case where forwarding stops being pointless.",
+     "rel": "kit"
+    }
+   ],
+   "sources": [
+    "s:wp-thailand-post"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "tradition",
+     "note": "ordinary Thai practice, hedged throughout; no branch, price, hour or size limit is asserted"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "tradition",
+      "note": "the post office is cited only for existing; everything about hours, couriers and bus parcels is marked as general practice and explicitly flagged where this project has not verified it"
+     },
+     "text.how": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "chiang-mai",
+     "type": "town",
+     "name": "Chiang Mai",
+     "as": "Where the bag stays instead."
+    },
+    {
+     "from": "mae-hong-son",
+     "type": "town",
+     "name": "Mae Hong Son",
+     "as": "The only sensible forwarding address on the circuit."
+    },
+    {
+     "from": "one-way-rental",
+     "type": "kit",
+     "name": "Not coming back to Chiang Mai",
+     "as": "The case this one justifies."
+    },
+    {
+     "from": "packing-light",
+     "type": "kit",
+     "name": "What actually fits",
+     "as": "The other half of the question: what does not come at all."
+    },
+    {
+     "from": "renting-a-bike",
+     "type": "kit",
+     "name": "Renting the bike",
+     "as": "The luggage half of this conversation."
+    }
+   ]
+  }
+ ]
+}

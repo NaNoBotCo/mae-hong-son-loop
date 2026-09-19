@@ -1,0 +1,791 @@
+{
+ "type": "event",
+ "count": 6,
+ "nodes": [
+  {
+   "id": "bua-tong-bloom",
+   "type": "event",
+   "names": {
+    "name": "The Bua Tong bloom",
+    "th": "ทุ่งบัวตอง",
+    "said": "A hillside above Khun Yuam turns yellow for a few weeks, and then it does not.",
+    "said_th": "ไหล่เขาเหนือขุนยวมกลายเป็นสีเหลืองอยู่ไม่กี่สัปดาห์ แล้วก็ไม่"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "month": "nov"
+   },
+   "text": {
+    "what": "Tithonia diversifolia — Mexican sunflower, บัวตอง — flowers across Doi Mae U-Kho in November. It is the one thing on this circuit with a hard date.",
+    "story": "The plant is a member of the daisy family, native to Mexico and Central America, and is naturalised widely across the tropics — in many places it is treated as an invasive weed. Here it is the reason a province runs a festival.\n\n*Inference —* for a rider the consequence is a scheduling one. Khun Yuam sits on the southern leg, so which direction you ride decides whether you reach it on day two or day four — and a hillside like this wants morning light. If the bloom is the reason for the trip, pick the direction that puts Khun Yuam on a morning.\n\n*Tradition holds —* the bloom is short and the exact weeks move with the year, so a date fixed months ahead is a bet."
+   },
+   "text_th": {
+    "what": "ต้นบัวตอง หรือ Tithonia diversifolia ทานตะวันเม็กซิโก ออกดอกทั่วดอยแม่อูคอในเดือนพฤศจิกายน เป็นสิ่งเดียวบนเส้นทางนี้ที่มีกำหนดเวลาแน่นอน",
+    "story": "ต้นบัวตองอยู่ในวงศ์ทานตะวัน มีถิ่นกำเนิดในเม็กซิโกและอเมริกากลาง และแพร่กระจายทั่วเขตร้อน ในหลายที่ถือเป็นวัชพืชรุกราน แต่ที่นี่มันเป็นเหตุผลที่จังหวัดจัดเทศกาล\n\n*อนุมาน —* สำหรับคนขี่รถ ผลที่ตามมาคือเรื่องตารางเวลา ขุนยวมอยู่บนช่วงใต้ ทิศที่คุณขี่จึงเป็นตัวกำหนดว่าจะไปถึงวันที่สองหรือวันที่สี่ และไหล่เขาแบบนี้ต้องการแสงเช้า ถ้าทุ่งบัวตองคือเหตุผลของทริป ให้เลือกทิศที่ทำให้ถึงขุนยวมตอนเช้า\n\n*ตามธรรมเนียม —* ช่วงบานสั้นและสัปดาห์ที่บานเลื่อนไปตามปี การล็อกวันล่วงหน้าหลายเดือนจึงเป็นการเดิมพัน"
+   },
+   "kin": [
+    {
+     "to": "khun-yuam",
+     "as": "The town underneath it.",
+     "rel": "town"
+    },
+    {
+     "to": "season-and-direction",
+     "as": "Why the bloom argues for a direction.",
+     "rel": "story"
+    },
+    {
+     "to": "cool-season",
+     "as": "The season it opens.",
+     "rel": "event"
+    }
+   ],
+   "sources": [
+    "s:wp-tithonia-diversifolia",
+    "s:wp-khun-yuam-district",
+    "s:wp-mexican-sunflower"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-tithonia-diversifolia"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "bua-tong-bloom/bua-tong-bloom-doi-mae-u-kho-mexican-sunflower-fields.jpg",
+     "source": "commons",
+     "title": "File:Doi Mae U-Kho Mexican Sunflower Fields.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Doi_Mae_U-Kho_Mexican_Sunflower_Fields.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ADoi_Mae_U-Kho_Mexican_Sunflower_Fields.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Kamol2523",
+     "credit": "Own work",
+     "alt": "ทุ่งดอกบัวตอง ดอยแม่อูคอ อำเภอขุนยวม จังหวัดแม่ฮ่องสอน ดูแลหลักโดย องค์การบริหารส่วนตำบล (อบต.) แม่อูคอ ร่วมกับ วนอุทยานทุ่งบัวตอง (ภายใต้กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช) และ อำเภอขุนยวม",
+     "date": "2026-06-17 22:18:13",
+     "primary": true,
+     "sha256": "44e52703e9cea31c0bcb5cf83bb2dd78768d4ad4faff7cd75f510c9fa329235b"
+    },
+    {
+     "file": "bua-tong-bloom/bua-tong-bloom-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-193ef81.jpg",
+     "source": "commons",
+     "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio (2).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%282%29.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "::::=UT=::::",
+     "credit": "https://web.archive.org/web/20161030152646/http://www.panoramio.com/photo/124380145",
+     "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+     "date": "Taken on 14 July 2015",
+     "primary": false,
+     "sha256": "9efafe3cecc5752ea1c40d183c840132e3ece8f1b02950107a4759d984ee42a5"
+    },
+    {
+     "file": "bua-tong-bloom/bua-tong-bloom-thailand-weevil-39624007905.jpg",
+     "source": "commons",
+     "title": "File:Thailand weevil (39624007905).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Thailand_weevil_%2839624007905%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThailand_weevil_%2839624007905%29.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Insects Unlocked from USA",
+     "credit": "Thailand weevil",
+     "alt": "Weevil (Coleoptera, Curculionidae)\nRoute 108, Lamphung, Thailand\nThung Bua Tong Doi Mae Ho\nJuly 2017 coll. J. N. Schlauch\n\n\n\n\n\n\nThis image was created as part of the Insects Unlocked project at the Un",
+     "date": "2018-02-27 10:16",
+     "primary": false,
+     "sha256": "23b097c8af88231effb5996e70a70e3b926d8f6ae13558a52efd2613f271e411"
+    },
+    {
+     "file": "bua-tong-bloom/bua-tong-bloom-the-mexican-sunflower-fields-at-doi-mae-u-kho-mae-hong-son.jpg",
+     "source": "commons",
+     "title": "File:The Mexican Sunflower Fields at Doi Mae U Kho, Mae Hong Son.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/The_Mexican_Sunflower_Fields_at_Doi_Mae_U_Kho%2C_Mae_Hong_Son.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_Mexican_Sunflower_Fields_at_Doi_Mae_U_Kho%2C_Mae_Hong_Son.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Prawit thawonsak",
+     "credit": "Own work",
+     "alt": "The Mexican Sunflower Fields (Thung Bua Tong) at Doi Mae U Kho, Mae Hong Son, Northern Thailand.",
+     "date": "2022-11-19 17:43:46",
+     "primary": false,
+     "sha256": "afd99995cf84112264eeaadbb46d6c188fdd692c089b3bf9a5f176f91bd5c223"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "khun-yuam",
+     "type": "town",
+     "name": "Khun Yuam",
+     "as": "The hillside above the town, in November."
+    },
+    {
+     "from": "mae-surin-waterfall",
+     "type": "stop",
+     "name": "Mae Surin Waterfall",
+     "as": "The other reason to go up, in a different month."
+    },
+    {
+     "from": "cool-season",
+     "type": "event",
+     "name": "The cool season",
+     "as": "The November thing worth timing for."
+    },
+    {
+     "from": "season-and-direction",
+     "type": "story",
+     "name": "The season picks the direction",
+     "as": "The November reason to reach Khun Yuam early."
+    }
+   ]
+  },
+  {
+   "id": "burning-season",
+   "type": "event",
+   "names": {
+    "name": "Burning season",
+    "th": "ช่วงเผา",
+    "said": "The two months of the year this ride has a reason not to happen.",
+    "said_th": "สองเดือนของปีที่ทริปนี้มีเหตุผลที่จะไม่เกิดขึ้น"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "month": "smoke"
+   },
+   "text": {
+    "what": "Roughly late February to late April, agricultural and forest burning fills the valleys of upper northern Thailand and adjacent Myanmar with smoke. It ends with the first rains.",
+    "story": "The measured shape, from four years of daily figures at ten points on the circuit: **February is still fine up-country** — Pai's February mean is 15.0 µg/m³ and not one February day in four years exceeded the US 24-hour standard there. **March and April are the wall.** Pai's April mean is 29.8 µg/m³ and all thirty April days measured were above that standard. **May is over** — Pai drops to 10.0 and stays down.\n\nChiang Mai runs worse than any town on the loop through the whole of it: a March mean of 37.8 µg/m³ against Mae Hong Son's 29.1.\n\n*Inference —* if the dates are fixed and they land here, the ride still works; it is the views that do not. Plan shorter days, ride early, and treat the viewpoints as a bonus rather than the itinerary."
+   },
+   "text_th": {
+    "what": "ราวปลายกุมภาพันธ์ถึงปลายเมษายน การเผาพื้นที่เกษตรและป่าทำให้หุบเขาภาคเหนือตอนบนของไทยและฝั่งเมียนมาที่ติดกันเต็มไปด้วยควัน จบลงเมื่อฝนแรกมา",
+    "story": "รูปร่างที่วัดได้ จากข้อมูลรายวันสี่ปีที่สิบจุดบนเส้นทาง **กุมภาพันธ์ยังดีอยู่บนดอย** ค่าเฉลี่ยกุมภาพันธ์ของปายคือ 15.0 และตลอดสี่ปีไม่มีวันไหนในกุมภาพันธ์ที่เกินมาตรฐาน 24 ชั่วโมงของสหรัฐฯ ที่นั่นเลย **มีนาคมกับเมษายนคือกำแพง** ค่าเฉลี่ยเมษายนของปายคือ 29.8 และทั้งสามสิบวันที่วัดได้อยู่เหนือมาตรฐานนั้น **พฤษภาคมจบแล้ว** ปายลงมาที่ 10.0 และอยู่ต่ำต่อไป\n\nเชียงใหม่แย่กว่าทุกเมืองบนเส้นทางตลอดช่วงนี้ ค่าเฉลี่ยมีนาคม 37.8 เทียบกับแม่ฮ่องสอน 29.1\n\n*อนุมาน —* ถ้าวันเดินทางล็อกไว้แล้วและตกอยู่ในช่วงนี้ ทริปก็ยังไปได้ สิ่งที่ไปไม่ได้คือวิว วางแผนวันสั้นลง ออกเช้า และถือว่าจุดชมวิวเป็นของแถม ไม่ใช่ตัวแผน"
+   },
+   "kin": [
+    {
+     "to": "the-smoke",
+     "as": "The data and where it is weak.",
+     "rel": "story"
+    },
+    {
+     "to": "smoke-riding",
+     "as": "What it does to you on the bike.",
+     "rel": "hazard"
+    },
+    {
+     "to": "the-rains",
+     "as": "What ends it.",
+     "rel": "event"
+    },
+    {
+     "to": "hot-season",
+     "as": "The same months, from the thermometer's side.",
+     "rel": "event"
+    }
+   ],
+   "sources": [
+    "s:open-meteo-aq",
+    "s:wp-southeast-asian-haze",
+    "s:epa-pm25-2024"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "harvested",
+     "source": "s:open-meteo-aq"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "seasons": {
+    "mar": {
+     "note": "The wall. Ride early, stop at two, and expect white where the view was.",
+     "note_th": "กำแพง ออกเช้า หยุดบ่ายสอง และคาดว่าจะเจอสีขาวตรงที่ควรเป็นวิว",
+     "direction": "either",
+     "why": "Smoke is worst in the still afternoon, so the clock matters more than the direction.",
+     "why_th": "ควันหนาที่สุดในบ่ายที่ลมนิ่ง นาฬิกาจึงสำคัญกว่าทิศทาง",
+     "tier": "inference"
+    },
+    "apr": {
+     "note": "The worst month measured, and the hottest.",
+     "note_th": "เดือนที่วัดได้แย่ที่สุด และร้อนที่สุด",
+     "direction": "either",
+     "tier": "harvested",
+     "source": "s:open-meteo-aq"
+    }
+   },
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "smoke-riding",
+     "type": "hazard",
+     "name": "Riding in the smoke",
+     "as": "The dates."
+    },
+    {
+     "from": "hot-season",
+     "type": "event",
+     "name": "The hot season",
+     "as": "The same months, from the air's side."
+    },
+    {
+     "from": "poy-sang-long",
+     "type": "event",
+     "name": "Poy Sang Long",
+     "as": "The months it shares."
+    },
+    {
+     "from": "the-rains",
+     "type": "event",
+     "name": "The rains",
+     "as": "What it washes away."
+    },
+    {
+     "from": "the-smoke",
+     "type": "story",
+     "name": "The smoke",
+     "as": "The season itself, as a date range."
+    }
+   ]
+  },
+  {
+   "id": "cool-season",
+   "type": "event",
+   "names": {
+    "name": "The cool season",
+    "th": "ฤดูหนาว",
+    "said": "November to February, and everyone knows it.",
+    "said_th": "พฤศจิกายนถึงกุมภาพันธ์ และทุกคนรู้"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "month": "cool"
+   },
+   "text": {
+    "what": "Dry, clear, cold at altitude before dawn, and the busiest and most expensive months on the circuit.",
+    "story": "The measured air is good without being the year's best: Pai's November mean is 8.1 µg/m³ and December 9.9, against 3.0 in July. It is the dryness rather than the cleanliness that makes the season.\n\nWhat is actually here that is not here otherwise: the sea of mist at dawn off the ridges, which needs cold still air and is a November-to-January phenomenon; the *Tithonia* bloom above Khun Yuam in November; and dry tarmac on every descent.\n\n*Inference —* the cost is crowding and price, and the one real riding hazard is the low afternoon sun, which is worst at exactly this time of year on a westward leg. Mornings are genuinely cold on the high sections before nine — this is the one season on this circuit where a rider is underdressed rather than overheating."
+   },
+   "text_th": {
+    "what": "แห้ง ใส หนาวบนที่สูงก่อนรุ่งสาง และเป็นเดือนที่คนเยอะที่สุดและแพงที่สุดบนเส้นทาง",
+    "story": "อากาศที่วัดได้ดีโดยไม่ใช่ดีที่สุดของปี ค่าเฉลี่ยพฤศจิกายนของปายคือ 8.1 ธันวาคม 9.9 เทียบกับ 3.0 ในเดือนกรกฎาคม สิ่งที่ทำให้ฤดูนี้เป็นฤดูนี้คือความแห้ง ไม่ใช่ความสะอาด\n\nสิ่งที่มีเฉพาะช่วงนี้ ทะเลหมอกยามรุ่งสางบนสันเขา ซึ่งต้องการอากาศเย็นและนิ่ง เป็นปรากฏการณ์ช่วงพฤศจิกายนถึงมกราคม ทุ่งบัวตองเหนือขุนยวมในเดือนพฤศจิกายน และถนนแห้งบนทุกทางลง\n\n*อนุมาน —* ราคาที่จ่ายคือคนเยอะและของแพง และอันตรายจากการขี่ข้อเดียวที่จริงจังคือแดดต่ำตอนบ่าย ซึ่งแย่ที่สุดในช่วงนี้ของปีพอดีบนเส้นทางที่มุ่งตะวันตก ตอนเช้าบนช่วงสูงหนาวจริงก่อนเก้าโมง นี่เป็นฤดูเดียวบนเส้นทางนี้ที่คนขี่ใส่เสื้อน้อยเกินไป ไม่ใช่ร้อนเกินไป"
+   },
+   "kin": [
+    {
+     "to": "bua-tong-bloom",
+     "as": "The November thing worth timing for.",
+     "rel": "event"
+    },
+    {
+     "to": "low-sun",
+     "as": "The season's own hazard.",
+     "rel": "hazard"
+    },
+    {
+     "to": "doi-kong-mu",
+     "as": "Where the mist is watched from.",
+     "rel": "wat"
+    }
+   ],
+   "sources": [
+    "s:open-meteo-aq",
+    "s:wp-monsoon",
+    "s:wp-tithonia-diversifolia"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "harvested",
+     "source": "s:open-meteo-aq"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "cool-season/cool-season-morning-sea-of-mist-at-si-nan19.jpg",
+     "source": "commons",
+     "title": "File:Morning sea of mist at Si Nan19.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Morning_sea_of_mist_at_Si_Nan19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan19.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Jomis 9",
+     "credit": "Own work",
+     "alt": "อุทยานแห่งชาติศรีน่าน",
+     "date": "2022-11-17 07:22:15",
+     "primary": true,
+     "sha256": "bd861a58f25f12a8615ff83e94580b2c3baaba8d477e28853a9d635bcb57dcf0"
+    },
+    {
+     "file": "cool-season/cool-season-morning-sea-of-mist-at-si-nan6.jpg",
+     "source": "commons",
+     "title": "File:Morning sea of mist at Si Nan6.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Morning_sea_of_mist_at_Si_Nan6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan6.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Jomis 9",
+     "credit": "Own work",
+     "alt": "อุทยานแห่งชาติศรีน่าน",
+     "date": "2022-11-17 07:14:37",
+     "primary": false,
+     "sha256": "db95f6351f2a6687a0a65c06daf03d735474d2e8235ea1227f56877aec99c5dc"
+    },
+    {
+     "file": "cool-season/cool-season-morning-sea-of-mist-at-si-nan8.jpg",
+     "source": "commons",
+     "title": "File:Morning sea of mist at Si Nan8.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Morning_sea_of_mist_at_Si_Nan8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan8.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Jomis 9",
+     "credit": "Own work",
+     "alt": "อุทยานแห่งชาติศรีน่าน",
+     "date": "2022-11-17 07:14:53",
+     "primary": false,
+     "sha256": "2902d022b1c2d03ad8e0636578570643f1512e9f167799b58514f66b688dedb5"
+    },
+    {
+     "file": "cool-season/cool-season-sunrise-over-the-sea-of-mist-at-khao-phang-chumphon-thailand.jpg",
+     "source": "commons",
+     "title": "File:Sunrise over the sea of mist at Khao Phang , Chumphon, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sunrise_over_the_sea_of_mist_at_Khao_Phang_%2C_Chumphon%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASunrise_over_the_sea_of_mist_at_Khao_Phang_%2C_Chumphon%2C_Thailand.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Kittisak Yangsoh",
+     "credit": "Own work",
+     "alt": "พระอาทิตย์ขึ้นเหนือทะเลหมอกที่เขาพัง ชุมพร ประเทศไทย",
+     "date": "2025-12-21 06:55:36",
+     "primary": false,
+     "sha256": "d02dfd66475f3c4554705f3f71129f16f599c3f6bd6882a5fe30901a3680ad9c"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "pang-ung",
+     "type": "stop",
+     "name": "Pang Ung",
+     "as": "The only season the mist happens."
+    },
+    {
+     "from": "doi-kong-mu",
+     "type": "wat",
+     "name": "Wat Phra That Doi Kong Mu",
+     "as": "When the mist is there."
+    },
+    {
+     "from": "gear",
+     "type": "kit",
+     "name": "What to wear",
+     "as": "The season that needs the extra layer."
+    },
+    {
+     "from": "bua-tong-bloom",
+     "type": "event",
+     "name": "The Bua Tong bloom",
+     "as": "The season it opens."
+    },
+    {
+     "from": "the-smoke",
+     "type": "story",
+     "name": "The smoke",
+     "as": "The season everyone books, and why."
+    }
+   ]
+  },
+  {
+   "id": "hot-season",
+   "type": "event",
+   "names": {
+    "name": "The hot season",
+    "th": "หน้าร้อน",
+    "said": "Forty degrees in the Hot valley, and the name is a coincidence.",
+    "said_th": "สี่สิบองศาในหุบฮอด และชื่ออำเภอเป็นเรื่องบังเอิญ"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "month": "hot"
+   },
+   "text": {
+    "what": "March to May. The low ground bakes, the high ground is bearable, and the difference between them is two thousand vertical feet and about eight degrees.",
+    "story": "*Inference —* heat on a motorcycle is a route-planning problem rather than a comfort one. The hottest riding on the circuit is the low, open, four-lane section of Route 108 between Chiang Mai and Hot, which has no shade and no altitude; the coolest is the ridge road on 1095 and the climb over 1263.\n\nThe practical consequence is the same as the smoke advice and reinforces it: start early, do the low sections before eleven, and take the long lunch that everyone here takes anyway. Dehydration on a bike arrives without a signal because the airflow keeps you from noticing you are sweating."
+   },
+   "text_th": {
+    "what": "มีนาคมถึงพฤษภาคม พื้นราบร้อนจัด ที่สูงยังพอทน และความต่างระหว่างสองที่คือความสูงราวหกร้อยเมตรกับอุณหภูมิราวแปดองศา",
+    "story": "*อนุมาน —* ความร้อนบนมอเตอร์ไซค์เป็นปัญหาการวางแผนเส้นทาง ไม่ใช่ปัญหาความสบาย ช่วงที่ร้อนที่สุดบนเส้นทางคือช่วงสี่เลนที่ต่ำและโล่งของทางหลวง 108 ระหว่างเชียงใหม่กับฮอด ที่ไม่มีร่มเงาและไม่มีความสูง ส่วนที่เย็นที่สุดคือถนนบนสันเขาสาย 1095 และทางไต่ขึ้น 1263\n\nผลในทางปฏิบัติเหมือนคำแนะนำเรื่องควันและเสริมกัน ออกเช้า ผ่านช่วงพื้นราบก่อนสิบเอ็ดโมง และพักเที่ยงยาวแบบที่คนที่นี่พักกันอยู่แล้ว ภาวะขาดน้ำบนรถมาถึงโดยไม่ส่งสัญญาณ เพราะลมที่ปะทะทำให้ไม่รู้ตัวว่ากำลังเสียเหงื่อ"
+   },
+   "kin": [
+    {
+     "to": "mae-sariang-to-hot",
+     "as": "The hottest leg on the circuit.",
+     "rel": "leg"
+    },
+    {
+     "to": "burning-season",
+     "as": "The same months, from the air's side.",
+     "rel": "event"
+    }
+   ],
+   "sources": [
+    "s:wp-monsoon",
+    "s:wp-geography-of-thailand"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "mae-sariang-to-hot",
+     "type": "leg",
+     "name": "Mae Sariang to Hot",
+     "as": "The eastern end is the hottest riding of the circuit."
+    },
+    {
+     "from": "burning-season",
+     "type": "event",
+     "name": "Burning season",
+     "as": "The same months, from the thermometer's side."
+    }
+   ]
+  },
+  {
+   "id": "poy-sang-long",
+   "type": "event",
+   "names": {
+    "name": "Poy Sang Long",
+    "th": "ปอยส่างลอง",
+    "said": "Boys in gold and face paint, carried on shoulders because their feet must not touch the ground.",
+    "said_th": "เด็กชายแต่งทองและแต่งหน้า ถูกแบกบนบ่าเพราะเท้าต้องไม่แตะพื้น"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "month": "apr"
+   },
+   "text": {
+    "what": "The Shan ordination festival, held in Mae Hong Son and across the province, most commonly in late March and April. Boys are dressed as princes for the days before they are ordained as novices.",
+    "story": "Shan people are the largest population group in Mae Hong Son province, and this is their festival. The boys are dressed in ornamented clothing and jewellery and made up, and carried on the shoulders of relatives — their feet are not to touch the ground during the procession.\n\n*Inference —* the collision with the rest of this site is worth stating plainly: the festival falls in the two months the air is at its worst. A rider who wants to be in Mae Hong Son for Poy Sang Long is choosing the smoke, knowingly. That is a legitimate choice and this page is not going to pretend the trade is not there.\n\nIt is also a religious event in people's own town rather than a display. *Inference —* the difference between watching and intruding is mostly about distance and about asking before photographing a child."
+   },
+   "text_th": {
+    "what": "งานบวชลูกแก้วของชาวไทใหญ่ จัดที่แม่ฮ่องสอนและทั่วจังหวัด ส่วนใหญ่ปลายมีนาคมถึงเมษายน เด็กชายจะแต่งกายเป็นเจ้าชายในวันก่อนบรรพชาเป็นสามเณร",
+    "story": "ชาวไทใหญ่เป็นกลุ่มประชากรใหญ่ที่สุดในจังหวัดแม่ฮ่องสอน และนี่คืองานของพวกเขา เด็กชายจะแต่งกายด้วยเสื้อผ้าและเครื่องประดับอย่างวิจิตร แต่งหน้า และถูกแบกบนบ่าญาติ เท้าของพวกเขาต้องไม่แตะพื้นระหว่างขบวนแห่\n\n*อนุมาน —* ข้อขัดกันกับเนื้อหาส่วนอื่นของเว็บนี้ควรพูดตรงๆ งานนี้ตรงกับสองเดือนที่อากาศแย่ที่สุด คนขี่ที่อยากอยู่แม่ฮ่องสอนช่วงปอยส่างลองกำลังเลือกควันอย่างรู้ตัว นั่นเป็นทางเลือกที่ชอบธรรม และหน้านี้จะไม่แกล้งทำเป็นว่าไม่มีสิ่งที่ต้องแลก\n\nและนี่เป็นงานทางศาสนาในเมืองของผู้คนเอง ไม่ใช่การแสดง *อนุมาน —* ความต่างระหว่างการดูกับการล่วงล้ำส่วนใหญ่อยู่ที่ระยะห่าง และอยู่ที่การขออนุญาตก่อนถ่ายรูปเด็ก"
+   },
+   "kin": [
+    {
+     "to": "shan",
+     "as": "Whose festival it is.",
+     "rel": "person"
+    },
+    {
+     "to": "mae-hong-son",
+     "as": "Where the biggest processions are.",
+     "rel": "town"
+    },
+    {
+     "to": "burning-season",
+     "as": "The months it shares.",
+     "rel": "event"
+    }
+   ],
+   "sources": [
+    "s:wp-poy-sang-long",
+    "s:wp-shan-people",
+    "s:wp-mae-hong-son-province"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-poy-sang-long"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "the scheduling conflict and the conduct note are this project's reasoning, not the cited source's"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "poy-sang-long/poy-sang-long-poy-sang-long-festival-in-chiang-mai-p1000295.jpg",
+     "source": "commons",
+     "title": "File:Poy Sang Long Festival in Chiang Mai P1000295.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Poy_Sang_Long_Festival_in_Chiang_Mai_P1000295.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APoy_Sang_Long_Festival_in_Chiang_Mai_P1000295.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "FredTC",
+     "credit": "Own work",
+     "alt": "Jaarlijks in maart of april is er het Poy Sang Long Festival, waar jongens in de leeftijd 7-14 jaar als prinsjes worden rondgedragen. Dit kan op schouders of op een pony.",
+     "date": "2006-04-05 10:30:18",
+     "primary": true,
+     "sha256": "8ee55e4a17711f7eebbd56c1a37273d77e379bdcbcb8fb66104f716c52148c2e"
+    },
+    {
+     "file": "poy-sang-long/poy-sang-long-poy-sang-long-festival-in-chiang-mai-p1020781.jpg",
+     "source": "commons",
+     "title": "File:Poy Sang Long Festival in Chiang Mai P1020781.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Poy_Sang_Long_Festival_in_Chiang_Mai_P1020781.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APoy_Sang_Long_Festival_in_Chiang_Mai_P1020781.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "FredTC",
+     "credit": "Own work",
+     "alt": "Jaarlijks in maart of april is er het Poy Sang Long Festival, waar jongens in de leeftijd 7-14 jaar als prinsjes worden rondgedragen. Dit kan op schouders of op een pony.",
+     "date": "2007-04-04 10:06:19",
+     "primary": false,
+     "sha256": "47bb84bfdfd8a05050121e1f3089f42c606dd543dbe272eff307fe3d5d1700d9"
+    },
+    {
+     "file": "poy-sang-long/poy-sang-long-poy-sang-long-festival-in-chiang-mai-p1020783.jpg",
+     "source": "commons",
+     "title": "File:Poy Sang Long Festival in Chiang Mai P1020783.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Poy_Sang_Long_Festival_in_Chiang_Mai_P1020783.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APoy_Sang_Long_Festival_in_Chiang_Mai_P1020783.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "FredTC",
+     "credit": "Own work",
+     "alt": "Jaarlijks in maart of april is er het Poy Sang Long Festival, waar jongens in de leeftijd 7-14 jaar als prinsjes worden rondgedragen. Dit kan op schouders of op een pony.",
+     "date": "2007-04-04 10:06:33",
+     "primary": false,
+     "sha256": "2810724e0dfabca1a9fa65fd4002e91dc2f041923bb4bd40a2647f33325aaa66"
+    },
+    {
+     "file": "poy-sang-long/poy-sang-long-poy-sang-long-festival-in-chiang-mai-p1020785.jpg",
+     "source": "commons",
+     "title": "File:Poy Sang Long Festival in Chiang Mai P1020785.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Poy_Sang_Long_Festival_in_Chiang_Mai_P1020785.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APoy_Sang_Long_Festival_in_Chiang_Mai_P1020785.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "FredTC",
+     "credit": "Own work",
+     "alt": "Jaarlijks in maart of april is er het Poy Sang Long Festival, waar jongens in de leeftijd 7-14 jaar als prinsjes worden rondgedragen. Dit kan op schouders of op een pony.",
+     "date": "2007-04-04 10:07:34",
+     "primary": false,
+     "sha256": "222abaab90e59a7cba2c76348c7507e9c35edb0f5ecd9d1340dd644cc5ac0202"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "mae-hong-son",
+     "type": "town",
+     "name": "Mae Hong Son",
+     "as": "The festival the town is known for."
+    },
+    {
+     "from": "shan",
+     "type": "person",
+     "name": "The Shan",
+     "as": "Their ordination festival."
+    }
+   ]
+  },
+  {
+   "id": "the-rains",
+   "type": "event",
+   "names": {
+    "name": "The rains",
+    "th": "หน้าฝน",
+    "said": "The cleanest air of the year, the greenest hills, and a wet road.",
+    "said_th": "อากาศสะอาดที่สุดของปี ภูเขาเขียวที่สุด และถนนเปียก"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "month": "rains"
+   },
+   "text": {
+    "what": "June to October. Afternoon rain most days rather than all-day rain, waterfalls running, rooms cheap, and PM2.5 at a tenth of its March figure.",
+    "story": "The figure that should change how this season is thought about: Pai's July mean PM2.5 is **3.0 µg/m³**, against 26.1 in March. Mae Sariang's is 2.3. These are among the cleanest air readings anywhere in the modelled record for this part of the world.\n\nWhat you trade for it. *Inference —* wet sealed road is manageable and wet unsealed road is not the same proposition, which is why Route 1263 comes off most wet-season plans. Landslides and road repairs are a live possibility on the mountain sections. Afternoon rain is heavy and short, so a day planned to finish at two usually finishes dry.\n\nThe upside people underrate is the light: the haze that flattens everything in March is gone, and the ridgelines are visible for fifty kilometres between storms."
+   },
+   "text_th": {
+    "what": "มิถุนายนถึงตุลาคม ฝนตกบ่ายเกือบทุกวันมากกว่าจะตกทั้งวัน น้ำตกมีน้ำ ห้องพักถูก และค่า PM2.5 เหลือหนึ่งในสิบของเดือนมีนาคม",
+    "story": "ตัวเลขที่ควรเปลี่ยนวิธีคิดเรื่องฤดูนี้ ค่าเฉลี่ย PM2.5 เดือนกรกฎาคมของปายคือ **3.0** เทียบกับ 26.1 ในเดือนมีนาคม แม่สะเรียงอยู่ที่ 2.3 นี่คืออากาศที่สะอาดที่สุดเท่าที่มีในข้อมูลแบบจำลองของภูมิภาคนี้\n\nสิ่งที่แลกไป *อนุมาน —* ถนนลาดยางเปียกยังจัดการได้ แต่ถนนลูกรังเปียกเป็นคนละเรื่อง ซึ่งเป็นเหตุผลที่ทางหลวง 1263 หลุดจากแผนหน้าฝนเกือบทุกแผน ดินสไลด์และการซ่อมถนนเป็นไปได้จริงบนช่วงภูเขา ฝนบ่ายตกหนักและสั้น วันที่วางแผนให้จบบ่ายสองจึงมักจบแบบแห้ง\n\nข้อดีที่คนมองข้ามคือแสง หมอกควันที่ทำให้ทุกอย่างแบนในเดือนมีนาคมหายไป และเห็นสันเขาได้ไกลห้าสิบกิโลเมตรในช่วงระหว่างพายุ"
+   },
+   "kin": [
+    {
+     "to": "burning-season",
+     "as": "What it washes away.",
+     "rel": "event"
+    },
+    {
+     "to": "the-1263-cut",
+     "as": "The leg that comes off the plan.",
+     "rel": "leg"
+    },
+    {
+     "to": "season-and-direction",
+     "as": "What it does to the route order.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:open-meteo-aq",
+    "s:wp-monsoon",
+    "s:wp-mae-hong-son-province"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "harvested",
+     "source": "s:open-meteo-aq"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "the riding consequences are this project's; the air figures are measured"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "seasons": {
+    "rains": {
+     "note": "Drop the 1263, keep everything else, finish each day by mid-afternoon.",
+     "note_th": "ตัด 1263 ออก เก็บที่เหลือไว้ และจบแต่ละวันก่อนบ่ายแก่",
+     "direction": "either",
+     "tier": "inference"
+    }
+   },
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "the-rains/the-rains-chiang-mai-province-road-1263.jpg",
+     "source": "commons",
+     "title": "File:Chiang mai province road 1263.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Chiang_mai_province_road_1263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_mai_province_road_1263.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "Rice paddies and recently cleared forest land in Amphoe Mae Chaem, along road 1263 between the town of Khun Yuam (Mae Hong Son province) and the town of Mae Chaem (Chiang Mai province), on the west fl",
+     "date": "2010-03-14",
+     "primary": true,
+     "sha256": "69a0f120642437d82b467367fdca646effc33fbe2c0d83ce132bda6a6706ae84"
+    },
+    {
+     "file": "the-rains/the-rains-misty-green-mountains.jpg",
+     "source": "commons",
+     "title": "File:Misty Green Mountains.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Misty_Green_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMisty_Green_Mountains.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Talha J Siam",
+     "credit": "Own work",
+     "alt": "A dramatic landscape showcasing lush, forest-covered hills shrouded in low-hanging mist and clouds. The grey, overcast sky blends seamlessly with the fog rolling over the peaks, creating a moody, cool",
+     "date": "2021-10-20 12:26:07",
+     "primary": false,
+     "sha256": "0cdd56c523142c758c1cb6bee018f700ae1f09d66af7c402bc87e077f8c8e03d"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "the-1263-cut",
+     "type": "leg",
+     "name": "The 1263 cut",
+     "as": "The season it comes off the plan."
+    },
+    {
+     "from": "route-1263",
+     "type": "road",
+     "name": "Route 1263",
+     "as": "The season that takes it off the plan."
+    },
+    {
+     "from": "mae-surin-waterfall",
+     "type": "stop",
+     "name": "Mae Surin Waterfall",
+     "as": "When there is water in it."
+    },
+    {
+     "from": "gravel-on-the-apex",
+     "type": "hazard",
+     "name": "Gravel on the apex",
+     "as": "The season that puts it there."
+    },
+    {
+     "from": "burning-season",
+     "type": "event",
+     "name": "Burning season",
+     "as": "What ends it."
+    },
+    {
+     "from": "season-and-direction",
+     "type": "story",
+     "name": "The season picks the direction",
+     "as": "Why the 1263 comes off the plan from June."
+    },
+    {
+     "from": "the-smoke",
+     "type": "story",
+     "name": "The smoke",
+     "as": "The cleanest air of the year, and the wettest road."
+    }
+   ]
+  }
+ ]
+}

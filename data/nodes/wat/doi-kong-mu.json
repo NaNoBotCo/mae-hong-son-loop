@@ -75,5 +75,67 @@
   "precision": "street"
  },
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "doi-kong-mu/doi-kong-mu-wat-phrathat-doi-kong-mu-7.jpg",
+   "source": "commons",
+   "title": "File:Wat Phrathat Doi Kong Mu 7.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Wat_Phrathat_Doi_Kong_Mu_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Phrathat_Doi_Kong_Mu_7.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Wat Phrathat Doi Kong Mu in Mae Hong Son.",
+   "date": "2018-09-01 19:19:32",
+   "primary": true,
+   "sha256": "eb1f511d7bfc1fc696d90a93a09546c7c84a2e0d8ea0c40c81762b54e3557662"
+  },
+  {
+   "file": "doi-kong-mu/doi-kong-mu-wat-phrathat-doi-kong-mu-8.jpg",
+   "source": "commons",
+   "title": "File:Wat Phrathat Doi Kong Mu 8.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Wat_Phrathat_Doi_Kong_Mu_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Phrathat_Doi_Kong_Mu_8.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Wat Phrathat Doi Kong Mu in Mae Hong Son.",
+   "date": "2018-09-01 19:22:28",
+   "primary": false,
+   "sha256": "92094bc55dfd17bf610b1289315e7b60abfdd271946771de94952084ab2d0efc"
+  },
+  {
+   "file": "doi-kong-mu/doi-kong-mu-1.jpg",
+   "source": "commons",
+   "title": "File:วัดพระธาตุดอยกองมู -1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B9_-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B9_-1.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Yakuzakorat",
+   "credit": "Own work",
+   "alt": "This is a photo of a monument in Thailand identified by the ID",
+   "date": "2021-12-18 12:47:45",
+   "primary": false,
+   "sha256": "a6ab332465ed9f5560c1328434ca1886c0a4bf5a371fc397b3b6230edbafc46f"
+  },
+  {
+   "file": "doi-kong-mu/doi-kong-mu-3.jpg",
+   "source": "commons",
+   "title": "File:วัดพระธาตุดอยกองมู -3.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B9_-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%95%E0%B8%B8%E0%B8%94%E0%B8%AD%E0%B8%A2%E0%B8%81%E0%B8%AD%E0%B8%87%E0%B8%A1%E0%B8%B9_-3.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Yakuzakorat",
+   "credit": "Own work",
+   "alt": "This is a photo of a monument in Thailand identified by the ID",
+   "date": "2021-12-18 12:38:15",
+   "primary": false,
+   "sha256": "98c0237d7d98011d4b50680192afea630a7500c29c19da2178ecc57eb72783f5"
+  }
+ ]
 }

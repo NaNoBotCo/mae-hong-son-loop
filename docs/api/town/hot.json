@@ -1,0 +1,156 @@
+{
+ "id": "hot",
+ "type": "town",
+ "names": {
+  "name": "Hot",
+  "th": "ฮอด",
+  "rtgs": "Hot",
+  "said": "A roundabout where Route 108's kilometre marks go back to zero.",
+  "said_th": "วงเวียนที่หลักกิโลเมตรของทางหลวง 108 กลับไปเริ่มที่ศูนย์"
+ },
+ "region": [
+  "cnx",
+  "hot",
+  "loop",
+  "south-leg"
+ ],
+ "facets": {
+  "province": "CNX",
+  "kind": "town"
+ },
+ "geo": {
+  "lat": 18.1447,
+  "lon": 98.5847,
+  "precision": "town",
+  "elevation_m": 290
+ },
+ "text": {
+  "what": "The hinge of the southern leg: east of here Route 108 is four to six lanes to Chiang Mai, west of here it is two lanes for 265 kilometres.",
+  "story": "The kilometre marks on Route 108 restart at zero at the Hot roundabout and run from there to Mae Hong Son — 265 kilometres. East of Hot to Chiang Mai is 88 kilometres of a different kind of road: four to six lanes with a median, narrowing to two through the town centres of Hang Dong, San Pa Tong, Thung Sieo and Chom Thong.\n\n*Inference —* the practical meaning is that Hot is where the ride starts or ends, whichever way round you go. East of it you are commuting; west of it you are riding.",
+  "today": "Fuel, food, and the last four-lane road you will see for three days."
+ },
+ "text_th": {
+  "what": "บานพับของช่วงใต้ ทางตะวันออกของที่นี่ทางหลวง 108 เป็นสี่ถึงหกช่องจราจรไปเชียงใหม่ ทางตะวันตกเป็นสองช่องจราจรยาว 265 กิโลเมตร",
+  "story": "หลักกิโลเมตรของทางหลวง 108 เริ่มนับใหม่ที่ศูนย์ตรงวงเวียนฮอด แล้ววิ่งจากที่นั่นไปแม่ฮ่องสอน ระยะ 265 กิโลเมตร ทางตะวันออกจากฮอดถึงเชียงใหม่คือ 88 กิโลเมตรของถนนคนละแบบ สี่ถึงหกช่องจราจรมีเกาะกลาง แคบลงเหลือสองช่องจราจรเมื่อผ่านตัวอำเภอหางดง สันป่าตอง ชุมชนทุ่งเสี้ยว และจอมทอง\n\n*อนุมาน —* ความหมายในทางปฏิบัติคือ ฮอดเป็นจุดที่การขี่เริ่มหรือจบ แล้วแต่ว่าคุณไปทางไหน ทางตะวันออกของมันคุณกำลังเดินทาง ทางตะวันตกคุณกำลังขี่",
+  "today": "น้ำมัน อาหาร และถนนสี่เลนสายสุดท้ายที่คุณจะได้เห็นในสามวัน"
+ },
+ "kin": [
+  {
+   "to": "route-108",
+   "as": "The road that changes character here.",
+   "rel": "road"
+  },
+  {
+   "to": "hot-to-cnx",
+   "as": "The fast way home.",
+   "rel": "leg"
+  },
+  {
+   "to": "mae-sariang-to-hot",
+   "as": "The long way in.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:thwp-108",
+  "s:wp-hot-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:thwp-108"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the riding conclusions are this project's; the geography and history under them are cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "hot/hot-darth-vader-hot-air-balloon.jpg",
+   "source": "commons",
+   "title": "File:Darth vader hot air balloon.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Darth_vader_hot_air_balloon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADarth_vader_hot_air_balloon.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Tomas Castelazo",
+   "credit": "Own work",
+   "alt": "Hot Air Balloon festival in Leon, Guanajuato, Mexico.",
+   "date": "",
+   "primary": true,
+   "sha256": "df5b0debe569b0dffbd6e22275ba45c0d3b1b487bf50f0dd9075752c710352dd"
+  },
+  {
+   "file": "hot/hot-leon-hot-air-balloon-festival-2010.jpg",
+   "source": "commons",
+   "title": "File:Leon hot air balloon festival 2010.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Leon_hot_air_balloon_festival_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALeon_hot_air_balloon_festival_2010.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Tomas Castelazo",
+   "credit": "Own work",
+   "alt": "Hot air balloon festival in León, Guanajuato, Mexico. November 2010.",
+   "date": "2010-11-20",
+   "primary": false,
+   "sha256": "3d6ba08837c0a0c777183c024baa9b600d1f1059f3104dbadd0fa1ac347e74dd"
+  },
+  {
+   "file": "hot/hot-pine-cones-and-pine-unsplash.jpg",
+   "source": "commons",
+   "title": "File:Pine cones and pine (Unsplash).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Pine_cones_and_pine_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APine_cones_and_pine_%28Unsplash%29.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Siriwan Srisuwan siriwan",
+   "credit": "https://unsplash.com/photos/Nwwp27CunIY\n\narchive copy at the Wayback Machine",
+   "alt": "Hot, Thailand",
+   "date": "2017-01-18",
+   "primary": false,
+   "sha256": "f81429616e5e1bd9fbb427fba6fd83eaec3c437260c4e60f131490152063dc58"
+  },
+  {
+   "file": "hot/hot-singpost-near-a-forest-unsplash.jpg",
+   "source": "commons",
+   "title": "File:Singpost near a forest (Unsplash).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Singpost_near_a_forest_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASingpost_near_a_forest_%28Unsplash%29.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Siriwan Srisuwan siriwan",
+   "credit": "https://unsplash.com/photos/LZpzMEY0pXI\n\narchive copy at the Wayback Machine",
+   "alt": "Hot, Thailand",
+   "date": "2017-01-20",
+   "primary": false,
+   "sha256": "643eea93ba41001167b8e1b082522873f416c5204a72b5e0d3b8f0d754c1ff76"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "mae-sariang-to-hot",
+   "type": "leg",
+   "name": "Mae Sariang to Hot",
+   "as": "The town at the eastern end."
+  },
+  {
+   "from": "route-108",
+   "type": "road",
+   "name": "Route 108",
+   "as": "Where the road changes character and the kilometres restart."
+  }
+ ]
+}

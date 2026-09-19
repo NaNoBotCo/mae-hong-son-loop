@@ -2,7 +2,7 @@
 """build.py — records + harvests → build/api.
 
 Everything the site renders is computed here and written as JSON, so the API a reader or
-a bot can fetch is the same data the pages are made from. Nothing is computed twice.
+a bot can fetch is the same data the pages are made from. Each figure is computed once.
 
     python3 tools/build.py
 """
@@ -19,8 +19,8 @@ from common import (BUILD, HARVEST, TYPES, jdump, jload, load_harvest, load_node
 
 API = BUILD / "api"
 
-# Clockwise order of the circuit. The counter-clockwise itinerary is this, reversed, with
-# each leg's `ccw` prose swapped in — the site never stores the route twice.
+# Clockwise order of the circuit. The counter-clockwise itinerary is this list reversed,
+# with each leg's `ccw` prose swapped in, so the route is held once.
 CW = ["cnx-to-pai", "pai-to-soppong", "soppong-to-mhs", "mhs-to-khun-yuam",
       "khun-yuam-to-mae-sariang", "mae-sariang-to-hot", "hot-to-cnx"]
 OPTIONAL = ["the-1263-cut", "samoeng-warmup"]
@@ -32,8 +32,8 @@ def merge_new_sources() -> dict:
 
 
 def attach_geometry(recs, roads):
-    """Give every leg and road its drawn line, from the harvest, at build time. A record
-    never stores geometry it did not author."""
+    """Give every leg and road its drawn line, from the harvest, at build time. Geometry
+    lives in the harvest file; a record names the route numbers and gets the line here."""
     for r in recs:
         rt = r.get("route")
         if not rt:

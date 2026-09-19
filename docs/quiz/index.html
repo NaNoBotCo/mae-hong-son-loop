@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Which ride is yours? — The Mae Hong Son Loop</title>
+<meta name="description" content="Seven questions. Sixteen possible answers. Nobody gets the same loop.">
+<link rel="canonical" href="https://nanobotco.github.io/mae-hong-son-loop/quiz/">
+<link rel="alternate" hreflang="en" href="https://nanobotco.github.io/mae-hong-son-loop/quiz/">
+<link rel="alternate" hreflang="th" href="https://nanobotco.github.io/mae-hong-son-loop/th/quiz/">
+<meta property="og:title" content="Which ride is yours? — The Mae Hong Son Loop">
+<meta property="og:description" content="Seven questions. Sixteen possible answers. Nobody gets the same loop.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nanobotco.github.io/mae-hong-son-loop/quiz/">
+<meta property="og:site_name" content="The Mae Hong Son Loop">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="alternate" type="application/atom+xml" href="../feed.xml">
+<style>
+:root{
+ --bg:#fdfbf4;--panel:#ffffff;--ink:#17110c;--mute:#6a5a49;--line:#e6dcc8;--chip:#f4ecd8;
+ --hot:#e0322b;--road:#2a2118;--sun:#f0a500;--jade:#00806a;--sky:#0a66c2;--plum:#7b2d8e;
+ --focus:#0a4fd1;--shadow:rgba(30,20,10,.10);
+ --g:#00806a;--b:#a87500;--h:#e0662b;--r:#c81e5a;
+ --aq1:#00897b;--aq2:#b58300;--aq3:#dd6b20;--aq4:#d32f2f;--aq5:#7b2d8e;--aq6:#6d1b2e;
+ --display:"Avenir Next Condensed","HelveticaNeue-CondensedBold","Arial Narrow Bold",
+   "Haettenschweiler","Franklin Gothic Heavy",Impact,system-ui,sans-serif;
+ --body:"Avenir Next",Avenir,"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;
+ --thai:"Noto Sans Thai","Leelawadee UI","Thonburi","Sukhumvit Set","Krungthep",Tahoma,sans-serif;
+ --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+ --bg:#12100d;--panel:#1c1813;--ink:#f6eee0;--mute:#b6a48c;--line:#332b21;--chip:#2a2218;
+ --hot:#ff6b5e;--road:#e8dcc8;--sun:#ffc23d;--jade:#2fc9a8;--sky:#6cb4ff;--plum:#d091e8;
+ --focus:#8ab4f8;--shadow:rgba(0,0,0,.5);
+ --g:#2fc9a8;--b:#e3b53d;--h:#ff9a5c;--r:#ff6b96;
+ --aq1:#2fc9a8;--aq2:#e3b53d;--aq3:#ff9a5c;--aq4:#ff6b6b;--aq5:#d091e8;--aq6:#e88ba0;}}
+:root[data-theme="dark"]{
+ --bg:#12100d;--panel:#1c1813;--ink:#f6eee0;--mute:#b6a48c;--line:#332b21;--chip:#2a2218;
+ --hot:#ff6b5e;--road:#e8dcc8;--sun:#ffc23d;--jade:#2fc9a8;--sky:#6cb4ff;--plum:#d091e8;
+ --focus:#8ab4f8;--shadow:rgba(0,0,0,.5);
+ --g:#2fc9a8;--b:#e3b53d;--h:#ff9a5c;--r:#ff6b96;
+ --aq1:#2fc9a8;--aq2:#e3b53d;--aq3:#ff9a5c;--aq4:#ff6b6b;--aq5:#d091e8;--aq6:#e88ba0;}
+*{box-sizing:border-box}
+html{font-size:18px;scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);line-height:1.6;
+ -webkit-text-size-adjust:100%}
+:lang(th),.th{font-family:var(--thai);line-height:1.85}
+a{color:var(--hot);text-decoration-thickness:.08em;text-underline-offset:.18em}
+a:hover{color:var(--plum)}
+a:focus-visible,button:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:5px}
+img{max-width:100%;height:auto}
+
+/* ---- frame */
+header.top{border-bottom:2px solid var(--ink);position:sticky;top:0;z-index:30;background:var(--bg)}
+header.top .in{max-width:68rem;margin:0 auto;padding:.5rem 1rem;display:flex;gap:.5rem 1rem;
+ align-items:center;flex-wrap:wrap}
+.brand{font-family:var(--display);font-weight:800;font-size:1.22rem;letter-spacing:.01em;
+ text-transform:uppercase;text-decoration:none;color:var(--ink);white-space:nowrap}
+.brand b{color:var(--hot)}
+header.top nav{display:flex;gap:.1rem .62rem;flex-wrap:wrap;font-size:.74rem;
+ text-transform:uppercase;letter-spacing:.06em;font-weight:700}
+header.top nav a{text-decoration:none;color:var(--mute);padding:.15rem 0}
+header.top nav a:hover,header.top nav a[aria-current]{color:var(--ink);box-shadow:inset 0 -3px 0 var(--hot)}
+.langsw{margin-left:auto;font-size:.76rem;font-weight:800;letter-spacing:.08em}
+.langsw a{text-decoration:none;padding:.18rem .45rem;border:2px solid var(--line);border-radius:99px;color:var(--mute)}
+.langsw a[aria-current]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+main{max-width:68rem;margin:0 auto;padding:1rem 1rem 5rem}
+footer.bot{border-top:2px solid var(--line);margin-top:3rem}
+footer.bot .in{max-width:68rem;margin:0 auto;padding:1.4rem 1rem 3rem;font-size:.82rem;color:var(--mute)}
+footer.bot a{color:var(--mute)}
+
+/* ---- type */
+h1{font-family:var(--display);font-size:clamp(2.1rem,6.5vw,4rem);line-height:.97;margin:.4rem 0 .3rem;
+ font-weight:800;letter-spacing:-.01em;text-transform:uppercase}
+h1 .kind{display:block;font-size:clamp(.6rem,1.6vw,.72rem);color:var(--hot);letter-spacing:.3em;
+ margin-bottom:.55rem;font-weight:800}
+h2{font-family:var(--display);font-size:clamp(1.3rem,3vw,1.75rem);margin:2.2rem 0 .5rem;font-weight:800;
+ text-transform:uppercase;letter-spacing:.005em;border-bottom:3px solid var(--ink);padding-bottom:.2rem}
+h3{font-family:var(--display);font-size:1.1rem;margin:1.3rem 0 .3rem;font-weight:800;text-transform:uppercase}
+.lede{font-size:clamp(1.05rem,2.3vw,1.28rem);max-width:42rem;margin:.4rem 0 1rem}
+.said{font-style:italic;color:var(--mute);max-width:40rem;margin:.2rem 0 1rem;font-size:1.02rem}
+.mute{color:var(--mute)}.small{font-size:.82rem}
+p{margin:.6rem 0;max-width:42rem}
+.prose p{margin:.85rem 0}
+.prose strong{background:linear-gradient(transparent 62%,color-mix(in srgb,var(--sun) 55%,transparent) 62%)}
+mark.inf{background:none;color:var(--mute);font-style:italic}
+
+/* ---- the big numbers */
+/* Cells carry their own rules, so an unfilled grid cell is background rather than a
+   bright hairline — auto-fit leaves gaps and `background:var(--ink)` on the container
+   renders those gaps light in dark mode. */
+.slab{display:grid;grid-template-columns:repeat(auto-fit,minmax(8.5rem,1fr));
+ border:3px solid var(--ink);margin:1.2rem 0;background:var(--bg)}
+.slab div{padding:.75rem .8rem;border-right:3px solid var(--ink);border-bottom:3px solid var(--ink)}
+.slab b{display:block;font-family:var(--display);font-size:clamp(1.9rem,5.5vw,2.9rem);line-height:.92;
+ font-weight:800;color:var(--hot)}
+.slab span{display:block;font-size:.68rem;text-transform:uppercase;letter-spacing:.14em;
+ color:var(--mute);font-weight:800;margin-top:.25rem}
+.slab .th{font-size:.66rem;letter-spacing:.02em}
+.slab div:last-child{border-right:0}
+
+/* ---- direction switch */
+.dirsw{display:flex;gap:0;border:3px solid var(--ink);margin:1rem 0;max-width:34rem;overflow:hidden}
+.dirsw button{flex:1;font-family:var(--display);font-size:1rem;font-weight:800;text-transform:uppercase;
+ letter-spacing:.07em;padding:.7rem .5rem;border:0;background:var(--bg);color:var(--mute);cursor:pointer;
+ border-right:3px solid var(--ink)}
+.dirsw button:last-child{border-right:0}
+.dirsw button[aria-pressed="true"]{background:var(--hot);color:#fff}
+.dirnote{font-size:.9rem;color:var(--mute);margin:.2rem 0 1rem;max-width:40rem}
+
+/* ---- pictures */
+figure.shot{margin:1.2rem 0;border:3px solid var(--ink);background:var(--panel)}
+figure.shot img{display:block;width:100%;height:auto}
+figure.shot figcaption{padding:.5rem .8rem;font-size:.74rem;color:var(--mute);border-top:2px solid var(--line)}
+figure.shot figcaption a{color:var(--mute)}
+.hero-shot{position:relative;border:3px solid var(--ink);margin:1rem 0;overflow:hidden;background:var(--panel)}
+.hero-shot img{display:block;width:100%;height:clamp(180px,32vw,340px);object-fit:cover}
+.hero-shot .cap{position:absolute;right:0;bottom:0;background:var(--bg);color:var(--mute);
+ font-size:.66rem;padding:.2rem .45rem;border-top:2px solid var(--ink);border-left:2px solid var(--ink);max-width:70%}
+.hero-shot .cap a{color:var(--mute)}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:3px;
+ border:3px solid var(--ink);margin:1.2rem 0;background:var(--ink)}
+.strip figure{margin:0;position:relative;background:var(--panel)}
+.strip img{display:block;width:100%;height:clamp(96px,13vw,150px);object-fit:cover}
+.strip figcaption{position:absolute;left:0;right:0;bottom:0;font-size:.6rem;padding:.16rem .3rem;
+ background:color-mix(in srgb,var(--bg) 86%,transparent);color:var(--mute);line-height:1.3}
+.strip figcaption a{color:var(--mute)}
+.card figure.thumb{margin:-.8rem -.9rem .6rem;border-bottom:2px solid var(--line)}
+.card figure.thumb img{display:block;width:100%;height:120px;object-fit:cover}
+@media print{figure.shot img,.hero-shot img,.strip img{max-height:140px}}
+
+/* ---- maps */
+figure.map{margin:1.2rem 0;border:3px solid var(--ink);background:var(--panel);overflow:hidden}
+figure.map svg{display:block;width:100%;height:auto;background:var(--panel)}
+figure.map figcaption{padding:.55rem .8rem;font-size:.78rem;color:var(--mute);border-top:2px solid var(--line)}
+.road{fill:none;stroke:var(--line);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
+.road-on{fill:none;stroke:var(--road);stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round;opacity:.85}
+.hilite{fill:none;stroke:var(--hot);stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
+.dm{fill:none;stroke-width:6.5;stroke-linecap:round;stroke-linejoin:round}
+.dm-g{stroke:var(--g)}.dm-b{stroke:var(--b)}.dm-h{stroke:var(--h)}.dm-r{stroke:var(--r)}
+.dot{fill:var(--ink);stroke:var(--panel);stroke-width:1.6}
+.dot.town{fill:var(--hot);stroke-width:2.2}
+.dot.wat{fill:var(--sun)}.dot.coffee{fill:#8a5a2b}.dot.spring{fill:var(--sky)}
+.dot.stay{fill:var(--plum)}.dot.viewpoint{fill:var(--jade)}.dot.fuel{fill:var(--ink)}
+.lbl{font-family:var(--display);font-size:11.5px;font-weight:800;fill:var(--ink);
+ paint-order:stroke;stroke:var(--panel);stroke-width:3.5px;text-transform:uppercase}
+.scale line{stroke:var(--mute);stroke-width:1.6}
+.scale text{font-size:10px;fill:var(--mute);text-anchor:middle;font-family:var(--body)}
+.legend{display:flex;gap:.3rem .95rem;flex-wrap:wrap;font-size:.76rem;color:var(--mute);margin:.5rem 0}
+.legend i{display:inline-block;width:1.4rem;height:.42rem;border-radius:2px;vertical-align:.08em;margin-right:.3rem}
+
+/* ---- cards / directory */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(16.5rem,1fr));gap:.9rem;margin:1rem 0}
+.card{border:2px solid var(--line);background:var(--panel);padding:.8rem .9rem;position:relative}
+.card:hover{border-color:var(--ink);box-shadow:4px 4px 0 var(--shadow)}
+.card h3{margin:.1rem 0 .2rem;font-size:1.02rem}
+.card h3 a{text-decoration:none;color:var(--ink)}.card h3 a:hover{color:var(--hot)}
+.card .th{font-size:.86rem;color:var(--mute);margin:0 0 .3rem}
+.card p{font-size:.86rem;margin:.25rem 0;max-width:none}
+.card .n{position:absolute;top:.5rem;right:.7rem;font-family:var(--display);font-size:1.5rem;
+ color:var(--line);font-weight:800}
+.tags{display:flex;gap:.3rem;flex-wrap:wrap;margin:.4rem 0 0}
+.tag{font-size:.66rem;text-transform:uppercase;letter-spacing:.09em;font-weight:800;background:var(--chip);
+ color:var(--mute);padding:.13rem .42rem;border-radius:3px}
+.tag.hot{background:var(--hot);color:#fff}
+.tag.g{background:var(--g);color:#fff}.tag.b{background:var(--b);color:#fff}
+.tag.h{background:var(--h);color:#fff}.tag.r{background:var(--r);color:#fff}
+
+/* ---- leg strip */
+ol.legs{list-style:none;padding:0;margin:1rem 0;counter-reset:l}
+ol.legs li{border-left:5px solid var(--hot);padding:.55rem 0 .7rem .85rem;margin:0 0 .5rem;
+ background:linear-gradient(90deg,color-mix(in srgb,var(--hot) 7%,transparent),transparent 40%)}
+ol.legs .hd{display:flex;gap:.6rem;align-items:baseline;flex-wrap:wrap}
+ol.legs .hd a{font-family:var(--display);font-size:1.15rem;font-weight:800;text-decoration:none;
+ color:var(--ink);text-transform:uppercase}
+ol.legs .hd a:hover{color:var(--hot)}
+ol.legs .num{font-family:var(--display);font-weight:800;color:var(--hot);font-size:1.15rem}
+ol.legs .meta{font-size:.78rem;color:var(--mute);font-weight:700;letter-spacing:.04em}
+ol.legs p{font-size:.9rem;margin:.25rem 0 0}
+
+/* ---- air */
+.months{display:grid;grid-template-columns:repeat(12,1fr);gap:2px;margin:.4rem 0}
+.months div{text-align:center;padding:.4rem .1rem;font-size:.62rem;font-weight:800;color:#fff;
+ font-family:var(--mono)}
+.months .m{font-size:.56rem;opacity:.85;display:block;letter-spacing:.02em}
+.aq1{background:var(--aq1)}.aq2{background:var(--aq2)}.aq3{background:var(--aq3)}
+.aq4{background:var(--aq4)}.aq5{background:var(--aq5)}.aq6{background:var(--aq6)}
+table{border-collapse:collapse;width:100%;font-size:.85rem;margin:.8rem 0}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+th,td{text-align:left;padding:.35rem .55rem;border-bottom:1px solid var(--line)}
+th{font-size:.7rem;text-transform:uppercase;letter-spacing:.09em;color:var(--mute);
+ border-bottom:2px solid var(--ink)}
+td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+tbody tr:hover{background:var(--chip)}
+.spark path{fill:none;stroke:var(--hot);stroke-width:2}
+
+/* ---- provenance */
+.tier{font-size:.64rem;text-transform:uppercase;letter-spacing:.1em;font-weight:800;padding:.12rem .4rem;
+ border-radius:3px;background:var(--chip);color:var(--mute)}
+.tier.cited{background:var(--jade);color:#fff}
+.tier.harvested{background:var(--sky);color:#fff}
+.tier.inference{background:var(--plum);color:#fff}
+.tier.tradition{background:var(--b);color:#fff}
+.tier.field{background:var(--hot);color:#fff}
+details{border:2px solid var(--line);padding:.5rem .7rem;margin:1rem 0;background:var(--panel)}
+details summary{cursor:pointer;font-weight:800;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em}
+details[open] summary{margin-bottom:.5rem}
+.warn{border-left:5px solid var(--sun);background:var(--chip);padding:.6rem .8rem;margin:1rem 0;font-size:.9rem}
+.warn strong{color:var(--ink)}
+
+/* ---- kin */
+ul.kin{list-style:none;padding:0;margin:.5rem 0}
+ul.kin li{padding:.3rem 0;border-bottom:1px solid var(--line);font-size:.9rem}
+ul.kin a{font-weight:700}
+ul.kin .rel{font-size:.62rem;text-transform:uppercase;letter-spacing:.1em;color:var(--mute);
+ font-weight:800;margin-right:.4rem}
+
+/* ---- share + quiz */
+.share{display:flex;gap:.45rem;flex-wrap:wrap;margin:1.2rem 0}
+.share a,.share button{font-size:.76rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em;
+ padding:.45rem .75rem;border:2px solid var(--ink);background:var(--bg);color:var(--ink);
+ text-decoration:none;cursor:pointer;border-radius:0}
+.share a:hover,.share button:hover{background:var(--ink);color:var(--bg)}
+fieldset{border:2px solid var(--line);margin:1rem 0;padding:.7rem .9rem}
+legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-size:.95rem;padding:0 .4rem}
+.opts{display:grid;gap:.35rem}
+.opts label{display:flex;gap:.5rem;align-items:flex-start;padding:.4rem .5rem;border:2px solid transparent;
+ cursor:pointer;font-size:.92rem}
+.opts label:hover{background:var(--chip)}
+.opts input:checked+span{font-weight:800}
+.opts label:has(input:checked){border-color:var(--hot);background:var(--chip)}
+.result{border:3px solid var(--ink);padding:1rem;margin:1.2rem 0;background:var(--panel)}
+.result h2{margin-top:0;border:0;color:var(--hot)}
+.btn{display:inline-block;font-family:var(--display);font-size:1.05rem;font-weight:800;
+ text-transform:uppercase;letter-spacing:.06em;padding:.6rem 1.1rem;background:var(--hot);color:#fff;
+ text-decoration:none;border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink)}
+.btn:hover{color:#fff;transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
+.btn.alt{background:var(--bg);color:var(--ink)}
+.btns{display:flex;gap:.8rem;flex-wrap:wrap;margin:1.2rem 0}
+
+/* ---- misc */
+.cols{columns:2 15rem;column-gap:2rem}
+.cols a{display:block;padding:.12rem 0;font-size:.92rem}
+.hr{border:0;border-top:3px solid var(--ink);margin:2rem 0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media print{
+ header.top,footer.bot,.share,.dirsw,.btns{display:none}
+ body{background:#fff;color:#000;font-size:11pt}
+ main{max-width:none;padding:0}
+ .card,figure.map{break-inside:avoid;border-color:#000}
+ h1{font-size:22pt}h2{font-size:14pt;margin-top:1rem}
+ a{color:#000;text-decoration:none}
+ .slab b{color:#000}
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+ var R={"four-days-both-ways": {"name": "Four days, the classic", "say": "The whole circuit, unhurried, with a night in each of the towns that deserves one.", "how": "Chiang Mai → Pai → Soppong → Mae Hong Son (two nights) → Mae Sariang → home. Clockwise unless you are collecting an unfamiliar rental, in which case go the other way and learn the bike on Route 108 first.", "dir": "cw", "layer": "plan", "legs": [{"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}, {"u": "leg/pai-to-soppong/", "n": "Pai to Soppong"}, {"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}, {"u": "leg/mhs-to-khun-yuam/", "n": "Mae Hong Son to Khun Yuam"}, {"u": "leg/khun-yuam-to-mae-sariang/", "n": "Khun Yuam to Mae Sariang"}, {"u": "leg/mae-sariang-to-hot/", "n": "Mae Sariang to Hot"}, {"u": "leg/hot-to-cnx/", "n": "Hot to Chiang Mai"}], "see": [{"u": "story/which-way-round/", "n": "Clockwise or counter-clockwise"}, {"u": "road/route-1095/", "n": "Route 1095"}, {"u": "wat/doi-kong-mu/", "n": "Wat Phra That Doi Kong Mu"}, {"u": "kit/packing-light/", "n": "What actually fits"}]}, "click-run": {"name": "The Click run", "say": "A 110 automatic goes all the way round. Thousands do it a year. The transmission is the thing to plan around, not the engine.", "how": "Four or five days, clockwise, and every long descent taken in stages with a two-minute stop to let the brakes cool. Skip Route 1263 entirely. Fill up at every town.", "dir": "cw", "layer": "plan", "legs": [{"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}, {"u": "leg/pai-to-soppong/", "n": "Pai to Soppong"}, {"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}, {"u": "leg/mhs-to-khun-yuam/", "n": "Mae Hong Son to Khun Yuam"}, {"u": "leg/khun-yuam-to-mae-sariang/", "n": "Khun Yuam to Mae Sariang"}, {"u": "leg/mae-sariang-to-hot/", "n": "Mae Sariang to Hot"}, {"u": "leg/hot-to-cnx/", "n": "Hot to Chiang Mai"}], "see": [{"u": "bike/step-through-110/", "n": "The 110–125 step-through"}, {"u": "hazard/brake-fade/", "n": "Brake fade"}, {"u": "term/engine-braking/", "n": "Engine braking"}, {"u": "term/gasohol/", "n": "Gasohol 91 and 95"}]}, "three-day-blast": {"name": "Three days, no stopping", "say": "You came for the corners and you know what you are doing. Fine — but the mistakes on this road happen in the last hour of a long day.", "how": "Chiang Mai → Mae Hong Son in one, Mae Hong Son → Mae Sariang, Mae Sariang → home. Or take the 1263 and make it a tighter triangle. Start at six, not nine.", "dir": "cw", "layer": "plan", "legs": [{"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}, {"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}, {"u": "leg/mhs-to-khun-yuam/", "n": "Mae Hong Son to Khun Yuam"}, {"u": "leg/mae-sariang-to-hot/", "n": "Mae Sariang to Hot"}], "see": [{"u": "road/route-1095/", "n": "Route 1095"}, {"u": "road/route-1263/", "n": "Route 1263"}, {"u": "hazard/night-riding/", "n": "Riding after dark"}, {"u": "story/how-many-curves/", "n": "How many curves, actually"}]}, "the-1263-cut-plan": {"name": "Take the 1263", "say": "The densest curves measured on this network after the Samoeng road, no town in the middle, and nobody coming past for a while.", "how": "Khun Yuam east to Mae Chaem, in the dry, before noon, full tank, and not alone if you can arrange it. In the rains, do not.", "dir": "cw", "layer": "overlay", "legs": [{"u": "leg/the-1263-cut/", "n": "The 1263 cut"}, {"u": "leg/mhs-to-khun-yuam/", "n": "Mae Hong Son to Khun Yuam"}, {"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}], "see": [{"u": "road/route-1263/", "n": "Route 1263"}, {"u": "bike/trail-250/", "n": "The 250–450 trail bike"}, {"u": "event/the-rains/", "n": "The rains"}, {"u": "term/gasohol/", "n": "Gasohol 91 and 95"}]}, "big-bike-ccw": {"name": "Big bike, counter-clockwise", "say": "Nothing here is beyond a big adventure bike. The arithmetic is about fatigue and U-turns, not capability.", "how": "Go counter-clockwise: a long easy first day on Route 108 to learn a heavy loaded bike, and the technical 1095 descent last, done in the morning with the sun behind you. Reverse into steep driveways.", "dir": "ccw", "layer": "plan", "legs": [{"u": "leg/hot-to-cnx/", "n": "Hot to Chiang Mai"}, {"u": "leg/mae-sariang-to-hot/", "n": "Mae Sariang to Hot"}, {"u": "leg/khun-yuam-to-mae-sariang/", "n": "Khun Yuam to Mae Sariang"}, {"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}, {"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}], "see": [{"u": "bike/big-adventure/", "n": "The 700cc-and-up adventure bike"}, {"u": "hazard/steep-driveways/", "n": "The guesthouse driveway"}, {"u": "hazard/low-sun/", "n": "The low sun"}, {"u": "story/which-way-round/", "n": "Clockwise or counter-clockwise"}]}, "samoeng-first": {"name": "Ride Samoeng first", "say": "One day, a hundred kilometres from your hotel, on the densest curves measured anywhere on this network. It will tell you whether four days of it is a holiday.", "how": "Chiang Mai → Mae Rim → Route 1096 → Samoeng → back. Do it on the bike you have just rented, with your luggage still in the room. Then decide.", "dir": "cw", "layer": "overlay", "legs": [{"u": "leg/samoeng-warmup/", "n": "The Samoeng warm-up"}], "see": [{"u": "road/route-1096/", "n": "Route 1096"}, {"u": "kit/renting-a-bike/", "n": "Renting the bike"}, {"u": "hazard/brake-fade/", "n": "Brake fade"}, {"u": "kit/gear/", "n": "What to wear"}]}, "pai-and-back": {"name": "Pai and back — don't do the loop", "say": "The best part of the road is the part you were going to ride anyway. Ride it, stay two nights, ride it back.", "how": "Chiang Mai → Pai, two or three nights, and back the same way. 395 curves each way. Nobody will think less of you and you will not be riding tired.", "dir": "cw", "layer": "plan", "legs": [{"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}], "see": [{"u": "town/pai/", "n": "Pai"}, {"u": "road/route-1095/", "n": "Route 1095"}, {"u": "stop/pai-canyon/", "n": "Pai Canyon"}, {"u": "hazard/brake-fade/", "n": "Brake fade"}]}, "pillion-plan": {"name": "Two up", "say": "A pillion is not luggage. Three things change and all three are worse on a descent.", "how": "Plan about two-thirds the distance a solo rider would. Five days, not four. Tell the passenger where the next stop is, brake earlier than feels necessary, and buy them their own helmet and gloves rather than using the shop's spare.", "dir": "cw", "layer": "overlay", "legs": [{"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}, {"u": "leg/pai-to-soppong/", "n": "Pai to Soppong"}, {"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}, {"u": "leg/khun-yuam-to-mae-sariang/", "n": "Khun Yuam to Mae Sariang"}], "see": [{"u": "bike/on-the-back/", "n": "Riding on the back"}, {"u": "hazard/loaded-bike/", "n": "A loaded bike is a different bike"}, {"u": "kit/gear/", "n": "What to wear"}, {"u": "kit/packing-light/", "n": "What actually fits"}]}, "slow-coffee": {"name": "The slow loop", "say": "Six or seven days. The riding stops being the point and starts being the transport between the points.", "how": "Two nights in Pai, two in Mae Hong Son, one in Soppong for the cave, one in Mae Sariang. Ride mornings, stop at two. This is the only version that gets you Pang Ung at dawn and Ban Rak Thai in the same trip.", "dir": "cw", "layer": "plan", "legs": [{"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}, {"u": "leg/pai-to-soppong/", "n": "Pai to Soppong"}, {"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}, {"u": "leg/mhs-to-khun-yuam/", "n": "Mae Hong Son to Khun Yuam"}, {"u": "leg/khun-yuam-to-mae-sariang/", "n": "Khun Yuam to Mae Sariang"}, {"u": "leg/mae-sariang-to-hot/", "n": "Mae Sariang to Hot"}, {"u": "leg/hot-to-cnx/", "n": "Hot to Chiang Mai"}], "see": [{"u": "stop/pang-ung/", "n": "Pang Ung"}, {"u": "stop/ban-rak-thai/", "n": "Ban Rak Thai"}, {"u": "stop/tham-lot/", "n": "Tham Lot"}, {"u": "town/soppong/", "n": "Soppong"}]}, "temples-and-tea": {"name": "Temples, people, markets", "say": "You are riding through a province whose majority culture, script and architecture come from the other side of a border drawn in the 1890s.", "how": "Two nights in Mae Hong Son — the lake temples after dark, the chedi on the hill before dawn. Ride Route 108 south slowly: the roadside villages between Khun Yuam and Mae Sariang are the point, not the scenery.", "dir": "cw", "layer": "plan", "legs": [{"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}, {"u": "leg/mhs-to-khun-yuam/", "n": "Mae Hong Son to Khun Yuam"}, {"u": "leg/khun-yuam-to-mae-sariang/", "n": "Khun Yuam to Mae Sariang"}], "see": [{"u": "wat/doi-kong-mu/", "n": "Wat Phra That Doi Kong Mu"}, {"u": "wat/chong-kham-chong-klang/", "n": "Wat Chong Kham and Wat Chong Klang"}, {"u": "person/shan/", "n": "The Shan"}, {"u": "person/karen/", "n": "The Karen"}, {"u": "story/kayan-question/", "n": "The villages that charge admission"}]}, "hot-spring-circuit": {"name": "Hot water every night", "say": "Geothermal water is scattered right along this circuit, and it is very good for a body that has done 400 curves.", "how": "Five or six days, unhurried. The harvested map on this site shows what OpenStreetMap has; the count is a floor, not a survey.", "dir": "cw", "layer": "plan", "legs": [{"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}, {"u": "leg/pai-to-soppong/", "n": "Pai to Soppong"}, {"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}, {"u": "leg/khun-yuam-to-mae-sariang/", "n": "Khun Yuam to Mae Sariang"}], "see": [{"u": "town/pai/", "n": "Pai"}, {"u": "town/mae-hong-son/", "n": "Mae Hong Son"}, {"u": "town/khun-yuam/", "n": "Khun Yuam"}]}, "smoke-contingency": {"name": "You are going in the smoke", "say": "March and April are the two months this ride has a reason not to happen. It is still rideable. The views are not.", "how": "Ride early, stop by two — the air is worst in the still afternoon. Carry a fitted FFP2 or N95 for under the helmet; a buff filters nothing at this particle size. Treat viewpoints as a bonus. If you have asthma, this is a medical decision, not a scheduling one. And check whether the dates can move to May, when Pai drops from 29.8 to 10.0 µg/m³.", "dir": "cw", "layer": "overlay", "legs": [{"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}, {"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}, {"u": "leg/khun-yuam-to-mae-sariang/", "n": "Khun Yuam to Mae Sariang"}], "see": [{"u": "story/the-smoke/", "n": "The smoke"}, {"u": "event/burning-season/", "n": "Burning season"}, {"u": "hazard/smoke-riding/", "n": "Riding in the smoke"}, {"u": "term/pm25/", "n": "PM2.5"}]}, "green-season-run": {"name": "The green run", "say": "The cleanest air of the year by a wide margin — Pai at 3.0 µg/m³ in July against 26.1 in March — green hills, running waterfalls, cheap rooms. You trade dry tarmac.", "how": "Counter-clockwise, so you learn the bike in the wet on the forgiving road first. Drop Route 1263. Finish each day by mid-afternoon — the rain is heavy and short. Expect a landslide repair somewhere.", "dir": "ccw", "layer": "overlay", "legs": [{"u": "leg/hot-to-cnx/", "n": "Hot to Chiang Mai"}, {"u": "leg/mae-sariang-to-hot/", "n": "Mae Sariang to Hot"}, {"u": "leg/khun-yuam-to-mae-sariang/", "n": "Khun Yuam to Mae Sariang"}, {"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}, {"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}], "see": [{"u": "event/the-rains/", "n": "The rains"}, {"u": "hazard/gravel-on-the-apex/", "n": "Gravel on the apex"}, {"u": "story/the-smoke/", "n": "The smoke"}, {"u": "story/which-way-round/", "n": "Clockwise or counter-clockwise"}]}, "send-the-bag": {"name": "Send the bag, ride light", "say": "Yes, a bag can travel separately. But this is a loop — it ends where it started — so for most people the cheaper answer is to leave it behind.", "how": "Leave the big bag with the rental shop or the guesthouse you are returning to, and get it written on the agreement. If it genuinely has to move: post, private courier, or the bus, which is the only one as fast as you are. Send two days early, address it to a named person who has agreed to receive it.", "dir": "cw", "layer": "overlay", "legs": [{"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}, {"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}], "see": [{"u": "kit/sending-the-bag-ahead/", "n": "Sending your bag ahead"}, {"u": "kit/packing-light/", "n": "What actually fits"}, {"u": "kit/renting-a-bike/", "n": "Renting the bike"}, {"u": "hazard/loaded-bike/", "n": "A loaded bike is a different bike"}]}, "one-way-plan": {"name": "One way out", "say": "Mae Hong Son has an airport. That single fact is what makes a one-way version possible — and it is the only case where forwarding a bag is clearly right.", "how": "A one-way rental is a negotiation, not a product, and the fee is usually the cost of somebody driving the bike back. Have that conversation before booking the flight, not after.", "dir": "cw", "layer": "overlay", "legs": [{"u": "leg/cnx-to-pai/", "n": "Chiang Mai to Pai"}, {"u": "leg/pai-to-soppong/", "n": "Pai to Soppong"}, {"u": "leg/soppong-to-mhs/", "n": "Soppong to Mae Hong Son"}], "see": [{"u": "kit/one-way-rental/", "n": "Not coming back to Chiang Mai"}, {"u": "kit/sending-the-bag-ahead/", "n": "Sending your bag ahead"}, {"u": "town/mae-hong-son/", "n": "Mae Hong Son"}]}, "inthanon-addon": {"name": "Add Doi Inthanon", "say": "The highest ground in Thailand is one turn off the loop, and it is a full extra day to do properly.", "how": "Either from Chom Thong on Route 108 near the end of a clockwise loop, or — better — over Route 1088 from Mae Chaem if you have taken the 1263 cut. The Mae Chaem side is the quiet approach. A rushed half-day gets you a car park in cloud.", "dir": "cw", "layer": "overlay", "legs": [{"u": "leg/the-1263-cut/", "n": "The 1263 cut"}, {"u": "leg/hot-to-cnx/", "n": "Hot to Chiang Mai"}], "see": [{"u": "stop/doi-inthanon/", "n": "Doi Inthanon"}, {"u": "road/route-1088/", "n": "Route 1088"}, {"u": "town/mae-chaem/", "n": "Mae Chaem"}]}, "take-the-bus": {"name": "Don't ride it", "say": "This is a real answer and it is on this page on purpose. Six hundred kilometres of mountain road is not the place to find out whether you like motorcycles.", "how": "Minibuses and buses run Chiang Mai–Pai–Mae Hong Son all day and the road is the same road from a seat. Or ride the Samoeng day first and decide afterwards — that is one day and it answers the question honestly.", "dir": "cw", "layer": "plan", "legs": [{"u": "leg/samoeng-warmup/", "n": "The Samoeng warm-up"}], "see": [{"u": "leg/samoeng-warmup/", "n": "The Samoeng warm-up"}, {"u": "term/songthaew/", "n": "Songthaew"}, {"u": "road/route-1096/", "n": "Route 1096"}]}, "_base": "../", "_url": "https://nanobotco.github.io/mae-hong-son-loop/quiz/", "_th": 5, "_n": 7, "_ui": {"legs": "Your legs", "see": "Read these", "dir": "Direction", "cw": "Clockwise", "ccw": "Counter-clockwise", "copy": "Copy link", "print": "Print", "also": "Also close:", "more": "%n question(s) left — the answer sharpens as you go."}};
+ var form=document.getElementById('quiz'),out=document.getElementById('out');
+ function block(r,over){
+  var h='<div class="result"><h2>'+(over?'&#9656; ':'')+r.name+'</h2><p class="lede">'+r.say+'</p><p>'+r.how+'</p>';
+  if(r.legs&&r.legs.length){h+='<h3>'+R._ui.legs+'</h3><ol class="legs">'+
+    r.legs.map(function(l,i){return '<li><div class="hd"><span class="num">'+(i+1)+
+      '.</span><a href="'+R._base+l.u+'">'+l.n+'</a></div></li>'}).join('')+'</ol>'}
+  if(r.see&&r.see.length){h+='<h3>'+R._ui.see+'</h3><div class="tags">'+
+    r.see.map(function(x){return '<a class="tag" href="'+R._base+x.u+'">'+x.n+'</a>'}).join('')+'</div>'}
+  if(!over){h+='<p class="small mute">'+R._ui.dir+': <b>'+(r.dir==='ccw'?R._ui.ccw:R._ui.cw)+'</b></p>'}
+  return h+'</div>';
+ }
+ function score(){
+  var s={},answered=form.querySelectorAll('input:checked').length;
+  Array.prototype.forEach.call(form.querySelectorAll('input:checked'),function(i){
+    var w=JSON.parse(i.dataset.s);
+    for(var k in w){s[k]=(s[k]||0)+w[k]}});
+  if(!answered){out.innerHTML='';return}
+  var plans=[],overs=[];
+  for(var k in s){ if(!R[k])continue;
+    (R[k].layer==='overlay'?overs:plans).push([k,s[k]]) }
+  plans.sort(function(a,b){return b[1]-a[1]});
+  overs.sort(function(a,b){return b[1]-a[1]});
+  var h='';
+  if(plans.length){h+=block(R[plans[0][0]],false)}
+  overs.filter(function(o){return o[1]>=R._th}).slice(0,3).forEach(function(o){
+    h+=block(R[o[0]],true)});
+  var alt=plans.slice(1,3).filter(function(p){return plans[0]&&p[1]>=plans[0][1]*0.6});
+  if(alt.length){h+='<p class="small mute">'+R._ui.also+' '+alt.map(function(p){
+    return '<b>'+R[p[0]].name+'</b>'}).join(', ')+'</p>'}
+  h+='<div class="share"><button type="button" data-copy="'+R._url+'?r='+(plans[0]||[''])[0]+
+     '">'+R._ui.copy+'</button><button type="button" onclick="window.print()">'+R._ui.print+'</button></div>';
+  if(answered<R._n){h+='<p class="small mute">'+R._ui.more.replace('%n',R._n-answered)+'</p>'}
+  out.innerHTML=h;
+  Array.prototype.forEach.call(out.querySelectorAll('[data-copy]'),function(b){
+    b.addEventListener('click',function(){navigator.clipboard&&navigator.clipboard.writeText(b.dataset.copy);
+      var t=b.textContent;b.textContent='✓';setTimeout(function(){b.textContent=t},1200)})});
+ }
+ form.addEventListener('change',score);
+ var pre=new URLSearchParams(location.search).get('r');
+ if(pre&&R[pre]){out.innerHTML=block(R[pre],false)}
+});
+</script>
+
+<script type="application/ld+json">[]</script>
+<script defer src="../copy.js"></script>
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a>
+<header class="top"><div class="in">
+<a class="brand" href="../">Mae Hong Son <b>Loop</b></a>
+<nav><a href="../">The loop</a><a href="../legs/">Legs</a><a href="../which-way/">Which way</a><a href="../numbers/">Numbers</a><a href="../air/">Air</a><a href="../danger/">Danger</a><a href="../quiz/" aria-current="page">Which ride</a><a href="../roadbook/">Roadbook</a></nav>
+<span class="langsw">
+<a href="../" aria-current="true" hreflang="en">EN</a>
+<a href="../th/"  hreflang="th">ไทย</a>
+</span>
+</div></header>
+<main id="main">
+<h1><span class="kind">17 possible answers</span>Which ride is yours?</h1><p class="lede">Seven questions. Sixteen possible answers. Nobody gets the same loop.</p><form id="quiz"><fieldset><legend>1. What will you actually be on?</legend><div class="opts"><label><input type="radio" name="q0" value="0" data-s="{&quot;click-run&quot;: 5, &quot;pai-and-back&quot;: 3, &quot;slow-coffee&quot;: 2, &quot;send-the-bag&quot;: 1}"><span>A 110–160 automatic scooter — whatever the shop hands me</span></label><label><input type="radio" name="q0" value="1" data-s="{&quot;four-days-both-ways&quot;: 4, &quot;click-run&quot;: 2, &quot;temples-and-tea&quot;: 2, &quot;hot-spring-circuit&quot;: 2}"><span>A geared 125 — a Wave, a Dream, something with a gearbox</span></label><label><input type="radio" name="q0" value="2" data-s="{&quot;the-1263-cut-plan&quot;: 5, &quot;three-day-blast&quot;: 3}"><span>A 250–450 trail bike</span></label><label><input type="radio" name="q0" value="3" data-s="{&quot;big-bike-ccw&quot;: 5, &quot;three-day-blast&quot;: 3}"><span>A 400–700 twin, or something bigger</span></label><label><input type="radio" name="q0" value="4" data-s="{&quot;pillion-plan&quot;: 6, &quot;slow-coffee&quot;: 2, &quot;temples-and-tea&quot;: 2}"><span>I&#x27;m on the back</span></label></div></fieldset><fieldset><legend>2. How much riding have you actually done?</legend><div class="opts"><label><input type="radio" name="q1" value="0" data-s="{&quot;samoeng-first&quot;: 6, &quot;pai-and-back&quot;: 4, &quot;take-the-bus&quot;: 3, &quot;click-run&quot;: 1}"><span>I learned this week</span></label><label><input type="radio" name="q1" value="1" data-s="{&quot;samoeng-first&quot;: 3, &quot;click-run&quot;: 2}"><span>I ride at home sometimes</span></label><label><input type="radio" name="q1" value="2" data-s="{&quot;big-bike-ccw&quot;: 3, &quot;samoeng-first&quot;: 2}"><span>I ride a lot, but never in Asia</span></label><label><input type="radio" name="q1" value="3" data-s="{&quot;the-1263-cut-plan&quot;: 4, &quot;three-day-blast&quot;: 4, &quot;inthanon-addon&quot;: 2}"><span>I ride here. This is my commute</span></label></div></fieldset><fieldset><legend>3. How many days have you got?</legend><div class="opts"><label><input type="radio" name="q2" value="0" data-s="{&quot;pai-and-back&quot;: 5, &quot;samoeng-first&quot;: 4, &quot;take-the-bus&quot;: 2}"><span>One or two</span></label><label><input type="radio" name="q2" value="1" data-s="{&quot;three-day-blast&quot;: 4, &quot;the-1263-cut-plan&quot;: 4}"><span>Three</span></label><label><input type="radio" name="q2" value="2" data-s="{&quot;four-days-both-ways&quot;: 5, &quot;click-run&quot;: 3, &quot;big-bike-ccw&quot;: 2}"><span>Four</span></label><label><input type="radio" name="q2" value="3" data-s="{&quot;slow-coffee&quot;: 4, &quot;temples-and-tea&quot;: 3, &quot;inthanon-addon&quot;: 3, &quot;hot-spring-circuit&quot;: 3}"><span>Five to seven</span></label><label><input type="radio" name="q2" value="4" data-s="{&quot;slow-coffee&quot;: 5, &quot;hot-spring-circuit&quot;: 3, &quot;temples-and-tea&quot;: 3}"><span>More than a week</span></label></div></fieldset><fieldset><legend>4. What are you actually going for?</legend><div class="opts"><label><input type="radio" name="q3" value="0" data-s="{&quot;three-day-blast&quot;: 5, &quot;the-1263-cut-plan&quot;: 4, &quot;samoeng-first&quot;: 2}"><span>The corners. Only the corners</span></label><label><input type="radio" name="q3" value="1" data-s="{&quot;slow-coffee&quot;: 3, &quot;inthanon-addon&quot;: 2}"><span>Photographs and viewpoints</span></label><label><input type="radio" name="q3" value="2" data-s="{&quot;temples-and-tea&quot;: 6, &quot;slow-coffee&quot;: 2}"><span>Temples, people, markets</span></label><label><input type="radio" name="q3" value="3" data-s="{&quot;slow-coffee&quot;: 6, &quot;hot-spring-circuit&quot;: 2, &quot;pai-and-back&quot;: 2}"><span>Coffee, a hammock, nowhere to be</span></label><label><input type="radio" name="q3" value="4" data-s="{&quot;hot-spring-circuit&quot;: 6, &quot;slow-coffee&quot;: 2}"><span>Hot water at the end of the day</span></label></div></fieldset><fieldset><legend>5. When are you going?</legend><div class="opts"><label><input type="radio" name="q4" value="0" data-s="{&quot;temples-and-tea&quot;: 2, &quot;big-bike-ccw&quot;: 2}"><span>November to February — cool and dry</span></label><label><input type="radio" name="q4" value="1" data-s="{&quot;smoke-contingency&quot;: 7}"><span>March or April</span></label><label><input type="radio" name="q4" value="2" data-s="{&quot;green-season-run&quot;: 6, &quot;slow-coffee&quot;: 2}"><span>May to October — the green months</span></label><label><input type="radio" name="q4" value="3" data-s="{&quot;green-season-run&quot;: 3}"><span>Whenever is best</span></label></div></fieldset><fieldset><legend>6. What are you carrying?</legend><div class="opts"><label><input type="radio" name="q5" value="0" data-s="{&quot;three-day-blast&quot;: 2, &quot;click-run&quot;: 2}"><span>One small bag, that&#x27;s it</span></label><label><input type="radio" name="q5" value="1" data-s="{&quot;big-bike-ccw&quot;: 2}"><span>A pannier&#x27;s worth</span></label><label><input type="radio" name="q5" value="2" data-s="{&quot;send-the-bag&quot;: 6}"><span>A full suitcase I&#x27;d rather not strap on</span></label><label><input type="radio" name="q5" value="3" data-s="{&quot;send-the-bag&quot;: 5, &quot;one-way-plan&quot;: 6}"><span>I&#x27;m flying out of Mae Hong Son, not coming back</span></label></div></fieldset><fieldset><legend>7. A ten-kilometre descent, twenty hairpins, brakes getting warm. You…</legend><div class="opts"><label><input type="radio" name="q6" value="0" data-s="{&quot;three-day-blast&quot;: 4, &quot;the-1263-cut-plan&quot;: 4, &quot;big-bike-ccw&quot;: 2}"><span>Drop a gear and enjoy it</span></label><label><input type="radio" name="q6" value="1" data-s="{&quot;click-run&quot;: 3, &quot;slow-coffee&quot;: 2}"><span>Slow right down and stop halfway</span></label><label><input type="radio" name="q6" value="2" data-s="{&quot;samoeng-first&quot;: 6, &quot;take-the-bus&quot;: 3, &quot;pai-and-back&quot;: 2}"><span>What&#x27;s a hairpin?</span></label><label><input type="radio" name="q6" value="3" data-s="{&quot;take-the-bus&quot;: 7, &quot;pillion-plan&quot;: 3}"><span>I&#x27;d rather someone else was driving</span></label></div></fieldset></form><div id='out'></div><div class="warn">The weights are this project&#x27;s own opinion and they are printed in the JSON so you can disagree with them. Nothing you tick leaves this page. <a href="../api/quiz.json">quiz.json</a></div><div class="share"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//nanobotco.github.io/mae-hong-son-loop/quiz/" rel="noopener">Facebook</a><a href="https://line.me/R/msg/text/?Which%20ride%20is%20yours%3F%20https%3A//nanobotco.github.io/mae-hong-son-loop/quiz/" rel="noopener">LINE</a><a href="https://api.whatsapp.com/send?text=Which%20ride%20is%20yours%3F%20https%3A//nanobotco.github.io/mae-hong-son-loop/quiz/" rel="noopener">WhatsApp</a><a href="https://reddit.com/submit?url=https%3A//nanobotco.github.io/mae-hong-son-loop/quiz/&title=Which%20ride%20is%20yours%3F" rel="noopener">Reddit</a><a href="mailto:?subject=Which%20ride%20is%20yours%3F&body=https%3A//nanobotco.github.io/mae-hong-son-loop/quiz/">Email</a><button type="button" data-copy="https://nanobotco.github.io/mae-hong-son-loop/quiz/">Copy link</button><button type="button" onclick="window.print()">Print</button></div>
+</main>
+<footer class="bot"><div class="in">
+<p><b>The Mae Hong Son Loop</b> — 600 kilometres, 1,864 curves on the sign, and a different answer from the map</p>
+<p>Records CC BY 4.0. Road geometry and places © OpenStreetMap contributors, ODbL 1.0. Air data from Open-Meteo (CAMS), CC BY 4.0, and the Thai Pollution Control Department. Corpus text from Wikipedia, CC BY-SA 4.0.</p>
+<p><a href="../about/">How this was made</a> · <a href="../api/">API</a> · <a href="../all/">Everything</a> · <a href="../llms.txt">llms.txt</a></p>
+<div class="fleet">More from the same publisher: <a href="https://motdang.net/" title="city directory for Chiang Mai and Chiang Rai">Mot Dang</a> · <a href="https://wichaa.net/" title="Lanna manuscripts, the amulet market, and the traditions around them">wichaa</a> · <a href="https://nanobotco.github.io/amulet-atlas/" title="amulets, charms and talismans worldwide">Amulet Atlas</a> · <a href="https://nanobotco.github.io/carolina-barbecue/" title="barbecue in North and South Carolina">Carolina Barbecue</a> · <a href="https://nanobotco.github.io/buffalo-wings/" title="the American chicken wing">Wing Country</a> · <a href="https://nanobotco.github.io/pink-box/" title="the American mom-and-pop donut shop">Pink Box</a> · <a href="https://nanobotco.github.io/basque-tables/" title="Basque dining rooms of California, Nevada and Idaho">Basque Tables</a> · <a href="https://nanobotco.github.io/pinot-noir/" title="pinot noir: the vine, the regions, the cellars">Pinot Country</a> · <a href="https://nanobotco.github.io/care-abroad/" title="treatment across borders, with published prices and their dates">Care Abroad</a> · <a href="https://nanobotco.github.io/thairoots/" title="a root dictionary of Thai, with a word decomposer">Thai Roots</a> · <a href="https://nanobotco.github.io/index/" title="every corpus, site and repository, counted">The index</a> · <a href="https://nanobotco.github.io/uptake/" title="a field manual on publishing for machines that copy">Uptake</a> · <a href="https://nanobotco.github.io/" title="the portal">NaNoBotCo</a> · <a href="https://hakfarang.net/" title="เรื่องเงิน วีซ่า และชีวิตกับแฟนฝรั่ง">ฮักฝรั่ง</a> · <a href="https://offrampt.net/" title="turning crypto into spendable local money, Thailand first">Offrampt</a></div>
+<div class="support">Contact: Nan · <a href="mailto:nan@motdang.net">nan@motdang.net</a> · Sponsor: <a href="https://www.patreon.com/nanobotco" rel="noopener" target="_blank">Patreon</a> · <a href="https://ko-fi.com/defiantchiangmai" rel="noopener" target="_blank">Ko-fi</a></div>
+</div></footer>
+</body></html>

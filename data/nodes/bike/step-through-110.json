@@ -73,5 +73,67 @@
  },
  "confidence": "high",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "step-through-110/step-through-110-2014-honda-vario-fi-110-20210930.jpg",
+   "source": "commons",
+   "title": "File:2014 Honda Vario FI 110 (20210930).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/2014_Honda_Vario_FI_110_%2820210930%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A2014_Honda_Vario_FI_110_%2820210930%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "オーバードライブ83",
+   "credit": "Own work",
+   "alt": "2014 Honda Vario FI 110",
+   "date": "2021-09-30 15:44:31",
+   "primary": true,
+   "sha256": "69e0ab5d6197429af70f23bc2d4bf980fa90553186ea34cb2e426b92d2df5224"
+  },
+  {
+   "file": "step-through-110/step-through-110-2014-honda-vario-fi-110-20220214.jpg",
+   "source": "commons",
+   "title": "File:2014 Honda Vario FI 110 (20220214).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/2014_Honda_Vario_FI_110_%2820220214%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A2014_Honda_Vario_FI_110_%2820220214%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "オーバードライブ83",
+   "credit": "Own work",
+   "alt": "2014 Honda Vario FI 110",
+   "date": "2022-02-14 12:44:04",
+   "primary": false,
+   "sha256": "385bfba9e66f67d7d26e5e3f52136620aee39e591bc89a30a8d230dae902e64d"
+  },
+  {
+   "file": "step-through-110/step-through-110-honda-vario-150-techno-idling-stop-pgm-fi-fuel-injection.jpg",
+   "source": "commons",
+   "title": "File:Honda Vario 150 Techno Idling Stop PGM-FI Fuel Injection.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Honda_Vario_150_Techno_Idling_Stop_PGM-FI_Fuel_Injection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Vario_150_Techno_Idling_Stop_PGM-FI_Fuel_Injection.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Syced",
+   "credit": "Own work",
+   "alt": "Honda Vario 150 Techno Idling Stop PGM-FI Fuel Injection",
+   "date": "22 January 2024 (according to Exif data)",
+   "primary": false,
+   "sha256": "169bcc6aff5e62137d649fbe86f579da0f5f302dc7bc3b7c20895a6e8d1b6a43"
+  },
+  {
+   "file": "step-through-110/step-through-110-thai-scooter-taxi-bangkok-panoramio.jpg",
+   "source": "commons",
+   "title": "File:Thai Scooter Taxi Bangkok - panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Thai_Scooter_Taxi_Bangkok_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThai_Scooter_Taxi_Bangkok_-_panoramio.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Lobster1",
+   "credit": "https://web.archive.org/web/20161025075022/http://www.panoramio.com/photo/74482833",
+   "alt": "Thai Scooter Taxi Bangkok",
+   "date": "Taken on 27 June 2012",
+   "primary": false,
+   "sha256": "a468814fc41143deaab3de2622cd317ce83503390b840d41a3df9238db23fdd0"
+  }
+ ]
 }

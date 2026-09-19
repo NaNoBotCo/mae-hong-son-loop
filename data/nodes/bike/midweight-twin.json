@@ -60,5 +60,67 @@
  },
  "confidence": "medium",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "midweight-twin/midweight-twin-honda-cb500x-2024-05-23.jpg",
+   "source": "commons",
+   "title": "File:Honda CB500X 2024-05-23.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Honda_CB500X_2024-05-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_CB500X_2024-05-23.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Wikisympathisant",
+   "credit": "Own work",
+   "alt": "Honda CB 500X",
+   "date": "2024-05-23 15:44:30",
+   "primary": true,
+   "sha256": "02542a9d4f2db7bbfebf999799fcde53140853713dd680169ec05d45930ec2fc"
+  },
+  {
+   "file": "midweight-twin/midweight-twin-honda-cb500x-close-up.jpg",
+   "source": "commons",
+   "title": "File:Honda CB500X close-up.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Honda_CB500X_close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_CB500X_close-up.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Danrok",
+   "credit": "Own work",
+   "alt": "Close-up of the front of a Honda CB500X.",
+   "date": "2021-04-04 14:03:25",
+   "primary": false,
+   "sha256": "08c5d7514a972fcf28b8dfbe1bb8b1da96ee1ad6e1350c75107331235f92ad4a"
+  },
+  {
+   "file": "midweight-twin/midweight-twin-honda-cb500x-rear-2024-05-23.jpg",
+   "source": "commons",
+   "title": "File:Honda CB500X rear 2024-05-23.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Honda_CB500X_rear_2024-05-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_CB500X_rear_2024-05-23.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Wikisympathisant",
+   "credit": "Own work",
+   "alt": "Honda CB 500X rerar view",
+   "date": "2024-05-23 15:45:04",
+   "primary": false,
+   "sha256": "d97ee5cffd20563bb88727c01447ea5d99e35831c030bfa50ddb0e08d0416d1a"
+  },
+  {
+   "file": "midweight-twin/midweight-twin-salon-de-la-moto-et-du-scooter-de-paris-2013-honda-c-7e61b3a.jpg",
+   "source": "commons",
+   "title": "File:Salon de la Moto et du Scooter de Paris 2013 - Honda - CB500F - 006.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Salon_de_la_Moto_et_du_Scooter_de_Paris_2013_-_Honda_-_CB500F_-_006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASalon_de_la_Moto_et_du_Scooter_de_Paris_2013_-_Honda_-_CB500F_-_006.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Thesupermat",
+   "credit": "Own work",
+   "alt": "Une Honda CBR présentée lors du salon de la moto 2013.",
+   "date": "2013-12-02 10:42:36",
+   "primary": false,
+   "sha256": "0fb7c5718ce2f84c56bb6df627230d3fa62d10a95e4f55873a895d68da5aa071"
+  }
+ ]
 }

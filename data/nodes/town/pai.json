@@ -88,5 +88,67 @@
  },
  "confidence": "high",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "pai/pai-pai-thailand.jpg",
+   "source": "commons",
+   "title": "File:Pai (Thailand).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Pai_%28Thailand%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APai_%28Thailand%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "View from the east of Pai, Thailand.",
+   "date": "2018-08-29 16:46:56",
+   "primary": true,
+   "sha256": "1ecdc97b0e9768150d31ace190c9a2706d734fcd161d35e66d707073401078ad"
+  },
+  {
+   "file": "pai/pai-pai-canyon.jpg",
+   "source": "commons",
+   "title": "File:Pai canyon.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Pai_canyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APai_canyon.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Sgroey",
+   "credit": "Own work",
+   "alt": "Pai canyon",
+   "date": "2016-07-01",
+   "primary": false,
+   "sha256": "5978602baf367fb829828406c98b0c05f6b350fcf1239d6a5f0f94dbeb9ac377"
+  },
+  {
+   "file": "pai/pai-view-from-santichon-village.jpg",
+   "source": "commons",
+   "title": "File:View from Santichon Village.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/View_from_Santichon_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AView_from_Santichon_Village.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "WalkOnWater93",
+   "credit": "Own work",
+   "alt": "Dry fields and distant homes are seen in the Pai District",
+   "date": "2022-11-26 14:16:08",
+   "primary": false,
+   "sha256": "6b88356664a663a6be5251bda1a20b72a15edaa196c269833b8a3d194a362c56"
+  },
+  {
+   "file": "pai/pai-view-of-pai-3.jpg",
+   "source": "commons",
+   "title": "File:View of Pai 3.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/View_of_Pai_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AView_of_Pai_3.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "View of Pai from the Big Buddha of Wat Phra That Mae Yen.",
+   "date": "2018-08-30 10:31:13",
+   "primary": false,
+   "sha256": "05812430e1b48dbccf6c5414f0b1abfffebe0af11bc3aea778b4ad9b84a6440e"
+  }
+ ]
 }

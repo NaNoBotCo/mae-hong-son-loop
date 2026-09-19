@@ -76,5 +76,67 @@
  },
  "confidence": "medium",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "hot/hot-darth-vader-hot-air-balloon.jpg",
+   "source": "commons",
+   "title": "File:Darth vader hot air balloon.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Darth_vader_hot_air_balloon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADarth_vader_hot_air_balloon.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Tomas Castelazo",
+   "credit": "Own work",
+   "alt": "Hot Air Balloon festival in Leon, Guanajuato, Mexico.",
+   "date": "",
+   "primary": true,
+   "sha256": "df5b0debe569b0dffbd6e22275ba45c0d3b1b487bf50f0dd9075752c710352dd"
+  },
+  {
+   "file": "hot/hot-leon-hot-air-balloon-festival-2010.jpg",
+   "source": "commons",
+   "title": "File:Leon hot air balloon festival 2010.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Leon_hot_air_balloon_festival_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALeon_hot_air_balloon_festival_2010.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Tomas Castelazo",
+   "credit": "Own work",
+   "alt": "Hot air balloon festival in León, Guanajuato, Mexico. November 2010.",
+   "date": "2010-11-20",
+   "primary": false,
+   "sha256": "3d6ba08837c0a0c777183c024baa9b600d1f1059f3104dbadd0fa1ac347e74dd"
+  },
+  {
+   "file": "hot/hot-pine-cones-and-pine-unsplash.jpg",
+   "source": "commons",
+   "title": "File:Pine cones and pine (Unsplash).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Pine_cones_and_pine_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APine_cones_and_pine_%28Unsplash%29.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Siriwan Srisuwan siriwan",
+   "credit": "https://unsplash.com/photos/Nwwp27CunIY\n\narchive copy at the Wayback Machine",
+   "alt": "Hot, Thailand",
+   "date": "2017-01-18",
+   "primary": false,
+   "sha256": "f81429616e5e1bd9fbb427fba6fd83eaec3c437260c4e60f131490152063dc58"
+  },
+  {
+   "file": "hot/hot-singpost-near-a-forest-unsplash.jpg",
+   "source": "commons",
+   "title": "File:Singpost near a forest (Unsplash).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Singpost_near_a_forest_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASingpost_near_a_forest_%28Unsplash%29.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Siriwan Srisuwan siriwan",
+   "credit": "https://unsplash.com/photos/LZpzMEY0pXI\n\narchive copy at the Wayback Machine",
+   "alt": "Hot, Thailand",
+   "date": "2017-01-20",
+   "primary": false,
+   "sha256": "643eea93ba41001167b8e1b082522873f416c5204a72b5e0d3b8f0d754c1ff76"
+  }
+ ]
 }

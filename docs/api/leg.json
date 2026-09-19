@@ -1,0 +1,5067 @@
+{
+ "type": "leg",
+ "count": 9,
+ "nodes": [
+  {
+   "id": "cnx-to-pai",
+   "type": "leg",
+   "names": {
+    "name": "Chiang Mai to Pai",
+    "th": "เชียงใหม่ – ปาย",
+    "said": "Three hundred and ninety-five curves in ninety-five kilometres, and a town at the end of them.",
+    "said_th": "สามร้อยเก้าสิบห้าโค้งในเก้าสิบห้ากิโลเมตร และมีเมืองรออยู่ปลายทาง"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "days": "1",
+    "direction": "both"
+   },
+   "text": {
+    "what": "Route 107 north out of the city to the Route 1095 turn, then over the hills to Pai. The shortest leg of the circuit by distance and the one people most often underestimate by time.",
+    "story": "The first thirty-five kilometres are Route 107, which is a wide, busy road out of a city and is not what you came for. The ride begins at the turn.\n\n*Inference —* measured off the OSM trace, the Mae Malai to Pai section of Route 1095 is 94.5 kilometres carrying **395 curves** at a 25-degree threshold, 65 of them hairpins — 4.28 curves a kilometre, the densest sustained stretch on the whole circuit. The hardest two kilometres measured anywhere on 1095 are in here, at 7.45 curves a kilometre.\n\nWhat that means in practice is that the hundred kilometres takes three hours, not ninety minutes, and it takes longer than that if you stop — which you will, because the climb out of the Mae Taeng valley has the views.\n\nThis is also the leg the merchandise is about. The sign says 1,864 curves; the count over this span says 395 at 25 degrees, 450 at 15. What 1,864 would mean over 94.5 kilometres is a curve every 51.9 metres."
+   },
+   "text_th": {
+    "what": "ทางหลวง 107 ขึ้นเหนือออกจากเมืองไปถึงทางแยก 1095 แล้วข้ามเขาไปปาย เป็นช่วงที่ระยะสั้นที่สุดของวงรอบ และเป็นช่วงที่คนประเมินเวลาผิดบ่อยที่สุด",
+    "story": "สามสิบห้ากิโลเมตรแรกคือทางหลวง 107 ซึ่งเป็นถนนกว้างรถเยอะขาออกจากเมือง และไม่ใช่สิ่งที่คุณมาหา การขี่เริ่มต้นตรงทางแยก\n\n*อนุมาน —* เมื่อวัดจากเส้นทางใน OSM ช่วงแม่มาลัยถึงปายของทางหลวง 1095 ยาว 94.5 กิโลเมตร มี **395 โค้ง** ที่เกณฑ์ 25 องศา ในจำนวนนั้นเป็นโค้งหักศอก 65 โค้ง คิดเป็น 4.28 โค้งต่อกิโลเมตร ซึ่งเป็นช่วงที่หนาแน่นต่อเนื่องที่สุดของทั้งวงรอบ และช่วงสองกิโลเมตรที่หนักที่สุดที่วัดได้บน 1095 ทั้งสายก็อยู่ในนี้ ที่ 7.45 โค้งต่อกิโลเมตร\n\nในทางปฏิบัติแปลว่าร้อยกิโลเมตรนี้ใช้เวลาสามชั่วโมง ไม่ใช่ชั่วโมงครึ่ง และนานกว่านั้นถ้าคุณแวะ ซึ่งคุณจะแวะ เพราะทางไต่ขึ้นจากหุบแม่แตงมีวิว\n\nนี่คือช่วงที่เสื้อยืดพูดถึงด้วย ป้ายบอก 1,864 โค้ง ส่วนการนับบนช่วงนี้ได้ 395 ที่ 25 องศา และ 450 ที่ 15 องศา ถ้า 1,864 เป็นจริงบนระยะ 94.5 กิโลเมตร จะหมายถึงหนึ่งโค้งทุก 51.9 เมตร"
+   },
+   "route": {
+    "roads": [
+     "107",
+     "1095"
+    ],
+    "from": "Chiang Mai",
+    "from_th": "เชียงใหม่",
+    "to": "Pai",
+    "to_th": "ปาย",
+    "km": 130,
+    "km_source": "s:mhs-measured",
+    "hours": "3–4",
+    "hours_big": "2.5–3",
+    "curves": 395,
+    "hairpins": 65,
+    "fuel_gap_km": 40,
+    "cw": "Day one. Short, hard, and done on fresh arms — which is the whole case for going this way round.",
+    "ccw": "The last leg. Four days of hills already in your forearms, and the descent into Mae Taeng at the end of it.",
+    "cw_th": "วันแรก สั้น หนัก และทำตอนแขนยังสด ซึ่งคือเหตุผลทั้งหมดของการไปทางนี้",
+    "ccw_th": "ช่วงสุดท้าย เขาสี่วันอยู่ในแขนแล้ว และมีทางลงแม่แตงรออยู่ตอนจบ",
+    "order": 1,
+    "line": [
+     [
+      18.88551,
+      98.95693
+     ],
+     [
+      18.88992,
+      98.95444
+     ],
+     [
+      18.8779,
+      98.96183
+     ],
+     [
+      18.89406,
+      98.95304
+     ],
+     [
+      18.90143,
+      98.95031
+     ],
+     [
+      18.90946,
+      98.94716
+     ],
+     [
+      18.92587,
+      98.93945
+     ],
+     [
+      18.91329,
+      98.94569
+     ],
+     [
+      18.90935,
+      98.94729
+     ],
+     [
+      19.41936,
+      97.99821
+     ],
+     [
+      19.43596,
+      97.9983
+     ],
+     [
+      19.44345,
+      98.00817
+     ],
+     [
+      19.45031,
+      98.0167
+     ],
+     [
+      19.46285,
+      98.0235
+     ],
+     [
+      19.4786,
+      98.03018
+     ],
+     [
+      19.48655,
+      98.04376
+     ],
+     [
+      19.49559,
+      98.05524
+     ],
+     [
+      19.50603,
+      98.06805
+     ],
+     [
+      19.51354,
+      98.08137
+     ],
+     [
+      19.52425,
+      98.09482
+     ],
+     [
+      19.53631,
+      98.09981
+     ],
+     [
+      19.53639,
+      98.11414
+     ],
+     [
+      19.53553,
+      98.12821
+     ],
+     [
+      19.54115,
+      98.13847
+     ],
+     [
+      19.55198,
+      98.14925
+     ],
+     [
+      19.5581,
+      98.16055
+     ],
+     [
+      19.56468,
+      98.17474
+     ],
+     [
+      19.55817,
+      98.19124
+     ],
+     [
+      19.54933,
+      98.20248
+     ],
+     [
+      19.54451,
+      98.21388
+     ],
+     [
+      19.53422,
+      98.22751
+     ],
+     [
+      19.52294,
+      98.2418
+     ],
+     [
+      19.51707,
+      98.2568
+     ],
+     [
+      19.5132,
+      98.27067
+     ],
+     [
+      19.49798,
+      98.27908
+     ],
+     [
+      19.48602,
+      98.29138
+     ],
+     [
+      19.47119,
+      98.29519
+     ],
+     [
+      19.46214,
+      98.29978
+     ],
+     [
+      19.45326,
+      98.30374
+     ],
+     [
+      19.45269,
+      98.31207
+     ],
+     [
+      19.4501,
+      98.31769
+     ],
+     [
+      19.43979,
+      98.32495
+     ],
+     [
+      19.44308,
+      98.3359
+     ],
+     [
+      19.44389,
+      98.34293
+     ],
+     [
+      19.43872,
+      98.3552
+     ],
+     [
+      19.43671,
+      98.36935
+     ],
+     [
+      19.43539,
+      98.38741
+     ],
+     [
+      19.42474,
+      98.39911
+     ],
+     [
+      19.417,
+      98.41357
+     ],
+     [
+      19.4003,
+      98.4155
+     ],
+     [
+      19.38578,
+      98.4262
+     ],
+     [
+      19.36874,
+      98.42737
+     ],
+     [
+      19.35183,
+      98.42952
+     ],
+     [
+      19.33518,
+      98.43171
+     ],
+     [
+      19.31867,
+      98.43861
+     ],
+     [
+      19.31145,
+      98.45279
+     ],
+     [
+      19.29981,
+      98.46346
+     ],
+     [
+      19.2885,
+      98.47343
+     ],
+     [
+      19.28169,
+      98.48915
+     ],
+     [
+      19.27106,
+      98.50186
+     ],
+     [
+      19.26584,
+      98.51422
+     ],
+     [
+      19.27006,
+      98.52692
+     ],
+     [
+      19.27225,
+      98.543
+     ],
+     [
+      19.27128,
+      98.5592
+     ],
+     [
+      19.27278,
+      98.57487
+     ],
+     [
+      19.26761,
+      98.58744
+     ],
+     [
+      19.27677,
+      98.60006
+     ],
+     [
+      19.27857,
+      98.61375
+     ],
+     [
+      19.26987,
+      98.62762
+     ],
+     [
+      19.26051,
+      98.63883
+     ],
+     [
+      19.24999,
+      98.64207
+     ],
+     [
+      19.25286,
+      98.64952
+     ],
+     [
+      19.24193,
+      98.65656
+     ],
+     [
+      19.23472,
+      98.66234
+     ],
+     [
+      19.22746,
+      98.67201
+     ],
+     [
+      19.2222,
+      98.67161
+     ],
+     [
+      19.21433,
+      98.67021
+     ],
+     [
+      19.20481,
+      98.67746
+     ],
+     [
+      19.19411,
+      98.6895
+     ],
+     [
+      19.17687,
+      98.69232
+     ],
+     [
+      19.15939,
+      98.69117
+     ],
+     [
+      19.14401,
+      98.69736
+     ],
+     [
+      19.13133,
+      98.70404
+     ],
+     [
+      19.12155,
+      98.70981
+     ],
+     [
+      19.11809,
+      98.72556
+     ],
+     [
+      19.12364,
+      98.73553
+     ],
+     [
+      19.12379,
+      98.74743
+     ],
+     [
+      19.12498,
+      98.763
+     ],
+     [
+      19.1229,
+      98.77874
+     ],
+     [
+      19.11185,
+      98.79335
+     ],
+     [
+      19.10687,
+      98.81106
+     ],
+     [
+      19.10658,
+      98.82558
+     ],
+     [
+      19.10146,
+      98.84095
+     ],
+     [
+      19.09296,
+      98.85731
+     ],
+     [
+      19.09481,
+      98.87396
+     ],
+     [
+      19.08811,
+      98.89096
+     ],
+     [
+      19.08644,
+      98.90622
+     ],
+     [
+      19.08019,
+      98.91822
+     ],
+     [
+      19.07287,
+      98.93587
+     ]
+    ],
+    "line_points": 99
+   },
+   "riding": {
+    "min_class": "auto",
+    "grip": "moderate",
+    "pillion": "fine",
+    "note": "A 110 automatic does this leg every day of the week. It does it slowly, and it needs the descents taken in stages.",
+    "note_th": "รถออโต้ 110 วิ่งช่วงนี้ทุกวัน มันวิ่งช้า และต้องลงเขาเป็นช่วงๆ",
+    "loaded": "The climb is fine loaded; it is the Pai descent where the extra weight is felt."
+   },
+   "kin": [
+    {
+     "to": "route-1095",
+     "as": "The road it is mostly on.",
+     "rel": "road"
+    },
+    {
+     "to": "pai",
+     "as": "The town at the end.",
+     "rel": "town"
+    },
+    {
+     "to": "how-many-curves",
+     "as": "The argument this leg is the subject of.",
+     "rel": "story"
+    },
+    {
+     "to": "brake-fade",
+     "as": "The descent into Pai is where this happens.",
+     "rel": "hazard"
+    },
+    {
+     "to": "pai-to-soppong",
+     "as": "The next one, clockwise.",
+     "rel": "leg"
+    },
+    {
+     "to": "samoeng-warmup",
+     "as": "The day that tells you whether this one will be fun.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:mhs-measured",
+    "s:thwp-1095",
+    "s:osm"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "harvested",
+     "source": "s:mhs-measured"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "curve figures measured off OSM; timing is this project's estimate and is not sourced"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "cnx-to-pai/cnx-to-pai-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-a04b28c.jpg",
+     "source": "commons",
+     "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "::::=UT=::::",
+     "credit": "https://web.archive.org/web/20161031193728/http://www.panoramio.com/photo/124380306",
+     "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+     "date": "Taken on 15 July 2015",
+     "primary": true,
+     "sha256": "c97a1bf171d1c5ae45c0afb7de10cf858c0d9832fc07d5f3cd6e30061d6644c6"
+    },
+    {
+     "file": "cnx-to-pai/cnx-to-pai-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-93478b0.jpg",
+     "source": "commons",
+     "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio (1).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "::::=UT=::::",
+     "credit": "https://web.archive.org/web/20161031193239/http://www.panoramio.com/photo/124380303",
+     "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+     "date": "Taken on 15 July 2015",
+     "primary": false,
+     "sha256": "42a4e24e5a71b08eca40034450f636a08a4cf5811aa4ae11553714dae37415fc"
+    },
+    {
+     "file": "cnx-to-pai/cnx-to-pai-ruta-1095-240125-norteam-rica-s-a-metalbus-urbano-me-b6aca27.jpg",
+     "source": "commons",
+     "title": "File:Ruta 1095 240125 Norteamérica S.A. Metalbus Urbano Mercedes-Benz OF-914.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ruta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ARuta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Fabco09",
+     "credit": "Own work",
+     "alt": "Route 1095.",
+     "date": "2025-01-24 15:21:38",
+     "primary": false,
+     "sha256": "f89cb77917c2d77186e2623767a8bb088b582a358dc18873f596a2149fd3b5b0"
+    },
+    {
+     "file": "cnx-to-pai/cnx-to-pai-thailand-route-1095.jpg",
+     "source": "commons",
+     "title": "File:Thailand Route 1095.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Thailand_Route_1095.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThailand_Route_1095.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Thailand Route 1095 and a minibus going from Chiang Mai to Pai in Mae Taeng District, Chiang Mai Province.",
+     "date": "2018-08-29 14:08:13",
+     "primary": false,
+     "sha256": "98d29fc18592e9627c27b08638368c3501bd901d778593d82f7bf4e4b77837fc"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "samoeng-warmup",
+     "type": "leg",
+     "name": "The Samoeng warm-up",
+     "as": "What it is a rehearsal for."
+    },
+    {
+     "from": "route-107",
+     "type": "road",
+     "name": "Route 107",
+     "as": "The leg it starts."
+    },
+    {
+     "from": "route-1095",
+     "type": "road",
+     "name": "Route 1095",
+     "as": "The first half of it, clockwise."
+    },
+    {
+     "from": "pai",
+     "type": "town",
+     "name": "Pai",
+     "as": "The leg that ends here, and the curves that get you here."
+    },
+    {
+     "from": "pai-canyon",
+     "type": "stop",
+     "name": "Pai Canyon",
+     "as": "The leg it sits at the end of."
+    },
+    {
+     "from": "how-many-curves",
+     "type": "story",
+     "name": "How many curves, actually",
+     "as": "Where you meet the curves, on day one or on day four."
+    },
+    {
+     "from": "which-way-round",
+     "type": "story",
+     "name": "Clockwise or counter-clockwise",
+     "as": "Day one clockwise, day four counter-clockwise, and it is a different road each way."
+    }
+   ]
+  },
+  {
+   "id": "hot-to-cnx",
+   "type": "leg",
+   "names": {
+    "name": "Hot to Chiang Mai",
+    "th": "ฮอด – เชียงใหม่",
+    "said": "Eighty-eight kilometres of four lanes, and the trip is over an hour before you are.",
+    "said_th": "แปดสิบแปดกิโลเมตรของสี่เลน และทริปจบก่อนที่คุณจะจบหนึ่งชั่วโมง"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "days": "1",
+    "direction": "both"
+   },
+   "text": {
+    "what": "The commute home. Four to six lanes with a median, narrowing to two through the town centres.",
+    "story": "88 kilometres, per the Thai highway article, four to six lanes except through the centres of Hang Dong, San Pa Tong, Thung Sieo and Chom Thong where it drops to two.\n\n*Inference —* two things worth saying about a leg that is otherwise just a road. First, it is where tired riders relax and traffic increases at the same time, which is not a good combination — the circuit's easiest riding is at the end of its longest day. Second, Chom Thong is the turn for Doi Inthanon, so a rider with an extra day has a reason to stop here rather than push in."
+   },
+   "text_th": {
+    "what": "ทางกลับบ้าน สี่ถึงหกช่องจราจรมีเกาะกลาง แคบลงเหลือสองช่องเมื่อผ่านตัวอำเภอ",
+    "story": "88 กิโลเมตร ตามบทความทางหลวงภาษาไทย สี่ถึงหกช่องจราจร ยกเว้นเมื่อผ่านตัวอำเภอหางดง สันป่าตอง ชุมชนทุ่งเสี้ยว และจอมทอง ที่ลดเหลือสองช่อง\n\n*อนุมาน —* มีสองเรื่องที่ควรพูดถึงช่วงที่นอกนั้นก็แค่ถนน ข้อแรก เป็นช่วงที่คนขี่ที่ล้าเริ่มผ่อนคลายพร้อมกับที่รถเริ่มเยอะขึ้น ซึ่งไม่ใช่ส่วนผสมที่ดี การขี่ที่ง่ายที่สุดของวงรอบอยู่ตอนท้ายของวันที่ยาวที่สุด ข้อสอง จอมทองคือทางแยกขึ้นดอยอินทนนท์ คนที่มีเวลาเหลืออีกวันจึงมีเหตุผลที่จะแวะตรงนี้แทนที่จะฝืนเข้าเมือง"
+   },
+   "route": {
+    "roads": [
+     "108"
+    ],
+    "from": "Hot",
+    "from_th": "ฮอด",
+    "to": "Chiang Mai",
+    "to_th": "เชียงใหม่",
+    "km": 88,
+    "km_source": "s:thwp-108",
+    "hours": "1.25",
+    "hours_big": "1",
+    "cw": "The end. Traffic, lanes, and a city.",
+    "ccw": "The beginning, and the easiest hour of the trip.",
+    "cw_th": "จุดจบ รถเยอะ หลายเลน และเมือง",
+    "ccw_th": "จุดเริ่ม และเป็นชั่วโมงที่ง่ายที่สุดของทริป",
+    "order": 7,
+    "line": [
+     [
+      18.3234,
+      98.66506
+     ],
+     [
+      18.32522,
+      98.6672
+     ],
+     [
+      18.33995,
+      98.6779
+     ],
+     [
+      18.35774,
+      98.67938
+     ],
+     [
+      18.37593,
+      98.67912
+     ],
+     [
+      18.39397,
+      98.67888
+     ],
+     [
+      18.41105,
+      98.67469
+     ],
+     [
+      18.42817,
+      98.68166
+     ],
+     [
+      18.44066,
+      98.69063
+     ],
+     [
+      18.42534,
+      98.68014
+     ],
+     [
+      18.40845,
+      98.674
+     ],
+     [
+      18.39128,
+      98.6787
+     ],
+     [
+      18.37326,
+      98.67943
+     ],
+     [
+      18.35503,
+      98.67923
+     ],
+     [
+      18.33733,
+      98.67714
+     ],
+     [
+      18.32348,
+      98.66509
+     ],
+     [
+      18.30974,
+      98.65353
+     ],
+     [
+      18.29791,
+      98.64237
+     ],
+     [
+      18.2805,
+      98.63857
+     ],
+     [
+      18.26528,
+      98.63008
+     ],
+     [
+      18.25422,
+      98.61665
+     ],
+     [
+      18.2431,
+      98.60468
+     ],
+     [
+      18.22679,
+      98.6125
+     ],
+     [
+      18.20927,
+      98.61619
+     ],
+     [
+      18.19333,
+      98.61019
+     ],
+     [
+      18.20211,
+      98.59621
+     ],
+     [
+      18.21213,
+      98.58851
+     ],
+     [
+      18.22191,
+      98.57341
+     ],
+     [
+      18.23053,
+      98.55868
+     ],
+     [
+      18.23404,
+      98.54091
+     ],
+     [
+      18.23134,
+      98.52298
+     ],
+     [
+      18.22785,
+      98.50473
+     ],
+     [
+      18.22471,
+      98.48743
+     ],
+     [
+      18.22267,
+      98.46968
+     ],
+     [
+      18.22822,
+      98.45293
+     ],
+     [
+      18.21546,
+      98.44618
+     ],
+     [
+      18.19865,
+      98.45002
+     ],
+     [
+      18.18187,
+      98.45216
+     ],
+     [
+      18.16801,
+      98.44307
+     ],
+     [
+      18.15557,
+      98.42995
+     ],
+     [
+      18.1536,
+      98.41398
+     ],
+     [
+      18.15859,
+      98.39694
+     ],
+     [
+      18.14854,
+      98.38415
+     ],
+     [
+      18.14188,
+      98.36819
+     ],
+     [
+      18.14692,
+      98.35002
+     ],
+     [
+      18.13898,
+      98.33408
+     ],
+     [
+      18.1445,
+      98.31823
+     ],
+     [
+      18.14973,
+      98.30109
+     ],
+     [
+      18.15679,
+      98.28632
+     ],
+     [
+      18.15361,
+      98.27343
+     ],
+     [
+      18.14842,
+      98.26173
+     ],
+     [
+      18.1518,
+      98.24364
+     ],
+     [
+      18.16166,
+      98.23413
+     ],
+     [
+      18.16101,
+      98.22111
+     ],
+     [
+      18.14999,
+      98.20699
+     ],
+     [
+      18.13897,
+      98.19564
+     ],
+     [
+      18.13431,
+      98.17962
+     ],
+     [
+      18.14447,
+      98.16445
+     ],
+     [
+      18.14761,
+      98.14981
+     ],
+     [
+      18.15091,
+      98.13192
+     ],
+     [
+      18.14402,
+      98.121
+     ],
+     [
+      18.14118,
+      98.10774
+     ],
+     [
+      18.14878,
+      98.09335
+     ],
+     [
+      18.13871,
+      98.08437
+     ],
+     [
+      18.14437,
+      98.07282
+     ],
+     [
+      18.15958,
+      98.0671
+     ],
+     [
+      18.16392,
+      98.05758
+     ],
+     [
+      18.15969,
+      98.04314
+     ],
+     [
+      18.15748,
+      98.02886
+     ],
+     [
+      18.14178,
+      98.02013
+     ],
+     [
+      18.13817,
+      98.0027
+     ],
+     [
+      18.13796,
+      97.9848
+     ],
+     [
+      18.1484,
+      97.9701
+     ],
+     [
+      18.16298,
+      97.96069
+     ],
+     [
+      18.16166,
+      97.94425
+     ],
+     [
+      18.174,
+      97.93395
+     ],
+     [
+      18.1921,
+      97.93587
+     ],
+     [
+      18.20743,
+      97.93758
+     ],
+     [
+      18.22446,
+      97.94342
+     ],
+     [
+      18.24213,
+      97.94218
+     ],
+     [
+      18.25997,
+      97.94164
+     ],
+     [
+      18.276,
+      97.9389
+     ],
+     [
+      18.29269,
+      97.93349
+     ],
+     [
+      18.29501,
+      97.91789
+     ],
+     [
+      18.30925,
+      97.91225
+     ],
+     [
+      18.3263,
+      97.90816
+     ],
+     [
+      18.33907,
+      97.92137
+     ],
+     [
+      18.3537,
+      97.92981
+     ],
+     [
+      18.36947,
+      97.93347
+     ],
+     [
+      18.38098,
+      97.94202
+     ],
+     [
+      18.39675,
+      97.93903
+     ],
+     [
+      18.41161,
+      97.94181
+     ],
+     [
+      18.4265,
+      97.94091
+     ],
+     [
+      18.4436,
+      97.94285
+     ],
+     [
+      18.45645,
+      97.93448
+     ],
+     [
+      18.47388,
+      97.93995
+     ],
+     [
+      18.48895,
+      97.93353
+     ],
+     [
+      18.50417,
+      97.93216
+     ],
+     [
+      18.51907,
+      97.92946
+     ],
+     [
+      18.53584,
+      97.93611
+     ],
+     [
+      18.54964,
+      97.93395
+     ],
+     [
+      18.55672,
+      97.94299
+     ],
+     [
+      18.55708,
+      97.92517
+     ],
+     [
+      18.56899,
+      97.93029
+     ],
+     [
+      18.578,
+      97.94202
+     ],
+     [
+      18.59096,
+      97.94289
+     ],
+     [
+      18.60638,
+      97.94013
+     ],
+     [
+      18.62134,
+      97.94715
+     ],
+     [
+      18.6382,
+      97.94398
+     ],
+     [
+      18.64959,
+      97.93553
+     ],
+     [
+      18.66197,
+      97.92794
+     ],
+     [
+      18.67763,
+      97.92245
+     ],
+     [
+      18.69428,
+      97.92159
+     ],
+     [
+      18.70785,
+      97.91169
+     ],
+     [
+      18.72437,
+      97.90828
+     ],
+     [
+      18.7365,
+      97.9223
+     ],
+     [
+      18.75322,
+      97.92718
+     ],
+     [
+      18.76724,
+      97.93786
+     ],
+     [
+      18.77929,
+      97.93971
+     ],
+     [
+      18.79242,
+      97.93292
+     ],
+     [
+      18.81013,
+      97.93156
+     ],
+     [
+      18.82569,
+      97.9336
+     ],
+     [
+      18.83945,
+      97.94252
+     ],
+     [
+      18.85636,
+      97.94562
+     ],
+     [
+      18.87374,
+      97.94752
+     ],
+     [
+      18.88595,
+      97.93436
+     ],
+     [
+      18.89765,
+      97.9313
+     ],
+     [
+      18.90723,
+      97.94186
+     ],
+     [
+      18.91628,
+      97.95466
+     ],
+     [
+      18.93274,
+      97.95558
+     ],
+     [
+      18.94714,
+      97.96081
+     ],
+     [
+      18.9535,
+      97.96799
+     ],
+     [
+      18.96834,
+      97.96898
+     ],
+     [
+      18.98582,
+      97.97055
+     ],
+     [
+      19.00305,
+      97.97523
+     ],
+     [
+      19.01871,
+      97.97673
+     ],
+     [
+      19.03262,
+      97.98271
+     ],
+     [
+      19.04856,
+      97.99086
+     ],
+     [
+      19.06446,
+      97.9955
+     ],
+     [
+      19.08056,
+      97.9923
+     ],
+     [
+      19.09504,
+      97.9961
+     ],
+     [
+      19.11113,
+      97.99361
+     ],
+     [
+      19.12478,
+      97.98993
+     ],
+     [
+      19.13812,
+      97.99591
+     ],
+     [
+      19.15396,
+      97.99312
+     ],
+     [
+      19.16955,
+      97.99021
+     ],
+     [
+      19.17936,
+      97.98533
+     ],
+     [
+      19.19512,
+      97.98395
+     ],
+     [
+      19.21143,
+      97.98101
+     ],
+     [
+      19.22498,
+      97.96957
+     ],
+     [
+      19.24253,
+      97.9721
+     ],
+     [
+      19.25804,
+      97.96588
+     ],
+     [
+      19.27286,
+      97.95921
+     ],
+     [
+      19.28262,
+      97.96039
+     ]
+    ],
+    "line_points": 154
+   },
+   "riding": {
+    "min_class": "auto",
+    "grip": "easy",
+    "pillion": "fine"
+   },
+   "kin": [
+    {
+     "to": "chiang-mai",
+     "as": "Home.",
+     "rel": "town"
+    },
+    {
+     "to": "doi-inthanon",
+     "as": "The turn at Chom Thong, if there is a day left.",
+     "rel": "stop"
+    },
+    {
+     "to": "route-108",
+     "as": "The road it is on.",
+     "rel": "road"
+    }
+   ],
+   "sources": [
+    "s:thwp-108",
+    "s:wp-chom-thong"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "chiang-mai",
+     "type": "town",
+     "name": "Chiang Mai",
+     "as": "The way back in."
+    },
+    {
+     "from": "hot",
+     "type": "town",
+     "name": "Hot",
+     "as": "The fast way home."
+    },
+    {
+     "from": "doi-inthanon",
+     "type": "stop",
+     "name": "Doi Inthanon",
+     "as": "The leg with the Chom Thong turn on it."
+    }
+   ]
+  },
+  {
+   "id": "khun-yuam-to-mae-sariang",
+   "type": "leg",
+   "names": {
+    "name": "Khun Yuam to Mae Sariang",
+    "th": "ขุนยวม – แม่สะเรียง",
+    "said": "Down the Yuam river, through Mae La Noi, and into the quietest town on the loop.",
+    "said_th": "เลียบแม่น้ำยวม ผ่านแม่ลาน้อย เข้าสู่เมืองที่เงียบที่สุดบนเส้นทาง"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "days": "1",
+    "direction": "both"
+   },
+   "text": {
+    "what": "Ninety-odd kilometres of Route 108 that the Thai highway article describes as running parallel to the Yuam river.",
+    "story": "The article is precise about what this road does: from Mae Sariang it parallels the Yuam through Mae La Noi, then climbs after Ban Mae La Luang to Khun Yuam. A river road with a climb at the north end.\n\n*Inference —* it is the leg where the trip changes pace. The riding asks little, the villages are frequent, and the temptation is to cover it fast. The villages are exactly why not to: this is Karen country and the roadside is where most of what you will see of it happens."
+   },
+   "text_th": {
+    "what": "ราวเก้าสิบกิโลเมตรของทางหลวง 108 ที่บทความทางหลวงภาษาไทยบรรยายว่าขนานไปกับแม่น้ำยวม",
+    "story": "บทความระบุชัดว่าถนนช่วงนี้ทำอะไร จากแม่สะเรียงมันขนานไปกับแม่น้ำยวมผ่านแม่ลาน้อย แล้วไต่ขึ้นหลังพ้นบ้านแม่ลาหลวงถึงขุนยวม เป็นถนนเลียบแม่น้ำที่มีทางไต่อยู่ปลายเหนือ\n\n*อนุมาน —* เป็นช่วงที่จังหวะของทริปเปลี่ยน การขี่ไม่เรียกร้องอะไรมาก หมู่บ้านอยู่ถี่ และสิ่งที่ยั่วใจคือขี่ผ่านให้เร็ว หมู่บ้านนั่นแหละคือเหตุผลที่ไม่ควรทำ ที่นี่คือเขตกะเหรี่ยง และริมถนนคือที่ที่คุณจะได้เห็นมันเป็นส่วนใหญ่"
+   },
+   "route": {
+    "roads": [
+     "108"
+    ],
+    "from": "Khun Yuam",
+    "from_th": "ขุนยวม",
+    "to": "Mae Sariang",
+    "to_th": "แม่สะเรียง",
+    "km": 95,
+    "hours": "2",
+    "hours_big": "1.75",
+    "cw": "Southbound, downhill on balance, and easy.",
+    "ccw": "Northbound and climbing toward the end.",
+    "cw_th": "มุ่งใต้ โดยรวมเป็นทางลง และสบาย",
+    "ccw_th": "มุ่งเหนือ และไต่ขึ้นช่วงท้าย",
+    "order": 5,
+    "line": [
+     [
+      18.3234,
+      98.66506
+     ],
+     [
+      18.32522,
+      98.6672
+     ],
+     [
+      18.33995,
+      98.6779
+     ],
+     [
+      18.35774,
+      98.67938
+     ],
+     [
+      18.37593,
+      98.67912
+     ],
+     [
+      18.39397,
+      98.67888
+     ],
+     [
+      18.41105,
+      98.67469
+     ],
+     [
+      18.42817,
+      98.68166
+     ],
+     [
+      18.44066,
+      98.69063
+     ],
+     [
+      18.42534,
+      98.68014
+     ],
+     [
+      18.40845,
+      98.674
+     ],
+     [
+      18.39128,
+      98.6787
+     ],
+     [
+      18.37326,
+      98.67943
+     ],
+     [
+      18.35503,
+      98.67923
+     ],
+     [
+      18.33733,
+      98.67714
+     ],
+     [
+      18.32348,
+      98.66509
+     ],
+     [
+      18.30974,
+      98.65353
+     ],
+     [
+      18.29791,
+      98.64237
+     ],
+     [
+      18.2805,
+      98.63857
+     ],
+     [
+      18.26528,
+      98.63008
+     ],
+     [
+      18.25422,
+      98.61665
+     ],
+     [
+      18.2431,
+      98.60468
+     ],
+     [
+      18.22679,
+      98.6125
+     ],
+     [
+      18.20927,
+      98.61619
+     ],
+     [
+      18.19333,
+      98.61019
+     ],
+     [
+      18.20211,
+      98.59621
+     ],
+     [
+      18.21213,
+      98.58851
+     ],
+     [
+      18.22191,
+      98.57341
+     ],
+     [
+      18.23053,
+      98.55868
+     ],
+     [
+      18.23404,
+      98.54091
+     ],
+     [
+      18.23134,
+      98.52298
+     ],
+     [
+      18.22785,
+      98.50473
+     ],
+     [
+      18.22471,
+      98.48743
+     ],
+     [
+      18.22267,
+      98.46968
+     ],
+     [
+      18.22822,
+      98.45293
+     ],
+     [
+      18.21546,
+      98.44618
+     ],
+     [
+      18.19865,
+      98.45002
+     ],
+     [
+      18.18187,
+      98.45216
+     ],
+     [
+      18.16801,
+      98.44307
+     ],
+     [
+      18.15557,
+      98.42995
+     ],
+     [
+      18.1536,
+      98.41398
+     ],
+     [
+      18.15859,
+      98.39694
+     ],
+     [
+      18.14854,
+      98.38415
+     ],
+     [
+      18.14188,
+      98.36819
+     ],
+     [
+      18.14692,
+      98.35002
+     ],
+     [
+      18.13898,
+      98.33408
+     ],
+     [
+      18.1445,
+      98.31823
+     ],
+     [
+      18.14973,
+      98.30109
+     ],
+     [
+      18.15679,
+      98.28632
+     ],
+     [
+      18.15361,
+      98.27343
+     ],
+     [
+      18.14842,
+      98.26173
+     ],
+     [
+      18.1518,
+      98.24364
+     ],
+     [
+      18.16166,
+      98.23413
+     ],
+     [
+      18.16101,
+      98.22111
+     ],
+     [
+      18.14999,
+      98.20699
+     ],
+     [
+      18.13897,
+      98.19564
+     ],
+     [
+      18.13431,
+      98.17962
+     ],
+     [
+      18.14447,
+      98.16445
+     ],
+     [
+      18.14761,
+      98.14981
+     ],
+     [
+      18.15091,
+      98.13192
+     ],
+     [
+      18.14402,
+      98.121
+     ],
+     [
+      18.14118,
+      98.10774
+     ],
+     [
+      18.14878,
+      98.09335
+     ],
+     [
+      18.13871,
+      98.08437
+     ],
+     [
+      18.14437,
+      98.07282
+     ],
+     [
+      18.15958,
+      98.0671
+     ],
+     [
+      18.16392,
+      98.05758
+     ],
+     [
+      18.15969,
+      98.04314
+     ],
+     [
+      18.15748,
+      98.02886
+     ],
+     [
+      18.14178,
+      98.02013
+     ],
+     [
+      18.13817,
+      98.0027
+     ],
+     [
+      18.13796,
+      97.9848
+     ],
+     [
+      18.1484,
+      97.9701
+     ],
+     [
+      18.16298,
+      97.96069
+     ],
+     [
+      18.16166,
+      97.94425
+     ],
+     [
+      18.174,
+      97.93395
+     ],
+     [
+      18.1921,
+      97.93587
+     ],
+     [
+      18.20743,
+      97.93758
+     ],
+     [
+      18.22446,
+      97.94342
+     ],
+     [
+      18.24213,
+      97.94218
+     ],
+     [
+      18.25997,
+      97.94164
+     ],
+     [
+      18.276,
+      97.9389
+     ],
+     [
+      18.29269,
+      97.93349
+     ],
+     [
+      18.29501,
+      97.91789
+     ],
+     [
+      18.30925,
+      97.91225
+     ],
+     [
+      18.3263,
+      97.90816
+     ],
+     [
+      18.33907,
+      97.92137
+     ],
+     [
+      18.3537,
+      97.92981
+     ],
+     [
+      18.36947,
+      97.93347
+     ],
+     [
+      18.38098,
+      97.94202
+     ],
+     [
+      18.39675,
+      97.93903
+     ],
+     [
+      18.41161,
+      97.94181
+     ],
+     [
+      18.4265,
+      97.94091
+     ],
+     [
+      18.4436,
+      97.94285
+     ],
+     [
+      18.45645,
+      97.93448
+     ],
+     [
+      18.47388,
+      97.93995
+     ],
+     [
+      18.48895,
+      97.93353
+     ],
+     [
+      18.50417,
+      97.93216
+     ],
+     [
+      18.51907,
+      97.92946
+     ],
+     [
+      18.53584,
+      97.93611
+     ],
+     [
+      18.54964,
+      97.93395
+     ],
+     [
+      18.55672,
+      97.94299
+     ],
+     [
+      18.55708,
+      97.92517
+     ],
+     [
+      18.56899,
+      97.93029
+     ],
+     [
+      18.578,
+      97.94202
+     ],
+     [
+      18.59096,
+      97.94289
+     ],
+     [
+      18.60638,
+      97.94013
+     ],
+     [
+      18.62134,
+      97.94715
+     ],
+     [
+      18.6382,
+      97.94398
+     ],
+     [
+      18.64959,
+      97.93553
+     ],
+     [
+      18.66197,
+      97.92794
+     ],
+     [
+      18.67763,
+      97.92245
+     ],
+     [
+      18.69428,
+      97.92159
+     ],
+     [
+      18.70785,
+      97.91169
+     ],
+     [
+      18.72437,
+      97.90828
+     ],
+     [
+      18.7365,
+      97.9223
+     ],
+     [
+      18.75322,
+      97.92718
+     ],
+     [
+      18.76724,
+      97.93786
+     ],
+     [
+      18.77929,
+      97.93971
+     ],
+     [
+      18.79242,
+      97.93292
+     ],
+     [
+      18.81013,
+      97.93156
+     ],
+     [
+      18.82569,
+      97.9336
+     ],
+     [
+      18.83945,
+      97.94252
+     ],
+     [
+      18.85636,
+      97.94562
+     ],
+     [
+      18.87374,
+      97.94752
+     ],
+     [
+      18.88595,
+      97.93436
+     ],
+     [
+      18.89765,
+      97.9313
+     ],
+     [
+      18.90723,
+      97.94186
+     ],
+     [
+      18.91628,
+      97.95466
+     ],
+     [
+      18.93274,
+      97.95558
+     ],
+     [
+      18.94714,
+      97.96081
+     ],
+     [
+      18.9535,
+      97.96799
+     ],
+     [
+      18.96834,
+      97.96898
+     ],
+     [
+      18.98582,
+      97.97055
+     ],
+     [
+      19.00305,
+      97.97523
+     ],
+     [
+      19.01871,
+      97.97673
+     ],
+     [
+      19.03262,
+      97.98271
+     ],
+     [
+      19.04856,
+      97.99086
+     ],
+     [
+      19.06446,
+      97.9955
+     ],
+     [
+      19.08056,
+      97.9923
+     ],
+     [
+      19.09504,
+      97.9961
+     ],
+     [
+      19.11113,
+      97.99361
+     ],
+     [
+      19.12478,
+      97.98993
+     ],
+     [
+      19.13812,
+      97.99591
+     ],
+     [
+      19.15396,
+      97.99312
+     ],
+     [
+      19.16955,
+      97.99021
+     ],
+     [
+      19.17936,
+      97.98533
+     ],
+     [
+      19.19512,
+      97.98395
+     ],
+     [
+      19.21143,
+      97.98101
+     ],
+     [
+      19.22498,
+      97.96957
+     ],
+     [
+      19.24253,
+      97.9721
+     ],
+     [
+      19.25804,
+      97.96588
+     ],
+     [
+      19.27286,
+      97.95921
+     ],
+     [
+      19.28262,
+      97.96039
+     ]
+    ],
+    "line_points": 154
+   },
+   "riding": {
+    "min_class": "auto",
+    "grip": "easy",
+    "pillion": "fine"
+   },
+   "kin": [
+    {
+     "to": "mae-sariang",
+     "as": "The town at the end.",
+     "rel": "town"
+    },
+    {
+     "to": "karen",
+     "as": "Whose country this leg runs through.",
+     "rel": "person"
+    },
+    {
+     "to": "route-108",
+     "as": "The road it is on.",
+     "rel": "road"
+    }
+   ],
+   "sources": [
+    "s:thwp-108",
+    "s:wp-mae-la-noi-district",
+    "s:wp-karen-peoples"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "mae-sariang",
+     "type": "town",
+     "name": "Mae Sariang",
+     "as": "The way in from the north."
+    },
+    {
+     "from": "karen",
+     "type": "person",
+     "name": "The Karen",
+     "as": "The leg that runs through their villages."
+    }
+   ]
+  },
+  {
+   "id": "mae-sariang-to-hot",
+   "type": "leg",
+   "names": {
+    "name": "Mae Sariang to Hot",
+    "th": "แม่สะเรียง – ฮอด",
+    "said": "The long one. A hundred and fifty kilometres of mountain road and almost nothing on it.",
+    "said_th": "ช่วงยาว หนึ่งร้อยห้าสิบกิโลเมตรของถนนภูเขา และแทบไม่มีอะไรบนนั้น"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "days": "1",
+    "direction": "both"
+   },
+   "text": {
+    "what": "The emptiest stretch of the circuit. Sealed, two lanes, steep hillsides, few villages, and a national park in the middle.",
+    "story": "The Thai highway article puts it plainly: from Hot the road runs along steep hills all the way to Mae Sariang. Between the two there is Op Luang, a gorge the Chaem river cut, and not a great deal else with a name.\n\n*Inference —* the planning points are fuel and heat. This is the longest gap between towns of any size on the circuit, it is low and hot at the eastern end, and it is where a day that started late finishes in the dark. Counter-clockwise it is day one and it is a very long day one; clockwise it is the last real leg and it is the one that gets rushed."
+   },
+   "text_th": {
+    "what": "ช่วงที่ว่างเปล่าที่สุดของวงรอบ ลาดยาง สองเลน ไหล่เขาชัน หมู่บ้านน้อย และมีอุทยานแห่งชาติอยู่ตรงกลาง",
+    "story": "บทความทางหลวงภาษาไทยบอกไว้ตรงๆ จากฮอดถนนเลาะไปตามภูเขาสูงชันจนถึงแม่สะเรียง ระหว่างสองเมืองมีออบหลวง ซึ่งเป็นช่องเขาที่แม่น้ำแจ่มกัดเซาะ และไม่ค่อยมีอะไรอื่นที่มีชื่อ\n\n*อนุมาน —* จุดที่ต้องวางแผนคือน้ำมันกับความร้อน นี่คือช่วงห่างระหว่างเมืองที่ยาวที่สุดของวงรอบ ปลายด้านตะวันออกอยู่ต่ำและร้อน และเป็นช่วงที่วันซึ่งออกสายจะจบในความมืด ถ้าไปทวนเข็มนี่คือวันแรก และเป็นวันแรกที่ยาวมาก ถ้าไปตามเข็มนี่คือช่วงจริงจังช่วงสุดท้าย และเป็นช่วงที่มักถูกเร่ง"
+   },
+   "route": {
+    "roads": [
+     "108"
+    ],
+    "from": "Mae Sariang",
+    "from_th": "แม่สะเรียง",
+    "to": "Hot",
+    "to_th": "ฮอด",
+    "km": 150,
+    "hours": "3",
+    "hours_big": "2.5",
+    "fuel_gap_km": 60,
+    "cw": "The last long haul before the four-lane run home.",
+    "ccw": "Day one, and long. This is the leg that finds the rental bike's faults.",
+    "cw_th": "ช่วงลากยาวสุดท้ายก่อนเข้าสี่เลนกลับบ้าน",
+    "ccw_th": "วันแรก และยาว เป็นช่วงที่เจอข้อบกพร่องของรถเช่า",
+    "order": 6,
+    "line": [
+     [
+      18.3234,
+      98.66506
+     ],
+     [
+      18.32522,
+      98.6672
+     ],
+     [
+      18.33995,
+      98.6779
+     ],
+     [
+      18.35774,
+      98.67938
+     ],
+     [
+      18.37593,
+      98.67912
+     ],
+     [
+      18.39397,
+      98.67888
+     ],
+     [
+      18.41105,
+      98.67469
+     ],
+     [
+      18.42817,
+      98.68166
+     ],
+     [
+      18.44066,
+      98.69063
+     ],
+     [
+      18.42534,
+      98.68014
+     ],
+     [
+      18.40845,
+      98.674
+     ],
+     [
+      18.39128,
+      98.6787
+     ],
+     [
+      18.37326,
+      98.67943
+     ],
+     [
+      18.35503,
+      98.67923
+     ],
+     [
+      18.33733,
+      98.67714
+     ],
+     [
+      18.32348,
+      98.66509
+     ],
+     [
+      18.30974,
+      98.65353
+     ],
+     [
+      18.29791,
+      98.64237
+     ],
+     [
+      18.2805,
+      98.63857
+     ],
+     [
+      18.26528,
+      98.63008
+     ],
+     [
+      18.25422,
+      98.61665
+     ],
+     [
+      18.2431,
+      98.60468
+     ],
+     [
+      18.22679,
+      98.6125
+     ],
+     [
+      18.20927,
+      98.61619
+     ],
+     [
+      18.19333,
+      98.61019
+     ],
+     [
+      18.20211,
+      98.59621
+     ],
+     [
+      18.21213,
+      98.58851
+     ],
+     [
+      18.22191,
+      98.57341
+     ],
+     [
+      18.23053,
+      98.55868
+     ],
+     [
+      18.23404,
+      98.54091
+     ],
+     [
+      18.23134,
+      98.52298
+     ],
+     [
+      18.22785,
+      98.50473
+     ],
+     [
+      18.22471,
+      98.48743
+     ],
+     [
+      18.22267,
+      98.46968
+     ],
+     [
+      18.22822,
+      98.45293
+     ],
+     [
+      18.21546,
+      98.44618
+     ],
+     [
+      18.19865,
+      98.45002
+     ],
+     [
+      18.18187,
+      98.45216
+     ],
+     [
+      18.16801,
+      98.44307
+     ],
+     [
+      18.15557,
+      98.42995
+     ],
+     [
+      18.1536,
+      98.41398
+     ],
+     [
+      18.15859,
+      98.39694
+     ],
+     [
+      18.14854,
+      98.38415
+     ],
+     [
+      18.14188,
+      98.36819
+     ],
+     [
+      18.14692,
+      98.35002
+     ],
+     [
+      18.13898,
+      98.33408
+     ],
+     [
+      18.1445,
+      98.31823
+     ],
+     [
+      18.14973,
+      98.30109
+     ],
+     [
+      18.15679,
+      98.28632
+     ],
+     [
+      18.15361,
+      98.27343
+     ],
+     [
+      18.14842,
+      98.26173
+     ],
+     [
+      18.1518,
+      98.24364
+     ],
+     [
+      18.16166,
+      98.23413
+     ],
+     [
+      18.16101,
+      98.22111
+     ],
+     [
+      18.14999,
+      98.20699
+     ],
+     [
+      18.13897,
+      98.19564
+     ],
+     [
+      18.13431,
+      98.17962
+     ],
+     [
+      18.14447,
+      98.16445
+     ],
+     [
+      18.14761,
+      98.14981
+     ],
+     [
+      18.15091,
+      98.13192
+     ],
+     [
+      18.14402,
+      98.121
+     ],
+     [
+      18.14118,
+      98.10774
+     ],
+     [
+      18.14878,
+      98.09335
+     ],
+     [
+      18.13871,
+      98.08437
+     ],
+     [
+      18.14437,
+      98.07282
+     ],
+     [
+      18.15958,
+      98.0671
+     ],
+     [
+      18.16392,
+      98.05758
+     ],
+     [
+      18.15969,
+      98.04314
+     ],
+     [
+      18.15748,
+      98.02886
+     ],
+     [
+      18.14178,
+      98.02013
+     ],
+     [
+      18.13817,
+      98.0027
+     ],
+     [
+      18.13796,
+      97.9848
+     ],
+     [
+      18.1484,
+      97.9701
+     ],
+     [
+      18.16298,
+      97.96069
+     ],
+     [
+      18.16166,
+      97.94425
+     ],
+     [
+      18.174,
+      97.93395
+     ],
+     [
+      18.1921,
+      97.93587
+     ],
+     [
+      18.20743,
+      97.93758
+     ],
+     [
+      18.22446,
+      97.94342
+     ],
+     [
+      18.24213,
+      97.94218
+     ],
+     [
+      18.25997,
+      97.94164
+     ],
+     [
+      18.276,
+      97.9389
+     ],
+     [
+      18.29269,
+      97.93349
+     ],
+     [
+      18.29501,
+      97.91789
+     ],
+     [
+      18.30925,
+      97.91225
+     ],
+     [
+      18.3263,
+      97.90816
+     ],
+     [
+      18.33907,
+      97.92137
+     ],
+     [
+      18.3537,
+      97.92981
+     ],
+     [
+      18.36947,
+      97.93347
+     ],
+     [
+      18.38098,
+      97.94202
+     ],
+     [
+      18.39675,
+      97.93903
+     ],
+     [
+      18.41161,
+      97.94181
+     ],
+     [
+      18.4265,
+      97.94091
+     ],
+     [
+      18.4436,
+      97.94285
+     ],
+     [
+      18.45645,
+      97.93448
+     ],
+     [
+      18.47388,
+      97.93995
+     ],
+     [
+      18.48895,
+      97.93353
+     ],
+     [
+      18.50417,
+      97.93216
+     ],
+     [
+      18.51907,
+      97.92946
+     ],
+     [
+      18.53584,
+      97.93611
+     ],
+     [
+      18.54964,
+      97.93395
+     ],
+     [
+      18.55672,
+      97.94299
+     ],
+     [
+      18.55708,
+      97.92517
+     ],
+     [
+      18.56899,
+      97.93029
+     ],
+     [
+      18.578,
+      97.94202
+     ],
+     [
+      18.59096,
+      97.94289
+     ],
+     [
+      18.60638,
+      97.94013
+     ],
+     [
+      18.62134,
+      97.94715
+     ],
+     [
+      18.6382,
+      97.94398
+     ],
+     [
+      18.64959,
+      97.93553
+     ],
+     [
+      18.66197,
+      97.92794
+     ],
+     [
+      18.67763,
+      97.92245
+     ],
+     [
+      18.69428,
+      97.92159
+     ],
+     [
+      18.70785,
+      97.91169
+     ],
+     [
+      18.72437,
+      97.90828
+     ],
+     [
+      18.7365,
+      97.9223
+     ],
+     [
+      18.75322,
+      97.92718
+     ],
+     [
+      18.76724,
+      97.93786
+     ],
+     [
+      18.77929,
+      97.93971
+     ],
+     [
+      18.79242,
+      97.93292
+     ],
+     [
+      18.81013,
+      97.93156
+     ],
+     [
+      18.82569,
+      97.9336
+     ],
+     [
+      18.83945,
+      97.94252
+     ],
+     [
+      18.85636,
+      97.94562
+     ],
+     [
+      18.87374,
+      97.94752
+     ],
+     [
+      18.88595,
+      97.93436
+     ],
+     [
+      18.89765,
+      97.9313
+     ],
+     [
+      18.90723,
+      97.94186
+     ],
+     [
+      18.91628,
+      97.95466
+     ],
+     [
+      18.93274,
+      97.95558
+     ],
+     [
+      18.94714,
+      97.96081
+     ],
+     [
+      18.9535,
+      97.96799
+     ],
+     [
+      18.96834,
+      97.96898
+     ],
+     [
+      18.98582,
+      97.97055
+     ],
+     [
+      19.00305,
+      97.97523
+     ],
+     [
+      19.01871,
+      97.97673
+     ],
+     [
+      19.03262,
+      97.98271
+     ],
+     [
+      19.04856,
+      97.99086
+     ],
+     [
+      19.06446,
+      97.9955
+     ],
+     [
+      19.08056,
+      97.9923
+     ],
+     [
+      19.09504,
+      97.9961
+     ],
+     [
+      19.11113,
+      97.99361
+     ],
+     [
+      19.12478,
+      97.98993
+     ],
+     [
+      19.13812,
+      97.99591
+     ],
+     [
+      19.15396,
+      97.99312
+     ],
+     [
+      19.16955,
+      97.99021
+     ],
+     [
+      19.17936,
+      97.98533
+     ],
+     [
+      19.19512,
+      97.98395
+     ],
+     [
+      19.21143,
+      97.98101
+     ],
+     [
+      19.22498,
+      97.96957
+     ],
+     [
+      19.24253,
+      97.9721
+     ],
+     [
+      19.25804,
+      97.96588
+     ],
+     [
+      19.27286,
+      97.95921
+     ],
+     [
+      19.28262,
+      97.96039
+     ]
+    ],
+    "line_points": 154
+   },
+   "riding": {
+    "min_class": "auto",
+    "grip": "moderate",
+    "pillion": "think",
+    "note": "Long rather than difficult. Fill up in Mae Sariang, not after it.",
+    "note_th": "ยาวมากกว่ายาก เติมน้ำมันที่แม่สะเรียง ไม่ใช่หลังจากนั้น",
+    "loaded": "Nothing here punishes luggage; the distance punishes everything."
+   },
+   "kin": [
+    {
+     "to": "op-luang",
+     "as": "The gorge in the middle of it.",
+     "rel": "stop"
+    },
+    {
+     "to": "hot",
+     "as": "The town at the eastern end.",
+     "rel": "town"
+    },
+    {
+     "to": "night-riding",
+     "as": "What this leg turns into if you start late.",
+     "rel": "hazard"
+    },
+    {
+     "to": "hot-season",
+     "as": "The eastern end is the hottest riding of the circuit.",
+     "rel": "event"
+    }
+   ],
+   "sources": [
+    "s:thwp-108",
+    "s:wp-op-luang-national-park",
+    "s:wp-hot-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "hot",
+     "type": "town",
+     "name": "Hot",
+     "as": "The long way in."
+    },
+    {
+     "from": "mae-sariang",
+     "type": "town",
+     "name": "Mae Sariang",
+     "as": "The long eastern day."
+    },
+    {
+     "from": "op-luang",
+     "type": "stop",
+     "name": "Op Luang",
+     "as": "The long leg it breaks."
+    },
+    {
+     "from": "hot-season",
+     "type": "event",
+     "name": "The hot season",
+     "as": "The hottest leg on the circuit."
+    },
+    {
+     "from": "gasohol",
+     "type": "term",
+     "name": "Gasohol 91 and 95",
+     "as": "The longest gap on the loop."
+    },
+    {
+     "from": "which-way-round",
+     "type": "story",
+     "name": "Clockwise or counter-clockwise",
+     "as": "The long forgiving day that counter-clockwise puts first."
+    }
+   ]
+  },
+  {
+   "id": "mhs-to-khun-yuam",
+   "type": "leg",
+   "names": {
+    "name": "Mae Hong Son to Khun Yuam",
+    "th": "แม่ฮ่องสอน – ขุนยวม",
+    "said": "Over the mountains and onto the long road south.",
+    "said_th": "ข้ามเขาแล้วออกสู่ถนนสายยาวลงใต้"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "days": "1",
+    "direction": "both"
+   },
+   "text": {
+    "what": "Route 108 south. The climb out of the Mae Hong Son valley, then the first of the long southern running.",
+    "story": "The Thai Wikipedia article describes this section from the other end: the road crosses the mountains to drop into Mae Hong Son town, having climbed from Ban Mae La Luang past Khun Yuam. Ridden southbound you do that in reverse — climb out, then run.\n\n*Inference —* the change of character is the thing to expect. After three days of 1095 this feels open and fast, and the curves that remain are longer-radius. Riders who have adjusted to four curves a kilometre take a leg or so to recalibrate, which is its own small hazard."
+   },
+   "text_th": {
+    "what": "ทางหลวง 108 ลงใต้ ไต่ขึ้นจากหุบแม่ฮ่องสอน แล้วเริ่มช่วงยาวของทางใต้",
+    "story": "บทความวิกิพีเดียภาษาไทยบรรยายช่วงนี้จากอีกด้าน ถนนข้ามภูเขาเพื่อลงไปยังตัวเมืองแม่ฮ่องสอน หลังจากไต่ขึ้นจากบ้านแม่ลาหลวงผ่านขุนยวม ถ้าขี่ลงใต้ก็ทำแบบกลับกัน ไต่ขึ้นก่อน แล้วค่อยวิ่ง\n\n*อนุมาน —* สิ่งที่ควรคาดคือการเปลี่ยนลักษณะของถนน หลังจากสามวันบน 1095 ช่วงนี้จะรู้สึกโล่งและเร็ว และโค้งที่เหลือมีรัศมีกว้างกว่า คนขี่ที่ปรับตัวเข้ากับสี่โค้งต่อกิโลเมตรแล้วต้องใช้เวลาราวหนึ่งช่วงในการปรับกลับ ซึ่งเป็นอันตรายเล็กๆ ในตัวมันเอง"
+   },
+   "route": {
+    "roads": [
+     "108"
+    ],
+    "from": "Mae Hong Son",
+    "from_th": "แม่ฮ่องสอน",
+    "to": "Khun Yuam",
+    "to_th": "ขุนยวม",
+    "km": 67,
+    "hours": "1.5",
+    "hours_big": "1.25",
+    "cw": "The start of the way home, and the first easy riding in three days.",
+    "ccw": "The last climb before Mae Hong Son.",
+    "cw_th": "จุดเริ่มของทางกลับบ้าน และเป็นการขี่สบายครั้งแรกในรอบสามวัน",
+    "ccw_th": "ทางไต่ขึ้นครั้งสุดท้ายก่อนถึงแม่ฮ่องสอน",
+    "order": 4,
+    "line": [
+     [
+      18.3234,
+      98.66506
+     ],
+     [
+      18.32522,
+      98.6672
+     ],
+     [
+      18.33995,
+      98.6779
+     ],
+     [
+      18.35774,
+      98.67938
+     ],
+     [
+      18.37593,
+      98.67912
+     ],
+     [
+      18.39397,
+      98.67888
+     ],
+     [
+      18.41105,
+      98.67469
+     ],
+     [
+      18.42817,
+      98.68166
+     ],
+     [
+      18.44066,
+      98.69063
+     ],
+     [
+      18.42534,
+      98.68014
+     ],
+     [
+      18.40845,
+      98.674
+     ],
+     [
+      18.39128,
+      98.6787
+     ],
+     [
+      18.37326,
+      98.67943
+     ],
+     [
+      18.35503,
+      98.67923
+     ],
+     [
+      18.33733,
+      98.67714
+     ],
+     [
+      18.32348,
+      98.66509
+     ],
+     [
+      18.30974,
+      98.65353
+     ],
+     [
+      18.29791,
+      98.64237
+     ],
+     [
+      18.2805,
+      98.63857
+     ],
+     [
+      18.26528,
+      98.63008
+     ],
+     [
+      18.25422,
+      98.61665
+     ],
+     [
+      18.2431,
+      98.60468
+     ],
+     [
+      18.22679,
+      98.6125
+     ],
+     [
+      18.20927,
+      98.61619
+     ],
+     [
+      18.19333,
+      98.61019
+     ],
+     [
+      18.20211,
+      98.59621
+     ],
+     [
+      18.21213,
+      98.58851
+     ],
+     [
+      18.22191,
+      98.57341
+     ],
+     [
+      18.23053,
+      98.55868
+     ],
+     [
+      18.23404,
+      98.54091
+     ],
+     [
+      18.23134,
+      98.52298
+     ],
+     [
+      18.22785,
+      98.50473
+     ],
+     [
+      18.22471,
+      98.48743
+     ],
+     [
+      18.22267,
+      98.46968
+     ],
+     [
+      18.22822,
+      98.45293
+     ],
+     [
+      18.21546,
+      98.44618
+     ],
+     [
+      18.19865,
+      98.45002
+     ],
+     [
+      18.18187,
+      98.45216
+     ],
+     [
+      18.16801,
+      98.44307
+     ],
+     [
+      18.15557,
+      98.42995
+     ],
+     [
+      18.1536,
+      98.41398
+     ],
+     [
+      18.15859,
+      98.39694
+     ],
+     [
+      18.14854,
+      98.38415
+     ],
+     [
+      18.14188,
+      98.36819
+     ],
+     [
+      18.14692,
+      98.35002
+     ],
+     [
+      18.13898,
+      98.33408
+     ],
+     [
+      18.1445,
+      98.31823
+     ],
+     [
+      18.14973,
+      98.30109
+     ],
+     [
+      18.15679,
+      98.28632
+     ],
+     [
+      18.15361,
+      98.27343
+     ],
+     [
+      18.14842,
+      98.26173
+     ],
+     [
+      18.1518,
+      98.24364
+     ],
+     [
+      18.16166,
+      98.23413
+     ],
+     [
+      18.16101,
+      98.22111
+     ],
+     [
+      18.14999,
+      98.20699
+     ],
+     [
+      18.13897,
+      98.19564
+     ],
+     [
+      18.13431,
+      98.17962
+     ],
+     [
+      18.14447,
+      98.16445
+     ],
+     [
+      18.14761,
+      98.14981
+     ],
+     [
+      18.15091,
+      98.13192
+     ],
+     [
+      18.14402,
+      98.121
+     ],
+     [
+      18.14118,
+      98.10774
+     ],
+     [
+      18.14878,
+      98.09335
+     ],
+     [
+      18.13871,
+      98.08437
+     ],
+     [
+      18.14437,
+      98.07282
+     ],
+     [
+      18.15958,
+      98.0671
+     ],
+     [
+      18.16392,
+      98.05758
+     ],
+     [
+      18.15969,
+      98.04314
+     ],
+     [
+      18.15748,
+      98.02886
+     ],
+     [
+      18.14178,
+      98.02013
+     ],
+     [
+      18.13817,
+      98.0027
+     ],
+     [
+      18.13796,
+      97.9848
+     ],
+     [
+      18.1484,
+      97.9701
+     ],
+     [
+      18.16298,
+      97.96069
+     ],
+     [
+      18.16166,
+      97.94425
+     ],
+     [
+      18.174,
+      97.93395
+     ],
+     [
+      18.1921,
+      97.93587
+     ],
+     [
+      18.20743,
+      97.93758
+     ],
+     [
+      18.22446,
+      97.94342
+     ],
+     [
+      18.24213,
+      97.94218
+     ],
+     [
+      18.25997,
+      97.94164
+     ],
+     [
+      18.276,
+      97.9389
+     ],
+     [
+      18.29269,
+      97.93349
+     ],
+     [
+      18.29501,
+      97.91789
+     ],
+     [
+      18.30925,
+      97.91225
+     ],
+     [
+      18.3263,
+      97.90816
+     ],
+     [
+      18.33907,
+      97.92137
+     ],
+     [
+      18.3537,
+      97.92981
+     ],
+     [
+      18.36947,
+      97.93347
+     ],
+     [
+      18.38098,
+      97.94202
+     ],
+     [
+      18.39675,
+      97.93903
+     ],
+     [
+      18.41161,
+      97.94181
+     ],
+     [
+      18.4265,
+      97.94091
+     ],
+     [
+      18.4436,
+      97.94285
+     ],
+     [
+      18.45645,
+      97.93448
+     ],
+     [
+      18.47388,
+      97.93995
+     ],
+     [
+      18.48895,
+      97.93353
+     ],
+     [
+      18.50417,
+      97.93216
+     ],
+     [
+      18.51907,
+      97.92946
+     ],
+     [
+      18.53584,
+      97.93611
+     ],
+     [
+      18.54964,
+      97.93395
+     ],
+     [
+      18.55672,
+      97.94299
+     ],
+     [
+      18.55708,
+      97.92517
+     ],
+     [
+      18.56899,
+      97.93029
+     ],
+     [
+      18.578,
+      97.94202
+     ],
+     [
+      18.59096,
+      97.94289
+     ],
+     [
+      18.60638,
+      97.94013
+     ],
+     [
+      18.62134,
+      97.94715
+     ],
+     [
+      18.6382,
+      97.94398
+     ],
+     [
+      18.64959,
+      97.93553
+     ],
+     [
+      18.66197,
+      97.92794
+     ],
+     [
+      18.67763,
+      97.92245
+     ],
+     [
+      18.69428,
+      97.92159
+     ],
+     [
+      18.70785,
+      97.91169
+     ],
+     [
+      18.72437,
+      97.90828
+     ],
+     [
+      18.7365,
+      97.9223
+     ],
+     [
+      18.75322,
+      97.92718
+     ],
+     [
+      18.76724,
+      97.93786
+     ],
+     [
+      18.77929,
+      97.93971
+     ],
+     [
+      18.79242,
+      97.93292
+     ],
+     [
+      18.81013,
+      97.93156
+     ],
+     [
+      18.82569,
+      97.9336
+     ],
+     [
+      18.83945,
+      97.94252
+     ],
+     [
+      18.85636,
+      97.94562
+     ],
+     [
+      18.87374,
+      97.94752
+     ],
+     [
+      18.88595,
+      97.93436
+     ],
+     [
+      18.89765,
+      97.9313
+     ],
+     [
+      18.90723,
+      97.94186
+     ],
+     [
+      18.91628,
+      97.95466
+     ],
+     [
+      18.93274,
+      97.95558
+     ],
+     [
+      18.94714,
+      97.96081
+     ],
+     [
+      18.9535,
+      97.96799
+     ],
+     [
+      18.96834,
+      97.96898
+     ],
+     [
+      18.98582,
+      97.97055
+     ],
+     [
+      19.00305,
+      97.97523
+     ],
+     [
+      19.01871,
+      97.97673
+     ],
+     [
+      19.03262,
+      97.98271
+     ],
+     [
+      19.04856,
+      97.99086
+     ],
+     [
+      19.06446,
+      97.9955
+     ],
+     [
+      19.08056,
+      97.9923
+     ],
+     [
+      19.09504,
+      97.9961
+     ],
+     [
+      19.11113,
+      97.99361
+     ],
+     [
+      19.12478,
+      97.98993
+     ],
+     [
+      19.13812,
+      97.99591
+     ],
+     [
+      19.15396,
+      97.99312
+     ],
+     [
+      19.16955,
+      97.99021
+     ],
+     [
+      19.17936,
+      97.98533
+     ],
+     [
+      19.19512,
+      97.98395
+     ],
+     [
+      19.21143,
+      97.98101
+     ],
+     [
+      19.22498,
+      97.96957
+     ],
+     [
+      19.24253,
+      97.9721
+     ],
+     [
+      19.25804,
+      97.96588
+     ],
+     [
+      19.27286,
+      97.95921
+     ],
+     [
+      19.28262,
+      97.96039
+     ]
+    ],
+    "line_points": 154
+   },
+   "riding": {
+    "min_class": "auto",
+    "grip": "easy",
+    "pillion": "fine",
+    "note": "Open, sealed, two lanes.",
+    "note_th": "โล่ง ลาดยาง สองเลน"
+   },
+   "kin": [
+    {
+     "to": "khun-yuam",
+     "as": "The town at the end, and the junction for the cut.",
+     "rel": "town"
+    },
+    {
+     "to": "route-108",
+     "as": "The road it is on.",
+     "rel": "road"
+    },
+    {
+     "to": "the-1263-cut",
+     "as": "The decision waiting at the end of it.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:thwp-108",
+    "s:wp-khun-yuam-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "khun-yuam",
+     "type": "town",
+     "name": "Khun Yuam",
+     "as": "The way in from the north."
+    },
+    {
+     "from": "mae-hong-son",
+     "type": "town",
+     "name": "Mae Hong Son",
+     "as": "The way out to the south."
+    },
+    {
+     "from": "khun-yuam-memorial",
+     "type": "stop",
+     "name": "The Japanese memorial at Khun Yuam",
+     "as": "The leg that reaches it."
+    },
+    {
+     "from": "su-tong-pae",
+     "type": "stop",
+     "name": "Su Tong Pae bridge",
+     "as": "The leg it sits near the start of."
+    }
+   ]
+  },
+  {
+   "id": "pai-to-soppong",
+   "type": "leg",
+   "names": {
+    "name": "Pai to Soppong",
+    "th": "ปาย – สบป่อง",
+    "said": "Thirty-seven kilometres, a hundred and thirty-nine curves, and a cave at the end.",
+    "said_th": "สามสิบเจ็ดกิโลเมตร หนึ่งร้อยสามสิบเก้าโค้ง และมีถ้ำรออยู่"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "days": "1",
+    "direction": "both"
+   },
+   "text": {
+    "what": "Short. Out of the Pai basin, up, and into limestone country.",
+    "story": "*Inference —* measured off OSM this section carries 139 curves in 36.7 kilometres, 3.87 a kilometre. It is the easiest of the three 1095 sections by that measure, and the shortest by a long way.\n\nWhich makes it the leg to use. A day that runs Pai to Soppong only is a half day with the caves in it; a day that runs Pai to Mae Hong Son is a full one that ends with the hardest descent of the northern leg. *Inference —* people who are tired when they reach Mae Hong Son usually made that choice without noticing it was one."
+   },
+   "text_th": {
+    "what": "สั้น ออกจากแอ่งปาย ไต่ขึ้น แล้วเข้าเขตหินปูน",
+    "story": "*อนุมาน —* เมื่อวัดจาก OSM ช่วงนี้มี 139 โค้งใน 36.7 กิโลเมตร คิดเป็น 3.87 โค้งต่อกิโลเมตร เป็นช่วงที่ง่ายที่สุดในสามช่วงของ 1095 ตามเกณฑ์นี้ และสั้นที่สุดแบบทิ้งห่าง\n\nซึ่งทำให้มันเป็นช่วงที่ควรใช้ประโยชน์ วันที่วิ่งแค่ปายถึงสบป่องคือครึ่งวันที่มีถ้ำอยู่ในนั้น ส่วนวันที่วิ่งปายถึงแม่ฮ่องสอนคือเต็มวันที่จบด้วยทางลงที่ยากที่สุดของช่วงเหนือ *อนุมาน —* คนที่เหนื่อยตอนถึงแม่ฮ่องสอนมักเลือกแบบหลังโดยไม่รู้ตัวว่ามันเป็นทางเลือก"
+   },
+   "route": {
+    "roads": [
+     "1095"
+    ],
+    "from": "Pai",
+    "from_th": "ปาย",
+    "to": "Soppong",
+    "to_th": "สบป่อง",
+    "km": 37,
+    "km_source": "s:mhs-measured",
+    "hours": "1–1.5",
+    "hours_big": "1",
+    "curves": 139,
+    "hairpins": 22,
+    "cw": "A half-day that leaves the afternoon for Tham Lot.",
+    "ccw": "The run into Pai, and an easy end to a hard day.",
+    "cw_th": "ครึ่งวันที่เหลือบ่ายไว้ให้ถ้ำลอด",
+    "ccw_th": "ช่วงเข้าปาย และเป็นการจบวันที่หนักแบบสบายๆ",
+    "order": 2,
+    "line": [
+     [
+      19.41936,
+      97.99821
+     ],
+     [
+      19.43596,
+      97.9983
+     ],
+     [
+      19.44345,
+      98.00817
+     ],
+     [
+      19.45031,
+      98.0167
+     ],
+     [
+      19.46285,
+      98.0235
+     ],
+     [
+      19.4786,
+      98.03018
+     ],
+     [
+      19.48655,
+      98.04376
+     ],
+     [
+      19.49559,
+      98.05524
+     ],
+     [
+      19.50603,
+      98.06805
+     ],
+     [
+      19.51354,
+      98.08137
+     ],
+     [
+      19.52425,
+      98.09482
+     ],
+     [
+      19.53631,
+      98.09981
+     ],
+     [
+      19.53639,
+      98.11414
+     ],
+     [
+      19.53553,
+      98.12821
+     ],
+     [
+      19.54115,
+      98.13847
+     ],
+     [
+      19.55198,
+      98.14925
+     ],
+     [
+      19.5581,
+      98.16055
+     ],
+     [
+      19.56468,
+      98.17474
+     ],
+     [
+      19.55817,
+      98.19124
+     ],
+     [
+      19.54933,
+      98.20248
+     ],
+     [
+      19.54451,
+      98.21388
+     ],
+     [
+      19.53422,
+      98.22751
+     ],
+     [
+      19.52294,
+      98.2418
+     ],
+     [
+      19.51707,
+      98.2568
+     ],
+     [
+      19.5132,
+      98.27067
+     ],
+     [
+      19.49798,
+      98.27908
+     ],
+     [
+      19.48602,
+      98.29138
+     ],
+     [
+      19.47119,
+      98.29519
+     ],
+     [
+      19.46214,
+      98.29978
+     ],
+     [
+      19.45326,
+      98.30374
+     ],
+     [
+      19.45269,
+      98.31207
+     ],
+     [
+      19.4501,
+      98.31769
+     ],
+     [
+      19.43979,
+      98.32495
+     ],
+     [
+      19.44308,
+      98.3359
+     ],
+     [
+      19.44389,
+      98.34293
+     ],
+     [
+      19.43872,
+      98.3552
+     ],
+     [
+      19.43671,
+      98.36935
+     ],
+     [
+      19.43539,
+      98.38741
+     ],
+     [
+      19.42474,
+      98.39911
+     ],
+     [
+      19.417,
+      98.41357
+     ],
+     [
+      19.4003,
+      98.4155
+     ],
+     [
+      19.38578,
+      98.4262
+     ],
+     [
+      19.36874,
+      98.42737
+     ],
+     [
+      19.35183,
+      98.42952
+     ],
+     [
+      19.33518,
+      98.43171
+     ],
+     [
+      19.31867,
+      98.43861
+     ],
+     [
+      19.31145,
+      98.45279
+     ],
+     [
+      19.29981,
+      98.46346
+     ],
+     [
+      19.2885,
+      98.47343
+     ],
+     [
+      19.28169,
+      98.48915
+     ],
+     [
+      19.27106,
+      98.50186
+     ],
+     [
+      19.26584,
+      98.51422
+     ],
+     [
+      19.27006,
+      98.52692
+     ],
+     [
+      19.27225,
+      98.543
+     ],
+     [
+      19.27128,
+      98.5592
+     ],
+     [
+      19.27278,
+      98.57487
+     ],
+     [
+      19.26761,
+      98.58744
+     ],
+     [
+      19.27677,
+      98.60006
+     ],
+     [
+      19.27857,
+      98.61375
+     ],
+     [
+      19.26987,
+      98.62762
+     ],
+     [
+      19.26051,
+      98.63883
+     ],
+     [
+      19.24999,
+      98.64207
+     ],
+     [
+      19.25286,
+      98.64952
+     ],
+     [
+      19.24193,
+      98.65656
+     ],
+     [
+      19.23472,
+      98.66234
+     ],
+     [
+      19.22746,
+      98.67201
+     ],
+     [
+      19.2222,
+      98.67161
+     ],
+     [
+      19.21433,
+      98.67021
+     ],
+     [
+      19.20481,
+      98.67746
+     ],
+     [
+      19.19411,
+      98.6895
+     ],
+     [
+      19.17687,
+      98.69232
+     ],
+     [
+      19.15939,
+      98.69117
+     ],
+     [
+      19.14401,
+      98.69736
+     ],
+     [
+      19.13133,
+      98.70404
+     ],
+     [
+      19.12155,
+      98.70981
+     ],
+     [
+      19.11809,
+      98.72556
+     ],
+     [
+      19.12364,
+      98.73553
+     ],
+     [
+      19.12379,
+      98.74743
+     ],
+     [
+      19.12498,
+      98.763
+     ],
+     [
+      19.1229,
+      98.77874
+     ],
+     [
+      19.11185,
+      98.79335
+     ],
+     [
+      19.10687,
+      98.81106
+     ],
+     [
+      19.10658,
+      98.82558
+     ],
+     [
+      19.10146,
+      98.84095
+     ],
+     [
+      19.09296,
+      98.85731
+     ],
+     [
+      19.09481,
+      98.87396
+     ],
+     [
+      19.08811,
+      98.89096
+     ],
+     [
+      19.08644,
+      98.90622
+     ],
+     [
+      19.08019,
+      98.91822
+     ],
+     [
+      19.07287,
+      98.93587
+     ]
+    ],
+    "line_points": 90
+   },
+   "riding": {
+    "min_class": "auto",
+    "grip": "easy",
+    "pillion": "fine",
+    "note": "The gentlest stretch of Route 1095.",
+    "note_th": "ช่วงที่นุ่มที่สุดของทางหลวง 1095"
+   },
+   "kin": [
+    {
+     "to": "soppong",
+     "as": "The town at the end.",
+     "rel": "town"
+    },
+    {
+     "to": "tham-lot",
+     "as": "The reason to stop short.",
+     "rel": "stop"
+    },
+    {
+     "to": "soppong-to-mhs",
+     "as": "The hard one, next.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:mhs-measured",
+    "s:wp-pang-mapha-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "cnx-to-pai",
+     "type": "leg",
+     "name": "Chiang Mai to Pai",
+     "as": "The next one, clockwise."
+    },
+    {
+     "from": "pai",
+     "type": "town",
+     "name": "Pai",
+     "as": "The way on."
+    },
+    {
+     "from": "soppong",
+     "type": "town",
+     "name": "Soppong",
+     "as": "The way in."
+    },
+    {
+     "from": "tham-lot",
+     "type": "stop",
+     "name": "Tham Lot",
+     "as": "The half-day that buys you the time for it."
+    }
+   ]
+  },
+  {
+   "id": "samoeng-warmup",
+   "type": "leg",
+   "names": {
+    "name": "The Samoeng warm-up",
+    "th": "วงรอบสะเมิง ซ้อมใหญ่",
+    "said": "A hundred kilometres from your hotel that tells you what four days would be.",
+    "said_th": "ร้อยกิโลเมตรจากโรงแรมที่บอกคุณได้ว่าสี่วันจะเป็นอย่างไร"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "days": "1",
+    "direction": "both"
+   },
+   "text": {
+    "what": "Chiang Mai to Mae Rim, Route 1096 to Samoeng, and back. A day. Not part of the loop.",
+    "story": "*Inference —* this is the single most useful thing on this site for a rider who is not sure, and it costs a day.\n\nMeasured off OSM, Route 1096 carries **4.46 curves a kilometre** over its 29.8-kilometre run — the densest road measured anywhere on this network, ahead of Route 1095's 4.03. So the Samoeng day is the same riding in miniature, an hour from a city with a hospital, on the bike you have just rented, with your luggage still in the room.\n\nWhat it tells you: whether the rental is sound, whether the brakes fade, whether your wrists last, whether a pillion enjoys it, and whether four days of this is a holiday or an ordeal. Anyone who finishes it tired and happy should go. Anyone who finishes it tired and quiet has learned something worth a day."
+   },
+   "text_th": {
+    "what": "เชียงใหม่ไปแม่ริม ทางหลวง 1096 ไปสะเมิง แล้ววนกลับ ใช้เวลาหนึ่งวัน ไม่ได้เป็นส่วนหนึ่งของวงรอบ",
+    "story": "*อนุมาน —* นี่คือสิ่งที่มีประโยชน์ที่สุดในเว็บนี้สำหรับคนขี่ที่ยังไม่แน่ใจ และราคาของมันคือหนึ่งวัน\n\nเมื่อวัดจาก OSM ทางหลวง 1096 มี **4.46 โค้งต่อกิโลเมตร** ตลอดระยะ 29.8 กิโลเมตร หนาแน่นที่สุดในเครือข่ายนี้ นำหน้าทางหลวง 1095 ที่ 4.03 วันสะเมิงจึงเป็นของจริงแบบย่อส่วน ห่างจากเมืองที่มีโรงพยาบาลหนึ่งชั่วโมง บนรถที่เพิ่งเช่ามา โดยที่สัมภาระยังอยู่ในห้อง\n\nสิ่งที่มันบอกคุณ รถเช่าสภาพดีไหม เบรกเฟดไหม ข้อมือคุณทนได้ไหม คนซ้อนสนุกไหม และสี่วันแบบนี้จะเป็นวันหยุดหรือเป็นการทรมาน ใครที่จบวันนี้แบบเหนื่อยและมีความสุข ควรไป ใครที่จบแบบเหนื่อยและเงียบ ได้เรียนรู้บางอย่างที่คุ้มค่าหนึ่งวัน"
+   },
+   "route": {
+    "roads": [
+     "1096"
+    ],
+    "from": "Chiang Mai",
+    "from_th": "เชียงใหม่",
+    "to": "Samoeng and back",
+    "to_th": "สะเมิงและกลับ",
+    "km": 100,
+    "hours": "4–5",
+    "hours_big": "3.5",
+    "curves": 130,
+    "hairpins": 19,
+    "cw": "Either way round. That is rather the point of a rehearsal.",
+    "ccw": "Either way round.",
+    "cw_th": "ไปทางไหนก็ได้ ซึ่งนั่นคือจุดประสงค์ของการซ้อม",
+    "ccw_th": "ไปทางไหนก็ได้",
+    "order": 0,
+    "line": [
+     [
+      18.8451,
+      98.77355
+     ],
+     [
+      18.85396,
+      98.77859
+     ],
+     [
+      18.8638,
+      98.78411
+     ],
+     [
+      18.87489,
+      98.78032
+     ],
+     [
+      18.87702,
+      98.79258
+     ],
+     [
+      18.87887,
+      98.80536
+     ],
+     [
+      18.88425,
+      98.81501
+     ],
+     [
+      18.88901,
+      98.83054
+     ],
+     [
+      18.89773,
+      98.8458
+     ],
+     [
+      18.89904,
+      98.86213
+     ],
+     [
+      18.90028,
+      98.88037
+     ],
+     [
+      18.90857,
+      98.89399
+     ],
+     [
+      18.91059,
+      98.90599
+     ],
+     [
+      18.9209,
+      98.91892
+     ],
+     [
+      18.91902,
+      98.93587
+     ]
+    ],
+    "line_points": 15
+   },
+   "riding": {
+    "min_class": "auto",
+    "grip": "moderate",
+    "pillion": "fine",
+    "note": "The same difficulty as the circuit, one hour from help.",
+    "note_th": "ยากเท่าวงรอบจริง แต่ห่างจากความช่วยเหลือแค่ชั่วโมงเดียว"
+   },
+   "kin": [
+    {
+     "to": "route-1096",
+     "as": "The road it uses.",
+     "rel": "road"
+    },
+    {
+     "to": "renting-a-bike",
+     "as": "The bike this day is testing.",
+     "rel": "kit"
+    },
+    {
+     "to": "cnx-to-pai",
+     "as": "What it is a rehearsal for.",
+     "rel": "leg"
+    },
+    {
+     "to": "brake-fade",
+     "as": "Better discovered here.",
+     "rel": "hazard"
+    }
+   ],
+   "sources": [
+    "s:mhs-measured",
+    "s:wp-samoeng-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "samoeng-warmup/samoeng-warmup-lone-pine-tree-at-mon-ang-ket.jpg",
+     "source": "commons",
+     "title": "File:Lone Pine tree at Mon Ang Ket.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Lone_Pine_tree_at_Mon_Ang_Ket.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ALone_Pine_tree_at_Mon_Ang_Ket.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Catchiangmai",
+     "credit": "Own work",
+     "alt": "A lone pine tree at the summit of Mon Ang Ket, the highest peak in Samoeng District, Chiang Mai, Thailand (1,840 meters above sea level). The area is a protected natural site featuring a scenic landsc",
+     "date": "2026-01-13 13:59:32",
+     "primary": true,
+     "sha256": "0a15f17ad32b9f7ad3515aaf04d00f4fbc861e07a53c54ea6a1fb9af97dade62"
+    },
+    {
+     "file": "samoeng-warmup/samoeng-warmup-mae-sap-samoeng-district-chiang-mai-50250-thailand-panoramio.jpg",
+     "source": "commons",
+     "title": "File:Mae Sap, Samoeng District, Chiang Mai 50250, Thailand - panoramio.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Mae_Sap%2C_Samoeng_District%2C_Chiang_Mai_50250%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Sap%2C_Samoeng_District%2C_Chiang_Mai_50250%2C_Thailand_-_panoramio.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0/",
+     "author": "Maxim Cruiser",
+     "credit": "https://web.archive.org/web/20161025002942/http://www.panoramio.com/photo/70435636",
+     "alt": "Mae Sap, Samoeng District, Chiang Mai 50250, Thailand",
+     "date": "Taken on 15 April 2012",
+     "primary": false,
+     "sha256": "9d1156f59e63f39596feaa38b3098004c6ee02056250efc07704bc77a703962c"
+    },
+    {
+     "file": "samoeng-warmup/samoeng-warmup-samoeng4.jpg",
+     "source": "commons",
+     "title": "File:Samoeng4.JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Samoeng4.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASamoeng4.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Millevache",
+     "credit": "Own work",
+     "alt": "Samoeng, Chiang Mai Province, Thailand",
+     "date": "2009",
+     "primary": false,
+     "sha256": "929bbb4636d18b635b5fa266a423e62376a0157652cf7d32ff2b86c0e6fe3487"
+    },
+    {
+     "file": "samoeng-warmup/samoeng-warmup-.jpg",
+     "source": "commons",
+     "title": "File:ถ้ำหลวงแม่สาบ.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B2%E0%B8%9A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B2%E0%B8%9A.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Krutiew",
+     "credit": "Own work",
+     "alt": "Tham Luang Mae Sap Cave: Where Nature Paints the Cave in Rainbow Colors",
+     "date": "2025-02-15 14:26:09",
+     "primary": false,
+     "sha256": "0939ca6bdb54218f61b02c68c0d256922d55dbd6a3e2430cc5a3a6d015867a03"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "cnx-to-pai",
+     "type": "leg",
+     "name": "Chiang Mai to Pai",
+     "as": "The day that tells you whether this one will be fun."
+    },
+    {
+     "from": "route-1096",
+     "type": "road",
+     "name": "Route 1096",
+     "as": "The day this road makes."
+    },
+    {
+     "from": "renting-a-bike",
+     "type": "kit",
+     "name": "Renting the bike",
+     "as": "The day that tests what you were given."
+    },
+    {
+     "from": "which-bike",
+     "type": "story",
+     "name": "Every bike goes up there",
+     "as": "The one day that answers the question for any of them."
+    }
+   ]
+  },
+  {
+   "id": "soppong-to-mhs",
+   "type": "leg",
+   "names": {
+    "name": "Soppong to Mae Hong Son",
+    "th": "สบป่อง – แม่ฮ่องสอน",
+    "said": "The descent into the three mists, and the one to do in the morning.",
+    "said_th": "ทางลงสู่เมืองสามหมอก และเป็นช่วงที่ควรทำตอนเช้า"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "days": "1",
+    "direction": "both"
+   },
+   "text": {
+    "what": "Fifty-two kilometres, a hundred and ninety curves, and a long drop into the Mae Hong Son valley at the end.",
+    "story": "*Inference —* 51.5 kilometres, 190 curves at a 25-degree threshold, 3.74 a kilometre. On paper the gentlest of the three 1095 sections; in practice the one with the most sustained descent.\n\nThis is the leg the light argument is about. Ridden westward in the afternoon in the cool season the sun sits at the end of the road, on two lanes, with oncoming traffic, for the last hour. Ridden eastward in the morning it is behind you. *Inference —* it is the clearest single reason in the whole clockwise-versus-counter-clockwise question to consider going the other way round, and almost nobody raises it."
+   },
+   "text_th": {
+    "what": "ห้าสิบสองกิโลเมตร หนึ่งร้อยเก้าสิบโค้ง และจบด้วยทางลงยาวสู่หุบแม่ฮ่องสอน",
+    "story": "*อนุมาน —* ระยะ 51.5 กิโลเมตร มี 190 โค้งที่เกณฑ์ 25 องศา คิดเป็น 3.74 โค้งต่อกิโลเมตร บนกระดาษเป็นช่วงที่นุ่มที่สุดในสามช่วงของ 1095 แต่ในทางปฏิบัติเป็นช่วงที่มีทางลงต่อเนื่องยาวที่สุด\n\nนี่คือช่วงที่เรื่องแสงพูดถึง ถ้าขี่ไปทางตะวันตกตอนบ่ายในฤดูหนาว ดวงอาทิตย์จะอยู่ปลายถนน บนสองเลน มีรถสวน ตลอดชั่วโมงสุดท้าย ถ้าขี่ไปทางตะวันออกตอนเช้า มันจะอยู่ข้างหลัง *อนุมาน —* นี่คือเหตุผลเดี่ยวที่ชัดที่สุดในคำถามตามเข็มหรือทวนเข็มทั้งหมด ที่ควรพิจารณาไปอีกทาง และแทบไม่มีใครพูดถึง"
+   },
+   "route": {
+    "roads": [
+     "1095"
+    ],
+    "from": "Soppong",
+    "from_th": "สบป่อง",
+    "to": "Mae Hong Son",
+    "to_th": "แม่ฮ่องสอน",
+    "km": 52,
+    "km_source": "s:mhs-measured",
+    "hours": "1.5–2",
+    "hours_big": "1.5",
+    "curves": 190,
+    "hairpins": 23,
+    "cw": "Westward, into the afternoon sun in the cool season. Leave early or accept it.",
+    "ccw": "Eastward in the morning, sun behind. The better half of this leg's bargain.",
+    "cw_th": "ไปทางตะวันตก ปะทะแดดบ่ายในฤดูหนาว ออกเช้าหรือยอมรับมันไป",
+    "ccw_th": "ไปทางตะวันออกตอนเช้า แดดอยู่ข้างหลัง เป็นครึ่งที่ดีกว่าของช่วงนี้",
+    "order": 3,
+    "line": [
+     [
+      19.41936,
+      97.99821
+     ],
+     [
+      19.43596,
+      97.9983
+     ],
+     [
+      19.44345,
+      98.00817
+     ],
+     [
+      19.45031,
+      98.0167
+     ],
+     [
+      19.46285,
+      98.0235
+     ],
+     [
+      19.4786,
+      98.03018
+     ],
+     [
+      19.48655,
+      98.04376
+     ],
+     [
+      19.49559,
+      98.05524
+     ],
+     [
+      19.50603,
+      98.06805
+     ],
+     [
+      19.51354,
+      98.08137
+     ],
+     [
+      19.52425,
+      98.09482
+     ],
+     [
+      19.53631,
+      98.09981
+     ],
+     [
+      19.53639,
+      98.11414
+     ],
+     [
+      19.53553,
+      98.12821
+     ],
+     [
+      19.54115,
+      98.13847
+     ],
+     [
+      19.55198,
+      98.14925
+     ],
+     [
+      19.5581,
+      98.16055
+     ],
+     [
+      19.56468,
+      98.17474
+     ],
+     [
+      19.55817,
+      98.19124
+     ],
+     [
+      19.54933,
+      98.20248
+     ],
+     [
+      19.54451,
+      98.21388
+     ],
+     [
+      19.53422,
+      98.22751
+     ],
+     [
+      19.52294,
+      98.2418
+     ],
+     [
+      19.51707,
+      98.2568
+     ],
+     [
+      19.5132,
+      98.27067
+     ],
+     [
+      19.49798,
+      98.27908
+     ],
+     [
+      19.48602,
+      98.29138
+     ],
+     [
+      19.47119,
+      98.29519
+     ],
+     [
+      19.46214,
+      98.29978
+     ],
+     [
+      19.45326,
+      98.30374
+     ],
+     [
+      19.45269,
+      98.31207
+     ],
+     [
+      19.4501,
+      98.31769
+     ],
+     [
+      19.43979,
+      98.32495
+     ],
+     [
+      19.44308,
+      98.3359
+     ],
+     [
+      19.44389,
+      98.34293
+     ],
+     [
+      19.43872,
+      98.3552
+     ],
+     [
+      19.43671,
+      98.36935
+     ],
+     [
+      19.43539,
+      98.38741
+     ],
+     [
+      19.42474,
+      98.39911
+     ],
+     [
+      19.417,
+      98.41357
+     ],
+     [
+      19.4003,
+      98.4155
+     ],
+     [
+      19.38578,
+      98.4262
+     ],
+     [
+      19.36874,
+      98.42737
+     ],
+     [
+      19.35183,
+      98.42952
+     ],
+     [
+      19.33518,
+      98.43171
+     ],
+     [
+      19.31867,
+      98.43861
+     ],
+     [
+      19.31145,
+      98.45279
+     ],
+     [
+      19.29981,
+      98.46346
+     ],
+     [
+      19.2885,
+      98.47343
+     ],
+     [
+      19.28169,
+      98.48915
+     ],
+     [
+      19.27106,
+      98.50186
+     ],
+     [
+      19.26584,
+      98.51422
+     ],
+     [
+      19.27006,
+      98.52692
+     ],
+     [
+      19.27225,
+      98.543
+     ],
+     [
+      19.27128,
+      98.5592
+     ],
+     [
+      19.27278,
+      98.57487
+     ],
+     [
+      19.26761,
+      98.58744
+     ],
+     [
+      19.27677,
+      98.60006
+     ],
+     [
+      19.27857,
+      98.61375
+     ],
+     [
+      19.26987,
+      98.62762
+     ],
+     [
+      19.26051,
+      98.63883
+     ],
+     [
+      19.24999,
+      98.64207
+     ],
+     [
+      19.25286,
+      98.64952
+     ],
+     [
+      19.24193,
+      98.65656
+     ],
+     [
+      19.23472,
+      98.66234
+     ],
+     [
+      19.22746,
+      98.67201
+     ],
+     [
+      19.2222,
+      98.67161
+     ],
+     [
+      19.21433,
+      98.67021
+     ],
+     [
+      19.20481,
+      98.67746
+     ],
+     [
+      19.19411,
+      98.6895
+     ],
+     [
+      19.17687,
+      98.69232
+     ],
+     [
+      19.15939,
+      98.69117
+     ],
+     [
+      19.14401,
+      98.69736
+     ],
+     [
+      19.13133,
+      98.70404
+     ],
+     [
+      19.12155,
+      98.70981
+     ],
+     [
+      19.11809,
+      98.72556
+     ],
+     [
+      19.12364,
+      98.73553
+     ],
+     [
+      19.12379,
+      98.74743
+     ],
+     [
+      19.12498,
+      98.763
+     ],
+     [
+      19.1229,
+      98.77874
+     ],
+     [
+      19.11185,
+      98.79335
+     ],
+     [
+      19.10687,
+      98.81106
+     ],
+     [
+      19.10658,
+      98.82558
+     ],
+     [
+      19.10146,
+      98.84095
+     ],
+     [
+      19.09296,
+      98.85731
+     ],
+     [
+      19.09481,
+      98.87396
+     ],
+     [
+      19.08811,
+      98.89096
+     ],
+     [
+      19.08644,
+      98.90622
+     ],
+     [
+      19.08019,
+      98.91822
+     ],
+     [
+      19.07287,
+      98.93587
+     ]
+    ],
+    "line_points": 90
+   },
+   "riding": {
+    "min_class": "auto",
+    "grip": "moderate",
+    "pillion": "fine",
+    "note": "The descent is long. On an automatic, stop twice on it.",
+    "note_th": "ทางลงยาว ถ้าเป็นรถออโต้ ให้จอดพักสองครั้งระหว่างทาง"
+   },
+   "kin": [
+    {
+     "to": "mae-hong-son",
+     "as": "The town at the bottom.",
+     "rel": "town"
+    },
+    {
+     "to": "low-sun",
+     "as": "The hazard this leg is famous for among people who have met it.",
+     "rel": "hazard"
+    },
+    {
+     "to": "season-and-direction",
+     "as": "The argument this leg supplies.",
+     "rel": "story"
+    },
+    {
+     "to": "brake-fade",
+     "as": "The long descent.",
+     "rel": "hazard"
+    }
+   ],
+   "sources": [
+    "s:mhs-measured",
+    "s:wp-mae-hong-son"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "pai-to-soppong",
+     "type": "leg",
+     "name": "Pai to Soppong",
+     "as": "The hard one, next."
+    },
+    {
+     "from": "route-1095",
+     "type": "road",
+     "name": "Route 1095",
+     "as": "The descent at the far end."
+    },
+    {
+     "from": "mae-hong-son",
+     "type": "town",
+     "name": "Mae Hong Son",
+     "as": "The way in from the north."
+    },
+    {
+     "from": "soppong",
+     "type": "town",
+     "name": "Soppong",
+     "as": "The way on, and the hardest descent of the northern leg."
+    },
+    {
+     "from": "low-sun",
+     "type": "hazard",
+     "name": "The low sun",
+     "as": "The leg it lands on."
+    }
+   ]
+  },
+  {
+   "id": "the-1263-cut",
+   "type": "leg",
+   "names": {
+    "name": "The 1263 cut",
+    "th": "ทางลัด 1263",
+    "said": "Sixty-four kilometres that halve the loop, and the hardest riding on it.",
+    "said_th": "หกสิบสี่กิโลเมตรที่ตัดวงรอบครึ่งหนึ่ง และเป็นช่วงที่ขี่ยากที่สุด"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "days": "1",
+    "direction": "both"
+   },
+   "text": {
+    "what": "Khun Yuam east to Mae Chaem. Optional. A three-day loop instead of a four-day one, bought with the steepest and most curve-dense road here.",
+    "story": "*Inference —* over the 38.1 kilometres OpenStreetMap has mapped of it: 159 curves at a 25-degree threshold, 25 hairpins, **4.25 a kilometre — denser than Route 1095**, with a fraction of the traffic and none of the infrastructure. The road runs roughly 64 km; the rest is not traced, so the totals here are a floor.\n\nWhat it actually costs. There is no town between the two ends. There are long stretches with no fuel. There are stretches with no phone signal. The gradients are steeper than anything on 1095 and some of the seal has broken up. If something goes wrong here, it goes wrong somewhere that nobody is passing.\n\n*Inference —* the recommendation this project would make, and it is a recommendation rather than a fact: take it on a trail bike or a midweight, in the dry, with a full tank, before noon, and not alone if that can be arranged. Take it on a 110 automatic only if you have already ridden Route 1095 and found it comfortable. In the rains, do not take it at all."
+   },
+   "text_th": {
+    "what": "จากขุนยวมไปตะวันออกสู่แม่แจ่ม เป็นทางเลือก ได้วงรอบสามวันแทนสี่วัน แลกกับถนนที่ชันที่สุดและโค้งหนาแน่นที่สุดที่นี่",
+    "story": "*อนุมาน —* บนระยะ 38.1 กิโลเมตรที่ OpenStreetMap ทำแผนที่ไว้ มี 159 โค้งที่เกณฑ์ 25 องศา โค้งหักศอก 25 โค้ง คิดเป็น **4.25 โค้งต่อกิโลเมตร หนาแน่นกว่าทางหลวง 1095** โดยมีรถน้อยกว่ามากและไม่มีสิ่งอำนวยความสะดวกใดๆ ถนนจริงยาวราว 64 กิโลเมตร ส่วนที่เหลือยังไม่มีในแผนที่ ตัวเลขนี้จึงเป็นขั้นต่ำ\n\nราคาที่จ่ายจริง ไม่มีเมืองคั่นระหว่างสองปลาย มีช่วงยาวที่ไม่มีปั๊มน้ำมัน มีช่วงที่ไม่มีสัญญาณโทรศัพท์ ความชันมากกว่าอะไรก็ตามบน 1095 และผิวลาดยางบางช่วงแตก ถ้ามีอะไรผิดพลาดที่นี่ มันผิดพลาดในที่ที่ไม่มีใครขับผ่าน\n\n*อนุมาน —* ข้อเสนอแนะของโครงการนี้ และเป็นข้อเสนอแนะ ไม่ใช่ข้อเท็จจริง ให้ไปด้วยรถวิบากหรือรถพิกัดกลาง ในหน้าแล้ง น้ำมันเต็มถัง ก่อนเที่ยง และถ้าจัดได้ อย่าไปคนเดียว ถ้าจะไปด้วยรถออโต้ 110 ให้ไปเฉพาะเมื่อขี่ทางหลวง 1095 มาแล้วและรู้สึกสบาย ส่วนหน้าฝน อย่าไปเลย"
+   },
+   "route": {
+    "roads": [
+     "1263"
+    ],
+    "from": "Khun Yuam",
+    "from_th": "ขุนยวม",
+    "to": "Mae Chaem",
+    "to_th": "แม่แจ่ม",
+    "km": 38.1,
+    "km_source": "s:mhs-measured",
+    "hours": "2.5–3",
+    "hours_big": "2",
+    "curves": 159,
+    "hairpins": 25,
+    "fuel_gap_km": 64,
+    "cw": "Leaves Route 108 heading east; climbs, then drops a long way into Mae Chaem.",
+    "ccw": "From Mae Chaem westward; the climb comes first and Mae Hong Son is still ahead.",
+    "cw_th": "แยกจากทางหลวง 108 ไปตะวันออก ไต่ขึ้น แล้วทิ้งตัวลงยาวสู่แม่แจ่ม",
+    "ccw_th": "จากแม่แจ่มไปตะวันตก ไต่ขึ้นก่อน และยังไม่ถึงแม่ฮ่องสอน",
+    "order": 8,
+    "line": [
+     [
+      18.79541,
+      98.1477
+     ],
+     [
+      18.78133,
+      98.15753
+     ],
+     [
+      18.77141,
+      98.1622
+     ],
+     [
+      18.76466,
+      98.17457
+     ],
+     [
+      18.76419,
+      98.18472
+     ],
+     [
+      18.75128,
+      98.19399
+     ],
+     [
+      18.74611,
+      98.20833
+     ],
+     [
+      18.74201,
+      98.22264
+     ],
+     [
+      18.73734,
+      98.2349
+     ],
+     [
+      18.72714,
+      98.24728
+     ],
+     [
+      18.71788,
+      98.25147
+     ],
+     [
+      18.70622,
+      98.25299
+     ],
+     [
+      18.70514,
+      98.2634
+     ],
+     [
+      18.70645,
+      98.27891
+     ],
+     [
+      18.69435,
+      98.2892
+     ],
+     [
+      18.68527,
+      98.30271
+     ],
+     [
+      18.68762,
+      98.31755
+     ],
+     [
+      18.69269,
+      98.33066
+     ],
+     [
+      18.69822,
+      98.34747
+     ]
+    ],
+    "line_points": 19
+   },
+   "riding": {
+    "min_class": "small-manual",
+    "grip": "hard",
+    "pillion": "think",
+    "note": "The one leg on this circuit where the bike and the rider both matter.",
+    "note_th": "ช่วงเดียวบนเส้นทางนี้ที่ทั้งรถและคนขี่มีผลจริง",
+    "loaded": "Loaded, on a heavy bike, on a wet descent, this is the hardest thing here by a distance."
+   },
+   "kin": [
+    {
+     "to": "route-1263",
+     "as": "The road itself.",
+     "rel": "road"
+    },
+    {
+     "to": "trail-250",
+     "as": "The machine it suits.",
+     "rel": "bike"
+    },
+    {
+     "to": "the-rains",
+     "as": "The season it comes off the plan.",
+     "rel": "event"
+    },
+    {
+     "to": "mae-chaem",
+     "as": "The eastern end.",
+     "rel": "town"
+    },
+    {
+     "to": "brake-fade",
+     "as": "The descent that produces it.",
+     "rel": "hazard"
+    }
+   ],
+   "sources": [
+    "s:mhs-measured",
+    "s:osm",
+    "s:wp-khun-yuam-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "harvested",
+     "source": "s:mhs-measured"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "curve figures measured; fuel, signal and surface descriptions are general and are not sourced to a survey — treat them as a floor, not a report"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "seasons": {
+    "rains": {
+     "note": "Off the plan. Steep, broken seal, and nobody passing.",
+     "note_th": "ตัดออกจากแผน ชัน ผิวแตก และไม่มีใครขับผ่าน",
+     "direction": "either",
+     "tier": "inference"
+    }
+   },
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "the-1263-cut/the-1263-cut-2013-pano-mae-chaem-district-1.jpg",
+     "source": "commons",
+     "title": "File:2013 Pano Mae Chaem District 1.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/2013_Pano_Mae_Chaem_District_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A2013_Pano_Mae_Chaem_District_1.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "Countryside in the mountains of Mae Chaem District, Chiang Mai Province, seen from road 1263.\n This  image was created with Hugin.",
+     "date": "2013-12-27 13:47:11",
+     "primary": true,
+     "sha256": "20fdce8dbd559b2c00bb0a4000ac8061673820b6611d5a22fe73b8a1938a50c0"
+    },
+    {
+     "file": "the-1263-cut/the-1263-cut-2013-pano-mae-chaem-district-2.jpg",
+     "source": "commons",
+     "title": "File:2013 Pano Mae Chaem District 2.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2013_Pano_Mae_Chaem_District_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A2013_Pano_Mae_Chaem_District_2.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "Countryside in the mountains of Mae Chaem District, Chiang Mai Province, seen from road 1263.\n This  image was created with Hugin.",
+     "date": "2013-12-27 14:16:46",
+     "primary": false,
+     "sha256": "7371d382cc7e1b29c84ffb160a1ab6780d3081e93f6626f555fdba384dbf349e"
+    },
+    {
+     "file": "the-1263-cut/the-1263-cut-chiang-mai-province-road-1263.jpg",
+     "source": "commons",
+     "title": "File:Chiang mai province road 1263.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Chiang_mai_province_road_1263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_mai_province_road_1263.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "Rice paddies and recently cleared forest land in Amphoe Mae Chaem, along road 1263 between the town of Khun Yuam (Mae Hong Son province) and the town of Mae Chaem (Chiang Mai province), on the west fl",
+     "date": "2010-03-14",
+     "primary": false,
+     "sha256": "69a0f120642437d82b467367fdca646effc33fbe2c0d83ce132bda6a6706ae84"
+    },
+    {
+     "file": "the-1263-cut/the-1263-cut-f-wwyc-1263-a330-343e-abus-thai-intl-tls-29aug11-6094067099.jpg",
+     "source": "commons",
+     "title": "File:F-WWYC (1263) A330-343E Abus-Thai Intl TLS 29AUG11 (6094067099).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/F-WWYC_%281263%29_A330-343E_Abus-Thai_Intl_TLS_29AUG11_%286094067099%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AF-WWYC_%281263%29_A330-343E_Abus-Thai_Intl_TLS_29AUG11_%286094067099%29.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Ken Fielding",
+     "credit": "Flickr",
+     "alt": "en-route to the paintshop by the A380 facility for painting.  Became HS-TBA.",
+     "date": "2011-08-29 14:54:26",
+     "primary": false,
+     "sha256": "cdf8cd09cb85614f8b2a577a68b3839cd42682a3ef869d795a5cff41914ff107"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "mhs-to-khun-yuam",
+     "type": "leg",
+     "name": "Mae Hong Son to Khun Yuam",
+     "as": "The decision waiting at the end of it."
+    },
+    {
+     "from": "route-1088",
+     "type": "road",
+     "name": "Route 1088",
+     "as": "The road that delivers you to it."
+    },
+    {
+     "from": "route-1263",
+     "type": "road",
+     "name": "Route 1263",
+     "as": "The leg this road is."
+    },
+    {
+     "from": "khun-yuam",
+     "type": "town",
+     "name": "Khun Yuam",
+     "as": "The road that leaves from here."
+    },
+    {
+     "from": "mae-chaem",
+     "type": "town",
+     "name": "Mae Chaem",
+     "as": "The road that arrives here."
+    },
+    {
+     "from": "brake-fade",
+     "type": "hazard",
+     "name": "Brake fade",
+     "as": "The steeper one, with fewer places to pull over."
+    },
+    {
+     "from": "trail-250",
+     "type": "bike",
+     "name": "The 250–450 trail bike",
+     "as": "The leg this bike is for."
+    },
+    {
+     "from": "the-rains",
+     "type": "event",
+     "name": "The rains",
+     "as": "The leg that comes off the plan."
+    },
+    {
+     "from": "gasohol",
+     "type": "term",
+     "name": "Gasohol 91 and 95",
+     "as": "The leg this rule exists for."
+    },
+    {
+     "from": "season-and-direction",
+     "type": "story",
+     "name": "The season picks the direction",
+     "as": "The leg the rains argue about."
+    }
+   ]
+  }
+ ]
+}

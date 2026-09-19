@@ -1,0 +1,79 @@
+{
+ "type": "art",
+ "count": 1,
+ "nodes": [
+  {
+   "id": "the-1864-sign",
+   "type": "art",
+   "names": {
+    "name": "The 1,864 sign",
+    "th": "ป้าย 1,864 โค้ง",
+    "said": "A number on a board that became the name of a road.",
+    "said_th": "ตัวเลขบนป้ายที่กลายเป็นชื่อของถนน"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "sign"
+   },
+   "text": {
+    "what": "The roadside sign, and the shirts, mugs and stickers that carry the same figure through Pai.",
+    "story": "*Inference —* the interesting thing about this object is that it is doing a job no survey asked it to do. Nobody publishes a method behind 1,864, no agency claims it, and Thai Wikipedia's own article on the road gives a different figure entirely — *กว่า 2,000 โค้ง*, more than two thousand.\n\nCounted off the OpenStreetMap trace, the Mae Malai to Pai span carries 395 curves at a 25-degree threshold and 450 at 15. For 1,864 to be right over that 94.5 kilometres there would have to be a curve every 51.9 metres.\n\nNone of which makes the sign wrong, because the sign is not making a measurement. It is making a promise about what the road is like, and on that it is accurate."
+   },
+   "text_th": {
+    "what": "ป้ายริมทาง และเสื้อ แก้ว สติกเกอร์ ที่พาตัวเลขเดียวกันนี้ไปทั่วปาย",
+    "story": "*อนุมาน —* สิ่งที่น่าสนใจเกี่ยวกับวัตถุชิ้นนี้คือมันกำลังทำงานที่ไม่มีการสำรวจใดสั่งให้ทำ ไม่มีใครเผยแพร่วิธีที่ได้มาซึ่งตัวเลข 1,864 ไม่มีหน่วยงานใดอ้างเป็นเจ้าของ และบทความวิกิพีเดียภาษาไทยเรื่องถนนสายนี้ให้ตัวเลขคนละตัวไปเลย คือ *กว่า 2,000 โค้ง*\n\nเมื่อนับจากเส้นทางใน OpenStreetMap ช่วงแม่มาลัยถึงปายมี 395 โค้งที่เกณฑ์ 25 องศา และ 450 โค้งที่ 15 องศา ถ้า 1,864 จะถูกต้องบนระยะ 94.5 กิโลเมตรนั้น จะต้องมีโค้งทุก 51.9 เมตร\n\nซึ่งไม่ได้ทำให้ป้ายผิด เพราะป้ายไม่ได้กำลังวัดอะไร มันกำลังให้สัญญาว่าถนนสายนี้เป็นอย่างไร และในเรื่องนั้นมันแม่นยำ"
+   },
+   "kin": [
+    {
+     "to": "how-many-curves",
+     "as": "The three numbers, laid out.",
+     "rel": "story"
+    },
+    {
+     "to": "route-1095",
+     "as": "The road it names.",
+     "rel": "road"
+    },
+    {
+     "to": "pai",
+     "as": "The town that sells it.",
+     "rel": "town"
+    }
+   ],
+   "sources": [
+    "s:thwp-1095",
+    "s:mhs-measured",
+    "s:osm"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:thwp-1095"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:thwp-1095"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "how-many-curves",
+     "type": "story",
+     "name": "How many curves, actually",
+     "as": "The object the number lives on."
+    }
+   ]
+  }
+ ]
+}

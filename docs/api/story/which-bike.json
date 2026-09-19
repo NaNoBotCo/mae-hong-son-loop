@@ -1,0 +1,143 @@
+{
+ "id": "which-bike",
+ "type": "story",
+ "names": {
+  "name": "Every bike goes up there",
+  "th": "รถทุกแบบขึ้นไปได้",
+  "said": "A 110 scooter and a 1200 adventure bike ride the same road, and neither rider would recognise the other's day.",
+  "said_th": "สกู๊ตเตอร์ 110 กับแอดเวนเจอร์ 1200 ขี่ถนนเส้นเดียวกัน และทั้งคู่จำวันของอีกฝ่ายไม่ได้เลย"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "comparison"
+ },
+ "text": {
+  "what": "Six kinds of machine ride this circuit in numbers. None of them is the wrong answer. What changes between them is which single thing you have to plan around.",
+  "story": "**The one thing each bike makes you plan around.**\n\nOn a **110–160 automatic**, it is the brakes. A twist-and-go gives almost no engine braking, so on a road measured at four curves a kilometre the brake does all the work for ten kilometres at a stretch. Plan descents in stages with a stop to let them cool. Everything else about the bike is an advantage here.\n\nOn a **geared 125**, nothing much. Second gear holds the bike down a hairpin descent on the engine, the weight is nothing, every mechanic on the circuit has the parts, and it climbs steadily. *Inference —* if a single machine had to be named as the best fit for this specific road, the argument for the geared underbone is the hardest one to beat, and it is the cheapest thing in the shop.\n\nOn a **250–450 trail bike**, it is the highway. The suspension and the 21-inch front make broken edges and the 1263 a non-issue; what you pay for it is a buzzy, tiring hour on the four-lane section of Route 108.\n\nOn a **400–700 twin**, it is the driveway. Real brakes, real engine braking, enough power for the long straights — and 200 kilograms that needs two people to pick up on a wet concrete ramp where the second person may be an hour away.\n\nOn a **700cc-plus adventure bike**, it is fatigue. Nothing here is beyond the machine. But a steering input every few seconds for six hours is pleasure at 150 kilograms and work at 250, and the mistakes on this road are made in the last hour of a long day.\n\n**On the back**, it is everything at once — longer stopping, higher weight behind the axle, and a passenger who cannot see the surface coming. Plan about two-thirds the distance.\n\n**What does not change.** *Inference —* the circuit does not sort riders by engine size. It sorts them by whether they know what their own brakes do on the eleventh kilometre of a descent, and that is a question you can answer in one day on the Samoeng loop before committing to four.",
+  "today": "The measured numbers that sit under all of this: Route 1095 runs 4.03 curves a kilometre over 185 km, Route 1263 runs 4.25, and Route 1096 runs 4.46. Those densities are what a wrist, a brake and a transmission are each being asked to absorb, and they are the same for everybody."
+ },
+ "text_th": {
+  "what": "รถหกแบบขี่เส้นทางนี้กันเป็นจำนวนมาก ไม่มีแบบไหนที่เป็นคำตอบผิด สิ่งที่ต่างกันคือคุณต้องวางแผนรับมือกับเรื่องอะไรเป็นหลัก",
+  "story": "**เรื่องเดียวที่รถแต่ละแบบบังคับให้คุณวางแผน**\n\nรถ **ออโต้ 110–160** คือเบรก รถออโต้แทบไม่มีเอนจินเบรก บนถนนที่วัดได้สี่โค้งต่อกิโลเมตร เบรกจึงต้องทำงานทั้งหมดต่อเนื่องสิบกิโลเมตร ให้วางแผนลงเขาเป็นช่วงๆ และจอดพักให้เบรกเย็น ส่วนอย่างอื่นของรถแบบนี้เป็นข้อได้เปรียบทั้งหมดที่นี่\n\nรถ **125 มีเกียร์** แทบไม่มีอะไรต้องกังวล เกียร์สองหน่วงรถลงทางหักศอกได้ด้วยเครื่อง น้ำหนักไม่มี ช่างทุกร้านบนเส้นทางมีอะไหล่ และไต่เขาได้สม่ำเสมอ *อนุมาน —* ถ้าต้องเลือกรถคันเดียวที่เหมาะกับถนนสายนี้ที่สุด ข้อโต้แย้งฝั่งรถครอบครัวมีเกียร์เป็นข้อที่หักล้างยากที่สุด และมันถูกที่สุดในร้าน\n\nรถ **วิบาก 250–450** คือทางหลวง ช่วงล่างและล้อหน้า 21 นิ้วทำให้ขอบถนนแตกและทางหลวง 1263 ไม่เป็นปัญหา สิ่งที่แลกคือหนึ่งชั่วโมงที่สั่นและล้าบนช่วงสี่เลนของทางหลวง 108\n\nรถ **สองสูบ 400–700** คือทางเข้าที่พัก เบรกจริง เอนจินเบรกจริง แรงพอสำหรับทางตรงยาว และน้ำหนัก 200 กิโลกรัมที่ต้องใช้คนสองคนยกบนทางลาดคอนกรีตเปียก ที่ซึ่งคนที่สองอาจอยู่ห่างออกไปหนึ่งชั่วโมง\n\nรถ **แอดเวนเจอร์ 700 ซีซีขึ้นไป** คือความล้า ไม่มีอะไรที่นี่เกินความสามารถของรถ แต่การสั่งรถเลี้ยวทุกไม่กี่วินาทีต่อเนื่องหกชั่วโมง เป็นความสนุกที่ 150 กิโลกรัม และเป็นการทำงานที่ 250 กิโลกรัม และความผิดพลาดบนถนนสายนี้เกิดในชั่วโมงสุดท้ายของวันที่ยาว\n\n**นั่งซ้อน** คือทุกอย่างพร้อมกัน ระยะเบรกยาวขึ้น น้ำหนักสูงและอยู่หลังเพลา และคนซ้อนที่มองไม่เห็นผิวถนนที่กำลังจะมาถึง ให้วางแผนราวสองในสามของระยะ\n\n**สิ่งที่ไม่เปลี่ยน** *อนุมาน —* เส้นทางนี้ไม่ได้คัดคนขี่ด้วยขนาดเครื่องยนต์ แต่คัดด้วยว่าคุณรู้หรือไม่ว่าเบรกของตัวเองทำงานอย่างไรในกิโลเมตรที่สิบเอ็ดของทางลง และนั่นเป็นคำถามที่ตอบได้ในหนึ่งวันบนวงรอบสะเมิง ก่อนจะตัดสินใจลงทุนสี่วัน",
+  "today": "ตัวเลขที่วัดได้ซึ่งรองรับทั้งหมดนี้ ทางหลวง 1095 มี 4.03 โค้งต่อกิโลเมตรตลอด 185 กิโลเมตร ทางหลวง 1263 มี 4.25 และทางหลวง 1096 มี 4.46 ความหนาแน่นเหล่านี้คือสิ่งที่ข้อมือ เบรก และระบบส่งกำลัง ต้องรับไว้ และมันเท่ากันสำหรับทุกคน"
+ },
+ "kin": [
+  {
+   "to": "step-through-110",
+   "as": "The most common bike on the road, and the one the road was not designed around.",
+   "rel": "bike"
+  },
+  {
+   "to": "underbone-125",
+   "as": "The same engine with a gearbox, which changes the descent entirely.",
+   "rel": "bike"
+  },
+  {
+   "to": "trail-250",
+   "as": "The one that makes the unsealed sections stop being a decision.",
+   "rel": "bike"
+  },
+  {
+   "to": "midweight-twin",
+   "as": "Enough bike to enjoy the straights and still turn round on a hairpin.",
+   "rel": "bike"
+  },
+  {
+   "to": "big-adventure",
+   "as": "Capable of everything; the arithmetic is fatigue.",
+   "rel": "bike"
+  },
+  {
+   "to": "on-the-back",
+   "as": "Not a bike — a different trip.",
+   "rel": "bike"
+  },
+  {
+   "to": "samoeng-warmup",
+   "as": "The one day that answers the question for any of them.",
+   "rel": "leg"
+  },
+  {
+   "to": "brake-fade",
+   "as": "The failure mode the whole comparison turns on.",
+   "rel": "hazard"
+  },
+  {
+   "to": "engine-braking",
+   "as": "The thing a gearbox buys and an automatic does not.",
+   "rel": "term"
+  },
+  {
+   "to": "renting-a-bike",
+   "as": "What you actually get handed, and what to check.",
+   "rel": "kit"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:wp-motorcycle-safety",
+  "s:wp-scooter-motorcycle",
+  "s:wp-underbone",
+  "s:wp-dual-sport-motorcycle",
+  "s:wp-honda-500-twins"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "a comparison built on the measured curve densities and on the cited mechanical facts about each transmission type; the riding conclusions are this project's"
+  },
+  "fields": {
+   "text.today": {
+    "tier": "harvested",
+    "source": "s:mhs-measured"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "big-adventure",
+   "type": "bike",
+   "name": "The 700cc-and-up adventure bike",
+   "as": "Where this sits against everything else."
+  },
+  {
+   "from": "midweight-twin",
+   "type": "bike",
+   "name": "The 400–700 twin",
+   "as": "Where this sits against everything else."
+  },
+  {
+   "from": "on-the-back",
+   "type": "bike",
+   "name": "Riding on the back",
+   "as": "Where this changes the answer."
+  },
+  {
+   "from": "step-through-110",
+   "type": "bike",
+   "name": "The 110–125 step-through",
+   "as": "Where this sits against everything else."
+  },
+  {
+   "from": "trail-250",
+   "type": "bike",
+   "name": "The 250–450 trail bike",
+   "as": "Where this sits against everything else."
+  },
+  {
+   "from": "underbone-125",
+   "type": "bike",
+   "name": "The underbone with gears",
+   "as": "Where this sits against everything else."
+  }
+ ]
+}

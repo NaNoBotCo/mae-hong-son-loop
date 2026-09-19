@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-copy]').forEach(function(b){b.addEventListener('click',function(){navigator.clipboard&&navigator.clipboard.writeText(b.dataset.copy);var t=b.textContent;b.textContent='\u2713';setTimeout(function(){b.textContent=t},1200)})});

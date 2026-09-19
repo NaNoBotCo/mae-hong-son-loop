@@ -1,0 +1,139 @@
+{
+ "id": "pang-ung",
+ "type": "stop",
+ "names": {
+  "name": "Pang Ung",
+  "th": "ปางอุ๋ง",
+  "said": "A reservoir with pines round it, and mist on it at six in the morning.",
+  "said_th": "อ่างเก็บน้ำที่มีต้นสนล้อมรอบ และมีหมอกลอยอยู่บนน้ำตอนหกโมงเช้า"
+ },
+ "region": [
+  "mhs",
+  "mueang-mhs"
+ ],
+ "facets": {
+  "kind": "viewpoint"
+ },
+ "text": {
+  "what": "A royal-project reservoir in the hills north-west of Mae Hong Son, reached by the same road system as Ban Rak Thai.",
+  "story": "*Inference —* this is a dawn place and it is only a dawn place. The mist that makes it worth the ride is a cool-season, early-morning, still-air phenomenon, and at ten in the morning it is a reservoir with pine trees.\n\nWhich has a scheduling consequence that runs through this whole site: it requires sleeping within reach of it, which means two nights in Mae Hong Son, which means the four-day loop is really a five-day loop if you want the things Mae Hong Son is actually known for.\n\n**Not on this disk:** current access arrangements, charges or camping rules."
+ },
+ "text_th": {
+  "what": "อ่างเก็บน้ำโครงการหลวงบนเขาทางตะวันตกเฉียงเหนือของแม่ฮ่องสอน เข้าถึงด้วยระบบถนนเดียวกับบ้านรักไทย",
+  "story": "*อนุมาน —* ที่นี่เป็นที่สำหรับรุ่งสาง และเป็นที่สำหรับรุ่งสางเท่านั้น หมอกที่ทำให้มันคุ้มค่าการขี่ไปเป็นปรากฏการณ์ของฤดูหนาว เช้ามืด และอากาศนิ่ง พอสิบโมงเช้ามันก็เป็นอ่างเก็บน้ำที่มีต้นสน\n\nซึ่งมีผลต่อตารางเวลาที่ไหลผ่านทั้งเว็บนี้ มันต้องการให้คุณนอนในระยะที่ไปถึงได้ ซึ่งแปลว่าสองคืนที่แม่ฮ่องสอน ซึ่งแปลว่าวงรอบสี่วันจริงๆ แล้วคือห้าวัน ถ้าคุณอยากได้สิ่งที่แม่ฮ่องสอนขึ้นชื่อจริงๆ\n\n**ไม่มีข้อมูลในชุดนี้** การเข้าถึง ค่าธรรมเนียม หรือกฎการกางเต็นท์ในปัจจุบัน"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The town you sleep in to get here at dawn.",
+   "rel": "town"
+  },
+  {
+   "to": "cool-season",
+   "as": "The only season the mist happens.",
+   "rel": "event"
+  },
+  {
+   "to": "ban-rak-thai",
+   "as": "The other end of the same day.",
+   "rel": "stop"
+  }
+ ],
+ "sources": [
+  "s:wp-mueang-mae-hong-son-district",
+  "s:wp-mae-hong-son-province"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.4833,
+  "lon": 97.8667,
+  "precision": "town"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "pang-ung/pang-ung-pang-oung-tham-pla-namtok-pha-suea-national-park.jpg",
+   "source": "commons",
+   "title": "File:Pang Oung - Tham Pla – Namtok Pha Suea National Park.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Pang_Oung_-_Tham_Pla_%E2%80%93_Namtok_Pha_Suea_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APang_Oung_-_Tham_Pla_%E2%80%93_Namtok_Pha_Suea_National_Park.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Nutchana",
+   "credit": "Own work",
+   "alt": "Pang Oung - Tham Pla – Namtok Pha Suea National Park",
+   "date": "2022-02-13 07:28:39",
+   "primary": true,
+   "sha256": "70bde1c878b98bdd3fca3f006f72d15cd55e3c94219be8fce42f9781b9b459e2"
+  },
+  {
+   "file": "pang-ung/pang-ung-.jpg",
+   "source": "commons",
+   "title": "File:กลิ่นอายแห่งรุ่งสาง.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%87.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "สิทธิเดช หนูห่วง",
+   "credit": "Own work",
+   "alt": "แสงแรกของวันสะท้อนผ่านแนวสนและผืนน้ำอันเงียบสงบ สร้างภาพความงดงามที่เรียบง่าย แต่ตราตรึงอยู่ในความทรงจำ",
+   "date": "2017-12-16 07:20:29",
+   "primary": false,
+   "sha256": "55e60f79616e2069171813253b021b331e78eefe00167d8f087369d40937574d"
+  },
+  {
+   "file": "pang-ung/pang-ung-.jpg",
+   "source": "commons",
+   "title": "File:เเพกลางม่านหมอก.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/%E0%B9%80%E0%B9%80%E0%B8%9E%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B9%80%E0%B9%80%E0%B8%9E%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "สิทธิเดช หนูห่วง",
+   "credit": "Own work",
+   "alt": "แสงแรกของวันทอดตัวผ่านสายหมอกบางๆ ขณะที่แพลำน้อยค่อยๆ เคลื่อนผ่านผืนน้ำ สร้างความงดงามที่เรียบง่ายและน่าจดจำ",
+   "date": "2017-12-16 07:38:19",
+   "primary": false,
+   "sha256": "bbac199e1d163fd00f73f0572fa40824f3a067a08a1608e87b5340a38e6435a1"
+  },
+  {
+   "file": "pang-ung/pang-ung-.jpg",
+   "source": "commons",
+   "title": "File:เเสงทองกลางสายหมอก.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/%E0%B9%80%E0%B9%80%E0%B8%AA%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B9%80%E0%B9%80%E0%B8%AA%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "สิทธิเดช หนูห่วง",
+   "credit": "Own work",
+   "alt": "เเสงเเรกของวันค่อยๆ เเตะผืนน้ำ ท่ามกลางสายหมอกบางเบา ราวกับธรรมชาติกำลังเริ่มต้นบทเพลงบทใหม่อย่างเเผ่วเบา",
+   "date": "2017-12-16 07:42:44",
+   "primary": false,
+   "sha256": "d71b7d6a3bbbf37e6de6d06dfaf9204a9eabd405397ef731e6fecc614fb59cac"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "ban-rak-thai",
+   "type": "stop",
+   "name": "Ban Rak Thai",
+   "as": "The other reason to spend a day north of town."
+  }
+ ]
+}

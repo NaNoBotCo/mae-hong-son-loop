@@ -1,0 +1,86 @@
+{
+ "id": "smoke-riding",
+ "type": "hazard",
+ "names": {
+  "name": "Riding in the smoke",
+  "th": "ขี่ในควัน",
+  "said": "Not a visibility problem first. A lungs problem first, and a visibility problem after.",
+  "said_th": "ไม่ใช่ปัญหาทัศนวิสัยเป็นอย่างแรก แต่เป็นปัญหาปอดก่อน แล้วค่อยเป็นทัศนวิสัย"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "air"
+ },
+ "text": {
+  "what": "In March and April the measured PM2.5 on this circuit sits above the US 24-hour standard on most days. On a bike you are breathing hard, at volume, for six hours.",
+  "story": "The visibility part is real and is worst at the viewpoints, which are the places that were the reason for stopping. A ridge that should show fifty kilometres shows two.\n\nThe breathing part is the one that matters. *Inference —* a rider at speed moves far more air through their lungs than someone walking, and an open-face helmet filters nothing at all. A fitted FFP2 or N95 worn under the helmet is what people use; a surgical mask, a buff or a bandana does not filter particles at this size. Anyone with asthma should treat March and April as a medical question and not a scheduling one.\n\nThere is also a third effect that gets missed: *Inference —* smoke flattens contrast, and flat contrast on a road whose whole difficulty is reading the next bend's radius is its own hazard. Slow down more than the visibility distance alone suggests."
+ },
+ "text_th": {
+  "what": "ในเดือนมีนาคมและเมษายน ค่า PM2.5 ที่วัดได้บนเส้นทางนี้อยู่เหนือมาตรฐาน 24 ชั่วโมงของสหรัฐฯ เกือบทุกวัน และบนรถมอเตอร์ไซค์คุณหายใจแรง หายใจเยอะ ต่อเนื่องหกชั่วโมง",
+  "story": "เรื่องทัศนวิสัยเป็นเรื่องจริงและแย่ที่สุดตรงจุดชมวิว ซึ่งเป็นที่ที่เป็นเหตุผลของการหยุดพักตั้งแต่แรก สันเขาที่ควรมองเห็นห้าสิบกิโลเมตรจะเหลือสองกิโลเมตร\n\nส่วนเรื่องการหายใจคือส่วนที่สำคัญ *อนุมาน —* คนขี่รถด้วยความเร็วดึงอากาศผ่านปอดมากกว่าคนเดินมาก และหมวกเปิดหน้าไม่กรองอะไรเลย หน้ากาก FFP2 หรือ N95 ที่กระชับใต้หมวกคือสิ่งที่คนใช้กัน ส่วนหน้ากากอนามัย ผ้าบัฟ หรือผ้าโพก ไม่กรองอนุภาคขนาดนี้ ใครที่เป็นหอบหืดควรถือว่าเดือนมีนาคมและเมษายนเป็นคำถามทางการแพทย์ ไม่ใช่คำถามเรื่องตารางเวลา\n\nและมีผลข้อที่สามที่มักถูกมองข้าม *อนุมาน —* ควันทำให้คอนทราสต์แบนราบ และคอนทราสต์ที่แบนบนถนนที่ความยากทั้งหมดอยู่ที่การอ่านรัศมีโค้งถัดไป ก็เป็นอันตรายในตัวมันเอง ให้ช้ากว่าที่ระยะมองเห็นอย่างเดียวจะบอก"
+ },
+ "kin": [
+  {
+   "to": "the-smoke",
+   "as": "The four years of measurements behind this.",
+   "rel": "story"
+  },
+  {
+   "to": "burning-season",
+   "as": "The dates.",
+   "rel": "event"
+  },
+  {
+   "to": "pm25",
+   "as": "What is actually in the air.",
+   "rel": "term"
+  }
+ ],
+ "sources": [
+  "s:open-meteo-aq",
+  "s:epa-pm25-2024",
+  "s:wp-southeast-asian-haze",
+  "s:wp-motorcycle-helmet"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:open-meteo-aq"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the mask and exertion reasoning is this project's; no clinical source is cited and none should be read in"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "burning-season",
+   "type": "event",
+   "name": "Burning season",
+   "as": "What it does to you on the bike."
+  },
+  {
+   "from": "pm25",
+   "type": "term",
+   "name": "PM2.5",
+   "as": "What it does on a bike."
+  },
+  {
+   "from": "the-smoke",
+   "type": "story",
+   "name": "The smoke",
+   "as": "Riding in it: what it does to sight and to lungs."
+  }
+ ]
+}

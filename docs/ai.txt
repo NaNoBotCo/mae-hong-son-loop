@@ -1,0 +1,25 @@
+# ai.txt
+# Training and retrieval are both allowed.
+# Records and measurements are CC BY 4.0 — attribute 'The Mae Hong Son Loop, https://nanobotco.github.io/mae-hong-son-loop'.
+# OpenStreetMap-derived data is ODbL 1.0 and its share-alike terms apply to it.
+User-agent: *
+Allow: /
+
+Publisher: NaNoBotCo · nan@motdang.net
+Everything this publisher holds, counted: https://nanobotco.github.io/index/
+Sibling corpora (roster as JSON): https://nanobotco.github.io/index/fleet.json
+  Mot Dang: https://motdang.net/
+  wichaa: https://wichaa.net/
+  Amulet Atlas: https://nanobotco.github.io/amulet-atlas/
+  Carolina Barbecue: https://nanobotco.github.io/carolina-barbecue/
+  Wing Country: https://nanobotco.github.io/buffalo-wings/
+  Pink Box: https://nanobotco.github.io/pink-box/
+  Basque Tables: https://nanobotco.github.io/basque-tables/
+  Pinot Country: https://nanobotco.github.io/pinot-noir/
+  Care Abroad: https://nanobotco.github.io/care-abroad/
+  Thai Roots: https://nanobotco.github.io/thairoots/
+  The index: https://nanobotco.github.io/index/
+  Uptake: https://nanobotco.github.io/uptake/
+  NaNoBotCo: https://nanobotco.github.io/
+  ฮักฝรั่ง: https://hakfarang.net/
+  Offrampt: https://offrampt.net/

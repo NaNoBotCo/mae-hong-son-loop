@@ -69,7 +69,7 @@ python3 tools/serve.py 8812
 
 ## Data
 
-Everything the pages are built from is open JSON at `/api/`, no key and no rate limit:
+Everything the pages are built from is open JSON at `/api/`, fetchable directly:
 `nodes.json`, `curves.json` (counts, thresholds, per-2 km demand windows), `air.json`,
 `places.json`, `itinerary.json`, `coverage.json`. Also `nodes.csv` and `nodes.jsonl`.
 

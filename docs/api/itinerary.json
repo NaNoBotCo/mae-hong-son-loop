@@ -1,0 +1,143 @@
+{
+ "cw": {
+  "order": [
+   "cnx-to-pai",
+   "pai-to-soppong",
+   "soppong-to-mhs",
+   "mhs-to-khun-yuam",
+   "khun-yuam-to-mae-sariang",
+   "mae-sariang-to-hot",
+   "hot-to-cnx"
+  ],
+  "label": "Clockwise",
+  "th": "ตามเข็มนาฬิกา",
+  "note": "North first: up 107 and 1095 to Pai, on to Mae Hong Son, home down 108."
+ },
+ "ccw": {
+  "order": [
+   "hot-to-cnx",
+   "mae-sariang-to-hot",
+   "khun-yuam-to-mae-sariang",
+   "mhs-to-khun-yuam",
+   "soppong-to-mhs",
+   "pai-to-soppong",
+   "cnx-to-pai"
+  ],
+  "label": "Counter-clockwise",
+  "th": "ทวนเข็มนาฬิกา",
+  "note": "South first: down 108 to Hot and Mae Sariang, up to Mae Hong Son, back over 1095."
+ },
+ "optional": [
+  "the-1263-cut",
+  "samoeng-warmup"
+ ],
+ "km": 619,
+ "curves": 724,
+ "legs": [
+  {
+   "id": "cnx-to-pai",
+   "name": "Chiang Mai to Pai",
+   "th": "เชียงใหม่ – ปาย",
+   "km": 130,
+   "curves": 395,
+   "hairpins": 65,
+   "hours": "3–4",
+   "from": "Chiang Mai",
+   "to": "Pai",
+   "cw": "Day one. Short, hard, and done on fresh arms — which is the whole case for going this way round.",
+   "ccw": "The last leg. Four days of hills already in your forearms, and the descent into Mae Taeng at the end of it.",
+   "cw_th": "วันแรก สั้น หนัก และทำตอนแขนยังสด ซึ่งคือเหตุผลทั้งหมดของการไปทางนี้",
+   "ccw_th": "ช่วงสุดท้าย เขาสี่วันอยู่ในแขนแล้ว และมีทางลงแม่แตงรออยู่ตอนจบ"
+  },
+  {
+   "id": "pai-to-soppong",
+   "name": "Pai to Soppong",
+   "th": "ปาย – สบป่อง",
+   "km": 37,
+   "curves": 139,
+   "hairpins": 22,
+   "hours": "1–1.5",
+   "from": "Pai",
+   "to": "Soppong",
+   "cw": "A half-day that leaves the afternoon for Tham Lot.",
+   "ccw": "The run into Pai, and an easy end to a hard day.",
+   "cw_th": "ครึ่งวันที่เหลือบ่ายไว้ให้ถ้ำลอด",
+   "ccw_th": "ช่วงเข้าปาย และเป็นการจบวันที่หนักแบบสบายๆ"
+  },
+  {
+   "id": "soppong-to-mhs",
+   "name": "Soppong to Mae Hong Son",
+   "th": "สบป่อง – แม่ฮ่องสอน",
+   "km": 52,
+   "curves": 190,
+   "hairpins": 23,
+   "hours": "1.5–2",
+   "from": "Soppong",
+   "to": "Mae Hong Son",
+   "cw": "Westward, into the afternoon sun in the cool season. Leave early or accept it.",
+   "ccw": "Eastward in the morning, sun behind. The better half of this leg's bargain.",
+   "cw_th": "ไปทางตะวันตก ปะทะแดดบ่ายในฤดูหนาว ออกเช้าหรือยอมรับมันไป",
+   "ccw_th": "ไปทางตะวันออกตอนเช้า แดดอยู่ข้างหลัง เป็นครึ่งที่ดีกว่าของช่วงนี้"
+  },
+  {
+   "id": "mhs-to-khun-yuam",
+   "name": "Mae Hong Son to Khun Yuam",
+   "th": "แม่ฮ่องสอน – ขุนยวม",
+   "km": 67,
+   "curves": null,
+   "hairpins": null,
+   "hours": "1.5",
+   "from": "Mae Hong Son",
+   "to": "Khun Yuam",
+   "cw": "The start of the way home, and the first easy riding in three days.",
+   "ccw": "The last climb before Mae Hong Son.",
+   "cw_th": "จุดเริ่มของทางกลับบ้าน และเป็นการขี่สบายครั้งแรกในรอบสามวัน",
+   "ccw_th": "ทางไต่ขึ้นครั้งสุดท้ายก่อนถึงแม่ฮ่องสอน"
+  },
+  {
+   "id": "khun-yuam-to-mae-sariang",
+   "name": "Khun Yuam to Mae Sariang",
+   "th": "ขุนยวม – แม่สะเรียง",
+   "km": 95,
+   "curves": null,
+   "hairpins": null,
+   "hours": "2",
+   "from": "Khun Yuam",
+   "to": "Mae Sariang",
+   "cw": "Southbound, downhill on balance, and easy.",
+   "ccw": "Northbound and climbing toward the end.",
+   "cw_th": "มุ่งใต้ โดยรวมเป็นทางลง และสบาย",
+   "ccw_th": "มุ่งเหนือ และไต่ขึ้นช่วงท้าย"
+  },
+  {
+   "id": "mae-sariang-to-hot",
+   "name": "Mae Sariang to Hot",
+   "th": "แม่สะเรียง – ฮอด",
+   "km": 150,
+   "curves": null,
+   "hairpins": null,
+   "hours": "3",
+   "from": "Mae Sariang",
+   "to": "Hot",
+   "cw": "The last long haul before the four-lane run home.",
+   "ccw": "Day one, and long. This is the leg that finds the rental bike's faults.",
+   "cw_th": "ช่วงลากยาวสุดท้ายก่อนเข้าสี่เลนกลับบ้าน",
+   "ccw_th": "วันแรก และยาว เป็นช่วงที่เจอข้อบกพร่องของรถเช่า"
+  },
+  {
+   "id": "hot-to-cnx",
+   "name": "Hot to Chiang Mai",
+   "th": "ฮอด – เชียงใหม่",
+   "km": 88,
+   "curves": null,
+   "hairpins": null,
+   "hours": "1.25",
+   "from": "Hot",
+   "to": "Chiang Mai",
+   "cw": "The end. Traffic, lanes, and a city.",
+   "ccw": "The beginning, and the easiest hour of the trip.",
+   "cw_th": "จุดจบ รถเยอะ หลายเลน และเมือง",
+   "ccw_th": "จุดเริ่ม และเป็นชั่วโมงที่ง่ายที่สุดของทริป"
+  }
+ ]
+}

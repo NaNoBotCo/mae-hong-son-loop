@@ -1,0 +1,89 @@
+{
+ "built": "2026-09-19 07:30",
+ "records": 75,
+ "by_type": {
+  "leg": 9,
+  "road": 6,
+  "town": 8,
+  "stop": 10,
+  "wat": 2,
+  "coffee": 0,
+  "spring": 0,
+  "stay": 0,
+  "hazard": 9,
+  "bike": 6,
+  "kit": 5,
+  "person": 2,
+  "org": 0,
+  "event": 6,
+  "term": 5,
+  "story": 6,
+  "art": 1
+ },
+ "kin_edges": 268,
+ "sources": 94,
+ "needs_verification": 17,
+ "bilingual": 75,
+ "th_fields": 165,
+ "roads_measured": [
+  "107",
+  "108",
+  "1088",
+  "1095",
+  "1096",
+  "1263"
+ ],
+ "osm_places": {
+  "count": 9187,
+  "fetched": "2026-09-19",
+  "attribution": "© OpenStreetMap contributors",
+  "note": "Everything OSM carries inside the loop's corridor under the tags listed in PLACE_KINDS. A row is what a mapper entered, on the date above. Many rows carry no English name and some carry no name at all.",
+  "by_kind": {
+   "airport": 10,
+   "cave": 36,
+   "coffee": 1917,
+   "fuel": 541,
+   "hospital": 260,
+   "market": 195,
+   "museum": 416,
+   "repair": 241,
+   "spring": 17,
+   "stay": 2262,
+   "town": 41,
+   "viewpoint": 371,
+   "village": 1253,
+   "wat": 1513,
+   "waterfall": 114
+  },
+  "named": {
+   "airport": 10,
+   "cave": 27,
+   "coffee": 1735,
+   "fuel": 389,
+   "hospital": 236,
+   "market": 132,
+   "museum": 371,
+   "repair": 141,
+   "spring": 11,
+   "stay": 2129,
+   "town": 41,
+   "viewpoint": 147,
+   "village": 1228,
+   "wat": 1144,
+   "waterfall": 70
+  }
+ },
+ "air": {
+  "point_days": 15050,
+  "stations_near_loop": 3,
+  "mhs_province_stations": [
+   "58t"
+  ]
+ },
+ "tiers": {
+  "harvested": 11,
+  "inference": 22,
+  "cited": 38,
+  "tradition": 4
+ }
+}

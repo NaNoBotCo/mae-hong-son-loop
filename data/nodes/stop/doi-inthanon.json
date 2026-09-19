@@ -75,5 +75,67 @@
   }
  ],
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "doi-inthanon/doi-inthanon-minla-strigula-doi-inthanon.jpg",
+   "source": "commons",
+   "title": "File:Minla strigula - Doi Inthanon.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Minla_strigula_-_Doi_Inthanon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMinla_strigula_-_Doi_Inthanon.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "credit": "Own work",
+   "alt": "Chestnut-tailed Minla (Minla strigula), Doi Inthanon National Park, Chiang Mai, Thailand",
+   "date": "2013-03-22 16:59:37",
+   "primary": true,
+   "sha256": "eef66c8e46600cc33e6a1803edf7d1841c9915e159931a0ae321c8ec04770fc8"
+  },
+  {
+   "file": "doi-inthanon/doi-inthanon-polyptychus-trilineatus-mhnt-cut-2010-0-17-doi-intha-7c445a9.jpg",
+   "source": "commons",
+   "title": "File:Polyptychus trilineatus MHNT CUT 2010 0 17 Doi Inthanon Chiang Mai Thailande dorsal.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Polyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_dorsal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APolyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_dorsal.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Didier Descouens",
+   "credit": "Own work",
+   "alt": "Polyptychus trilineatus - Dorsal side\nCollection of the Mathematician Laurent Schwartz",
+   "date": "Taken on 22 February 2016",
+   "primary": false,
+   "sha256": "ff0578326288f9a720b007f5fe6a0f080fec6d0ee49ee1906a0eec8789dfbce6"
+  },
+  {
+   "file": "doi-inthanon/doi-inthanon-polyptychus-trilineatus-mhnt-cut-2010-0-17-doi-intha-a6174d1.jpg",
+   "source": "commons",
+   "title": "File:Polyptychus trilineatus MHNT CUT 2010 0 17 Doi Inthanon Chiang Mai Thailande ventral.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Polyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_ventral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APolyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_ventral.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Didier Descouens",
+   "credit": "Own work",
+   "alt": "Polyptychus trilineatus - △ Ventral side\nCollection of the Mathematician Laurent Schwartz",
+   "date": "Taken on 22 February 2016",
+   "primary": false,
+   "sha256": "b5bd609c0319a3cfa5bc532d18de056a8a374389d4922ee2510844f76ec2a03a"
+  },
+  {
+   "file": "doi-inthanon/doi-inthanon-tarsiger-rufilatus-doi-inthanon.jpg",
+   "source": "commons",
+   "title": "File:Tarsiger rufilatus - Doi Inthanon.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tarsiger_rufilatus_-_Doi_Inthanon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATarsiger_rufilatus_-_Doi_Inthanon.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "credit": "Own work",
+   "alt": "Himalayan Bluetail (Tarsiger rufilatus), Doi Inthanon National Park, Ban Luang, Chiang Mai, Thailand",
+   "date": "2011-02-06 14:15:49",
+   "primary": false,
+   "sha256": "5670423ebeff85e9c67299cb515715f8e1a79fd23294d0fdb27a8757999522a0"
+  }
+ ]
 }

@@ -76,5 +76,67 @@
  },
  "confidence": "medium",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "soppong/soppong-mountains-in-pang-mapha-district-2.jpg",
+   "source": "commons",
+   "title": "File:Mountains in Pang Mapha District 2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Mountains_in_Pang_Mapha_District_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMountains_in_Pang_Mapha_District_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Mountains in Pang Mapha District, Mae Hong Son Province.",
+   "date": "2018-08-31 15:08:58",
+   "primary": true,
+   "sha256": "08d1f85832d33295d5f8d822c0ac63d3570c5715342cf0a4593cea005960feed"
+  },
+  {
+   "file": "soppong/soppong-peanuts-in-pang-mapha-district.jpg",
+   "source": "commons",
+   "title": "File:Peanuts in Pang Mapha District.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Peanuts_in_Pang_Mapha_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APeanuts_in_Pang_Mapha_District.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Peanuts in Pang Mapha District, Mae Hong Son Province.",
+   "date": "2018-08-31 10:57:40",
+   "primary": false,
+   "sha256": "910db46faf00c15caf93efb84ff7a4f18c9168aac3fdfa07b768ef8201ed01d6"
+  },
+  {
+   "file": "soppong/soppong-termites-in-pang-mapha-district.jpg",
+   "source": "commons",
+   "title": "File:Termites in Pang Mapha District.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Termites_in_Pang_Mapha_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATermites_in_Pang_Mapha_District.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Termites in Pang Mapha District, Mae Hong Son Province.",
+   "date": "2018-08-31 10:39:55",
+   "primary": false,
+   "sha256": "00193a8866d84f34e57daa0b8999855ab95c97526ef59e81edd3eba8bfc3fe84"
+  },
+  {
+   "file": "soppong/soppong-village-in-pang-mapha-district-1.jpg",
+   "source": "commons",
+   "title": "File:Village in Pang Mapha District 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Village_in_Pang_Mapha_District_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AVillage_in_Pang_Mapha_District_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Lisu village in Pang Mapha District, Mae Hong Son Province.",
+   "date": "2018-08-31 11:29:42",
+   "primary": false,
+   "sha256": "35466c1d7d73c9c17b6a7d0ba245b9b09556d7fb207e617b47890b5c0552781b"
+  }
+ ]
 }

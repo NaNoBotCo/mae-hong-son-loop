@@ -60,5 +60,67 @@
  },
  "confidence": "high",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "cool-season/cool-season-morning-sea-of-mist-at-si-nan19.jpg",
+   "source": "commons",
+   "title": "File:Morning sea of mist at Si Nan19.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Morning_sea_of_mist_at_Si_Nan19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan19.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติศรีน่าน",
+   "date": "2022-11-17 07:22:15",
+   "primary": true,
+   "sha256": "bd861a58f25f12a8615ff83e94580b2c3baaba8d477e28853a9d635bcb57dcf0"
+  },
+  {
+   "file": "cool-season/cool-season-morning-sea-of-mist-at-si-nan6.jpg",
+   "source": "commons",
+   "title": "File:Morning sea of mist at Si Nan6.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Morning_sea_of_mist_at_Si_Nan6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan6.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติศรีน่าน",
+   "date": "2022-11-17 07:14:37",
+   "primary": false,
+   "sha256": "db95f6351f2a6687a0a65c06daf03d735474d2e8235ea1227f56877aec99c5dc"
+  },
+  {
+   "file": "cool-season/cool-season-morning-sea-of-mist-at-si-nan8.jpg",
+   "source": "commons",
+   "title": "File:Morning sea of mist at Si Nan8.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Morning_sea_of_mist_at_Si_Nan8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan8.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติศรีน่าน",
+   "date": "2022-11-17 07:14:53",
+   "primary": false,
+   "sha256": "2902d022b1c2d03ad8e0636578570643f1512e9f167799b58514f66b688dedb5"
+  },
+  {
+   "file": "cool-season/cool-season-sunrise-over-the-sea-of-mist-at-khao-phang-chumphon-thailand.jpg",
+   "source": "commons",
+   "title": "File:Sunrise over the sea of mist at Khao Phang , Chumphon, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sunrise_over_the_sea_of_mist_at_Khao_Phang_%2C_Chumphon%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASunrise_over_the_sea_of_mist_at_Khao_Phang_%2C_Chumphon%2C_Thailand.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Kittisak Yangsoh",
+   "credit": "Own work",
+   "alt": "พระอาทิตย์ขึ้นเหนือทะเลหมอกที่เขาพัง ชุมพร ประเทศไทย",
+   "date": "2025-12-21 06:55:36",
+   "primary": false,
+   "sha256": "d02dfd66475f3c4554705f3f71129f16f599c3f6bd6882a5fe30901a3680ad9c"
+  }
+ ]
 }

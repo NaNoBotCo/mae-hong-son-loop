@@ -1,0 +1,153 @@
+{
+ "id": "underbone-125",
+ "type": "bike",
+ "names": {
+  "name": "The underbone with gears",
+  "th": "รถครอบครัวมีเกียร์ 125",
+  "said": "The same engine as the scooter, and a different road because of it.",
+  "said_th": "เครื่องยนต์ขนาดเดียวกับสกู๊ตเตอร์ แต่เป็นคนละถนนเพราะเกียร์"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "class": "underbone",
+  "grip": "easy"
+ },
+ "text": {
+  "what": "A Honda Wave, a Dream, a Sonic: a small four-stroke in a step-through frame with a four-speed gearbox and usually a centrifugal clutch, so there are gears but no clutch lever. The machine most of northern Thailand actually rides.",
+  "story": "The gearbox is the whole argument. Second gear holds a loaded 125 down a hairpin descent on the engine, and the brakes are then there for corners rather than for the entire hill. *Inference —* for a rider who has never come down ten kilometres of switchbacks before, this one change matters more than any amount of extra engine.\n\nIt is slower than a scooter off the line and faster everywhere that matters here, because 'faster' on this road means 'able to hold a steady speed up a long climb without the transmission hunting'.\n\nThe Super Cub layout it descends from has been in production since 1958 and is the most-produced motor vehicle in history, which is a way of saying that every mechanic between Chiang Mai and the Salween has seen one before."
+ },
+ "text_th": {
+  "what": "ฮอนด้า เวฟ ดรีม โซนิค เครื่องสี่จังหวะเล็กในโครงรถครอบครัว เกียร์สี่สปีด ส่วนใหญ่เป็นคลัตช์อัตโนมัติ คือมีเกียร์แต่ไม่มีก้านคลัตช์ เป็นรถที่คนภาคเหนือขี่กันจริงๆ",
+  "story": "เกียร์คือประเด็นทั้งหมด เกียร์สองหน่วงรถ 125 ที่บรรทุกของลงทางหักศอกได้ด้วยเครื่อง แล้วเบรกก็เหลือไว้ใช้กับโค้ง ไม่ใช่ใช้กับทั้งเขา *อนุมาน —* สำหรับคนที่ไม่เคยลงทางโค้งสิบกิโลเมตรมาก่อน การเปลี่ยนแค่จุดนี้สำคัญกว่าซีซีที่เพิ่มขึ้นเท่าไรก็ตาม\n\nมันออกตัวช้ากว่าสกู๊ตเตอร์ แต่เร็วกว่าในทุกที่ที่สำคัญบนเส้นทางนี้ เพราะคำว่าเร็วบนถนนสายนี้แปลว่ารักษาความเร็วคงที่ขึ้นเขายาวๆ ได้โดยเกียร์ไม่สับไปมา\n\nโครงสร้างแบบซูเปอร์คับที่มันสืบทอดมาผลิตมาตั้งแต่ปี 2501 และเป็นยานยนต์ที่ผลิตมากที่สุดในประวัติศาสตร์ ซึ่งเป็นอีกวิธีพูดว่าช่างทุกคนระหว่างเชียงใหม่ถึงสาละวินเคยเห็นมันมาแล้ว"
+ },
+ "kin": [
+  {
+   "to": "step-through-110",
+   "as": "The same size, without the gearbox that does the braking.",
+   "rel": "bike"
+  },
+  {
+   "to": "engine-braking",
+   "as": "The thing the gearbox buys you.",
+   "rel": "term"
+  },
+  {
+   "to": "brake-fade",
+   "as": "What it protects you from.",
+   "rel": "hazard"
+  },
+  {
+   "to": "which-bike",
+   "as": "Where this sits against everything else.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-honda-wave-series",
+  "s:wp-honda-super-cub",
+  "s:wp-underbone"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-honda-super-cub"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "production history cited; the riding argument is this project's"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "underbone-125/underbone-125-2007-honda-revo-r-100-20211019.jpg",
+   "source": "commons",
+   "title": "File:2007 Honda Revo R 100 (20211019).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/2007_Honda_Revo_R_100_%2820211019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A2007_Honda_Revo_R_100_%2820211019%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "オーバードライブ83",
+   "credit": "Own work",
+   "alt": "2007 Honda Revo R 100",
+   "date": "2021-10-19 14:21:51",
+   "primary": true,
+   "sha256": "f85bfd9e7fb3cec43737a320744c6a404f2483af7245048bd3387aa7166b6b0e"
+  },
+  {
+   "file": "underbone-125/underbone-125-honda-supra-x-125.jpg",
+   "source": "commons",
+   "title": "File:Honda Supra X 125.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Honda_Supra_X_125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Supra_X_125.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Rubah Hitam Vukova",
+   "credit": "Own work",
+   "alt": "Honda Supra X 125, 2018",
+   "date": "2025-04-16 14:13:35",
+   "primary": false,
+   "sha256": "d307912646a8b3b4e8ab15b1146a6dca9d8ab95d6592ce029b46175fb4d76a2f"
+  },
+  {
+   "file": "underbone-125/underbone-125-honda-supra-x-125-fi-jakarta-fair-2016-june-21-2016-03.jpg",
+   "source": "commons",
+   "title": "File:Honda Supra X 125 FI - Jakarta Fair 2016 - June 21 2016 03.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Honda_Supra_X_125_FI_-_Jakarta_Fair_2016_-_June_21_2016_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Supra_X_125_FI_-_Jakarta_Fair_2016_-_June_21_2016_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Wilzz99",
+   "credit": "Own work",
+   "alt": "A Honda Supra X 125 FI photographed in Jakarta Fair 2016, Jakarta, Indonesia on June 21, 2016.",
+   "date": "2016-06-21 17:46:03",
+   "primary": false,
+   "sha256": "276db72f9557b8601e4991062b0752779a8e7f823e9a3fd8de2fd167e2f10566"
+  },
+  {
+   "file": "underbone-125/underbone-125-honda-wave-s-dx-2023.jpg",
+   "source": "commons",
+   "title": "File:Honda Wave S-DX 2023.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Honda_Wave_S-DX_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Wave_S-DX_2023.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Zaldi.txiki.75",
+   "credit": "Own work",
+   "alt": "Honda Wave S-DX 2023, cast disk edition",
+   "date": "2023-02-10",
+   "primary": false,
+   "sha256": "eed23a927ae50126eef41129da2c48d6f7f90fa313a565205df32b79b7fdf83b"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "step-through-110",
+   "type": "bike",
+   "name": "The 110–125 step-through",
+   "as": "The same size of engine with gears, which changes the descent entirely."
+  },
+  {
+   "from": "engine-braking",
+   "type": "term",
+   "name": "Engine braking",
+   "as": "The cheap bike that has it."
+  },
+  {
+   "from": "which-bike",
+   "type": "story",
+   "name": "Every bike goes up there",
+   "as": "The same engine with a gearbox, which changes the descent entirely."
+  }
+ ]
+}

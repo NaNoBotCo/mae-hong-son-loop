@@ -1,0 +1,161 @@
+{
+ "id": "doi-inthanon",
+ "type": "stop",
+ "names": {
+  "name": "Doi Inthanon",
+  "th": "ดอยอินทนนท์",
+  "said": "The highest ground in Thailand, and cold enough at the top to surprise you.",
+  "said_th": "จุดสูงสุดของประเทศไทย และหนาวพอที่จะทำให้คุณประหลาดใจ"
+ },
+ "region": [
+  "cnx",
+  "chom-thong"
+ ],
+ "facets": {
+  "kind": "mountain",
+  "price": "mid"
+ },
+ "text": {
+  "what": "2,565 metres, in Chom Thong district, reached from Route 108 or from Mae Chaem over Route 1088. Not on the loop; one turn off it.",
+  "story": "The summit is the highest point in Thailand and sits in a national park. The road up is sealed the whole way and steep in places.\n\n*Inference —* on this circuit it is a decision about a day rather than about a mountain. Clockwise it lands near the end, at Chom Thong, when you are nearly home and tired; counter-clockwise it lands on day one, when you are fresh but have a long way to go. Either way it is a full extra day to do properly, and a rushed half-day gets you a car park in cloud.\n\nA rider coming over the 1263 cut can reach it from the Mae Chaem side on Route 1088, which is the quieter approach."
+ },
+ "text_th": {
+  "what": "สูง 2,565 เมตร ในอำเภอจอมทอง ขึ้นได้จากทางหลวง 108 หรือจากแม่แจ่มทางทางหลวง 1088 ไม่ได้อยู่บนวงรอบ แต่แยกจากมันครั้งเดียว",
+  "story": "ยอดดอยเป็นจุดสูงสุดของประเทศไทยและอยู่ในเขตอุทยานแห่งชาติ ถนนขึ้นลาดยางตลอดสายและชันเป็นช่วงๆ\n\n*อนุมาน —* บนเส้นทางนี้มันเป็นการตัดสินใจเรื่องวัน มากกว่าเรื่องภูเขา ถ้าไปตามเข็มมันจะมาถึงตอนท้าย ที่จอมทอง ตอนที่ใกล้ถึงบ้านและเหนื่อยแล้ว ถ้าไปทวนเข็มมันจะมาถึงวันแรก ตอนที่ยังสดแต่ยังมีทางอีกไกล ไม่ว่าทางไหนมันคือหนึ่งวันเต็มถ้าจะทำให้ดี และครึ่งวันแบบเร่งรีบจะได้แค่ลานจอดรถในเมฆ\n\nคนที่มาทางทางลัด 1263 ขึ้นได้จากฝั่งแม่แจ่มทางทางหลวง 1088 ซึ่งเป็นทางที่เงียบกว่า"
+ },
+ "kin": [
+  {
+   "to": "route-1088",
+   "as": "The quiet way up, from Mae Chaem.",
+   "rel": "road"
+  },
+  {
+   "to": "hot-to-cnx",
+   "as": "The leg with the Chom Thong turn on it.",
+   "rel": "leg"
+  },
+  {
+   "to": "mae-chaem",
+   "as": "The town on the back side.",
+   "rel": "town"
+  }
+ ],
+ "sources": [
+  "s:wp-doi-inthanon",
+  "s:wp-chom-thong"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-doi-inthanon"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-doi-inthanon"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 18.5885,
+  "lon": 98.4867,
+  "precision": "street",
+  "elevation_m": 2565
+ },
+ "recognitions": [
+  {
+   "by": "dnp",
+   "what": "Doi Inthanon National Park",
+   "source": "s:wp-doi-inthanon"
+  }
+ ],
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "doi-inthanon/doi-inthanon-minla-strigula-doi-inthanon.jpg",
+   "source": "commons",
+   "title": "File:Minla strigula - Doi Inthanon.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Minla_strigula_-_Doi_Inthanon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMinla_strigula_-_Doi_Inthanon.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "credit": "Own work",
+   "alt": "Chestnut-tailed Minla (Minla strigula), Doi Inthanon National Park, Chiang Mai, Thailand",
+   "date": "2013-03-22 16:59:37",
+   "primary": true,
+   "sha256": "eef66c8e46600cc33e6a1803edf7d1841c9915e159931a0ae321c8ec04770fc8"
+  },
+  {
+   "file": "doi-inthanon/doi-inthanon-polyptychus-trilineatus-mhnt-cut-2010-0-17-doi-intha-7c445a9.jpg",
+   "source": "commons",
+   "title": "File:Polyptychus trilineatus MHNT CUT 2010 0 17 Doi Inthanon Chiang Mai Thailande dorsal.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Polyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_dorsal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APolyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_dorsal.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Didier Descouens",
+   "credit": "Own work",
+   "alt": "Polyptychus trilineatus - Dorsal side\nCollection of the Mathematician Laurent Schwartz",
+   "date": "Taken on 22 February 2016",
+   "primary": false,
+   "sha256": "ff0578326288f9a720b007f5fe6a0f080fec6d0ee49ee1906a0eec8789dfbce6"
+  },
+  {
+   "file": "doi-inthanon/doi-inthanon-polyptychus-trilineatus-mhnt-cut-2010-0-17-doi-intha-a6174d1.jpg",
+   "source": "commons",
+   "title": "File:Polyptychus trilineatus MHNT CUT 2010 0 17 Doi Inthanon Chiang Mai Thailande ventral.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Polyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_ventral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APolyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_ventral.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Didier Descouens",
+   "credit": "Own work",
+   "alt": "Polyptychus trilineatus - △ Ventral side\nCollection of the Mathematician Laurent Schwartz",
+   "date": "Taken on 22 February 2016",
+   "primary": false,
+   "sha256": "b5bd609c0319a3cfa5bc532d18de056a8a374389d4922ee2510844f76ec2a03a"
+  },
+  {
+   "file": "doi-inthanon/doi-inthanon-tarsiger-rufilatus-doi-inthanon.jpg",
+   "source": "commons",
+   "title": "File:Tarsiger rufilatus - Doi Inthanon.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tarsiger_rufilatus_-_Doi_Inthanon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATarsiger_rufilatus_-_Doi_Inthanon.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+   "credit": "Own work",
+   "alt": "Himalayan Bluetail (Tarsiger rufilatus), Doi Inthanon National Park, Ban Luang, Chiang Mai, Thailand",
+   "date": "2011-02-06 14:15:49",
+   "primary": false,
+   "sha256": "5670423ebeff85e9c67299cb515715f8e1a79fd23294d0fdb27a8757999522a0"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "hot-to-cnx",
+   "type": "leg",
+   "name": "Hot to Chiang Mai",
+   "as": "The turn at Chom Thong, if there is a day left."
+  },
+  {
+   "from": "route-1088",
+   "type": "road",
+   "name": "Route 1088",
+   "as": "What it reaches."
+  },
+  {
+   "from": "mae-chaem",
+   "type": "town",
+   "name": "Mae Chaem",
+   "as": "The mountain on the other side."
+  }
+ ]
+}

@@ -104,5 +104,67 @@
   }
  ],
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "mae-hong-son/mae-hong-son-mae-hong-son-thailand-unsplash.jpg",
+   "source": "commons",
+   "title": "File:Mae Hong Son, Thailand (Unsplash).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mae_Hong_Son%2C_Thailand_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Hong_Son%2C_Thailand_%28Unsplash%29.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Stephanie Ecate steffny0206",
+   "credit": "https://unsplash.com/photos/VDlG0OfIanU\n\narchive copy at the Wayback Machine",
+   "alt": "Mae Hong Son, Thailand",
+   "date": "2016-10-18",
+   "primary": true,
+   "sha256": "562c8319766e72e484d471eb7a8a14842f5efe13ee70684931d497ec9def7e1e"
+  },
+  {
+   "file": "mae-hong-son/mae-hong-son-mae-hong-son-bus-terminal.jpg",
+   "source": "commons",
+   "title": "File:Mae Hong Son Bus Terminal.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Mae_Hong_Son_Bus_Terminal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Hong_Son_Bus_Terminal.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "The bus terminal of Mae Hong Son.",
+   "date": "2018-09-02 06:47:34",
+   "primary": false,
+   "sha256": "437c6ee40e859e95995df2e55da9ce66c541c31a190d633c1fc1ab6b74c6c5aa"
+  },
+  {
+   "file": "mae-hong-son/mae-hong-son-sunset-in-mae-hong-son.jpg",
+   "source": "commons",
+   "title": "File:Sunset in Mae Hong Son.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Sunset_in_Mae_Hong_Son.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASunset_in_Mae_Hong_Son.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "View of the sunset from Wat Phrathat Doi Kong Mu in Mae Hong Son.",
+   "date": "2018-09-01 19:13:50",
+   "primary": false,
+   "sha256": "443a204ee00ed12c22fc79f86661098a9b7a8df4971714e6d99de9098f1c1abb"
+  },
+  {
+   "file": "mae-hong-son/mae-hong-son-view-of-mae-hong-son-1.jpg",
+   "source": "commons",
+   "title": "File:View of Mae Hong Son 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/View_of_Mae_Hong_Son_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AView_of_Mae_Hong_Son_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "View of Mae Hong Son from Wat Phrathat Doi Kong Mu.",
+   "date": "2018-09-01 18:34:38",
+   "primary": false,
+   "sha256": "e12119d34e279e4e7eb293ec4fb50d16ad54010df5fe28c6e93f563062c5941e"
+  }
+ ]
 }

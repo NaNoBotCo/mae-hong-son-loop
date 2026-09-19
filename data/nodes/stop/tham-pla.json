@@ -70,5 +70,67 @@
  ],
  "needs_verification": true,
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "tham-pla/tham-pla-id-1116-tham-pla-pha-suea-national-park-ymd-20200701-152453.jpg",
+   "source": "commons",
+   "title": "File:ID 1116 Tham Pla-Pha Suea National Park อช.ถ้ำปลา-น้ำตกผาเสื่อ YMD 20200701 152453.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/ID_1116_Tham_Pla-Pha_Suea_National_Park_%E0%B8%AD%E0%B8%8A.%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%9C%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD_YMD_20200701_152453.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AID_1116_Tham_Pla-Pha_Suea_National_Park_%E0%B8%AD%E0%B8%8A.%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%9C%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD_YMD_20200701_152453.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "MintJazzMania",
+   "credit": "Own work",
+   "alt": "Life &amp; Living after easing of 1st Lockdown due to COVID-19 pandemic! Need to follow the government's restrictions but fresh air is also needed 😹 \nWearing mask while relaxing in a park at Namtok Ph",
+   "date": "2020-07-01 15:24:53",
+   "primary": true,
+   "sha256": "4ef5395702382f1978445da4da715f7ae5b95db23c083c94859838f7372de7c6"
+  },
+  {
+   "file": "tham-pla/tham-pla-juvenile-black-blotched-procupine-fish-eye.jpg",
+   "source": "commons",
+   "title": "File:Juvenile Black blotched Procupine fish eye.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Juvenile_Black_blotched_Procupine_fish_eye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AJuvenile_Black_blotched_Procupine_fish_eye.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Daniel Sasse",
+   "credit": "Own work",
+   "alt": "When photographed the eye reflects a certain green color of the underwater strobe. Diodon liturosus Hides in caves and ledges during the day and forages at night, Solitary. Feeds on crustaceans and mo",
+   "date": "2019-03-04",
+   "primary": false,
+   "sha256": "63dd6da25d7777af865e32243c57119b6f4fa1d3ed30a131083e07377b8264bf"
+  },
+  {
+   "file": "tham-pla/tham-pla-national-park-1116-fish-cave.jpg",
+   "source": "commons",
+   "title": "File:National park 1116 -Fish Cave.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/National_park_1116_-Fish_Cave.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANational_park_1116_-Fish_Cave.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Yingthipc",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติถ้ำปลา-น้ำตกผาเสื่อ",
+   "date": "2015-06-26",
+   "primary": false,
+   "sha256": "83a7c6afa80c99f27411a351a220c3ec985b01830f9e560ed4274a86d4a6f0be"
+  },
+  {
+   "file": "tham-pla/tham-pla-.jpg",
+   "source": "commons",
+   "title": "File:ปลาจำนวนมากในอุทยานแห่งชาติถ้ำปลา แม่ฮ่องสอน.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%88%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%99%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2_%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AE%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%AD%E0%B8%99.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%88%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%99%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2_%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AE%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%AD%E0%B8%99.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Beeverbkk",
+   "credit": "Own work",
+   "alt": "Fish in Tham Pla–Pha Suea Waterfall National Park near Mae Hong Son, Northern Thailand",
+   "date": "2015-06-22",
+   "primary": false,
+   "sha256": "e59602bea93c3b07d9828c10d996eb463185f251f496bb7fdba2d5f344ad18f1"
+  }
+ ]
 }

@@ -1,0 +1,158 @@
+{
+ "id": "cool-season",
+ "type": "event",
+ "names": {
+  "name": "The cool season",
+  "th": "ฤดูหนาว",
+  "said": "November to February, and everyone knows it.",
+  "said_th": "พฤศจิกายนถึงกุมภาพันธ์ และทุกคนรู้"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "cool"
+ },
+ "text": {
+  "what": "Dry, clear, cold at altitude before dawn, and the busiest and most expensive months on the circuit.",
+  "story": "The measured air is good without being the year's best: Pai's November mean is 8.1 µg/m³ and December 9.9, against 3.0 in July. It is the dryness rather than the cleanliness that makes the season.\n\nWhat is actually here that is not here otherwise: the sea of mist at dawn off the ridges, which needs cold still air and is a November-to-January phenomenon; the *Tithonia* bloom above Khun Yuam in November; and dry tarmac on every descent.\n\n*Inference —* the cost is crowding and price, and the one real riding hazard is the low afternoon sun, which is worst at exactly this time of year on a westward leg. Mornings are genuinely cold on the high sections before nine — this is the one season on this circuit where a rider is underdressed rather than overheating."
+ },
+ "text_th": {
+  "what": "แห้ง ใส หนาวบนที่สูงก่อนรุ่งสาง และเป็นเดือนที่คนเยอะที่สุดและแพงที่สุดบนเส้นทาง",
+  "story": "อากาศที่วัดได้ดีโดยไม่ใช่ดีที่สุดของปี ค่าเฉลี่ยพฤศจิกายนของปายคือ 8.1 ธันวาคม 9.9 เทียบกับ 3.0 ในเดือนกรกฎาคม สิ่งที่ทำให้ฤดูนี้เป็นฤดูนี้คือความแห้ง ไม่ใช่ความสะอาด\n\nสิ่งที่มีเฉพาะช่วงนี้ ทะเลหมอกยามรุ่งสางบนสันเขา ซึ่งต้องการอากาศเย็นและนิ่ง เป็นปรากฏการณ์ช่วงพฤศจิกายนถึงมกราคม ทุ่งบัวตองเหนือขุนยวมในเดือนพฤศจิกายน และถนนแห้งบนทุกทางลง\n\n*อนุมาน —* ราคาที่จ่ายคือคนเยอะและของแพง และอันตรายจากการขี่ข้อเดียวที่จริงจังคือแดดต่ำตอนบ่าย ซึ่งแย่ที่สุดในช่วงนี้ของปีพอดีบนเส้นทางที่มุ่งตะวันตก ตอนเช้าบนช่วงสูงหนาวจริงก่อนเก้าโมง นี่เป็นฤดูเดียวบนเส้นทางนี้ที่คนขี่ใส่เสื้อน้อยเกินไป ไม่ใช่ร้อนเกินไป"
+ },
+ "kin": [
+  {
+   "to": "bua-tong-bloom",
+   "as": "The November thing worth timing for.",
+   "rel": "event"
+  },
+  {
+   "to": "low-sun",
+   "as": "The season's own hazard.",
+   "rel": "hazard"
+  },
+  {
+   "to": "doi-kong-mu",
+   "as": "Where the mist is watched from.",
+   "rel": "wat"
+  }
+ ],
+ "sources": [
+  "s:open-meteo-aq",
+  "s:wp-monsoon",
+  "s:wp-tithonia-diversifolia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:open-meteo-aq"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "cool-season/cool-season-morning-sea-of-mist-at-si-nan19.jpg",
+   "source": "commons",
+   "title": "File:Morning sea of mist at Si Nan19.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Morning_sea_of_mist_at_Si_Nan19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan19.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติศรีน่าน",
+   "date": "2022-11-17 07:22:15",
+   "primary": true,
+   "sha256": "bd861a58f25f12a8615ff83e94580b2c3baaba8d477e28853a9d635bcb57dcf0"
+  },
+  {
+   "file": "cool-season/cool-season-morning-sea-of-mist-at-si-nan6.jpg",
+   "source": "commons",
+   "title": "File:Morning sea of mist at Si Nan6.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Morning_sea_of_mist_at_Si_Nan6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan6.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติศรีน่าน",
+   "date": "2022-11-17 07:14:37",
+   "primary": false,
+   "sha256": "db95f6351f2a6687a0a65c06daf03d735474d2e8235ea1227f56877aec99c5dc"
+  },
+  {
+   "file": "cool-season/cool-season-morning-sea-of-mist-at-si-nan8.jpg",
+   "source": "commons",
+   "title": "File:Morning sea of mist at Si Nan8.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Morning_sea_of_mist_at_Si_Nan8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan8.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติศรีน่าน",
+   "date": "2022-11-17 07:14:53",
+   "primary": false,
+   "sha256": "2902d022b1c2d03ad8e0636578570643f1512e9f167799b58514f66b688dedb5"
+  },
+  {
+   "file": "cool-season/cool-season-sunrise-over-the-sea-of-mist-at-khao-phang-chumphon-thailand.jpg",
+   "source": "commons",
+   "title": "File:Sunrise over the sea of mist at Khao Phang , Chumphon, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sunrise_over_the_sea_of_mist_at_Khao_Phang_%2C_Chumphon%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASunrise_over_the_sea_of_mist_at_Khao_Phang_%2C_Chumphon%2C_Thailand.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Kittisak Yangsoh",
+   "credit": "Own work",
+   "alt": "พระอาทิตย์ขึ้นเหนือทะเลหมอกที่เขาพัง ชุมพร ประเทศไทย",
+   "date": "2025-12-21 06:55:36",
+   "primary": false,
+   "sha256": "d02dfd66475f3c4554705f3f71129f16f599c3f6bd6882a5fe30901a3680ad9c"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "pang-ung",
+   "type": "stop",
+   "name": "Pang Ung",
+   "as": "The only season the mist happens."
+  },
+  {
+   "from": "doi-kong-mu",
+   "type": "wat",
+   "name": "Wat Phra That Doi Kong Mu",
+   "as": "When the mist is there."
+  },
+  {
+   "from": "gear",
+   "type": "kit",
+   "name": "What to wear",
+   "as": "The season that needs the extra layer."
+  },
+  {
+   "from": "bua-tong-bloom",
+   "type": "event",
+   "name": "The Bua Tong bloom",
+   "as": "The season it opens."
+  },
+  {
+   "from": "the-smoke",
+   "type": "story",
+   "name": "The smoke",
+   "as": "The season everyone books, and why."
+  }
+ ]
+}

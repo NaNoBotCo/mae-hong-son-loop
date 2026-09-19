@@ -60,5 +60,52 @@
  },
  "confidence": "medium",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "trail-250/trail-250-gro-img-9207-54773452978.jpg",
+   "source": "commons",
+   "title": "File:Groß (IMG 9207) (54773452978).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Gro%C3%9F_%28IMG_9207%29_%2854773452978%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AGro%C3%9F_%28IMG_9207%29_%2854773452978%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Clemens Anderlitschka",
+   "credit": "Groß (IMG_9207)",
+   "alt": "265 Hercules 350 GS\n266 Kramer 250\n267 Kawasaki KLX 250\n268 Nürnb. Herculeswerke GS 175",
+   "date": "2025-09-08 02:44",
+   "primary": true,
+   "sha256": "186cdb50adc8d8bfb11d06284465090139e3cd11e11df2385f034a240ce4c48c"
+  },
+  {
+   "file": "trail-250/trail-250-gro-img-9208-54773555040.jpg",
+   "source": "commons",
+   "title": "File:Groß (IMG 9208) (54773555040).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Gro%C3%9F_%28IMG_9208%29_%2854773555040%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AGro%C3%9F_%28IMG_9208%29_%2854773555040%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Clemens Anderlitschka",
+   "credit": "Groß (IMG_9208)",
+   "alt": "265 Hercules 350 GS\n266 Kramer 250\n267 Kawasaki KLX 250\n268 Nürnb. Herculeswerke GS 175",
+   "date": "2025-09-08 02:44",
+   "primary": false,
+   "sha256": "b42332c17295c262e4b90f6abd69627b8b0cd9692d63f2e8149201ac76be4b99"
+  },
+  {
+   "file": "trail-250/trail-250-gro-img-9209-54773215981.jpg",
+   "source": "commons",
+   "title": "File:Groß (IMG 9209) (54773215981).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Gro%C3%9F_%28IMG_9209%29_%2854773215981%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AGro%C3%9F_%28IMG_9209%29_%2854773215981%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Clemens Anderlitschka",
+   "credit": "Groß (IMG_9209)",
+   "alt": "265 Hercules 350 GS\n266 Kramer 250\n267 Kawasaki KLX 250\n268 Nürnb. Herculeswerke GS 175",
+   "date": "2025-09-08 02:44",
+   "primary": false,
+   "sha256": "169bff2889b660973098854bfffdcfef6c1b6248599e1d7a6a03b84fbe6fc917"
+  }
+ ]
 }

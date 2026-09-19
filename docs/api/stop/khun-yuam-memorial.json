@@ -1,0 +1,94 @@
+{
+ "id": "khun-yuam-memorial",
+ "type": "stop",
+ "names": {
+  "name": "The Japanese memorial at Khun Yuam",
+  "th": "อนุสรณ์สถานมิตรภาพไทย–ญี่ปุ่น ขุนยวม",
+  "said": "A small town on a mountain road keeps the record of an army that came through it and did not come back.",
+  "said_th": "เมืองเล็กๆ บนถนนภูเขาเก็บบันทึกของกองทัพที่ผ่านมาแล้วไม่ได้กลับ"
+ },
+ "region": [
+  "mhs",
+  "khun-yuam",
+  "loop",
+  "south-leg"
+ ],
+ "facets": {
+  "kind": "memorial"
+ },
+ "text": {
+  "what": "A memorial hall in Khun Yuam holding material from the Japanese presence in this district during the Second World War.",
+  "story": "Thailand's position in the Second World War was its own complicated thing — an alliance under pressure, an occupation that was not called one, and a resistance movement inside the government. Japanese forces moved through northern Thailand toward and from Burma, and Khun Yuam was on one of those routes.\n\n*Inference —* what makes this worth a stop on a motorcycle trip is that it is a local record rather than a national one: what is kept here is the relationship between a small Thai town and the soldiers who passed through it, including the ones who did not leave. That is a different subject from the campaign, and it is much less often told.\n\n**Not on this disk:** the hall's current opening hours, its admission charge, or the exact composition of its collection. This project has not verified them."
+ },
+ "text_th": {
+  "what": "อาคารอนุสรณ์ในขุนยวม เก็บรักษาสิ่งของจากการมีอยู่ของทหารญี่ปุ่นในอำเภอนี้ช่วงสงครามโลกครั้งที่สอง",
+  "story": "สถานะของไทยในสงครามโลกครั้งที่สองเป็นเรื่องซับซ้อนในตัวเอง ทั้งพันธมิตรภายใต้แรงกดดัน การยึดครองที่ไม่ได้เรียกว่าการยึดครอง และขบวนการต่อต้านที่อยู่ในรัฐบาลเอง กองทัพญี่ปุ่นเคลื่อนผ่านภาคเหนือของไทยไปและกลับจากพม่า และขุนยวมอยู่บนหนึ่งในเส้นทางเหล่านั้น\n\n*อนุมาน —* สิ่งที่ทำให้ที่นี่ควรแวะระหว่างทริปมอเตอร์ไซค์ คือมันเป็นบันทึกของท้องถิ่น ไม่ใช่ของชาติ สิ่งที่เก็บไว้ที่นี่คือความสัมพันธ์ระหว่างเมืองไทยเล็กๆ เมืองหนึ่งกับทหารที่ผ่านมา รวมถึงคนที่ไม่ได้จากไป นั่นเป็นคนละเรื่องกับยุทธการ และถูกเล่าน้อยกว่ามาก\n\n**ไม่มีข้อมูลในชุดนี้** เวลาเปิดปิดปัจจุบัน ค่าเข้าชม หรือรายละเอียดของสิ่งที่จัดแสดง โครงการนี้ยังไม่ได้ตรวจสอบ"
+ },
+ "kin": [
+  {
+   "to": "khun-yuam",
+   "as": "The town it is in.",
+   "rel": "town"
+  },
+  {
+   "to": "mhs-to-khun-yuam",
+   "as": "The leg that reaches it.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:wp-thailand-in-world-war-ii",
+  "s:wp-japanese-occupation-of-burma",
+  "s:wp-khun-yuam-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-thailand-in-world-war-ii"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-thailand-in-world-war-ii"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 18.8228,
+  "lon": 97.9336,
+  "precision": "town"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "khun-yuam-memorial/khun-yuam-memorial-image-from-page-79-of-bonn-zoological-bulletin-2010-cropped.jpg",
+   "source": "commons",
+   "title": "File:Image from page 79 of \"Bonn zoological bulletin\" (2010) (cropped).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Image_from_page_79_of_%22Bonn_zoological_bulletin%22_%282010%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AImage_from_page_79_of_%22Bonn_zoological_bulletin%22_%282010%29_%28cropped%29.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Internet Archive Book Images",
+   "credit": "https://www.flickr.com/photos/internetarchivebookimages/20207569209/",
+   "alt": "Title: Bonn zoological bulletin\nIdentifier: bonnzoologica5712010zool\nYear: 2010 (2010s)\nAuthors: Zoologisches Forschungsmuseum Alexander Koenig\nSubjects: Zoology\nPublisher: Bonn : Zoologisches Forschu",
+   "date": "2010-01-01",
+   "primary": true,
+   "sha256": "631e6c61f98206a60524e1756da5b4bbf4aad10b91f621c25a9ccd78e269e970"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "khun-yuam",
+   "type": "town",
+   "name": "Khun Yuam",
+   "as": "The hall, and the story it holds."
+  }
+ ]
+}

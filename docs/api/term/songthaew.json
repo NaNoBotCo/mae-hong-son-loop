@@ -1,0 +1,55 @@
+{
+ "id": "songthaew",
+ "type": "term",
+ "names": {
+  "name": "Songthaew",
+  "th": "สองแถว",
+  "said": "Literally 'two rows'. A pickup with benches down each side of the bed, and the bus service of every town here.",
+  "said_th": "แปลตรงตัวว่าสองแถว รถกระบะที่มีม้านั่งสองข้างท้ายกระบะ และเป็นรถประจำทางของทุกเมืองแถบนี้",
+  "rtgs": "song thaeo"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "road"
+ },
+ "text": {
+  "what": "Literally 'two rows'. A pickup with benches down each side of the bed, and the bus service of every town here.",
+  "story": "*Inference —* the reason a rider needs the word is that a songthaew behaves like neither a bus nor a car: it stops anywhere, without warning, on the left, because someone standing at the roadside raised a hand. On a two-lane mountain road that is the vehicle most likely to stop in front of you.\n\nIt is also the answer if the bike breaks. A songthaew will take a person and often a bag to the next town for very little."
+ },
+ "text_th": {
+  "what": "แปลตรงตัวว่าสองแถว รถกระบะที่มีม้านั่งสองข้างท้ายกระบะ และเป็นรถประจำทางของทุกเมืองแถบนี้",
+  "story": "*อนุมาน —* เหตุผลที่คนขี่รถต้องรู้คำนี้ คือสองแถวไม่ได้ทำตัวเหมือนรถบัสและไม่เหมือนรถเก๋ง มันจอดที่ไหนก็ได้ โดยไม่บอกล่วงหน้า ชิดซ้าย เพราะมีคนยืนริมถนนยกมือ บนถนนภูเขาสองเลน นั่นคือรถที่มีโอกาสจอดขวางหน้าคุณมากที่สุด\n\nและมันยังเป็นคำตอบถ้ารถเสีย สองแถวรับคนและมักรับกระเป๋าไปส่งเมืองถัดไปในราคาน้อยมาก"
+ },
+ "kin": [
+  {
+   "to": "buses-on-your-line",
+   "as": "The wider version of this problem.",
+   "rel": "hazard"
+  }
+ ],
+ "sources": [
+  "s:wp-chiang-mai"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-chiang-mai"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-chiang-mai"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": []
+}

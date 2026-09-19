@@ -1,0 +1,135 @@
+{
+ "id": "brake-fade",
+ "type": "hazard",
+ "names": {
+  "name": "Brake fade",
+  "th": "เบรกเฟด",
+  "said": "The lever comes back further each time, and then it comes back to the bar.",
+  "said_th": "ก้านเบรกยุบลึกขึ้นทุกครั้ง แล้วก็ยุบจนติดแฮนด์"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "mechanical"
+ },
+ "text": {
+  "what": "Dragging a brake down a long descent heats it until it stops converting speed into heat as well as it did. On a small automatic with a drum rear, this is the failure mode of this road.",
+  "story": "The descents here are not short. Route 1095 drops off a ridge into the Pai valley over kilometres, not hundreds of metres, and the curve density means the brake is being used the whole way.\n\n*Inference —* the rider who is in trouble is the one who found a speed that felt controlled at the top and held it by dragging. The brake gets hot, the lever travel grows, and because it grows gradually the rider compensates without noticing until there is no travel left. A drum brake filled with hot gas and glazed lining is the version of this that arrives fastest.\n\nWhat prevents it is not stronger braking. It is **engine braking** and **stopping**. Down a gear (or, on an automatic, down to a speed the engine can hold), brake in firm short applications rather than a constant drag, and pull over every few kilometres on a long descent for two minutes. A brake that has faded comes back when it cools; one that has boiled its fluid may not."
+ },
+ "text_th": {
+  "what": "การลากเบรกลงทางยาวๆ ทำให้เบรกร้อนจนแปลงความเร็วเป็นความร้อนได้แย่ลงเรื่อยๆ บนรถออโต้เล็กที่เบรกหลังเป็นดรัม นี่คือรูปแบบความเสียหายของถนนสายนี้",
+  "story": "ทางลงที่นี่ไม่ได้สั้น ทางหลวง 1095 ทิ้งตัวจากสันเขาลงหุบปายเป็นระยะหลายกิโลเมตร ไม่ใช่หลายร้อยเมตร และความหนาแน่นของโค้งแปลว่าเบรกถูกใช้ตลอดทาง\n\n*อนุมาน —* คนที่เจอปัญหาคือคนที่หาความเร็วที่รู้สึกว่าคุมได้ตั้งแต่บนยอด แล้วรักษาความเร็วนั้นด้วยการลากเบรก เบรกร้อนขึ้น ระยะก้านเบรกยาวขึ้น และเพราะมันค่อยๆ ยาวขึ้น คนขี่จึงชดเชยไปเรื่อยโดยไม่รู้ตัว จนไม่เหลือระยะให้กดอีก เบรกดรัมที่เต็มไปด้วยแก๊สร้อนและผ้าเบรกไหม้คือเวอร์ชันที่มาถึงเร็วที่สุด\n\nสิ่งที่ป้องกันได้ไม่ใช่การเบรกให้แรงขึ้น แต่คือ **เอนจินเบรก** และ **การจอด** ลดเกียร์ลง หรือถ้าเป็นออโต้ก็ลดความเร็วลงจนเครื่องหน่วงไหว เบรกเป็นจังหวะสั้นและหนักแทนการลากค้าง และจอดพักสองนาทีทุกไม่กี่กิโลเมตรบนทางลงยาวๆ เบรกที่เฟดจะกลับมาเมื่อเย็นลง แต่เบรกที่น้ำมันเดือดแล้วอาจไม่กลับมา"
+ },
+ "kin": [
+  {
+   "to": "step-through-110",
+   "as": "The bike this happens to.",
+   "rel": "bike"
+  },
+  {
+   "to": "engine-braking",
+   "as": "The thing that stops it happening.",
+   "rel": "term"
+  },
+  {
+   "to": "route-1095",
+   "as": "The descent it happens on.",
+   "rel": "road"
+  },
+  {
+   "to": "the-1263-cut",
+   "as": "The steeper one, with fewer places to pull over.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:wp-motorcycle-safety",
+  "s:mhs-measured"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "the mechanism is general motorcycle knowledge; the application to these specific descents is this project reasoning from the measured gradient and curve density"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "riding": {
+  "min_class": "underbone",
+  "grip": "moderate",
+  "pillion": "think",
+  "note": "A pillion roughly doubles the energy the brakes have to absorb on the same hill.",
+  "note_th": "คนซ้อนทำให้พลังงานที่เบรกต้องดูดซับบนเขาลูกเดียวกันเพิ่มขึ้นราวเท่าตัว",
+  "loaded": "Luggage has the same effect as a pillion and gives no warning noises."
+ },
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "cnx-to-pai",
+   "type": "leg",
+   "name": "Chiang Mai to Pai",
+   "as": "The descent into Pai is where this happens."
+  },
+  {
+   "from": "samoeng-warmup",
+   "type": "leg",
+   "name": "The Samoeng warm-up",
+   "as": "Better discovered here."
+  },
+  {
+   "from": "soppong-to-mhs",
+   "type": "leg",
+   "name": "Soppong to Mae Hong Son",
+   "as": "The long descent."
+  },
+  {
+   "from": "the-1263-cut",
+   "type": "leg",
+   "name": "The 1263 cut",
+   "as": "The descent that produces it."
+  },
+  {
+   "from": "route-1095",
+   "type": "road",
+   "name": "Route 1095",
+   "as": "What the descents do to a small bike."
+  },
+  {
+   "from": "loaded-bike",
+   "type": "hazard",
+   "name": "A loaded bike is a different bike",
+   "as": "What the extra mass does to a long descent."
+  },
+  {
+   "from": "step-through-110",
+   "type": "bike",
+   "name": "The 110–125 step-through",
+   "as": "The specific way this bike fails on a long descent."
+  },
+  {
+   "from": "underbone-125",
+   "type": "bike",
+   "name": "The underbone with gears",
+   "as": "What it protects you from."
+  },
+  {
+   "from": "engine-braking",
+   "type": "term",
+   "name": "Engine braking",
+   "as": "What it prevents."
+  },
+  {
+   "from": "which-bike",
+   "type": "story",
+   "name": "Every bike goes up there",
+   "as": "The failure mode the whole comparison turns on."
+  }
+ ]
+}

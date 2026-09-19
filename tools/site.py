@@ -320,9 +320,15 @@ def node_card(n: dict, lang: str, depth: int, n_label=None) -> str:
     grip = (n.get("riding") or {}).get("grip")
     if grip:
         meta.append(f'<span class="tag">{E(FACETS["grip"]["values"].get(grip, grip))}</span>')
+    ims = pictures(n)
+    thumb = ""
+    if ims:
+        im = next((i for i in ims if i.get("primary")), ims[0])
+        thumb = (f'<figure class="thumb"><img src="{E(img_url(im, depth, thumb=True))}" '
+                 f'alt="{E(im.get("alt") or "")}" loading="lazy" decoding="async"></figure>')
     num = f'<span class="n">{n_label}</span>' if n_label else ""
     thai = f'<p class="th">{E(th)}</p>' if th and lang == "en" else ""
-    return (f'<article class="card">{num}'
+    return (f'<article class="card">{num}{thumb}'
             f'<h3><a href="{r}{url_of(n)}">{E(name)}</a></h3>{thai}'
             f'<p>{E(clip(what, 150))}</p>'
             f'<div class="tags">{"".join(meta)}</div></article>')
@@ -331,6 +337,63 @@ def node_card(n: dict, lang: str, depth: int, n_label=None) -> str:
 def clip(t: str, n: int) -> str:
     t = (t or "").strip()
     return t if len(t) <= n else t[:n].rsplit(" ", 1)[0].rstrip(",;:—-") + "…"
+
+
+def credit(im: dict, short=False) -> str:
+    """Licence, author and a link to the Commons page — beside the picture, every time.
+    Share-alike is complied with rather than avoided, so the terms travel with the file."""
+    who = E(im.get("author") or "unknown")
+    lic = E(im.get("license") or "")
+    page = im.get("page_url") or ""
+    lic_html = f'<a href="{E(im["license_url"])}" rel="license noopener">{lic}</a>' if im.get("license_url") else lic
+    src = f'<a href="{E(page)}" rel="noopener">Commons</a>' if page else "Commons"
+    if short:
+        return f"{who} · {lic_html}"
+    return f"{who} · {lic_html} · {src}"
+
+
+def img_url(im: dict, depth: int, thumb=False) -> str:
+    f = im["file"]
+    if thumb:
+        f = f.rsplit(".", 1)[0] + ".thumb.jpg"
+    return f"{rel(depth)}images/{f}"
+
+
+def pictures(n: dict) -> list:
+    return [i for i in (n.get("images") or []) if i.get("file")]
+
+
+def hero_shot(n: dict, depth: int) -> str:
+    ims = pictures(n)
+    if not ims:
+        return ""
+    im = next((i for i in ims if i.get("primary")), ims[0])
+    return (f'<div class="hero-shot"><img src="{E(img_url(im, depth))}" alt="{E(im.get("alt") or "")}" '
+            f'loading="lazy" decoding="async">'
+            f'<span class="cap">{credit(im, short=True)}</span></div>')
+
+
+def shot_strip(ims: list, depth: int) -> str:
+    if not ims:
+        return ""
+    out = ['<div class="strip">']
+    for im in ims:
+        out.append(f'<figure><img src="{E(img_url(im, depth, thumb=True))}" '
+                   f'alt="{E(im.get("alt") or "")}" loading="lazy" decoding="async">'
+                   f'<figcaption>{credit(im, short=True)}</figcaption></figure>')
+    out.append("</div>")
+    return "".join(out)
+
+
+def gallery_pool(limit=12) -> list:
+    """One picture from each record that has one, for the front page."""
+    out = []
+    for n in NODES:
+        ims = pictures(n)
+        if ims:
+            im = next((i for i in ims if i.get("primary")), ims[0])
+            out.append((n, im))
+    return out
 
 
 # ---------------------------------------------------------------- node page
@@ -351,6 +414,9 @@ def node_page(n: dict, lang: str) -> str:
         b.append(f'<p class="said">{E(said)}</p>')
     if n.get("needs_verification"):
         b.append(f'<div class="warn">{E(ui["unverified"])}</div>')
+    ims = pictures(n)
+    if ims:
+        b.append(hero_shot(n, depth))
 
     # the route slab, for legs and roads
     rt = n.get("route") or {}
@@ -405,6 +471,12 @@ def node_page(n: dict, lang: str) -> str:
         if miss:
             b.append(f'<div class="warn">{E(ui["no_th"])}</div>')
         b.append(f'<div class="prose">{prose(txt)}</div>')
+
+    rest = [i for i in ims if not i.get("primary")][:3] if ims else []
+    if not rest and len(ims) > 1:
+        rest = ims[1:4]
+    if rest:
+        b.append(shot_strip(rest, depth))
 
     rd = n.get("riding") or {}
     if rd:
@@ -563,6 +635,9 @@ def front(lang: str) -> str:
     b.append(f'<div class="btns"><a class="btn" href="{r}quiz/">{E("Which ride is yours?" if lang == "en" else "คุณควรขี่แบบไหน")}</a>'
              f'<a class="btn alt" href="{r}which-way/">{E("Clockwise or not?" if lang == "en" else "ตามเข็มหรือทวนเข็ม")}</a>'
              f'<a class="btn alt" href="{r}air/">{E("When not to go" if lang == "en" else "ช่วงที่ไม่ควรไป")}</a></div>')
+    pool = gallery_pool()
+    if pool:
+        b.append(shot_strip([im for _, im in pool[:8]], 0))
     b.append('<figure class="map">' + base_map(880, demand=True) +
              f'<figcaption>{E("Coloured by how much steering each 2 km asks for — not a crash map." if lang == "en" else "สีบอกว่าทุก 2 กม. ต้องบังคับรถมากแค่ไหน ไม่ใช่แผนที่อุบัติเหตุ")} '
              f'© OpenStreetMap contributors</figcaption></figure>')
@@ -817,6 +892,9 @@ def danger(lang: str) -> str:
     b = [f'<h1><span class="kind">{E("Demand, not crashes" if lang == "en" else "ความยาก ไม่ใช่อุบัติเหตุ")}</span>'
          f'{E("Where it asks the most" if lang == "en" else "ช่วงที่หนักที่สุด")}</h1>',
          f'<p class="lede">{E("Nobody publishes a crash map for these roads and this project will not invent one. This is a map of how much steering each two kilometres asks for, measured the same way everywhere." if lang == "en" else "ไม่มีใครเผยแพร่แผนที่อุบัติเหตุของถนนเหล่านี้ และโครงการนี้จะไม่แต่งขึ้นมา นี่คือแผนที่ว่าทุกสองกิโลเมตรต้องบังคับรถมากแค่ไหน วัดด้วยวิธีเดียวกันทุกที่")}</p>']
+    pool = gallery_pool()
+    if pool:
+        b.append(shot_strip([im for _, im in pool[:8]], 0))
     b.append('<figure class="map">' + base_map(880, demand=True) +
              f'<figcaption>© OpenStreetMap contributors · {E("2 km windows, 25° threshold" if lang == "en" else "หน้าต่าง 2 กม. เกณฑ์ 25 องศา")}</figcaption></figure>')
     bands = CURVES.get("bands", {})
@@ -1260,7 +1338,7 @@ def humans_txt() -> str:
     return (f"/* TEAM */\nBuilt by: NaN\nSite: https://wichaa.net\n\n"
             f"/* SITE */\nRecords: {COV['records']}\nSources: {COV['sources']}\n"
             f"Languages: English, ไทย\nStandards: HTML5, SVG, JSON-LD\n"
-            f"Components: none. No framework, no web font, no third-party request.\n"
+            f"Components: hand-written HTML, one inline stylesheet, inline SVG.\n"
             f"Built: {COV['built']}\n\n"
             + fleet.txt_row(SELF, roster=ROSTER) + "\n")
 
@@ -1279,8 +1357,8 @@ def api_index() -> str:
              "air-now.json", "places.json", "sources.json", "vocab.json", "coverage.json",
              "quiz.json"] + [f"{t}.json" for t in TYPES if any(n["type"] == t for n in NODES)]
     b = ["<h1><span class=\"kind\">Open</span>API</h1>",
-         "<p class=\"lede\">Everything the pages are built from, as JSON. No key, no rate limit, "
-         "no tracking. Records CC BY 4.0; OpenStreetMap-derived data ODbL 1.0.</p>", "<ul>"]
+         "<p class=\"lede\">Every record and measurement the pages are built from, as JSON, "
+         "fetchable directly. Records CC BY 4.0; OpenStreetMap-derived data ODbL 1.0.</p>", "<ul>"]
     for f in files:
         b.append(f'<li><a href="{E(f)}">{E(f)}</a></li>')
     b.append("</ul><p>Per-record: <code>/api/&lt;type&gt;/&lt;id&gt;.json</code></p>")
@@ -1319,6 +1397,12 @@ def main() -> int:
         for n in NODES:
             write(base / PATH_OF[n["type"]] / n["id"] / "index.html", node_page(n, lang))
             n_pages += 1
+
+    # pictures, with their sidecars left behind
+    src_img = Path(__file__).resolve().parent.parent / "data" / "images"
+    if src_img.exists():
+        shutil.copytree(src_img, SITE / "images",
+                        ignore=shutil.ignore_patterns("*.json", "_triage"), dirs_exist_ok=True)
 
     # the API tree, copied whole
     shutil.copytree(API, SITE / "api", dirs_exist_ok=True)

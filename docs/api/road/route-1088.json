@@ -1,0 +1,261 @@
+{
+ "id": "route-1088",
+ "type": "road",
+ "names": {
+  "name": "Route 1088",
+  "th": "ทางหลวงแผ่นดินหมายเลข 1088",
+  "said": "The Mae Chaem side road, and the way onto the Inthanon massif from behind.",
+  "said_th": "ถนนเลียบแม่แจ่ม และทางขึ้นเทือกอินทนนท์จากด้านหลัง"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "surface": "asphalt",
+  "ref": "1088"
+ },
+ "text": {
+  "what": "North out of Mae Chaem. Relevant to this circuit only as part of the 1263 shortcut's eastern exit.",
+  "story": "*Inference —* if you have taken the 1263 cut you arrive at Mae Chaem with a choice, and this is one arm of it: north and over the Doi Inthanon side before dropping to Chom Thong on Route 108. Measured off OSM the run is about 32 kilometres with 96 curves at a 25-degree threshold, ten of them hairpins.\n\nIt is high, it is cold in the morning, and it puts the highest point in Thailand within reach of a detour."
+ },
+ "text_th": {
+  "what": "ขึ้นเหนือจากแม่แจ่ม เกี่ยวข้องกับวงรอบนี้เฉพาะในฐานะทางออกด้านตะวันออกของทางลัด 1263",
+  "story": "*อนุมาน —* ถ้าคุณใช้ทางลัด 1263 มาแล้ว คุณจะมาถึงแม่แจ่มพร้อมทางเลือก และนี่คือหนึ่งในนั้น ขึ้นเหนือข้ามฝั่งดอยอินทนนท์ก่อนทิ้งตัวลงจอมทองบนทางหลวง 108 เมื่อวัดจาก OSM ระยะราว 32 กิโลเมตร มี 96 โค้งที่เกณฑ์ 25 องศา และโค้งหักศอกสิบโค้ง\n\nมันสูง เช้าหนาว และทำให้จุดสูงสุดของประเทศไทยอยู่ในระยะที่แวะได้"
+ },
+ "route": {
+  "roads": [
+   "1088"
+  ],
+  "from": "Mae Chaem",
+  "from_th": "แม่แจ่ม",
+  "to": "Doi Inthanon / Chom Thong",
+  "to_th": "ดอยอินทนนท์ / จอมทอง",
+  "km": 86.8,
+  "km_source": "s:mhs-measured",
+  "curves": 286,
+  "hairpins": 45,
+  "line": [
+   [
+    18.28539,
+    98.38113
+   ],
+   [
+    18.29686,
+    98.37159
+   ],
+   [
+    18.30957,
+    98.3633
+   ],
+   [
+    18.32587,
+    98.3618
+   ],
+   [
+    18.34292,
+    98.36834
+   ],
+   [
+    18.3598,
+    98.37452
+   ],
+   [
+    18.37408,
+    98.37874
+   ],
+   [
+    18.38855,
+    98.38681
+   ],
+   [
+    18.39952,
+    98.38142
+   ],
+   [
+    18.4059,
+    98.36841
+   ],
+   [
+    18.41933,
+    98.37797
+   ],
+   [
+    18.43124,
+    98.38656
+   ],
+   [
+    18.44448,
+    98.39274
+   ],
+   [
+    18.45693,
+    98.38436
+   ],
+   [
+    18.47224,
+    98.39215
+   ],
+   [
+    18.48013,
+    98.38168
+   ],
+   [
+    18.49203,
+    98.37654
+   ],
+   [
+    18.50645,
+    98.36475
+   ],
+   [
+    18.52145,
+    98.36285
+   ],
+   [
+    18.53462,
+    98.37063
+   ],
+   [
+    18.5451,
+    98.38162
+   ],
+   [
+    18.55518,
+    98.39194
+   ],
+   [
+    18.56393,
+    98.38108
+   ],
+   [
+    18.58119,
+    98.38088
+   ],
+   [
+    18.59711,
+    98.38072
+   ],
+   [
+    18.61371,
+    98.37692
+   ],
+   [
+    18.63034,
+    98.37936
+   ],
+   [
+    18.64751,
+    98.37766
+   ],
+   [
+    18.66062,
+    98.3815
+   ],
+   [
+    18.67595,
+    98.37863
+   ],
+   [
+    18.69013,
+    98.37839
+   ],
+   [
+    18.69955,
+    98.3686
+   ],
+   [
+    18.70191,
+    98.35412
+   ],
+   [
+    18.71443,
+    98.34164
+   ],
+   [
+    18.72531,
+    98.34263
+   ],
+   [
+    18.73178,
+    98.3455
+   ],
+   [
+    18.74339,
+    98.34312
+   ],
+   [
+    18.75428,
+    98.33397
+   ],
+   [
+    18.76207,
+    98.33299
+   ],
+   [
+    18.77584,
+    98.3265
+   ],
+   [
+    18.79148,
+    98.32541
+   ],
+   [
+    18.80421,
+    98.32617
+   ],
+   [
+    18.81302,
+    98.32923
+   ]
+  ],
+  "line_points": 43
+ },
+ "kin": [
+  {
+   "to": "doi-inthanon",
+   "as": "What it reaches.",
+   "rel": "stop"
+  },
+  {
+   "to": "mae-chaem",
+   "as": "Where it starts.",
+   "rel": "town"
+  },
+  {
+   "to": "the-1263-cut",
+   "as": "The road that delivers you to it.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:wp-doi-inthanon",
+  "s:wp-mae-chaem-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "doi-inthanon",
+   "type": "stop",
+   "name": "Doi Inthanon",
+   "as": "The quiet way up, from Mae Chaem."
+  }
+ ]
+}

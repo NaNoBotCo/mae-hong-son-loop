@@ -63,5 +63,67 @@
  },
  "needs_verification": true,
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "pai-canyon/pai-canyon-pai-canyon-3.jpg",
+   "source": "commons",
+   "title": "File:Pai Canyon 3.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Pai_Canyon_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Canyon_3.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Pai Canyon near Pai, Thailand.",
+   "date": "2018-08-30 17:55:53",
+   "primary": true,
+   "sha256": "721aa5fa5439e5850dee0c89bd98c77eb5a8b77d15318ff7b04039f6886b06cb"
+  },
+  {
+   "file": "pai-canyon/pai-canyon-pai-canyon-6.jpg",
+   "source": "commons",
+   "title": "File:Pai Canyon 6.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Pai_Canyon_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Canyon_6.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Pai Canyon near Pai, Thailand.",
+   "date": "2018-08-30 18:01:39",
+   "primary": false,
+   "sha256": "055ddf4d525d4e187a8499c1061488d380c01a0ea1c27c88b357aecbb62bb5f2"
+  },
+  {
+   "file": "pai-canyon/pai-canyon-pai-canyon-7.jpg",
+   "source": "commons",
+   "title": "File:Pai Canyon 7.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Pai_Canyon_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Canyon_7.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Pai Canyon near Pai, Thailand.",
+   "date": "2018-08-30 18:03:01",
+   "primary": false,
+   "sha256": "72672541afb11fd58c0fba6b8ce1d6e416b00ee0e6ffe9686349187ed1323e41"
+  },
+  {
+   "file": "pai-canyon/pai-canyon-pai-canyon-8.jpg",
+   "source": "commons",
+   "title": "File:Pai Canyon 8.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Pai_Canyon_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Canyon_8.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Pai Canyon near Pai, Thailand.",
+   "date": "2018-08-30 18:03:53",
+   "primary": false,
+   "sha256": "fb85f81b22e5b9b5db8e2486c55e27452dee2099dc568b79b234eba1664ce5c6"
+  }
+ ]
 }

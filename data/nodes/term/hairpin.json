@@ -56,5 +56,67 @@
  },
  "confidence": "medium",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "hairpin/hairpin-darcha-padum-road-below-shinku-la-lahaul-oct22-a7c-03533.jpg",
+   "source": "commons",
+   "title": "File:Darcha Padum Road Below Shinku La Lahaul Oct22 A7C 03533.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Darcha_Padum_Road_Below_Shinku_La_Lahaul_Oct22_A7C_03533.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADarcha_Padum_Road_Below_Shinku_La_Lahaul_Oct22_A7C_03533.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk p",
+   "credit": "Own work",
+   "alt": "Darcha-Padum road winding up to Shinku La, Lahaul, Himachal, India.  Elev. 4,975m (16,322'). Peaks about 5,600m (18,375').",
+   "date": "2022-10-04 10:05:44",
+   "primary": true,
+   "sha256": "4479430db05a0f0573823b935cae6e100c7d8972a44e424815024a76908a33e9"
+  },
+  {
+   "file": "hairpin/hairpin-serpentina-chvale-adr-pach.jpg",
+   "source": "commons",
+   "title": "File:Serpentina Chvaleč-Adršpach.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Serpentina_Chvale%C4%8D-Adr%C5%A1pach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASerpentina_Chvale%C4%8D-Adr%C5%A1pach.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Matyáš Vohralík",
+   "credit": "Own work",
+   "alt": "Hairpin turn between Chvaleč and Adršpach on route number 30110. Zlatá Olešnice wind farm and East Giant mountains ridge panorama at the background.",
+   "date": "2021-02-01 14:57:30",
+   "primary": false,
+   "sha256": "9cb2c3539037484b528b87f80091c6f7c3ba5c710262b4942bc1b1196cdb3a00"
+  },
+  {
+   "file": "hairpin/hairpin-switchbacks-of-ungrej-road-wpwtr16.jpg",
+   "source": "commons",
+   "title": "File:Switchbacks of Ungrej road (WPWTR16).JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Switchbacks_of_Ungrej_road_%28WPWTR16%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASwitchbacks_of_Ungrej_road_%28WPWTR16%29.JPG",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Albinfo",
+   "credit": "Own work",
+   "alt": "Road to Ungrej east of Kallmet, Zadrima",
+   "date": "2016-12-02 12:41:49",
+   "primary": false,
+   "sha256": "59426a0ec4b8ca15dae840ed27dc9a5f07ce686e503ea2109a7e2593e805eab4"
+  },
+  {
+   "file": "hairpin/hairpin-videographer-takes-video-of-the-dangerous-hairpin-be-1320d1c.jpg",
+   "source": "commons",
+   "title": "File:Videographer takes video of the dangerous hairpin bend in Xiaolin.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Videographer_takes_video_of_the_dangerous_hairpin_bend_in_Xiaolin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AVideographer_takes_video_of_the_dangerous_hairpin_bend_in_Xiaolin.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "☼ うみ 目覚めたら",
+   "credit": "https://www.flickr.com/photos/oceanprince728/4793863118/",
+   "alt": "The videographer takes a video of the dangerous hairpin bend on a mountain road in Xiaolin Village.",
+   "date": "2010-07-10 14:06:20",
+   "primary": false,
+   "sha256": "294008a9251a2457e5751b9d670eba5b242da69adf480c9e9544493f0ee78d4c"
+  }
+ ]
 }

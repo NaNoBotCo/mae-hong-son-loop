@@ -1,0 +1,829 @@
+{
+ "type": "story",
+ "count": 6,
+ "nodes": [
+  {
+   "id": "how-many-curves",
+   "type": "story",
+   "names": {
+    "name": "How many curves, actually",
+    "th": "โค้งกี่โค้งกันแน่",
+    "said": "The T-shirt says 1,864. The road sign says 1,864. Thai Wikipedia says more than 2,000. Counting the map gives a third number.",
+    "said_th": "เสื้อบอก 1,864 ป้ายบอก 1,864 วิกิพีเดียไทยบอกกว่า 2,000 และการนับจากแผนที่ได้อีกตัวเลขหนึ่ง"
+   },
+   "region": [
+    "loop",
+    "north-leg"
+   ],
+   "facets": {
+    "kind": "argument"
+   },
+   "text": {
+    "what": "Three numbers are in circulation for the curves on the Chiang Mai–Pai road, and they do not agree. This page prints all three, says where each came from, and shows the method for the one it made itself.",
+    "story": "The number everybody knows is **1,864**. It is on the road sign, on the shop fronts in Pai, and on a shirt sold in about four colours. Nobody publishes the survey it came from, and no agency claims it. It is a number that has become a name.\n\nThai Wikipedia's article on Route 1095 puts it differently: the road is known for being winding, *กว่า 2,000 โค้ง* — **more than 2,000 curves** — and steep, and it gives the Chiang Mai to Mae Hong Son distance by that road as about 245 kilometres.\n\nSo there is a third way to get a number, which is to count. *Inference —* tools/harvest_osm.py pulls every OpenStreetMap way tagged Route 1095, stitches the fragments end to end, resamples the line every 60 metres so a densely-traced stretch does not count for more than a sparsely-traced one, and walks it accumulating heading change. When the turn reverses, the arc closes; an arc of 25 degrees or more is counted as a curve, and one of 120 degrees or more as a hairpin. The count that method produces is printed on /numbers/ beside the method itself, and it is a measurement of a volunteer map rather than of a road.\n\nThree numbers, three methods, one road. The disagreement is the interesting part: 1,864 is a brand, 2,000-plus is a description, and a count off the map is an argument you can check. *Inference —* none of them is wrong about the thing they are each measuring, and the road does not care.",
+    "how": "What changes the count is the threshold. Drop it to 15 degrees and every camber correction becomes a curve; raise it to 45 and long sweepers vanish. The figure on /numbers/ uses 25 degrees, and the page shows what happens at 15, 25 and 45 so the sensitivity is visible rather than hidden.",
+    "today": "The sign is not coming down and the shirt still sells. *Inference —* the useful number for a rider is not the total at all: it is curves per kilometre, because that is what the wrists feel. On that measure Route 1263 and Route 1096 both beat the famous road."
+   },
+   "text_th": {
+    "what": "ตัวเลขจำนวนโค้งบนถนนเชียงใหม่–ปายมีอยู่สามตัว และไม่ตรงกัน หน้านี้พิมพ์ทั้งสามตัว บอกที่มาของแต่ละตัว และแสดงวิธีนับของตัวที่โครงการนี้ทำเอง",
+    "story": "ตัวเลขที่ทุกคนรู้จักคือ **1,864** อยู่บนป้ายริมทาง อยู่หน้าร้านในปาย และอยู่บนเสื้อยืดราวสี่สี ไม่มีใครเผยแพร่ผลสำรวจที่มาของตัวเลขนี้ และไม่มีหน่วยงานใดอ้างเป็นเจ้าของ มันคือตัวเลขที่กลายเป็นชื่อไปแล้ว\n\nวิกิพีเดียภาษาไทยเขียนต่างออกไป บทความทางหลวงแผ่นดินหมายเลข 1095 ระบุว่าเส้นทางนี้ขึ้นชื่อเรื่องความคดเคี้ยว *กว่า 2,000 โค้ง* และลาดชัน พร้อมให้ระยะทางเชียงใหม่ถึงแม่ฮ่องสอนทางนี้ประมาณ 245 กิโลเมตร\n\nจึงมีวิธีที่สาม คือนับเอง *อนุมาน —* เครื่องมือ harvest_osm.py ดึงเส้นทางทุกช่วงใน OpenStreetMap ที่ติดป้ายหมายเลข 1095 มาต่อกัน สุ่มจุดใหม่ทุก 60 เมตร แล้วเดินไปตามเส้นสะสมมุมเลี้ยว เมื่อทิศเลี้ยวกลับด้าน ถือว่าจบหนึ่งโค้ง โค้งที่สะสมได้ตั้งแต่ 25 องศาขึ้นไปนับเป็นโค้ง ตั้งแต่ 120 องศาขึ้นไปนับเป็นโค้งหักศอก ผลที่ได้อยู่ในหน้า /numbers/ พร้อมวิธีนับ และเป็นการวัดแผนที่อาสาสมัคร ไม่ใช่การสำรวจถนนจริง\n\nสามตัวเลข สามวิธี ถนนเดียว ความไม่ตรงกันคือส่วนที่น่าสนใจ 1,864 คือแบรนด์ กว่า 2,000 คือคำบรรยาย และการนับจากแผนที่คือข้อโต้แย้งที่ตรวจสอบได้",
+    "how": "สิ่งที่เปลี่ยนผลนับคือเกณฑ์องศา ถ้าลดเหลือ 15 องศา การแก้พวงมาลัยเล็กน้อยก็นับเป็นโค้ง ถ้าเพิ่มเป็น 45 องศา โค้งยาวๆ จะหายไป ตัวเลขในหน้า /numbers/ ใช้ 25 องศา และแสดงผลที่ 15, 25 และ 45 ไว้ให้เห็นความอ่อนไหวของวิธี",
+    "today": "ป้ายคงไม่ถูกถอด และเสื้อก็ยังขายได้ *อนุมาน —* ตัวเลขที่มีประโยชน์กับคนขี่จริงๆ ไม่ใช่ยอดรวม แต่คือจำนวนโค้งต่อกิโลเมตร เพราะนั่นคือสิ่งที่ข้อมือรู้สึก และด้วยเกณฑ์นี้ ทางหลวง 1263 กับ 1096 ชนะถนนสายดังทั้งคู่"
+   },
+   "kin": [
+    {
+     "to": "route-1095",
+     "as": "The road the number is attached to.",
+     "rel": "road"
+    },
+    {
+     "to": "route-1263",
+     "as": "More curves per kilometre than 1095, and no shirt.",
+     "rel": "road"
+    },
+    {
+     "to": "route-1096",
+     "as": "The Samoeng road: the same curve density, 100 km from your hotel.",
+     "rel": "road"
+    },
+    {
+     "to": "the-1864-sign",
+     "as": "The object the number lives on.",
+     "rel": "art"
+    },
+    {
+     "to": "which-way-round",
+     "as": "The other argument this road starts.",
+     "rel": "story"
+    },
+    {
+     "to": "cnx-to-pai",
+     "as": "Where you meet the curves, on day one or on day four.",
+     "rel": "leg"
+    },
+    {
+     "to": "hairpin",
+     "as": "What the 120-degree arcs are called.",
+     "rel": "term"
+    }
+   ],
+   "sources": [
+    "s:doh-1095",
+    "s:thwp-1095",
+    "s:osm",
+    "s:mhs-measured",
+    "s:wp-hairpin-turn"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:doh-1095"
+    },
+    "fields": {
+     "names.said": {
+      "tier": "cited",
+      "source": "s:thwp-1095"
+     },
+     "text.story": {
+      "tier": "cited",
+      "source": "s:thwp-1095",
+      "note": "the 1,864 figure is reported as what the sign and the merchandise carry; no agency publishes a survey behind it, and this page says so rather than attributing it"
+     },
+     "text.how": {
+      "tier": "inference",
+      "note": "the threshold sensitivity is this project's own method, printed so it can be argued with"
+     },
+     "text.today": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project from the English, not machine-translated; the quoted Thai phrase กว่า 2,000 โค้ง is verbatim from the cited article"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "cnx-to-pai",
+     "type": "leg",
+     "name": "Chiang Mai to Pai",
+     "as": "The argument this leg is the subject of."
+    },
+    {
+     "from": "route-1095",
+     "type": "road",
+     "name": "Route 1095",
+     "as": "The three numbers, and the method behind the third."
+    },
+    {
+     "from": "route-1096",
+     "type": "road",
+     "name": "Route 1096",
+     "as": "Denser than the road with the shirt."
+    },
+    {
+     "from": "pai",
+     "type": "town",
+     "name": "Pai",
+     "as": "The number on the shirts sold here."
+    },
+    {
+     "from": "hairpin",
+     "type": "term",
+     "name": "Hairpin",
+     "as": "How they get counted."
+    },
+    {
+     "from": "which-way-round",
+     "type": "story",
+     "name": "Clockwise or counter-clockwise",
+     "as": "The other thing this road makes people argue about."
+    },
+    {
+     "from": "the-1864-sign",
+     "type": "art",
+     "name": "The 1,864 sign",
+     "as": "The three numbers, laid out."
+    }
+   ]
+  },
+  {
+   "id": "kayan-question",
+   "type": "story",
+   "names": {
+    "name": "The villages that charge admission",
+    "th": "หมู่บ้านที่เก็บค่าเข้า",
+    "said": "There is an argument here, it is not settled, and this page is not going to settle it for you.",
+    "said_th": "ที่นี่มีข้อถกเถียง มันยังไม่จบ และหน้านี้จะไม่ตัดสินให้คุณ"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "argument"
+   },
+   "text": {
+    "what": "Several villages in Mae Hong Son province where Kayan women wearing brass neck coils live are set up to receive paying visitors. Whether to go is a question people answer differently, for reasons that are all real.",
+    "story": "The facts that are not in dispute. The Kayan Lahwi are among the smallest of the Karen groups in Thailand; the women are recognised by the brass coils worn around the neck. Many of the families in these villages came from Myanmar, and their legal status in Thailand has been a long-running and unresolved matter.\n\n**The argument against going,** as its holders make it: an arrangement in which people are paid to be looked at is not made better by the money, the visitors' fees have not always reached the residents, and the practice has been described by critics as a human zoo. Where residents' freedom of movement or right to work elsewhere has been limited, the choice to stay is not free in the way a visitor might assume.\n\n**The argument for going,** as its holders make it: the residents are adults who have said in interviews that the income supports their families and that they would rather have visitors than not; boycotting a village removes the income without changing anyone's legal status; and deciding on someone else's behalf that they should not earn a living this way is its own kind of presumption.\n\n*Inference —* what this project can do is decline to pretend the question is easy, and note that the two arguments do not actually contradict each other — one is about the system and the other is about the individuals inside it, and a person can believe both.\n\n**Not on this disk:** current admission arrangements at any specific village, how the money is now divided, or the present legal position of the residents. Those are precisely the facts on which the argument turns, and this project has not verified them. Anyone deciding should look for recent reporting rather than relying on this page."
+   },
+   "text_th": {
+    "what": "หมู่บ้านหลายแห่งในจังหวัดแม่ฮ่องสอนที่ผู้หญิงกะยันสวมห่วงทองเหลืองรอบคออาศัยอยู่ ถูกจัดให้รับผู้มาเยือนแบบเก็บค่าเข้า การจะไปหรือไม่ไปเป็นคำถามที่คนตอบต่างกัน ด้วยเหตุผลที่จริงทั้งหมด",
+    "story": "ข้อเท็จจริงที่ไม่มีใครเถียง ชาวกะยันลาหวีเป็นหนึ่งในกลุ่มกะเหรี่ยงที่เล็กที่สุดในประเทศไทย ผู้หญิงเป็นที่รู้จักจากห่วงทองเหลืองที่สวมรอบคอ ครอบครัวจำนวนมากในหมู่บ้านเหล่านี้มาจากเมียนมา และสถานะทางกฎหมายของพวกเขาในไทยเป็นเรื่องที่ยืดเยื้อและยังไม่ได้ข้อยุติ\n\n**ข้อโต้แย้งที่ว่าไม่ควรไป** ตามที่ฝ่ายนั้นเสนอ การจัดการที่คนได้รับเงินเพื่อให้คนอื่นมามอง ไม่ได้ดีขึ้นเพราะเงิน ค่าเข้าชมไม่ได้ไปถึงผู้อยู่อาศัยเสมอไป และนักวิจารณ์เรียกแนวปฏิบัตินี้ว่าสวนสัตว์มนุษย์ ในที่ที่เสรีภาพในการเดินทางหรือสิทธิในการทำงานที่อื่นของผู้อยู่อาศัยถูกจำกัด การเลือกที่จะอยู่ต่อก็ไม่ได้เป็นอิสระอย่างที่ผู้มาเยือนอาจคิด\n\n**ข้อโต้แย้งที่ว่าควรไป** ตามที่ฝ่ายนั้นเสนอ ผู้อยู่อาศัยเป็นผู้ใหญ่ที่เคยให้สัมภาษณ์ว่ารายได้นี้เลี้ยงครอบครัว และพวกเขาอยากมีผู้มาเยือนมากกว่าไม่มี การคว่ำบาตรหมู่บ้านตัดรายได้ออกไปโดยไม่ได้เปลี่ยนสถานะทางกฎหมายของใคร และการตัดสินแทนคนอื่นว่าเขาไม่ควรหาเลี้ยงชีพด้วยวิธีนี้ ก็เป็นการถือวิสาสะอีกแบบหนึ่ง\n\n*อนุมาน —* สิ่งที่โครงการนี้ทำได้คือปฏิเสธที่จะแกล้งทำเป็นว่าคำถามนี้ง่าย และตั้งข้อสังเกตว่าข้อโต้แย้งสองข้อไม่ได้ขัดกันจริงๆ ข้อหนึ่งพูดถึงระบบ อีกข้อพูดถึงปัจเจกที่อยู่ในระบบนั้น และคนหนึ่งเชื่อทั้งสองข้อพร้อมกันได้\n\n**ไม่มีข้อมูลในชุดนี้** การเก็บค่าเข้าปัจจุบันของหมู่บ้านใดโดยเฉพาะ การแบ่งเงินในปัจจุบัน หรือสถานะทางกฎหมายของผู้อยู่อาศัยตอนนี้ ซึ่งล้วนเป็นข้อเท็จจริงที่ข้อถกเถียงนี้ขึ้นอยู่กับมัน และโครงการนี้ยังไม่ได้ตรวจสอบ ใครที่จะตัดสินใจควรหาข่าวที่เป็นปัจจุบัน ไม่ใช่อาศัยหน้านี้"
+   },
+   "kin": [
+    {
+     "to": "karen",
+     "as": "The larger group the Kayan are one of.",
+     "rel": "person"
+    },
+    {
+     "to": "mae-hong-son",
+     "as": "The province the villages are in.",
+     "rel": "town"
+    }
+   ],
+   "sources": [
+    "s:wp-kayan-people-myanmar",
+    "s:wp-padaung",
+    "s:wp-karenni-people",
+    "s:wp-karen-peoples"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-kayan-people-myanmar"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-kayan-people-myanmar"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "low",
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "karen",
+     "type": "person",
+     "name": "The Karen",
+     "as": "The argument about the villages that charge admission."
+    }
+   ]
+  },
+  {
+   "id": "season-and-direction",
+   "type": "story",
+   "names": {
+    "name": "The season picks the direction",
+    "th": "ฤดูกาลเป็นคนเลือกทิศ",
+    "said": "The bar argument assumes every month is the same month.",
+    "said_th": "การเถียงกันในบาร์ตั้งอยู่บนสมมติฐานว่าทุกเดือนเหมือนกันหมด"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "argument",
+    "direction": "both"
+   },
+   "text": {
+    "what": "Clockwise against counter-clockwise is usually argued as if the road were the only variable. It is not. Four things change with the month — the light, the smoke, the water and what is flowering — and each of them argues for a direction.",
+    "story": "**Light.** The circuit is ridden in a day-sized bite and most riders leave late morning. Clockwise, the long westward run from Pangmapha into Mae Hong Son is an afternoon leg, and in the cool season the sun is low and ahead of you on a two-lane road with oncoming traffic. Counter-clockwise puts that same stretch in the morning with the sun behind. *Inference —* this is the single most underrated argument in the whole question, and it gets stronger the closer to the solstice you go.\n\n**Smoke, March and April.** The measured record says the smoke is worst in the afternoon of a still day and that it is worse in the basins than on the ridges. Riding a leg early gets the clearer air. Counter-clockwise reaches Mae Hong Son and the Pai basin later in the trip and later in the morning; clockwise gets Pai over with on the afternoon of day one. *Inference —* in the smoke months, whichever direction you pick, ride early and stop at two, and the direction matters less than the clock.\n\n**Water, June to October.** Route 1263 — the Khun Yuam to Mae Chaem cut — is the part of this network that the rains actually close off as a sensible option, and it is also the steepest. In the wet, drop it and stay on 108 and 1095. That removes one of the arguments for counter-clockwise, because the cut is easier taken as a descent toward Mae Chaem, which is the clockwise... no: the cut is ridden Khun Yuam to Mae Chaem going *counter*-clockwise only if you have already come down 108. Read the leg page.\n\n**Flowers, November.** Doi Mae U-Kho above Khun Yuam turns yellow with *Tithonia diversifolia* for a few weeks in November, and Khun Yuam sits on the southern leg. Clockwise puts Khun Yuam on day three or four, counter-clockwise on day two. If the bloom is the reason for the trip, go the way that reaches Khun Yuam on a morning.\n\n**Mist, November to January.** The sea of mist off Doi Kong Mu and at Pang Ung is a dawn phenomenon, so it requires sleeping in Mae Hong Son and getting up. Both directions can deliver that; what matters is that Mae Hong Son gets two nights, not one."
+   },
+   "text_th": {
+    "what": "การเถียงว่าตามเข็มหรือทวนเข็มมักตั้งอยู่บนสมมติฐานว่าถนนคือตัวแปรเดียว ซึ่งไม่จริง สี่อย่างเปลี่ยนไปตามเดือน คือ แสง ควัน น้ำ และดอกไม้ และแต่ละอย่างเถียงเข้าข้างคนละทิศ",
+    "story": "**แสง** คนส่วนใหญ่ออกเดินทางสายๆ ถ้าไปตามเข็ม ช่วงยาวที่มุ่งหน้าตะวันตกจากปางมะผ้าเข้าแม่ฮ่องสอนจะเป็นช่วงบ่าย และในฤดูหนาวดวงอาทิตย์จะอยู่ต่ำและอยู่ตรงหน้า บนถนนสองเลนที่มีรถสวน ทวนเข็มทำให้ช่วงเดียวกันนี้เป็นตอนเช้าโดยมีแดดอยู่ข้างหลัง *อนุมาน —* นี่คือเหตุผลที่ถูกมองข้ามที่สุดในคำถามทั้งหมด และยิ่งใกล้ครีษมายันยิ่งหนักข้อ\n\n**ควัน เดือนมีนาคมและเมษายน** ข้อมูลที่วัดได้บอกว่าควันหนาที่สุดในช่วงบ่ายของวันที่ลมนิ่ง และหนาในแอ่งมากกว่าบนสัน การออกแต่เช้าจึงได้อากาศที่ใสกว่า *อนุมาน —* ในเดือนที่มีควัน ไม่ว่าเลือกทิศไหน ให้ออกเช้าและหยุดบ่ายสอง ทิศทางสำคัญน้อยกว่านาฬิกา\n\n**น้ำ มิถุนายนถึงตุลาคม** ทางหลวง 1263 ช่วงขุนยวมถึงแม่แจ่ม คือส่วนที่ฝนทำให้เลิกเป็นตัวเลือกที่สมเหตุสมผล และเป็นช่วงที่ชันที่สุดด้วย หน้าฝนให้ตัดทิ้งแล้วอยู่กับ 108 และ 1095\n\n**ดอกไม้ เดือนพฤศจิกายน** ดอยแม่อูคอเหนือขุนยวมจะเหลืองด้วยดอกบัวตองอยู่ไม่กี่สัปดาห์ในเดือนพฤศจิกายน และขุนยวมอยู่บนช่วงใต้ ตามเข็มจะถึงขุนยวมวันที่สามหรือสี่ ทวนเข็มวันที่สอง ถ้าทุ่งบัวตองคือเหตุผลของทริป ให้ไปทางที่ถึงขุนยวมตอนเช้า\n\n**ทะเลหมอก พฤศจิกายนถึงมกราคม** ทะเลหมอกที่ดอยกองมูและปางอุ๋งเป็นปรากฏการณ์ตอนรุ่งสาง จึงต้องนอนแม่ฮ่องสอนและตื่นให้ทัน ทั้งสองทิศทำได้ สิ่งที่สำคัญคือแม่ฮ่องสอนต้องได้สองคืน ไม่ใช่คืนเดียว"
+   },
+   "kin": [
+    {
+     "to": "which-way-round",
+     "as": "The argument before the season is added to it.",
+     "rel": "story"
+    },
+    {
+     "to": "the-smoke",
+     "as": "The four years of figures behind the March advice.",
+     "rel": "story"
+    },
+    {
+     "to": "bua-tong-bloom",
+     "as": "The November reason to reach Khun Yuam early.",
+     "rel": "event"
+    },
+    {
+     "to": "the-rains",
+     "as": "Why the 1263 comes off the plan from June.",
+     "rel": "event"
+    },
+    {
+     "to": "the-1263-cut",
+     "as": "The leg the rains argue about.",
+     "rel": "leg"
+    },
+    {
+     "to": "doi-kong-mu",
+     "as": "The dawn that needs a second night in Mae Hong Son.",
+     "rel": "wat"
+    },
+    {
+     "to": "low-sun",
+     "as": "The hazard the light argument is about.",
+     "rel": "hazard"
+    }
+   ],
+   "sources": [
+    "s:open-meteo-aq",
+    "s:wp-tithonia-diversifolia",
+    "s:wp-monsoon",
+    "s:mhs-measured"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "the four arguments are this project reasoning from cited seasonal facts and from the measured shape of the road"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "soppong-to-mhs",
+     "type": "leg",
+     "name": "Soppong to Mae Hong Son",
+     "as": "The argument this leg supplies."
+    },
+    {
+     "from": "doi-kong-mu",
+     "type": "wat",
+     "name": "Wat Phra That Doi Kong Mu",
+     "as": "Why this needs two nights in town."
+    },
+    {
+     "from": "low-sun",
+     "type": "hazard",
+     "name": "The low sun",
+     "as": "The argument this hazard feeds."
+    },
+    {
+     "from": "bua-tong-bloom",
+     "type": "event",
+     "name": "The Bua Tong bloom",
+     "as": "Why the bloom argues for a direction."
+    },
+    {
+     "from": "the-rains",
+     "type": "event",
+     "name": "The rains",
+     "as": "What it does to the route order."
+    },
+    {
+     "from": "the-smoke",
+     "type": "story",
+     "name": "The smoke",
+     "as": "What the smoke does to the choice of direction."
+    },
+    {
+     "from": "which-way-round",
+     "type": "story",
+     "name": "Clockwise or counter-clockwise",
+     "as": "The same question, answered month by month."
+    }
+   ]
+  },
+  {
+   "id": "the-smoke",
+   "type": "story",
+   "names": {
+    "name": "The smoke",
+    "th": "ควันไฟ",
+    "said": "Ten months of the year this is some of the cleanest air in Thailand. Two months of the year it is not.",
+    "said_th": "สิบเดือนในหนึ่งปี อากาศที่นี่สะอาดที่สุดแห่งหนึ่งในประเทศไทย อีกสองเดือนไม่ใช่"
+   },
+   "region": [
+    "loop",
+    "mhs",
+    "cnx"
+   ],
+   "facets": {
+    "kind": "argument",
+    "month": "smoke"
+   },
+   "text": {
+    "what": "From late February the hills burn — crop residue, forest undergrowth, land clearance, on both sides of the border — and the smoke settles into exactly the valleys this road runs through. It lifts with the first rains. This page carries four years of daily figures for every town on the circuit, and says plainly where those figures are weaker than they look.",
+    "story": "Two sources were fetched, and they are printed together because they disagree.\n\n**The long record** is Copernicus CAMS through the Open-Meteo air quality service: hourly PM2.5 at ten points around the loop from 1 August 2022 to the day of the build. That is 15,050 point-days. Reduced to a daily mean and then to a month, the shape is not subtle. Take Pai: a July mean of 3.0 micrograms per cubic metre, a December mean of 9.9, a March mean of 26.1, an April mean of 29.8. Thirty of the thirty April days measured sat above 35.4 µg/m³, the figure the United States uses as its 24-hour standard. In July, across four years, not one day did.\n\nThe same shape repeats at every point on the circuit, and one thing about it is worth saying out loud: **Chiang Mai is worse than the loop.** Chiang Mai's March mean is 37.8 µg/m³ against Mae Hong Son's 29.1 and Pai's 26.1. The city you leave from is the dirtiest air on the route.\n\n**Where the long record fails.** In 15,050 point-days the model never once produced a daily mean above 99.4 µg/m³. Ground stations in northern Thailand have recorded far higher. A model cell is tens of kilometres across; a Mae Hong Son valley on a windless March morning is not, and the averaging that makes a continental model tractable is exactly the averaging that removes the worst hour of the worst day. *Inference —* read the monthly shape from this data and do not read the ceiling from it.\n\n**The ground record**, such as it is. Thailand's Pollution Control Department runs a national network and publishes the current hour. Its historical endpoint returned 404 on the fetch date, so what this site can show from it is now, not then. And there is a second problem, which is a finding in itself: **Mae Hong Son province — 12,765 square kilometres, the largest by area in the north — has one station.** It is 58t, in Mae Hong Son town. Pai has none. Soppong has none. Khun Yuam, Mae La Noi and Mae Sariang have none. Nobody official is measuring the air in the town most riders sleep in on night one.",
+    "how": "The practical version. **February is not the problem** up-country: Pai's February mean is 15.0 µg/m³ and no February day in four years cleared 35.4 there. **March and April are.** **May is over** — Pai drops to 10.0 and stays down. If the dates are fixed and they land in March, the ride is still rideable; what changes is that a viewpoint is a white wall, a long descent is done with stinging eyes, and anyone with asthma is having a bad week. A fitted FFP2 or N95 under the helmet is the mitigation people use; a surgical mask and a buff are not filtering PM2.5.",
+    "today": "*Inference —* the scheduling advice this data supports reverses the usual one. The cool season is sold as the season, and November to February is genuinely lovely. But the cleanest air on this circuit by a wide margin is **the rains** — Pai at 3.0 µg/m³ in July against 26.1 in March — and the hills are green, the waterfalls are running and the rooms are cheap. What you trade is dry tarmac."
+   },
+   "text_th": {
+    "what": "ตั้งแต่ปลายเดือนกุมภาพันธ์ ภูเขาจะถูกเผา ทั้งตอซังพืช ใบไม้ในป่า และการเปิดพื้นที่ ทั้งสองฝั่งชายแดน แล้วควันก็ลงมานอนอยู่ในหุบเขาที่ถนนสายนี้วิ่งผ่านพอดี ควันจะหายไปเมื่อฝนแรกมา หน้านี้มีข้อมูลรายวันสี่ปีของทุกเมืองบนเส้นทาง และบอกตรงๆ ว่าข้อมูลชุดนี้อ่อนตรงไหน",
+    "story": "ข้อมูลสองชุดถูกดึงมา และพิมพ์ไว้ด้วยกันเพราะทั้งสองไม่ตรงกัน\n\n**ชุดยาว** คือ Copernicus CAMS ผ่านบริการ Open-Meteo ค่า PM2.5 รายชั่วโมงที่สิบจุดรอบเส้นทาง ตั้งแต่ 1 สิงหาคม 2565 ถึงวันที่สร้างเว็บ รวม 15,050 จุด-วัน เมื่อย่อเป็นค่าเฉลี่ยรายวันแล้วเป็นรายเดือน รูปร่างของมันชัดมาก ดูปายเป็นตัวอย่าง ค่าเฉลี่ยเดือนกรกฎาคม 3.0 ไมโครกรัมต่อลูกบาศก์เมตร ธันวาคม 9.9 มีนาคม 26.1 เมษายน 29.8 และในสามสิบวันของเดือนเมษายนที่วัดได้ ทั้งสามสิบวันเกิน 35.4 ซึ่งเป็นค่ามาตรฐาน 24 ชั่วโมงของสหรัฐฯ ส่วนเดือนกรกฎาคมตลอดสี่ปี ไม่มีสักวันเดียว\n\nรูปแบบเดียวกันนี้เกิดขึ้นทุกจุดบนเส้นทาง และมีเรื่องหนึ่งที่ควรพูดออกมาดังๆ **เชียงใหม่แย่กว่าบนเส้นทาง** ค่าเฉลี่ยเดือนมีนาคมของเชียงใหม่คือ 37.8 เทียบกับแม่ฮ่องสอน 29.1 และปาย 26.1 เมืองที่คุณออกเดินทางคืออากาศที่สกปรกที่สุดของทริป\n\n**จุดอ่อนของชุดยาว** ใน 15,050 จุด-วัน แบบจำลองไม่เคยให้ค่าเฉลี่ยรายวันเกิน 99.4 เลยสักครั้ง สถานีภาคพื้นดินในภาคเหนือเคยวัดได้สูงกว่านั้นมาก ช่องกริดของแบบจำลองกว้างหลายสิบกิโลเมตร แต่หุบเขาแม่ฮ่องสอนในเช้าที่ลมนิ่งของเดือนมีนาคมไม่กว้างขนาดนั้น การเฉลี่ยที่ทำให้แบบจำลองระดับทวีปคำนวณไหว คือการเฉลี่ยที่ลบชั่วโมงที่แย่ที่สุดของวันที่แย่ที่สุดออกไปพอดี *อนุมาน —* ให้อ่านรูปร่างของฤดูกาลจากข้อมูลนี้ แต่อย่าอ่านเพดานสูงสุดจากมัน\n\n**ชุดภาคพื้นดิน** กรมควบคุมมลพิษมีเครือข่ายสถานีทั่วประเทศและเผยแพร่ค่าชั่วโมงล่าสุด แต่ปลายทางข้อมูลย้อนหลังตอบ 404 ในวันที่ดึงข้อมูล เว็บนี้จึงแสดงได้แค่ตอนนี้ ไม่ใช่ตอนนั้น และมีปัญหาที่สอง ซึ่งตัวมันเองคือข้อค้นพบ **จังหวัดแม่ฮ่องสอน พื้นที่ 12,765 ตารางกิโลเมตร มีสถานีวัดเดียว** คือ 58t ในตัวเมืองแม่ฮ่องสอน ปายไม่มี สบป่องไม่มี ขุนยวม แม่ลาน้อย แม่สะเรียง ไม่มีสักแห่ง ไม่มีหน่วยงานใดวัดอากาศในเมืองที่คนขี่ส่วนใหญ่นอนคืนแรก",
+    "how": "ฉบับใช้งานจริง **กุมภาพันธ์ไม่ใช่ปัญหา** สำหรับพื้นที่บนดอย ค่าเฉลี่ยกุมภาพันธ์ของปายคือ 15.0 และตลอดสี่ปีไม่มีวันไหนในกุมภาพันธ์ที่เกิน 35.4 ที่นั่นเลย **มีนาคมกับเมษายนคือปัญหา** **พฤษภาคมจบแล้ว** ปายลงมาที่ 10.0 และอยู่ต่ำต่อไป ถ้าวันเดินทางล็อกไว้แล้วและตรงกับเดือนมีนาคม ถนนก็ยังขี่ได้ สิ่งที่เปลี่ยนคือจุดชมวิวจะเป็นผนังสีขาว ทางลงยาวๆ ต้องทำด้วยตาที่แสบ และคนเป็นหอบจะเจอสัปดาห์ที่แย่ หน้ากาก FFP2 หรือ N95 ที่กระชับใต้หมวกกันน็อกคือสิ่งที่คนใช้กัน ส่วนหน้ากากอนามัยกับผ้าบัฟไม่ได้กรอง PM2.5",
+    "today": "*อนุมาน —* คำแนะนำเรื่องช่วงเวลาที่ซื่อตรงกลับหัวกลับหางจากที่ขายกันทั่วไป ฤดูหนาวถูกขายว่าเป็นฤดูกาลของที่นี่ และพฤศจิกายนถึงกุมภาพันธ์ก็งามจริง แต่อากาศที่สะอาดที่สุดบนเส้นทางนี้แบบทิ้งห่าง คือ **หน้าฝน** ปายอยู่ที่ 3.0 ในเดือนกรกฎาคม เทียบกับ 26.1 ในเดือนมีนาคม ภูเขาเขียว น้ำตกมีน้ำ ห้องพักถูก สิ่งที่แลกไปคือถนนแห้ง"
+   },
+   "kin": [
+    {
+     "to": "season-and-direction",
+     "as": "What the smoke does to the choice of direction.",
+     "rel": "story"
+    },
+    {
+     "to": "burning-season",
+     "as": "The season itself, as a date range.",
+     "rel": "event"
+    },
+    {
+     "to": "the-rains",
+     "as": "The cleanest air of the year, and the wettest road.",
+     "rel": "event"
+    },
+    {
+     "to": "cool-season",
+     "as": "The season everyone books, and why.",
+     "rel": "event"
+    },
+    {
+     "to": "pai",
+     "as": "The town with no air monitor and the softest March of the circuit.",
+     "rel": "town"
+    },
+    {
+     "to": "chiang-mai",
+     "as": "The dirtiest air on the route, and where you start.",
+     "rel": "town"
+    },
+    {
+     "to": "smoke-riding",
+     "as": "Riding in it: what it does to sight and to lungs.",
+     "rel": "hazard"
+    },
+    {
+     "to": "pm25",
+     "as": "What the number measures.",
+     "rel": "term"
+    }
+   ],
+   "sources": [
+    "s:open-meteo-aq",
+    "s:air4thai",
+    "s:epa-pm25-2024",
+    "s:wp-southeast-asian-haze",
+    "s:wp-mae-hong-son-province"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "harvested",
+     "source": "s:open-meteo-aq"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "harvested",
+      "source": "s:open-meteo-aq",
+      "note": "every figure is computed by tools/harvest_air.py from the fetched series; the station count is read off the air4thai station list on the fetch date"
+     },
+     "text.how": {
+      "tier": "inference",
+      "note": "the mask advice is this project reasoning from what PM2.5 is; no clinical source is cited for it and none should be read into it"
+     },
+     "text.today": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "needs_verification": false,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "the-smoke/the-smoke-150132main-image-feature-589-alaska.jpg",
+     "source": "commons",
+     "title": "File:150132main image feature 589 alaska.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/150132main_image_feature_589_alaska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A150132main_image_feature_589_alaska.jpg",
+     "license": "Public domain",
+     "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+     "author": "National Aeronautics and Space Administration (NASA)",
+     "credit": "NASA (Image galleries)",
+     "alt": "Satellite picture of the Aleutian Islands and the Alaska Peninsula, located in the south of the state of Alaska, United States.",
+     "date": "25 May 2006",
+     "primary": true,
+     "sha256": "54b257cb40d22dd7fce1483645c0a7f95991f5504d9fabf8985c80de51a47d36"
+    },
+    {
+     "file": "the-smoke/the-smoke-burning-mountains-thailand.jpg",
+     "source": "commons",
+     "title": "File:Burning mountains Thailand.JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Burning_mountains_Thailand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ABurning_mountains_Thailand.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "The photo shows the smoke coming off from several wildfires in the mountains of northern Thailand. Farmers in northern Thailand always set fire to the forests in the mountains nearing the end of the d",
+     "date": "2011-02-07",
+     "primary": false,
+     "sha256": "64a99eca43c77801db81bdc8db8dea09fe6a578799a93165e01e686c7a5d6254"
+    },
+    {
+     "file": "the-smoke/the-smoke-smoke-shrouds-northern-thailand-1214791.jpg",
+     "source": "commons",
+     "title": "File:Smoke Shrouds Northern Thailand (1214791).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Smoke_Shrouds_Northern_Thailand_%281214791%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASmoke_Shrouds_Northern_Thailand_%281214791%29.jpg",
+     "license": "Public domain",
+     "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+     "author": "NASA Earth Observatory/Lauren Dauphin",
+     "credit": "Smoke Shrouds Northern Thailand",
+     "alt": "The MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA's Terra satellite captured this hazy view of the city and the surrounding region on April 22, 2026.",
+     "date": "2026-04-22",
+     "primary": false,
+     "sha256": "de28aaae6a2e94abe44b53c6c3bbaf8b529c9cb44f503b5f863d02a16b69bb92"
+    },
+    {
+     "file": "the-smoke/the-smoke-smoke-shrouds-northern-thailand-1214791-lrg.jpg",
+     "source": "commons",
+     "title": "File:Smoke Shrouds Northern Thailand (1214791 - lrg).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Smoke_Shrouds_Northern_Thailand_%281214791_-_lrg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASmoke_Shrouds_Northern_Thailand_%281214791_-_lrg%29.jpg",
+     "license": "Public domain",
+     "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+     "author": "NASA Earth Observatory/Lauren Dauphin",
+     "credit": "Smoke Shrouds Northern Thailand",
+     "alt": "The MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA's Terra satellite captured this hazy view of the city and the surrounding region on April 22, 2026.",
+     "date": "2026-04-22",
+     "primary": false,
+     "sha256": "78ec528b038933053c8727e55231b0501b9f558cfc3050c4d2b82559b477c42c"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "chiang-mai",
+     "type": "town",
+     "name": "Chiang Mai",
+     "as": "The dirtiest air on the route is here."
+    },
+    {
+     "from": "mae-hong-son",
+     "type": "town",
+     "name": "Mae Hong Son",
+     "as": "The one air monitor in the province is here."
+    },
+    {
+     "from": "pai",
+     "type": "town",
+     "name": "Pai",
+     "as": "Why the basin matters, and what the numbers say."
+    },
+    {
+     "from": "smoke-riding",
+     "type": "hazard",
+     "name": "Riding in the smoke",
+     "as": "The four years of measurements behind this."
+    },
+    {
+     "from": "burning-season",
+     "type": "event",
+     "name": "Burning season",
+     "as": "The data and where it is weak."
+    },
+    {
+     "from": "pm25",
+     "type": "term",
+     "name": "PM2.5",
+     "as": "Four years of it, measured."
+    },
+    {
+     "from": "season-and-direction",
+     "type": "story",
+     "name": "The season picks the direction",
+     "as": "The four years of figures behind the March advice."
+    }
+   ]
+  },
+  {
+   "id": "which-bike",
+   "type": "story",
+   "names": {
+    "name": "Every bike goes up there",
+    "th": "รถทุกแบบขึ้นไปได้",
+    "said": "A 110 scooter and a 1200 adventure bike ride the same road, and neither rider would recognise the other's day.",
+    "said_th": "สกู๊ตเตอร์ 110 กับแอดเวนเจอร์ 1200 ขี่ถนนเส้นเดียวกัน และทั้งคู่จำวันของอีกฝ่ายไม่ได้เลย"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "comparison"
+   },
+   "text": {
+    "what": "Six kinds of machine ride this circuit in numbers. None of them is the wrong answer. What changes between them is which single thing you have to plan around.",
+    "story": "**The one thing each bike makes you plan around.**\n\nOn a **110–160 automatic**, it is the brakes. A twist-and-go gives almost no engine braking, so on a road measured at four curves a kilometre the brake does all the work for ten kilometres at a stretch. Plan descents in stages with a stop to let them cool. Everything else about the bike is an advantage here.\n\nOn a **geared 125**, nothing much. Second gear holds the bike down a hairpin descent on the engine, the weight is nothing, every mechanic on the circuit has the parts, and it climbs steadily. *Inference —* if a single machine had to be named as the best fit for this specific road, the argument for the geared underbone is the hardest one to beat, and it is the cheapest thing in the shop.\n\nOn a **250–450 trail bike**, it is the highway. The suspension and the 21-inch front make broken edges and the 1263 a non-issue; what you pay for it is a buzzy, tiring hour on the four-lane section of Route 108.\n\nOn a **400–700 twin**, it is the driveway. Real brakes, real engine braking, enough power for the long straights — and 200 kilograms that needs two people to pick up on a wet concrete ramp where the second person may be an hour away.\n\nOn a **700cc-plus adventure bike**, it is fatigue. Nothing here is beyond the machine. But a steering input every few seconds for six hours is pleasure at 150 kilograms and work at 250, and the mistakes on this road are made in the last hour of a long day.\n\n**On the back**, it is everything at once — longer stopping, higher weight behind the axle, and a passenger who cannot see the surface coming. Plan about two-thirds the distance.\n\n**What does not change.** *Inference —* the circuit does not sort riders by engine size. It sorts them by whether they know what their own brakes do on the eleventh kilometre of a descent, and that is a question you can answer in one day on the Samoeng loop before committing to four.",
+    "today": "The measured numbers that sit under all of this: Route 1095 runs 4.03 curves a kilometre over 185 km, Route 1263 runs 4.25, and Route 1096 runs 4.46. Those densities are what a wrist, a brake and a transmission are each being asked to absorb, and they are the same for everybody."
+   },
+   "text_th": {
+    "what": "รถหกแบบขี่เส้นทางนี้กันเป็นจำนวนมาก ไม่มีแบบไหนที่เป็นคำตอบผิด สิ่งที่ต่างกันคือคุณต้องวางแผนรับมือกับเรื่องอะไรเป็นหลัก",
+    "story": "**เรื่องเดียวที่รถแต่ละแบบบังคับให้คุณวางแผน**\n\nรถ **ออโต้ 110–160** คือเบรก รถออโต้แทบไม่มีเอนจินเบรก บนถนนที่วัดได้สี่โค้งต่อกิโลเมตร เบรกจึงต้องทำงานทั้งหมดต่อเนื่องสิบกิโลเมตร ให้วางแผนลงเขาเป็นช่วงๆ และจอดพักให้เบรกเย็น ส่วนอย่างอื่นของรถแบบนี้เป็นข้อได้เปรียบทั้งหมดที่นี่\n\nรถ **125 มีเกียร์** แทบไม่มีอะไรต้องกังวล เกียร์สองหน่วงรถลงทางหักศอกได้ด้วยเครื่อง น้ำหนักไม่มี ช่างทุกร้านบนเส้นทางมีอะไหล่ และไต่เขาได้สม่ำเสมอ *อนุมาน —* ถ้าต้องเลือกรถคันเดียวที่เหมาะกับถนนสายนี้ที่สุด ข้อโต้แย้งฝั่งรถครอบครัวมีเกียร์เป็นข้อที่หักล้างยากที่สุด และมันถูกที่สุดในร้าน\n\nรถ **วิบาก 250–450** คือทางหลวง ช่วงล่างและล้อหน้า 21 นิ้วทำให้ขอบถนนแตกและทางหลวง 1263 ไม่เป็นปัญหา สิ่งที่แลกคือหนึ่งชั่วโมงที่สั่นและล้าบนช่วงสี่เลนของทางหลวง 108\n\nรถ **สองสูบ 400–700** คือทางเข้าที่พัก เบรกจริง เอนจินเบรกจริง แรงพอสำหรับทางตรงยาว และน้ำหนัก 200 กิโลกรัมที่ต้องใช้คนสองคนยกบนทางลาดคอนกรีตเปียก ที่ซึ่งคนที่สองอาจอยู่ห่างออกไปหนึ่งชั่วโมง\n\nรถ **แอดเวนเจอร์ 700 ซีซีขึ้นไป** คือความล้า ไม่มีอะไรที่นี่เกินความสามารถของรถ แต่การสั่งรถเลี้ยวทุกไม่กี่วินาทีต่อเนื่องหกชั่วโมง เป็นความสนุกที่ 150 กิโลกรัม และเป็นการทำงานที่ 250 กิโลกรัม และความผิดพลาดบนถนนสายนี้เกิดในชั่วโมงสุดท้ายของวันที่ยาว\n\n**นั่งซ้อน** คือทุกอย่างพร้อมกัน ระยะเบรกยาวขึ้น น้ำหนักสูงและอยู่หลังเพลา และคนซ้อนที่มองไม่เห็นผิวถนนที่กำลังจะมาถึง ให้วางแผนราวสองในสามของระยะ\n\n**สิ่งที่ไม่เปลี่ยน** *อนุมาน —* เส้นทางนี้ไม่ได้คัดคนขี่ด้วยขนาดเครื่องยนต์ แต่คัดด้วยว่าคุณรู้หรือไม่ว่าเบรกของตัวเองทำงานอย่างไรในกิโลเมตรที่สิบเอ็ดของทางลง และนั่นเป็นคำถามที่ตอบได้ในหนึ่งวันบนวงรอบสะเมิง ก่อนจะตัดสินใจลงทุนสี่วัน",
+    "today": "ตัวเลขที่วัดได้ซึ่งรองรับทั้งหมดนี้ ทางหลวง 1095 มี 4.03 โค้งต่อกิโลเมตรตลอด 185 กิโลเมตร ทางหลวง 1263 มี 4.25 และทางหลวง 1096 มี 4.46 ความหนาแน่นเหล่านี้คือสิ่งที่ข้อมือ เบรก และระบบส่งกำลัง ต้องรับไว้ และมันเท่ากันสำหรับทุกคน"
+   },
+   "kin": [
+    {
+     "to": "step-through-110",
+     "as": "The most common bike on the road, and the one the road was not designed around.",
+     "rel": "bike"
+    },
+    {
+     "to": "underbone-125",
+     "as": "The same engine with a gearbox, which changes the descent entirely.",
+     "rel": "bike"
+    },
+    {
+     "to": "trail-250",
+     "as": "The one that makes the unsealed sections stop being a decision.",
+     "rel": "bike"
+    },
+    {
+     "to": "midweight-twin",
+     "as": "Enough bike to enjoy the straights and still turn round on a hairpin.",
+     "rel": "bike"
+    },
+    {
+     "to": "big-adventure",
+     "as": "Capable of everything; the arithmetic is fatigue.",
+     "rel": "bike"
+    },
+    {
+     "to": "on-the-back",
+     "as": "Not a bike — a different trip.",
+     "rel": "bike"
+    },
+    {
+     "to": "samoeng-warmup",
+     "as": "The one day that answers the question for any of them.",
+     "rel": "leg"
+    },
+    {
+     "to": "brake-fade",
+     "as": "The failure mode the whole comparison turns on.",
+     "rel": "hazard"
+    },
+    {
+     "to": "engine-braking",
+     "as": "The thing a gearbox buys and an automatic does not.",
+     "rel": "term"
+    },
+    {
+     "to": "renting-a-bike",
+     "as": "What you actually get handed, and what to check.",
+     "rel": "kit"
+    }
+   ],
+   "sources": [
+    "s:mhs-measured",
+    "s:wp-motorcycle-safety",
+    "s:wp-scooter-motorcycle",
+    "s:wp-underbone",
+    "s:wp-dual-sport-motorcycle",
+    "s:wp-honda-500-twins"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "a comparison built on the measured curve densities and on the cited mechanical facts about each transmission type; the riding conclusions are this project's"
+    },
+    "fields": {
+     "text.today": {
+      "tier": "harvested",
+      "source": "s:mhs-measured"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "big-adventure",
+     "type": "bike",
+     "name": "The 700cc-and-up adventure bike",
+     "as": "Where this sits against everything else."
+    },
+    {
+     "from": "midweight-twin",
+     "type": "bike",
+     "name": "The 400–700 twin",
+     "as": "Where this sits against everything else."
+    },
+    {
+     "from": "on-the-back",
+     "type": "bike",
+     "name": "Riding on the back",
+     "as": "Where this changes the answer."
+    },
+    {
+     "from": "step-through-110",
+     "type": "bike",
+     "name": "The 110–125 step-through",
+     "as": "Where this sits against everything else."
+    },
+    {
+     "from": "trail-250",
+     "type": "bike",
+     "name": "The 250–450 trail bike",
+     "as": "Where this sits against everything else."
+    },
+    {
+     "from": "underbone-125",
+     "type": "bike",
+     "name": "The underbone with gears",
+     "as": "Where this sits against everything else."
+    }
+   ]
+  },
+  {
+   "id": "which-way-round",
+   "type": "story",
+   "names": {
+    "name": "Clockwise or counter-clockwise",
+    "th": "ตามเข็มหรือทวนเข็ม",
+    "said": "Ask six riders in a Chiang Mai bar and you get six answers and one fight.",
+    "said_th": "ถามคนขี่หกคนในบาร์เชียงใหม่ ได้คำตอบหกแบบ กับการเถียงหนึ่งยก"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "argument",
+    "direction": "both"
+   },
+   "text": {
+    "what": "Clockwise means north first: Chiang Mai up Route 107 and 1095 to Pai, on to Mae Hong Son, then south on 108 and home. Counter-clockwise reverses it — down 108 to Hot and Mae Sariang, up to Mae Hong Son, and back over the curve road last. Both are 600-odd kilometres. They are not the same ride.",
+    "story": "**The case for clockwise.** You hit the hardest riding on day one, fresh, on a light bike, before the panniers have settled and before four days of hills have taken your forearms. Day one is short — Chiang Mai to Pai is the least distance of any leg — so a slow, cautious first afternoon costs nothing. Pai is a soft landing with food and a mechanic. And the long, straight, fast southern run on Route 108 comes at the end, when you want to be pointing at home rather than at a hairpin.\n\n**The case for counter-clockwise.** The first day is Route 108 to Mae Sariang: wide, sealed, four to six lanes as far as Hot, and 265 kilometres of two-lane after it that never asks anything sudden. That is a long, cheap day for bedding in a rented bike, finding out what the brakes do, and discovering the rear tyre is ten years old while you are still near a town that can change it. You arrive at the curve road knowing the machine. Mae Hong Son comes on night two or three rather than night three or four, which matters if you want a morning there.\n\n**Where they actually differ.** Clockwise puts your hardest descent — 1095 dropping into the Pai valley — early. Counter-clockwise puts it last, on tired arms, and on Route 1095 tired arms are a real argument. Against that: counter-clockwise gets the rental bike's unknowns out of the way on the forgiving road, which is the same argument pointed the other way.\n\n*Inference —* the disagreement survives because both sides are right about different riders. A confident rider on a familiar bike should go clockwise and enjoy day one. A rider collecting an unknown rental should go counter-clockwise and spend day one finding out what they have got.\n\n**And then the season changes the answer,** which is the part the bar argument usually misses. See the grid on /which-way/."
+   },
+   "text_th": {
+    "what": "ตามเข็มคือขึ้นเหนือก่อน เชียงใหม่ไปตามทางหลวง 107 และ 1095 สู่ปาย ต่อไปแม่ฮ่องสอน แล้วลงใต้ตามทางหลวง 108 กลับบ้าน ทวนเข็มคือกลับด้าน ลงทางหลวง 108 ไปฮอดและแม่สะเรียง ขึ้นไปแม่ฮ่องสอน แล้วกลับทางถนนโค้งเป็นช่วงสุดท้าย ระยะทางราว 600 กิโลเมตรเท่ากัน แต่ไม่ใช่การขี่แบบเดียวกัน",
+    "story": "**ข้อดีของตามเข็ม** คุณเจอช่วงยากที่สุดในวันแรก ตอนที่ยังสด รถยังเบา สัมภาระยังไม่กดท้าย และแขนยังไม่ผ่านเขาสี่วัน วันแรกสั้นที่สุดในทุกช่วง เชียงใหม่ถึงปายระยะน้อยที่สุด ดังนั้นบ่ายวันแรกที่ขี่ช้าและระวังจึงไม่เสียอะไรเลย ปายเป็นที่ลงจอดที่นุ่มนวล มีอาหารและมีช่าง ส่วนทางหลวง 108 ช่วงใต้ที่ตรงและเร็วจะมาตอนท้าย ตอนที่คุณอยากมุ่งหน้ากลับบ้านมากกว่าจะเข้าโค้งหักศอก\n\n**ข้อดีของทวนเข็ม** วันแรกคือทางหลวง 108 ไปแม่สะเรียง ถนนกว้าง ลาดยาง สี่ถึงหกช่องจราจรจนถึงฮอด แล้วต่อด้วยสองช่องจราจรอีก 265 กิโลเมตรที่ไม่เรียกร้องอะไรกะทันหัน นั่นคือวันยาวๆ ราคาถูกสำหรับทำความรู้จักรถเช่า ได้รู้ว่าเบรกทำงานยังไง และได้พบว่ายางหลังอายุสิบปีตั้งแต่ยังอยู่ใกล้เมืองที่เปลี่ยนยางได้ พอถึงถนนโค้งคุณรู้จักรถแล้ว และถึงแม่ฮ่องสอนคืนที่สองหรือสาม แทนที่จะเป็นคืนที่สามหรือสี่ ซึ่งสำคัญถ้าอยากได้เช้าที่นั่น\n\n**จุดต่างที่แท้จริง** ตามเข็มทำให้ทางลงที่ยากที่สุด คือ 1095 ที่ทิ้งตัวลงหุบปาย มาถึงเร็ว ทวนเข็มทำให้มันมาถึงท้ายสุด ตอนแขนล้า และบนถนน 1095 แขนล้าเป็นเหตุผลที่จริงจัง แต่ในทางกลับกัน ทวนเข็มก็จัดการความไม่รู้เรื่องรถเช่าให้จบบนถนนที่ให้อภัย ซึ่งเป็นเหตุผลเดียวกันที่ชี้คนละทาง\n\n*อนุมาน —* ข้อถกเถียงนี้ไม่จบเพราะทั้งสองฝ่ายถูกกับคนขี่คนละแบบ คนที่มั่นใจและคุ้นรถควรไปตามเข็มและสนุกกับวันแรก คนที่เพิ่งรับรถเช่าที่ยังไม่รู้จักควรไปทวนเข็ม และใช้วันแรกทำความรู้จักสิ่งที่ตัวเองได้มา\n\n**แล้วฤดูกาลก็เปลี่ยนคำตอบอีก** ซึ่งเป็นส่วนที่การเถียงในบาร์มักลืม ดูตารางในหน้า /which-way/"
+   },
+   "kin": [
+    {
+     "to": "season-and-direction",
+     "as": "The same question, answered month by month.",
+     "rel": "story"
+    },
+    {
+     "to": "cnx-to-pai",
+     "as": "Day one clockwise, day four counter-clockwise, and it is a different road each way.",
+     "rel": "leg"
+    },
+    {
+     "to": "mae-sariang-to-hot",
+     "as": "The long forgiving day that counter-clockwise puts first.",
+     "rel": "leg"
+    },
+    {
+     "to": "route-1095",
+     "as": "The descent that the argument is really about.",
+     "rel": "road"
+    },
+    {
+     "to": "route-108",
+     "as": "The road that makes counter-clockwise a gentle start.",
+     "rel": "road"
+    },
+    {
+     "to": "renting-a-bike",
+     "as": "Whether you know the machine is half the argument.",
+     "rel": "kit"
+    },
+    {
+     "to": "how-many-curves",
+     "as": "The other thing this road makes people argue about.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:thwp-108",
+    "s:doh-1095",
+    "s:mhs-measured",
+    "s:osm"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "the two cases are this project's reasoning from the road's own measured shape; the road facts underneath them are cited"
+    },
+    "fields": {
+     "text.what": {
+      "tier": "cited",
+      "source": "s:thwp-108"
+     },
+     "names.said": {
+      "tier": "tradition"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "needs_verification": false,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "route-108",
+     "type": "road",
+     "name": "Route 108",
+     "as": "The argument this road settles half of."
+    },
+    {
+     "from": "renting-a-bike",
+     "type": "kit",
+     "name": "Renting the bike",
+     "as": "Whether you know the bike decides the direction."
+    },
+    {
+     "from": "how-many-curves",
+     "type": "story",
+     "name": "How many curves, actually",
+     "as": "The other argument this road starts."
+    },
+    {
+     "from": "season-and-direction",
+     "type": "story",
+     "name": "The season picks the direction",
+     "as": "The argument before the season is added to it."
+    }
+   ]
+  }
+ ]
+}

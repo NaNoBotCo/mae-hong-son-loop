@@ -1,0 +1,149 @@
+{
+ "id": "karen",
+ "type": "person",
+ "names": {
+  "name": "The Karen",
+  "th": "กะเหรี่ยง",
+  "said": "Not one people. A group of closely related ones, across the hills the southern leg runs through.",
+  "said_th": "ไม่ใช่ชนกลุ่มเดียว แต่เป็นกลุ่มที่เกี่ยวพันกันหลายกลุ่ม อยู่ทั่วภูเขาที่ช่วงใต้วิ่งผ่าน"
+ },
+ "region": [
+  "mhs",
+  "karen"
+ ],
+ "facets": {
+  "role": "people"
+ },
+ "text": {
+  "what": "The largest group in the hills of the province after the Shan, spanning the Thai–Myanmar border, and the people whose villages line Route 108 south of Mae Hong Son.",
+  "story": "The Wikipedia article on the province is explicit that the Karen are not a single group but a mix of closely related tribes, and lists them among the seven groups making up 63 per cent of the provincial population alongside Lahu, Lisu, Lua, Miao, Chinese Yunnanese and Pa-O. Karen have their own spoken and written language.\n\nAmong the smallest of the Karen groups in Thailand are the Kayan Lahwi, whose women are recognised by the brass coils worn around the neck.\n\n*Inference —* the point worth carrying while riding Route 108: the roadside villages between Khun Yuam and Mae Sariang are people's homes and workplaces, and the difference between passing through respectfully and treating a village as scenery is mostly speed and cameras."
+ },
+ "text_th": {
+  "what": "กลุ่มใหญ่ที่สุดบนภูเขาของจังหวัดรองจากไทใหญ่ มีถิ่นฐานคร่อมชายแดนไทย-เมียนมา และเป็นเจ้าของหมู่บ้านที่เรียงอยู่ตามทางหลวง 108 ทางใต้ของแม่ฮ่องสอน",
+  "story": "บทความวิกิพีเดียเรื่องจังหวัดระบุชัดว่ากะเหรี่ยงไม่ใช่กลุ่มเดียว แต่เป็นการรวมกันของกลุ่มที่เกี่ยวพันกันอย่างใกล้ชิด และจัดอยู่ในเจ็ดกลุ่มที่รวมกันเป็นร้อยละ 63 ของประชากรจังหวัด ร่วมกับลาหู่ ลีซู ลัวะ ม้ง จีนยูนนาน และปะโอ กะเหรี่ยงมีภาษาพูดและภาษาเขียนของตัวเอง\n\nหนึ่งในกลุ่มกะเหรี่ยงที่เล็กที่สุดในไทยคือกะยันลาหวี ซึ่งผู้หญิงเป็นที่รู้จักจากห่วงทองเหลืองที่สวมรอบคอ\n\n*อนุมาน —* ประเด็นที่ควรพกไว้ระหว่างขี่ทางหลวง 108 หมู่บ้านริมถนนระหว่างขุนยวมกับแม่สะเรียงคือบ้านและที่ทำงานของผู้คน และความต่างระหว่างการผ่านไปด้วยความเคารพกับการมองหมู่บ้านเป็นทิวทัศน์ ส่วนใหญ่อยู่ที่ความเร็วและกล้อง"
+ },
+ "kin": [
+  {
+   "to": "khun-yuam-to-mae-sariang",
+   "as": "The leg that runs through their villages.",
+   "rel": "leg"
+  },
+  {
+   "to": "kayan-question",
+   "as": "The argument about the villages that charge admission.",
+   "rel": "story"
+  },
+  {
+   "to": "shan",
+   "as": "The majority group, in the valleys.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-karen-peoples",
+  "s:wp-mae-hong-son-province",
+  "s:wp-kayan-people-myanmar",
+  "s:thwp-karen"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-mae-hong-son-province"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-mae-hong-son-province"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "karen/karen-baskets-karen-people-northern-thailand-collected-in-4aedeed.jpg",
+   "source": "commons",
+   "title": "File:Baskets, Karen people, Northern Thailand, collected in 1986 - Ethnological Museum, Berlin - DSC01358.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Baskets%2C_Karen_people%2C_Northern_Thailand%2C_collected_in_1986_-_Ethnological_Museum%2C_Berlin_-_DSC01358.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABaskets%2C_Karen_people%2C_Northern_Thailand%2C_collected_in_1986_-_Ethnological_Museum%2C_Berlin_-_DSC01358.JPG",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Daderot",
+   "credit": "Own work",
+   "alt": "Exhibit in the Ethnological Museum, Berlin, Germany. Photography was permitted in the museum without restriction.",
+   "date": "2014-11-11 08:15:54",
+   "primary": true,
+   "sha256": "e05ca03020be702ca62d311f8086d876f9c6ea41e22d31b5c08271b35d53a641"
+  },
+  {
+   "file": "karen/karen-karen-tribe-representative-in-traditional-attire-dem-e6ea82b.jpg",
+   "source": "commons",
+   "title": "File:Karen Tribe Representative in Traditional Attire Demonstrating Traditional Craftsmanship, Northern Thailand, March 2024. By Superdan.art ((Wiki Loves Folklore 2024)).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Karen_Tribe_Representative_in_Traditional_Attire_Demonstrating_Traditional_Craftsmanship%2C_Northern_Thailand%2C_March_2024._By_Superdan.art_%28%28Wiki_Loves_Folklore_2024%29%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AKaren_Tribe_Representative_in_Traditional_Attire_Demonstrating_Traditional_Craftsmanship%2C_Northern_Thailand%2C_March_2024._By_Superdan.art_%28%28Wiki_Loves_Folklore_2024%29%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Superdan.art",
+   "credit": "Own work",
+   "alt": "Witness a representative of the Karen tribe adorned in traditional attire, showcasing the artistry of their people, captured in Northern Thailand in March 2024 by Superdan.art \n((Wiki Loves Folklore 2",
+   "date": "2024-03-15 13:30:26",
+   "primary": false,
+   "sha256": "04c12345369b72d03fba3dff068613aaa199c5e4ad2ce807e78d932a0b7e6107"
+  },
+  {
+   "file": "karen/karen-karen-woman-in-traditional-clothes-sitting-and-sewing.jpg",
+   "source": "commons",
+   "title": "File:Karen woman in traditional clothes sitting and sewing.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Karen_woman_in_traditional_clothes_sitting_and_sewing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AKaren_woman_in_traditional_clothes_sitting_and_sewing.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Varvara Kless-Kaminskaia",
+   "credit": "Own work",
+   "alt": "Karen tribal woman in traditional clothes sitting and sewing, ethnic village, Pattaya, Thailand.",
+   "date": "Taken on 17 September 2018, 07:04:14",
+   "primary": false,
+   "sha256": "e2d8c25e51cfa0c9b0b65d6d402cbb8890b150742c8c0c53d35b8c97f270cfa3"
+  },
+  {
+   "file": "karen/karen-people-in-karen-tribal-village-near-pattaya.jpg",
+   "source": "commons",
+   "title": "File:People in Karen tribal village near Pattaya.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/People_in_Karen_tribal_village_near_Pattaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APeople_in_Karen_tribal_village_near_Pattaya.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Varvara Kless-Kaminskaia",
+   "credit": "Own work",
+   "alt": "People in Karen tribal village near Pattaya, Thailand.",
+   "date": "Taken on 17 September 2018, 07:17:11",
+   "primary": false,
+   "sha256": "c8e7bbc169b0f738e14d878931841836e32452a837e131fa9724adeecfdb89d4"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "khun-yuam-to-mae-sariang",
+   "type": "leg",
+   "name": "Khun Yuam to Mae Sariang",
+   "as": "Whose country this leg runs through."
+  },
+  {
+   "from": "shan",
+   "type": "person",
+   "name": "The Shan",
+   "as": "The other large group, in the hills south and west."
+  },
+  {
+   "from": "kayan-question",
+   "type": "story",
+   "name": "The villages that charge admission",
+   "as": "The larger group the Kayan are one of."
+  }
+ ]
+}

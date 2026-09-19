@@ -103,9 +103,9 @@ def measure(seg: list) -> dict:
 def density(line: list, window_km: float = 2.0) -> list:
     """Curve density along the road, in fixed windows, so the map can colour it.
 
-    This is not a crash map — nobody publishes one for these roads, and this project will
-    not invent one. It is a map of how much steering a stretch asks for per kilometre,
-    computed the same way everywhere, which is a different claim and a checkable one.
+    This is not a crash map. Nobody publishes one for these roads, and none is invented
+    here. It is a map of how much steering a stretch asks for per kilometre, computed the
+    same way everywhere, which is a different claim and a checkable one.
     Each window carries its own curve count, hairpin count and a demand band.
     """
     from harvest_osm import bearing, resample

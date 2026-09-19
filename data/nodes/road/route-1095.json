@@ -96,5 +96,67 @@
  },
  "confidence": "high",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "route-1095/route-1095-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-a04b28c.jpg",
+   "source": "commons",
+   "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031193728/http://www.panoramio.com/photo/124380306",
+   "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+   "date": "Taken on 15 July 2015",
+   "primary": true,
+   "sha256": "c97a1bf171d1c5ae45c0afb7de10cf858c0d9832fc07d5f3cd6e30061d6644c6"
+  },
+  {
+   "file": "route-1095/route-1095-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-93478b0.jpg",
+   "source": "commons",
+   "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio (1).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031193239/http://www.panoramio.com/photo/124380303",
+   "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+   "date": "Taken on 15 July 2015",
+   "primary": false,
+   "sha256": "42a4e24e5a71b08eca40034450f636a08a4cf5811aa4ae11553714dae37415fc"
+  },
+  {
+   "file": "route-1095/route-1095-ruta-1095-240125-norteam-rica-s-a-metalbus-urbano-me-b6aca27.jpg",
+   "source": "commons",
+   "title": "File:Ruta 1095 240125 Norteamérica S.A. Metalbus Urbano Mercedes-Benz OF-914.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ruta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARuta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Fabco09",
+   "credit": "Own work",
+   "alt": "Route 1095.",
+   "date": "2025-01-24 15:21:38",
+   "primary": false,
+   "sha256": "f89cb77917c2d77186e2623767a8bb088b582a358dc18873f596a2149fd3b5b0"
+  },
+  {
+   "file": "route-1095/route-1095-thailand-route-1095.jpg",
+   "source": "commons",
+   "title": "File:Thailand Route 1095.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Thailand_Route_1095.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThailand_Route_1095.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Thailand Route 1095 and a minibus going from Chiang Mai to Pai in Mae Taeng District, Chiang Mai Province.",
+   "date": "2018-08-29 14:08:13",
+   "primary": false,
+   "sha256": "98d29fc18592e9627c27b08638368c3501bd901d778593d82f7bf4e4b77837fc"
+  }
+ ]
 }

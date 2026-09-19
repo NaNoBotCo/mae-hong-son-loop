@@ -1,0 +1,581 @@
+{
+ "id": "route-1095",
+ "type": "road",
+ "names": {
+  "name": "Route 1095",
+  "th": "ทางหลวงแผ่นดินหมายเลข 1095",
+  "said": "The curve road. Two lanes, the whole way, and it does not stop.",
+  "said_th": "ถนนโค้ง สองเลนตลอดสาย และมันไม่หยุดเลี้ยว"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "surface": "asphalt",
+  "ref": "1095"
+ },
+ "text": {
+  "what": "Nong Khong on Route 107, over the hills to Pai, through Pangmapha, and down into Mae Hong Son. Sealed two lanes end to end. The most curve-dense long road on the circuit.",
+  "story": "Thai Wikipedia's article gives the route as Nong Khong to Mae Hong Son, two lanes both ways, and notes that it was formerly called the Mae Malai–Mae Hong Son highway and is still usually called the Mae Malai–Pai road. In 1994 a new alignment moved its start from Mae Malai market to Ban Nong Khong on Route 107, as a Mae Malai bypass; the old alignment became rural road Chiang Mai 3045. The spur into Pai town itself is Route 1395, leaving 1095 at km 96+035 and rejoining at km 99+303. The article describes the road as known for being winding, *กว่า 2,000 โค้ง* — more than 2,000 curves — and steep, and gives Chiang Mai to Mae Hong Son by this road as about 245 kilometres.\n\n*Inference —* measured off the OpenStreetMap trace of the road, the longest stitched run of Route 1095 is 185 kilometres carrying 729 curves at a 25-degree threshold, 110 of them hairpins — about four curves a kilometre, one every 254 metres. The section from Mae Malai to Pai alone carries 395. The method and its sensitivity are on /numbers/."
+ },
+ "text_th": {
+  "what": "จากบ้านหนองโค้งบนทางหลวง 107 ข้ามเขาไปปาย ผ่านปางมะผ้า แล้วลงแม่ฮ่องสอน ลาดยางสองเลนตลอดสาย เป็นถนนสายยาวที่โค้งหนาแน่นที่สุดบนเส้นทาง",
+  "story": "บทความวิกิพีเดียภาษาไทยระบุเส้นทางจากหนองโค้งถึงแม่ฮ่องสอน สองช่องจราจรไป-กลับ และบอกว่าเดิมชื่อทางหลวงสายแม่มาลัย–แม่ฮ่องสอน และยังนิยมเรียกกันว่าถนนสายแม่มาลัย–ปาย ในปี พ.ศ. 2537 มีการตัดแนวใหม่ย้ายจุดเริ่มต้นจากตลาดแม่มาลัยไปที่บ้านหนองโค้งบนทางหลวง 107 เป็นเส้นเลี่ยงเมืองแม่มาลัย ส่วนแนวเดิมกลายเป็นทางหลวงชนบท ชม.3045 ทางแยกเข้าตัวเมืองปายคือทางหลวง 1395 แยกจาก 1095 ที่กิโลเมตร 96+035 และกลับมาบรรจบที่ 99+303 บทความบรรยายถนนสายนี้ว่าขึ้นชื่อเรื่องความคดเคี้ยว *กว่า 2,000 โค้ง* และลาดชัน และให้ระยะเชียงใหม่ถึงแม่ฮ่องสอนทางนี้ราว 245 กิโลเมตร\n\n*อนุมาน —* เมื่อวัดจากเส้นทางใน OpenStreetMap ช่วงที่ต่อกันได้ยาวที่สุดของทางหลวง 1095 คือ 185 กิโลเมตร มี 729 โค้งที่เกณฑ์ 25 องศา ในจำนวนนั้นเป็นโค้งหักศอก 110 โค้ง ราวสี่โค้งต่อกิโลเมตร หรือหนึ่งโค้งทุก 254 เมตร เฉพาะช่วงแม่มาลัยถึงปายมี 395 โค้ง วิธีวัดและความอ่อนไหวของวิธีอยู่ในหน้า /numbers/"
+ },
+ "route": {
+  "roads": [
+   "1095"
+  ],
+  "from": "Nong Khong, Route 107",
+  "from_th": "บ้านหนองโค้ง ทางหลวง 107",
+  "to": "Mae Hong Son",
+  "to_th": "แม่ฮ่องสอน",
+  "km": 185,
+  "km_source": "s:mhs-measured",
+  "curves": 729,
+  "hairpins": 110,
+  "cw": "Ridden north then west: the long climb out of the Mae Taeng valley first, then the drop into Pai.",
+  "ccw": "Ridden east: the climb out of Mae Hong Son, then Pangmapha, then the descent to Mae Malai at the end of the day.",
+  "cw_th": "ขี่ขึ้นเหนือแล้ววกตะวันตก ไต่ขึ้นจากหุบแม่แตงก่อน แล้วค่อยทิ้งตัวลงปาย",
+  "ccw_th": "ขี่ไปตะวันออก ไต่ขึ้นจากแม่ฮ่องสอน ผ่านปางมะผ้า แล้วลงแม่มาลัยตอนท้ายวัน",
+  "line": [
+   [
+    19.41936,
+    97.99821
+   ],
+   [
+    19.43596,
+    97.9983
+   ],
+   [
+    19.44345,
+    98.00817
+   ],
+   [
+    19.45031,
+    98.0167
+   ],
+   [
+    19.46285,
+    98.0235
+   ],
+   [
+    19.4786,
+    98.03018
+   ],
+   [
+    19.48655,
+    98.04376
+   ],
+   [
+    19.49559,
+    98.05524
+   ],
+   [
+    19.50603,
+    98.06805
+   ],
+   [
+    19.51354,
+    98.08137
+   ],
+   [
+    19.52425,
+    98.09482
+   ],
+   [
+    19.53631,
+    98.09981
+   ],
+   [
+    19.53639,
+    98.11414
+   ],
+   [
+    19.53553,
+    98.12821
+   ],
+   [
+    19.54115,
+    98.13847
+   ],
+   [
+    19.55198,
+    98.14925
+   ],
+   [
+    19.5581,
+    98.16055
+   ],
+   [
+    19.56468,
+    98.17474
+   ],
+   [
+    19.55817,
+    98.19124
+   ],
+   [
+    19.54933,
+    98.20248
+   ],
+   [
+    19.54451,
+    98.21388
+   ],
+   [
+    19.53422,
+    98.22751
+   ],
+   [
+    19.52294,
+    98.2418
+   ],
+   [
+    19.51707,
+    98.2568
+   ],
+   [
+    19.5132,
+    98.27067
+   ],
+   [
+    19.49798,
+    98.27908
+   ],
+   [
+    19.48602,
+    98.29138
+   ],
+   [
+    19.47119,
+    98.29519
+   ],
+   [
+    19.46214,
+    98.29978
+   ],
+   [
+    19.45326,
+    98.30374
+   ],
+   [
+    19.45269,
+    98.31207
+   ],
+   [
+    19.4501,
+    98.31769
+   ],
+   [
+    19.43979,
+    98.32495
+   ],
+   [
+    19.44308,
+    98.3359
+   ],
+   [
+    19.44389,
+    98.34293
+   ],
+   [
+    19.43872,
+    98.3552
+   ],
+   [
+    19.43671,
+    98.36935
+   ],
+   [
+    19.43539,
+    98.38741
+   ],
+   [
+    19.42474,
+    98.39911
+   ],
+   [
+    19.417,
+    98.41357
+   ],
+   [
+    19.4003,
+    98.4155
+   ],
+   [
+    19.38578,
+    98.4262
+   ],
+   [
+    19.36874,
+    98.42737
+   ],
+   [
+    19.35183,
+    98.42952
+   ],
+   [
+    19.33518,
+    98.43171
+   ],
+   [
+    19.31867,
+    98.43861
+   ],
+   [
+    19.31145,
+    98.45279
+   ],
+   [
+    19.29981,
+    98.46346
+   ],
+   [
+    19.2885,
+    98.47343
+   ],
+   [
+    19.28169,
+    98.48915
+   ],
+   [
+    19.27106,
+    98.50186
+   ],
+   [
+    19.26584,
+    98.51422
+   ],
+   [
+    19.27006,
+    98.52692
+   ],
+   [
+    19.27225,
+    98.543
+   ],
+   [
+    19.27128,
+    98.5592
+   ],
+   [
+    19.27278,
+    98.57487
+   ],
+   [
+    19.26761,
+    98.58744
+   ],
+   [
+    19.27677,
+    98.60006
+   ],
+   [
+    19.27857,
+    98.61375
+   ],
+   [
+    19.26987,
+    98.62762
+   ],
+   [
+    19.26051,
+    98.63883
+   ],
+   [
+    19.24999,
+    98.64207
+   ],
+   [
+    19.25286,
+    98.64952
+   ],
+   [
+    19.24193,
+    98.65656
+   ],
+   [
+    19.23472,
+    98.66234
+   ],
+   [
+    19.22746,
+    98.67201
+   ],
+   [
+    19.2222,
+    98.67161
+   ],
+   [
+    19.21433,
+    98.67021
+   ],
+   [
+    19.20481,
+    98.67746
+   ],
+   [
+    19.19411,
+    98.6895
+   ],
+   [
+    19.17687,
+    98.69232
+   ],
+   [
+    19.15939,
+    98.69117
+   ],
+   [
+    19.14401,
+    98.69736
+   ],
+   [
+    19.13133,
+    98.70404
+   ],
+   [
+    19.12155,
+    98.70981
+   ],
+   [
+    19.11809,
+    98.72556
+   ],
+   [
+    19.12364,
+    98.73553
+   ],
+   [
+    19.12379,
+    98.74743
+   ],
+   [
+    19.12498,
+    98.763
+   ],
+   [
+    19.1229,
+    98.77874
+   ],
+   [
+    19.11185,
+    98.79335
+   ],
+   [
+    19.10687,
+    98.81106
+   ],
+   [
+    19.10658,
+    98.82558
+   ],
+   [
+    19.10146,
+    98.84095
+   ],
+   [
+    19.09296,
+    98.85731
+   ],
+   [
+    19.09481,
+    98.87396
+   ],
+   [
+    19.08811,
+    98.89096
+   ],
+   [
+    19.08644,
+    98.90622
+   ],
+   [
+    19.08019,
+    98.91822
+   ],
+   [
+    19.07287,
+    98.93587
+   ]
+  ],
+  "line_points": 90
+ },
+ "kin": [
+  {
+   "to": "how-many-curves",
+   "as": "The three numbers, and the method behind the third.",
+   "rel": "story"
+  },
+  {
+   "to": "cnx-to-pai",
+   "as": "The first half of it, clockwise.",
+   "rel": "leg"
+  },
+  {
+   "to": "soppong-to-mhs",
+   "as": "The descent at the far end.",
+   "rel": "leg"
+  },
+  {
+   "to": "brake-fade",
+   "as": "What the descents do to a small bike.",
+   "rel": "hazard"
+  },
+  {
+   "to": "buses-on-your-line",
+   "as": "Who else is using these corners.",
+   "rel": "hazard"
+  },
+  {
+   "to": "pai",
+   "as": "The town in the middle.",
+   "rel": "town"
+  }
+ ],
+ "sources": [
+  "s:thwp-1095",
+  "s:doh-1095",
+  "s:mhs-measured",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:thwp-1095"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:thwp-1095",
+    "note": "the second paragraph is marked as this project's own measurement off OSM"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project; the quoted phrase กว่า 2,000 โค้ง is verbatim from the cited article"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "route-1095/route-1095-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-a04b28c.jpg",
+   "source": "commons",
+   "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031193728/http://www.panoramio.com/photo/124380306",
+   "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+   "date": "Taken on 15 July 2015",
+   "primary": true,
+   "sha256": "c97a1bf171d1c5ae45c0afb7de10cf858c0d9832fc07d5f3cd6e30061d6644c6"
+  },
+  {
+   "file": "route-1095/route-1095-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-93478b0.jpg",
+   "source": "commons",
+   "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio (1).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031193239/http://www.panoramio.com/photo/124380303",
+   "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+   "date": "Taken on 15 July 2015",
+   "primary": false,
+   "sha256": "42a4e24e5a71b08eca40034450f636a08a4cf5811aa4ae11553714dae37415fc"
+  },
+  {
+   "file": "route-1095/route-1095-ruta-1095-240125-norteam-rica-s-a-metalbus-urbano-me-b6aca27.jpg",
+   "source": "commons",
+   "title": "File:Ruta 1095 240125 Norteamérica S.A. Metalbus Urbano Mercedes-Benz OF-914.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ruta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARuta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Fabco09",
+   "credit": "Own work",
+   "alt": "Route 1095.",
+   "date": "2025-01-24 15:21:38",
+   "primary": false,
+   "sha256": "f89cb77917c2d77186e2623767a8bb088b582a358dc18873f596a2149fd3b5b0"
+  },
+  {
+   "file": "route-1095/route-1095-thailand-route-1095.jpg",
+   "source": "commons",
+   "title": "File:Thailand Route 1095.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Thailand_Route_1095.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThailand_Route_1095.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Thailand Route 1095 and a minibus going from Chiang Mai to Pai in Mae Taeng District, Chiang Mai Province.",
+   "date": "2018-08-29 14:08:13",
+   "primary": false,
+   "sha256": "98d29fc18592e9627c27b08638368c3501bd901d778593d82f7bf4e4b77837fc"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "cnx-to-pai",
+   "type": "leg",
+   "name": "Chiang Mai to Pai",
+   "as": "The road it is mostly on."
+  },
+  {
+   "from": "route-107",
+   "type": "road",
+   "name": "Route 107",
+   "as": "What it hands you over to."
+  },
+  {
+   "from": "route-108",
+   "type": "road",
+   "name": "Route 108",
+   "as": "The other way to Mae Hong Son, and the other kind of road."
+  },
+  {
+   "from": "pai",
+   "type": "town",
+   "name": "Pai",
+   "as": "The road the town is on."
+  },
+  {
+   "from": "brake-fade",
+   "type": "hazard",
+   "name": "Brake fade",
+   "as": "The descent it happens on."
+  },
+  {
+   "from": "buses-on-your-line",
+   "type": "hazard",
+   "name": "Buses and pickups on your line",
+   "as": "Where the minibuses run."
+  },
+  {
+   "from": "how-many-curves",
+   "type": "story",
+   "name": "How many curves, actually",
+   "as": "The road the number is attached to."
+  },
+  {
+   "from": "which-way-round",
+   "type": "story",
+   "name": "Clockwise or counter-clockwise",
+   "as": "The descent that the argument is really about."
+  },
+  {
+   "from": "the-1864-sign",
+   "type": "art",
+   "name": "The 1,864 sign",
+   "as": "The road it names."
+  }
+ ]
+}

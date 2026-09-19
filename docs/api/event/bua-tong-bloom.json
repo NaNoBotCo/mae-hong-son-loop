@@ -1,0 +1,153 @@
+{
+ "id": "bua-tong-bloom",
+ "type": "event",
+ "names": {
+  "name": "The Bua Tong bloom",
+  "th": "ทุ่งบัวตอง",
+  "said": "A hillside above Khun Yuam turns yellow for a few weeks, and then it does not.",
+  "said_th": "ไหล่เขาเหนือขุนยวมกลายเป็นสีเหลืองอยู่ไม่กี่สัปดาห์ แล้วก็ไม่"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "nov"
+ },
+ "text": {
+  "what": "Tithonia diversifolia — Mexican sunflower, บัวตอง — flowers across Doi Mae U-Kho in November. It is the one thing on this circuit with a hard date.",
+  "story": "The plant is a member of the daisy family, native to Mexico and Central America, and is naturalised widely across the tropics — in many places it is treated as an invasive weed. Here it is the reason a province runs a festival.\n\n*Inference —* for a rider the consequence is a scheduling one. Khun Yuam sits on the southern leg, so which direction you ride decides whether you reach it on day two or day four — and a hillside like this wants morning light. If the bloom is the reason for the trip, pick the direction that puts Khun Yuam on a morning.\n\n*Tradition holds —* the bloom is short and the exact weeks move with the year, so a date fixed months ahead is a bet."
+ },
+ "text_th": {
+  "what": "ต้นบัวตอง หรือ Tithonia diversifolia ทานตะวันเม็กซิโก ออกดอกทั่วดอยแม่อูคอในเดือนพฤศจิกายน เป็นสิ่งเดียวบนเส้นทางนี้ที่มีกำหนดเวลาแน่นอน",
+  "story": "ต้นบัวตองอยู่ในวงศ์ทานตะวัน มีถิ่นกำเนิดในเม็กซิโกและอเมริกากลาง และแพร่กระจายทั่วเขตร้อน ในหลายที่ถือเป็นวัชพืชรุกราน แต่ที่นี่มันเป็นเหตุผลที่จังหวัดจัดเทศกาล\n\n*อนุมาน —* สำหรับคนขี่รถ ผลที่ตามมาคือเรื่องตารางเวลา ขุนยวมอยู่บนช่วงใต้ ทิศที่คุณขี่จึงเป็นตัวกำหนดว่าจะไปถึงวันที่สองหรือวันที่สี่ และไหล่เขาแบบนี้ต้องการแสงเช้า ถ้าทุ่งบัวตองคือเหตุผลของทริป ให้เลือกทิศที่ทำให้ถึงขุนยวมตอนเช้า\n\n*ตามธรรมเนียม —* ช่วงบานสั้นและสัปดาห์ที่บานเลื่อนไปตามปี การล็อกวันล่วงหน้าหลายเดือนจึงเป็นการเดิมพัน"
+ },
+ "kin": [
+  {
+   "to": "khun-yuam",
+   "as": "The town underneath it.",
+   "rel": "town"
+  },
+  {
+   "to": "season-and-direction",
+   "as": "Why the bloom argues for a direction.",
+   "rel": "story"
+  },
+  {
+   "to": "cool-season",
+   "as": "The season it opens.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-tithonia-diversifolia",
+  "s:wp-khun-yuam-district",
+  "s:wp-mexican-sunflower"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-tithonia-diversifolia"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "bua-tong-bloom/bua-tong-bloom-doi-mae-u-kho-mexican-sunflower-fields.jpg",
+   "source": "commons",
+   "title": "File:Doi Mae U-Kho Mexican Sunflower Fields.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Doi_Mae_U-Kho_Mexican_Sunflower_Fields.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADoi_Mae_U-Kho_Mexican_Sunflower_Fields.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Kamol2523",
+   "credit": "Own work",
+   "alt": "ทุ่งดอกบัวตอง ดอยแม่อูคอ อำเภอขุนยวม จังหวัดแม่ฮ่องสอน ดูแลหลักโดย องค์การบริหารส่วนตำบล (อบต.) แม่อูคอ ร่วมกับ วนอุทยานทุ่งบัวตอง (ภายใต้กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช) และ อำเภอขุนยวม",
+   "date": "2026-06-17 22:18:13",
+   "primary": true,
+   "sha256": "44e52703e9cea31c0bcb5cf83bb2dd78768d4ad4faff7cd75f510c9fa329235b"
+  },
+  {
+   "file": "bua-tong-bloom/bua-tong-bloom-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-193ef81.jpg",
+   "source": "commons",
+   "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio (2).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%282%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161030152646/http://www.panoramio.com/photo/124380145",
+   "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+   "date": "Taken on 14 July 2015",
+   "primary": false,
+   "sha256": "9efafe3cecc5752ea1c40d183c840132e3ece8f1b02950107a4759d984ee42a5"
+  },
+  {
+   "file": "bua-tong-bloom/bua-tong-bloom-thailand-weevil-39624007905.jpg",
+   "source": "commons",
+   "title": "File:Thailand weevil (39624007905).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Thailand_weevil_%2839624007905%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThailand_weevil_%2839624007905%29.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Insects Unlocked from USA",
+   "credit": "Thailand weevil",
+   "alt": "Weevil (Coleoptera, Curculionidae)\nRoute 108, Lamphung, Thailand\nThung Bua Tong Doi Mae Ho\nJuly 2017 coll. J. N. Schlauch\n\n\n\n\n\n\nThis image was created as part of the Insects Unlocked project at the Un",
+   "date": "2018-02-27 10:16",
+   "primary": false,
+   "sha256": "23b097c8af88231effb5996e70a70e3b926d8f6ae13558a52efd2613f271e411"
+  },
+  {
+   "file": "bua-tong-bloom/bua-tong-bloom-the-mexican-sunflower-fields-at-doi-mae-u-kho-mae-hong-son.jpg",
+   "source": "commons",
+   "title": "File:The Mexican Sunflower Fields at Doi Mae U Kho, Mae Hong Son.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/The_Mexican_Sunflower_Fields_at_Doi_Mae_U_Kho%2C_Mae_Hong_Son.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_Mexican_Sunflower_Fields_at_Doi_Mae_U_Kho%2C_Mae_Hong_Son.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Prawit thawonsak",
+   "credit": "Own work",
+   "alt": "The Mexican Sunflower Fields (Thung Bua Tong) at Doi Mae U Kho, Mae Hong Son, Northern Thailand.",
+   "date": "2022-11-19 17:43:46",
+   "primary": false,
+   "sha256": "afd99995cf84112264eeaadbb46d6c188fdd692c089b3bf9a5f176f91bd5c223"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "khun-yuam",
+   "type": "town",
+   "name": "Khun Yuam",
+   "as": "The hillside above the town, in November."
+  },
+  {
+   "from": "mae-surin-waterfall",
+   "type": "stop",
+   "name": "Mae Surin Waterfall",
+   "as": "The other reason to go up, in a different month."
+  },
+  {
+   "from": "cool-season",
+   "type": "event",
+   "name": "The cool season",
+   "as": "The November thing worth timing for."
+  },
+  {
+   "from": "season-and-direction",
+   "type": "story",
+   "name": "The season picks the direction",
+   "as": "The November reason to reach Khun Yuam early."
+  }
+ ]
+}

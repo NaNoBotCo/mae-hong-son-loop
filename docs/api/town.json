@@ -1,0 +1,1430 @@
+{
+ "type": "town",
+ "count": 8,
+ "nodes": [
+  {
+   "id": "chiang-mai",
+   "type": "town",
+   "names": {
+    "name": "Chiang Mai",
+    "th": "เชียงใหม่",
+    "rtgs": "Chiang Mai",
+    "said": "Where the bike comes from and where the bag stays.",
+    "said_th": "ที่ที่รถมาจาก และที่ที่กระเป๋าอยู่"
+   },
+   "region": [
+    "cnx",
+    "loop"
+   ],
+   "facets": {
+    "province": "CNX",
+    "kind": "city"
+   },
+   "geo": {
+    "lat": 18.7883,
+    "lon": 98.9853,
+    "precision": "town",
+    "elevation_m": 310
+   },
+   "text": {
+    "what": "The start and the finish. Both roads out of it — 107 to the north, 108 to the south — are the loop's two ends.",
+    "story": "*Inference —* the useful thing to say about Chiang Mai on a page about the loop is what it is for: rental, spares, a proper helmet if the shop's is bad, and the place the suitcase sits for four days.\n\nOne measured fact worth carrying out of town: across four burning seasons Chiang Mai's March mean PM2.5 is 37.8 µg/m³, higher than any town on the circuit. The air improves as you leave.",
+    "today": "Everything the rest of the circuit does not have: tyres in stock, a dealer for most brands, and a hospital that does not need a transfer."
+   },
+   "text_th": {
+    "what": "จุดเริ่มและจุดจบ ถนนสองสายที่ออกจากเมือง คือ 107 ไปเหนือ และ 108 ไปใต้ เป็นสองปลายของวงรอบ",
+    "story": "*อนุมาน —* สิ่งที่มีประโยชน์ที่จะพูดถึงเชียงใหม่ในหน้าเรื่องวงรอบ คือมันมีไว้ทำอะไร เช่ารถ หาอะไหล่ ซื้อหมวกกันน็อกที่ดีถ้าของร้านแย่ และเป็นที่ที่กระเป๋าเดินทางอยู่สี่วัน\n\nข้อเท็จจริงที่วัดได้หนึ่งข้อที่ควรพกออกจากเมืองไป ตลอดสี่ฤดูเผา ค่าเฉลี่ย PM2.5 เดือนมีนาคมของเชียงใหม่คือ 37.8 สูงกว่าทุกเมืองบนเส้นทาง อากาศจะดีขึ้นเมื่อคุณออกจากเมือง",
+    "today": "ทุกอย่างที่ส่วนที่เหลือของเส้นทางไม่มี ยางพร้อมเปลี่ยน ศูนย์บริการเกือบทุกยี่ห้อ และโรงพยาบาลที่ไม่ต้องส่งต่อ"
+   },
+   "kin": [
+    {
+     "to": "renting-a-bike",
+     "as": "The transaction that starts the trip.",
+     "rel": "kit"
+    },
+    {
+     "to": "sending-the-bag-ahead",
+     "as": "Where the bag stays instead.",
+     "rel": "kit"
+    },
+    {
+     "to": "the-smoke",
+     "as": "The dirtiest air on the route is here.",
+     "rel": "story"
+    },
+    {
+     "to": "hot-to-cnx",
+     "as": "The way back in.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:wp-chiang-mai",
+    "s:open-meteo-aq"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-chiang-mai"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "the riding conclusions are this project's; the geography and history under them are cited"
+     },
+     "text.today": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "chiang-mai/chiang-mai-chiang-mai-chiang-mai-city-art-and-cultural-center-0001.jpg",
+     "source": "commons",
+     "title": "File:Chiang Mai - Chiang Mai City Art and Cultural Center - 0001.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Chiang_Mai_-_Chiang_Mai_City_Art_and_Cultural_Center_-_0001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_Mai_-_Chiang_Mai_City_Art_and_Cultural_Center_-_0001.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Stefan Fussan",
+     "credit": "Own work - My images are also available on MyPortfolio",
+     "alt": "Chiang Mai City Art and Cultural Center, Chiang Mai, Thailand",
+     "date": "2014-05-23",
+     "primary": true,
+     "sha256": "5a6633294d4cd056314ea98c38389e9bd919d723766145e41b4e38b5903867eb"
+    },
+    {
+     "file": "chiang-mai/chiang-mai-chiang-mai-city-wall.jpg",
+     "source": "commons",
+     "title": "File:Chiang Mai City Wall.JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Chiang_Mai_City_Wall.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_Mai_City_Wall.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Tatpong Katanyukul",
+     "credit": "Own work",
+     "alt": "This is a photo of a monument in Thailand identified by the ID",
+     "date": "2014-09-14 09:32:47",
+     "primary": false,
+     "sha256": "938d301d5dfd13e5914dc573a268c3e7473bc9888808f86ad50c38a83eecf158"
+    },
+    {
+     "file": "chiang-mai/chiang-mai-map-of-chiengmai-chiang-mai-city-1931.jpg",
+     "source": "commons",
+     "title": "File:Map of Chiengmai (Chiang Mai) City 1931.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Map_of_Chiengmai_%28Chiang_Mai%29_City_1931.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMap_of_Chiengmai_%28Chiang_Mai%29_City_1931.jpg",
+     "license": "Public domain",
+     "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+     "author": "Unknown authorUnknown author",
+     "credit": "Old Maps Online (stored at the British Library) - https://www.oldmapsonline.org/en/maps/b84b50de-cdf9-5c61-9d88-a76fcd5a8464?year=1850&amp;gid=b3777b75-7966-559f-85d0-b1b1aaa602d3#position=16.6004/18.",
+     "alt": "Map of Chiengmai (Chiang Mai) city, 1931. This is the capital of Chiang Mai province. The top left stamp says: \"Royal Insurance Company Limited, 26 October 1931 Liverpool.\"",
+     "date": "1931",
+     "primary": false,
+     "sha256": "346570ec642923738f47849e7c652c5cc04384285b4766edd918613345d1bbb1"
+    },
+    {
+     "file": "chiang-mai/chiang-mai-panoramic-view-of-chiang-mai-city.jpg",
+     "source": "commons",
+     "title": "File:Panoramic view of Chiang Mai City.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Panoramic_view_of_Chiang_Mai_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APanoramic_view_of_Chiang_Mai_City.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Supanut Arunoprayote",
+     "credit": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_CMX.jpg",
+     "alt": "View of Chiang Mai City, taken from the top of Doi Suthep Mountain. Image extracted (crop) from Supanut Arunoprayote's original panoramic file. Extracted and edited (crop) under the Creative Commons A",
+     "date": "2022-08-01 14:25:52",
+     "primary": false,
+     "sha256": "91073c29078c222fc4117ecd1b2b55e8c397e53b1725047b5aca42ef11ddd825"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "hot-to-cnx",
+     "type": "leg",
+     "name": "Hot to Chiang Mai",
+     "as": "Home."
+    },
+    {
+     "from": "renting-a-bike",
+     "type": "kit",
+     "name": "Renting the bike",
+     "as": "Where the transaction happens."
+    },
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending your bag ahead",
+     "as": "Where the bag stays, and where you come back to."
+    },
+    {
+     "from": "the-smoke",
+     "type": "story",
+     "name": "The smoke",
+     "as": "The dirtiest air on the route, and where you start."
+    }
+   ]
+  },
+  {
+   "id": "hot",
+   "type": "town",
+   "names": {
+    "name": "Hot",
+    "th": "ฮอด",
+    "rtgs": "Hot",
+    "said": "A roundabout where Route 108's kilometre marks go back to zero.",
+    "said_th": "วงเวียนที่หลักกิโลเมตรของทางหลวง 108 กลับไปเริ่มที่ศูนย์"
+   },
+   "region": [
+    "cnx",
+    "hot",
+    "loop",
+    "south-leg"
+   ],
+   "facets": {
+    "province": "CNX",
+    "kind": "town"
+   },
+   "geo": {
+    "lat": 18.1447,
+    "lon": 98.5847,
+    "precision": "town",
+    "elevation_m": 290
+   },
+   "text": {
+    "what": "The hinge of the southern leg: east of here Route 108 is four to six lanes to Chiang Mai, west of here it is two lanes for 265 kilometres.",
+    "story": "The kilometre marks on Route 108 restart at zero at the Hot roundabout and run from there to Mae Hong Son — 265 kilometres. East of Hot to Chiang Mai is 88 kilometres of a different kind of road: four to six lanes with a median, narrowing to two through the town centres of Hang Dong, San Pa Tong, Thung Sieo and Chom Thong.\n\n*Inference —* the practical meaning is that Hot is where the ride starts or ends, whichever way round you go. East of it you are commuting; west of it you are riding.",
+    "today": "Fuel, food, and the last four-lane road you will see for three days."
+   },
+   "text_th": {
+    "what": "บานพับของช่วงใต้ ทางตะวันออกของที่นี่ทางหลวง 108 เป็นสี่ถึงหกช่องจราจรไปเชียงใหม่ ทางตะวันตกเป็นสองช่องจราจรยาว 265 กิโลเมตร",
+    "story": "หลักกิโลเมตรของทางหลวง 108 เริ่มนับใหม่ที่ศูนย์ตรงวงเวียนฮอด แล้ววิ่งจากที่นั่นไปแม่ฮ่องสอน ระยะ 265 กิโลเมตร ทางตะวันออกจากฮอดถึงเชียงใหม่คือ 88 กิโลเมตรของถนนคนละแบบ สี่ถึงหกช่องจราจรมีเกาะกลาง แคบลงเหลือสองช่องจราจรเมื่อผ่านตัวอำเภอหางดง สันป่าตอง ชุมชนทุ่งเสี้ยว และจอมทอง\n\n*อนุมาน —* ความหมายในทางปฏิบัติคือ ฮอดเป็นจุดที่การขี่เริ่มหรือจบ แล้วแต่ว่าคุณไปทางไหน ทางตะวันออกของมันคุณกำลังเดินทาง ทางตะวันตกคุณกำลังขี่",
+    "today": "น้ำมัน อาหาร และถนนสี่เลนสายสุดท้ายที่คุณจะได้เห็นในสามวัน"
+   },
+   "kin": [
+    {
+     "to": "route-108",
+     "as": "The road that changes character here.",
+     "rel": "road"
+    },
+    {
+     "to": "hot-to-cnx",
+     "as": "The fast way home.",
+     "rel": "leg"
+    },
+    {
+     "to": "mae-sariang-to-hot",
+     "as": "The long way in.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:thwp-108",
+    "s:wp-hot-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:thwp-108"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "the riding conclusions are this project's; the geography and history under them are cited"
+     },
+     "text.today": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "hot/hot-darth-vader-hot-air-balloon.jpg",
+     "source": "commons",
+     "title": "File:Darth vader hot air balloon.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Darth_vader_hot_air_balloon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ADarth_vader_hot_air_balloon.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Tomas Castelazo",
+     "credit": "Own work",
+     "alt": "Hot Air Balloon festival in Leon, Guanajuato, Mexico.",
+     "date": "",
+     "primary": true,
+     "sha256": "df5b0debe569b0dffbd6e22275ba45c0d3b1b487bf50f0dd9075752c710352dd"
+    },
+    {
+     "file": "hot/hot-leon-hot-air-balloon-festival-2010.jpg",
+     "source": "commons",
+     "title": "File:Leon hot air balloon festival 2010.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Leon_hot_air_balloon_festival_2010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ALeon_hot_air_balloon_festival_2010.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Tomas Castelazo",
+     "credit": "Own work",
+     "alt": "Hot air balloon festival in León, Guanajuato, Mexico. November 2010.",
+     "date": "2010-11-20",
+     "primary": false,
+     "sha256": "3d6ba08837c0a0c777183c024baa9b600d1f1059f3104dbadd0fa1ac347e74dd"
+    },
+    {
+     "file": "hot/hot-pine-cones-and-pine-unsplash.jpg",
+     "source": "commons",
+     "title": "File:Pine cones and pine (Unsplash).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Pine_cones_and_pine_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APine_cones_and_pine_%28Unsplash%29.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Siriwan Srisuwan siriwan",
+     "credit": "https://unsplash.com/photos/Nwwp27CunIY\n\narchive copy at the Wayback Machine",
+     "alt": "Hot, Thailand",
+     "date": "2017-01-18",
+     "primary": false,
+     "sha256": "f81429616e5e1bd9fbb427fba6fd83eaec3c437260c4e60f131490152063dc58"
+    },
+    {
+     "file": "hot/hot-singpost-near-a-forest-unsplash.jpg",
+     "source": "commons",
+     "title": "File:Singpost near a forest (Unsplash).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Singpost_near_a_forest_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASingpost_near_a_forest_%28Unsplash%29.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Siriwan Srisuwan siriwan",
+     "credit": "https://unsplash.com/photos/LZpzMEY0pXI\n\narchive copy at the Wayback Machine",
+     "alt": "Hot, Thailand",
+     "date": "2017-01-20",
+     "primary": false,
+     "sha256": "643eea93ba41001167b8e1b082522873f416c5204a72b5e0d3b8f0d754c1ff76"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "mae-sariang-to-hot",
+     "type": "leg",
+     "name": "Mae Sariang to Hot",
+     "as": "The town at the eastern end."
+    },
+    {
+     "from": "route-108",
+     "type": "road",
+     "name": "Route 108",
+     "as": "Where the road changes character and the kilometres restart."
+    }
+   ]
+  },
+  {
+   "id": "khun-yuam",
+   "type": "town",
+   "names": {
+    "name": "Khun Yuam",
+    "th": "ขุนยวม",
+    "rtgs": "Khun Yuam",
+    "said": "A small town with a Japanese memorial hall and a yellow hillside above it.",
+    "said_th": "เมืองเล็กๆ ที่มีอนุสรณ์สถานญี่ปุ่นและไหล่เขาสีเหลืองอยู่เหนือเมือง"
+   },
+   "region": [
+    "mhs",
+    "khun-yuam",
+    "loop",
+    "south-leg",
+    "the-cut"
+   ],
+   "facets": {
+    "province": "MHS",
+    "kind": "town"
+   },
+   "geo": {
+    "lat": 18.8228,
+    "lon": 97.9336,
+    "precision": "town",
+    "elevation_m": 620
+   },
+   "text": {
+    "what": "On Route 108 between Mae Hong Son and Mae La Noi, and the western end of the 1263 cut to Mae Chaem. Two reasons to stop, and both of them are specific.",
+    "story": "The first reason is Doi Mae U-Kho above the town, which turns yellow with *Tithonia diversifolia* in November.\n\nThe second is the war. Japanese forces used the route through this district during the Second World War, and the town holds a memorial hall to that period. *Inference —* what makes it worth the stop is not the military history but the domestic one: the relationship between a Thai town and the soldiers who came through it, which is a much less told story than the campaign.\n\nKhun Yuam is also the junction where the loop can be halved. Route 1263 leaves here for Mae Chaem, 63 kilometres of the steepest and most curve-dense road in this whole network.",
+    "today": "Fuel, food, a bed, and the decision about whether to take the cut."
+   },
+   "text_th": {
+    "what": "อยู่บนทางหลวง 108 ระหว่างแม่ฮ่องสอนกับแม่ลาน้อย และเป็นปลายด้านตะวันตกของทางลัด 1263 ไปแม่แจ่ม มีเหตุผลให้แวะสองข้อ และทั้งสองข้อเฉพาะเจาะจงมาก",
+    "story": "เหตุผลแรกคือดอยแม่อูคอเหนือเมือง ที่กลายเป็นสีเหลืองด้วยดอกบัวตองในเดือนพฤศจิกายน\n\nเหตุผลที่สองคือสงคราม กองทัพญี่ปุ่นใช้เส้นทางผ่านอำเภอนี้ในสงครามโลกครั้งที่สอง และในเมืองมีอนุสรณ์สถานของช่วงเวลานั้น *อนุมาน —* สิ่งที่ทำให้ควรแวะไม่ใช่ประวัติศาสตร์การทหาร แต่คือประวัติศาสตร์ของผู้คน ความสัมพันธ์ระหว่างเมืองไทยเมืองหนึ่งกับทหารที่ผ่านมา ซึ่งเป็นเรื่องที่ถูกเล่าน้อยกว่าเรื่องยุทธการมาก\n\nขุนยวมยังเป็นทางแยกที่ตัดวงรอบให้สั้นลงครึ่งหนึ่งได้ ทางหลวง 1263 ออกจากที่นี่ไปแม่แจ่ม ระยะ 63 กิโลเมตรที่ชันที่สุดและโค้งหนาแน่นที่สุดในเครือข่ายถนนทั้งหมดนี้",
+    "today": "น้ำมัน อาหาร ที่นอน และการตัดสินใจว่าจะไปทางลัดหรือไม่"
+   },
+   "kin": [
+    {
+     "to": "bua-tong-bloom",
+     "as": "The hillside above the town, in November.",
+     "rel": "event"
+    },
+    {
+     "to": "the-1263-cut",
+     "as": "The road that leaves from here.",
+     "rel": "leg"
+    },
+    {
+     "to": "khun-yuam-memorial",
+     "as": "The hall, and the story it holds.",
+     "rel": "stop"
+    },
+    {
+     "to": "mhs-to-khun-yuam",
+     "as": "The way in from the north.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:wp-khun-yuam-district",
+    "s:wp-thailand-in-world-war-ii",
+    "s:wp-tithonia-diversifolia"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-khun-yuam-district"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "the riding conclusions are this project's; the geography and history under them are cited"
+     },
+     "text.today": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-c34cbe2.jpg",
+     "source": "commons",
+     "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "::::=UT=::::",
+     "credit": "https://web.archive.org/web/20161102073521/http://www.panoramio.com/photo/124380088",
+     "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+     "date": "Taken on 14 July 2015",
+     "primary": true,
+     "sha256": "5c2236494f2d57374500b4e041f0adbd5b18cb0d7708e962b93a59457005386e"
+    },
+    {
+     "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-566b732.jpg",
+     "source": "commons",
+     "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio (7).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%287%29.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "::::=UT=::::",
+     "credit": "https://web.archive.org/web/20161030152729/http://www.panoramio.com/photo/124380148",
+     "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+     "date": "Taken on 14 July 2015",
+     "primary": false,
+     "sha256": "e72aa3a07a8f5644b573cabc780b660530363a2502caab9884ccbc8261afd3fa"
+    },
+    {
+     "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-6a6ed5e.jpg",
+     "source": "commons",
+     "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio (8).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%288%29.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "::::=UT=::::",
+     "credit": "https://web.archive.org/web/20161031160128/http://www.panoramio.com/photo/124380161",
+     "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+     "date": "Taken on 14 July 2015",
+     "primary": false,
+     "sha256": "2ec8ba46a7a2c590d0182ca7e5145d4b43bbde66124e20933f9d1d99b4655f3f"
+    },
+    {
+     "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-1b252c0.jpg",
+     "source": "commons",
+     "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio (9).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%289%29.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "::::=UT=::::",
+     "credit": "https://web.archive.org/web/20161031084154/http://www.panoramio.com/photo/124380177",
+     "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+     "date": "Taken on 14 July 2015",
+     "primary": false,
+     "sha256": "b5cf9d8e9bab47559d233877fd776cb4aa96b3db023b3e7cec5e137ff75d61e1"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "mhs-to-khun-yuam",
+     "type": "leg",
+     "name": "Mae Hong Son to Khun Yuam",
+     "as": "The town at the end, and the junction for the cut."
+    },
+    {
+     "from": "route-1263",
+     "type": "road",
+     "name": "Route 1263",
+     "as": "The western end."
+    },
+    {
+     "from": "mae-chaem",
+     "type": "town",
+     "name": "Mae Chaem",
+     "as": "The other end of the cut."
+    },
+    {
+     "from": "khun-yuam-memorial",
+     "type": "stop",
+     "name": "The Japanese memorial at Khun Yuam",
+     "as": "The town it is in."
+    },
+    {
+     "from": "mae-surin-waterfall",
+     "type": "stop",
+     "name": "Mae Surin Waterfall",
+     "as": "The town below."
+    },
+    {
+     "from": "bua-tong-bloom",
+     "type": "event",
+     "name": "The Bua Tong bloom",
+     "as": "The town underneath it."
+    }
+   ]
+  },
+  {
+   "id": "mae-chaem",
+   "type": "town",
+   "names": {
+    "name": "Mae Chaem",
+    "th": "แม่แจ่ม",
+    "rtgs": "Mae Chaem",
+    "said": "The east end of the shortcut, and the back door to Doi Inthanon.",
+    "said_th": "ปลายตะวันออกของทางลัด และประตูหลังสู่ดอยอินทนนท์"
+   },
+   "region": [
+    "cnx",
+    "mae-chaem",
+    "the-cut"
+   ],
+   "facets": {
+    "province": "CNX",
+    "kind": "town"
+   },
+   "geo": {
+    "lat": 18.4967,
+    "lon": 98.3714,
+    "precision": "town",
+    "elevation_m": 470
+   },
+   "text": {
+    "what": "A Chiang Mai district in its own valley, reached from the loop only by Route 1263 or over the Inthanon massif.",
+    "story": "*Inference —* Mae Chaem is the town that turns the loop into a choice. Arriving here from Khun Yuam means the 1263 has been ridden and the circuit has been halved; the road on from here climbs over the Inthanon side and drops to Chom Thong on Route 108.\n\nIt is a weaving district and the cloth is its own subject, which this project has not yet written up.",
+    "today": "Small, and the services are small with it. Fill up in Khun Yuam before the cut, not here after it."
+   },
+   "text_th": {
+    "what": "อำเภอหนึ่งของเชียงใหม่ในหุบของตัวเอง เข้าถึงจากวงรอบได้ทางทางหลวง 1263 หรือข้ามเทือกดอยอินทนนท์เท่านั้น",
+    "story": "*อนุมาน —* แม่แจ่มคือเมืองที่เปลี่ยนวงรอบให้เป็นทางเลือก การมาถึงที่นี่จากขุนยวมแปลว่าได้ขี่ 1263 แล้ว และวงรอบถูกตัดครึ่ง ถนนต่อจากนี้ไต่ข้ามฝั่งอินทนนท์แล้วทิ้งตัวลงจอมทองบนทางหลวง 108\n\nที่นี่เป็นอำเภอทอผ้า และผ้าของที่นี่เป็นเรื่องของตัวเอง ซึ่งโครงการนี้ยังไม่ได้เขียนถึง",
+    "today": "เล็ก และบริการต่างๆ ก็เล็กตาม เติมน้ำมันที่ขุนยวมก่อนเข้าทางลัด ไม่ใช่ที่นี่หลังออกมา"
+   },
+   "kin": [
+    {
+     "to": "the-1263-cut",
+     "as": "The road that arrives here.",
+     "rel": "leg"
+    },
+    {
+     "to": "doi-inthanon",
+     "as": "The mountain on the other side.",
+     "rel": "stop"
+    },
+    {
+     "to": "khun-yuam",
+     "as": "The other end of the cut.",
+     "rel": "town"
+    }
+   ],
+   "sources": [
+    "s:wp-mae-chaem-district",
+    "s:wp-doi-inthanon"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-mae-chaem-district"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "the riding conclusions are this project's; the geography and history under them are cited"
+     },
+     "text.today": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "mae-chaem/mae-chaem-2013-pano-mae-chaem-district-1.jpg",
+     "source": "commons",
+     "title": "File:2013 Pano Mae Chaem District 1.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/2013_Pano_Mae_Chaem_District_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A2013_Pano_Mae_Chaem_District_1.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "Countryside in the mountains of Mae Chaem District, Chiang Mai Province, seen from road 1263.\n This  image was created with Hugin.",
+     "date": "2013-12-27 13:47:11",
+     "primary": true,
+     "sha256": "20fdce8dbd559b2c00bb0a4000ac8061673820b6611d5a22fe73b8a1938a50c0"
+    },
+    {
+     "file": "mae-chaem/mae-chaem-2013-pano-mae-chaem-district-2.jpg",
+     "source": "commons",
+     "title": "File:2013 Pano Mae Chaem District 2.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2013_Pano_Mae_Chaem_District_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A2013_Pano_Mae_Chaem_District_2.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "Countryside in the mountains of Mae Chaem District, Chiang Mai Province, seen from road 1263.\n This  image was created with Hugin.",
+     "date": "2013-12-27 14:16:46",
+     "primary": false,
+     "sha256": "7371d382cc7e1b29c84ffb160a1ab6780d3081e93f6626f555fdba384dbf349e"
+    },
+    {
+     "file": "mae-chaem/mae-chaem-wat-pa-daet-mae-chaem-01.jpg",
+     "source": "commons",
+     "title": "File:Wat Pa Daet Mae Chaem 01.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Wat_Pa_Daet_Mae_Chaem_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Pa_Daet_Mae_Chaem_01.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "The entrance of the wihan",
+     "date": "2013-12-28 07:51:24",
+     "primary": false,
+     "sha256": "812dcea92eec16b353ad20405328bd67ab23d082001ee455197a37b58564d648"
+    },
+    {
+     "file": "mae-chaem/mae-chaem-wat-pa-daet-mae-chaem-02.jpg",
+     "source": "commons",
+     "title": "File:Wat Pa Daet Mae Chaem 02.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Wat_Pa_Daet_Mae_Chaem_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Pa_Daet_Mae_Chaem_02.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "This is a photo of a monument in Thailand identified by the ID",
+     "date": "2013-12-28 07:54:02",
+     "primary": false,
+     "sha256": "d2550350e37eaf85c5205b4cbc89a98ab4f83c0bc2d00f6c35509ff4aa958fab"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "the-1263-cut",
+     "type": "leg",
+     "name": "The 1263 cut",
+     "as": "The eastern end."
+    },
+    {
+     "from": "route-1088",
+     "type": "road",
+     "name": "Route 1088",
+     "as": "Where it starts."
+    },
+    {
+     "from": "route-1263",
+     "type": "road",
+     "name": "Route 1263",
+     "as": "The eastern end."
+    },
+    {
+     "from": "doi-inthanon",
+     "type": "stop",
+     "name": "Doi Inthanon",
+     "as": "The town on the back side."
+    }
+   ]
+  },
+  {
+   "id": "mae-hong-son",
+   "type": "town",
+   "names": {
+    "name": "Mae Hong Son",
+    "th": "แม่ฮ่องสอน",
+    "rtgs": "Mae Hong Son",
+    "said": "The city of three mists, and a provincial capital you can walk across in twenty minutes.",
+    "said_th": "เมืองสามหมอก และเมืองหลวงของจังหวัดที่เดินข้ามได้ในยี่สิบนาที"
+   },
+   "region": [
+    "mhs",
+    "mueang-mhs",
+    "loop"
+   ],
+   "facets": {
+    "province": "MHS",
+    "kind": "city"
+   },
+   "geo": {
+    "lat": 19.302,
+    "lon": 97.9654,
+    "precision": "town",
+    "elevation_m": 270
+   },
+   "text": {
+    "what": "The far end of the loop and the only town on it with an airport, a hospital of size, and a chedi on a hill above the runway. Population small, altitude low, mountains on every side.",
+    "story": "Mae Hong Son province is the westernmost in Thailand and the most mountainous, 12,765 square kilometres at 22 people per square kilometre, the lowest population density of any province. As of 2012 it was also the poorest.\n\nThe province was formerly part of Mawkmai State, one of the Shan States, founded in 1767 by Hsai Khiao of a Chiang Mai noble family. The Anglo-Siamese Boundary Commission of 1892–93 ceded Mae Hong Son district to Siam while the trans-Salween districts stayed with British Burma — which is why the border runs where it does, and why the temples in town look Burmese rather than Lanna.\n\nThe town itself was established in the early nineteenth century as an elephant training camp, on the order of the then King of Chiang Mai. Shan people are the largest population group in the province; the other named groups are Karen, Lahu, Lisu, Lua, Miao and Pa-O, and Chinese Yunnanese. 77.5 per cent of inhabitants are Buddhist and 20.9 per cent Christian, which is a far higher Christian share than Thailand as a whole.",
+    "today": "For a rider it is the pivot: the point where the loop turns, the one place with a hospital and a full range of mechanics, and the town that deserves two nights rather than one. The dawn mist that gives the province its nickname is best seen from the chedi on the hill, which means being up before the town is."
+   },
+   "text_th": {
+    "what": "ปลายอีกด้านของวงรอบ และเป็นเมืองเดียวบนเส้นทางที่มีสนามบิน มีโรงพยาบาลขนาดใหญ่ และมีเจดีย์บนดอยเหนือรันเวย์ ประชากรน้อย พื้นที่ต่ำ ล้อมรอบด้วยภูเขาทุกด้าน",
+    "story": "จังหวัดแม่ฮ่องสอนเป็นจังหวัดตะวันตกสุดของไทยและเป็นภูเขามากที่สุด พื้นที่ 12,765 ตารางกิโลเมตร ความหนาแน่น 22 คนต่อตารางกิโลเมตร ต่ำที่สุดในบรรดาทุกจังหวัด และในปี 2555 ยังเป็นจังหวัดที่ยากจนที่สุด\n\nเดิมพื้นที่นี้เป็นส่วนหนึ่งของเมืองหมอกใหม่ หนึ่งในรัฐฉาน ก่อตั้งเมื่อ พ.ศ. 2310 โดยไสยเขียว จากตระกูลขุนนางเชียงใหม่ คณะกรรมการปักปันเขตแดนอังกฤษ-สยาม พ.ศ. 2435–2436 ยกอำเภอแม่ฮ่องสอนให้สยาม ขณะที่เขตฝั่งตะวันตกของสาละวินยังอยู่กับพม่าของอังกฤษ นั่นคือเหตุผลที่ชายแดนอยู่ตรงนี้ และเหตุผลที่วัดในเมืองดูเป็นพม่ามากกว่าล้านนา\n\nตัวเมืองตั้งขึ้นต้นศตวรรษที่ 19 เป็นปางคล้องช้าง ตามพระบัญชาของเจ้าผู้ครองนครเชียงใหม่ในเวลานั้น ชาวไทใหญ่เป็นกลุ่มประชากรใหญ่ที่สุดในจังหวัด กลุ่มอื่นที่ระบุไว้คือ กะเหรี่ยง ลาหู่ ลีซู ลัวะ ม้ง ปะโอ และจีนยูนนาน ประชากรร้อยละ 77.5 นับถือพุทธ ร้อยละ 20.9 นับถือคริสต์ ซึ่งเป็นสัดส่วนคริสต์ที่สูงกว่าค่าเฉลี่ยของประเทศมาก",
+    "today": "สำหรับคนขี่รถ ที่นี่คือจุดหมุน เป็นจุดที่วงรอบเลี้ยวกลับ เป็นที่เดียวที่มีโรงพยาบาลและมีช่างครบ และเป็นเมืองที่ควรได้สองคืนมากกว่าคืนเดียว หมอกยามรุ่งที่เป็นที่มาของฉายาจังหวัดนี้ดูได้ดีที่สุดจากเจดีย์บนดอย ซึ่งแปลว่าต้องตื่นก่อนเมืองตื่น"
+   },
+   "kin": [
+    {
+     "to": "doi-kong-mu",
+     "as": "The chedi above the airstrip, and the dawn.",
+     "rel": "wat"
+    },
+    {
+     "to": "shan",
+     "as": "The largest population group in the province.",
+     "rel": "person"
+    },
+    {
+     "to": "soppong-to-mhs",
+     "as": "The way in from the north.",
+     "rel": "leg"
+    },
+    {
+     "to": "mhs-to-khun-yuam",
+     "as": "The way out to the south.",
+     "rel": "leg"
+    },
+    {
+     "to": "the-smoke",
+     "as": "The one air monitor in the province is here.",
+     "rel": "story"
+    },
+    {
+     "to": "poy-sang-long",
+     "as": "The festival the town is known for.",
+     "rel": "event"
+    },
+    {
+     "to": "sending-the-bag-ahead",
+     "as": "The only sensible forwarding address on the circuit.",
+     "rel": "kit"
+    }
+   ],
+   "sources": [
+    "s:wp-mae-hong-son-province",
+    "s:wp-mae-hong-son",
+    "s:wp-mueang-mae-hong-son-district",
+    "s:wp-shan-state",
+    "s:air4thai"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-mae-hong-son-province"
+    },
+    "fields": {
+     "text.today": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "tags": [
+    {
+     "source": "s:wp-mae-hong-son",
+     "tag": "hospital"
+    },
+    {
+     "source": "s:osm",
+     "tag": "on-the-loop"
+    }
+   ],
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "mae-hong-son/mae-hong-son-mae-hong-son-thailand-unsplash.jpg",
+     "source": "commons",
+     "title": "File:Mae Hong Son, Thailand (Unsplash).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mae_Hong_Son%2C_Thailand_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Hong_Son%2C_Thailand_%28Unsplash%29.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Stephanie Ecate steffny0206",
+     "credit": "https://unsplash.com/photos/VDlG0OfIanU\n\narchive copy at the Wayback Machine",
+     "alt": "Mae Hong Son, Thailand",
+     "date": "2016-10-18",
+     "primary": true,
+     "sha256": "562c8319766e72e484d471eb7a8a14842f5efe13ee70684931d497ec9def7e1e"
+    },
+    {
+     "file": "mae-hong-son/mae-hong-son-mae-hong-son-bus-terminal.jpg",
+     "source": "commons",
+     "title": "File:Mae Hong Son Bus Terminal.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Mae_Hong_Son_Bus_Terminal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Hong_Son_Bus_Terminal.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "The bus terminal of Mae Hong Son.",
+     "date": "2018-09-02 06:47:34",
+     "primary": false,
+     "sha256": "437c6ee40e859e95995df2e55da9ce66c541c31a190d633c1fc1ab6b74c6c5aa"
+    },
+    {
+     "file": "mae-hong-son/mae-hong-son-sunset-in-mae-hong-son.jpg",
+     "source": "commons",
+     "title": "File:Sunset in Mae Hong Son.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Sunset_in_Mae_Hong_Son.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASunset_in_Mae_Hong_Son.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "View of the sunset from Wat Phrathat Doi Kong Mu in Mae Hong Son.",
+     "date": "2018-09-01 19:13:50",
+     "primary": false,
+     "sha256": "443a204ee00ed12c22fc79f86661098a9b7a8df4971714e6d99de9098f1c1abb"
+    },
+    {
+     "file": "mae-hong-son/mae-hong-son-view-of-mae-hong-son-1.jpg",
+     "source": "commons",
+     "title": "File:View of Mae Hong Son 1.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/View_of_Mae_Hong_Son_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AView_of_Mae_Hong_Son_1.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "View of Mae Hong Son from Wat Phrathat Doi Kong Mu.",
+     "date": "2018-09-01 18:34:38",
+     "primary": false,
+     "sha256": "e12119d34e279e4e7eb293ec4fb50d16ad54010df5fe28c6e93f563062c5941e"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "soppong-to-mhs",
+     "type": "leg",
+     "name": "Soppong to Mae Hong Son",
+     "as": "The town at the bottom."
+    },
+    {
+     "from": "ban-rak-thai",
+     "type": "stop",
+     "name": "Ban Rak Thai",
+     "as": "The town the day starts from."
+    },
+    {
+     "from": "pang-ung",
+     "type": "stop",
+     "name": "Pang Ung",
+     "as": "The town you sleep in to get here at dawn."
+    },
+    {
+     "from": "su-tong-pae",
+     "type": "stop",
+     "name": "Su Tong Pae bridge",
+     "as": "The town it is outside."
+    },
+    {
+     "from": "tham-pla",
+     "type": "stop",
+     "name": "Tham Pla, the fish cave",
+     "as": "The town it is north of."
+    },
+    {
+     "from": "chong-kham-chong-klang",
+     "type": "wat",
+     "name": "Wat Chong Kham and Wat Chong Klang",
+     "as": "The town they are the centre of."
+    },
+    {
+     "from": "doi-kong-mu",
+     "type": "wat",
+     "name": "Wat Phra That Doi Kong Mu",
+     "as": "The town below."
+    },
+    {
+     "from": "one-way-rental",
+     "type": "kit",
+     "name": "Not coming back to Chiang Mai",
+     "as": "The town with the airport."
+    },
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending your bag ahead",
+     "as": "The one sensible forwarding destination on the circuit."
+    },
+    {
+     "from": "shan",
+     "type": "person",
+     "name": "The Shan",
+     "as": "The province where they are the majority."
+    },
+    {
+     "from": "poy-sang-long",
+     "type": "event",
+     "name": "Poy Sang Long",
+     "as": "Where the biggest processions are."
+    },
+    {
+     "from": "kayan-question",
+     "type": "story",
+     "name": "The villages that charge admission",
+     "as": "The province the villages are in."
+    }
+   ]
+  },
+  {
+   "id": "mae-sariang",
+   "type": "town",
+   "names": {
+    "name": "Mae Sariang",
+    "th": "แม่สะเรียง",
+    "rtgs": "Mae Sariang",
+    "said": "The southern base, on the Yuam river, with almost nobody in it.",
+    "said_th": "ฐานทางใต้ ริมแม่น้ำยวม และแทบไม่มีคน"
+   },
+   "region": [
+    "mhs",
+    "mae-sariang",
+    "loop",
+    "south-leg"
+   ],
+   "facets": {
+    "province": "MHS",
+    "kind": "town"
+   },
+   "geo": {
+    "lat": 18.1614,
+    "lon": 97.9308,
+    "precision": "town",
+    "elevation_m": 220
+   },
+   "text": {
+    "what": "The largest town on the southern leg and the natural overnight between Mae Hong Son and Chiang Mai. Teak-era shophouses, Burmese-style wats, and a river.",
+    "story": "Mae Sariang district reaches west to the Salween, which is the border, and the road on to Mae Sam Laep is the way to see it.\n\n*Inference —* the reason to give Mae Sariang a night rather than treating it as a lunch stop is arithmetic. Mae Hong Son to Chiang Mai in one day by Route 108 is a very long day on a mountain road; broken at Mae Sariang it is two comfortable ones. Riders on a tight schedule push through and arrive after dark, which is the single most avoidable mistake on this circuit.",
+    "today": "Quiet, cheap, and the last town of any size before the long empty run north or the long fast run east."
+   },
+   "text_th": {
+    "what": "เมืองใหญ่ที่สุดบนช่วงใต้ และเป็นที่พักค้างคืนตามธรรมชาติระหว่างแม่ฮ่องสอนกับเชียงใหม่ มีตึกแถวยุคไม้สัก วัดแบบพม่า และแม่น้ำ",
+    "story": "อำเภอแม่สะเรียงทอดตัวไปทางตะวันตกจนถึงแม่น้ำสาละวิน ซึ่งคือชายแดน และถนนต่อไปแม่สามแลบคือทางไปดูมัน\n\n*อนุมาน —* เหตุผลที่ควรให้แม่สะเรียงหนึ่งคืนแทนที่จะแวะกินข้าวเที่ยงคือเลขคณิต แม่ฮ่องสอนถึงเชียงใหม่ในวันเดียวทางหลวง 108 เป็นวันที่ยาวมากบนถนนภูเขา ถ้าแบ่งครึ่งที่แม่สะเรียงจะกลายเป็นสองวันสบายๆ คนขี่ที่ตารางแน่นมักฝืนไปต่อและไปถึงตอนมืด ซึ่งเป็นความผิดพลาดที่เลี่ยงได้ง่ายที่สุดบนเส้นทางนี้",
+    "today": "เงียบ ถูก และเป็นเมืองสุดท้ายที่มีขนาดก่อนทางยาวว่างเปล่าขึ้นเหนือ หรือทางยาวเร็วไปตะวันออก"
+   },
+   "kin": [
+    {
+     "to": "mae-sariang-to-hot",
+     "as": "The long eastern day.",
+     "rel": "leg"
+    },
+    {
+     "to": "khun-yuam-to-mae-sariang",
+     "as": "The way in from the north.",
+     "rel": "leg"
+    },
+    {
+     "to": "route-108",
+     "as": "The road it sits on.",
+     "rel": "road"
+    }
+   ],
+   "sources": [
+    "s:wp-mae-sariang-district",
+    "s:wp-salween-river",
+    "s:wp-mae-hong-son-province"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-mae-sariang-district"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "the riding conclusions are this project's; the geography and history under them are cited"
+     },
+     "text.today": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "mae-sariang/mae-sariang-mountains-in-mae-sariang-mae-kanai.jpg",
+     "source": "commons",
+     "title": "File:Mountains in Mae Sariang (Mae Kanai).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Mountains_in_Mae_Sariang_%28Mae_Kanai%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMountains_in_Mae_Sariang_%28Mae_Kanai%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Angkun-ane",
+     "credit": "Own work",
+     "alt": "Mountains in Mae Sariang (Mae Kanai)",
+     "date": "25 February 2026 (according to Exif data",
+     "primary": true,
+     "sha256": "e49a1600ac342b1607484877db335d15a4fe68ef335d04e378369ce8fdbac81b"
+    },
+    {
+     "file": "mae-sariang/mae-sariang-sukhumbandhunirmit-building-in-mae-sariang-boripat-s-6916288.jpg",
+     "source": "commons",
+     "title": "File:Sukhumbandhunirmit building in Mae Sariang Boripat Suksa School.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Sukhumbandhunirmit_building_in_Mae_Sariang_Boripat_Suksa_School.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASukhumbandhunirmit_building_in_Mae_Sariang_Boripat_Suksa_School.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Angkun-ane",
+     "credit": "Own work",
+     "alt": "A three-story school building named \"Sukhumbandhunirmit\"",
+     "date": "Taken on 24 December 2025, 08:20",
+     "primary": false,
+     "sha256": "24fc7ce4b2182263391eb5498024c7c2a54f2a14bc6cfeba2f6309650a7bd243"
+    },
+    {
+     "file": "mae-sariang/mae-sariang-the-first-group-of-mathayom-students-in-mae-sariang-19eaa3d.jpg",
+     "source": "commons",
+     "title": "File:The first group of Mathayom students in Mae Sariang Boripat Suksa school.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/The_first_group_of_Mathayom_students_in_Mae_Sariang_Boripat_Suksa_school.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_first_group_of_Mathayom_students_in_Mae_Sariang_Boripat_Suksa_school.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Mae Sariang Boripat Suksa school, scanned and enhancement edits by นายภูมิ สินทรัพย์",
+     "credit": "Mae Sariang Boripat Suksa school",
+     "alt": "The first group of Mathayom students in Mae Sariang Boripat Suksa school in 1940",
+     "date": "1940",
+     "primary": false,
+     "sha256": "aca19bbc3ded2489fbd2d006f4444cebaf7e67c28a61eab024e7a8b4e101bfd3"
+    },
+    {
+     "file": "mae-sariang/mae-sariang-the-street-of-mae-sariang.jpg",
+     "source": "commons",
+     "title": "File:The street of Mae Sariang.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/The_street_of_Mae_Sariang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_street_of_Mae_Sariang.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Angkun-ane",
+     "credit": "Own work",
+     "alt": "Taken at night, this is a picture of street in Mae Sariang, decorated with Lanna lantern",
+     "date": "2024-10-03 19:43:16",
+     "primary": false,
+     "sha256": "4c76111978a699337b931cd790fc18e915bb7a1e065673216bfaef837a222a78"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "khun-yuam-to-mae-sariang",
+     "type": "leg",
+     "name": "Khun Yuam to Mae Sariang",
+     "as": "The town at the end."
+    },
+    {
+     "from": "route-108",
+     "type": "road",
+     "name": "Route 108",
+     "as": "The town that breaks the long half in two."
+    }
+   ]
+  },
+  {
+   "id": "pai",
+   "type": "town",
+   "names": {
+    "name": "Pai",
+    "th": "ปาย",
+    "rtgs": "Pai",
+    "said": "A river valley that became a destination, and is now busy arguing about what that did to it.",
+    "said_th": "หุบแม่น้ำที่กลายเป็นจุดหมาย และตอนนี้กำลังเถียงกันว่ามันทำอะไรกับที่นี่"
+   },
+   "region": [
+    "mhs",
+    "pai",
+    "loop",
+    "north-leg"
+   ],
+   "facets": {
+    "province": "MHS",
+    "kind": "town"
+   },
+   "geo": {
+    "lat": 19.3592,
+    "lon": 98.4407,
+    "precision": "town",
+    "elevation_m": 480
+   },
+   "text": {
+    "what": "Night one clockwise. A small district town in a flat river basin ringed by hills, with more guesthouses, coffee and motorcycle rental per head than anywhere else on the circuit.",
+    "story": "Pai sits on the Pai river in a basin at around 480 metres, which is the thing that explains both the climate and the smoke: cool air pools here at night, and so does everything else in the air.\n\nWhat it is now is contested locally in the ordinary way, and this page reports the argument rather than joining it. *Inference —* what is not in dispute is the practical picture for a rider: it is the best-supplied town on the northern leg, it has mechanics who see foreign bikes daily, and it is the one place on the circuit where a room can be hard to find without booking in the cool season.",
+    "today": "The measured air here is the mildest of the circuit in March — a 26.1 µg/m³ monthly mean against Chiang Mai's 37.8 — and the province's single air monitor is a hundred kilometres away in Mae Hong Son, so nobody official is measuring it."
+   },
+   "text_th": {
+    "what": "คืนแรกถ้าไปตามเข็ม เมืองอำเภอเล็กๆ ในแอ่งแม่น้ำราบล้อมด้วยเขา มีเกสต์เฮาส์ กาแฟ และร้านเช่ามอเตอร์ไซค์ต่อหัวมากกว่าที่ไหนบนเส้นทาง",
+    "story": "ปายตั้งอยู่ริมแม่น้ำปายในแอ่งที่ความสูงราว 480 เมตร ซึ่งเป็นสิ่งที่อธิบายทั้งภูมิอากาศและควัน อากาศเย็นมาขังที่นี่ตอนกลางคืน และทุกอย่างที่ลอยอยู่ในอากาศก็มาขังด้วย\n\nสิ่งที่ปายเป็นอยู่ตอนนี้เป็นเรื่องที่คนในพื้นที่ถกเถียงกันตามปกติ และหน้านี้รายงานข้อถกเถียง ไม่ได้เข้าร่วม *อนุมาน —* สิ่งที่ไม่มีใครเถียงคือภาพในทางปฏิบัติสำหรับคนขี่รถ ที่นี่มีของครบที่สุดบนช่วงเหนือ มีช่างที่เห็นรถต่างชาติทุกวัน และเป็นที่เดียวบนเส้นทางที่หาห้องยากถ้าไม่จองล่วงหน้าในฤดูหนาว",
+    "today": "อากาศที่วัดได้ที่นี่ดีที่สุดบนเส้นทางในเดือนมีนาคม ค่าเฉลี่ยรายเดือน 26.1 เทียบกับเชียงใหม่ 37.8 และสถานีวัดอากาศเพียงแห่งเดียวของจังหวัดอยู่ห่างออกไปร้อยกิโลเมตรที่แม่ฮ่องสอน จึงไม่มีหน่วยงานใดวัดอากาศที่นี่"
+   },
+   "kin": [
+    {
+     "to": "cnx-to-pai",
+     "as": "The leg that ends here, and the curves that get you here.",
+     "rel": "leg"
+    },
+    {
+     "to": "pai-to-soppong",
+     "as": "The way on.",
+     "rel": "leg"
+    },
+    {
+     "to": "route-1095",
+     "as": "The road the town is on.",
+     "rel": "road"
+    },
+    {
+     "to": "the-smoke",
+     "as": "Why the basin matters, and what the numbers say.",
+     "rel": "story"
+    },
+    {
+     "to": "how-many-curves",
+     "as": "The number on the shirts sold here.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:wp-pai-thailand",
+    "s:wp-pai-district",
+    "s:wp-pai-river",
+    "s:open-meteo-aq"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-pai-district"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference"
+     },
+     "text.today": {
+      "tier": "harvested",
+      "source": "s:open-meteo-aq"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "pai/pai-pai-thailand.jpg",
+     "source": "commons",
+     "title": "File:Pai (Thailand).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Pai_%28Thailand%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APai_%28Thailand%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "View from the east of Pai, Thailand.",
+     "date": "2018-08-29 16:46:56",
+     "primary": true,
+     "sha256": "1ecdc97b0e9768150d31ace190c9a2706d734fcd161d35e66d707073401078ad"
+    },
+    {
+     "file": "pai/pai-pai-canyon.jpg",
+     "source": "commons",
+     "title": "File:Pai canyon.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Pai_canyon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APai_canyon.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Sgroey",
+     "credit": "Own work",
+     "alt": "Pai canyon",
+     "date": "2016-07-01",
+     "primary": false,
+     "sha256": "5978602baf367fb829828406c98b0c05f6b350fcf1239d6a5f0f94dbeb9ac377"
+    },
+    {
+     "file": "pai/pai-view-from-santichon-village.jpg",
+     "source": "commons",
+     "title": "File:View from Santichon Village.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/View_from_Santichon_Village.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AView_from_Santichon_Village.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "WalkOnWater93",
+     "credit": "Own work",
+     "alt": "Dry fields and distant homes are seen in the Pai District",
+     "date": "2022-11-26 14:16:08",
+     "primary": false,
+     "sha256": "6b88356664a663a6be5251bda1a20b72a15edaa196c269833b8a3d194a362c56"
+    },
+    {
+     "file": "pai/pai-view-of-pai-3.jpg",
+     "source": "commons",
+     "title": "File:View of Pai 3.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/View_of_Pai_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AView_of_Pai_3.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "View of Pai from the Big Buddha of Wat Phra That Mae Yen.",
+     "date": "2018-08-30 10:31:13",
+     "primary": false,
+     "sha256": "05812430e1b48dbccf6c5414f0b1abfffebe0af11bc3aea778b4ad9b84a6440e"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "cnx-to-pai",
+     "type": "leg",
+     "name": "Chiang Mai to Pai",
+     "as": "The town at the end."
+    },
+    {
+     "from": "route-1095",
+     "type": "road",
+     "name": "Route 1095",
+     "as": "The town in the middle."
+    },
+    {
+     "from": "pai-canyon",
+     "type": "stop",
+     "name": "Pai Canyon",
+     "as": "The town it is outside."
+    },
+    {
+     "from": "the-smoke",
+     "type": "story",
+     "name": "The smoke",
+     "as": "The town with no air monitor and the softest March of the circuit."
+    },
+    {
+     "from": "the-1864-sign",
+     "type": "art",
+     "name": "The 1,864 sign",
+     "as": "The town that sells it."
+    }
+   ]
+  },
+  {
+   "id": "soppong",
+   "type": "town",
+   "names": {
+    "name": "Soppong",
+    "th": "สบป่อง",
+    "rtgs": "Soppong",
+    "said": "A junction, a caves district, and the quietest useful stop on the northern leg.",
+    "said_th": "ทางแยก อำเภอถ้ำ และจุดพักที่เงียบที่สุดที่ยังใช้ประโยชน์ได้บนช่วงเหนือ"
+   },
+   "region": [
+    "mhs",
+    "pangmapha",
+    "loop",
+    "north-leg"
+   ],
+   "facets": {
+    "province": "MHS",
+    "kind": "town"
+   },
+   "geo": {
+    "lat": 19.4906,
+    "lon": 98.2694,
+    "precision": "town",
+    "elevation_m": 640
+   },
+   "text": {
+    "what": "The main settlement of Pang Mapha district, in limestone karst country. Officially Pang Mapha; on the road signs and in every conversation, Soppong.",
+    "story": "Pang Mapha district is limestone, and limestone here means caves — the district holds a large number of them, including the one at Tham Lot with its river running through.\n\n*Inference —* for a rider Soppong is the answer to a specific problem: the Pai to Mae Hong Son run is long enough to be a poor half-day and short enough to be a wasted full one, and Soppong sits in the middle of it. Staying here rather than pushing on buys you the caves in the morning light and takes the hardest descent off the end of a long day.",
+    "today": "Fuel, food, a few guesthouses, and no more than that. Treat the pump here as the last certain one before Mae Hong Son."
+   },
+   "text_th": {
+    "what": "ชุมชนหลักของอำเภอปางมะผ้า อยู่ในเขตภูเขาหินปูน ชื่อทางการคือปางมะผ้า แต่บนป้ายและในทุกบทสนทนาเรียกสบป่อง",
+    "story": "อำเภอปางมะผ้าเป็นหินปูน และหินปูนที่นี่แปลว่าถ้ำ อำเภอนี้มีถ้ำจำนวนมาก รวมถึงถ้ำลอดที่มีลำน้ำไหลผ่าน\n\n*อนุมาน —* สำหรับคนขี่รถ สบป่องคือคำตอบของปัญหาเฉพาะอย่างหนึ่ง ระยะปายถึงแม่ฮ่องสอนยาวเกินกว่าจะเป็นครึ่งวันที่ดี และสั้นเกินกว่าจะเป็นเต็มวันที่คุ้ม และสบป่องอยู่ตรงกลางพอดี การพักที่นี่แทนที่จะฝืนไปต่อ ทำให้ได้ถ้ำในแสงเช้า และเอาทางลงที่ยากที่สุดออกจากปลายวันที่ยาว",
+    "today": "น้ำมัน อาหาร เกสต์เฮาส์ไม่กี่แห่ง และไม่มีอะไรมากกว่านั้น ให้ถือว่าปั๊มที่นี่คือปั๊มสุดท้ายที่แน่นอนก่อนถึงแม่ฮ่องสอน"
+   },
+   "kin": [
+    {
+     "to": "tham-lot",
+     "as": "The cave the district is known for.",
+     "rel": "stop"
+    },
+    {
+     "to": "pai-to-soppong",
+     "as": "The way in.",
+     "rel": "leg"
+    },
+    {
+     "to": "soppong-to-mhs",
+     "as": "The way on, and the hardest descent of the northern leg.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:wp-pang-mapha-district",
+    "s:wp-tham-lot-cave"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-pang-mapha-district"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "the riding conclusions are this project's; the geography and history under them are cited"
+     },
+     "text.today": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "soppong/soppong-mountains-in-pang-mapha-district-2.jpg",
+     "source": "commons",
+     "title": "File:Mountains in Pang Mapha District 2.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Mountains_in_Pang_Mapha_District_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMountains_in_Pang_Mapha_District_2.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Mountains in Pang Mapha District, Mae Hong Son Province.",
+     "date": "2018-08-31 15:08:58",
+     "primary": true,
+     "sha256": "08d1f85832d33295d5f8d822c0ac63d3570c5715342cf0a4593cea005960feed"
+    },
+    {
+     "file": "soppong/soppong-peanuts-in-pang-mapha-district.jpg",
+     "source": "commons",
+     "title": "File:Peanuts in Pang Mapha District.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Peanuts_in_Pang_Mapha_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APeanuts_in_Pang_Mapha_District.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Peanuts in Pang Mapha District, Mae Hong Son Province.",
+     "date": "2018-08-31 10:57:40",
+     "primary": false,
+     "sha256": "910db46faf00c15caf93efb84ff7a4f18c9168aac3fdfa07b768ef8201ed01d6"
+    },
+    {
+     "file": "soppong/soppong-termites-in-pang-mapha-district.jpg",
+     "source": "commons",
+     "title": "File:Termites in Pang Mapha District.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Termites_in_Pang_Mapha_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ATermites_in_Pang_Mapha_District.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Termites in Pang Mapha District, Mae Hong Son Province.",
+     "date": "2018-08-31 10:39:55",
+     "primary": false,
+     "sha256": "00193a8866d84f34e57daa0b8999855ab95c97526ef59e81edd3eba8bfc3fe84"
+    },
+    {
+     "file": "soppong/soppong-village-in-pang-mapha-district-1.jpg",
+     "source": "commons",
+     "title": "File:Village in Pang Mapha District 1.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Village_in_Pang_Mapha_District_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AVillage_in_Pang_Mapha_District_1.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Lisu village in Pang Mapha District, Mae Hong Son Province.",
+     "date": "2018-08-31 11:29:42",
+     "primary": false,
+     "sha256": "35466c1d7d73c9c17b6a7d0ba245b9b09556d7fb207e617b47890b5c0552781b"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "pai-to-soppong",
+     "type": "leg",
+     "name": "Pai to Soppong",
+     "as": "The town at the end."
+    },
+    {
+     "from": "tham-lot",
+     "type": "stop",
+     "name": "Tham Lot",
+     "as": "The town it belongs to."
+    }
+   ]
+  }
+ ]
+}

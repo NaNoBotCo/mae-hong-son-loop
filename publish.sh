@@ -14,7 +14,7 @@ export PYTHONUTF8=1
 
 STYLE="$HOME/.claude/bin/stylecheck.py"
 if [ -f "$STYLE" ]; then
-  python3 "$STYLE" tools data schema README.md NOTICE.txt notes || {
+  python3 "$STYLE" tools data/nodes data/vocab data/sources schema README.md NOTICE.txt notes || {
     echo "REFUSED: style. See ~/.claude/STYLE.md"; exit 4; }
 fi
 

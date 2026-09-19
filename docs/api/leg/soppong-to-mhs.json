@@ -1,0 +1,488 @@
+{
+ "id": "soppong-to-mhs",
+ "type": "leg",
+ "names": {
+  "name": "Soppong to Mae Hong Son",
+  "th": "สบป่อง – แม่ฮ่องสอน",
+  "said": "The descent into the three mists, and the one to do in the morning.",
+  "said_th": "ทางลงสู่เมืองสามหมอก และเป็นช่วงที่ควรทำตอนเช้า"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "days": "1",
+  "direction": "both"
+ },
+ "text": {
+  "what": "Fifty-two kilometres, a hundred and ninety curves, and a long drop into the Mae Hong Son valley at the end.",
+  "story": "*Inference —* 51.5 kilometres, 190 curves at a 25-degree threshold, 3.74 a kilometre. On paper the gentlest of the three 1095 sections; in practice the one with the most sustained descent.\n\nThis is the leg the light argument is about. Ridden westward in the afternoon in the cool season the sun sits at the end of the road, on two lanes, with oncoming traffic, for the last hour. Ridden eastward in the morning it is behind you. *Inference —* it is the clearest single reason in the whole clockwise-versus-counter-clockwise question to consider going the other way round, and almost nobody raises it."
+ },
+ "text_th": {
+  "what": "ห้าสิบสองกิโลเมตร หนึ่งร้อยเก้าสิบโค้ง และจบด้วยทางลงยาวสู่หุบแม่ฮ่องสอน",
+  "story": "*อนุมาน —* ระยะ 51.5 กิโลเมตร มี 190 โค้งที่เกณฑ์ 25 องศา คิดเป็น 3.74 โค้งต่อกิโลเมตร บนกระดาษเป็นช่วงที่นุ่มที่สุดในสามช่วงของ 1095 แต่ในทางปฏิบัติเป็นช่วงที่มีทางลงต่อเนื่องยาวที่สุด\n\nนี่คือช่วงที่เรื่องแสงพูดถึง ถ้าขี่ไปทางตะวันตกตอนบ่ายในฤดูหนาว ดวงอาทิตย์จะอยู่ปลายถนน บนสองเลน มีรถสวน ตลอดชั่วโมงสุดท้าย ถ้าขี่ไปทางตะวันออกตอนเช้า มันจะอยู่ข้างหลัง *อนุมาน —* นี่คือเหตุผลเดี่ยวที่ชัดที่สุดในคำถามตามเข็มหรือทวนเข็มทั้งหมด ที่ควรพิจารณาไปอีกทาง และแทบไม่มีใครพูดถึง"
+ },
+ "route": {
+  "roads": [
+   "1095"
+  ],
+  "from": "Soppong",
+  "from_th": "สบป่อง",
+  "to": "Mae Hong Son",
+  "to_th": "แม่ฮ่องสอน",
+  "km": 52,
+  "km_source": "s:mhs-measured",
+  "hours": "1.5–2",
+  "hours_big": "1.5",
+  "curves": 190,
+  "hairpins": 23,
+  "cw": "Westward, into the afternoon sun in the cool season. Leave early or accept it.",
+  "ccw": "Eastward in the morning, sun behind. The better half of this leg's bargain.",
+  "cw_th": "ไปทางตะวันตก ปะทะแดดบ่ายในฤดูหนาว ออกเช้าหรือยอมรับมันไป",
+  "ccw_th": "ไปทางตะวันออกตอนเช้า แดดอยู่ข้างหลัง เป็นครึ่งที่ดีกว่าของช่วงนี้",
+  "order": 3,
+  "line": [
+   [
+    19.41936,
+    97.99821
+   ],
+   [
+    19.43596,
+    97.9983
+   ],
+   [
+    19.44345,
+    98.00817
+   ],
+   [
+    19.45031,
+    98.0167
+   ],
+   [
+    19.46285,
+    98.0235
+   ],
+   [
+    19.4786,
+    98.03018
+   ],
+   [
+    19.48655,
+    98.04376
+   ],
+   [
+    19.49559,
+    98.05524
+   ],
+   [
+    19.50603,
+    98.06805
+   ],
+   [
+    19.51354,
+    98.08137
+   ],
+   [
+    19.52425,
+    98.09482
+   ],
+   [
+    19.53631,
+    98.09981
+   ],
+   [
+    19.53639,
+    98.11414
+   ],
+   [
+    19.53553,
+    98.12821
+   ],
+   [
+    19.54115,
+    98.13847
+   ],
+   [
+    19.55198,
+    98.14925
+   ],
+   [
+    19.5581,
+    98.16055
+   ],
+   [
+    19.56468,
+    98.17474
+   ],
+   [
+    19.55817,
+    98.19124
+   ],
+   [
+    19.54933,
+    98.20248
+   ],
+   [
+    19.54451,
+    98.21388
+   ],
+   [
+    19.53422,
+    98.22751
+   ],
+   [
+    19.52294,
+    98.2418
+   ],
+   [
+    19.51707,
+    98.2568
+   ],
+   [
+    19.5132,
+    98.27067
+   ],
+   [
+    19.49798,
+    98.27908
+   ],
+   [
+    19.48602,
+    98.29138
+   ],
+   [
+    19.47119,
+    98.29519
+   ],
+   [
+    19.46214,
+    98.29978
+   ],
+   [
+    19.45326,
+    98.30374
+   ],
+   [
+    19.45269,
+    98.31207
+   ],
+   [
+    19.4501,
+    98.31769
+   ],
+   [
+    19.43979,
+    98.32495
+   ],
+   [
+    19.44308,
+    98.3359
+   ],
+   [
+    19.44389,
+    98.34293
+   ],
+   [
+    19.43872,
+    98.3552
+   ],
+   [
+    19.43671,
+    98.36935
+   ],
+   [
+    19.43539,
+    98.38741
+   ],
+   [
+    19.42474,
+    98.39911
+   ],
+   [
+    19.417,
+    98.41357
+   ],
+   [
+    19.4003,
+    98.4155
+   ],
+   [
+    19.38578,
+    98.4262
+   ],
+   [
+    19.36874,
+    98.42737
+   ],
+   [
+    19.35183,
+    98.42952
+   ],
+   [
+    19.33518,
+    98.43171
+   ],
+   [
+    19.31867,
+    98.43861
+   ],
+   [
+    19.31145,
+    98.45279
+   ],
+   [
+    19.29981,
+    98.46346
+   ],
+   [
+    19.2885,
+    98.47343
+   ],
+   [
+    19.28169,
+    98.48915
+   ],
+   [
+    19.27106,
+    98.50186
+   ],
+   [
+    19.26584,
+    98.51422
+   ],
+   [
+    19.27006,
+    98.52692
+   ],
+   [
+    19.27225,
+    98.543
+   ],
+   [
+    19.27128,
+    98.5592
+   ],
+   [
+    19.27278,
+    98.57487
+   ],
+   [
+    19.26761,
+    98.58744
+   ],
+   [
+    19.27677,
+    98.60006
+   ],
+   [
+    19.27857,
+    98.61375
+   ],
+   [
+    19.26987,
+    98.62762
+   ],
+   [
+    19.26051,
+    98.63883
+   ],
+   [
+    19.24999,
+    98.64207
+   ],
+   [
+    19.25286,
+    98.64952
+   ],
+   [
+    19.24193,
+    98.65656
+   ],
+   [
+    19.23472,
+    98.66234
+   ],
+   [
+    19.22746,
+    98.67201
+   ],
+   [
+    19.2222,
+    98.67161
+   ],
+   [
+    19.21433,
+    98.67021
+   ],
+   [
+    19.20481,
+    98.67746
+   ],
+   [
+    19.19411,
+    98.6895
+   ],
+   [
+    19.17687,
+    98.69232
+   ],
+   [
+    19.15939,
+    98.69117
+   ],
+   [
+    19.14401,
+    98.69736
+   ],
+   [
+    19.13133,
+    98.70404
+   ],
+   [
+    19.12155,
+    98.70981
+   ],
+   [
+    19.11809,
+    98.72556
+   ],
+   [
+    19.12364,
+    98.73553
+   ],
+   [
+    19.12379,
+    98.74743
+   ],
+   [
+    19.12498,
+    98.763
+   ],
+   [
+    19.1229,
+    98.77874
+   ],
+   [
+    19.11185,
+    98.79335
+   ],
+   [
+    19.10687,
+    98.81106
+   ],
+   [
+    19.10658,
+    98.82558
+   ],
+   [
+    19.10146,
+    98.84095
+   ],
+   [
+    19.09296,
+    98.85731
+   ],
+   [
+    19.09481,
+    98.87396
+   ],
+   [
+    19.08811,
+    98.89096
+   ],
+   [
+    19.08644,
+    98.90622
+   ],
+   [
+    19.08019,
+    98.91822
+   ],
+   [
+    19.07287,
+    98.93587
+   ]
+  ],
+  "line_points": 90
+ },
+ "riding": {
+  "min_class": "auto",
+  "grip": "moderate",
+  "pillion": "fine",
+  "note": "The descent is long. On an automatic, stop twice on it.",
+  "note_th": "ทางลงยาว ถ้าเป็นรถออโต้ ให้จอดพักสองครั้งระหว่างทาง"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The town at the bottom.",
+   "rel": "town"
+  },
+  {
+   "to": "low-sun",
+   "as": "The hazard this leg is famous for among people who have met it.",
+   "rel": "hazard"
+  },
+  {
+   "to": "season-and-direction",
+   "as": "The argument this leg supplies.",
+   "rel": "story"
+  },
+  {
+   "to": "brake-fade",
+   "as": "The long descent.",
+   "rel": "hazard"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:wp-mae-hong-son"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference",
+   "note": "leg description is this project's, built on the measured geometry and the cited road articles"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "pai-to-soppong",
+   "type": "leg",
+   "name": "Pai to Soppong",
+   "as": "The hard one, next."
+  },
+  {
+   "from": "route-1095",
+   "type": "road",
+   "name": "Route 1095",
+   "as": "The descent at the far end."
+  },
+  {
+   "from": "mae-hong-son",
+   "type": "town",
+   "name": "Mae Hong Son",
+   "as": "The way in from the north."
+  },
+  {
+   "from": "soppong",
+   "type": "town",
+   "name": "Soppong",
+   "as": "The way on, and the hardest descent of the northern leg."
+  },
+  {
+   "from": "low-sun",
+   "type": "hazard",
+   "name": "The low sun",
+   "as": "The leg it lands on."
+  }
+ ]
+}

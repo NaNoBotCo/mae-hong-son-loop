@@ -1,0 +1,66 @@
+{
+ "id": "su-tong-pae",
+ "type": "stop",
+ "names": {
+  "name": "Su Tong Pae bridge",
+  "th": "สะพานซูตองเป้",
+  "said": "A bamboo footbridge across a paddy valley, built by a village and monks to walk to each other.",
+  "said_th": "สะพานไม้ไผ่ข้ามทุ่งนา สร้างโดยชาวบ้านและพระเพื่อเดินหากัน"
+ },
+ "region": [
+  "mhs",
+  "mueang-mhs",
+  "loop"
+ ],
+ "facets": {
+  "kind": "bridge",
+  "price": "free"
+ },
+ "text": {
+  "what": "A long bamboo bridge over rice fields and a stream outside Mae Hong Son town, on the route toward Khun Yuam.",
+  "story": "*Tradition holds —* the bridge was built so that monks from the monastery on one side could walk on alms round to the village on the other without crossing the fields and the water, and the villagers built it with them. The bamboo is replaced as it wears.\n\n*Inference —* for a rider it is the right kind of stop, which is to say it takes fifteen minutes and it is on the way rather than up a dead end. Early morning is when the alms round happens and it is a working bridge at that hour, not a viewpoint.\n\n**Not on this disk:** whether an admission or donation is now collected, and the bridge's current condition."
+ },
+ "text_th": {
+  "what": "สะพานไม้ไผ่สายยาวข้ามทุ่งนาและลำธาร นอกตัวเมืองแม่ฮ่องสอน บนเส้นทางไปขุนยวม",
+  "story": "*ตามธรรมเนียม —* สะพานสร้างขึ้นเพื่อให้พระจากวัดฝั่งหนึ่งเดินบิณฑบาตไปยังหมู่บ้านอีกฝั่งได้โดยไม่ต้องลุยทุ่งและลุยน้ำ และชาวบ้านช่วยกันสร้าง ไม้ไผ่ถูกเปลี่ยนเมื่อผุ\n\n*อนุมาน —* สำหรับคนขี่รถ นี่คือจุดแวะประเภทที่ถูกต้อง คือใช้เวลาสิบห้านาทีและอยู่บนทางผ่าน ไม่ใช่ปลายทางตัน เช้ามืดคือเวลาที่มีการบิณฑบาต และชั่วโมงนั้นมันเป็นสะพานที่ใช้งานจริง ไม่ใช่จุดชมวิว\n\n**ไม่มีข้อมูลในชุดนี้** ปัจจุบันมีการเก็บค่าเข้าหรือรับบริจาคหรือไม่ และสภาพสะพานตอนนี้"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The town it is outside.",
+   "rel": "town"
+  },
+  {
+   "to": "mhs-to-khun-yuam",
+   "as": "The leg it sits near the start of.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:wp-mueang-mae-hong-son-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.25,
+  "lon": 97.9833,
+  "precision": "town"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": []
+}

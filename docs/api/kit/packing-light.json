@@ -1,0 +1,84 @@
+{
+ "id": "packing-light",
+ "type": "kit",
+ "names": {
+  "name": "What actually fits",
+  "th": "ของที่ใส่ได้จริง",
+  "said": "The bike will carry more than you should ask it to.",
+  "said_th": "รถบรรทุกได้มากกว่าที่ควรจะให้มันบรรทุก"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "logistics"
+ },
+ "text": {
+  "what": "Four days, one small bag. The constraint is not volume — it is where the weight sits and what it does to the front wheel on a downhill hairpin.",
+  "story": "*Inference —* the useful rule on this circuit is that weight belongs low and forward, and that anything strapped high behind the rider turns every hairpin into an argument with the bike. A tail pack sitting above the pillion seat lifts the centre of mass exactly where a steep descent least wants it.\n\nOn a 110 to 160 automatic there is a footwell, a hook, a small underseat compartment and nothing else. The footwell takes a soft bag and that is where it should go. A rucksack on your back is worse than the same weight bungeed to the seat, because it moves when you do.\n\nOn anything with a rack, soft panniers low on either side beat one big bag on top for the same reason.\n\nLaundry exists in every town on this list, which is the real reason four days needs three shirts and not six."
+ },
+ "text_th": {
+  "what": "สี่วัน กระเป๋าใบเล็กใบเดียว ข้อจำกัดไม่ใช่ปริมาตร แต่คือน้ำหนักไปอยู่ตรงไหน และมันทำอะไรกับล้อหน้าตอนเข้าโค้งหักศอกขาลง",
+  "story": "*อนุมาน —* กฎที่ใช้ได้บนเส้นทางนี้คือ น้ำหนักควรอยู่ต่ำและค่อนไปข้างหน้า และอะไรก็ตามที่มัดสูงไว้ข้างหลังคนขี่จะทำให้ทุกโค้งหักศอกกลายเป็นการเถียงกับรถ กระเป๋าท้ายที่วางสูงเหนือเบาะซ้อนจะยกจุดศูนย์ถ่วงขึ้นตรงจุดที่ทางลงชันต้องการน้อยที่สุด\n\nรถออโต้ 110 ถึง 160 มีพื้นที่วางเท้า มีตะขอ มีช่องใต้เบาะเล็กๆ และไม่มีอะไรอีก พื้นที่วางเท้ารับกระเป๋าผ้าได้ และนั่นคือที่ที่มันควรอยู่ เป้สะพายหลังแย่กว่าน้ำหนักเท่ากันที่มัดไว้กับเบาะ เพราะมันขยับตามตัวคุณ\n\nรถที่มีแร็ค กระเป๋าข้างแบบอ่อนสองใบวางต่ำดีกว่ากระเป๋าใบใหญ่ใบเดียววางบน ด้วยเหตุผลเดียวกัน\n\nทุกเมืองในรายการนี้มีร้านซักผ้า ซึ่งเป็นเหตุผลจริงๆ ว่าทำไมสี่วันใช้เสื้อสามตัว ไม่ใช่หกตัว"
+ },
+ "kin": [
+  {
+   "to": "sending-the-bag-ahead",
+   "as": "The other half of the question: what does not come at all.",
+   "rel": "kit"
+  },
+  {
+   "to": "loaded-bike",
+   "as": "What the weight does when the road turns down.",
+   "rel": "hazard"
+  },
+  {
+   "to": "gear",
+   "as": "The part of the load that is not optional.",
+   "rel": "kit"
+  }
+ ],
+ "sources": [
+  "s:wp-motorcycle-safety"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "loaded-bike",
+   "type": "hazard",
+   "name": "A loaded bike is a different bike",
+   "as": "Where the weight should go instead."
+  },
+  {
+   "from": "steep-driveways",
+   "type": "hazard",
+   "name": "The guesthouse driveway",
+   "as": "The load that comes off first."
+  },
+  {
+   "from": "gear",
+   "type": "kit",
+   "name": "What to wear",
+   "as": "Where it all goes."
+  },
+  {
+   "from": "sending-the-bag-ahead",
+   "type": "kit",
+   "name": "Sending your bag ahead",
+   "as": "What fits on the bike if the big bag stays behind."
+  }
+ ]
+}

@@ -104,5 +104,67 @@
  "confidence": "high",
  "needs_verification": false,
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "the-smoke/the-smoke-150132main-image-feature-589-alaska.jpg",
+   "source": "commons",
+   "title": "File:150132main image feature 589 alaska.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/150132main_image_feature_589_alaska.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A150132main_image_feature_589_alaska.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "National Aeronautics and Space Administration (NASA)",
+   "credit": "NASA (Image galleries)",
+   "alt": "Satellite picture of the Aleutian Islands and the Alaska Peninsula, located in the south of the state of Alaska, United States.",
+   "date": "25 May 2006",
+   "primary": true,
+   "sha256": "54b257cb40d22dd7fce1483645c0a7f95991f5504d9fabf8985c80de51a47d36"
+  },
+  {
+   "file": "the-smoke/the-smoke-burning-mountains-thailand.jpg",
+   "source": "commons",
+   "title": "File:Burning mountains Thailand.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Burning_mountains_Thailand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABurning_mountains_Thailand.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "The photo shows the smoke coming off from several wildfires in the mountains of northern Thailand. Farmers in northern Thailand always set fire to the forests in the mountains nearing the end of the d",
+   "date": "2011-02-07",
+   "primary": false,
+   "sha256": "64a99eca43c77801db81bdc8db8dea09fe6a578799a93165e01e686c7a5d6254"
+  },
+  {
+   "file": "the-smoke/the-smoke-smoke-shrouds-northern-thailand-1214791.jpg",
+   "source": "commons",
+   "title": "File:Smoke Shrouds Northern Thailand (1214791).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Smoke_Shrouds_Northern_Thailand_%281214791%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASmoke_Shrouds_Northern_Thailand_%281214791%29.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "NASA Earth Observatory/Lauren Dauphin",
+   "credit": "Smoke Shrouds Northern Thailand",
+   "alt": "The MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA's Terra satellite captured this hazy view of the city and the surrounding region on April 22, 2026.",
+   "date": "2026-04-22",
+   "primary": false,
+   "sha256": "de28aaae6a2e94abe44b53c6c3bbaf8b529c9cb44f503b5f863d02a16b69bb92"
+  },
+  {
+   "file": "the-smoke/the-smoke-smoke-shrouds-northern-thailand-1214791-lrg.jpg",
+   "source": "commons",
+   "title": "File:Smoke Shrouds Northern Thailand (1214791 - lrg).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Smoke_Shrouds_Northern_Thailand_%281214791_-_lrg%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASmoke_Shrouds_Northern_Thailand_%281214791_-_lrg%29.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "NASA Earth Observatory/Lauren Dauphin",
+   "credit": "Smoke Shrouds Northern Thailand",
+   "alt": "The MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA's Terra satellite captured this hazy view of the city and the surrounding region on April 22, 2026.",
+   "date": "2026-04-22",
+   "primary": false,
+   "sha256": "78ec528b038933053c8727e55231b0501b9f558cfc3050c4d2b82559b477c42c"
+  }
+ ]
 }

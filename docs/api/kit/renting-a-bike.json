@@ -1,0 +1,127 @@
+{
+ "id": "renting-a-bike",
+ "type": "kit",
+ "names": {
+  "name": "Renting the bike",
+  "th": "การเช่ารถ",
+  "said": "The contract, the passport, the insurance that is usually not insurance, and the photographs you take before you ride away.",
+  "said_th": "สัญญา พาสปอร์ต ประกันที่มักไม่ใช่ประกัน และรูปที่คุณถ่ายก่อนขี่ออกไป"
+ },
+ "region": [
+  "cnx",
+  "loop"
+ ],
+ "facets": {
+  "kind": "logistics"
+ },
+ "text": {
+  "what": "What to check, what to ask for, and the three things that most often go wrong afterwards.",
+  "story": "**The licence.** Thailand recognises the International Driving Permit, issued under the 1949 and 1968 conventions, alongside a valid home licence. A permit is a translation of a licence, not a substitute for one, and the motorcycle entitlement has to be on the home licence for the permit to carry it. *Inference —* whether a given insurer pays a claim when the rider held no motorcycle entitlement is the question that makes this worth getting right, and the answer is not usually generous.\n\n**The deposit.** *Tradition holds —* many shops ask to hold a passport against the bike. Handing over a passport is a decision with consequences that have nothing to do with motorcycles, and some shops will take a cash deposit instead if asked. Ask before you need to.\n\n**The photographs.** Before riding away, photograph every existing scratch, the tyres including the date code if it is legible, the odometer, the chain, and the contract itself. *Inference —* this is the single cheapest thing on this page and it resolves the most common dispute.\n\n**The three things that go wrong.** Tyres older than they look — check the sidewall date, not the tread. Brakes that were fine in town and are not fine on a ten-kilometre descent — which is what the Samoeng day is for. And a bike that is not permitted to leave the province under the contract, which is a clause worth actually reading on a trip that crosses into Mae Hong Son.\n\n**Ask about the bag.** Most shops will hold your main luggage while you ride. Get it written on the agreement."
+ },
+ "text_th": {
+  "what": "สิ่งที่ต้องตรวจ สิ่งที่ต้องขอ และสามเรื่องที่มักผิดพลาดตามมาภายหลัง",
+  "story": "**ใบขับขี่** ประเทศไทยรับรองใบอนุญาตขับขี่สากลที่ออกตามอนุสัญญาปี 1949 และ 1968 ควบคู่กับใบขับขี่ของประเทศตนที่ยังไม่หมดอายุ ใบอนุญาตสากลคือคำแปลของใบขับขี่ ไม่ใช่สิ่งทดแทน และสิทธิ์ขับขี่รถจักรยานยนต์ต้องมีอยู่ในใบขับขี่ต้นทางด้วย ใบสากลจึงจะครอบคลุม *อนุมาน —* คำถามที่ทำให้เรื่องนี้ควรทำให้ถูกคือ บริษัทประกันจะจ่ายหรือไม่เมื่อคนขี่ไม่มีสิทธิ์ขับขี่รถจักรยานยนต์ และคำตอบมักไม่ใจดี\n\n**เงินมัดจำ** *ตามธรรมเนียม —* หลายร้านขอยึดพาสปอร์ตไว้แลกกับรถ การมอบพาสปอร์ตเป็นการตัดสินใจที่มีผลตามมาซึ่งไม่เกี่ยวกับมอเตอร์ไซค์เลย และบางร้านยอมรับเงินสดเป็นมัดจำแทนถ้าขอ ให้ถามก่อนที่จะจำเป็น\n\n**รูปถ่าย** ก่อนขี่ออกไป ถ่ายรอยขีดข่วนทุกจุดที่มีอยู่แล้ว ถ่ายยางรวมถึงรหัสวันผลิตถ้าอ่านออก ถ่ายเลขไมล์ ถ่ายโซ่ และถ่ายตัวสัญญา *อนุมาน —* นี่คือสิ่งที่ถูกที่สุดในหน้านี้ และแก้ข้อพิพาทที่พบบ่อยที่สุดได้\n\n**สามเรื่องที่มักผิดพลาด** ยางเก่ากว่าที่ตาเห็น ให้ดูรหัสวันที่แก้มยาง ไม่ใช่ดอกยาง เบรกที่ดีในเมืองแต่ไม่ดีบนทางลงสิบกิโลเมตร ซึ่งวันสะเมิงมีไว้เพื่อการนี้ และรถที่ตามสัญญาแล้วห้ามออกนอกจังหวัด ซึ่งเป็นข้อที่ควรอ่านจริงๆ สำหรับทริปที่ข้ามเข้าแม่ฮ่องสอน\n\n**ถามเรื่องกระเป๋า** ร้านส่วนใหญ่รับฝากสัมภาระหลักไว้ระหว่างที่คุณไปขี่ ให้ระบุลงในสัญญา"
+ },
+ "kin": [
+  {
+   "to": "sending-the-bag-ahead",
+   "as": "The luggage half of this conversation.",
+   "rel": "kit"
+  },
+  {
+   "to": "samoeng-warmup",
+   "as": "The day that tests what you were given.",
+   "rel": "leg"
+  },
+  {
+   "to": "which-way-round",
+   "as": "Whether you know the bike decides the direction.",
+   "rel": "story"
+  },
+  {
+   "to": "gear",
+   "as": "What the shop's helmet is not.",
+   "rel": "kit"
+  },
+  {
+   "to": "chiang-mai",
+   "as": "Where the transaction happens.",
+   "rel": "town"
+  }
+ ],
+ "sources": [
+  "s:wp-international-driving-permit",
+  "s:wp-driving-licence-in-thailand",
+  "s:wp-motorcycle-safety"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-international-driving-permit"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-international-driving-permit"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "samoeng-warmup",
+   "type": "leg",
+   "name": "The Samoeng warm-up",
+   "as": "The bike this day is testing."
+  },
+  {
+   "from": "route-1096",
+   "type": "road",
+   "name": "Route 1096",
+   "as": "The bike you are testing on it."
+  },
+  {
+   "from": "chiang-mai",
+   "type": "town",
+   "name": "Chiang Mai",
+   "as": "The transaction that starts the trip."
+  },
+  {
+   "from": "step-through-110",
+   "type": "bike",
+   "name": "The 110–125 step-through",
+   "as": "The bike the shop will hand you unless you ask otherwise."
+  },
+  {
+   "from": "one-way-rental",
+   "type": "kit",
+   "name": "Not coming back to Chiang Mai",
+   "as": "The conversation to have at the counter."
+  },
+  {
+   "from": "sending-the-bag-ahead",
+   "type": "kit",
+   "name": "Sending your bag ahead",
+   "as": "The contract that should say who is holding your suitcase."
+  },
+  {
+   "from": "which-bike",
+   "type": "story",
+   "name": "Every bike goes up there",
+   "as": "What you actually get handed, and what to check."
+  },
+  {
+   "from": "which-way-round",
+   "type": "story",
+   "name": "Clockwise or counter-clockwise",
+   "as": "Whether you know the machine is half the argument."
+  }
+ ]
+}

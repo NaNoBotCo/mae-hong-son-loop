@@ -1,0 +1,115 @@
+{
+ "id": "burning-season",
+ "type": "event",
+ "names": {
+  "name": "Burning season",
+  "th": "ช่วงเผา",
+  "said": "The two months of the year this ride has a reason not to happen.",
+  "said_th": "สองเดือนของปีที่ทริปนี้มีเหตุผลที่จะไม่เกิดขึ้น"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "smoke"
+ },
+ "text": {
+  "what": "Roughly late February to late April, agricultural and forest burning fills the valleys of upper northern Thailand and adjacent Myanmar with smoke. It ends with the first rains.",
+  "story": "The measured shape, from four years of daily figures at ten points on the circuit: **February is still fine up-country** — Pai's February mean is 15.0 µg/m³ and not one February day in four years exceeded the US 24-hour standard there. **March and April are the wall.** Pai's April mean is 29.8 µg/m³ and all thirty April days measured were above that standard. **May is over** — Pai drops to 10.0 and stays down.\n\nChiang Mai runs worse than any town on the loop through the whole of it: a March mean of 37.8 µg/m³ against Mae Hong Son's 29.1.\n\n*Inference —* if the dates are fixed and they land here, the ride still works; it is the views that do not. Plan shorter days, ride early, and treat the viewpoints as a bonus rather than the itinerary."
+ },
+ "text_th": {
+  "what": "ราวปลายกุมภาพันธ์ถึงปลายเมษายน การเผาพื้นที่เกษตรและป่าทำให้หุบเขาภาคเหนือตอนบนของไทยและฝั่งเมียนมาที่ติดกันเต็มไปด้วยควัน จบลงเมื่อฝนแรกมา",
+  "story": "รูปร่างที่วัดได้ จากข้อมูลรายวันสี่ปีที่สิบจุดบนเส้นทาง **กุมภาพันธ์ยังดีอยู่บนดอย** ค่าเฉลี่ยกุมภาพันธ์ของปายคือ 15.0 และตลอดสี่ปีไม่มีวันไหนในกุมภาพันธ์ที่เกินมาตรฐาน 24 ชั่วโมงของสหรัฐฯ ที่นั่นเลย **มีนาคมกับเมษายนคือกำแพง** ค่าเฉลี่ยเมษายนของปายคือ 29.8 และทั้งสามสิบวันที่วัดได้อยู่เหนือมาตรฐานนั้น **พฤษภาคมจบแล้ว** ปายลงมาที่ 10.0 และอยู่ต่ำต่อไป\n\nเชียงใหม่แย่กว่าทุกเมืองบนเส้นทางตลอดช่วงนี้ ค่าเฉลี่ยมีนาคม 37.8 เทียบกับแม่ฮ่องสอน 29.1\n\n*อนุมาน —* ถ้าวันเดินทางล็อกไว้แล้วและตกอยู่ในช่วงนี้ ทริปก็ยังไปได้ สิ่งที่ไปไม่ได้คือวิว วางแผนวันสั้นลง ออกเช้า และถือว่าจุดชมวิวเป็นของแถม ไม่ใช่ตัวแผน"
+ },
+ "kin": [
+  {
+   "to": "the-smoke",
+   "as": "The data and where it is weak.",
+   "rel": "story"
+  },
+  {
+   "to": "smoke-riding",
+   "as": "What it does to you on the bike.",
+   "rel": "hazard"
+  },
+  {
+   "to": "the-rains",
+   "as": "What ends it.",
+   "rel": "event"
+  },
+  {
+   "to": "hot-season",
+   "as": "The same months, from the thermometer's side.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:open-meteo-aq",
+  "s:wp-southeast-asian-haze",
+  "s:epa-pm25-2024"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:open-meteo-aq"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "seasons": {
+  "mar": {
+   "note": "The wall. Ride early, stop at two, and expect white where the view was.",
+   "note_th": "กำแพง ออกเช้า หยุดบ่ายสอง และคาดว่าจะเจอสีขาวตรงที่ควรเป็นวิว",
+   "direction": "either",
+   "why": "Smoke is worst in the still afternoon, so the clock matters more than the direction.",
+   "why_th": "ควันหนาที่สุดในบ่ายที่ลมนิ่ง นาฬิกาจึงสำคัญกว่าทิศทาง",
+   "tier": "inference"
+  },
+  "apr": {
+   "note": "The worst month measured, and the hottest.",
+   "note_th": "เดือนที่วัดได้แย่ที่สุด และร้อนที่สุด",
+   "direction": "either",
+   "tier": "harvested",
+   "source": "s:open-meteo-aq"
+  }
+ },
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "smoke-riding",
+   "type": "hazard",
+   "name": "Riding in the smoke",
+   "as": "The dates."
+  },
+  {
+   "from": "hot-season",
+   "type": "event",
+   "name": "The hot season",
+   "as": "The same months, from the air's side."
+  },
+  {
+   "from": "poy-sang-long",
+   "type": "event",
+   "name": "Poy Sang Long",
+   "as": "The months it shares."
+  },
+  {
+   "from": "the-rains",
+   "type": "event",
+   "name": "The rains",
+   "as": "What it washes away."
+  },
+  {
+   "from": "the-smoke",
+   "type": "story",
+   "name": "The smoke",
+   "as": "The season itself, as a date range."
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "id": "midweight-twin",
+ "type": "bike",
+ "names": {
+  "name": "The 400–700 twin",
+  "th": "รถสองสูบ 400–700",
+  "said": "Enough bike to enjoy the straights and still turn round on a hairpin.",
+  "said_th": "แรงพอจะสนุกกับทางตรง และยังกลับรถในโค้งหักศอกได้"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "class": "midweight",
+  "grip": "moderate"
+ },
+ "text": {
+  "what": "A CB500X, an MT-07, a Rally 500, a Himalayan 450: mid-capacity, torque low down, real brakes, and 17- or 19-inch wheels.",
+  "story": "*Inference —* this is the range that suits the circuit best on paper: the engine braking to hold a descent, brakes that do not fade, enough power for the long Route 108 straights, and a weight you can still turn around on a one-and-a-half-lane switchback when you find a landslide.\n\nThe catch is the same weight. A 200-kilogram bike that falls over on a steep gravel guesthouse driveway needs two people to pick up, and on this circuit the second person may be an hour away."
+ },
+ "text_th": {
+  "what": "CB500X, MT-07, Rally 500, Himalayan 450 พิกัดกลาง แรงบิดมาตั้งแต่รอบต่ำ เบรกจริงจัง ล้อ 17 หรือ 19 นิ้ว",
+  "story": "*อนุมาน —* พิกัดนี้เหมาะกับเส้นทางที่สุดบนกระดาษ มีเอนจินเบรกพอหน่วงทางลง เบรกไม่เฟด แรงพอสำหรับทางตรงยาวๆ ของทางหลวง 108 และน้ำหนักที่ยังกลับรถได้ในโค้งหักศอกกว้างหนึ่งเลนครึ่งเวลาเจอดินสไลด์\n\nข้อเสียคือน้ำหนักเดียวกันนั้น รถ 200 กิโลกรัมที่ล้มบนทางเข้าเกสต์เฮาส์ที่ชันและเป็นกรวด ต้องใช้คนสองคนยก และบนเส้นทางนี้คนที่สองอาจอยู่ห่างออกไปหนึ่งชั่วโมง"
+ },
+ "kin": [
+  {
+   "to": "big-adventure",
+   "as": "One size up, and the driveway problem doubles.",
+   "rel": "bike"
+  },
+  {
+   "to": "steep-driveways",
+   "as": "The hazard that scales with kerb weight.",
+   "rel": "hazard"
+  },
+  {
+   "to": "which-bike",
+   "as": "Where this sits against everything else.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-honda-500-twins",
+  "s:wp-royal-enfield-himalayan"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-honda-500-twins"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "midweight-twin/midweight-twin-honda-cb500x-2024-05-23.jpg",
+   "source": "commons",
+   "title": "File:Honda CB500X 2024-05-23.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Honda_CB500X_2024-05-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_CB500X_2024-05-23.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Wikisympathisant",
+   "credit": "Own work",
+   "alt": "Honda CB 500X",
+   "date": "2024-05-23 15:44:30",
+   "primary": true,
+   "sha256": "02542a9d4f2db7bbfebf999799fcde53140853713dd680169ec05d45930ec2fc"
+  },
+  {
+   "file": "midweight-twin/midweight-twin-honda-cb500x-close-up.jpg",
+   "source": "commons",
+   "title": "File:Honda CB500X close-up.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Honda_CB500X_close-up.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_CB500X_close-up.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Danrok",
+   "credit": "Own work",
+   "alt": "Close-up of the front of a Honda CB500X.",
+   "date": "2021-04-04 14:03:25",
+   "primary": false,
+   "sha256": "08c5d7514a972fcf28b8dfbe1bb8b1da96ee1ad6e1350c75107331235f92ad4a"
+  },
+  {
+   "file": "midweight-twin/midweight-twin-honda-cb500x-rear-2024-05-23.jpg",
+   "source": "commons",
+   "title": "File:Honda CB500X rear 2024-05-23.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Honda_CB500X_rear_2024-05-23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_CB500X_rear_2024-05-23.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Wikisympathisant",
+   "credit": "Own work",
+   "alt": "Honda CB 500X rerar view",
+   "date": "2024-05-23 15:45:04",
+   "primary": false,
+   "sha256": "d97ee5cffd20563bb88727c01447ea5d99e35831c030bfa50ddb0e08d0416d1a"
+  },
+  {
+   "file": "midweight-twin/midweight-twin-salon-de-la-moto-et-du-scooter-de-paris-2013-honda-c-7e61b3a.jpg",
+   "source": "commons",
+   "title": "File:Salon de la Moto et du Scooter de Paris 2013 - Honda - CB500F - 006.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Salon_de_la_Moto_et_du_Scooter_de_Paris_2013_-_Honda_-_CB500F_-_006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASalon_de_la_Moto_et_du_Scooter_de_Paris_2013_-_Honda_-_CB500F_-_006.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Thesupermat",
+   "credit": "Own work",
+   "alt": "Une Honda CBR présentée lors du salon de la moto 2013.",
+   "date": "2013-12-02 10:42:36",
+   "primary": false,
+   "sha256": "0fb7c5718ce2f84c56bb6df627230d3fa62d10a95e4f55873a895d68da5aa071"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "big-adventure",
+   "type": "bike",
+   "name": "The 700cc-and-up adventure bike",
+   "as": "One size down, and most of the same pleasure."
+  },
+  {
+   "from": "which-bike",
+   "type": "story",
+   "name": "Every bike goes up there",
+   "as": "Enough bike to enjoy the straights and still turn round on a hairpin."
+  }
+ ]
+}

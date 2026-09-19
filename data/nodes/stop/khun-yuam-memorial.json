@@ -65,5 +65,22 @@
  },
  "needs_verification": true,
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "khun-yuam-memorial/khun-yuam-memorial-image-from-page-79-of-bonn-zoological-bulletin-2010-cropped.jpg",
+   "source": "commons",
+   "title": "File:Image from page 79 of \"Bonn zoological bulletin\" (2010) (cropped).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Image_from_page_79_of_%22Bonn_zoological_bulletin%22_%282010%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AImage_from_page_79_of_%22Bonn_zoological_bulletin%22_%282010%29_%28cropped%29.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Internet Archive Book Images",
+   "credit": "https://www.flickr.com/photos/internetarchivebookimages/20207569209/",
+   "alt": "Title: Bonn zoological bulletin\nIdentifier: bonnzoologica5712010zool\nYear: 2010 (2010s)\nAuthors: Zoologisches Forschungsmuseum Alexander Koenig\nSubjects: Zoology\nPublisher: Bonn : Zoologisches Forschu",
+   "date": "2010-01-01",
+   "primary": true,
+   "sha256": "631e6c61f98206a60524e1756da5b4bbf4aad10b91f621c25a9ccd78e269e970"
+  }
+ ]
 }

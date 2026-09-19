@@ -1,0 +1,429 @@
+{
+ "type": "term",
+ "count": 5,
+ "nodes": [
+  {
+   "id": "engine-braking",
+   "type": "term",
+   "names": {
+    "name": "Engine braking",
+    "th": "เอนจินเบรก",
+    "said": "Letting the engine slow the bike instead of the brakes, by staying in a low gear.",
+    "said_th": "ปล่อยให้เครื่องยนต์หน่วงรถแทนเบรก ด้วยการคาเกียร์ต่ำ",
+    "rtgs": "engine brake"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "riding"
+   },
+   "text": {
+    "what": "Letting the engine slow the bike instead of the brakes, by staying in a low gear.",
+    "story": "*Inference —* on a long mountain descent this is not a technique, it is the difference between arriving and not. A brake converts speed into heat in a small metal part; an engine converts it into pumping losses across the whole engine, which does not fade.\n\nThe reason this matters so much on this circuit is transmissions. A geared bike has it. A twist-and-go automatic scooter has almost none, which is why the descent advice on a scooter is different in kind rather than in degree."
+   },
+   "text_th": {
+    "what": "ปล่อยให้เครื่องยนต์หน่วงรถแทนเบรก ด้วยการคาเกียร์ต่ำ",
+    "story": "*อนุมาน —* บนทางลงเขายาวๆ นี่ไม่ใช่เทคนิค แต่คือความต่างระหว่างไปถึงกับไม่ถึง เบรกแปลงความเร็วเป็นความร้อนในชิ้นโลหะเล็กๆ ส่วนเครื่องยนต์แปลงมันเป็นการสูญเสียจากการปั๊มทั่วทั้งเครื่อง ซึ่งไม่เฟด\n\nเหตุผลที่เรื่องนี้สำคัญมากบนเส้นทางนี้คือระบบส่งกำลัง รถมีเกียร์มีเอนจินเบรก รถออโต้แทบไม่มีเลย ซึ่งเป็นเหตุผลที่คำแนะนำเรื่องทางลงสำหรับสกู๊ตเตอร์ต่างกันโดยชนิด ไม่ใช่ต่างกันโดยระดับ"
+   },
+   "kin": [
+    {
+     "to": "brake-fade",
+     "as": "What it prevents.",
+     "rel": "hazard"
+    },
+    {
+     "to": "underbone-125",
+     "as": "The cheap bike that has it.",
+     "rel": "bike"
+    },
+    {
+     "to": "step-through-110",
+     "as": "The cheap bike that does not.",
+     "rel": "bike"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-safety",
+    "s:wp-underbone"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-motorcycle-safety"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-motorcycle-safety"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "brake-fade",
+     "type": "hazard",
+     "name": "Brake fade",
+     "as": "The thing that stops it happening."
+    },
+    {
+     "from": "underbone-125",
+     "type": "bike",
+     "name": "The underbone with gears",
+     "as": "The thing the gearbox buys you."
+    },
+    {
+     "from": "which-bike",
+     "type": "story",
+     "name": "Every bike goes up there",
+     "as": "The thing a gearbox buys and an automatic does not."
+    }
+   ]
+  },
+  {
+   "id": "gasohol",
+   "type": "term",
+   "names": {
+    "name": "Gasohol 91 and 95",
+    "th": "แก๊สโซฮอล์ 91 และ 95",
+    "said": "What comes out of the pump. The numbers are octane ratings, and 91 is what most small bikes here run on.",
+    "said_th": "สิ่งที่ออกมาจากหัวจ่าย ตัวเลขคือค่าออกเทน และ 91 คือสิ่งที่รถเล็กส่วนใหญ่ที่นี่ใช้",
+    "rtgs": "kaesohol"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "logistics"
+   },
+   "text": {
+    "what": "What comes out of the pump. The numbers are octane ratings, and 91 is what most small bikes here run on.",
+    "story": "*Inference —* the practical point on this circuit is not which grade but where. Route 1263 has a 64-kilometre stretch with no town in it, and the Mae Sariang to Hot leg has the longest inter-town gap on the loop.\n\nThe rule people ride to here is to fill at every town whether or not the tank needs it, because the cost of a half-full tank is nothing and the cost of an empty one on 1263 is a long afternoon. Where there is no station, small shops sell fuel by the bottle from a rack outside — the price is higher and the quantity is a litre."
+   },
+   "text_th": {
+    "what": "สิ่งที่ออกมาจากหัวจ่าย ตัวเลขคือค่าออกเทน และ 91 คือสิ่งที่รถเล็กส่วนใหญ่ที่นี่ใช้",
+    "story": "*อนุมาน —* ประเด็นในทางปฏิบัติบนเส้นทางนี้ไม่ใช่เกรดไหน แต่คือที่ไหน ทางหลวง 1263 มีช่วง 64 กิโลเมตรที่ไม่มีเมืองเลย และช่วงแม่สะเรียงถึงฮอดมีระยะห่างระหว่างเมืองที่ยาวที่สุดของวงรอบ\n\nกฎที่คนที่นี่ใช้คือเติมทุกเมืองไม่ว่าถังจะพร่องหรือไม่ เพราะราคาของถังที่เติมครึ่งเดียวคือศูนย์ ส่วนราคาของถังเปล่าบน 1263 คือบ่ายที่ยาวมาก ที่ไหนไม่มีปั๊ม ร้านเล็กๆ จะขายน้ำมันใส่ขวดวางบนชั้นหน้าร้าน ราคาสูงกว่าและปริมาณคือหนึ่งลิตร"
+   },
+   "kin": [
+    {
+     "to": "the-1263-cut",
+     "as": "The leg this rule exists for.",
+     "rel": "leg"
+    },
+    {
+     "to": "mae-sariang-to-hot",
+     "as": "The longest gap on the loop.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:wp-thai-baht"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-thai-baht"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-thai-baht"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": []
+  },
+  {
+   "id": "hairpin",
+   "type": "term",
+   "names": {
+    "name": "Hairpin",
+    "th": "โค้งหักศอก",
+    "said": "A bend tight enough that you turn about 180 degrees to carry on. Called a switchback in American English.",
+    "said_th": "โค้งที่แคบพอจะต้องเลี้ยวราว 180 องศาเพื่อไปต่อ",
+    "rtgs": "khong hak sok"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "road"
+   },
+   "text": {
+    "what": "A bend tight enough that you turn about 180 degrees to carry on. Called a switchback in American English.",
+    "story": "Hairpins exist to reduce the steepness of a climb: zigzagging up a slope is longer and slower but easier and safer than going straight at it, and cheaper to build than tunnelling. That is why there are so many here — the road is trading distance for gradient.\n\nOn this site a curve is counted as a hairpin when the measured arc is 120 degrees or more. Route 1095 carries 110 of them, Route 1263 carries 31 in a third of the distance."
+   },
+   "text_th": {
+    "what": "โค้งที่แคบพอจะต้องเลี้ยวราว 180 องศาเพื่อไปต่อ",
+    "story": "โค้งหักศอกมีไว้เพื่อลดความชันของทางไต่ การซิกแซกขึ้นเนินนั้นไกลกว่าและช้ากว่า แต่ง่ายกว่าและปลอดภัยกว่าการพุ่งขึ้นตรงๆ และถูกกว่าการเจาะอุโมงค์ นั่นคือเหตุผลที่มีมากมายที่นี่ ถนนกำลังแลกระยะทางกับความชัน\n\nบนเว็บนี้ โค้งจะนับเป็นโค้งหักศอกเมื่อมุมที่วัดได้ตั้งแต่ 120 องศาขึ้นไป ทางหลวง 1095 มี 110 โค้ง ส่วนทางหลวง 1263 มี 31 โค้งในระยะหนึ่งในสาม"
+   },
+   "kin": [
+    {
+     "to": "how-many-curves",
+     "as": "How they get counted.",
+     "rel": "story"
+    },
+    {
+     "to": "gravel-on-the-apex",
+     "as": "What collects on the inside of one.",
+     "rel": "hazard"
+    }
+   ],
+   "sources": [
+    "s:wp-hairpin-turn",
+    "s:mhs-measured"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-hairpin-turn"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-hairpin-turn"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "hairpin/hairpin-darcha-padum-road-below-shinku-la-lahaul-oct22-a7c-03533.jpg",
+     "source": "commons",
+     "title": "File:Darcha Padum Road Below Shinku La Lahaul Oct22 A7C 03533.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Darcha_Padum_Road_Below_Shinku_La_Lahaul_Oct22_A7C_03533.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ADarcha_Padum_Road_Below_Shinku_La_Lahaul_Oct22_A7C_03533.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but please mention me as the author.  I would much appreciate if you send me an email tagooty@yahoo.com or write on my talk p",
+     "credit": "Own work",
+     "alt": "Darcha-Padum road winding up to Shinku La, Lahaul, Himachal, India.  Elev. 4,975m (16,322'). Peaks about 5,600m (18,375').",
+     "date": "2022-10-04 10:05:44",
+     "primary": true,
+     "sha256": "4479430db05a0f0573823b935cae6e100c7d8972a44e424815024a76908a33e9"
+    },
+    {
+     "file": "hairpin/hairpin-serpentina-chvale-adr-pach.jpg",
+     "source": "commons",
+     "title": "File:Serpentina Chvaleč-Adršpach.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Serpentina_Chvale%C4%8D-Adr%C5%A1pach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASerpentina_Chvale%C4%8D-Adr%C5%A1pach.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Matyáš Vohralík",
+     "credit": "Own work",
+     "alt": "Hairpin turn between Chvaleč and Adršpach on route number 30110. Zlatá Olešnice wind farm and East Giant mountains ridge panorama at the background.",
+     "date": "2021-02-01 14:57:30",
+     "primary": false,
+     "sha256": "9cb2c3539037484b528b87f80091c6f7c3ba5c710262b4942bc1b1196cdb3a00"
+    },
+    {
+     "file": "hairpin/hairpin-switchbacks-of-ungrej-road-wpwtr16.jpg",
+     "source": "commons",
+     "title": "File:Switchbacks of Ungrej road (WPWTR16).JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Switchbacks_of_Ungrej_road_%28WPWTR16%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASwitchbacks_of_Ungrej_road_%28WPWTR16%29.JPG",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Albinfo",
+     "credit": "Own work",
+     "alt": "Road to Ungrej east of Kallmet, Zadrima",
+     "date": "2016-12-02 12:41:49",
+     "primary": false,
+     "sha256": "59426a0ec4b8ca15dae840ed27dc9a5f07ce686e503ea2109a7e2593e805eab4"
+    },
+    {
+     "file": "hairpin/hairpin-videographer-takes-video-of-the-dangerous-hairpin-be-1320d1c.jpg",
+     "source": "commons",
+     "title": "File:Videographer takes video of the dangerous hairpin bend in Xiaolin.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Videographer_takes_video_of_the_dangerous_hairpin_bend_in_Xiaolin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AVideographer_takes_video_of_the_dangerous_hairpin_bend_in_Xiaolin.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "author": "☼ うみ 目覚めたら",
+     "credit": "https://www.flickr.com/photos/oceanprince728/4793863118/",
+     "alt": "The videographer takes a video of the dangerous hairpin bend on a mountain road in Xiaolin Village.",
+     "date": "2010-07-10 14:06:20",
+     "primary": false,
+     "sha256": "294008a9251a2457e5751b9d670eba5b242da69adf480c9e9544493f0ee78d4c"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "buses-on-your-line",
+     "type": "hazard",
+     "name": "Buses and pickups on your line",
+     "as": "The radius that forces it."
+    },
+    {
+     "from": "gravel-on-the-apex",
+     "type": "hazard",
+     "name": "Gravel on the apex",
+     "as": "The shape that collects it."
+    },
+    {
+     "from": "big-adventure",
+     "type": "bike",
+     "name": "The 700cc-and-up adventure bike",
+     "as": "The manoeuvre the weight is felt in."
+    },
+    {
+     "from": "how-many-curves",
+     "type": "story",
+     "name": "How many curves, actually",
+     "as": "What the 120-degree arcs are called."
+    }
+   ]
+  },
+  {
+   "id": "pm25",
+   "type": "term",
+   "names": {
+    "name": "PM2.5",
+    "th": "ฝุ่น PM2.5",
+    "said": "Particles under 2.5 micrometres across — small enough to go past the nose and into the lungs.",
+    "said_th": "อนุภาคที่เล็กกว่า 2.5 ไมโครเมตร เล็กพอจะผ่านจมูกเข้าไปถึงปอด",
+    "rtgs": "fun PM song chut ha"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "air"
+   },
+   "text": {
+    "what": "Particles under 2.5 micrometres across — small enough to go past the nose and into the lungs.",
+    "story": "It is measured in micrograms per cubic metre. The United States set its 24-hour standard at 35.4 µg/m³ and, in a 2024 revision, moved the annual standard to 9.0; the AQI figures on this site use that revision's breakpoints.\n\n*Inference —* the reason it is the number that matters here rather than visibility is that the size is what makes it dangerous, and the size is also what makes it invisible individually. A hazy day and a dangerous day are not the same list."
+   },
+   "text_th": {
+    "what": "อนุภาคที่เล็กกว่า 2.5 ไมโครเมตร เล็กพอจะผ่านจมูกเข้าไปถึงปอด",
+    "story": "วัดเป็นไมโครกรัมต่อลูกบาศก์เมตร สหรัฐอเมริกากำหนดมาตรฐาน 24 ชั่วโมงไว้ที่ 35.4 และในการทบทวนปี 2567 ปรับมาตรฐานรายปีเป็น 9.0 ค่า AQI บนเว็บนี้ใช้เกณฑ์จากการทบทวนครั้งนั้น\n\n*อนุมาน —* เหตุผลที่ตัวเลขนี้สำคัญกว่าทัศนวิสัยคือขนาดของมันคือสิ่งที่ทำให้มันอันตราย และขนาดของมันก็เป็นสิ่งที่ทำให้มองไม่เห็นทีละอนุภาค วันที่ฟ้าหม่นกับวันที่อันตรายไม่ใช่รายการเดียวกัน"
+   },
+   "kin": [
+    {
+     "to": "the-smoke",
+     "as": "Four years of it, measured.",
+     "rel": "story"
+    },
+    {
+     "to": "smoke-riding",
+     "as": "What it does on a bike.",
+     "rel": "hazard"
+    }
+   ],
+   "sources": [
+    "s:epa-pm25-2024",
+    "s:open-meteo-aq",
+    "s:wp-southeast-asian-haze"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:epa-pm25-2024"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:epa-pm25-2024"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "smoke-riding",
+     "type": "hazard",
+     "name": "Riding in the smoke",
+     "as": "What is actually in the air."
+    },
+    {
+     "from": "the-smoke",
+     "type": "story",
+     "name": "The smoke",
+     "as": "What the number measures."
+    }
+   ]
+  },
+  {
+   "id": "songthaew",
+   "type": "term",
+   "names": {
+    "name": "Songthaew",
+    "th": "สองแถว",
+    "said": "Literally 'two rows'. A pickup with benches down each side of the bed, and the bus service of every town here.",
+    "said_th": "แปลตรงตัวว่าสองแถว รถกระบะที่มีม้านั่งสองข้างท้ายกระบะ และเป็นรถประจำทางของทุกเมืองแถบนี้",
+    "rtgs": "song thaeo"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "road"
+   },
+   "text": {
+    "what": "Literally 'two rows'. A pickup with benches down each side of the bed, and the bus service of every town here.",
+    "story": "*Inference —* the reason a rider needs the word is that a songthaew behaves like neither a bus nor a car: it stops anywhere, without warning, on the left, because someone standing at the roadside raised a hand. On a two-lane mountain road that is the vehicle most likely to stop in front of you.\n\nIt is also the answer if the bike breaks. A songthaew will take a person and often a bag to the next town for very little."
+   },
+   "text_th": {
+    "what": "แปลตรงตัวว่าสองแถว รถกระบะที่มีม้านั่งสองข้างท้ายกระบะ และเป็นรถประจำทางของทุกเมืองแถบนี้",
+    "story": "*อนุมาน —* เหตุผลที่คนขี่รถต้องรู้คำนี้ คือสองแถวไม่ได้ทำตัวเหมือนรถบัสและไม่เหมือนรถเก๋ง มันจอดที่ไหนก็ได้ โดยไม่บอกล่วงหน้า ชิดซ้าย เพราะมีคนยืนริมถนนยกมือ บนถนนภูเขาสองเลน นั่นคือรถที่มีโอกาสจอดขวางหน้าคุณมากที่สุด\n\nและมันยังเป็นคำตอบถ้ารถเสีย สองแถวรับคนและมักรับกระเป๋าไปส่งเมืองถัดไปในราคาน้อยมาก"
+   },
+   "kin": [
+    {
+     "to": "buses-on-your-line",
+     "as": "The wider version of this problem.",
+     "rel": "hazard"
+    }
+   ],
+   "sources": [
+    "s:wp-chiang-mai"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-chiang-mai"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-chiang-mai"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": []
+  }
+ ]
+}

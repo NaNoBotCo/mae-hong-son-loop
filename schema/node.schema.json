@@ -887,6 +887,13 @@
      "type": "string"
     }
    }
+  },
+  "x_commons_files": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "Candidate Wikimedia Commons File: titles, to be fetched with their licences by tools/harvest_commons.py. Not published as-is."
   }
  },
  "$defs": {

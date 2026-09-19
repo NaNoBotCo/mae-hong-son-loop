@@ -29,6 +29,7 @@ LICENCES, BY PART
     carries its licence, its author and a link to its Commons page, beside the picture.
     Nothing else is accepted; tools/validate.py refuses a licence that is not on the list.
 
-NO THIRD-PARTY REQUESTS
-  The built site loads no web font, no analytics, no tracker and no external script.
-  Everything a page needs is in the page or beside it.
+WHAT A BUILT PAGE LOADS
+  Its own HTML, one inline stylesheet, inline SVG for every map and chart, and the
+  pictures from this repository. Everything a page needs is in the page or beside it,
+  served from the same origin.

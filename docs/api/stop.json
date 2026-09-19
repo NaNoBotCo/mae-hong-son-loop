@@ -1,0 +1,1330 @@
+{
+ "type": "stop",
+ "count": 10,
+ "nodes": [
+  {
+   "id": "ban-rak-thai",
+   "type": "stop",
+   "names": {
+    "name": "Ban Rak Thai",
+    "th": "บ้านรักไทย",
+    "said": "A Yunnanese tea village against the Myanmar border, at the end of a road that only goes there.",
+    "said_th": "หมู่บ้านชาวจีนยูนนานติดชายแดนเมียนมา ที่ปลายถนนซึ่งไปที่อื่นไม่ได้"
+   },
+   "region": [
+    "mhs",
+    "mueang-mhs"
+   ],
+   "facets": {
+    "kind": "village"
+   },
+   "text": {
+    "what": "A village north of Mae Hong Son settled by Chinese Yunnanese, on a reservoir, with tea terraces and the border immediately behind it.",
+    "story": "Chinese Yunnanese are one of the named population groups of Mae Hong Son province. *Inference —* this village is the most visible expression of that on the circuit: the food is Yunnanese, the tea is grown on the slopes above, and the architecture is not Thai.\n\nIt is a dead end. The road goes there and comes back, which means an afternoon out of Mae Hong Son rather than a leg of the loop — and which is a large part of why a rider should give Mae Hong Son two nights.\n\n*Inference —* the altitude and the water make it cold in the mornings in the cool season in a way the valley is not."
+   },
+   "text_th": {
+    "what": "หมู่บ้านทางเหนือของแม่ฮ่องสอน ตั้งถิ่นฐานโดยชาวจีนยูนนาน อยู่ริมอ่างเก็บน้ำ มีไร่ชา และมีชายแดนอยู่ข้างหลังทันที",
+    "story": "ชาวจีนยูนนานเป็นหนึ่งในกลุ่มประชากรที่ระบุไว้ของจังหวัดแม่ฮ่องสอน *อนุมาน —* หมู่บ้านนี้คือการแสดงออกที่เห็นชัดที่สุดของเรื่องนั้นบนเส้นทาง อาหารเป็นยูนนาน ชาปลูกบนเนินเหนือหมู่บ้าน และสถาปัตยกรรมไม่ใช่ไทย\n\nมันเป็นทางตัน ถนนไปถึงแล้วต้องกลับ ซึ่งแปลว่าเป็นบ่ายหนึ่งบ่ายที่ออกจากแม่ฮ่องสอน ไม่ใช่ช่วงหนึ่งของวงรอบ และนั่นเป็นเหตุผลใหญ่ที่คนขี่ควรให้แม่ฮ่องสอนสองคืน\n\n*อนุมาน —* ความสูงและน้ำทำให้ตอนเช้าที่นี่หนาวในฤดูหนาวในแบบที่หุบเขาข้างล่างไม่เป็น"
+   },
+   "kin": [
+    {
+     "to": "mae-hong-son",
+     "as": "The town the day starts from.",
+     "rel": "town"
+    },
+    {
+     "to": "tham-pla",
+     "as": "On the way up.",
+     "rel": "stop"
+    },
+    {
+     "to": "pang-ung",
+     "as": "The other reason to spend a day north of town.",
+     "rel": "stop"
+    }
+   ],
+   "sources": [
+    "s:thwp-ban-rak-thai",
+    "s:wp-mae-hong-son-province"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:thwp-ban-rak-thai"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:thwp-ban-rak-thai"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 19.5,
+    "lon": 97.85,
+    "precision": "town"
+   },
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "ban-rak-thai/ban-rak-thai-ban-rak-thai-mae-hong-sorn-thailand-125159281.jpg",
+     "source": "commons",
+     "title": "File:Ban Rak Thai Mae Hong Sorn Thailand (125159281).jpeg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Ban_Rak_Thai_Mae_Hong_Sorn_Thailand_%28125159281%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ABan_Rak_Thai_Mae_Hong_Sorn_Thailand_%28125159281%29.jpeg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Wichian Ratanatongchai",
+     "credit": "Imported from 500px (archived version) by the Archive Team. (detail page)",
+     "alt": "500px provided description: Ban Rak Thai, Mae Hong Sorn, Northern Thailand. [#Thailand ,#Mae Hong Sorn ,#Nature Scene]",
+     "date": "10 October 2015, 13:37:06 (UTC)",
+     "primary": true,
+     "sha256": "eb79445bbdfd8f7c182098ae625dfefeea9c0df505097c98ff4124504fc7f216"
+    },
+    {
+     "file": "ban-rak-thai/ban-rak-thai-ban-rak-thai-mae-hong-sorn-thailand-125159295.jpg",
+     "source": "commons",
+     "title": "File:Ban Rak Thai Mae Hong Sorn Thailand (125159295).jpeg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Ban_Rak_Thai_Mae_Hong_Sorn_Thailand_%28125159295%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ABan_Rak_Thai_Mae_Hong_Sorn_Thailand_%28125159295%29.jpeg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Wichian Ratanatongchai",
+     "credit": "Imported from 500px (archived version) by the Archive Team. (detail page)",
+     "alt": "500px provided description: Ban Rak Thai, Mae Hong Sorn, Northern Thailand. [#Thailand ,#Mae Hong Sorn ,#Nature Scene]",
+     "date": "12 October 2015, 11:32:00 (UTC)",
+     "primary": false,
+     "sha256": "391003246a935644ce87999bc7f1ca4226a2942079e06c78952e71cd9df4443f"
+    },
+    {
+     "file": "ban-rak-thai/ban-rak-thai-ban-rak-thai-mae-hong-sorn-thailand-125159297.jpg",
+     "source": "commons",
+     "title": "File:Ban Rak Thai Mae Hong Sorn Thailand (125159297).jpeg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Ban_Rak_Thai_Mae_Hong_Sorn_Thailand_%28125159297%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ABan_Rak_Thai_Mae_Hong_Sorn_Thailand_%28125159297%29.jpeg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Wichian Ratanatongchai",
+     "credit": "Imported from 500px (archived version) by the Archive Team. (detail page)",
+     "alt": "500px provided description: Ban Rak Thai, Mae Hong Sorn, Northern Thailand. [#Thailand ,#Mae Hong Sorn ,#Nature Scene]",
+     "date": "12 October 2015, 11:32:55 (UTC)",
+     "primary": false,
+     "sha256": "f2a40741aeab41ae9d6714d0ae141be74c485cc60600dc7275939f3c4c30b682"
+    },
+    {
+     "file": "ban-rak-thai/ban-rak-thai-ban-rak-thai-mae-hong-sorn-thailand-125159307.jpg",
+     "source": "commons",
+     "title": "File:Ban Rak Thai Mae Hong Sorn Thailand (125159307).jpeg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Ban_Rak_Thai_Mae_Hong_Sorn_Thailand_%28125159307%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ABan_Rak_Thai_Mae_Hong_Sorn_Thailand_%28125159307%29.jpeg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Wichian Ratanatongchai",
+     "credit": "Imported from 500px (archived version) by the Archive Team. (detail page)",
+     "alt": "500px provided description: Ban Rak Thai, Mae Hong Sorn, Northern Thailand. [#Thailand ,#Mae Hong Sorn ,#Nature Scene]",
+     "date": "12 October 2015, 11:41:50 (UTC)",
+     "primary": false,
+     "sha256": "af74d13181cf0ed9b89971b5ee7f97a36be3472a64b1eaccdce2a2fa25551bd1"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "pang-ung",
+     "type": "stop",
+     "name": "Pang Ung",
+     "as": "The other end of the same day."
+    },
+    {
+     "from": "tham-pla",
+     "type": "stop",
+     "name": "Tham Pla, the fish cave",
+     "as": "Further up the same road."
+    }
+   ]
+  },
+  {
+   "id": "doi-inthanon",
+   "type": "stop",
+   "names": {
+    "name": "Doi Inthanon",
+    "th": "ดอยอินทนนท์",
+    "said": "The highest ground in Thailand, and cold enough at the top to surprise you.",
+    "said_th": "จุดสูงสุดของประเทศไทย และหนาวพอที่จะทำให้คุณประหลาดใจ"
+   },
+   "region": [
+    "cnx",
+    "chom-thong"
+   ],
+   "facets": {
+    "kind": "mountain",
+    "price": "mid"
+   },
+   "text": {
+    "what": "2,565 metres, in Chom Thong district, reached from Route 108 or from Mae Chaem over Route 1088. Not on the loop; one turn off it.",
+    "story": "The summit is the highest point in Thailand and sits in a national park. The road up is sealed the whole way and steep in places.\n\n*Inference —* on this circuit it is a decision about a day rather than about a mountain. Clockwise it lands near the end, at Chom Thong, when you are nearly home and tired; counter-clockwise it lands on day one, when you are fresh but have a long way to go. Either way it is a full extra day to do properly, and a rushed half-day gets you a car park in cloud.\n\nA rider coming over the 1263 cut can reach it from the Mae Chaem side on Route 1088, which is the quieter approach."
+   },
+   "text_th": {
+    "what": "สูง 2,565 เมตร ในอำเภอจอมทอง ขึ้นได้จากทางหลวง 108 หรือจากแม่แจ่มทางทางหลวง 1088 ไม่ได้อยู่บนวงรอบ แต่แยกจากมันครั้งเดียว",
+    "story": "ยอดดอยเป็นจุดสูงสุดของประเทศไทยและอยู่ในเขตอุทยานแห่งชาติ ถนนขึ้นลาดยางตลอดสายและชันเป็นช่วงๆ\n\n*อนุมาน —* บนเส้นทางนี้มันเป็นการตัดสินใจเรื่องวัน มากกว่าเรื่องภูเขา ถ้าไปตามเข็มมันจะมาถึงตอนท้าย ที่จอมทอง ตอนที่ใกล้ถึงบ้านและเหนื่อยแล้ว ถ้าไปทวนเข็มมันจะมาถึงวันแรก ตอนที่ยังสดแต่ยังมีทางอีกไกล ไม่ว่าทางไหนมันคือหนึ่งวันเต็มถ้าจะทำให้ดี และครึ่งวันแบบเร่งรีบจะได้แค่ลานจอดรถในเมฆ\n\nคนที่มาทางทางลัด 1263 ขึ้นได้จากฝั่งแม่แจ่มทางทางหลวง 1088 ซึ่งเป็นทางที่เงียบกว่า"
+   },
+   "kin": [
+    {
+     "to": "route-1088",
+     "as": "The quiet way up, from Mae Chaem.",
+     "rel": "road"
+    },
+    {
+     "to": "hot-to-cnx",
+     "as": "The leg with the Chom Thong turn on it.",
+     "rel": "leg"
+    },
+    {
+     "to": "mae-chaem",
+     "as": "The town on the back side.",
+     "rel": "town"
+    }
+   ],
+   "sources": [
+    "s:wp-doi-inthanon",
+    "s:wp-chom-thong"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-doi-inthanon"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-doi-inthanon"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 18.5885,
+    "lon": 98.4867,
+    "precision": "street",
+    "elevation_m": 2565
+   },
+   "recognitions": [
+    {
+     "by": "dnp",
+     "what": "Doi Inthanon National Park",
+     "source": "s:wp-doi-inthanon"
+    }
+   ],
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "doi-inthanon/doi-inthanon-minla-strigula-doi-inthanon.jpg",
+     "source": "commons",
+     "title": "File:Minla strigula - Doi Inthanon.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Minla_strigula_-_Doi_Inthanon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMinla_strigula_-_Doi_Inthanon.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+     "credit": "Own work",
+     "alt": "Chestnut-tailed Minla (Minla strigula), Doi Inthanon National Park, Chiang Mai, Thailand",
+     "date": "2013-03-22 16:59:37",
+     "primary": true,
+     "sha256": "eef66c8e46600cc33e6a1803edf7d1841c9915e159931a0ae321c8ec04770fc8"
+    },
+    {
+     "file": "doi-inthanon/doi-inthanon-polyptychus-trilineatus-mhnt-cut-2010-0-17-doi-intha-7c445a9.jpg",
+     "source": "commons",
+     "title": "File:Polyptychus trilineatus MHNT CUT 2010 0 17 Doi Inthanon Chiang Mai Thailande dorsal.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Polyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_dorsal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APolyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_dorsal.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Didier Descouens",
+     "credit": "Own work",
+     "alt": "Polyptychus trilineatus - Dorsal side\nCollection of the Mathematician Laurent Schwartz",
+     "date": "Taken on 22 February 2016",
+     "primary": false,
+     "sha256": "ff0578326288f9a720b007f5fe6a0f080fec6d0ee49ee1906a0eec8789dfbce6"
+    },
+    {
+     "file": "doi-inthanon/doi-inthanon-polyptychus-trilineatus-mhnt-cut-2010-0-17-doi-intha-a6174d1.jpg",
+     "source": "commons",
+     "title": "File:Polyptychus trilineatus MHNT CUT 2010 0 17 Doi Inthanon Chiang Mai Thailande ventral.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Polyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_ventral.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APolyptychus_trilineatus_MHNT_CUT_2010_0_17_Doi_Inthanon_Chiang_Mai_Thailande_ventral.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Didier Descouens",
+     "credit": "Own work",
+     "alt": "Polyptychus trilineatus - △ Ventral side\nCollection of the Mathematician Laurent Schwartz",
+     "date": "Taken on 22 February 2016",
+     "primary": false,
+     "sha256": "b5bd609c0319a3cfa5bc532d18de056a8a374389d4922ee2510844f76ec2a03a"
+    },
+    {
+     "file": "doi-inthanon/doi-inthanon-tarsiger-rufilatus-doi-inthanon.jpg",
+     "source": "commons",
+     "title": "File:Tarsiger rufilatus - Doi Inthanon.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tarsiger_rufilatus_-_Doi_Inthanon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ATarsiger_rufilatus_-_Doi_Inthanon.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "JJ Harrison (https://www.jjharrison.com.au/)",
+     "credit": "Own work",
+     "alt": "Himalayan Bluetail (Tarsiger rufilatus), Doi Inthanon National Park, Ban Luang, Chiang Mai, Thailand",
+     "date": "2011-02-06 14:15:49",
+     "primary": false,
+     "sha256": "5670423ebeff85e9c67299cb515715f8e1a79fd23294d0fdb27a8757999522a0"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "hot-to-cnx",
+     "type": "leg",
+     "name": "Hot to Chiang Mai",
+     "as": "The turn at Chom Thong, if there is a day left."
+    },
+    {
+     "from": "route-1088",
+     "type": "road",
+     "name": "Route 1088",
+     "as": "What it reaches."
+    },
+    {
+     "from": "mae-chaem",
+     "type": "town",
+     "name": "Mae Chaem",
+     "as": "The mountain on the other side."
+    }
+   ]
+  },
+  {
+   "id": "khun-yuam-memorial",
+   "type": "stop",
+   "names": {
+    "name": "The Japanese memorial at Khun Yuam",
+    "th": "อนุสรณ์สถานมิตรภาพไทย–ญี่ปุ่น ขุนยวม",
+    "said": "A small town on a mountain road keeps the record of an army that came through it and did not come back.",
+    "said_th": "เมืองเล็กๆ บนถนนภูเขาเก็บบันทึกของกองทัพที่ผ่านมาแล้วไม่ได้กลับ"
+   },
+   "region": [
+    "mhs",
+    "khun-yuam",
+    "loop",
+    "south-leg"
+   ],
+   "facets": {
+    "kind": "memorial"
+   },
+   "text": {
+    "what": "A memorial hall in Khun Yuam holding material from the Japanese presence in this district during the Second World War.",
+    "story": "Thailand's position in the Second World War was its own complicated thing — an alliance under pressure, an occupation that was not called one, and a resistance movement inside the government. Japanese forces moved through northern Thailand toward and from Burma, and Khun Yuam was on one of those routes.\n\n*Inference —* what makes this worth a stop on a motorcycle trip is that it is a local record rather than a national one: what is kept here is the relationship between a small Thai town and the soldiers who passed through it, including the ones who did not leave. That is a different subject from the campaign, and it is much less often told.\n\n**Not on this disk:** the hall's current opening hours, its admission charge, or the exact composition of its collection. This project has not verified them."
+   },
+   "text_th": {
+    "what": "อาคารอนุสรณ์ในขุนยวม เก็บรักษาสิ่งของจากการมีอยู่ของทหารญี่ปุ่นในอำเภอนี้ช่วงสงครามโลกครั้งที่สอง",
+    "story": "สถานะของไทยในสงครามโลกครั้งที่สองเป็นเรื่องซับซ้อนในตัวเอง ทั้งพันธมิตรภายใต้แรงกดดัน การยึดครองที่ไม่ได้เรียกว่าการยึดครอง และขบวนการต่อต้านที่อยู่ในรัฐบาลเอง กองทัพญี่ปุ่นเคลื่อนผ่านภาคเหนือของไทยไปและกลับจากพม่า และขุนยวมอยู่บนหนึ่งในเส้นทางเหล่านั้น\n\n*อนุมาน —* สิ่งที่ทำให้ที่นี่ควรแวะระหว่างทริปมอเตอร์ไซค์ คือมันเป็นบันทึกของท้องถิ่น ไม่ใช่ของชาติ สิ่งที่เก็บไว้ที่นี่คือความสัมพันธ์ระหว่างเมืองไทยเล็กๆ เมืองหนึ่งกับทหารที่ผ่านมา รวมถึงคนที่ไม่ได้จากไป นั่นเป็นคนละเรื่องกับยุทธการ และถูกเล่าน้อยกว่ามาก\n\n**ไม่มีข้อมูลในชุดนี้** เวลาเปิดปิดปัจจุบัน ค่าเข้าชม หรือรายละเอียดของสิ่งที่จัดแสดง โครงการนี้ยังไม่ได้ตรวจสอบ"
+   },
+   "kin": [
+    {
+     "to": "khun-yuam",
+     "as": "The town it is in.",
+     "rel": "town"
+    },
+    {
+     "to": "mhs-to-khun-yuam",
+     "as": "The leg that reaches it.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:wp-thailand-in-world-war-ii",
+    "s:wp-japanese-occupation-of-burma",
+    "s:wp-khun-yuam-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-thailand-in-world-war-ii"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-thailand-in-world-war-ii"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 18.8228,
+    "lon": 97.9336,
+    "precision": "town"
+   },
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "khun-yuam-memorial/khun-yuam-memorial-image-from-page-79-of-bonn-zoological-bulletin-2010-cropped.jpg",
+     "source": "commons",
+     "title": "File:Image from page 79 of \"Bonn zoological bulletin\" (2010) (cropped).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Image_from_page_79_of_%22Bonn_zoological_bulletin%22_%282010%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AImage_from_page_79_of_%22Bonn_zoological_bulletin%22_%282010%29_%28cropped%29.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Internet Archive Book Images",
+     "credit": "https://www.flickr.com/photos/internetarchivebookimages/20207569209/",
+     "alt": "Title: Bonn zoological bulletin\nIdentifier: bonnzoologica5712010zool\nYear: 2010 (2010s)\nAuthors: Zoologisches Forschungsmuseum Alexander Koenig\nSubjects: Zoology\nPublisher: Bonn : Zoologisches Forschu",
+     "date": "2010-01-01",
+     "primary": true,
+     "sha256": "631e6c61f98206a60524e1756da5b4bbf4aad10b91f621c25a9ccd78e269e970"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "khun-yuam",
+     "type": "town",
+     "name": "Khun Yuam",
+     "as": "The hall, and the story it holds."
+    }
+   ]
+  },
+  {
+   "id": "mae-surin-waterfall",
+   "type": "stop",
+   "names": {
+    "name": "Mae Surin Waterfall",
+    "th": "น้ำตกแม่สุรินทร์",
+    "said": "One drop, a long way, into a gorge.",
+    "said_th": "สายเดียว ตกลงมาไกล ลงสู่หุบเขา"
+   },
+   "region": [
+    "mhs",
+    "khun-yuam"
+   ],
+   "facets": {
+    "kind": "waterfall",
+    "price": "mid"
+   },
+   "text": {
+    "what": "A single-drop waterfall in Namtok Mae Surin National Park, in Khun Yuam district.",
+    "story": "The national park is named after it and also contains the Doi Mae U-Kho hillside where the *Tithonia* blooms in November, so a single detour off Route 108 near Khun Yuam can reach both.\n\n*Inference —* the waterfall is a rains-and-just-after phenomenon like every waterfall; by March there is much less of it. The bloom is the opposite, in November. The two reasons to go up there do not coincide."
+   },
+   "text_th": {
+    "what": "น้ำตกชั้นเดียวในอุทยานแห่งชาติน้ำตกแม่สุรินทร์ อำเภอขุนยวม",
+    "story": "อุทยานแห่งชาติตั้งชื่อตามน้ำตกนี้ และยังครอบคลุมดอยแม่อูคอที่ดอกบัวตองบานในเดือนพฤศจิกายน การแยกจากทางหลวง 108 ใกล้ขุนยวมครั้งเดียวจึงไปได้ทั้งสองที่\n\n*อนุมาน —* น้ำตกเป็นเรื่องของหน้าฝนและช่วงหลังฝนเหมือนน้ำตกทุกแห่ง พอถึงเดือนมีนาคมจะเหลือน้อยมาก ส่วนทุ่งดอกไม้ตรงกันข้าม คือเดือนพฤศจิกายน เหตุผลสองข้อที่จะขึ้นไปบนนั้นไม่ตรงกัน"
+   },
+   "kin": [
+    {
+     "to": "bua-tong-bloom",
+     "as": "The other reason to go up, in a different month.",
+     "rel": "event"
+    },
+    {
+     "to": "khun-yuam",
+     "as": "The town below.",
+     "rel": "town"
+    },
+    {
+     "to": "the-rains",
+     "as": "When there is water in it.",
+     "rel": "event"
+    }
+   ],
+   "sources": [
+    "s:wp-namtok-mae-surin-national-park",
+    "s:wp-khun-yuam-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-namtok-mae-surin-national-park"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-namtok-mae-surin-national-park"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 19.0333,
+    "lon": 97.9333,
+    "precision": "town"
+   },
+   "recognitions": [
+    {
+     "by": "dnp",
+     "what": "Namtok Mae Surin National Park",
+     "source": "s:wp-namtok-mae-surin-national-park"
+    }
+   ],
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "mae-surin-waterfall/mae-surin-waterfall-namtok-mae-surin-waterfall-thailand.jpg",
+     "source": "commons",
+     "title": "File:Namtok Mae Surin, Waterfall, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Namtok_Mae_Surin%2C_Waterfall%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ANamtok_Mae_Surin%2C_Waterfall%2C_Thailand.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Vyacheslav Argenberg",
+     "credit": "Own work",
+     "alt": "Mae Surin Waterfall. Numerous streams and rivers around. A mix of evergreen and deciduous hill forest with some Dipterocarp trees. It was the last place in northern Thailand where you could spot an In",
+     "date": "2010-11-23 15:27:33",
+     "primary": true,
+     "sha256": "50bd0a7eae447243800a19cf16adbe6674eb2d50114b27cf8e108e7b42b710d7"
+    },
+    {
+     "file": "mae-surin-waterfall/mae-surin-waterfall-namtok-mae-surin-waterfall-3-thailand.jpg",
+     "source": "commons",
+     "title": "File:Namtok Mae Surin, Waterfall 3, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Namtok_Mae_Surin%2C_Waterfall_3%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ANamtok_Mae_Surin%2C_Waterfall_3%2C_Thailand.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Vyacheslav Argenberg",
+     "credit": "Own work",
+     "alt": "Mae Surin Waterfall. Numerous streams and rivers around. A mix of evergreen and deciduous hill forest with some Dipterocarp trees. Namtok Mae Surin, Doi Pui Area, Mae Hong Son Province, Thanon Thong C",
+     "date": "2010-11-23 15:36:21",
+     "primary": false,
+     "sha256": "16cfbd002c27337586c8b4d98d27ad17437b83c469c76c70d0322002b296748b"
+    },
+    {
+     "file": "mae-surin-waterfall/mae-surin-waterfall-namtok-mae-surin-waterfall-4-thailand.jpg",
+     "source": "commons",
+     "title": "File:Namtok Mae Surin, Waterfall 4, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Namtok_Mae_Surin%2C_Waterfall_4%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ANamtok_Mae_Surin%2C_Waterfall_4%2C_Thailand.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Vyacheslav Argenberg",
+     "credit": "Own work",
+     "alt": "Mae Surin Waterfall. A mix of evergreen and deciduous hill forest with some Dipterocarp trees. Namtok Mae Surin, Doi Pui Area, Mae Hong Son Province, Thanon Thong Chai Range, Thailand.",
+     "date": "2010-11-23 15:27:38",
+     "primary": false,
+     "sha256": "5ff657adc887f0be748ced2b3b2fabfb43fcc708f809f330bbea56398a85c30a"
+    },
+    {
+     "file": "mae-surin-waterfall/mae-surin-waterfall-.jpg",
+     "source": "commons",
+     "title": "File:อุทยานแห่งชาติน้ำตกแม่สุรินทร์.JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AA%E0%B8%B8%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B9%8C.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Hapong",
+     "credit": "Own work",
+     "alt": "อุทยานแห่งชาติน้ำตกแม่สุรินทร์ จังหวัดแม่ฮ่องสอน",
+     "date": "2014-11-08 16:28:00",
+     "primary": false,
+     "sha256": "a6603a6366d5ac2df74c760faa207d9d8709663dfedc22799d982b0f65700546"
+    }
+   ],
+   "kin_in": []
+  },
+  {
+   "id": "op-luang",
+   "type": "stop",
+   "names": {
+    "name": "Op Luang",
+    "th": "ออบหลวง",
+    "said": "The river cut a slot through the rock and the road goes over the top of it.",
+    "said_th": "แม่น้ำเซาะหินเป็นร่องแคบ และถนนข้ามอยู่ด้านบน"
+   },
+   "region": [
+    "cnx",
+    "hot",
+    "loop",
+    "south-leg"
+   ],
+   "facets": {
+    "kind": "gorge",
+    "price": "mid"
+   },
+   "text": {
+    "what": "A gorge on the Chaem river in a national park on Route 108, roughly midway between Hot and Mae Sariang.",
+    "story": "*Inference —* the practical value of this place on a long empty leg is that it exists. The Mae Sariang to Hot run is the emptiest on the circuit, and a gorge with a car park, shade and a bridge over it is the natural break in the middle of three hours.\n\nThe gorge itself is narrow and deep and the water goes through it fast; the national park around it covers a much larger area of hill forest."
+   },
+   "text_th": {
+    "what": "ช่องเขาบนแม่น้ำแจ่มในเขตอุทยานแห่งชาติ บนทางหลวง 108 ราวกึ่งกลางระหว่างฮอดกับแม่สะเรียง",
+    "story": "*อนุมาน —* คุณค่าในทางปฏิบัติของที่นี่บนช่วงยาวที่ว่างเปล่าคือการที่มันมีอยู่ ช่วงแม่สะเรียงถึงฮอดเป็นช่วงที่ว่างที่สุดของวงรอบ และช่องเขาที่มีลานจอดรถ มีร่มเงา และมีสะพานข้าม คือจุดพักตามธรรมชาติตรงกลางของสามชั่วโมง\n\nตัวช่องเขาแคบและลึก น้ำไหลผ่านเร็ว ส่วนอุทยานรอบๆ ครอบคลุมพื้นที่ป่าเขากว้างกว่ามาก"
+   },
+   "kin": [
+    {
+     "to": "mae-sariang-to-hot",
+     "as": "The long leg it breaks.",
+     "rel": "leg"
+    },
+    {
+     "to": "route-108",
+     "as": "The road it is on.",
+     "rel": "road"
+    }
+   ],
+   "sources": [
+    "s:wp-op-luang-national-park"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-op-luang-national-park"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-op-luang-national-park"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 18.2167,
+    "lon": 98.4167,
+    "precision": "town"
+   },
+   "recognitions": [
+    {
+     "by": "dnp",
+     "what": "Op Luang National Park",
+     "source": "s:wp-op-luang-national-park"
+    }
+   ],
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "op-luang/op-luang-mae-tia-waterfall-op-luang-national-park.jpg",
+     "source": "commons",
+     "title": "File:Mae Tia Waterfall, Op Luang National Park.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mae_Tia_Waterfall%2C_Op_Luang_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Tia_Waterfall%2C_Op_Luang_National_Park.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Catchiangmai",
+     "credit": "Own work",
+     "alt": "Mae Tia Waterfall, a magnificent cascading waterfall set within the verdant forest of Op Luang National Park, Chiang Mai, Thailand. The image captures the natural beauty of the waterfall as it flows d",
+     "date": "2023-12-24 15:44:09",
+     "primary": true,
+     "sha256": "258f2cb5bd268fc0a60dcd6a9aa25b986c21e1e71c01a7173304b856fe1956ef"
+    },
+    {
+     "file": "op-luang/op-luang-national-park-1068-aoblaung01.jpg",
+     "source": "commons",
+     "title": "File:National Park 1068-AobLaung01.JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/National_Park_1068-AobLaung01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ANational_Park_1068-AobLaung01.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Yingthipc",
+     "credit": "Own work",
+     "alt": "อุทยานแห่งชาติออบหลวง",
+     "date": "2015-06-29",
+     "primary": false,
+     "sha256": "10d06be5bab16d87a536c8d308c57172d0ee20866749beca26de909fe10be80e"
+    },
+    {
+     "file": "op-luang/op-luang-obluang-national-park.jpg",
+     "source": "commons",
+     "title": "File:Obluang National Park.JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Obluang_National_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AObluang_National_Park.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Ditsakul",
+     "credit": "Own work",
+     "alt": "อุทยานแห่งชาติออบหลวง มีพื้นที่ครอบคลุมอยู่ในท้องที่อำเภอจอมทอง อำเภอฮอด และอำเภอแม่แจ่ม จังหวัดเชียงใหม่ เป็นสถานที่น่าเที่ยวที่มีลักษณะช่องแคบเขาขาดที่มีหน้าผาหินขนาบลำน้ำ ทำให้เกิดหุบผาลึก นอกจากนั",
+     "date": "2015-03-04 12:11:19",
+     "primary": false,
+     "sha256": "466bf73af88cce953cc09f7218cdc977954b2da6472139b755fe44f36cee2a6a"
+    },
+    {
+     "file": "op-luang/op-luang-obluang-national-park-chiangmai-province-thailand.jpg",
+     "source": "commons",
+     "title": "File:Obluang national park, Chiangmai province, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Obluang_national_park%2C_Chiangmai_province%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AObluang_national_park%2C_Chiangmai_province%2C_Thailand.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Ditsakul",
+     "credit": "Own work",
+     "alt": "อุทยานแห่งชาติออบหลวง มีพื้นที่ครอบคลุมอยู่ในท้องที่อำเภอจอมทอง อำเภอฮอด และอำเภอแม่แจ่ม จังหวัดเชียงใหม่ เป็นสถานที่น่าเที่ยวที่มีลักษณะช่องแคบเขาขาดที่มีหน้าผาหินขนาบลำน้ำ ทำให้เกิดหุบผาลึก นอกจากนั",
+     "date": "2015-03-04 12:00:40",
+     "primary": false,
+     "sha256": "16218addf7276a60b330cc3c35bbea090732d380d3ae0dffb9e822408f0be752"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "mae-sariang-to-hot",
+     "type": "leg",
+     "name": "Mae Sariang to Hot",
+     "as": "The gorge in the middle of it."
+    }
+   ]
+  },
+  {
+   "id": "pai-canyon",
+   "type": "stop",
+   "names": {
+    "name": "Pai Canyon",
+    "th": "กองแลน",
+    "said": "Eroded ridges you can walk out along, and there is nothing at the sides.",
+    "said_th": "สันดินที่ถูกกัดเซาะ เดินออกไปได้ และสองข้างไม่มีอะไร"
+   },
+   "region": [
+    "mhs",
+    "pai",
+    "loop",
+    "north-leg"
+   ],
+   "facets": {
+    "kind": "viewpoint",
+    "price": "free"
+   },
+   "text": {
+    "what": "Kong Lan: narrow eroded sandstone ridges on the edge of the Pai basin, walked at sunset by most of the town.",
+    "story": "*Inference —* two things are worth saying about it that the photographs do not. The ridges are genuinely narrow with unprotected drops on both sides and the sandstone crumbles; people have been hurt there. And it is ten minutes from Pai on Route 1095, which means it works as the last stop of the day you ride in, rather than as an outing.\n\nSunset is when everyone goes, which is also when the light is best and when the walk back is done in the dark."
+   },
+   "text_th": {
+    "what": "กองแลน สันหินทรายแคบๆ ที่ถูกกัดเซาะ อยู่ริมแอ่งปาย คนเกือบทั้งเมืองมาเดินตอนพระอาทิตย์ตก",
+    "story": "*อนุมาน —* มีสองเรื่องที่ควรพูดซึ่งภาพถ่ายไม่ได้บอก สันหินแคบจริงและมีเหวสองข้างที่ไม่มีราวกั้น และหินทรายก็ร่วน มีคนบาดเจ็บที่นั่นมาแล้ว และมันอยู่ห่างจากปายสิบนาทีบนทางหลวง 1095 แปลว่ามันใช้เป็นจุดแวะสุดท้ายของวันที่ขี่เข้ามาได้ ไม่ต้องจัดเป็นทริปแยก\n\nพระอาทิตย์ตกคือเวลาที่ทุกคนไป ซึ่งเป็นเวลาที่แสงดีที่สุด และเป็นเวลาที่ต้องเดินกลับในความมืด"
+   },
+   "kin": [
+    {
+     "to": "pai",
+     "as": "The town it is outside.",
+     "rel": "town"
+    },
+    {
+     "to": "cnx-to-pai",
+     "as": "The leg it sits at the end of.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:wp-pai-district",
+    "s:wp-pai-thailand"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "tradition"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 19.3333,
+    "lon": 98.4333,
+    "precision": "town"
+   },
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "pai-canyon/pai-canyon-pai-canyon-3.jpg",
+     "source": "commons",
+     "title": "File:Pai Canyon 3.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Pai_Canyon_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Canyon_3.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Pai Canyon near Pai, Thailand.",
+     "date": "2018-08-30 17:55:53",
+     "primary": true,
+     "sha256": "721aa5fa5439e5850dee0c89bd98c77eb5a8b77d15318ff7b04039f6886b06cb"
+    },
+    {
+     "file": "pai-canyon/pai-canyon-pai-canyon-6.jpg",
+     "source": "commons",
+     "title": "File:Pai Canyon 6.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Pai_Canyon_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Canyon_6.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Pai Canyon near Pai, Thailand.",
+     "date": "2018-08-30 18:01:39",
+     "primary": false,
+     "sha256": "055ddf4d525d4e187a8499c1061488d380c01a0ea1c27c88b357aecbb62bb5f2"
+    },
+    {
+     "file": "pai-canyon/pai-canyon-pai-canyon-7.jpg",
+     "source": "commons",
+     "title": "File:Pai Canyon 7.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Pai_Canyon_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Canyon_7.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Pai Canyon near Pai, Thailand.",
+     "date": "2018-08-30 18:03:01",
+     "primary": false,
+     "sha256": "72672541afb11fd58c0fba6b8ce1d6e416b00ee0e6ffe9686349187ed1323e41"
+    },
+    {
+     "file": "pai-canyon/pai-canyon-pai-canyon-8.jpg",
+     "source": "commons",
+     "title": "File:Pai Canyon 8.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Pai_Canyon_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Canyon_8.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Pai Canyon near Pai, Thailand.",
+     "date": "2018-08-30 18:03:53",
+     "primary": false,
+     "sha256": "fb85f81b22e5b9b5db8e2486c55e27452dee2099dc568b79b234eba1664ce5c6"
+    }
+   ],
+   "kin_in": []
+  },
+  {
+   "id": "pang-ung",
+   "type": "stop",
+   "names": {
+    "name": "Pang Ung",
+    "th": "ปางอุ๋ง",
+    "said": "A reservoir with pines round it, and mist on it at six in the morning.",
+    "said_th": "อ่างเก็บน้ำที่มีต้นสนล้อมรอบ และมีหมอกลอยอยู่บนน้ำตอนหกโมงเช้า"
+   },
+   "region": [
+    "mhs",
+    "mueang-mhs"
+   ],
+   "facets": {
+    "kind": "viewpoint"
+   },
+   "text": {
+    "what": "A royal-project reservoir in the hills north-west of Mae Hong Son, reached by the same road system as Ban Rak Thai.",
+    "story": "*Inference —* this is a dawn place and it is only a dawn place. The mist that makes it worth the ride is a cool-season, early-morning, still-air phenomenon, and at ten in the morning it is a reservoir with pine trees.\n\nWhich has a scheduling consequence that runs through this whole site: it requires sleeping within reach of it, which means two nights in Mae Hong Son, which means the four-day loop is really a five-day loop if you want the things Mae Hong Son is actually known for.\n\n**Not on this disk:** current access arrangements, charges or camping rules."
+   },
+   "text_th": {
+    "what": "อ่างเก็บน้ำโครงการหลวงบนเขาทางตะวันตกเฉียงเหนือของแม่ฮ่องสอน เข้าถึงด้วยระบบถนนเดียวกับบ้านรักไทย",
+    "story": "*อนุมาน —* ที่นี่เป็นที่สำหรับรุ่งสาง และเป็นที่สำหรับรุ่งสางเท่านั้น หมอกที่ทำให้มันคุ้มค่าการขี่ไปเป็นปรากฏการณ์ของฤดูหนาว เช้ามืด และอากาศนิ่ง พอสิบโมงเช้ามันก็เป็นอ่างเก็บน้ำที่มีต้นสน\n\nซึ่งมีผลต่อตารางเวลาที่ไหลผ่านทั้งเว็บนี้ มันต้องการให้คุณนอนในระยะที่ไปถึงได้ ซึ่งแปลว่าสองคืนที่แม่ฮ่องสอน ซึ่งแปลว่าวงรอบสี่วันจริงๆ แล้วคือห้าวัน ถ้าคุณอยากได้สิ่งที่แม่ฮ่องสอนขึ้นชื่อจริงๆ\n\n**ไม่มีข้อมูลในชุดนี้** การเข้าถึง ค่าธรรมเนียม หรือกฎการกางเต็นท์ในปัจจุบัน"
+   },
+   "kin": [
+    {
+     "to": "mae-hong-son",
+     "as": "The town you sleep in to get here at dawn.",
+     "rel": "town"
+    },
+    {
+     "to": "cool-season",
+     "as": "The only season the mist happens.",
+     "rel": "event"
+    },
+    {
+     "to": "ban-rak-thai",
+     "as": "The other end of the same day.",
+     "rel": "stop"
+    }
+   ],
+   "sources": [
+    "s:wp-mueang-mae-hong-son-district",
+    "s:wp-mae-hong-son-province"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "tradition"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 19.4833,
+    "lon": 97.8667,
+    "precision": "town"
+   },
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "pang-ung/pang-ung-pang-oung-tham-pla-namtok-pha-suea-national-park.jpg",
+     "source": "commons",
+     "title": "File:Pang Oung - Tham Pla – Namtok Pha Suea National Park.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Pang_Oung_-_Tham_Pla_%E2%80%93_Namtok_Pha_Suea_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APang_Oung_-_Tham_Pla_%E2%80%93_Namtok_Pha_Suea_National_Park.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Nutchana",
+     "credit": "Own work",
+     "alt": "Pang Oung - Tham Pla – Namtok Pha Suea National Park",
+     "date": "2022-02-13 07:28:39",
+     "primary": true,
+     "sha256": "70bde1c878b98bdd3fca3f006f72d15cd55e3c94219be8fce42f9781b9b459e2"
+    },
+    {
+     "file": "pang-ung/pang-ung-.jpg",
+     "source": "commons",
+     "title": "File:กลิ่นอายแห่งรุ่งสาง.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%87.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%81%E0%B8%A5%E0%B8%B4%E0%B9%88%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%A2%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%A3%E0%B8%B8%E0%B9%88%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%87.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "สิทธิเดช หนูห่วง",
+     "credit": "Own work",
+     "alt": "แสงแรกของวันสะท้อนผ่านแนวสนและผืนน้ำอันเงียบสงบ สร้างภาพความงดงามที่เรียบง่าย แต่ตราตรึงอยู่ในความทรงจำ",
+     "date": "2017-12-16 07:20:29",
+     "primary": false,
+     "sha256": "55e60f79616e2069171813253b021b331e78eefe00167d8f087369d40937574d"
+    },
+    {
+     "file": "pang-ung/pang-ung-.jpg",
+     "source": "commons",
+     "title": "File:เเพกลางม่านหมอก.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/%E0%B9%80%E0%B9%80%E0%B8%9E%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B9%80%E0%B9%80%E0%B8%9E%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%A1%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "สิทธิเดช หนูห่วง",
+     "credit": "Own work",
+     "alt": "แสงแรกของวันทอดตัวผ่านสายหมอกบางๆ ขณะที่แพลำน้อยค่อยๆ เคลื่อนผ่านผืนน้ำ สร้างความงดงามที่เรียบง่ายและน่าจดจำ",
+     "date": "2017-12-16 07:38:19",
+     "primary": false,
+     "sha256": "bbac199e1d163fd00f73f0572fa40824f3a067a08a1608e87b5340a38e6435a1"
+    },
+    {
+     "file": "pang-ung/pang-ung-.jpg",
+     "source": "commons",
+     "title": "File:เเสงทองกลางสายหมอก.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/%E0%B9%80%E0%B9%80%E0%B8%AA%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B9%80%E0%B9%80%E0%B8%AA%E0%B8%87%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%A5%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%B2%E0%B8%A2%E0%B8%AB%E0%B8%A1%E0%B8%AD%E0%B8%81.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "สิทธิเดช หนูห่วง",
+     "credit": "Own work",
+     "alt": "เเสงเเรกของวันค่อยๆ เเตะผืนน้ำ ท่ามกลางสายหมอกบางเบา ราวกับธรรมชาติกำลังเริ่มต้นบทเพลงบทใหม่อย่างเเผ่วเบา",
+     "date": "2017-12-16 07:42:44",
+     "primary": false,
+     "sha256": "d71b7d6a3bbbf37e6de6d06dfaf9204a9eabd405397ef731e6fecc614fb59cac"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "ban-rak-thai",
+     "type": "stop",
+     "name": "Ban Rak Thai",
+     "as": "The other reason to spend a day north of town."
+    }
+   ]
+  },
+  {
+   "id": "su-tong-pae",
+   "type": "stop",
+   "names": {
+    "name": "Su Tong Pae bridge",
+    "th": "สะพานซูตองเป้",
+    "said": "A bamboo footbridge across a paddy valley, built by a village and monks to walk to each other.",
+    "said_th": "สะพานไม้ไผ่ข้ามทุ่งนา สร้างโดยชาวบ้านและพระเพื่อเดินหากัน"
+   },
+   "region": [
+    "mhs",
+    "mueang-mhs",
+    "loop"
+   ],
+   "facets": {
+    "kind": "bridge",
+    "price": "free"
+   },
+   "text": {
+    "what": "A long bamboo bridge over rice fields and a stream outside Mae Hong Son town, on the route toward Khun Yuam.",
+    "story": "*Tradition holds —* the bridge was built so that monks from the monastery on one side could walk on alms round to the village on the other without crossing the fields and the water, and the villagers built it with them. The bamboo is replaced as it wears.\n\n*Inference —* for a rider it is the right kind of stop, which is to say it takes fifteen minutes and it is on the way rather than up a dead end. Early morning is when the alms round happens and it is a working bridge at that hour, not a viewpoint.\n\n**Not on this disk:** whether an admission or donation is now collected, and the bridge's current condition."
+   },
+   "text_th": {
+    "what": "สะพานไม้ไผ่สายยาวข้ามทุ่งนาและลำธาร นอกตัวเมืองแม่ฮ่องสอน บนเส้นทางไปขุนยวม",
+    "story": "*ตามธรรมเนียม —* สะพานสร้างขึ้นเพื่อให้พระจากวัดฝั่งหนึ่งเดินบิณฑบาตไปยังหมู่บ้านอีกฝั่งได้โดยไม่ต้องลุยทุ่งและลุยน้ำ และชาวบ้านช่วยกันสร้าง ไม้ไผ่ถูกเปลี่ยนเมื่อผุ\n\n*อนุมาน —* สำหรับคนขี่รถ นี่คือจุดแวะประเภทที่ถูกต้อง คือใช้เวลาสิบห้านาทีและอยู่บนทางผ่าน ไม่ใช่ปลายทางตัน เช้ามืดคือเวลาที่มีการบิณฑบาต และชั่วโมงนั้นมันเป็นสะพานที่ใช้งานจริง ไม่ใช่จุดชมวิว\n\n**ไม่มีข้อมูลในชุดนี้** ปัจจุบันมีการเก็บค่าเข้าหรือรับบริจาคหรือไม่ และสภาพสะพานตอนนี้"
+   },
+   "kin": [
+    {
+     "to": "mae-hong-son",
+     "as": "The town it is outside.",
+     "rel": "town"
+    },
+    {
+     "to": "mhs-to-khun-yuam",
+     "as": "The leg it sits near the start of.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:wp-mueang-mae-hong-son-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "tradition"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 19.25,
+    "lon": 97.9833,
+    "precision": "town"
+   },
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": []
+  },
+  {
+   "id": "tham-lot",
+   "type": "stop",
+   "names": {
+    "name": "Tham Lot",
+    "th": "ถ้ำลอด",
+    "said": "A river goes into a hill and comes out the other side, and you go with it.",
+    "said_th": "แม่น้ำไหลเข้าไปในเขาแล้วออกอีกด้าน และคุณไปกับมัน"
+   },
+   "region": [
+    "mhs",
+    "pangmapha",
+    "loop",
+    "north-leg"
+   ],
+   "facets": {
+    "kind": "cave",
+    "price": "mid"
+   },
+   "text": {
+    "what": "A limestone cave in Pang Mapha district with the Nam Lang stream running through it. Entered by lamp and by bamboo raft, with a local guide.",
+    "story": "The cave carries prehistoric material — wooden coffins of the kind the district is known for — as well as the river. *Tradition holds —* visitors are taken through by local guides with pressure lamps, and the raft sections are poled.\n\n*Inference —* the reason to sleep in Soppong rather than push on is largely this: the cave wants a couple of hours and morning is when the guides and the light are both there.\n\nAt dusk a very large roost of birds and bats exchanges places at the entrance, which is a spectacle that costs nothing and needs you to be there at the right hour rather than to pay for anything.",
+    "today": "A national park fee applies and Thailand charges foreigners a separate rate; the guide and lamp are a separate, locally set charge. Neither figure is printed here because neither was verified on the build date."
+   },
+   "text_th": {
+    "what": "ถ้ำหินปูนในอำเภอปางมะผ้า มีลำน้ำลางไหลผ่าน เข้าชมด้วยตะเกียงและแพไม้ไผ่ พร้อมผู้นำทางท้องถิ่น",
+    "story": "ในถ้ำมีหลักฐานยุคก่อนประวัติศาสตร์ ทั้งโลงไม้แบบที่อำเภอนี้ขึ้นชื่อ และมีแม่น้ำ *ตามธรรมเนียม —* ผู้มาเยือนจะถูกนำชมโดยผู้นำทางท้องถิ่นพร้อมตะเกียงเจ้าพายุ และช่วงที่เป็นแพใช้ไม้ถ่อ\n\n*อนุมาน —* เหตุผลที่ควรนอนสบป่องแทนที่จะฝืนไปต่อ ส่วนใหญ่คือเรื่องนี้ ถ้ำต้องใช้เวลาสองสามชั่วโมง และตอนเช้าคือเวลาที่ทั้งผู้นำทางและแสงอยู่พร้อมกัน\n\nตอนพลบค่ำจะมีนกและค้างคาวจำนวนมหาศาลสลับที่กันตรงปากถ้ำ ซึ่งเป็นภาพที่ไม่ต้องจ่ายอะไร ต้องการแค่ให้คุณอยู่ตรงนั้นในเวลาที่ถูกต้อง",
+    "today": "มีค่าธรรมเนียมอุทยาน และไทยเก็บค่าธรรมเนียมชาวต่างชาติในอัตราแยกต่างหาก ส่วนค่าผู้นำทางและตะเกียงเป็นค่าใช้จ่ายอีกส่วนที่กำหนดโดยคนในพื้นที่ ไม่พิมพ์ตัวเลขทั้งสองไว้ที่นี่ เพราะไม่ได้ตรวจสอบในวันที่สร้างเว็บ"
+   },
+   "kin": [
+    {
+     "to": "soppong",
+     "as": "The town it belongs to.",
+     "rel": "town"
+    },
+    {
+     "to": "pai-to-soppong",
+     "as": "The half-day that buys you the time for it.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:wp-tham-lot-cave",
+    "s:wp-pang-mapha-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-tham-lot-cave"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-tham-lot-cave"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 19.5686,
+    "lon": 98.2694,
+    "precision": "town"
+   },
+   "tags": [
+    {
+     "source": "s:wp-tham-lot-cave",
+     "tag": "national-park-fee"
+    },
+    {
+     "source": "s:osm",
+     "tag": "detour"
+    }
+   ],
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "tham-lot/tham-lot-tham-lot-cave-stalactites-ceiling-thailand.jpg",
+     "source": "commons",
+     "title": "File:Tham Lot (cave), Stalactites, Ceiling, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Tham_Lot_%28cave%29%2C_Stalactites%2C_Ceiling%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ATham_Lot_%28cave%29%2C_Stalactites%2C_Ceiling%2C_Thailand.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Vyacheslav Argenberg",
+     "credit": "Own work",
+     "alt": "Nam Lod (cave), Tham Lot (cave), Mae Hong Son, Thailand. The Mae Lang River flows through the cave which is filled with stalactites and stalagmites.",
+     "date": "2010-11-22 12:35:04",
+     "primary": true,
+     "sha256": "b512c0d284077b6a7928d9c78d0d549b9444f3aa58f236e515cdacc184202066"
+    },
+    {
+     "file": "tham-lot/tham-lot-tham-lot-cave-stalactites-thailand.jpg",
+     "source": "commons",
+     "title": "File:Tham Lot (cave), Stalactites, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Tham_Lot_%28cave%29%2C_Stalactites%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ATham_Lot_%28cave%29%2C_Stalactites%2C_Thailand.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Vyacheslav Argenberg",
+     "credit": "Own work",
+     "alt": "Nam Lod (cave), Tham Lot (cave), Mae Hong Son, Thailand. The Mae Lang River flows through the cave which is filled with stalactites and stalagmites.",
+     "date": "2010-11-22 12:34:35",
+     "primary": false,
+     "sha256": "e75ec043cd03f6b2a2988cf3e13349f85c09dc0efe679cbb8568deab6e078c54"
+    },
+    {
+     "file": "tham-lot/tham-lot-tham-lot-cave-stalagmites-thailand.jpg",
+     "source": "commons",
+     "title": "File:Tham Lot (cave), Stalagmites, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Tham_Lot_%28cave%29%2C_Stalagmites%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ATham_Lot_%28cave%29%2C_Stalagmites%2C_Thailand.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Vyacheslav Argenberg",
+     "credit": "Own work",
+     "alt": "Nam Lod (cave), Tham Lot (cave), Mae Hong Son, Thailand. The Mae Lang River flows through the cave which is filled with stalactites and stalagmites.",
+     "date": "2010-11-22 12:32:46",
+     "primary": false,
+     "sha256": "50a29eb0dabfd25217d886f78f53747082dce4ca01445fdd07acbf5c39f043bf"
+    },
+    {
+     "file": "tham-lot/tham-lot-tham-lot-cave-thailand.jpg",
+     "source": "commons",
+     "title": "File:Tham Lot (cave), Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Tham_Lot_%28cave%29%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ATham_Lot_%28cave%29%2C_Thailand.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Vyacheslav Argenberg",
+     "credit": "Own work",
+     "alt": "Nam Lod (cave), Tham Lot (cave), Mae Hong Son, Thailand. The Mae Lang River flows through the cave which is filled with stalactites and stalagmites.",
+     "date": "2010-11-22 12:30:36",
+     "primary": false,
+     "sha256": "09a4cf2991c1b4793a4826808df1d74e2ff6f0788d7637f60cfcae63548b7e4e"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "pai-to-soppong",
+     "type": "leg",
+     "name": "Pai to Soppong",
+     "as": "The reason to stop short."
+    },
+    {
+     "from": "soppong",
+     "type": "town",
+     "name": "Soppong",
+     "as": "The cave the district is known for."
+    }
+   ]
+  },
+  {
+   "id": "tham-pla",
+   "type": "stop",
+   "names": {
+    "name": "Tham Pla, the fish cave",
+    "th": "ถ้ำปลา",
+    "said": "A pool at the foot of a cliff, full of large carp nobody eats.",
+    "said_th": "สระน้ำที่เชิงผา เต็มไปด้วยปลาพลวงตัวใหญ่ที่ไม่มีใครกิน"
+   },
+   "region": [
+    "mhs",
+    "mueang-mhs"
+   ],
+   "facets": {
+    "kind": "spring",
+    "price": "mid"
+   },
+   "text": {
+    "what": "A spring-fed pool at a cave mouth north of Mae Hong Son town, in its own national park, holding a resident population of large barb.",
+    "story": "The park is Tham Pla–Namtok Pha Suea National Park, which also holds the Pha Suea waterfall further north near the border.\n\n*Tradition holds —* the fish are not taken, and that is the reason there are so many of them and they are that size. *Inference —* the place is a short ride from Mae Hong Son on the road toward Ban Rak Thai, which makes it a natural first stop on a day spent north of town rather than a destination in itself."
+   },
+   "text_th": {
+    "what": "สระน้ำจากตาน้ำที่ปากถ้ำ ทางเหนือของตัวเมืองแม่ฮ่องสอน อยู่ในอุทยานแห่งชาติของตัวเอง มีปลาพลวงขนาดใหญ่อาศัยอยู่ประจำ",
+    "story": "อุทยานชื่ออุทยานแห่งชาติถ้ำปลา–น้ำตกผาเสื่อ ซึ่งครอบคลุมน้ำตกผาเสื่อที่อยู่ถัดขึ้นไปทางเหนือใกล้ชายแดนด้วย\n\n*ตามธรรมเนียม —* ไม่มีใครจับปลาที่นี่ และนั่นคือเหตุผลที่มันมีมากและตัวใหญ่ขนาดนั้น *อนุมาน —* ที่นี่อยู่ห่างจากแม่ฮ่องสอนไม่ไกล บนถนนที่มุ่งไปบ้านรักไทย จึงเหมาะเป็นจุดแวะแรกของวันที่ใช้เวลาทางเหนือของเมือง มากกว่าจะเป็นจุดหมายในตัวเอง"
+   },
+   "kin": [
+    {
+     "to": "mae-hong-son",
+     "as": "The town it is north of.",
+     "rel": "town"
+    },
+    {
+     "to": "ban-rak-thai",
+     "as": "Further up the same road.",
+     "rel": "stop"
+    }
+   ],
+   "sources": [
+    "s:wp-tham-pla-namtok-pha-suea-national-park",
+    "s:wp-mueang-mae-hong-son-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-tham-pla-namtok-pha-suea-national-park"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "cited",
+      "source": "s:wp-tham-pla-namtok-pha-suea-national-park"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 19.4333,
+    "lon": 97.9833,
+    "precision": "town"
+   },
+   "recognitions": [
+    {
+     "by": "dnp",
+     "what": "Tham Pla–Namtok Pha Suea National Park",
+     "source": "s:wp-tham-pla-namtok-pha-suea-national-park"
+    }
+   ],
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "tham-pla/tham-pla-id-1116-tham-pla-pha-suea-national-park-ymd-20200701-152453.jpg",
+     "source": "commons",
+     "title": "File:ID 1116 Tham Pla-Pha Suea National Park อช.ถ้ำปลา-น้ำตกผาเสื่อ YMD 20200701 152453.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/ID_1116_Tham_Pla-Pha_Suea_National_Park_%E0%B8%AD%E0%B8%8A.%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%9C%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD_YMD_20200701_152453.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AID_1116_Tham_Pla-Pha_Suea_National_Park_%E0%B8%AD%E0%B8%8A.%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2-%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%9C%E0%B8%B2%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD_YMD_20200701_152453.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "MintJazzMania",
+     "credit": "Own work",
+     "alt": "Life &amp; Living after easing of 1st Lockdown due to COVID-19 pandemic! Need to follow the government's restrictions but fresh air is also needed 😹 \nWearing mask while relaxing in a park at Namtok Ph",
+     "date": "2020-07-01 15:24:53",
+     "primary": true,
+     "sha256": "4ef5395702382f1978445da4da715f7ae5b95db23c083c94859838f7372de7c6"
+    },
+    {
+     "file": "tham-pla/tham-pla-juvenile-black-blotched-procupine-fish-eye.jpg",
+     "source": "commons",
+     "title": "File:Juvenile Black blotched Procupine fish eye.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Juvenile_Black_blotched_Procupine_fish_eye.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AJuvenile_Black_blotched_Procupine_fish_eye.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Daniel Sasse",
+     "credit": "Own work",
+     "alt": "When photographed the eye reflects a certain green color of the underwater strobe. Diodon liturosus Hides in caves and ledges during the day and forages at night, Solitary. Feeds on crustaceans and mo",
+     "date": "2019-03-04",
+     "primary": false,
+     "sha256": "63dd6da25d7777af865e32243c57119b6f4fa1d3ed30a131083e07377b8264bf"
+    },
+    {
+     "file": "tham-pla/tham-pla-national-park-1116-fish-cave.jpg",
+     "source": "commons",
+     "title": "File:National park 1116 -Fish Cave.JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/National_park_1116_-Fish_Cave.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ANational_park_1116_-Fish_Cave.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Yingthipc",
+     "credit": "Own work",
+     "alt": "อุทยานแห่งชาติถ้ำปลา-น้ำตกผาเสื่อ",
+     "date": "2015-06-26",
+     "primary": false,
+     "sha256": "83a7c6afa80c99f27411a351a220c3ec985b01830f9e560ed4274a86d4a6f0be"
+    },
+    {
+     "file": "tham-pla/tham-pla-.jpg",
+     "source": "commons",
+     "title": "File:ปลาจำนวนมากในอุทยานแห่งชาติถ้ำปลา แม่ฮ่องสอน.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%88%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%99%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2_%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AE%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%AD%E0%B8%99.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%9B%E0%B8%A5%E0%B8%B2%E0%B8%88%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%99%E0%B8%A1%E0%B8%B2%E0%B8%81%E0%B9%83%E0%B8%99%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%96%E0%B9%89%E0%B8%B3%E0%B8%9B%E0%B8%A5%E0%B8%B2_%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%AE%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%AA%E0%B8%AD%E0%B8%99.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Beeverbkk",
+     "credit": "Own work",
+     "alt": "Fish in Tham Pla–Pha Suea Waterfall National Park near Mae Hong Son, Northern Thailand",
+     "date": "2015-06-22",
+     "primary": false,
+     "sha256": "e59602bea93c3b07d9828c10d996eb463185f251f496bb7fdba2d5f344ad18f1"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "ban-rak-thai",
+     "type": "stop",
+     "name": "Ban Rak Thai",
+     "as": "On the way up."
+    }
+   ]
+  }
+ ]
+}

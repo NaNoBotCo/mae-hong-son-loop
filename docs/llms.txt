@@ -1,0 +1,85 @@
+# The Mae Hong Son Loop
+
+> 600 kilometres, 1,864 curves on the sign, and a different answer from the map
+
+A bilingual (English and Thai) directory and route guide for the Mae Hong Son loop in northern Thailand, built from 94 named sources. Every claim carries a provenance tier. Records are CC BY 4.0.
+
+## What is measured here, and how
+
+- Curve counts are computed from OpenStreetMap way geometry: ways carrying each route number are stitched, resampled every 60 m, and walked accumulating heading change; an arc over 25 degrees is a curve, over 120 a hairpin. Route 1095 measures 184.9 km and 729 curves, 110 of them hairpins. This measures a volunteer trace, not a road survey.
+- The roadside sign and merchandise carry 1,864 for the Chiang Mai–Pai road; Thai Wikipedia's Route 1095 article says 'more than 2,000'. Over the Mae Malai–Pai span this project counts 395 at a 25-degree threshold. All three figures are printed with their methods.
+- Route 1096 (Samoeng) measures the densest curves on this network at 4.46/km, ahead of Route 1095 at 4.03.
+- Air: 15,050 point-days of modelled daily PM2.5 at ten points, Aug 2022 onward, from Copernicus CAMS via Open-Meteo. The model never exceeded 99.4 µg/m³ daily mean; ground stations have recorded far higher.
+- Mae Hong Son province (12,765 km²) has 1 official PM2.5 monitor. Pai, Soppong, Khun Yuam and Mae Sariang have none.
+- 9,187 places harvested from OpenStreetMap inside the corridor.
+
+## Pages
+
+- [The loop](https://nanobotco.github.io/mae-hong-son-loop/)
+- [Legs](https://nanobotco.github.io/mae-hong-son-loop/legs/)
+- [Which way](https://nanobotco.github.io/mae-hong-son-loop/which-way/)
+- [Numbers](https://nanobotco.github.io/mae-hong-son-loop/numbers/)
+- [Air](https://nanobotco.github.io/mae-hong-son-loop/air/)
+- [Danger](https://nanobotco.github.io/mae-hong-son-loop/danger/)
+- [Which ride](https://nanobotco.github.io/mae-hong-son-loop/quiz/)
+- [Roadbook](https://nanobotco.github.io/mae-hong-son-loop/roadbook/)
+
+## Records by type
+
+- [Legs](https://nanobotco.github.io/mae-hong-son-loop/legs/) — 9
+- [Roads](https://nanobotco.github.io/mae-hong-son-loop/roads/) — 6
+- [Towns](https://nanobotco.github.io/mae-hong-son-loop/towns/) — 8
+- [Stops](https://nanobotco.github.io/mae-hong-son-loop/stops/) — 10
+- [Wats](https://nanobotco.github.io/mae-hong-son-loop/wats/) — 2
+- [Hazards](https://nanobotco.github.io/mae-hong-son-loop/hazards/) — 9
+- [Bikes](https://nanobotco.github.io/mae-hong-son-loop/bikes/) — 6
+- [Kit and logistics](https://nanobotco.github.io/mae-hong-son-loop/kit/) — 5
+- [People](https://nanobotco.github.io/mae-hong-son-loop/people/) — 2
+- [The calendar](https://nanobotco.github.io/mae-hong-son-loop/calendar/) — 6
+- [Words](https://nanobotco.github.io/mae-hong-son-loop/words/) — 5
+- [Long reads](https://nanobotco.github.io/mae-hong-son-loop/stories/) — 6
+- [Signs and objects](https://nanobotco.github.io/mae-hong-son-loop/objects/) — 1
+
+## Data
+
+- [nodes.json](https://nanobotco.github.io/mae-hong-son-loop/api/nodes.json) — every record
+- [curves.json](https://nanobotco.github.io/mae-hong-son-loop/api/curves.json) — curve counts, thresholds, demand windows
+- [air.json](https://nanobotco.github.io/mae-hong-son-loop/api/air.json) — monthly PM2.5 per point
+- [places.json](https://nanobotco.github.io/mae-hong-son-loop/api/places.json) — the OpenStreetMap harvest
+- [itinerary.json](https://nanobotco.github.io/mae-hong-son-loop/api/itinerary.json) — the loop, both directions
+- [coverage.json](https://nanobotco.github.io/mae-hong-son-loop/api/coverage.json) — counts and provenance tiers
+
+## Licences
+
+- Records and measurements: CC BY 4.0
+- Road geometry and places: © OpenStreetMap contributors, ODbL 1.0
+- Air: Open-Meteo / Copernicus CAMS, CC BY 4.0; Thai PCD (air4thai)
+- Corpus text: Wikipedia, CC BY-SA 4.0
+
+## Thai
+
+Every page exists at https://nanobotco.github.io/mae-hong-son-loop/th/<same path>.
+
+## Elsewhere from the same publisher
+
+- [Mot Dang](https://motdang.net/): city directory for Chiang Mai and Chiang Rai
+- [wichaa](https://wichaa.net/): Lanna manuscripts, the amulet market, and the traditions around them
+- [Amulet Atlas](https://nanobotco.github.io/amulet-atlas/): amulets, charms and talismans worldwide
+- [Carolina Barbecue](https://nanobotco.github.io/carolina-barbecue/): barbecue in North and South Carolina
+- [Wing Country](https://nanobotco.github.io/buffalo-wings/): the American chicken wing
+- [Pink Box](https://nanobotco.github.io/pink-box/): the American mom-and-pop donut shop
+- [Basque Tables](https://nanobotco.github.io/basque-tables/): Basque dining rooms of California, Nevada and Idaho
+- [Pinot Country](https://nanobotco.github.io/pinot-noir/): pinot noir: the vine, the regions, the cellars
+- [Care Abroad](https://nanobotco.github.io/care-abroad/): treatment across borders, with published prices and their dates
+- [Thai Roots](https://nanobotco.github.io/thairoots/): a root dictionary of Thai, with a word decomposer
+- [The index](https://nanobotco.github.io/index/): every corpus, site and repository, counted
+- [Uptake](https://nanobotco.github.io/uptake/): a field manual on publishing for machines that copy
+- [NaNoBotCo](https://nanobotco.github.io/): the portal
+- [Ask Mot Dang](https://ask.motdang.net/): reader assistant over the directory
+- [ai.motdang.net](https://ai.motdang.net/): white-label assistants, by seat
+- [Defiant](https://defiant.to/): medical and dental care in Chiang Mai, with a translator at the appointment
+- [Hongdam](https://hongdam.net/): bilingual web development, Chiang Rai
+- [ฮักฝรั่ง](https://hakfarang.net/): เรื่องเงิน วีซ่า และชีวิตกับแฟนฝรั่ง
+- [Offrampt](https://offrampt.net/): turning crypto into spendable local money, Thailand first
+
+- [The roster as JSON](https://nanobotco.github.io/index/fleet.json)

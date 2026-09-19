@@ -69,5 +69,37 @@
   }
  },
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "the-rains/the-rains-chiang-mai-province-road-1263.jpg",
+   "source": "commons",
+   "title": "File:Chiang mai province road 1263.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Chiang_mai_province_road_1263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_mai_province_road_1263.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "Rice paddies and recently cleared forest land in Amphoe Mae Chaem, along road 1263 between the town of Khun Yuam (Mae Hong Son province) and the town of Mae Chaem (Chiang Mai province), on the west fl",
+   "date": "2010-03-14",
+   "primary": true,
+   "sha256": "69a0f120642437d82b467367fdca646effc33fbe2c0d83ce132bda6a6706ae84"
+  },
+  {
+   "file": "the-rains/the-rains-misty-green-mountains.jpg",
+   "source": "commons",
+   "title": "File:Misty Green Mountains.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Misty_Green_Mountains.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMisty_Green_Mountains.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Talha J Siam",
+   "credit": "Own work",
+   "alt": "A dramatic landscape showcasing lush, forest-covered hills shrouded in low-hanging mist and clouds. The grey, overcast sky blends seamlessly with the fog rolling over the peaks, creating a moody, cool",
+   "date": "2021-10-20 12:26:07",
+   "primary": false,
+   "sha256": "0cdd56c523142c758c1cb6bee018f700ae1f09d66af7c402bc87e077f8c8e03d"
+  }
+ ]
 }

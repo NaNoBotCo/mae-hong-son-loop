@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Every page and the whole /api/ tree is open. Records CC BY 4.0.
+Content-Signal: search=yes, ai-train=yes
+
+Sitemap: https://nanobotco.github.io/mae-hong-son-loop/sitemap.xml
+
+# The rest of this publisher's sites
+Sitemap: https://motdang.net/sitemap.xml
+Sitemap: https://wichaa.net/sitemap.xml
+Sitemap: https://nanobotco.github.io/amulet-atlas/sitemap.xml
+Sitemap: https://nanobotco.github.io/carolina-barbecue/sitemap.xml
+Sitemap: https://nanobotco.github.io/buffalo-wings/sitemap.xml
+Sitemap: https://nanobotco.github.io/pink-box/sitemap.xml
+Sitemap: https://nanobotco.github.io/basque-tables/sitemap.xml
+Sitemap: https://nanobotco.github.io/pinot-noir/sitemap.xml
+Sitemap: https://nanobotco.github.io/care-abroad/sitemap.xml
+Sitemap: https://nanobotco.github.io/thairoots/sitemap.xml
+Sitemap: https://nanobotco.github.io/index/sitemap.xml
+Sitemap: https://nanobotco.github.io/uptake/sitemap.xml
+Sitemap: https://nanobotco.github.io/sitemap.xml

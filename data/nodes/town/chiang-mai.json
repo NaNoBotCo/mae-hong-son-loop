@@ -79,5 +79,67 @@
  },
  "confidence": "medium",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "chiang-mai/chiang-mai-chiang-mai-chiang-mai-city-art-and-cultural-center-0001.jpg",
+   "source": "commons",
+   "title": "File:Chiang Mai - Chiang Mai City Art and Cultural Center - 0001.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Chiang_Mai_-_Chiang_Mai_City_Art_and_Cultural_Center_-_0001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_Mai_-_Chiang_Mai_City_Art_and_Cultural_Center_-_0001.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Stefan Fussan",
+   "credit": "Own work - My images are also available on MyPortfolio",
+   "alt": "Chiang Mai City Art and Cultural Center, Chiang Mai, Thailand",
+   "date": "2014-05-23",
+   "primary": true,
+   "sha256": "5a6633294d4cd056314ea98c38389e9bd919d723766145e41b4e38b5903867eb"
+  },
+  {
+   "file": "chiang-mai/chiang-mai-chiang-mai-city-wall.jpg",
+   "source": "commons",
+   "title": "File:Chiang Mai City Wall.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Chiang_Mai_City_Wall.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_Mai_City_Wall.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Tatpong Katanyukul",
+   "credit": "Own work",
+   "alt": "This is a photo of a monument in Thailand identified by the ID",
+   "date": "2014-09-14 09:32:47",
+   "primary": false,
+   "sha256": "938d301d5dfd13e5914dc573a268c3e7473bc9888808f86ad50c38a83eecf158"
+  },
+  {
+   "file": "chiang-mai/chiang-mai-map-of-chiengmai-chiang-mai-city-1931.jpg",
+   "source": "commons",
+   "title": "File:Map of Chiengmai (Chiang Mai) City 1931.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Map_of_Chiengmai_%28Chiang_Mai%29_City_1931.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMap_of_Chiengmai_%28Chiang_Mai%29_City_1931.jpg",
+   "license": "Public domain",
+   "license_url": "https://en.wikipedia.org/wiki/Public_domain",
+   "author": "Unknown authorUnknown author",
+   "credit": "Old Maps Online (stored at the British Library) - https://www.oldmapsonline.org/en/maps/b84b50de-cdf9-5c61-9d88-a76fcd5a8464?year=1850&amp;gid=b3777b75-7966-559f-85d0-b1b1aaa602d3#position=16.6004/18.",
+   "alt": "Map of Chiengmai (Chiang Mai) city, 1931. This is the capital of Chiang Mai province. The top left stamp says: \"Royal Insurance Company Limited, 26 October 1931 Liverpool.\"",
+   "date": "1931",
+   "primary": false,
+   "sha256": "346570ec642923738f47849e7c652c5cc04384285b4766edd918613345d1bbb1"
+  },
+  {
+   "file": "chiang-mai/chiang-mai-panoramic-view-of-chiang-mai-city.jpg",
+   "source": "commons",
+   "title": "File:Panoramic view of Chiang Mai City.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Panoramic_view_of_Chiang_Mai_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APanoramic_view_of_Chiang_Mai_City.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Supanut Arunoprayote",
+   "credit": "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_CMX.jpg",
+   "alt": "View of Chiang Mai City, taken from the top of Doi Suthep Mountain. Image extracted (crop) from Supanut Arunoprayote's original panoramic file. Extracted and edited (crop) under the Creative Commons A",
+   "date": "2022-08-01 14:25:52",
+   "primary": false,
+   "sha256": "91073c29078c222fc4117ecd1b2b55e8c397e53b1725047b5aca42ef11ddd825"
+  }
+ ]
 }

@@ -1,0 +1,750 @@
+{
+ "type": "hazard",
+ "count": 9,
+ "nodes": [
+  {
+   "id": "brake-fade",
+   "type": "hazard",
+   "names": {
+    "name": "Brake fade",
+    "th": "เบรกเฟด",
+    "said": "The lever comes back further each time, and then it comes back to the bar.",
+    "said_th": "ก้านเบรกยุบลึกขึ้นทุกครั้ง แล้วก็ยุบจนติดแฮนด์"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "mechanical"
+   },
+   "text": {
+    "what": "Dragging a brake down a long descent heats it until it stops converting speed into heat as well as it did. On a small automatic with a drum rear, this is the failure mode of this road.",
+    "story": "The descents here are not short. Route 1095 drops off a ridge into the Pai valley over kilometres, not hundreds of metres, and the curve density means the brake is being used the whole way.\n\n*Inference —* the rider who is in trouble is the one who found a speed that felt controlled at the top and held it by dragging. The brake gets hot, the lever travel grows, and because it grows gradually the rider compensates without noticing until there is no travel left. A drum brake filled with hot gas and glazed lining is the version of this that arrives fastest.\n\nWhat prevents it is not stronger braking. It is **engine braking** and **stopping**. Down a gear (or, on an automatic, down to a speed the engine can hold), brake in firm short applications rather than a constant drag, and pull over every few kilometres on a long descent for two minutes. A brake that has faded comes back when it cools; one that has boiled its fluid may not."
+   },
+   "text_th": {
+    "what": "การลากเบรกลงทางยาวๆ ทำให้เบรกร้อนจนแปลงความเร็วเป็นความร้อนได้แย่ลงเรื่อยๆ บนรถออโต้เล็กที่เบรกหลังเป็นดรัม นี่คือรูปแบบความเสียหายของถนนสายนี้",
+    "story": "ทางลงที่นี่ไม่ได้สั้น ทางหลวง 1095 ทิ้งตัวจากสันเขาลงหุบปายเป็นระยะหลายกิโลเมตร ไม่ใช่หลายร้อยเมตร และความหนาแน่นของโค้งแปลว่าเบรกถูกใช้ตลอดทาง\n\n*อนุมาน —* คนที่เจอปัญหาคือคนที่หาความเร็วที่รู้สึกว่าคุมได้ตั้งแต่บนยอด แล้วรักษาความเร็วนั้นด้วยการลากเบรก เบรกร้อนขึ้น ระยะก้านเบรกยาวขึ้น และเพราะมันค่อยๆ ยาวขึ้น คนขี่จึงชดเชยไปเรื่อยโดยไม่รู้ตัว จนไม่เหลือระยะให้กดอีก เบรกดรัมที่เต็มไปด้วยแก๊สร้อนและผ้าเบรกไหม้คือเวอร์ชันที่มาถึงเร็วที่สุด\n\nสิ่งที่ป้องกันได้ไม่ใช่การเบรกให้แรงขึ้น แต่คือ **เอนจินเบรก** และ **การจอด** ลดเกียร์ลง หรือถ้าเป็นออโต้ก็ลดความเร็วลงจนเครื่องหน่วงไหว เบรกเป็นจังหวะสั้นและหนักแทนการลากค้าง และจอดพักสองนาทีทุกไม่กี่กิโลเมตรบนทางลงยาวๆ เบรกที่เฟดจะกลับมาเมื่อเย็นลง แต่เบรกที่น้ำมันเดือดแล้วอาจไม่กลับมา"
+   },
+   "kin": [
+    {
+     "to": "step-through-110",
+     "as": "The bike this happens to.",
+     "rel": "bike"
+    },
+    {
+     "to": "engine-braking",
+     "as": "The thing that stops it happening.",
+     "rel": "term"
+    },
+    {
+     "to": "route-1095",
+     "as": "The descent it happens on.",
+     "rel": "road"
+    },
+    {
+     "to": "the-1263-cut",
+     "as": "The steeper one, with fewer places to pull over.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-safety",
+    "s:mhs-measured"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "the mechanism is general motorcycle knowledge; the application to these specific descents is this project reasoning from the measured gradient and curve density"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "riding": {
+    "min_class": "underbone",
+    "grip": "moderate",
+    "pillion": "think",
+    "note": "A pillion roughly doubles the energy the brakes have to absorb on the same hill.",
+    "note_th": "คนซ้อนทำให้พลังงานที่เบรกต้องดูดซับบนเขาลูกเดียวกันเพิ่มขึ้นราวเท่าตัว",
+    "loaded": "Luggage has the same effect as a pillion and gives no warning noises."
+   },
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "cnx-to-pai",
+     "type": "leg",
+     "name": "Chiang Mai to Pai",
+     "as": "The descent into Pai is where this happens."
+    },
+    {
+     "from": "samoeng-warmup",
+     "type": "leg",
+     "name": "The Samoeng warm-up",
+     "as": "Better discovered here."
+    },
+    {
+     "from": "soppong-to-mhs",
+     "type": "leg",
+     "name": "Soppong to Mae Hong Son",
+     "as": "The long descent."
+    },
+    {
+     "from": "the-1263-cut",
+     "type": "leg",
+     "name": "The 1263 cut",
+     "as": "The descent that produces it."
+    },
+    {
+     "from": "route-1095",
+     "type": "road",
+     "name": "Route 1095",
+     "as": "What the descents do to a small bike."
+    },
+    {
+     "from": "loaded-bike",
+     "type": "hazard",
+     "name": "A loaded bike is a different bike",
+     "as": "What the extra mass does to a long descent."
+    },
+    {
+     "from": "step-through-110",
+     "type": "bike",
+     "name": "The 110–125 step-through",
+     "as": "The specific way this bike fails on a long descent."
+    },
+    {
+     "from": "underbone-125",
+     "type": "bike",
+     "name": "The underbone with gears",
+     "as": "What it protects you from."
+    },
+    {
+     "from": "engine-braking",
+     "type": "term",
+     "name": "Engine braking",
+     "as": "What it prevents."
+    },
+    {
+     "from": "which-bike",
+     "type": "story",
+     "name": "Every bike goes up there",
+     "as": "The failure mode the whole comparison turns on."
+    }
+   ]
+  },
+  {
+   "id": "buses-on-your-line",
+   "type": "hazard",
+   "names": {
+    "name": "Buses and pickups on your line",
+    "th": "รถบัสและรถกระบะกินเลน",
+    "said": "A vehicle longer than the corner has to use some of your lane, and it will.",
+    "said_th": "รถที่ยาวกว่าโค้งต้องใช้เลนคุณบางส่วน และมันจะใช้"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "traffic"
+   },
+   "text": {
+    "what": "Route 1095 and the mountain half of Route 108 are two lanes, and the minibuses, songthaews and delivery trucks that serve these towns take a hairpin by crossing the centre line.",
+    "story": "*Inference —* this is geometry, not bad driving. A vehicle with a long wheelbase physically cannot hold its own lane through a radius this tight, so it takes the width it needs. The rider's job is to assume it.\n\nWhat that means on the road is that the correct position entering a blind left-hander is not the racing line. It is wide, slow enough to stop in the distance you can see, and off the centre line. The Chiang Mai to Pai minibus runs this road all day at a schedule, and it knows the corners far better than you do — which is the point: it is going faster than you through them and it is using your lane to do it."
+   },
+   "text_th": {
+    "what": "ทางหลวง 1095 และครึ่งที่เป็นภูเขาของทางหลวง 108 มีสองเลน และรถตู้ สองแถว รถส่งของ ที่วิ่งบริการเมืองเหล่านี้ เข้าโค้งหักศอกโดยการข้ามเส้นกลาง",
+    "story": "*อนุมาน —* นี่คือเรขาคณิต ไม่ใช่การขับแย่ รถที่ฐานล้อยาวไม่สามารถอยู่ในเลนตัวเองผ่านรัศมีแคบขนาดนี้ได้ทางกายภาพ มันจึงใช้ความกว้างเท่าที่ต้องการ หน้าที่ของคนขี่คือสมมติไว้ก่อนว่ามันจะทำ\n\nบนถนนจริงแปลว่าตำแหน่งที่ถูกต้องตอนเข้าโค้งซ้ายที่มองไม่เห็น ไม่ใช่ไลน์แบบสนามแข่ง แต่คืออยู่นอก ช้าพอที่จะหยุดได้ในระยะที่มองเห็น และอยู่ห่างเส้นกลาง รถตู้เชียงใหม่-ปายวิ่งถนนนี้ทั้งวันตามตาราง และรู้จักโค้งดีกว่าคุณมาก ซึ่งนั่นแหละคือประเด็น มันเข้าโค้งเร็วกว่าคุณ และมันใช้เลนคุณเพื่อทำอย่างนั้น"
+   },
+   "kin": [
+    {
+     "to": "hairpin",
+     "as": "The radius that forces it.",
+     "rel": "term"
+    },
+    {
+     "to": "route-1095",
+     "as": "Where the minibuses run.",
+     "rel": "road"
+    }
+   ],
+   "sources": [
+    "s:wp-hairpin-turn",
+    "s:wp-motorcycle-safety"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "general riding knowledge applied to this circuit's measured shape"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "route-1095",
+     "type": "road",
+     "name": "Route 1095",
+     "as": "Who else is using these corners."
+    },
+    {
+     "from": "songthaew",
+     "type": "term",
+     "name": "Songthaew",
+     "as": "The wider version of this problem."
+    }
+   ]
+  },
+  {
+   "id": "dogs",
+   "type": "hazard",
+   "names": {
+    "name": "Dogs",
+    "th": "สุนัข",
+    "said": "Village dogs defend a stretch of road they consider theirs, and they aim at your ankle.",
+    "said_th": "สุนัขในหมู่บ้านหวงถนนช่วงที่มันถือว่าเป็นของมัน และมันพุ่งเข้าหาข้อเท้าคุณ"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "living"
+   },
+   "text": {
+    "what": "Free-roaming dogs are ordinary in Thai villages, and a bike at village speed through a village is what triggers a chase.",
+    "story": "*Inference —* the danger is almost never the bite. It is the swerve: a rider who jerks away from a dog on a two-lane road with a drop on one side has made the dog's problem into a much worse one. Slowing and holding a straight line ends the chase in a few metres, because the dog is defending a boundary rather than hunting.\n\nWhere it matters is at night and in the villages strung along Route 108, where the houses are on both sides and the road is the only flat ground."
+   },
+   "text_th": {
+    "what": "สุนัขที่เดินอิสระเป็นเรื่องปกติในหมู่บ้านไทย และรถที่วิ่งผ่านหมู่บ้านด้วยความเร็วระดับหมู่บ้านคือสิ่งที่กระตุ้นให้มันไล่",
+    "story": "*อนุมาน —* อันตรายแทบไม่เคยอยู่ที่การถูกกัด แต่อยู่ที่การหักหลบ คนขี่ที่กระตุกหลบสุนัขบนถนนสองเลนที่มีเหวอยู่ด้านหนึ่ง ได้เปลี่ยนปัญหาของสุนัขให้เป็นปัญหาที่ใหญ่กว่ามาก การชะลอและรักษาเส้นตรงจะจบการไล่ภายในไม่กี่เมตร เพราะสุนัขกำลังป้องกันอาณาเขต ไม่ได้ล่า\n\nจุดที่สำคัญคือตอนกลางคืน และในหมู่บ้านที่เรียงอยู่ตามทางหลวง 108 ที่บ้านเรือนอยู่สองฝั่งและถนนเป็นพื้นราบเพียงแห่งเดียว"
+   },
+   "kin": [
+    {
+     "to": "route-108",
+     "as": "The road with the villages on both sides.",
+     "rel": "road"
+    },
+    {
+     "to": "night-riding",
+     "as": "When this gets worse.",
+     "rel": "hazard"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-safety"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "general riding knowledge applied to this circuit's measured shape"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "route-108",
+     "type": "road",
+     "name": "Route 108",
+     "as": "The villages on both sides of it."
+    },
+    {
+     "from": "night-riding",
+     "type": "hazard",
+     "name": "Riding after dark",
+     "as": "Harder to see, same swerve."
+    }
+   ]
+  },
+  {
+   "id": "gravel-on-the-apex",
+   "type": "hazard",
+   "names": {
+    "name": "Gravel on the apex",
+    "th": "กรวดกลางโค้ง",
+    "said": "The road is swept by rain, and rain puts everything it moves on the inside of the bend.",
+    "said_th": "ฝนกวาดถนน และฝนเอาทุกอย่างที่มันพัดมากองไว้ด้านในของโค้ง"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "surface"
+   },
+   "text": {
+    "what": "Sand, grit and washed gravel collect on the inside line of a hairpin and at the exit of a cutting. It is the most common surface hazard on this circuit and the least visible.",
+    "story": "*Inference —* the physical reason is simple: water running off a banked hillside crosses the road at the low point, which on a hairpin is the inside, and drops whatever it is carrying when it slows. So the loose material is not randomly distributed — it is where you were planning to put the front wheel.\n\nThe two places to expect it are the apex of an uphill hairpin and the first fifty metres after a cutting or a culvert. It is worst in the days after rain and after the rains end, when weeks of wash are still sitting there.\n\nWhat to do about it is a line choice, not a skill: stay wide, turn late, get the bike upright before the throttle, and treat the inside third of a blind hairpin as though it is not there."
+   },
+   "text_th": {
+    "what": "ทราย เศษหิน และกรวดที่น้ำพัด จะไปกองอยู่ด้านในของโค้งหักศอกและตรงทางออกของช่วงตัดเขา เป็นอันตรายจากผิวถนนที่พบบ่อยที่สุดบนเส้นทางนี้ และเห็นยากที่สุด",
+    "story": "*อนุมาน —* เหตุผลทางกายภาพง่ายมาก น้ำที่ไหลลงจากไหล่เขาจะข้ามถนนตรงจุดต่ำสุด ซึ่งบนโค้งหักศอกคือด้านใน และทิ้งสิ่งที่พามาเมื่อน้ำช้าลง เศษหินจึงไม่ได้กระจายแบบสุ่ม แต่อยู่ตรงที่คุณกะจะวางล้อหน้าพอดี\n\nสองจุดที่ควรคาดไว้คือกลางโค้งหักศอกขาขึ้น และห้าสิบเมตรแรกหลังช่วงตัดเขาหรือท่อระบายน้ำ จะหนักที่สุดในวันหลังฝนตก และหลังหมดหน้าฝน ตอนที่ตะกอนสะสมหลายสัปดาห์ยังกองอยู่\n\nวิธีรับมือคือการเลือกไลน์ ไม่ใช่ทักษะ อยู่นอกไว้ เลี้ยวช้าหน่อย ตั้งรถให้ตรงก่อนเปิดคันเร่ง และถือว่าหนึ่งในสามด้านในของโค้งหักศอกที่มองไม่เห็นนั้นไม่มีอยู่จริง"
+   },
+   "kin": [
+    {
+     "to": "hairpin",
+     "as": "The shape that collects it.",
+     "rel": "term"
+    },
+    {
+     "to": "trail-250",
+     "as": "The front wheel that minds it least.",
+     "rel": "bike"
+    },
+    {
+     "to": "the-rains",
+     "as": "The season that puts it there.",
+     "rel": "event"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-safety",
+    "s:wp-hairpin-turn"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "night-riding",
+     "type": "hazard",
+     "name": "Riding after dark",
+     "as": "Invisible at night."
+    },
+    {
+     "from": "trail-250",
+     "type": "bike",
+     "name": "The 250–450 trail bike",
+     "as": "What the front wheel size is buying."
+    },
+    {
+     "from": "gear",
+     "type": "kit",
+     "name": "What to wear",
+     "as": "The fall this is for."
+    },
+    {
+     "from": "hairpin",
+     "type": "term",
+     "name": "Hairpin",
+     "as": "What collects on the inside of one."
+    }
+   ]
+  },
+  {
+   "id": "loaded-bike",
+   "type": "hazard",
+   "names": {
+    "name": "A loaded bike is a different bike",
+    "th": "รถที่บรรทุกคือรถคนละคัน",
+    "said": "It steers later, stops later and stands up in corners.",
+    "said_th": "เลี้ยวช้าลง หยุดช้าลง และตั้งตรงกลางโค้ง"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "mechanical"
+   },
+   "text": {
+    "what": "Weight added high and behind the rear axle — a tail pack, a rucksack, a pillion — changes the handling in ways that all show up on a descent.",
+    "story": "*Inference —* the effects compound rather than add. Higher centre of mass means more effort to lean and more reluctance to stay leant; more total mass means longer stopping and more heat in the brakes over a long descent; and weight behind the axle lightens the front, which is the wheel doing the steering and most of the braking.\n\nThe fix is placement before it is technique. Low and forward: footwell before rack, panniers before top box, and anything heavy against the tank rather than over the tail light. See the packing page."
+   },
+   "text_th": {
+    "what": "น้ำหนักที่เพิ่มไว้สูงและอยู่หลังเพลาล้อหลัง ทั้งกระเป๋าท้าย เป้ หรือคนซ้อน เปลี่ยนการควบคุมรถในแบบที่แสดงผลตอนลงเขาทั้งหมด",
+    "story": "*อนุมาน —* ผลกระทบมันทวีคูณ ไม่ใช่แค่บวกกัน จุดศูนย์ถ่วงสูงขึ้นแปลว่าต้องออกแรงเอียงรถมากขึ้นและรถไม่อยากคงมุมเอียง มวลรวมมากขึ้นแปลว่าระยะหยุดยาวขึ้นและความร้อนสะสมในเบรกมากขึ้นตลอดทางลงยาวๆ และน้ำหนักที่อยู่หลังเพลาทำให้ล้อหน้าเบา ซึ่งล้อหน้าคือล้อที่ทำหน้าที่เลี้ยวและเบรกเป็นส่วนใหญ่\n\nวิธีแก้อยู่ที่การจัดวางก่อนเทคนิค ต่ำและไปข้างหน้า พื้นวางเท้าก่อนแร็ค กระเป๋าข้างก่อนกล่องท้าย และของหนักให้ชิดถังน้ำมันแทนที่จะอยู่เหนือไฟท้าย ดูหน้าเรื่องการจัดสัมภาระ"
+   },
+   "kin": [
+    {
+     "to": "packing-light",
+     "as": "Where the weight should go instead.",
+     "rel": "kit"
+    },
+    {
+     "to": "brake-fade",
+     "as": "What the extra mass does to a long descent.",
+     "rel": "hazard"
+    },
+    {
+     "to": "on-the-back",
+     "as": "The heaviest thing you can add.",
+     "rel": "bike"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-safety"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "general riding knowledge applied to this circuit's measured shape"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "on-the-back",
+     "type": "bike",
+     "name": "Riding on the back",
+     "as": "The same physics, without the conversation."
+    },
+    {
+     "from": "packing-light",
+     "type": "kit",
+     "name": "What actually fits",
+     "as": "What the weight does when the road turns down."
+    },
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending your bag ahead",
+     "as": "What weight on the back actually does on a hairpin."
+    }
+   ]
+  },
+  {
+   "id": "low-sun",
+   "type": "hazard",
+   "names": {
+    "name": "The low sun",
+    "th": "แดดต่ำ",
+    "said": "Twenty minutes of the afternoon where you cannot see the oncoming lane at all.",
+    "said_th": "ยี่สิบนาทีในตอนบ่ายที่มองไม่เห็นเลนรถสวนเลย"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "visibility"
+   },
+   "text": {
+    "what": "Late afternoon on a westward leg in the cool season puts the sun directly down the road. A dusty visor turns it into a white sheet.",
+    "story": "*Inference —* the stretch this bites on is the westward run into Mae Hong Son, and it is one of the few arguments in the whole clockwise-versus-counter-clockwise question that has a physical cause rather than a preference behind it. Riding that leg in the morning puts the sun behind you.\n\nThe cheap fixes are a clean visor — a dusty one scatters light into a wall where a clean one does not — and simply stopping for twenty minutes, which on this circuit is never a hardship because there is always something to look at."
+   },
+   "text_th": {
+    "what": "ช่วงบ่ายแก่ๆ บนเส้นทางที่มุ่งหน้าตะวันตกในฤดูหนาว ดวงอาทิตย์จะอยู่ตรงปลายถนนพอดี หน้ากากหมวกที่มีฝุ่นจะเปลี่ยนมันเป็นแผ่นสีขาว",
+    "story": "*อนุมาน —* ช่วงที่เจอหนักคือทางมุ่งตะวันตกเข้าแม่ฮ่องสอน และเป็นหนึ่งในไม่กี่เหตุผลในคำถามตามเข็มหรือทวนเข็มที่มีสาเหตุทางกายภาพจริงๆ ไม่ใช่แค่ความชอบ การขี่ช่วงนี้ตอนเช้าจะทำให้แดดอยู่ข้างหลัง\n\nวิธีแก้ราคาถูกคือหน้ากากหมวกที่สะอาด หน้ากากที่มีฝุ่นจะกระเจิงแสงเป็นผนัง ส่วนหน้ากากสะอาดจะไม่เป็น และอีกวิธีคือจอดพักยี่สิบนาที ซึ่งบนเส้นทางนี้ไม่เคยลำบากเลย เพราะมีอะไรให้ดูตลอด"
+   },
+   "kin": [
+    {
+     "to": "season-and-direction",
+     "as": "The argument this hazard feeds.",
+     "rel": "story"
+    },
+    {
+     "to": "soppong-to-mhs",
+     "as": "The leg it lands on.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-safety"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "general riding knowledge applied to this circuit's measured shape"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "soppong-to-mhs",
+     "type": "leg",
+     "name": "Soppong to Mae Hong Son",
+     "as": "The hazard this leg is famous for among people who have met it."
+    },
+    {
+     "from": "night-riding",
+     "type": "hazard",
+     "name": "Riding after dark",
+     "as": "The hour before this one."
+    },
+    {
+     "from": "cool-season",
+     "type": "event",
+     "name": "The cool season",
+     "as": "The season's own hazard."
+    },
+    {
+     "from": "season-and-direction",
+     "type": "story",
+     "name": "The season picks the direction",
+     "as": "The hazard the light argument is about."
+    }
+   ]
+  },
+  {
+   "id": "night-riding",
+   "type": "hazard",
+   "names": {
+    "name": "Riding after dark",
+    "th": "ขี่ตอนกลางคืน",
+    "said": "There is no street lighting between the towns, and the drop has no barrier.",
+    "said_th": "ระหว่างเมืองไม่มีไฟถนน และเหวไม่มีราวกั้น"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "visibility"
+   },
+   "text": {
+    "what": "Once the sun is down the circuit has no ambient light at all outside the towns, and a rented bike's headlight is usually a single bulb of unknown age.",
+    "story": "*Inference —* three things stack. The headlight on a small rental is dim and often aimed badly. The hazards that matter here — gravel on the apex, a buffalo, a dog, a broken edge — are all low-contrast and low to the ground, which is exactly what a dipped beam shows worst. And the corner you cannot see round is a corner you cannot judge the radius of, on a road whose radii change constantly.\n\nThe practical rule people ride to is to be off the road by dusk and to plan legs so that arriving late is not required. Sunset in northern Thailand is early and quick year-round — this is near the tropics, so there is not much twilight to work with."
+   },
+   "text_th": {
+    "what": "เมื่อพระอาทิตย์ตก เส้นทางนี้ไม่มีแสงรอบข้างเลยเมื่อพ้นเขตเมือง และไฟหน้ารถเช่ามักเป็นหลอดเดียวที่ไม่รู้อายุ",
+    "story": "*อนุมาน —* สามอย่างซ้อนกัน ไฟหน้าของรถเช่าคันเล็กมักหรี่และปรับองศาไว้ผิด อันตรายที่สำคัญที่นี่ ทั้งกรวดกลางโค้ง ควาย สุนัข ขอบถนนแตก ล้วนคอนทราสต์ต่ำและอยู่ติดพื้น ซึ่งเป็นสิ่งที่ไฟต่ำส่องได้แย่ที่สุด และโค้งที่มองไม่เห็นก็คือโค้งที่กะรัศมีไม่ได้ บนถนนที่รัศมีเปลี่ยนตลอดเวลา\n\nกฎที่คนใช้กันจริงคือให้พ้นถนนก่อนพลบ และวางแผนแต่ละช่วงไม่ให้ต้องไปถึงดึก พระอาทิตย์ตกในภาคเหนือเร็วและไวตลอดปี เพราะที่นี่ใกล้เขตร้อน จึงไม่มีช่วงสนธยายาวๆ ให้ใช้"
+   },
+   "kin": [
+    {
+     "to": "dogs",
+     "as": "Harder to see, same swerve.",
+     "rel": "hazard"
+    },
+    {
+     "to": "gravel-on-the-apex",
+     "as": "Invisible at night.",
+     "rel": "hazard"
+    },
+    {
+     "to": "low-sun",
+     "as": "The hour before this one.",
+     "rel": "hazard"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-safety",
+    "s:wp-geography-of-thailand"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "general riding knowledge applied to this circuit's measured shape"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "mae-sariang-to-hot",
+     "type": "leg",
+     "name": "Mae Sariang to Hot",
+     "as": "What this leg turns into if you start late."
+    },
+    {
+     "from": "dogs",
+     "type": "hazard",
+     "name": "Dogs",
+     "as": "When this gets worse."
+    }
+   ]
+  },
+  {
+   "id": "smoke-riding",
+   "type": "hazard",
+   "names": {
+    "name": "Riding in the smoke",
+    "th": "ขี่ในควัน",
+    "said": "Not a visibility problem first. A lungs problem first, and a visibility problem after.",
+    "said_th": "ไม่ใช่ปัญหาทัศนวิสัยเป็นอย่างแรก แต่เป็นปัญหาปอดก่อน แล้วค่อยเป็นทัศนวิสัย"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "air"
+   },
+   "text": {
+    "what": "In March and April the measured PM2.5 on this circuit sits above the US 24-hour standard on most days. On a bike you are breathing hard, at volume, for six hours.",
+    "story": "The visibility part is real and is worst at the viewpoints, which are the places that were the reason for stopping. A ridge that should show fifty kilometres shows two.\n\nThe breathing part is the one that matters. *Inference —* a rider at speed moves far more air through their lungs than someone walking, and an open-face helmet filters nothing at all. A fitted FFP2 or N95 worn under the helmet is what people use; a surgical mask, a buff or a bandana does not filter particles at this size. Anyone with asthma should treat March and April as a medical question and not a scheduling one.\n\nThere is also a third effect that gets missed: *Inference —* smoke flattens contrast, and flat contrast on a road whose whole difficulty is reading the next bend's radius is its own hazard. Slow down more than the visibility distance alone suggests."
+   },
+   "text_th": {
+    "what": "ในเดือนมีนาคมและเมษายน ค่า PM2.5 ที่วัดได้บนเส้นทางนี้อยู่เหนือมาตรฐาน 24 ชั่วโมงของสหรัฐฯ เกือบทุกวัน และบนรถมอเตอร์ไซค์คุณหายใจแรง หายใจเยอะ ต่อเนื่องหกชั่วโมง",
+    "story": "เรื่องทัศนวิสัยเป็นเรื่องจริงและแย่ที่สุดตรงจุดชมวิว ซึ่งเป็นที่ที่เป็นเหตุผลของการหยุดพักตั้งแต่แรก สันเขาที่ควรมองเห็นห้าสิบกิโลเมตรจะเหลือสองกิโลเมตร\n\nส่วนเรื่องการหายใจคือส่วนที่สำคัญ *อนุมาน —* คนขี่รถด้วยความเร็วดึงอากาศผ่านปอดมากกว่าคนเดินมาก และหมวกเปิดหน้าไม่กรองอะไรเลย หน้ากาก FFP2 หรือ N95 ที่กระชับใต้หมวกคือสิ่งที่คนใช้กัน ส่วนหน้ากากอนามัย ผ้าบัฟ หรือผ้าโพก ไม่กรองอนุภาคขนาดนี้ ใครที่เป็นหอบหืดควรถือว่าเดือนมีนาคมและเมษายนเป็นคำถามทางการแพทย์ ไม่ใช่คำถามเรื่องตารางเวลา\n\nและมีผลข้อที่สามที่มักถูกมองข้าม *อนุมาน —* ควันทำให้คอนทราสต์แบนราบ และคอนทราสต์ที่แบนบนถนนที่ความยากทั้งหมดอยู่ที่การอ่านรัศมีโค้งถัดไป ก็เป็นอันตรายในตัวมันเอง ให้ช้ากว่าที่ระยะมองเห็นอย่างเดียวจะบอก"
+   },
+   "kin": [
+    {
+     "to": "the-smoke",
+     "as": "The four years of measurements behind this.",
+     "rel": "story"
+    },
+    {
+     "to": "burning-season",
+     "as": "The dates.",
+     "rel": "event"
+    },
+    {
+     "to": "pm25",
+     "as": "What is actually in the air.",
+     "rel": "term"
+    }
+   ],
+   "sources": [
+    "s:open-meteo-aq",
+    "s:epa-pm25-2024",
+    "s:wp-southeast-asian-haze",
+    "s:wp-motorcycle-helmet"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "harvested",
+     "source": "s:open-meteo-aq"
+    },
+    "fields": {
+     "text.story": {
+      "tier": "inference",
+      "note": "the mask and exertion reasoning is this project's; no clinical source is cited and none should be read in"
+     },
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "burning-season",
+     "type": "event",
+     "name": "Burning season",
+     "as": "What it does to you on the bike."
+    },
+    {
+     "from": "pm25",
+     "type": "term",
+     "name": "PM2.5",
+     "as": "What it does on a bike."
+    },
+    {
+     "from": "the-smoke",
+     "type": "story",
+     "name": "The smoke",
+     "as": "Riding in it: what it does to sight and to lungs."
+    }
+   ]
+  },
+  {
+   "id": "steep-driveways",
+   "type": "hazard",
+   "names": {
+    "name": "The guesthouse driveway",
+    "th": "ทางเข้าที่พักชัน",
+    "said": "Six hundred kilometres survived, and the bike goes over at walking pace outside the room.",
+    "said_th": "รอด 600 กิโลเมตรมาได้ แล้วรถล้มด้วยความเร็วเดินหน้าห้องพัก"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "surface"
+   },
+   "text": {
+    "what": "Hillside guesthouses are reached by short, very steep, often unsealed or wet-concrete ramps. It is where heavy bikes are dropped.",
+    "story": "*Inference —* the combination is specific: a gradient steeper than anything on the highway, a surface that is polished concrete or loose dirt, a tight turn at the top or bottom, and a rider who has been riding for six hours and has luggage on the back. Nothing about it is difficult in isolation.\n\nThe habits that prevent it are unglamorous. Stop at the bottom and look before committing. Take the luggage off first if it is steep. Walk it if the surface is wet concrete, which is far more slippery than it looks. And on a heavy bike, reverse in rather than discovering at checkout that you cannot push it back up."
+   },
+   "text_th": {
+    "what": "ที่พักบนไหล่เขาเข้าถึงด้วยทางลาดสั้นๆ ที่ชันมาก มักเป็นดินหรือคอนกรีตเปียก เป็นจุดที่รถหนักล้ม",
+    "story": "*อนุมาน —* ส่วนผสมมันเฉพาะเจาะจงมาก ความชันที่มากกว่าอะไรก็ตามบนทางหลวง ผิวที่เป็นคอนกรีตขัดมันหรือดินร่วน โค้งแคบที่หัวหรือท้ายทางลาด และคนขี่ที่ขี่มาหกชั่วโมงพร้อมสัมภาระท้ายรถ ไม่มีอะไรยากเลยถ้าแยกกัน\n\nนิสัยที่ป้องกันได้นั้นไม่เท่เลย จอดที่เชิงทางแล้วมองก่อนตัดสินใจ ถอดสัมภาระออกก่อนถ้ามันชัน เข็นถ้าเป็นคอนกรีตเปียก ซึ่งลื่นกว่าที่ตาเห็นมาก และถ้าเป็นรถหนัก ให้ถอยเข้า แทนที่จะมารู้ตอนเช็คเอาต์ว่าเข็นขึ้นไม่ไหว"
+   },
+   "kin": [
+    {
+     "to": "big-adventure",
+     "as": "The weight that makes this a two-person job.",
+     "rel": "bike"
+    },
+    {
+     "to": "packing-light",
+     "as": "The load that comes off first.",
+     "rel": "kit"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-safety"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "general riding knowledge applied to this circuit's measured shape"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": [
+    {
+     "from": "big-adventure",
+     "type": "bike",
+     "name": "The 700cc-and-up adventure bike",
+     "as": "Where the weight actually bites."
+    },
+    {
+     "from": "midweight-twin",
+     "type": "bike",
+     "name": "The 400–700 twin",
+     "as": "The hazard that scales with kerb weight."
+    }
+   ]
+  }
+ ]
+}

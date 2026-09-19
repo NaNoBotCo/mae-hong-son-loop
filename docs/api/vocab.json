@@ -1,0 +1,743 @@
+{
+ "types": {
+  "note": "The sixteen node types and how the directory groups each. Order here is the order on the front page. `one` is the singular used in prose; `th` is the Thai label used on every /th/ page.",
+  "entries": [
+   {
+    "key": "leg",
+    "name": "Legs",
+    "th": "ช่วงทาง",
+    "one": "leg",
+    "path": "leg",
+    "blurb": "The loop cut into rides. Each one runs both ways, with its own curve count, its own fuel gap and its own reason to stop.",
+    "th_blurb": "เส้นทางแบ่งเป็นช่วง วิ่งได้ทั้งสองทิศ พร้อมจำนวนโค้ง ระยะปั๊มน้ำมัน และจุดแวะของแต่ละช่วง",
+    "group_by": "facets.days",
+    "icon": "leg"
+   },
+   {
+    "key": "road",
+    "name": "Roads",
+    "th": "ทางหลวง",
+    "one": "road",
+    "path": "road",
+    "blurb": "1095, 108, 1263, 107, 1088, 1096. Numbers you will see on a blue sign and nowhere else.",
+    "th_blurb": "1095, 108, 1263, 107, 1088, 1096 — หมายเลขบนป้ายสีน้ำเงิน",
+    "group_by": "facets.surface",
+    "icon": "road"
+   },
+   {
+    "key": "town",
+    "name": "Towns",
+    "th": "เมืองและหมู่บ้าน",
+    "one": "town",
+    "path": "town",
+    "blurb": "Where you sleep, eat, fill up and find a mechanic. Nine of them hold the whole loop together.",
+    "th_blurb": "ที่นอน ที่กิน ปั๊มน้ำมัน และร้านซ่อม",
+    "group_by": "facets.province",
+    "icon": "town"
+   },
+   {
+    "key": "stop",
+    "name": "Stops",
+    "th": "จุดแวะ",
+    "one": "stop",
+    "path": "stop",
+    "blurb": "Viewpoints, caves, waterfalls, bridges, markets, memorials. The reason the ride takes four days and not two.",
+    "th_blurb": "จุดชมวิว ถ้ำ น้ำตก สะพาน ตลาด อนุสรณ์สถาน",
+    "group_by": "facets.kind",
+    "icon": "stop"
+   },
+   {
+    "key": "wat",
+    "name": "Wats",
+    "th": "วัด",
+    "one": "wat",
+    "path": "wat",
+    "blurb": "Shan spires, Burmese tin, Lanna teak. Three architectures inside one province, and the border explains all three.",
+    "th_blurb": "เจดีย์ไทใหญ่ หลังคาสังกะสีพม่า ไม้สักล้านนา",
+    "group_by": "facets.tradition",
+    "icon": "wat"
+   },
+   {
+    "key": "coffee",
+    "name": "Coffee",
+    "th": "กาแฟ",
+    "one": "coffee stop",
+    "path": "coffee",
+    "blurb": "Arabica grown on the ridge you just rode over, pulled by the family that picked it. And the 7-Eleven, which is also a coffee stop.",
+    "th_blurb": "อาราบิก้าปลูกบนดอยที่เพิ่งข้ามมา ชงโดยครอบครัวที่เก็บเอง",
+    "group_by": "facets.kind",
+    "icon": "coffee"
+   },
+   {
+    "key": "spring",
+    "name": "Hot springs",
+    "th": "น้ำพุร้อน",
+    "one": "spring",
+    "path": "spring",
+    "blurb": "Geothermal water, public bath, private tub, or a concrete pond in a national park. Good legs after 1,800 curves.",
+    "th_blurb": "น้ำพุร้อน บ่อสาธารณะ ห้องอาบส่วนตัว หรือบ่อในอุทยาน",
+    "group_by": "facets.kind",
+    "icon": "spring"
+   },
+   {
+    "key": "stay",
+    "name": "Beds",
+    "th": "ที่พัก",
+    "one": "place to stay",
+    "path": "stay",
+    "blurb": "Guesthouse, resort, homestay, and the bamboo hut with no wall facing the valley.",
+    "th_blurb": "เกสต์เฮาส์ รีสอร์ต โฮมสเตย์ และกระท่อมไม้ไผ่เปิดรับหุบเขา",
+    "group_by": "facets.kind",
+    "icon": "stay"
+   },
+   {
+    "key": "hazard",
+    "name": "Hazards",
+    "th": "จุดอันตราย",
+    "one": "hazard",
+    "path": "hazard",
+    "blurb": "Gravel on the apex, diesel at the junction, dogs, buses on your line, smoke, and the drop with nothing beside it.",
+    "th_blurb": "กรวดกลางโค้ง คราบน้ำมัน สุนัข รถบัสกินเลน ควันไฟ และเหวข้างทาง",
+    "group_by": "facets.kind",
+    "icon": "hazard"
+   },
+   {
+    "key": "bike",
+    "name": "Bikes",
+    "th": "รถ",
+    "one": "bike",
+    "path": "bike",
+    "blurb": "110cc step-through to 1200cc adventure. All of them go up there. They do not all come back the same way.",
+    "th_blurb": "ตั้งแต่ 110 ซีซี ถึงแอดเวนเจอร์ 1200 ซีซี ขึ้นได้ทุกคัน แต่ไม่เหมือนกัน",
+    "group_by": "facets.class",
+    "icon": "bike"
+   },
+   {
+    "key": "kit",
+    "name": "Kit and logistics",
+    "th": "สัมภาระและการเดินทาง",
+    "one": "practice",
+    "path": "kit",
+    "blurb": "What rides with you, what goes ahead in a parcel, what stays in Chiang Mai, and what the rental contract actually says.",
+    "th_blurb": "อะไรไปกับรถ อะไรส่งล่วงหน้า อะไรฝากไว้เชียงใหม่ และสัญญาเช่าเขียนว่าอะไร",
+    "group_by": "facets.kind",
+    "icon": "kit"
+   },
+   {
+    "key": "person",
+    "name": "People",
+    "th": "ผู้คน",
+    "one": "person",
+    "path": "person",
+    "blurb": "Shan, Karen, Lisu, Lahu, Hmong, Thai, and the ones who cut the road.",
+    "th_blurb": "ไทใหญ่ กะเหรี่ยง ลีซู ลาหู่ ม้ง ไทย และคนที่ตัดถนนสายนี้",
+    "group_by": "facets.role",
+    "icon": "person"
+   },
+   {
+    "key": "org",
+    "name": "Outfits",
+    "th": "หน่วยงานและร้าน",
+    "one": "organization",
+    "path": "org",
+    "blurb": "Rental shops, parcel carriers, national parks, the highway department, the hospital.",
+    "th_blurb": "ร้านเช่ารถ บริษัทขนส่ง อุทยานแห่งชาติ กรมทางหลวง โรงพยาบาล",
+    "group_by": "facets.kind",
+    "icon": "org"
+   },
+   {
+    "key": "event",
+    "name": "The calendar",
+    "th": "ปฏิทิน",
+    "one": "season",
+    "path": "event",
+    "blurb": "Poy Sang Long in spring, smoke in March, sunflowers in November, rain from June. When you go decides what you get.",
+    "th_blurb": "ปอยส่างลองหน้าร้อน ควันเดือนมีนา ทุ่งบัวตองเดือนพฤศจิกา ฝนตั้งแต่มิถุนา",
+    "group_by": "facets.month",
+    "icon": "event"
+   },
+   {
+    "key": "term",
+    "name": "Words",
+    "th": "คำศัพท์",
+    "one": "word",
+    "path": "term",
+    "blurb": "Thai and Shan you will need at a pump, a checkpoint, a clinic and a noodle stall. Written, romanised, and said.",
+    "th_blurb": "คำไทยและไทใหญ่ที่ต้องใช้ที่ปั๊ม ด่าน คลินิก และร้านก๋วยเตี๋ยว",
+    "group_by": "facets.kind",
+    "icon": "term"
+   },
+   {
+    "key": "story",
+    "name": "Long reads",
+    "th": "เรื่องยาว",
+    "one": "story",
+    "path": "story",
+    "blurb": "The curve count and where the number came from. Clockwise against counter-clockwise. The Japanese who walked out through Khun Yuam.",
+    "th_blurb": "ตัวเลขจำนวนโค้งมาจากไหน ตามเข็มหรือทวนเข็ม และทหารญี่ปุ่นที่เดินออกมาทางขุนยวม",
+    "group_by": "facets.kind",
+    "icon": "story"
+   },
+   {
+    "key": "art",
+    "name": "Signs and objects",
+    "th": "ป้ายและสิ่งของ",
+    "one": "object",
+    "path": "art",
+    "blurb": "The 1,864 sign. The blue kilometre stone. The chedi on the hill above the airstrip.",
+    "th_blurb": "ป้าย 1,864 โค้ง หลักกิโลเมตร และเจดีย์บนดอยเหนือสนามบิน",
+    "group_by": "facets.kind",
+    "icon": "art"
+   }
+  ]
+ },
+ "regions": {
+  "note": "Open list. Regions are the ride's own geography plus the administrative units a Thai address actually uses. A record may name a region not listed here; validate.py warns so it can be added.",
+  "entries": [
+   {
+    "key": "loop",
+    "name": "The loop",
+    "th": "วงรอบแม่ฮ่องสอน",
+    "province": null,
+    "note": "the whole circuit, both directions"
+   },
+   {
+    "key": "mhs",
+    "name": "Mae Hong Son province",
+    "th": "จังหวัดแม่ฮ่องสอน",
+    "province": "MHS",
+    "note": "Thailand's westernmost and most mountainous province; 12,765 km², 22 people per km², the lowest density of any province"
+   },
+   {
+    "key": "cnx",
+    "name": "Chiang Mai province",
+    "th": "จังหวัดเชียงใหม่",
+    "province": "CNX",
+    "note": "where the loop starts and ends, and where the bike is rented"
+   },
+   {
+    "key": "north-leg",
+    "name": "The north leg",
+    "th": "ช่วงเหนือ",
+    "province": null,
+    "note": "Route 1095: Chiang Mai to Pai to Pangmapha to Mae Hong Son. The curve road."
+   },
+   {
+    "key": "south-leg",
+    "name": "The south leg",
+    "th": "ช่วงใต้",
+    "province": null,
+    "note": "Route 108: Mae Hong Son to Khun Yuam to Mae Sariang to Hot to Chiang Mai. The long road."
+   },
+   {
+    "key": "the-cut",
+    "name": "The 1263 cut",
+    "th": "ทางลัด 1263",
+    "province": null,
+    "note": "Khun Yuam east to Mae Chaem: halves the loop and doubles the difficulty"
+   },
+   {
+    "key": "pai",
+    "name": "Pai",
+    "th": "อำเภอปาย",
+    "province": "MHS"
+   },
+   {
+    "key": "pangmapha",
+    "name": "Pang Mapha",
+    "th": "อำเภอปางมะผ้า",
+    "province": "MHS",
+    "note": "Soppong, the caves, the karst"
+   },
+   {
+    "key": "mueang-mhs",
+    "name": "Mueang Mae Hong Son",
+    "th": "อำเภอเมืองแม่ฮ่องสอน",
+    "province": "MHS"
+   },
+   {
+    "key": "khun-yuam",
+    "name": "Khun Yuam",
+    "th": "อำเภอขุนยวม",
+    "province": "MHS",
+    "note": "the Japanese memorial, the Bua Tong hill"
+   },
+   {
+    "key": "mae-la-noi",
+    "name": "Mae La Noi",
+    "th": "อำเภอแม่ลาน้อย",
+    "province": "MHS"
+   },
+   {
+    "key": "mae-sariang",
+    "name": "Mae Sariang",
+    "th": "อำเภอแม่สะเรียง",
+    "province": "MHS",
+    "note": "the quiet southern base, on the Yuam river"
+   },
+   {
+    "key": "sop-moei",
+    "name": "Sop Moei",
+    "th": "อำเภอสบเมย",
+    "province": "MHS",
+    "note": "off the loop, down the Salween"
+   },
+   {
+    "key": "mae-chaem",
+    "name": "Mae Chaem",
+    "th": "อำเภอแม่แจ่ม",
+    "province": "CNX",
+    "note": "the east end of the 1263 cut"
+   },
+   {
+    "key": "hot",
+    "name": "Hot",
+    "th": "อำเภอฮอด",
+    "province": "CNX",
+    "note": "the roundabout where Route 108's kilometre marks restart at zero"
+   },
+   {
+    "key": "chom-thong",
+    "name": "Chom Thong",
+    "th": "อำเภอจอมทอง",
+    "province": "CNX",
+    "note": "the Doi Inthanon turn"
+   },
+   {
+    "key": "mae-taeng",
+    "name": "Mae Taeng",
+    "th": "อำเภอแม่แตง",
+    "province": "CNX",
+    "note": "Mae Malai market, where 1095 leaves 107"
+   },
+   {
+    "key": "mae-rim",
+    "name": "Mae Rim",
+    "th": "อำเภอแม่ริม",
+    "province": "CNX",
+    "note": "the Samoeng warm-up turn"
+   },
+   {
+    "key": "samoeng",
+    "name": "Samoeng",
+    "th": "อำเภอสะเมิง",
+    "province": "CNX",
+    "note": "the 100 km rehearsal loop you ride before committing to 600"
+   },
+   {
+    "key": "shan",
+    "name": "Shan country",
+    "th": "ไทใหญ่",
+    "province": null,
+    "note": "a people and a culture, not a border: the largest population group in Mae Hong Son, and the reason the wats look Burmese"
+   },
+   {
+    "key": "karen",
+    "name": "Karen country",
+    "th": "กะเหรี่ยง",
+    "province": null,
+    "note": "the hills south and west; the long-neck Kayan are one of the smallest Karen groups"
+   },
+   {
+    "key": "salween",
+    "name": "The Salween",
+    "th": "ลุ่มน้ำสาละวิน",
+    "province": null,
+    "note": "the river that is also the border, west of everything here"
+   }
+  ]
+ },
+ "facets": {
+  "note": "Open list. A facet is a fact about a record that the site groups, filters and colours by. Values not listed here are warned about, not refused.",
+  "facets": {
+   "direction": {
+    "label": "Direction",
+    "th": "ทิศทาง",
+    "values": {
+     "cw": "Clockwise — north first, up 1095 to Pai",
+     "ccw": "Counter-clockwise — south first, down 108 to Hot",
+     "both": "Reads the same either way"
+    },
+    "types": [
+     "leg",
+     "road",
+     "story",
+     "event"
+    ]
+   },
+   "days": {
+    "label": "Days",
+    "th": "จำนวนวัน",
+    "values": {
+     "1": "One day",
+     "2": "Two days",
+     "3": "Three days",
+     "4": "Four days",
+     "5": "Five or more"
+    },
+    "types": [
+     "leg",
+     "story"
+    ]
+   },
+   "class": {
+    "label": "Bike class",
+    "th": "ประเภทรถ",
+    "values": {
+     "auto": "Automatic scooter, 110–160cc",
+     "underbone": "Semi-automatic or manual underbone, 110–150cc",
+     "small-manual": "Small manual, 150–300cc",
+     "trail": "Trail or dual-sport, 150–450cc",
+     "midweight": "Midweight road or adventure, 300–700cc",
+     "big": "Big adventure or tourer, 700cc and up",
+     "pillion": "Riding on the back"
+    },
+    "types": [
+     "bike"
+    ]
+   },
+   "grip": {
+    "label": "What it asks of you",
+    "th": "ระดับความยาก",
+    "values": {
+     "easy": "Anyone with a licence",
+     "moderate": "You have ridden hills before",
+     "hard": "You are comfortable with a loaded bike on a steep descent",
+     "expert": "Gravel, gradient, and no help for an hour"
+    },
+    "types": [
+     "bike",
+     "leg",
+     "road",
+     "hazard"
+    ]
+   },
+   "surface": {
+    "label": "Surface",
+    "th": "ผิวทาง",
+    "values": {
+     "asphalt": "Sealed, two lanes",
+     "asphalt-broken": "Sealed, breaking up in places",
+     "concrete": "Concrete on the steep sections",
+     "mixed": "Sealed with unsealed stretches",
+     "unsealed": "Unsealed"
+    },
+    "types": [
+     "road",
+     "leg"
+    ]
+   },
+   "kind": {
+    "label": "Kind",
+    "th": "ประเภท",
+    "values": {},
+    "types": [
+     "leg",
+     "road",
+     "town",
+     "stop",
+     "wat",
+     "coffee",
+     "spring",
+     "stay",
+     "hazard",
+     "bike",
+     "kit",
+     "person",
+     "org",
+     "event",
+     "term",
+     "story",
+     "art"
+    ]
+   },
+   "province": {
+    "label": "Province",
+    "th": "จังหวัด",
+    "values": {
+     "MHS": "Mae Hong Son",
+     "CNX": "Chiang Mai",
+     "TAK": "Tak"
+    },
+    "types": [
+     "town",
+     "stop",
+     "wat",
+     "coffee",
+     "spring",
+     "stay",
+     "org"
+    ]
+   },
+   "tradition": {
+    "label": "Tradition",
+    "th": "สกุลช่าง",
+    "values": {
+     "shan": "Shan / Tai Yai",
+     "burmese": "Burmese",
+     "lanna": "Lanna",
+     "karen": "Karen",
+     "mixed": "More than one, layered"
+    },
+    "types": [
+     "wat",
+     "art",
+     "person"
+    ]
+   },
+   "month": {
+    "label": "When",
+    "th": "ช่วงเวลา",
+    "values": {
+     "jan": "January",
+     "feb": "February",
+     "mar": "March",
+     "apr": "April",
+     "may": "May",
+     "jun": "June",
+     "jul": "July",
+     "aug": "August",
+     "sep": "September",
+     "oct": "October",
+     "nov": "November",
+     "dec": "December",
+     "cool": "Cool season, November to February",
+     "hot": "Hot season, March to May",
+     "smoke": "Burning season, roughly February to April",
+     "rains": "The rains, June to October"
+    },
+    "types": [
+     "event",
+     "story"
+    ]
+   },
+   "role": {
+    "label": "Role",
+    "th": "บทบาท",
+    "values": {},
+    "types": [
+     "person",
+     "org"
+    ]
+   },
+   "price": {
+    "label": "Price band",
+    "th": "ราคา",
+    "values": {
+     "free": "No charge",
+     "cheap": "Under 100 baht",
+     "mid": "100–800 baht",
+     "high": "Over 800 baht",
+     "varies": "Depends"
+    },
+    "types": [
+     "stop",
+     "wat",
+     "spring",
+     "stay",
+     "coffee",
+     "kit"
+    ]
+   },
+   "fuel": {
+    "label": "Fuel",
+    "th": "น้ำมัน",
+    "values": {
+     "full": "Full-service station, 24 hours",
+     "day": "Station, daylight hours",
+     "bottle": "Bottles on a rack outside a shop",
+     "none": "Nothing until the next town"
+    },
+    "types": [
+     "town",
+     "org",
+     "leg"
+    ]
+   },
+   "ref": {
+    "label": "Route number",
+    "th": "หมายเลขทางหลวง",
+    "values": {},
+    "types": [
+     "road"
+    ]
+   }
+  }
+ },
+ "tags": {
+  "note": "A tag carries the source it came from. The validator rejects tier `tradition` or `inference` on a tag: a tag is a claim about a real business or a real road, and a guess is worse than a blank. Open list.",
+  "entries": [
+   {
+    "key": "on-the-loop",
+    "name": "On the loop",
+    "th": "อยู่บนเส้นทาง",
+    "note": "on Route 107, 1095, 108 or 1263 itself, not down a side road"
+   },
+   {
+    "key": "detour",
+    "name": "Worth the detour",
+    "th": "ควรแวะ",
+    "note": "off the route; the record says how far"
+   },
+   {
+    "key": "24h",
+    "name": "Open 24 hours",
+    "th": "เปิด 24 ชม.",
+    "note": "needs the operator's own posted hours"
+   },
+   {
+    "key": "fuel-91",
+    "name": "Gasohol 91",
+    "th": "แก๊สโซฮอล์ 91"
+   },
+   {
+    "key": "fuel-95",
+    "name": "Gasohol 95",
+    "th": "แก๊สโซฮอล์ 95"
+   },
+   {
+    "key": "big-bike-ok",
+    "name": "Big bike can park",
+    "th": "จอดบิ๊กไบค์ได้"
+   },
+   {
+    "key": "scooter-ok",
+    "name": "A 110 gets up it",
+    "th": "รถ 110 ขึ้นได้"
+   },
+   {
+    "key": "steep-drive",
+    "name": "Steep driveway",
+    "th": "ทางเข้าชัน",
+    "note": "the thing that drops a loaded bike at walking pace"
+   },
+   {
+    "key": "shan-owned",
+    "name": "Shan-owned",
+    "th": "เจ้าของไทใหญ่",
+    "note": "rests on the owner's own words or a press profile naming them — never a surname or a guess"
+   },
+   {
+    "key": "karen-owned",
+    "name": "Karen-owned",
+    "th": "เจ้าของกะเหรี่ยง",
+    "note": "same rule"
+   },
+   {
+    "key": "grows-own",
+    "name": "Grows its own coffee",
+    "th": "ปลูกกาแฟเอง",
+    "note": "needs the grower's own statement or a named press piece"
+   },
+   {
+    "key": "english-spoken",
+    "name": "English spoken",
+    "th": "พูดอังกฤษได้"
+   },
+   {
+    "key": "thai-only",
+    "name": "Thai only",
+    "th": "ภาษาไทยเท่านั้น"
+   },
+   {
+    "key": "cash-only",
+    "name": "Cash only",
+    "th": "เงินสดเท่านั้น"
+   },
+   {
+    "key": "promptpay",
+    "name": "PromptPay QR",
+    "th": "พร้อมเพย์"
+   },
+   {
+    "key": "luggage-hold",
+    "name": "Holds your bag",
+    "th": "ฝากกระเป๋าได้"
+   },
+   {
+    "key": "parcel-agent",
+    "name": "Parcel agent on site",
+    "th": "มีจุดรับส่งพัสดุ"
+   },
+   {
+    "key": "mechanic",
+    "name": "Mechanic",
+    "th": "ช่างซ่อม"
+   },
+   {
+    "key": "tyres",
+    "name": "Tyres in stock",
+    "th": "มียางเปลี่ยน"
+   },
+   {
+    "key": "hospital",
+    "name": "Hospital",
+    "th": "โรงพยาบาล"
+   },
+   {
+    "key": "no-phone-signal",
+    "name": "No signal",
+    "th": "ไม่มีสัญญาณ"
+   },
+   {
+    "key": "national-park-fee",
+    "name": "National park fee",
+    "th": "ค่าธรรมเนียมอุทยาน",
+    "note": "Thailand charges a separate foreigner rate; the record prints both with their date"
+   },
+   {
+    "key": "ethical-question",
+    "name": "Carries an ethical question",
+    "th": "มีข้อถกเถียง",
+    "note": "the record states the argument and names who makes it, on both sides"
+   }
+  ]
+ },
+ "recognizers": {
+  "note": "Bodies whose recognition of a place is a fact worth printing, with what each one actually certifies. One entry per recognizer per place.",
+  "entries": [
+   {
+    "key": "unesco-mab",
+    "name": "UNESCO Man and the Biosphere",
+    "th": "ยูเนสโก",
+    "what": "biosphere reserve designation"
+   },
+   {
+    "key": "dnp",
+    "name": "Department of National Parks, Wildlife and Plant Conservation",
+    "th": "กรมอุทยานแห่งชาติฯ",
+    "what": "national park, forest park or wildlife sanctuary status"
+   },
+   {
+    "key": "finearts",
+    "name": "Fine Arts Department",
+    "th": "กรมศิลปากร",
+    "what": "registered ancient monument"
+   },
+   {
+    "key": "tat",
+    "name": "Tourism Authority of Thailand",
+    "th": "การท่องเที่ยวแห่งประเทศไทย",
+    "what": "listing or award; a promotional body, and the record says so"
+   },
+   {
+    "key": "doh",
+    "name": "Department of Highways",
+    "th": "กรมทางหลวง",
+    "what": "route number, kilometre marks and maintenance district"
+   },
+   {
+    "key": "otop",
+    "name": "OTOP",
+    "th": "โอทอป",
+    "what": "One Tambon One Product registration for a local maker"
+   },
+   {
+    "key": "michelin",
+    "name": "Michelin Guide Thailand",
+    "th": "มิชลินไกด์",
+    "what": "a listing, a Bib Gourmand or a star"
+   }
+  ]
+ }
+}

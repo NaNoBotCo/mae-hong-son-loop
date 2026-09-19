@@ -1,0 +1,616 @@
+{
+ "id": "cnx-to-pai",
+ "type": "leg",
+ "names": {
+  "name": "Chiang Mai to Pai",
+  "th": "เชียงใหม่ – ปาย",
+  "said": "Three hundred and ninety-five curves in ninety-five kilometres, and a town at the end of them.",
+  "said_th": "สามร้อยเก้าสิบห้าโค้งในเก้าสิบห้ากิโลเมตร และมีเมืองรออยู่ปลายทาง"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "days": "1",
+  "direction": "both"
+ },
+ "text": {
+  "what": "Route 107 north out of the city to the Route 1095 turn, then over the hills to Pai. The shortest leg of the circuit by distance and the one people most often underestimate by time.",
+  "story": "The first thirty-five kilometres are Route 107, which is a wide, busy road out of a city and is not what you came for. The ride begins at the turn.\n\n*Inference —* measured off the OSM trace, the Mae Malai to Pai section of Route 1095 is 94.5 kilometres carrying **395 curves** at a 25-degree threshold, 65 of them hairpins — 4.28 curves a kilometre, the densest sustained stretch on the whole circuit. The hardest two kilometres measured anywhere on 1095 are in here, at 7.45 curves a kilometre.\n\nWhat that means in practice is that the hundred kilometres takes three hours, not ninety minutes, and it takes longer than that if you stop — which you will, because the climb out of the Mae Taeng valley has the views.\n\nThis is also the leg the merchandise is about. The sign says 1,864 curves; the count over this span says 395 at 25 degrees, 450 at 15. What 1,864 would mean over 94.5 kilometres is a curve every 51.9 metres."
+ },
+ "text_th": {
+  "what": "ทางหลวง 107 ขึ้นเหนือออกจากเมืองไปถึงทางแยก 1095 แล้วข้ามเขาไปปาย เป็นช่วงที่ระยะสั้นที่สุดของวงรอบ และเป็นช่วงที่คนประเมินเวลาผิดบ่อยที่สุด",
+  "story": "สามสิบห้ากิโลเมตรแรกคือทางหลวง 107 ซึ่งเป็นถนนกว้างรถเยอะขาออกจากเมือง และไม่ใช่สิ่งที่คุณมาหา การขี่เริ่มต้นตรงทางแยก\n\n*อนุมาน —* เมื่อวัดจากเส้นทางใน OSM ช่วงแม่มาลัยถึงปายของทางหลวง 1095 ยาว 94.5 กิโลเมตร มี **395 โค้ง** ที่เกณฑ์ 25 องศา ในจำนวนนั้นเป็นโค้งหักศอก 65 โค้ง คิดเป็น 4.28 โค้งต่อกิโลเมตร ซึ่งเป็นช่วงที่หนาแน่นต่อเนื่องที่สุดของทั้งวงรอบ และช่วงสองกิโลเมตรที่หนักที่สุดที่วัดได้บน 1095 ทั้งสายก็อยู่ในนี้ ที่ 7.45 โค้งต่อกิโลเมตร\n\nในทางปฏิบัติแปลว่าร้อยกิโลเมตรนี้ใช้เวลาสามชั่วโมง ไม่ใช่ชั่วโมงครึ่ง และนานกว่านั้นถ้าคุณแวะ ซึ่งคุณจะแวะ เพราะทางไต่ขึ้นจากหุบแม่แตงมีวิว\n\nนี่คือช่วงที่เสื้อยืดพูดถึงด้วย ป้ายบอก 1,864 โค้ง ส่วนการนับบนช่วงนี้ได้ 395 ที่ 25 องศา และ 450 ที่ 15 องศา ถ้า 1,864 เป็นจริงบนระยะ 94.5 กิโลเมตร จะหมายถึงหนึ่งโค้งทุก 51.9 เมตร"
+ },
+ "route": {
+  "roads": [
+   "107",
+   "1095"
+  ],
+  "from": "Chiang Mai",
+  "from_th": "เชียงใหม่",
+  "to": "Pai",
+  "to_th": "ปาย",
+  "km": 130,
+  "km_source": "s:mhs-measured",
+  "hours": "3–4",
+  "hours_big": "2.5–3",
+  "curves": 395,
+  "hairpins": 65,
+  "fuel_gap_km": 40,
+  "cw": "Day one. Short, hard, and done on fresh arms — which is the whole case for going this way round.",
+  "ccw": "The last leg. Four days of hills already in your forearms, and the descent into Mae Taeng at the end of it.",
+  "cw_th": "วันแรก สั้น หนัก และทำตอนแขนยังสด ซึ่งคือเหตุผลทั้งหมดของการไปทางนี้",
+  "ccw_th": "ช่วงสุดท้าย เขาสี่วันอยู่ในแขนแล้ว และมีทางลงแม่แตงรออยู่ตอนจบ",
+  "order": 1,
+  "line": [
+   [
+    18.88551,
+    98.95693
+   ],
+   [
+    18.88992,
+    98.95444
+   ],
+   [
+    18.8779,
+    98.96183
+   ],
+   [
+    18.89406,
+    98.95304
+   ],
+   [
+    18.90143,
+    98.95031
+   ],
+   [
+    18.90946,
+    98.94716
+   ],
+   [
+    18.92587,
+    98.93945
+   ],
+   [
+    18.91329,
+    98.94569
+   ],
+   [
+    18.90935,
+    98.94729
+   ],
+   [
+    19.41936,
+    97.99821
+   ],
+   [
+    19.43596,
+    97.9983
+   ],
+   [
+    19.44345,
+    98.00817
+   ],
+   [
+    19.45031,
+    98.0167
+   ],
+   [
+    19.46285,
+    98.0235
+   ],
+   [
+    19.4786,
+    98.03018
+   ],
+   [
+    19.48655,
+    98.04376
+   ],
+   [
+    19.49559,
+    98.05524
+   ],
+   [
+    19.50603,
+    98.06805
+   ],
+   [
+    19.51354,
+    98.08137
+   ],
+   [
+    19.52425,
+    98.09482
+   ],
+   [
+    19.53631,
+    98.09981
+   ],
+   [
+    19.53639,
+    98.11414
+   ],
+   [
+    19.53553,
+    98.12821
+   ],
+   [
+    19.54115,
+    98.13847
+   ],
+   [
+    19.55198,
+    98.14925
+   ],
+   [
+    19.5581,
+    98.16055
+   ],
+   [
+    19.56468,
+    98.17474
+   ],
+   [
+    19.55817,
+    98.19124
+   ],
+   [
+    19.54933,
+    98.20248
+   ],
+   [
+    19.54451,
+    98.21388
+   ],
+   [
+    19.53422,
+    98.22751
+   ],
+   [
+    19.52294,
+    98.2418
+   ],
+   [
+    19.51707,
+    98.2568
+   ],
+   [
+    19.5132,
+    98.27067
+   ],
+   [
+    19.49798,
+    98.27908
+   ],
+   [
+    19.48602,
+    98.29138
+   ],
+   [
+    19.47119,
+    98.29519
+   ],
+   [
+    19.46214,
+    98.29978
+   ],
+   [
+    19.45326,
+    98.30374
+   ],
+   [
+    19.45269,
+    98.31207
+   ],
+   [
+    19.4501,
+    98.31769
+   ],
+   [
+    19.43979,
+    98.32495
+   ],
+   [
+    19.44308,
+    98.3359
+   ],
+   [
+    19.44389,
+    98.34293
+   ],
+   [
+    19.43872,
+    98.3552
+   ],
+   [
+    19.43671,
+    98.36935
+   ],
+   [
+    19.43539,
+    98.38741
+   ],
+   [
+    19.42474,
+    98.39911
+   ],
+   [
+    19.417,
+    98.41357
+   ],
+   [
+    19.4003,
+    98.4155
+   ],
+   [
+    19.38578,
+    98.4262
+   ],
+   [
+    19.36874,
+    98.42737
+   ],
+   [
+    19.35183,
+    98.42952
+   ],
+   [
+    19.33518,
+    98.43171
+   ],
+   [
+    19.31867,
+    98.43861
+   ],
+   [
+    19.31145,
+    98.45279
+   ],
+   [
+    19.29981,
+    98.46346
+   ],
+   [
+    19.2885,
+    98.47343
+   ],
+   [
+    19.28169,
+    98.48915
+   ],
+   [
+    19.27106,
+    98.50186
+   ],
+   [
+    19.26584,
+    98.51422
+   ],
+   [
+    19.27006,
+    98.52692
+   ],
+   [
+    19.27225,
+    98.543
+   ],
+   [
+    19.27128,
+    98.5592
+   ],
+   [
+    19.27278,
+    98.57487
+   ],
+   [
+    19.26761,
+    98.58744
+   ],
+   [
+    19.27677,
+    98.60006
+   ],
+   [
+    19.27857,
+    98.61375
+   ],
+   [
+    19.26987,
+    98.62762
+   ],
+   [
+    19.26051,
+    98.63883
+   ],
+   [
+    19.24999,
+    98.64207
+   ],
+   [
+    19.25286,
+    98.64952
+   ],
+   [
+    19.24193,
+    98.65656
+   ],
+   [
+    19.23472,
+    98.66234
+   ],
+   [
+    19.22746,
+    98.67201
+   ],
+   [
+    19.2222,
+    98.67161
+   ],
+   [
+    19.21433,
+    98.67021
+   ],
+   [
+    19.20481,
+    98.67746
+   ],
+   [
+    19.19411,
+    98.6895
+   ],
+   [
+    19.17687,
+    98.69232
+   ],
+   [
+    19.15939,
+    98.69117
+   ],
+   [
+    19.14401,
+    98.69736
+   ],
+   [
+    19.13133,
+    98.70404
+   ],
+   [
+    19.12155,
+    98.70981
+   ],
+   [
+    19.11809,
+    98.72556
+   ],
+   [
+    19.12364,
+    98.73553
+   ],
+   [
+    19.12379,
+    98.74743
+   ],
+   [
+    19.12498,
+    98.763
+   ],
+   [
+    19.1229,
+    98.77874
+   ],
+   [
+    19.11185,
+    98.79335
+   ],
+   [
+    19.10687,
+    98.81106
+   ],
+   [
+    19.10658,
+    98.82558
+   ],
+   [
+    19.10146,
+    98.84095
+   ],
+   [
+    19.09296,
+    98.85731
+   ],
+   [
+    19.09481,
+    98.87396
+   ],
+   [
+    19.08811,
+    98.89096
+   ],
+   [
+    19.08644,
+    98.90622
+   ],
+   [
+    19.08019,
+    98.91822
+   ],
+   [
+    19.07287,
+    98.93587
+   ]
+  ],
+  "line_points": 99
+ },
+ "riding": {
+  "min_class": "auto",
+  "grip": "moderate",
+  "pillion": "fine",
+  "note": "A 110 automatic does this leg every day of the week. It does it slowly, and it needs the descents taken in stages.",
+  "note_th": "รถออโต้ 110 วิ่งช่วงนี้ทุกวัน มันวิ่งช้า และต้องลงเขาเป็นช่วงๆ",
+  "loaded": "The climb is fine loaded; it is the Pai descent where the extra weight is felt."
+ },
+ "kin": [
+  {
+   "to": "route-1095",
+   "as": "The road it is mostly on.",
+   "rel": "road"
+  },
+  {
+   "to": "pai",
+   "as": "The town at the end.",
+   "rel": "town"
+  },
+  {
+   "to": "how-many-curves",
+   "as": "The argument this leg is the subject of.",
+   "rel": "story"
+  },
+  {
+   "to": "brake-fade",
+   "as": "The descent into Pai is where this happens.",
+   "rel": "hazard"
+  },
+  {
+   "to": "pai-to-soppong",
+   "as": "The next one, clockwise.",
+   "rel": "leg"
+  },
+  {
+   "to": "samoeng-warmup",
+   "as": "The day that tells you whether this one will be fun.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:thwp-1095",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:mhs-measured"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "curve figures measured off OSM; timing is this project's estimate and is not sourced"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "cnx-to-pai/cnx-to-pai-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-a04b28c.jpg",
+   "source": "commons",
+   "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031193728/http://www.panoramio.com/photo/124380306",
+   "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+   "date": "Taken on 15 July 2015",
+   "primary": true,
+   "sha256": "c97a1bf171d1c5ae45c0afb7de10cf858c0d9832fc07d5f3cd6e30061d6644c6"
+  },
+  {
+   "file": "cnx-to-pai/cnx-to-pai-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-93478b0.jpg",
+   "source": "commons",
+   "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio (1).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031193239/http://www.panoramio.com/photo/124380303",
+   "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+   "date": "Taken on 15 July 2015",
+   "primary": false,
+   "sha256": "42a4e24e5a71b08eca40034450f636a08a4cf5811aa4ae11553714dae37415fc"
+  },
+  {
+   "file": "cnx-to-pai/cnx-to-pai-ruta-1095-240125-norteam-rica-s-a-metalbus-urbano-me-b6aca27.jpg",
+   "source": "commons",
+   "title": "File:Ruta 1095 240125 Norteamérica S.A. Metalbus Urbano Mercedes-Benz OF-914.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ruta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARuta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Fabco09",
+   "credit": "Own work",
+   "alt": "Route 1095.",
+   "date": "2025-01-24 15:21:38",
+   "primary": false,
+   "sha256": "f89cb77917c2d77186e2623767a8bb088b582a358dc18873f596a2149fd3b5b0"
+  },
+  {
+   "file": "cnx-to-pai/cnx-to-pai-thailand-route-1095.jpg",
+   "source": "commons",
+   "title": "File:Thailand Route 1095.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Thailand_Route_1095.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThailand_Route_1095.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Thailand Route 1095 and a minibus going from Chiang Mai to Pai in Mae Taeng District, Chiang Mai Province.",
+   "date": "2018-08-29 14:08:13",
+   "primary": false,
+   "sha256": "98d29fc18592e9627c27b08638368c3501bd901d778593d82f7bf4e4b77837fc"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "samoeng-warmup",
+   "type": "leg",
+   "name": "The Samoeng warm-up",
+   "as": "What it is a rehearsal for."
+  },
+  {
+   "from": "route-107",
+   "type": "road",
+   "name": "Route 107",
+   "as": "The leg it starts."
+  },
+  {
+   "from": "route-1095",
+   "type": "road",
+   "name": "Route 1095",
+   "as": "The first half of it, clockwise."
+  },
+  {
+   "from": "pai",
+   "type": "town",
+   "name": "Pai",
+   "as": "The leg that ends here, and the curves that get you here."
+  },
+  {
+   "from": "pai-canyon",
+   "type": "stop",
+   "name": "Pai Canyon",
+   "as": "The leg it sits at the end of."
+  },
+  {
+   "from": "how-many-curves",
+   "type": "story",
+   "name": "How many curves, actually",
+   "as": "Where you meet the curves, on day one or on day four."
+  },
+  {
+   "from": "which-way-round",
+   "type": "story",
+   "name": "Clockwise or counter-clockwise",
+   "as": "Day one clockwise, day four counter-clockwise, and it is a different road each way."
+  }
+ ]
+}

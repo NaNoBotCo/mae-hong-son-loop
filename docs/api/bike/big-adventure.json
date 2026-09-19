@@ -1,0 +1,147 @@
+{
+ "id": "big-adventure",
+ "type": "bike",
+ "names": {
+  "name": "The 700cc-and-up adventure bike",
+  "th": "รถแอดเวนเจอร์ 700 ซีซีขึ้นไป",
+  "said": "It goes round. Ask what it is like in the last hour of the last day.",
+  "said_th": "มันวิ่งจบรอบได้ ลองถามว่าชั่วโมงสุดท้ายของวันสุดท้ายเป็นอย่างไร"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "class": "big",
+  "grip": "hard"
+ },
+ "text": {
+  "what": "An Africa Twin, a GS, a Tiger, a V-Strom 1050: 220 to 260 kilograms wet, tall, and entirely capable.",
+  "story": "There is nothing on this circuit a large adventure bike cannot do. The question is arithmetic, not capability.\n\n*Inference —* the measured curve density on Route 1095 and 1263 means a rider is making a steering input every few seconds for hours. On a light bike that is pleasure. At 250 kilograms it is work, and work accumulates: the mistakes on this road are made in the last hour of a long day, not the first.\n\nThe second arithmetic is the U-turn. A one-and-a-half-lane hairpin with a bank on one side and nothing on the other is a place where a tall, heavy bike has to be paddled round, and the surface there is often exactly the loose stuff that has washed down."
+ },
+ "text_th": {
+  "what": "Africa Twin, GS, Tiger, V-Strom 1050 น้ำหนักพร้อมของเหลว 220 ถึง 260 กิโลกรัม ตัวสูง และทำได้ทุกอย่าง",
+  "story": "ไม่มีอะไรบนเส้นทางนี้ที่รถแอดเวนเจอร์คันใหญ่ทำไม่ได้ คำถามคือเลขคณิต ไม่ใช่ความสามารถ\n\n*อนุมาน —* ความหนาแน่นของโค้งที่วัดได้บนทางหลวง 1095 และ 1263 แปลว่าคนขี่ต้องสั่งรถเลี้ยวทุกไม่กี่วินาที ต่อเนื่องหลายชั่วโมง บนรถเบานั่นคือความสนุก ที่ 250 กิโลกรัมนั่นคือการทำงาน และงานมันสะสม ความผิดพลาดบนถนนสายนี้เกิดในชั่วโมงสุดท้ายของวันยาวๆ ไม่ใช่ชั่วโมงแรก\n\nเลขคณิตข้อที่สองคือการกลับรถ โค้งหักศอกกว้างหนึ่งเลนครึ่งที่มีเขาอยู่ด้านหนึ่งและไม่มีอะไรอยู่อีกด้าน คือที่ที่รถสูงและหนักต้องใช้เท้าถีบกลับ และผิวถนนตรงนั้นมักเป็นเศษหินที่น้ำพัดลงมากองพอดี"
+ },
+ "kin": [
+  {
+   "to": "midweight-twin",
+   "as": "One size down, and most of the same pleasure.",
+   "rel": "bike"
+  },
+  {
+   "to": "hairpin",
+   "as": "The manoeuvre the weight is felt in.",
+   "rel": "term"
+  },
+  {
+   "to": "steep-driveways",
+   "as": "Where the weight actually bites.",
+   "rel": "hazard"
+  },
+  {
+   "to": "which-bike",
+   "as": "Where this sits against everything else.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:wp-motorcycle-safety"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "big-adventure/big-adventure-gims-2019-le-grand-saconnex-gims0706.jpg",
+   "source": "commons",
+   "title": "File:GIMS 2019, Le Grand-Saconnex (GIMS0706).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/GIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0706%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AGIMS_2019%2C_Le_Grand-Saconnex_%28GIMS0706%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Matti Blume",
+   "credit": "Own work",
+   "alt": "Geneva International Motor Show 2019, Le Grand-Saconnex",
+   "date": "2019-03-04",
+   "primary": true,
+   "sha256": "fd54c175b282ee2da0df82b602e1f4dd231b79b822555b09821765a20e8a6350"
+  },
+  {
+   "file": "big-adventure/big-adventure-honda-crf1000l.jpg",
+   "source": "commons",
+   "title": "File:Honda CRF1000L.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Honda_CRF1000L.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_CRF1000L.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Matteo Casarico",
+   "credit": "Own work",
+   "alt": "Honda CRF1000L Africa Twin - Modello 2016 con ABS e cambio meccanico.",
+   "date": "2016-01-26",
+   "primary": false,
+   "sha256": "ce6106e80c889c18257f98b54d0096e1cb838db9627e846a167dc05a7bc7071d"
+  },
+  {
+   "file": "big-adventure/big-adventure-motodays-2019-49.jpg",
+   "source": "commons",
+   "title": "File:Motodays 2019 49.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Motodays_2019_49.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMotodays_2019_49.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Nicholas Gemini",
+   "credit": "Own work",
+   "alt": "Motodays 2019",
+   "date": "2019-03-07 17:14:46",
+   "primary": false,
+   "sha256": "ea8a09c56e2c516ad2ae74e51fc9dc471ad53ebbdea70b79676b98b1996dfdd9"
+  },
+  {
+   "file": "big-adventure/big-adventure-the-44th-tokyo-motor-show-2015-143-22733993445.jpg",
+   "source": "commons",
+   "title": "File:The 44th Tokyo Motor Show 2015 143 (22733993445).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/The_44th_Tokyo_Motor_Show_2015_143_%2822733993445%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_44th_Tokyo_Motor_Show_2015_143_%2822733993445%29.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "TAKA@P.P.R.S",
+   "credit": "The 44th Tokyo Motor Show 2015_143",
+   "alt": "The 44th Tokyo Motor Show 2015_143",
+   "date": "2015-11-01 17:26",
+   "primary": false,
+   "sha256": "fc41dcdefab2c6487ef57625928a06951c2242f72ea3b57a86efaef89d73cb0d"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "steep-driveways",
+   "type": "hazard",
+   "name": "The guesthouse driveway",
+   "as": "The weight that makes this a two-person job."
+  },
+  {
+   "from": "midweight-twin",
+   "type": "bike",
+   "name": "The 400–700 twin",
+   "as": "One size up, and the driveway problem doubles."
+  },
+  {
+   "from": "which-bike",
+   "type": "story",
+   "name": "Every bike goes up there",
+   "as": "Capable of everything; the arithmetic is fatigue."
+  }
+ ]
+}

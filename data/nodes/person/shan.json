@@ -69,5 +69,67 @@
  },
  "confidence": "high",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "shan/shan-khone-phapheng-falls-si-phan-don-laos-widest-waterfa-d7c09b5.jpg",
+   "source": "commons",
+   "title": "File:Khone Phapheng Falls, Si Phan Don, Laos, widest waterfall in the world.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Khone_Phapheng_Falls%2C_Si_Phan_Don%2C_Laos%2C_widest_waterfall_in_the_world.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AKhone_Phapheng_Falls%2C_Si_Phan_Don%2C_Laos%2C_widest_waterfall_in_the_world.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Basile Morin",
+   "credit": "Own work",
+   "alt": "Khone Phapheng Falls, Si Phan Don, Laos. Located on the Mekong River near the border with Cambodia, at 10.7 kilometres (6.6 mi) wide, it is the widest waterfall in the world.",
+   "date": "2019-12-25 15:20:29",
+   "primary": true,
+   "sha256": "77f2b0782258a9e2383e211cfd2eee1dd53bbe3d64d3b60439601ef282cb721e"
+  },
+  {
+   "file": "shan/shan-knife-shan-people-northern-thailand-collected-in-198-70f7e74.jpg",
+   "source": "commons",
+   "title": "File:Knife, Shan people, Northern Thailand, collected in 1986 - Ethnological Museum, Berlin - DSC01335.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Knife%2C_Shan_people%2C_Northern_Thailand%2C_collected_in_1986_-_Ethnological_Museum%2C_Berlin_-_DSC01335.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AKnife%2C_Shan_people%2C_Northern_Thailand%2C_collected_in_1986_-_Ethnological_Museum%2C_Berlin_-_DSC01335.JPG",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Daderot",
+   "credit": "Own work",
+   "alt": "Exhibit in the Ethnological Museum, Berlin, Germany. Photography was permitted in the museum without restriction.",
+   "date": "2014-11-11 08:12:19",
+   "primary": false,
+   "sha256": "7bc247e904bcbb7a0bf8853eeafc8373264f4d1363bafd02240494f59db4f6c0"
+  },
+  {
+   "file": "shan/shan-pirogue-running-on-the-mekong-at-sunset-with-pink-cl-bf01e49.jpg",
+   "source": "commons",
+   "title": "File:Pirogue running on the Mekong at sunset with pink clouds in Don Det Laos.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Pirogue_running_on_the_Mekong_at_sunset_with_pink_clouds_in_Don_Det_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APirogue_running_on_the_Mekong_at_sunset_with_pink_clouds_in_Don_Det_Laos.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Basile Morin",
+   "credit": "Own work",
+   "alt": "Pirogue running on the Mekong in front of an island hosting a Samanea saman (rain tree) and other trees, at sunset with pink clouds, seen from Don Det, Si Phan Don, Laos.",
+   "date": "2021-12-29 17:36:24",
+   "primary": false,
+   "sha256": "d84355e59ff3788d74455f154bfcbb9a3c077eb1232121d3eaaf6a02d5dffc7e"
+  },
+  {
+   "file": "shan/shan-water-reflection-of-karst-mountains-at-golden-hour-i-103c2db.jpg",
+   "source": "commons",
+   "title": "File:Water reflection of karst mountains at golden hour in Vang Vieng Laos (panoramic).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Water_reflection_of_karst_mountains_at_golden_hour_in_Vang_Vieng_Laos_%28panoramic%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWater_reflection_of_karst_mountains_at_golden_hour_in_Vang_Vieng_Laos_%28panoramic%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Basile Morin",
+   "credit": "Own work",
+   "alt": "Water reflection of karst mountains at golden hour in the countryside of Vang Vieng, Vientiane Province, Laos, during the monsoon.",
+   "date": "2020-06-21 18:14:05",
+   "primary": false,
+   "sha256": "3732df567acda8cc5183878fa50ef207712e944dda1d80eb0063f8c443667c5f"
+  }
+ ]
 }

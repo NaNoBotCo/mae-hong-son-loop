@@ -1,0 +1,187 @@
+{
+ "id": "khun-yuam",
+ "type": "town",
+ "names": {
+  "name": "Khun Yuam",
+  "th": "ขุนยวม",
+  "rtgs": "Khun Yuam",
+  "said": "A small town with a Japanese memorial hall and a yellow hillside above it.",
+  "said_th": "เมืองเล็กๆ ที่มีอนุสรณ์สถานญี่ปุ่นและไหล่เขาสีเหลืองอยู่เหนือเมือง"
+ },
+ "region": [
+  "mhs",
+  "khun-yuam",
+  "loop",
+  "south-leg",
+  "the-cut"
+ ],
+ "facets": {
+  "province": "MHS",
+  "kind": "town"
+ },
+ "geo": {
+  "lat": 18.8228,
+  "lon": 97.9336,
+  "precision": "town",
+  "elevation_m": 620
+ },
+ "text": {
+  "what": "On Route 108 between Mae Hong Son and Mae La Noi, and the western end of the 1263 cut to Mae Chaem. Two reasons to stop, and both of them are specific.",
+  "story": "The first reason is Doi Mae U-Kho above the town, which turns yellow with *Tithonia diversifolia* in November.\n\nThe second is the war. Japanese forces used the route through this district during the Second World War, and the town holds a memorial hall to that period. *Inference —* what makes it worth the stop is not the military history but the domestic one: the relationship between a Thai town and the soldiers who came through it, which is a much less told story than the campaign.\n\nKhun Yuam is also the junction where the loop can be halved. Route 1263 leaves here for Mae Chaem, 63 kilometres of the steepest and most curve-dense road in this whole network.",
+  "today": "Fuel, food, a bed, and the decision about whether to take the cut."
+ },
+ "text_th": {
+  "what": "อยู่บนทางหลวง 108 ระหว่างแม่ฮ่องสอนกับแม่ลาน้อย และเป็นปลายด้านตะวันตกของทางลัด 1263 ไปแม่แจ่ม มีเหตุผลให้แวะสองข้อ และทั้งสองข้อเฉพาะเจาะจงมาก",
+  "story": "เหตุผลแรกคือดอยแม่อูคอเหนือเมือง ที่กลายเป็นสีเหลืองด้วยดอกบัวตองในเดือนพฤศจิกายน\n\nเหตุผลที่สองคือสงคราม กองทัพญี่ปุ่นใช้เส้นทางผ่านอำเภอนี้ในสงครามโลกครั้งที่สอง และในเมืองมีอนุสรณ์สถานของช่วงเวลานั้น *อนุมาน —* สิ่งที่ทำให้ควรแวะไม่ใช่ประวัติศาสตร์การทหาร แต่คือประวัติศาสตร์ของผู้คน ความสัมพันธ์ระหว่างเมืองไทยเมืองหนึ่งกับทหารที่ผ่านมา ซึ่งเป็นเรื่องที่ถูกเล่าน้อยกว่าเรื่องยุทธการมาก\n\nขุนยวมยังเป็นทางแยกที่ตัดวงรอบให้สั้นลงครึ่งหนึ่งได้ ทางหลวง 1263 ออกจากที่นี่ไปแม่แจ่ม ระยะ 63 กิโลเมตรที่ชันที่สุดและโค้งหนาแน่นที่สุดในเครือข่ายถนนทั้งหมดนี้",
+  "today": "น้ำมัน อาหาร ที่นอน และการตัดสินใจว่าจะไปทางลัดหรือไม่"
+ },
+ "kin": [
+  {
+   "to": "bua-tong-bloom",
+   "as": "The hillside above the town, in November.",
+   "rel": "event"
+  },
+  {
+   "to": "the-1263-cut",
+   "as": "The road that leaves from here.",
+   "rel": "leg"
+  },
+  {
+   "to": "khun-yuam-memorial",
+   "as": "The hall, and the story it holds.",
+   "rel": "stop"
+  },
+  {
+   "to": "mhs-to-khun-yuam",
+   "as": "The way in from the north.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:wp-khun-yuam-district",
+  "s:wp-thailand-in-world-war-ii",
+  "s:wp-tithonia-diversifolia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-khun-yuam-district"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "inference",
+    "note": "the riding conclusions are this project's; the geography and history under them are cited"
+   },
+   "text.today": {
+    "tier": "inference"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-c34cbe2.jpg",
+   "source": "commons",
+   "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161102073521/http://www.panoramio.com/photo/124380088",
+   "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+   "date": "Taken on 14 July 2015",
+   "primary": true,
+   "sha256": "5c2236494f2d57374500b4e041f0adbd5b18cb0d7708e962b93a59457005386e"
+  },
+  {
+   "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-566b732.jpg",
+   "source": "commons",
+   "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio (7).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%287%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%287%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161030152729/http://www.panoramio.com/photo/124380148",
+   "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+   "date": "Taken on 14 July 2015",
+   "primary": false,
+   "sha256": "e72aa3a07a8f5644b573cabc780b660530363a2502caab9884ccbc8261afd3fa"
+  },
+  {
+   "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-6a6ed5e.jpg",
+   "source": "commons",
+   "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio (8).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%288%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%288%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031160128/http://www.panoramio.com/photo/124380161",
+   "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+   "date": "Taken on 14 July 2015",
+   "primary": false,
+   "sha256": "2ec8ba46a7a2c590d0182ca7e5145d4b43bbde66124e20933f9d1d99b4655f3f"
+  },
+  {
+   "file": "khun-yuam/khun-yuam-mae-u-kho-khun-yuam-district-mae-hong-son-58140-thai-1b252c0.jpg",
+   "source": "commons",
+   "title": "File:Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand - panoramio (9).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Mae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_U_Kho%2C_Khun_Yuam_District%2C_Mae_Hong_Son_58140%2C_Thailand_-_panoramio_%289%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031084154/http://www.panoramio.com/photo/124380177",
+   "alt": "Mae U Kho, Khun Yuam District, Mae Hong Son 58140, Thailand",
+   "date": "Taken on 14 July 2015",
+   "primary": false,
+   "sha256": "b5cf9d8e9bab47559d233877fd776cb4aa96b3db023b3e7cec5e137ff75d61e1"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "mhs-to-khun-yuam",
+   "type": "leg",
+   "name": "Mae Hong Son to Khun Yuam",
+   "as": "The town at the end, and the junction for the cut."
+  },
+  {
+   "from": "route-1263",
+   "type": "road",
+   "name": "Route 1263",
+   "as": "The western end."
+  },
+  {
+   "from": "mae-chaem",
+   "type": "town",
+   "name": "Mae Chaem",
+   "as": "The other end of the cut."
+  },
+  {
+   "from": "khun-yuam-memorial",
+   "type": "stop",
+   "name": "The Japanese memorial at Khun Yuam",
+   "as": "The town it is in."
+  },
+  {
+   "from": "mae-surin-waterfall",
+   "type": "stop",
+   "name": "Mae Surin Waterfall",
+   "as": "The town below."
+  },
+  {
+   "from": "bua-tong-bloom",
+   "type": "event",
+   "name": "The Bua Tong bloom",
+   "as": "The town underneath it."
+  }
+ ]
+}

@@ -75,5 +75,67 @@
  },
  "confidence": "medium",
  "schema": 1,
- "updated": "2026-09-18"
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "mae-chaem/mae-chaem-2013-pano-mae-chaem-district-1.jpg",
+   "source": "commons",
+   "title": "File:2013 Pano Mae Chaem District 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/2013_Pano_Mae_Chaem_District_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A2013_Pano_Mae_Chaem_District_1.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "Countryside in the mountains of Mae Chaem District, Chiang Mai Province, seen from road 1263.\n This  image was created with Hugin.",
+   "date": "2013-12-27 13:47:11",
+   "primary": true,
+   "sha256": "20fdce8dbd559b2c00bb0a4000ac8061673820b6611d5a22fe73b8a1938a50c0"
+  },
+  {
+   "file": "mae-chaem/mae-chaem-2013-pano-mae-chaem-district-2.jpg",
+   "source": "commons",
+   "title": "File:2013 Pano Mae Chaem District 2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2013_Pano_Mae_Chaem_District_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A2013_Pano_Mae_Chaem_District_2.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "Countryside in the mountains of Mae Chaem District, Chiang Mai Province, seen from road 1263.\n This  image was created with Hugin.",
+   "date": "2013-12-27 14:16:46",
+   "primary": false,
+   "sha256": "7371d382cc7e1b29c84ffb160a1ab6780d3081e93f6626f555fdba384dbf349e"
+  },
+  {
+   "file": "mae-chaem/mae-chaem-wat-pa-daet-mae-chaem-01.jpg",
+   "source": "commons",
+   "title": "File:Wat Pa Daet Mae Chaem 01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Wat_Pa_Daet_Mae_Chaem_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Pa_Daet_Mae_Chaem_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "The entrance of the wihan",
+   "date": "2013-12-28 07:51:24",
+   "primary": false,
+   "sha256": "812dcea92eec16b353ad20405328bd67ab23d082001ee455197a37b58564d648"
+  },
+  {
+   "file": "mae-chaem/mae-chaem-wat-pa-daet-mae-chaem-02.jpg",
+   "source": "commons",
+   "title": "File:Wat Pa Daet Mae Chaem 02.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Wat_Pa_Daet_Mae_Chaem_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Pa_Daet_Mae_Chaem_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "This is a photo of a monument in Thailand identified by the ID",
+   "date": "2013-12-28 07:54:02",
+   "primary": false,
+   "sha256": "d2550350e37eaf85c5205b4cbc89a98ab4f83c0bc2d00f6c35509ff4aa958fab"
+  }
+ ]
 }

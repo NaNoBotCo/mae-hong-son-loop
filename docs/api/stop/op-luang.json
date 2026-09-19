@@ -1,0 +1,144 @@
+{
+ "id": "op-luang",
+ "type": "stop",
+ "names": {
+  "name": "Op Luang",
+  "th": "ออบหลวง",
+  "said": "The river cut a slot through the rock and the road goes over the top of it.",
+  "said_th": "แม่น้ำเซาะหินเป็นร่องแคบ และถนนข้ามอยู่ด้านบน"
+ },
+ "region": [
+  "cnx",
+  "hot",
+  "loop",
+  "south-leg"
+ ],
+ "facets": {
+  "kind": "gorge",
+  "price": "mid"
+ },
+ "text": {
+  "what": "A gorge on the Chaem river in a national park on Route 108, roughly midway between Hot and Mae Sariang.",
+  "story": "*Inference —* the practical value of this place on a long empty leg is that it exists. The Mae Sariang to Hot run is the emptiest on the circuit, and a gorge with a car park, shade and a bridge over it is the natural break in the middle of three hours.\n\nThe gorge itself is narrow and deep and the water goes through it fast; the national park around it covers a much larger area of hill forest."
+ },
+ "text_th": {
+  "what": "ช่องเขาบนแม่น้ำแจ่มในเขตอุทยานแห่งชาติ บนทางหลวง 108 ราวกึ่งกลางระหว่างฮอดกับแม่สะเรียง",
+  "story": "*อนุมาน —* คุณค่าในทางปฏิบัติของที่นี่บนช่วงยาวที่ว่างเปล่าคือการที่มันมีอยู่ ช่วงแม่สะเรียงถึงฮอดเป็นช่วงที่ว่างที่สุดของวงรอบ และช่องเขาที่มีลานจอดรถ มีร่มเงา และมีสะพานข้าม คือจุดพักตามธรรมชาติตรงกลางของสามชั่วโมง\n\nตัวช่องเขาแคบและลึก น้ำไหลผ่านเร็ว ส่วนอุทยานรอบๆ ครอบคลุมพื้นที่ป่าเขากว้างกว่ามาก"
+ },
+ "kin": [
+  {
+   "to": "mae-sariang-to-hot",
+   "as": "The long leg it breaks.",
+   "rel": "leg"
+  },
+  {
+   "to": "route-108",
+   "as": "The road it is on.",
+   "rel": "road"
+  }
+ ],
+ "sources": [
+  "s:wp-op-luang-national-park"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-op-luang-national-park"
+  },
+  "fields": {
+   "text.story": {
+    "tier": "cited",
+    "source": "s:wp-op-luang-national-park"
+   },
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 18.2167,
+  "lon": 98.4167,
+  "precision": "town"
+ },
+ "recognitions": [
+  {
+   "by": "dnp",
+   "what": "Op Luang National Park",
+   "source": "s:wp-op-luang-national-park"
+  }
+ ],
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "op-luang/op-luang-mae-tia-waterfall-op-luang-national-park.jpg",
+   "source": "commons",
+   "title": "File:Mae Tia Waterfall, Op Luang National Park.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mae_Tia_Waterfall%2C_Op_Luang_National_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Tia_Waterfall%2C_Op_Luang_National_Park.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Catchiangmai",
+   "credit": "Own work",
+   "alt": "Mae Tia Waterfall, a magnificent cascading waterfall set within the verdant forest of Op Luang National Park, Chiang Mai, Thailand. The image captures the natural beauty of the waterfall as it flows d",
+   "date": "2023-12-24 15:44:09",
+   "primary": true,
+   "sha256": "258f2cb5bd268fc0a60dcd6a9aa25b986c21e1e71c01a7173304b856fe1956ef"
+  },
+  {
+   "file": "op-luang/op-luang-national-park-1068-aoblaung01.jpg",
+   "source": "commons",
+   "title": "File:National Park 1068-AobLaung01.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/National_Park_1068-AobLaung01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANational_Park_1068-AobLaung01.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Yingthipc",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติออบหลวง",
+   "date": "2015-06-29",
+   "primary": false,
+   "sha256": "10d06be5bab16d87a536c8d308c57172d0ee20866749beca26de909fe10be80e"
+  },
+  {
+   "file": "op-luang/op-luang-obluang-national-park.jpg",
+   "source": "commons",
+   "title": "File:Obluang National Park.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Obluang_National_Park.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AObluang_National_Park.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Ditsakul",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติออบหลวง มีพื้นที่ครอบคลุมอยู่ในท้องที่อำเภอจอมทอง อำเภอฮอด และอำเภอแม่แจ่ม จังหวัดเชียงใหม่ เป็นสถานที่น่าเที่ยวที่มีลักษณะช่องแคบเขาขาดที่มีหน้าผาหินขนาบลำน้ำ ทำให้เกิดหุบผาลึก นอกจากนั",
+   "date": "2015-03-04 12:11:19",
+   "primary": false,
+   "sha256": "466bf73af88cce953cc09f7218cdc977954b2da6472139b755fe44f36cee2a6a"
+  },
+  {
+   "file": "op-luang/op-luang-obluang-national-park-chiangmai-province-thailand.jpg",
+   "source": "commons",
+   "title": "File:Obluang national park, Chiangmai province, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Obluang_national_park%2C_Chiangmai_province%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AObluang_national_park%2C_Chiangmai_province%2C_Thailand.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Ditsakul",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติออบหลวง มีพื้นที่ครอบคลุมอยู่ในท้องที่อำเภอจอมทอง อำเภอฮอด และอำเภอแม่แจ่ม จังหวัดเชียงใหม่ เป็นสถานที่น่าเที่ยวที่มีลักษณะช่องแคบเขาขาดที่มีหน้าผาหินขนาบลำน้ำ ทำให้เกิดหุบผาลึก นอกจากนั",
+   "date": "2015-03-04 12:00:40",
+   "primary": false,
+   "sha256": "16218addf7276a60b330cc3c35bbea090732d380d3ae0dffb9e822408f0be752"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "mae-sariang-to-hot",
+   "type": "leg",
+   "name": "Mae Sariang to Hot",
+   "as": "The gorge in the middle of it."
+  }
+ ]
+}

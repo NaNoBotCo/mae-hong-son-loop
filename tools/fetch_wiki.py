@@ -3,7 +3,8 @@
 
 Pulls the English article and, where it exists, the Thai one, so a bilingual record can
 cite both. Each file carries its URL, its revision id and the fetch date at the top.
-Wikipedia is CC BY-SA 4.0; the corpus is a working input, never published as-is.
+Wikipedia is CC BY-SA 4.0. The corpus is a working input: .gitignore excludes it and
+publish.sh does not copy it into docs/.
 
     python3 tools/fetch_wiki.py                 # into data/corpus/
     python3 tools/fetch_wiki.py --out /tmp/x    # somewhere else
