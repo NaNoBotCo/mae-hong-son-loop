@@ -26,6 +26,11 @@ python3 tools/cards.py
 python3 tools/terrain.py --width 1400
 python3 tools/terrain.py --width 1400 --dark --out build/site/terrain-dark.png
 
+# every internal reference, resolved where the host mounts the site — and again from
+# the URL without its trailing slash, which is the one people type and the one a host
+# may answer with a 200 instead of a redirect
+python3 tools/links.py
+
 rm -rf docs
 mkdir -p docs
 cp -R build/site/ docs/

@@ -35,6 +35,19 @@ SITE_URL = os.environ.get("SITE_URL", "https://nanobotco.github.io/mae-hong-son-
 # content, so both declare the same canonical and the other copy carries rel="alternate".
 # CANONICAL_URL overrides where that points; set it to SITE_URL to make a copy primary.
 CANONICAL_URL = os.environ.get("CANONICAL_URL", "https://motdang.net/loop").rstrip("/")
+# Internal links are root-relative, and this is why. The site is published under a
+# path (/loop, /mae-hong-son-loop), and a host that serves /loop with a 200 instead of
+# redirecting to /loop/ makes the browser resolve "./images/x.jpg" against the site root.
+# GitHub Pages redirects and so hides the problem; R2 behind motdang.net does not, and
+# every picture on the front page 404ed. A relative path is only safe when the trailing
+# slash is guaranteed, and it is not. BASE_PATH is taken from SITE_URL, and can be
+# overridden for a local preview served at the root.
+BASE_PATH = os.environ.get("BASE_PATH")
+if BASE_PATH is None:
+    _p = urllib.parse.urlparse(SITE_URL).path.strip("/")
+    BASE_PATH = f"/{_p}/" if _p else "/"
+if not BASE_PATH.endswith("/"):
+    BASE_PATH += "/"
 NAME = {"en": "The Mae Hong Son Loop", "th": "วงรอบแม่ฮ่องสอน"}
 TAG = {"en": "1,864 curves between Chiang Mai and Mae Hong Son, and everything worth stopping for",
        "th": "1,864 โค้ง ระหว่างเชียงใหม่กับแม่ฮ่องสอน และทุกจุดที่ควรแวะ"}
@@ -117,12 +130,21 @@ NAV = [("", "home"), ("legs/", "legs"), ("which-way/", "which"), ("numbers/", "n
        ("quiz/", "quiz"), ("roadbook/", "roadbook")]
 
 
-def rel(depth: int) -> str:
-    return "../" * depth if depth else "./"
+def rel(depth: int = 0) -> str:
+    """The site root, as a root-relative path. `depth` is ignored and kept so the call
+    sites read the same; see BASE_PATH above for why this is not "../" * depth."""
+    return BASE_PATH
 
 
 def url_of(r: dict, lang="en") -> str:
+    """A record's path below its language root."""
     return f"{PATH_OF[r['type']]}/{r['id']}/"
+
+
+def lroot(lang: str) -> str:
+    """The current language's root, as a root-relative path. Body links hang off this;
+    images, the API and the machine files hang off rel(), the site root."""
+    return f"{BASE_PATH}th/" if lang == "th" else BASE_PATH
 
 
 def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", cur="",
@@ -132,11 +154,11 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
     root, so assets and the language switch need `r`, while the nav — which stays inside
     the language — needs `rin`.  `path` is the page's own path below the language root,
     and is what lets the switch land on the same page rather than the other home page."""
-    rin = rel(depth)                                     # to the language root
-    r = rel(depth + (1 if lang == "th" else 0))          # to the site root
+    rin = BASE_PATH + ("th/" if lang == "th" else "")    # the language root
+    r = BASE_PATH                                        # the site root
     ui = UI[lang]
-    en_url = f"{r}{path}"
-    th_url = f"{r}th/{path}"
+    en_url = f"{BASE_PATH}{path}"
+    th_url = f"{BASE_PATH}th/{path}"
     bilingual = path != "api/"
     # Share titles are short: every platform truncates around eighty characters and cuts
     # mid-sentence. The <title> keeps the long form for the browser tab; og:title takes
@@ -459,7 +481,7 @@ def src_link(sid: str, lang="en") -> str:
 
 
 def node_card(n: dict, lang: str, depth: int, n_label=None) -> str:
-    r = rel(depth)
+    r = lroot(lang)
     name = T(n, "names.name", lang)
     th = n["names"].get("th")
     what = T(n, "text.what", lang) or ""
@@ -578,7 +600,7 @@ def gallery_pool(limit=8) -> list:
 def node_page(n: dict, lang: str) -> str:
     ui = UI[lang]
     depth = 2
-    r = rel(depth)
+    r = lroot(lang)
     ti = TYPE_INFO[n["type"]]
     name = T(n, "names.name", lang)
     kind = ti["th"] if lang == "th" else ti["name"]
@@ -824,7 +846,7 @@ document.addEventListener('DOMContentLoaded',function(){
  q('[data-copy]').forEach(function(b){b.addEventListener('click',function(){
    navigator.clipboard&&navigator.clipboard.writeText(b.dataset.copy);
    var t=b.textContent;b.textContent='✓';setTimeout(function(){b.textContent=t},1200)})});
-})();
+});
 </script>
 """
 
@@ -840,7 +862,7 @@ def dirsw(lang: str) -> str:
 
 
 def leg_list(lang: str, depth: int) -> str:
-    r = rel(depth)
+    r = lroot(lang)
     ui = UI[lang]
     out = ['<ol class="legs" id="legs">']
     for i, l in enumerate(ITIN["legs"], 1):
@@ -865,7 +887,7 @@ def leg_list(lang: str, depth: int) -> str:
 # ---------------------------------------------------------------- front page
 def front(lang: str) -> str:
     ui = UI[lang]
-    r = "./"
+    r = lroot(lang)
     d0 = root_depth(0, lang)
     cur = CURVES.get("roads", {}).get("1095", {}).get("whole", {})
     n_stop = sum(1 for n in NODES if n["type"] in ("stop", "wat", "spring"))
@@ -1053,7 +1075,7 @@ def which_way(lang: str) -> str:
         if n:
             b.append(f'<h2>{E(T(n, "names.name", lang))}</h2>'
                      f'<div class="prose">{prose(T(n, "text.story", lang))}</div>'
-                     f'<p><a class="btn alt" href="../{url_of(n)}">{E("Full page" if lang == "en" else "หน้าเต็ม")}</a></p>')
+                     f'<p><a class="btn alt" href="{lroot(lang)}{url_of(n)}">{E("Full page" if lang == "en" else "หน้าเต็ม")}</a></p>')
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}which-way/"
     b.append(share_row(url, "Which way round the Mae Hong Son loop?", lang))
     return page(f'{"Which way round?" if lang == "en" else "ไปทางไหนดี"} — {NAME[lang]}',
@@ -1131,7 +1153,7 @@ def numbers(lang: str) -> str:
     n = BY_ID.get("how-many-curves")
     if n:
         b.append(f'<div class="prose">{prose(T(n, "text.story", lang))}</div>'
-                 f'<p><a class="btn alt" href="../{url_of(n)}">{E("Full page" if lang == "en" else "หน้าเต็ม")}</a></p>')
+                 f'<p><a class="btn alt" href="{lroot(lang)}{url_of(n)}">{E("Full page" if lang == "en" else "หน้าเต็ม")}</a></p>')
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}numbers/"
     b.append(share_row(url, "How many curves does the Mae Hong Son loop actually have?", lang))
     return page(f'{"The numbers" if lang == "en" else "ตัวเลข"} — {NAME[lang]}', "".join(b), 1, lang,
@@ -1197,7 +1219,7 @@ def air_page(lang: str) -> str:
     n = BY_ID.get("the-smoke")
     if n:
         b.append(f'<h2>{E(T(n, "names.name", lang))}</h2><div class="prose">{prose(T(n, "text.story", lang))}</div>'
-                 f'<p><a class="btn alt" href="../{url_of(n)}">{E("Full page" if lang == "en" else "หน้าเต็ม")}</a></p>')
+                 f'<p><a class="btn alt" href="{lroot(lang)}{url_of(n)}">{E("Full page" if lang == "en" else "หน้าเต็ม")}</a></p>')
     b.append(f'<p class="small mute">{E(AIR.get("attribution", ""))} · {E(AIR.get("start"))} → {E(AIR.get("end"))}</p>')
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}air/"
     b.append(share_row(url, "When not to ride the Mae Hong Son loop", lang))
@@ -1345,7 +1367,7 @@ def quiz_page(lang: str) -> str:
                            for x in v.get("legs", []) if x in BY_ID],
                   "see": [{"u": url_of(BY_ID[x]), "n": T(BY_ID[x], "names.name", lang)}
                           for x in v.get("see", []) if x in BY_ID]}
-    res["_base"] = "../"
+    res["_base"] = lroot(lang)
     res["_url"] = f"{SITE_URL}/{'th/' if lang == 'th' else ''}quiz/"
     res["_th"] = QUIZ.get("scoring", {}).get("overlay_threshold", 5)
     res["_n"] = len(QUIZ["questions"])
@@ -1428,7 +1450,7 @@ def year_page(lang: str) -> str:
         rec = BY_ID.get(rid)
         label = E(l_th if lang == "th" else l_en)
         if rec:
-            label = f'<a href="{rel(1)}{url_of(rec)}">{label}</a>'
+            label = f'<a href="{lroot(lang)}{url_of(rec)}">{label}</a>'
         cells = "".join(
             f'<td class="yr y{rank}" data-m="{E(th if lang == "th" else en_)}"></td>'
             if m in months else f'<td class="yr" data-m="{E(th if lang == "th" else en_)}"></td>'
@@ -1520,7 +1542,7 @@ And the thing nobody puts in the itinerary: **the ten minutes after you stop.** 
         recs = sorted([n for n in NODES if n["type"] == t], key=lambda n: n["names"]["name"])
         if not recs:
             continue
-        b.append(f'<h2><a href="{rel(1)}{DIR_OF[t]}/">{E(head_en if en else head_th)}</a></h2>'
+        b.append(f'<h2><a href="{lroot(lang)}{DIR_OF[t]}/">{E(head_en if en else head_th)}</a></h2>'
                  '<div class="grid">')
         b += [node_card(n_, lang, 1) for n_ in recs[:6]]
         b.append("</div>")
@@ -1614,7 +1636,7 @@ def baggage(lang: str) -> str:
         rec = BY_ID.get(tid)
         if rec:
             nm = T(rec, "names.name", lang)
-            href = f'<a href="{rel(1)}{url_of(rec)}">{E(nm)}</a>'
+            href = f'<a href="{lroot(lang)}{url_of(rec)}">{E(nm)}</a>'
         else:
             nm = BAG_NAMES.get(tid, (tid, tid))[0 if en else 1]
             href = E(nm)
@@ -1944,10 +1966,10 @@ def all_page(lang: str) -> str:
         if not recs:
             continue
         ti = TYPE_INFO[t]
-        b.append(f'<h2><a href="../{DIR_OF[t]}/">{E(ti["th"] if lang == "th" else ti["name"])}</a> ({len(recs)})</h2>')
+        b.append(f'<h2><a href="{lroot(lang)}{DIR_OF[t]}/">{E(ti["th"] if lang == "th" else ti["name"])}</a> ({len(recs)})</h2>')
         b.append('<div class="cols">')
         for n in recs:
-            b.append(f'<a href="../{url_of(n)}">{E(T(n, "names.name", lang))}</a>')
+            b.append(f'<a href="{lroot(lang)}{url_of(n)}">{E(T(n, "names.name", lang))}</a>')
         b.append("</div>")
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}all/"
     return page(f'{UI[lang]["all"]} — {NAME[lang]}', "".join(b), 1, lang, "", None, url,
@@ -1999,7 +2021,7 @@ def icon_svg() -> str:
 
 
 def manifest() -> str:
-    return json.dumps({"name": NAME["en"], "short_name": "MHS Loop", "start_url": "./",
+    return json.dumps({"name": NAME["en"], "short_name": "MHS Loop", "start_url": BASE_PATH,
                        "display": "standalone", "background_color": "#fdfbf4",
                        "theme_color": "#e0322b", "lang": "en",
                        "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml"}]},
@@ -2143,7 +2165,7 @@ def api_index() -> str:
          "<p class=\"lede\">Every record and measurement the pages are built from, as JSON, "
          "fetchable directly. Records CC BY 4.0; OpenStreetMap-derived data ODbL 1.0.</p>", "<ul>"]
     for f in files:
-        b.append(f'<li><a href="{E(f)}">{E(f)}</a></li>')
+        b.append(f'<li><a href="{rel()}api/{E(f)}">{E(f)}</a></li>')
     b.append("</ul><p>Per-record: <code>/api/&lt;type&gt;/&lt;id&gt;.json</code></p>")
     b.append('<p class="small mute">One tree, in one place. The Thai pages read the same '
              'files.</p>')
@@ -2235,6 +2257,9 @@ def main() -> int:
           "b.addEventListener('click',function(){navigator.clipboard&&"
           "navigator.clipboard.writeText(b.dataset.copy);var t=b.textContent;"
           "b.textContent='\\u2713';setTimeout(function(){b.textContent=t},1200)})});")
+
+    # the mount point, so serve.py and links.py can reproduce production exactly
+    write(SITE / ".basepath", BASE_PATH)
 
     size = sum(p.stat().st_size for p in SITE.rglob("*") if p.is_file())
     print(f"site: {n_pages} pages ({n_pages // 2} per language), "

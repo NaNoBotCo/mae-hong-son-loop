@@ -1,7 +1,7 @@
 {
  "name": "The Mae Hong Son Loop",
  "short_name": "MHS Loop",
- "start_url": "./",
+ "start_url": "/mae-hong-son-loop/",
  "display": "standalone",
  "background_color": "#fdfbf4",
  "theme_color": "#e0322b",
