@@ -1,0 +1,106 @@
+{
+ "id": "pa-bong-piang",
+ "type": "stop",
+ "names": {
+  "name": "Pa Bong Piang rice terraces",
+  "th": "นาขั้นบันไดป่าบงเปียง",
+  "said": "Karen rice terraces stacked down a whole hillside, greenest in the rains and gold before harvest.",
+  "said_th": "นาขั้นบันไดของชาวกะเหรี่ยงเรียงลงมาทั้งไหล่เขา เขียวที่สุดหน้าฝน และเหลืองทองก่อนเกี่ยว"
+ },
+ "region": [
+  "cnx",
+  "mae-chaem",
+  "the-cut"
+ ],
+ "facets": {
+  "kind": "viewpoint",
+  "price": "free"
+ },
+ "text": {
+  "what": "In Mae Chaem district, off the eastern end of the 1263 cut. One of the reasons to take the shortcut at all.",
+  "story": "*Tradition holds —* these are working Karen terraces, farmed, not a viewing platform. They are at their green between about July and September and turn gold before the harvest around October and November.\n\n*Inference —* the timing is the opposite of most of this circuit's advice. The cool dry season that everyone books is when the terraces are cut stubble. If the terraces are what you came for, come in the green season — which is also, from the air data, the cleanest air of the year.\n\nGetting there is a side road off the Mae Chaem end, and it is the kind of place where arriving early means having it to yourself."
+ },
+ "text_th": {
+  "what": "อยู่ในอำเภอแม่แจ่ม ใกล้ปลายด้านตะวันออกของทางลัด 1263 เป็นเหตุผลหนึ่งที่ควรใช้ทางลัด",
+  "story": "*ตามธรรมเนียม —* นี่คือนาขั้นบันไดของชาวกะเหรี่ยงที่ทำกินจริง ไม่ใช่จุดชมวิว จะเขียวที่สุดราวเดือนกรกฎาคมถึงกันยายน และเปลี่ยนเป็นสีทองก่อนเกี่ยวราวเดือนตุลาคมถึงพฤศจิกายน\n\n*อนุมาน —* ช่วงเวลาตรงข้ามกับคำแนะนำส่วนใหญ่ของเส้นทางนี้ ฤดูหนาวแห้งที่ทุกคนจองกันคือช่วงที่นาเหลือแต่ตอซัง ถ้านาขั้นบันไดคือสิ่งที่คุณมาดู ให้มาหน้าฝน ซึ่งจากข้อมูลอากาศก็เป็นช่วงที่อากาศสะอาดที่สุดของปีด้วย\n\nทางเข้าเป็นทางแยกจากฝั่งแม่แจ่ม และเป็นที่ที่ถ้ามาเช้าก็จะได้อยู่คนเดียว"
+ },
+ "kin": [
+  {
+   "to": "mae-chaem",
+   "as": "The district it is in.",
+   "rel": "town"
+  },
+  {
+   "to": "the-1263-cut",
+   "as": "The leg that reaches it.",
+   "rel": "leg"
+  },
+  {
+   "to": "karen",
+   "as": "Whose fields these are.",
+   "rel": "person"
+  },
+  {
+   "to": "the-rains",
+   "as": "When they are green.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-mae-chaem-district",
+  "s:osm",
+  "s:wp-karen-peoples"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 18.4333,
+  "lon": 98.3167,
+  "precision": "town"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "pa-bong-piang/pa-bong-piang-chiang-mai-province-road-1263.jpg",
+   "source": "commons",
+   "title": "File:Chiang mai province road 1263.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Chiang_mai_province_road_1263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_mai_province_road_1263.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "Rice paddies and recently cleared forest land in Amphoe Mae Chaem, along road 1263 between the town of Khun Yuam (Mae Hong Son province) and the town of Mae Chaem (Chiang Mai province), on the west fl",
+   "date": "2010-03-14",
+   "primary": true,
+   "sha256": "69a0f120642437d82b467367fdca646effc33fbe2c0d83ce132bda6a6706ae84"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "akha-swing",
+   "type": "event",
+   "name": "The Akha Swing Festival",
+   "as": "Green at exactly the same weeks."
+  },
+  {
+   "from": "phansa",
+   "type": "event",
+   "name": "Khao Phansa and Ok Phansa",
+   "as": "Green for exactly these months."
+  }
+ ]
+}

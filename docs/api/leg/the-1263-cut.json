@@ -284,6 +284,12 @@
    "as": "The road that arrives here."
   },
   {
+   "from": "pa-bong-piang",
+   "type": "stop",
+   "name": "Pa Bong Piang rice terraces",
+   "as": "The leg that reaches it."
+  },
+  {
    "from": "brake-fade",
    "type": "hazard",
    "name": "Brake fade",

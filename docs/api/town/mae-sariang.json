@@ -152,6 +152,36 @@
    "type": "road",
    "name": "Route 108",
    "as": "The town that breaks the long half in two."
+  },
+  {
+   "from": "mae-sam-laep",
+   "type": "stop",
+   "name": "Mae Sam Laep and the Salween",
+   "as": "The town the road leaves from."
+  },
+  {
+   "from": "wat-jong-soong",
+   "type": "wat",
+   "name": "Wat Jong Soong",
+   "as": "The town it is in."
+  },
+  {
+   "from": "nam-ngiao",
+   "type": "dish",
+   "name": "Kanom jeen nam ngiao",
+   "as": "Deep in the country it belongs to."
+  },
+  {
+   "from": "teak-shophouse",
+   "type": "stay",
+   "name": "The teak shophouse",
+   "as": "The quieter town to try it in."
+  },
+  {
+   "from": "how-old-is-this-ride",
+   "type": "story",
+   "name": "How old is this ride",
+   "as": "Where the old road crossed to Burma."
   }
  ]
 }

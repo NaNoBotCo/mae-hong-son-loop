@@ -152,10 +152,40 @@
    "as": "Whose architecture this is."
   },
   {
+   "from": "jong-and-chong",
+   "type": "wat",
+   "name": "Why the temples here are called Chong",
+   "as": "Whose word it is."
+  },
+  {
+   "from": "khao-soi",
+   "type": "dish",
+   "name": "Khao soi",
+   "as": "Whose kitchen this also is."
+  },
+  {
+   "from": "nam-ngiao",
+   "type": "dish",
+   "name": "Kanom jeen nam ngiao",
+   "as": "Whose dish it is, and whose name is in it."
+  },
+  {
+   "from": "thua-nao",
+   "type": "dish",
+   "name": "Thua nao",
+   "as": "Whose kitchen it belongs to."
+  },
+  {
    "from": "karen",
    "type": "person",
    "name": "The Karen",
    "as": "The majority group, in the valleys."
+  },
+  {
+   "from": "lisu-lahu-hmong",
+   "type": "person",
+   "name": "Lisu, Lahu, Hmong and Lua",
+   "as": "The majority in the valleys."
   },
   {
    "from": "poy-sang-long",

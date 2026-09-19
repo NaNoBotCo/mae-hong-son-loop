@@ -1,6 +1,6 @@
 {
  "type": "stop",
- "count": 10,
+ "count": 14,
  "nodes": [
   {
    "id": "ban-rak-thai",
@@ -146,6 +146,12 @@
      "type": "stop",
      "name": "Tham Pla, the fish cave",
      "as": "Further up the same road."
+    },
+    {
+     "from": "yunnan-table",
+     "type": "dish",
+     "name": "The Yunnanese table at Ban Rak Thai",
+     "as": "The village itself."
     }
    ]
   },
@@ -311,6 +317,144 @@
    ]
   },
   {
+   "id": "huai-nam-dang",
+   "type": "stop",
+   "names": {
+    "name": "Huai Nam Dang",
+    "th": "ห้วยน้ำดัง",
+    "said": "The sea of mist people set an alarm for, on the ridge between Mae Malai and Pai.",
+    "said_th": "ทะเลหมอกที่คนตั้งนาฬิกาปลุกมาดู อยู่บนสันเขาระหว่างแม่มาลัยกับปาย"
+   },
+   "region": [
+    "cnx",
+    "mhs",
+    "loop",
+    "north-leg"
+   ],
+   "facets": {
+    "kind": "viewpoint",
+    "price": "mid"
+   },
+   "text": {
+    "what": "A national park straddling the Chiang Mai and Mae Hong Son line, right on Route 1095, with a viewpoint that looks east over cloud at dawn.",
+    "story": "*Inference —* the rare one on this circuit that is directly on the route rather than up a dead end, which matters because a dawn viewpoint you have to detour to is a dawn you will not see.\n\nThe mist is a cool-season, still-air, before-sunrise phenomenon — the same conditions that make Pang Ung work, a hundred kilometres west. From here the sun comes up over the ridges toward Chiang Mai with cloud filling the valleys underneath.\n\n*Inference —* the arrangement that works is sleeping near the top rather than riding up from Pai in the dark. There is camping and there are park bungalows.\n\n**Not on this disk:** current fees, bungalow booking or road conditions to the viewpoint."
+   },
+   "text_th": {
+    "what": "อุทยานแห่งชาติที่คร่อมเส้นแบ่งเชียงใหม่กับแม่ฮ่องสอน อยู่ติดทางหลวง 1095 มีจุดชมวิวที่มองไปทางตะวันออกเหนือทะเลเมฆตอนรุ่งสาง",
+    "story": "*อนุมาน —* เป็นจุดที่หายากบนเส้นทางนี้ คืออยู่บนเส้นทางเลย ไม่ใช่ต้องแยกเข้าทางตัน ซึ่งสำคัญ เพราะจุดชมวิวรุ่งสางที่ต้องขับอ้อมไปคือรุ่งสางที่คุณจะไม่ได้เห็น\n\nทะเลหมอกเป็นปรากฏการณ์ของฤดูหนาว อากาศนิ่ง ก่อนพระอาทิตย์ขึ้น เงื่อนไขเดียวกับที่ทำให้ปางอุ๋งเป็นปางอุ๋ง ซึ่งอยู่ห่างไปทางตะวันตกร้อยกิโลเมตร จากที่นี่พระอาทิตย์ขึ้นเหนือสันเขาทางเชียงใหม่ โดยมีเมฆเต็มหุบข้างล่าง\n\n*อนุมาน —* วิธีที่ได้ผลคือนอนใกล้ยอด ไม่ใช่ขี่ขึ้นมาจากปายตอนมืด มีที่กางเต็นท์และมีบ้านพักอุทยาน\n\n**ไม่มีข้อมูลในชุดนี้** ค่าธรรมเนียม การจองบ้านพัก หรือสภาพถนนขึ้นจุดชมวิวในปัจจุบัน"
+   },
+   "kin": [
+    {
+     "to": "cnx-to-pai",
+     "as": "The leg it sits on top of.",
+     "rel": "leg"
+    },
+    {
+     "to": "cool-season",
+     "as": "The months the mist happens.",
+     "rel": "event"
+    },
+    {
+     "to": "pang-ung",
+     "as": "The same dawn, a hundred kilometres west.",
+     "rel": "stop"
+    },
+    {
+     "to": "ten-minutes",
+     "as": "What you actually came up here for.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:wp-mae-taeng-district",
+    "s:wp-pai-district",
+    "s:osm"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "tradition"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 19.305,
+    "lon": 98.61,
+    "precision": "town"
+   },
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "huai-nam-dang/huai-nam-dang-1080-huai-nam-dang-national-park-01.jpg",
+     "source": "commons",
+     "title": "File:1080-Huai-Nam-Dang-National-Park-01.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/1080-Huai-Nam-Dang-National-Park-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A1080-Huai-Nam-Dang-National-Park-01.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Sirapa Atikomchakorn",
+     "credit": "Own work",
+     "alt": "This is a photo of a natural heritage site in Thailand, id: 1080",
+     "date": "2016-06-29",
+     "primary": true,
+     "sha256": "60393d549b5d8449347f42db38f9a8d6c648954f1d07d71bc6f7c1812ae6755f"
+    },
+    {
+     "file": "huai-nam-dang/huai-nam-dang-1080-huai-nam-dang-national-park-02.jpg",
+     "source": "commons",
+     "title": "File:1080-Huai-Nam-Dang-National-Park-02.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/1080-Huai-Nam-Dang-National-Park-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A1080-Huai-Nam-Dang-National-Park-02.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Sirapa Atikomchakorn",
+     "credit": "Own work",
+     "alt": "Hill Pine Camp, Huai Nam Dang National Park, Chiang Mai Province",
+     "date": "2016-06-29",
+     "primary": false,
+     "sha256": "cc4f976e2aba65ca9a525dd2d8969481ecd55fa018509b34238d2b32d08f7996"
+    },
+    {
+     "file": "huai-nam-dang/huai-nam-dang-mountain-garden-in-morning-light.jpg",
+     "source": "commons",
+     "title": "File:Mountain Garden in Morning Light.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Mountain_Garden_in_Morning_Light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMountain_Garden_in_Morning_Light.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Paktaotik123456",
+     "credit": "Own work",
+     "alt": "Beautiful scenery during sunrise and mountain range of Huai Nam Dang National park at Chiang Mai in Thailand.",
+     "date": "2025-12-20 11:26:41",
+     "primary": false,
+     "sha256": "3ddca00b5b907782203ca0924d2149f34362fd4dd9c3cac02a45d7c648c91e41"
+    },
+    {
+     "file": "huai-nam-dang/huai-nam-dang-sunrise-above-the-sea-of-mist.jpg",
+     "source": "commons",
+     "title": "File:Sunrise Above the Sea of Mist.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Sunrise_Above_the_Sea_of_Mist.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASunrise_Above_the_Sea_of_Mist.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Paktaotik123456",
+     "credit": "Own work",
+     "alt": "View point of Landscape, fog, flower and mountain at Huai Nam Dang National Park, Chiang Mai, Thailand",
+     "date": "2025-12-20 11:25:07",
+     "primary": false,
+     "sha256": "12435292590e53496f13542a06f85cefdf3f617639ceb914e30dc8e8248498c4"
+    }
+   ],
+   "kin_in": []
+  },
+  {
    "id": "khun-yuam-memorial",
    "type": "stop",
    "names": {
@@ -403,6 +547,144 @@
      "as": "The hall, and the story it holds."
     }
    ]
+  },
+  {
+   "id": "mae-sam-laep",
+   "type": "stop",
+   "names": {
+    "name": "Mae Sam Laep and the Salween",
+    "th": "แม่สามแลบ และแม่น้ำสาละวิน",
+    "said": "A river wide enough to be a border, a wooden longtail, and Myanmar on the far bank.",
+    "said_th": "แม่น้ำที่กว้างพอจะเป็นชายแดน เรือหางยาวไม้ และเมียนมาอยู่อีกฝั่ง"
+   },
+   "region": [
+    "mhs",
+    "mae-sariang",
+    "salween"
+   ],
+   "facets": {
+    "kind": "river",
+    "price": "free"
+   },
+   "text": {
+    "what": "A river village west of Mae Sariang at the end of a side road, on the Salween where it forms the frontier.",
+    "story": "The Salween rises in Tibet and runs some two and a half thousand kilometres to the Andaman Sea, and for a long stretch of its lower course it is the line between Thailand and Myanmar. At Mae Sam Laep you are standing on that line.\n\n*Inference —* this is the best detour on the southern leg and almost nobody takes it, because the long Mae Sariang day already feels long. It is worth rearranging the day for: a wide brown river, forest on both banks, longtail boats loading rice and people, and a far bank that is a different country with no bridge to it.\n\nThe road in is a side road off Route 108 and it descends steeply to the water. *Inference —* go in the morning, when the boats are working, and eat at the river.\n\n**Not on this disk:** current boat services, prices, or whether any particular trip is running. The border is a live administrative thing and what is possible there changes."
+   },
+   "text_th": {
+    "what": "หมู่บ้านริมน้ำทางตะวันตกของแม่สะเรียง ที่ปลายทางแยก อยู่บนแม่น้ำสาละวินตรงช่วงที่เป็นเส้นเขตแดน",
+    "story": "แม่น้ำสาละวินมีต้นกำเนิดในทิเบตและไหลราวสองพันห้าร้อยกิโลเมตรลงสู่ทะเลอันดามัน และตลอดช่วงยาวของตอนล่าง มันคือเส้นแบ่งระหว่างไทยกับเมียนมา ที่แม่สามแลบ คุณกำลังยืนอยู่บนเส้นนั้น\n\n*อนุมาน —* นี่คือทางแยกที่ดีที่สุดบนช่วงใต้ และแทบไม่มีใครไป เพราะวันแม่สะเรียงที่ยาวอยู่แล้วก็รู้สึกยาวพอ แต่มันคุ้มที่จะจัดวันใหม่เพื่อมัน แม่น้ำกว้างสีน้ำตาล ป่าสองฝั่ง เรือหางยาวขนข้าวและคน และฝั่งตรงข้ามที่เป็นคนละประเทศโดยไม่มีสะพานถึง\n\nทางเข้าเป็นทางแยกจากทางหลวง 108 และลงชันไปถึงริมน้ำ *อนุมาน —* ไปตอนเช้าตอนที่เรือกำลังทำงาน แล้วกินข้าวที่ริมน้ำ\n\n**ไม่มีข้อมูลในชุดนี้** บริการเรือ ราคา หรือว่าเที่ยวไหนวิ่งอยู่บ้างในปัจจุบัน ชายแดนเป็นเรื่องทางปกครองที่มีชีวิต และสิ่งที่ทำได้ที่นั่นเปลี่ยนไปเรื่อย"
+   },
+   "kin": [
+    {
+     "to": "mae-sariang",
+     "as": "The town the road leaves from.",
+     "rel": "town"
+    },
+    {
+     "to": "mae-sariang-to-hot",
+     "as": "The long leg this is worth rearranging.",
+     "rel": "leg"
+    },
+    {
+     "to": "karen",
+     "as": "Whose river country this is on both banks.",
+     "rel": "person"
+    },
+    {
+     "to": "how-old-is-this-ride",
+     "as": "The old road to Burma crossed near here.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:wp-salween-river",
+    "s:wp-mae-sariang-district",
+    "s:thwp-salween"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-salween-river"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 18.0333,
+    "lon": 97.7333,
+    "precision": "town"
+   },
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "mae-sam-laep/mae-sam-laep-sweet-view-of-salween-river-in-tang-yan-township-sha-6fb11cb.jpg",
+     "source": "commons",
+     "title": "File:Sweet View of Salween River in Tang Yan Township, Shan State, Myanmar.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sweet_View_of_Salween_River_in_Tang_Yan_Township%2C_Shan_State%2C_Myanmar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASweet_View_of_Salween_River_in_Tang_Yan_Township%2C_Shan_State%2C_Myanmar.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Saosukham",
+     "credit": "Own work",
+     "alt": "ၼမ်ႉၶူင်းၼႆႉ ပဵၼ်မႄႈၼမ်ႉဢၼ်ယႂ်ႇသေပိူၼ်ႈ ၼႂ်းမိူင်းတႆး၊ ႁူဝ်မၼ်း မီးမိူင်းတိပႅတ်ႉ မိူင်းၶႄႇ ၵၢင်မၼ်း လႄႇမိူင်းႁဝ်း ႁၢင်မၼ်း ၵဝ်းမိူင်းမၢၼ်ႈ",
+     "date": "2022-05-12 16:23:42",
+     "primary": true,
+     "sha256": "476227fd6ffc53725b98c47bb08a609bb146a806c39cba83cbd1a703085f8922"
+    },
+    {
+     "file": "mae-sam-laep/mae-sam-laep-thanlwin-bridge-1.jpg",
+     "source": "commons",
+     "title": "File:Thanlwin Bridge 1.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Thanlwin_Bridge_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThanlwin_Bridge_1.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "kallerna",
+     "credit": "Own work",
+     "alt": "Thanlwin Bridge, Hpa-An, Myanmar.",
+     "date": "2019-12-19 12:23",
+     "primary": false,
+     "sha256": "77a11a3c368a4cd49ead8523dc6b8cd522e56e996f4ae1c89225a4561c8d415e"
+    },
+    {
+     "file": "mae-sam-laep/mae-sam-laep-thanlwin-bridge-2.jpg",
+     "source": "commons",
+     "title": "File:Thanlwin Bridge 2.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Thanlwin_Bridge_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThanlwin_Bridge_2.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "kallerna",
+     "credit": "Own work",
+     "alt": "Thanlwin Bridge, Hpa-An, Myanmar.",
+     "date": "2019-12-19 12:25",
+     "primary": false,
+     "sha256": "dc430dbef9d07ebb3ab59818ce2b8e8db160ed8ba3c1a7b1f951ef2bd39bea98"
+    },
+    {
+     "file": "mae-sam-laep/mae-sam-laep-thanlwin-river-or-salween-river.jpg",
+     "source": "commons",
+     "title": "File:Thanlwin River or Salween River.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Thanlwin_River_or_Salween_River.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThanlwin_River_or_Salween_River.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Saosukham",
+     "credit": "Own work",
+     "alt": "ၼမ်ႉၶူင်းၼႆႉ ပဵၼ်မႄႈၼမ်ႉဢၼ်ယႂ်ႇသေပိူၼ်ႈ ၼႂ်းမိူင်းတႆး၊ ႁူဝ်မၼ်း မီးမိူင်းတိပႅတ်ႉ မိူင်းၶႄႇ ၵၢင်မၼ်း လႄႇမိူင်းႁဝ်း ႁၢင်မၼ်း ၵဝ်းမိူင်းမၢၼ်ႈ",
+     "date": "2022-05-12 15:56:11",
+     "primary": false,
+     "sha256": "b7808868a28e2e6522d2ff33059b13ae3d4e4685ca0ec7f13c667c4a0f5dfa01"
+    }
+   ],
+   "kin_in": []
   },
   {
    "id": "mae-surin-waterfall",
@@ -691,6 +973,112 @@
    ]
   },
   {
+   "id": "pa-bong-piang",
+   "type": "stop",
+   "names": {
+    "name": "Pa Bong Piang rice terraces",
+    "th": "นาขั้นบันไดป่าบงเปียง",
+    "said": "Karen rice terraces stacked down a whole hillside, greenest in the rains and gold before harvest.",
+    "said_th": "นาขั้นบันไดของชาวกะเหรี่ยงเรียงลงมาทั้งไหล่เขา เขียวที่สุดหน้าฝน และเหลืองทองก่อนเกี่ยว"
+   },
+   "region": [
+    "cnx",
+    "mae-chaem",
+    "the-cut"
+   ],
+   "facets": {
+    "kind": "viewpoint",
+    "price": "free"
+   },
+   "text": {
+    "what": "In Mae Chaem district, off the eastern end of the 1263 cut. One of the reasons to take the shortcut at all.",
+    "story": "*Tradition holds —* these are working Karen terraces, farmed, not a viewing platform. They are at their green between about July and September and turn gold before the harvest around October and November.\n\n*Inference —* the timing is the opposite of most of this circuit's advice. The cool dry season that everyone books is when the terraces are cut stubble. If the terraces are what you came for, come in the green season — which is also, from the air data, the cleanest air of the year.\n\nGetting there is a side road off the Mae Chaem end, and it is the kind of place where arriving early means having it to yourself."
+   },
+   "text_th": {
+    "what": "อยู่ในอำเภอแม่แจ่ม ใกล้ปลายด้านตะวันออกของทางลัด 1263 เป็นเหตุผลหนึ่งที่ควรใช้ทางลัด",
+    "story": "*ตามธรรมเนียม —* นี่คือนาขั้นบันไดของชาวกะเหรี่ยงที่ทำกินจริง ไม่ใช่จุดชมวิว จะเขียวที่สุดราวเดือนกรกฎาคมถึงกันยายน และเปลี่ยนเป็นสีทองก่อนเกี่ยวราวเดือนตุลาคมถึงพฤศจิกายน\n\n*อนุมาน —* ช่วงเวลาตรงข้ามกับคำแนะนำส่วนใหญ่ของเส้นทางนี้ ฤดูหนาวแห้งที่ทุกคนจองกันคือช่วงที่นาเหลือแต่ตอซัง ถ้านาขั้นบันไดคือสิ่งที่คุณมาดู ให้มาหน้าฝน ซึ่งจากข้อมูลอากาศก็เป็นช่วงที่อากาศสะอาดที่สุดของปีด้วย\n\nทางเข้าเป็นทางแยกจากฝั่งแม่แจ่ม และเป็นที่ที่ถ้ามาเช้าก็จะได้อยู่คนเดียว"
+   },
+   "kin": [
+    {
+     "to": "mae-chaem",
+     "as": "The district it is in.",
+     "rel": "town"
+    },
+    {
+     "to": "the-1263-cut",
+     "as": "The leg that reaches it.",
+     "rel": "leg"
+    },
+    {
+     "to": "karen",
+     "as": "Whose fields these are.",
+     "rel": "person"
+    },
+    {
+     "to": "the-rains",
+     "as": "When they are green.",
+     "rel": "event"
+    }
+   ],
+   "sources": [
+    "s:wp-mae-chaem-district",
+    "s:osm",
+    "s:wp-karen-peoples"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "harvested",
+     "source": "s:osm"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 18.4333,
+    "lon": 98.3167,
+    "precision": "town"
+   },
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "pa-bong-piang/pa-bong-piang-chiang-mai-province-road-1263.jpg",
+     "source": "commons",
+     "title": "File:Chiang mai province road 1263.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Chiang_mai_province_road_1263.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_mai_province_road_1263.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "Rice paddies and recently cleared forest land in Amphoe Mae Chaem, along road 1263 between the town of Khun Yuam (Mae Hong Son province) and the town of Mae Chaem (Chiang Mai province), on the west fl",
+     "date": "2010-03-14",
+     "primary": true,
+     "sha256": "69a0f120642437d82b467367fdca646effc33fbe2c0d83ce132bda6a6706ae84"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "akha-swing",
+     "type": "event",
+     "name": "The Akha Swing Festival",
+     "as": "Green at exactly the same weeks."
+    },
+    {
+     "from": "phansa",
+     "type": "event",
+     "name": "Khao Phansa and Ok Phansa",
+     "as": "Green for exactly these months."
+    }
+   ]
+  },
+  {
    "id": "pai-canyon",
    "type": "stop",
    "names": {
@@ -711,11 +1099,11 @@
    },
    "text": {
     "what": "Kong Lan: narrow eroded sandstone ridges on the edge of the Pai basin, walked at sunset by most of the town.",
-    "story": "*Inference —* two things are worth saying about it that the photographs do not. The ridges are genuinely narrow with unprotected drops on both sides and the sandstone crumbles; people have been hurt there. And it is ten minutes from Pai on Route 1095, which means it works as the last stop of the day you ride in, rather than as an outing.\n\nSunset is when everyone goes, which is also when the light is best and when the walk back is done in the dark."
+    "story": "*Inference —* ten minutes from Pai on Route 1095, which makes it the last stop of the day you ride in rather than an outing of its own. Go for sunset: the light comes in sideways along the ridges and the whole basin turns orange underneath you.\n\nThe ridges are narrow with open drops on both sides and the sandstone is soft. Walk out as far as you feel like and no further — the view from the first fifty metres is the same view."
    },
    "text_th": {
     "what": "กองแลน สันหินทรายแคบๆ ที่ถูกกัดเซาะ อยู่ริมแอ่งปาย คนเกือบทั้งเมืองมาเดินตอนพระอาทิตย์ตก",
-    "story": "*อนุมาน —* มีสองเรื่องที่ควรพูดซึ่งภาพถ่ายไม่ได้บอก สันหินแคบจริงและมีเหวสองข้างที่ไม่มีราวกั้น และหินทรายก็ร่วน มีคนบาดเจ็บที่นั่นมาแล้ว และมันอยู่ห่างจากปายสิบนาทีบนทางหลวง 1095 แปลว่ามันใช้เป็นจุดแวะสุดท้ายของวันที่ขี่เข้ามาได้ ไม่ต้องจัดเป็นทริปแยก\n\nพระอาทิตย์ตกคือเวลาที่ทุกคนไป ซึ่งเป็นเวลาที่แสงดีที่สุด และเป็นเวลาที่ต้องเดินกลับในความมืด"
+    "story": "*อนุมาน —* ห่างจากปายสิบนาทีบนทางหลวง 1095 จึงเป็นจุดแวะสุดท้ายของวันที่ขี่เข้ามา ไม่ต้องจัดเป็นทริปแยก ไปตอนพระอาทิตย์ตก แสงจะเฉียงมาตามสันเขาและแอ่งทั้งแอ่งข้างล่างจะเป็นสีส้ม\n\nสันหินแคบ มีเหวเปิดสองข้าง และหินทรายร่วน เดินออกไปเท่าที่สบายใจแล้วพอ วิวจากห้าสิบเมตรแรกก็วิวเดียวกัน"
    },
    "kin": [
     {
@@ -816,6 +1204,145 @@
      "date": "2018-08-30 18:03:53",
      "primary": false,
      "sha256": "fb85f81b22e5b9b5db8e2486c55e27452dee2099dc568b79b234eba1664ce5c6"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "wat-phra-that-mae-yen",
+     "type": "wat",
+     "name": "Wat Phra That Mae Yen",
+     "as": "The other sunset, ten minutes the other way."
+    }
+   ]
+  },
+  {
+   "id": "pai-walking-street",
+   "type": "stop",
+   "names": {
+    "name": "The evening in Pai",
+    "th": "ถนนคนเดินปาย",
+    "said": "The main street closes, the stalls come out, and the town does the thing it does.",
+    "said_th": "ถนนสายหลักปิด แผงลอยออกมา แล้วเมืองก็ทำสิ่งที่มันทำ"
+   },
+   "region": [
+    "mhs",
+    "pai",
+    "loop"
+   ],
+   "facets": {
+    "kind": "market",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "Pai's evening market runs down the main street every night in the season: food stalls, music, and most of the town's visitors in one place.",
+    "story": "*Inference —* this is the most divisive thing on the circuit and it is worth saying plainly what it is. Pai in high season is busy, loud, young and commercial. Wikipedia's article records that between November and March the town has traffic jams and runs short of electricity, water and petrol.\n\nIf that is what you want for one night, it is genuinely good at it: the food is cheap and various, there is live music most nights, and the valley is still right there in the morning.\n\nIf it is not what you want, the answer is not to skip Pai — it is to sleep outside the town in the valley, come in for dinner, and ride out early. Soppong, forty minutes on, is the opposite of all of this.\n\n*Tradition holds —* the night market is a Thai form, not a visitor invention. Every town on this loop has an evening market; Pai's is simply the one with an audience."
+   },
+   "text_th": {
+    "what": "ตลาดเย็นของปายเปิดตลอดถนนสายหลักทุกคืนในฤดูท่องเที่ยว มีแผงอาหาร ดนตรี และผู้มาเยือนเกือบทั้งเมืองรวมกันอยู่ที่เดียว",
+    "story": "*อนุมาน —* นี่เป็นสิ่งที่คนเห็นต่างกันมากที่สุดบนเส้นทาง และควรพูดตรงๆ ว่ามันคืออะไร ปายในฤดูท่องเที่ยวคือความคึกคัก เสียงดัง วัยรุ่น และเชิงพาณิชย์ บทความวิกิพีเดียบันทึกว่าระหว่างพฤศจิกายนถึงมีนาคม เมืองรถติดและขาดแคลนไฟฟ้า น้ำ และน้ำมัน\n\nถ้านั่นคือสิ่งที่คุณอยากได้สักคืน มันทำได้ดีจริง อาหารถูกและหลากหลาย มีดนตรีสดเกือบทุกคืน และหุบเขาก็ยังอยู่ตรงนั้นในตอนเช้า\n\nถ้าไม่ใช่สิ่งที่อยากได้ คำตอบไม่ใช่การข้ามปายไป แต่คือนอนนอกเมืองในหุบ เข้ามากินข้าวเย็น แล้วออกเช้า ส่วนสบป่องที่ห่างไปสี่สิบนาที เป็นสิ่งตรงข้ามกับทั้งหมดนี้\n\n*ตามธรรมเนียม —* ตลาดกลางคืนเป็นรูปแบบของไทย ไม่ใช่สิ่งที่นักเดินทางคิดขึ้น ทุกเมืองบนเส้นทางนี้มีตลาดเย็น ของปายเป็นแค่ที่ที่มีคนดู"
+   },
+   "kin": [
+    {
+     "to": "pai",
+     "as": "The town it happens in.",
+     "rel": "town"
+    },
+    {
+     "to": "soppong",
+     "as": "The opposite of all of this, forty minutes on.",
+     "rel": "town"
+    },
+    {
+     "to": "morning-market",
+     "as": "The other market, and the better meal.",
+     "rel": "dish"
+    }
+   ],
+   "sources": [
+    "s:wp-pai-thailand",
+    "s:wp-night-market",
+    "s:osm"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-pai-thailand"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 19.3592,
+    "lon": 98.4407,
+    "precision": "town"
+   },
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "pai-walking-street/pai-walking-street-pai-walking-street-2.jpg",
+     "source": "commons",
+     "title": "File:Pai Walking Street 2.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Pai_Walking_Street_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Walking_Street_2.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Pai Walking Street in Thailand.",
+     "date": "2018-08-29 19:33:13",
+     "primary": true,
+     "sha256": "dfe41d20a21605bbce5b0566450bab11ccf9f44e88d0354f2df021fd4fb39918"
+    },
+    {
+     "file": "pai-walking-street/pai-walking-street-pai-walking-street-4.jpg",
+     "source": "commons",
+     "title": "File:Pai Walking Street 4.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Pai_Walking_Street_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Walking_Street_4.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Pai Walking Street in Thailand.",
+     "date": "2018-08-30 19:07:52",
+     "primary": false,
+     "sha256": "a3a9042ca93d78efd9cac58257d05e6fa5f7cc4e5ffc33e1f7c59478c1ad6754"
+    },
+    {
+     "file": "pai-walking-street/pai-walking-street-pai-walking-street-5.jpg",
+     "source": "commons",
+     "title": "File:Pai Walking Street 5.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Pai_Walking_Street_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Walking_Street_5.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Pai Walking Street in Thailand.",
+     "date": "2018-08-30 19:25:41",
+     "primary": false,
+     "sha256": "76cd5d375210f5ee9d3851d0291b9b0bc3b260a92099199716c014956e5153e5"
+    },
+    {
+     "file": "pai-walking-street/pai-walking-street-taiwanese-style-steak.jpg",
+     "source": "commons",
+     "title": "File:Taiwanese-Style Steak.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Taiwanese-Style_Steak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ATaiwanese-Style_Steak.jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "midnightbreakfastcafe",
+     "credit": "https://www.flickr.com/photos/midnightbreakfastcafe/52710318521/",
+     "alt": "Steak on pasta with black pepper sauce and an over-easy egg",
+     "date": "2023-02-25 19:45:56",
+     "primary": false,
+     "sha256": "bc5a136d38aa629c4efcfd142610d26b596b05443671ea3a0ff251c78c21a421"
     }
    ],
    "kin_in": []
@@ -956,6 +1483,24 @@
      "type": "stop",
      "name": "Ban Rak Thai",
      "as": "The other reason to spend a day north of town."
+    },
+    {
+     "from": "huai-nam-dang",
+     "type": "stop",
+     "name": "Huai Nam Dang",
+     "as": "The same dawn, a hundred kilometres west."
+    },
+    {
+     "from": "where-to-put-the-nights",
+     "type": "stay",
+     "name": "Where to put the nights",
+     "as": "The dawn the second night buys."
+    },
+    {
+     "from": "ten-minutes",
+     "type": "story",
+     "name": "The ten minutes after you stop",
+     "as": "The best of them, at six in the morning."
     }
    ]
   },

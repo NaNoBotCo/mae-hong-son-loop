@@ -599,10 +599,22 @@
      "as": "The leg that ends here, and the curves that get you here."
     },
     {
+     "from": "huai-nam-dang",
+     "type": "stop",
+     "name": "Huai Nam Dang",
+     "as": "The leg it sits on top of."
+    },
+    {
      "from": "pai-canyon",
      "type": "stop",
      "name": "Pai Canyon",
      "as": "The leg it sits at the end of."
+    },
+    {
+     "from": "tha-pai-hot-springs",
+     "type": "spring",
+     "name": "Tha Pai hot springs",
+     "as": "The leg whose forearms it is for."
     },
     {
      "from": "how-many-curves",
@@ -2051,6 +2063,12 @@
      "as": "The way in from the north."
     },
     {
+     "from": "grilled-by-the-road",
+     "type": "dish",
+     "name": "Grilled by the road",
+     "as": "The leg with the most roadside grills on it."
+    },
+    {
      "from": "karen",
      "type": "person",
      "name": "The Karen",
@@ -2783,10 +2801,22 @@
      "as": "The long eastern day."
     },
     {
+     "from": "mae-sam-laep",
+     "type": "stop",
+     "name": "Mae Sam Laep and the Salween",
+     "as": "The long leg this is worth rearranging."
+    },
+    {
      "from": "op-luang",
      "type": "stop",
      "name": "Op Luang",
      "as": "The long leg it breaks."
+    },
+    {
+     "from": "wat-jong-soong",
+     "type": "wat",
+     "name": "Wat Jong Soong",
+     "as": "The leg that needs a reason to stop."
     },
     {
      "from": "hot-season",
@@ -3535,6 +3565,12 @@
      "type": "stop",
      "name": "Su Tong Pae bridge",
      "as": "The leg it sits near the start of."
+    },
+    {
+     "from": "pha-bong",
+     "type": "spring",
+     "name": "Pha Bong hot springs",
+     "as": "The leg it sits at the start of."
     }
    ]
   },
@@ -4249,6 +4285,12 @@
      "type": "kit",
      "name": "Renting the bike",
      "as": "The day that tests what you were given."
+    },
+    {
+     "from": "small-bike-more-fun",
+     "type": "story",
+     "name": "Why a small bike is more fun here",
+     "as": "A hundred kilometres from your hotel."
     },
     {
      "from": "which-bike",
@@ -5030,6 +5072,12 @@
      "type": "town",
      "name": "Mae Chaem",
      "as": "The road that arrives here."
+    },
+    {
+     "from": "pa-bong-piang",
+     "type": "stop",
+     "name": "Pa Bong Piang rice terraces",
+     "as": "The leg that reaches it."
     },
     {
      "from": "brake-fade",

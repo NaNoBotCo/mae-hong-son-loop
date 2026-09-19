@@ -939,6 +939,216 @@
    "lang": "th",
    "licence": "CC BY-SA 4.0",
    "note": "Carries the 'over 2,000 curves' figure and the 245 km Chiang Mai–Mae Hong Son distance."
+  },
+  {
+   "id": "s:wp-khao-soi",
+   "kind": "web",
+   "title": "Khao soi",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Khao_soi",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-thai-cuisine",
+   "kind": "web",
+   "title": "Thai cuisine",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Thai_cuisine",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-nam-phrik",
+   "kind": "web",
+   "title": "Nam phrik",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Nam_phrik",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-glutinous-rice",
+   "kind": "web",
+   "title": "Glutinous rice",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Glutinous_rice",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-coffee-production-in-thailand",
+   "kind": "web",
+   "title": "Coffee production in Thailand",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Thailand",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-coffea-arabica",
+   "kind": "web",
+   "title": "Coffea arabica",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Coffea_arabica",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-hot-spring",
+   "kind": "web",
+   "title": "Hot spring",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Hot_spring",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-onsen",
+   "kind": "web",
+   "title": "Onsen",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Onsen",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-burmese-cuisine",
+   "kind": "web",
+   "title": "Burmese cuisine",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Burmese_cuisine",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-yunnan-cuisine",
+   "kind": "web",
+   "title": "Yunnan cuisine",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Yunnan_cuisine",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-soybean",
+   "kind": "web",
+   "title": "Soybean",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Soybean",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-night-market",
+   "kind": "web",
+   "title": "Night market",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Night_market",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-motorcycle-touring",
+   "kind": "web",
+   "title": "Motorcycle touring",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Motorcycle_touring",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:thwp-ข้าวซอย",
+   "kind": "web",
+   "title": "ข้าวซอย",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%8B%E0%B8%AD%E0%B8%A2",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:thwp-ขนมจีนน้ำเงี้ยว",
+   "kind": "web",
+   "title": "น้ำเงี้ยว",
+   "publisher": "Wikipedia (th)",
+   "url": "https://th.wikipedia.org/wiki/%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%80%E0%B8%87%E0%B8%B5%E0%B9%89%E0%B8%A2%E0%B8%A7",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "th"
+  },
+  {
+   "id": "s:wp-akha-people",
+   "kind": "web",
+   "title": "Akha people",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Akha_people",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-songkran-thailand",
+   "kind": "web",
+   "title": "Songkran (Thailand)",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Songkran_(Thailand)",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-nine-emperor-gods-festival",
+   "kind": "web",
+   "title": "Nine Emperor Gods Festival",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Nine_Emperor_Gods_Festival",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-vassa",
+   "kind": "web",
+   "title": "Vassa",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Vassa",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-thai-solar-calendar",
+   "kind": "web",
+   "title": "Thai solar calendar",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Thai_solar_calendar",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
+  },
+  {
+   "id": "s:wp-public-holidays-in-thailand",
+   "kind": "web",
+   "title": "Public holidays in Thailand",
+   "publisher": "Wikipedia (en)",
+   "url": "https://en.wikipedia.org/wiki/Public_holidays_in_Thailand",
+   "accessed": "2026-09-19",
+   "licence": "CC BY-SA 4.0",
+   "lang": "en"
   }
  ]
 }

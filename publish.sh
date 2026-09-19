@@ -22,6 +22,8 @@ python3 tools/validate.py
 python3 tools/curves.py
 SITE_URL="$SITE_URL" python3 tools/build.py
 SITE_URL="$SITE_URL" python3 tools/site.py
+python3 tools/terrain.py --width 1400
+python3 tools/terrain.py --width 1400 --dark --out build/site/terrain-dark.png
 
 rm -rf docs
 mkdir -p docs

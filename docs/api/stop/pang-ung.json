@@ -134,6 +134,24 @@
    "type": "stop",
    "name": "Ban Rak Thai",
    "as": "The other reason to spend a day north of town."
+  },
+  {
+   "from": "huai-nam-dang",
+   "type": "stop",
+   "name": "Huai Nam Dang",
+   "as": "The same dawn, a hundred kilometres west."
+  },
+  {
+   "from": "where-to-put-the-nights",
+   "type": "stay",
+   "name": "Where to put the nights",
+   "as": "The dawn the second night buys."
+  },
+  {
+   "from": "ten-minutes",
+   "type": "story",
+   "name": "The ten minutes after you stop",
+   "as": "The best of them, at six in the morning."
   }
  ]
 }

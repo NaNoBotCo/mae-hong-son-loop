@@ -144,6 +144,12 @@
    "as": "The November thing worth timing for."
   },
   {
+   "from": "loi-krathong",
+   "type": "event",
+   "name": "Loi Krathong and Yi Peng",
+   "as": "Out on the same weeks, above Khun Yuam."
+  },
+  {
    "from": "season-and-direction",
    "type": "story",
    "name": "The season picks the direction",

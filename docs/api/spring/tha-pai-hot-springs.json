@@ -1,0 +1,146 @@
+{
+ "id": "tha-pai-hot-springs",
+ "type": "spring",
+ "names": {
+  "name": "Tha Pai hot springs",
+  "th": "น้ำพุร้อนท่าปาย",
+  "said": "Geothermal water in a stream under teak, seven kilometres out of Pai.",
+  "said_th": "น้ำพุร้อนไหลลงลำธารใต้ป่าสัก ห่างจากปายเจ็ดกิโลเมตร"
+ },
+ "region": [
+  "mhs",
+  "pai",
+  "loop"
+ ],
+ "facets": {
+  "kind": "stream",
+  "price": "mid"
+ },
+ "text": {
+  "what": "A hot spring inside a national park east of Pai, where the source feeds a stream you can sit in where it has cooled enough.",
+  "story": "A hot spring is groundwater heated at depth and returned to the surface, and in this part of northern Thailand there are several along the same geological grain the road follows.\n\n*Inference —* arrive in Pai with daylight left and this is where the afternoon goes. Teak overhead, the stream running warm over your legs, and nothing else to do until dinner.\n\n**Not on this disk:** the current entrance fee — Thailand charges a separate foreigner rate at national parks — the opening hours, or which pools are open in which season. The source is very hot; the temperature you can sit in is a stretch of the stream, not the source itself."
+ },
+ "text_th": {
+  "what": "น้ำพุร้อนในเขตอุทยานแห่งชาติทางตะวันออกของปาย ตาน้ำไหลลงลำธารที่นั่งแช่ได้ตรงช่วงที่เย็นพอ",
+  "story": "น้ำพุร้อนคือน้ำใต้ดินที่ถูกทำให้ร้อนในระดับลึกแล้วไหลกลับขึ้นผิวดิน และในภาคเหนือตอนนี้มีอยู่หลายแห่งเรียงไปตามแนวธรณีเดียวกับที่ถนนวิ่งตาม\n\n*อนุมาน —* ถึงปายตอนยังมีแสง แล้วบ่ายนั้นก็หมดไปที่นี่ ป่าสักอยู่เหนือหัว ลำธารอุ่นไหลผ่านขา และไม่มีอะไรต้องทำจนกว่าจะถึงมื้อเย็น\n\n**ไม่มีข้อมูลในชุดนี้** ค่าเข้าปัจจุบัน ซึ่งไทยเก็บชาวต่างชาติในอัตราแยกต่างหากที่อุทยานแห่งชาติ เวลาเปิดปิด หรือบ่อไหนเปิดในฤดูไหน ตาน้ำร้อนมาก อุณหภูมิที่นั่งแช่ได้อยู่ที่ช่วงหนึ่งของลำธาร ไม่ใช่ที่ตัวตาน้ำ"
+ },
+ "kin": [
+  {
+   "to": "pai",
+   "as": "The town it is outside.",
+   "rel": "town"
+  },
+  {
+   "to": "cnx-to-pai",
+   "as": "The leg whose forearms it is for.",
+   "rel": "leg"
+  },
+  {
+   "to": "pha-bong",
+   "as": "The other one, at the far end of the loop.",
+   "rel": "spring"
+  }
+ ],
+ "sources": [
+  "s:wp-hot-spring",
+  "s:wp-pai-district",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.3419,
+  "lon": 98.4869,
+  "precision": "town"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "tha-pai-hot-springs/tha-pai-hot-springs-lisong-hot-spring.jpg",
+   "source": "commons",
+   "title": "File:Lisong Hot Spring.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Lisong_Hot_Spring.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALisong_Hot_Spring.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "白士 李",
+   "credit": "https://www.flickr.com/photos/pslee999/23855311134/",
+   "alt": "Lisong Hot Spring.",
+   "date": "2015-12-25 15:26:59",
+   "primary": true,
+   "sha256": "272d39c68c35150a244618a44b5c7f5dd5d337ba8131c12c7d8477baf8ef0dd8"
+  },
+  {
+   "file": "tha-pai-hot-springs/tha-pai-hot-springs-river-at-the-li-song-hot-spring-24152793252.jpg",
+   "source": "commons",
+   "title": "File:River at the Li Song Hot Spring (24152793252).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/River_at_the_Li_Song_Hot_Spring_%2824152793252%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARiver_at_the_Li_Song_Hot_Spring_%2824152793252%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "白士 李",
+   "credit": "River at the Li Song Hot Spring",
+   "alt": "River at the Li Song Hot Spring",
+   "date": "Taken on 25 December 2015, 14:57",
+   "primary": false,
+   "sha256": "8e2b48690f4fcf8550537d598ba1699ae4f6f95de236617d2e5f701c1eb79fdd"
+  },
+  {
+   "file": "tha-pai-hot-springs/tha-pai-hot-springs-snow-monkey-in-hot-spring-32650593112.jpg",
+   "source": "commons",
+   "title": "File:Snow Monkey in Hot Spring (32650593112).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Snow_Monkey_in_Hot_Spring_%2832650593112%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASnow_Monkey_in_Hot_Spring_%2832650593112%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "白士 李",
+   "credit": "Snow Monkey in Hot Spring",
+   "alt": "Snow Monkey in Hot Spring, Japan",
+   "date": "Taken on 1 February 2017, 12:32",
+   "primary": false,
+   "sha256": "44971d0b0d5dc926b47489e38a4540e4eacf7241e1b6aa80acad4c6a304e810f"
+  },
+  {
+   "file": "tha-pai-hot-springs/tha-pai-hot-springs-steaming-hot-spring-pond-at-chae-son-national-park-l-5182ae1.jpg",
+   "source": "commons",
+   "title": "File:Steaming hot spring pond at Chae Son National Park, Lampang, Thailand - 2025.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Steaming_hot_spring_pond_at_Chae_Son_National_Park%2C_Lampang%2C_Thailand_-_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASteaming_hot_spring_pond_at_Chae_Son_National_Park%2C_Lampang%2C_Thailand_-_2025.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "Steam rising from a natural hot spring pond at Chae Son National Park, Lampang, Thailand.",
+   "date": "2025-08-09 08:15:58",
+   "primary": false,
+   "sha256": "e7aa1c5f7e680d7596e590d494016a7c62608d51684d88b8a7d0119f4416e7ce"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "pha-bong",
+   "type": "spring",
+   "name": "Pha Bong hot springs",
+   "as": "The other one, at the Pai end."
+  },
+  {
+   "from": "what-a-spring-is",
+   "type": "spring",
+   "name": "How a Thai hot spring works",
+   "as": "The one near Pai."
+  }
+ ]
+}

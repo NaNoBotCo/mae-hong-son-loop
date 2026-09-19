@@ -1,0 +1,120 @@
+{
+ "id": "ten-minutes",
+ "type": "story",
+ "names": {
+  "name": "The ten minutes after you stop",
+  "th": "สิบนาทีหลังจากคุณหยุด",
+  "said": "The engine ticks as it cools, your hearing comes back, and the thing you climbed for is just sitting there.",
+  "said_th": "เสียงเครื่องยนต์ดังติ๊กๆ ขณะเย็นตัว การได้ยินกลับคืนมา และสิ่งที่คุณไต่ขึ้นมาดูก็นั่งอยู่ตรงนั้น"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "argument"
+ },
+ "text": {
+  "what": "Nobody puts this in an itinerary and it is most of what the trip is made of.",
+  "story": "*Inference —* a motorcycle removes the glass. You arrive somewhere already smelling it — wet leaf litter on the climbs, woodsmoke through the villages, hot dust where the tarmac has been in the sun, and the particular sweetness of teak forest after rain. None of that reaches you through a car window.\n\nThen you stop, and there is a gap. The engine is ticking. Your ears, which have had wind in them for an hour, come back. Whatever it was — the valley, the chedi, the reservoir with mist on it — has been there the whole time and you can finally hear it.\n\nThat happens six or seven times a day on this circuit, because the road is short and the stops are frequent. It is the reason people who have ridden it once talk about it the way they do, and it is completely unphotographable, which is why nobody puts it on a list.\n\n*Inference —* the practical version, if there has to be one: plan fewer kilometres than you think. The ten minutes is the product. The riding between them is how you get more of them."
+ },
+ "text_th": {
+  "what": "ไม่มีใครใส่เรื่องนี้ไว้ในแผนการเดินทาง และมันคือเกือบทั้งหมดของสิ่งที่ทริปนี้ทำด้วย",
+  "story": "*อนุมาน —* มอเตอร์ไซค์เอากระจกออกไป คุณไปถึงที่ไหนสักแห่งโดยได้กลิ่นมันก่อนแล้ว ใบไม้เปียกบนทางขึ้นเขา ควันฟืนตอนผ่านหมู่บ้าน ฝุ่นร้อนตรงที่ยางมะตอยโดนแดดมาทั้งวัน และกลิ่นหวานเฉพาะตัวของป่าสักหลังฝน ไม่มีอะไรในนั้นผ่านกระจกรถยนต์มาถึงคุณได้\n\nแล้วคุณก็หยุด และเกิดช่องว่างขึ้น เครื่องยนต์ดังติ๊กๆ หูของคุณที่มีลมอยู่ในนั้นมาชั่วโมงหนึ่งก็กลับมา อะไรก็ตามที่อยู่ตรงนั้น หุบเขา เจดีย์ อ่างเก็บน้ำที่มีหมอกลอย มันอยู่ตรงนั้นมาตลอด และตอนนี้คุณได้ยินมันแล้ว\n\nเรื่องนี้เกิดขึ้นหกหรือเจ็ดครั้งต่อวันบนเส้นทางนี้ เพราะถนนสั้นและจุดแวะถี่ เป็นเหตุผลที่คนที่เคยขี่มันครั้งหนึ่งพูดถึงมันแบบนั้น และถ่ายรูปไม่ได้เลย จึงไม่มีใครใส่ไว้ในรายการ\n\n*อนุมาน —* ฉบับใช้งานจริง ถ้าต้องมี วางแผนระยะทางให้น้อยกว่าที่คิด สิบนาทีนั้นคือตัวสินค้า ส่วนการขี่ระหว่างนั้นคือวิธีที่จะได้มันมากขึ้น"
+ },
+ "kin": [
+  {
+   "to": "roadside-stall",
+   "as": "Where it usually happens.",
+   "rel": "coffee"
+  },
+  {
+   "to": "pang-ung",
+   "as": "The best of them, at six in the morning.",
+   "rel": "stop"
+  },
+  {
+   "to": "where-to-put-the-nights",
+   "as": "Plan fewer kilometres than you think.",
+   "rel": "stay"
+  }
+ ],
+ "sources": [
+  "s:wp-motorcycle-touring"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "ten-minutes/ten-minutes-morning-sea-of-mist-at-si-nan19.jpg",
+   "source": "commons",
+   "title": "File:Morning sea of mist at Si Nan19.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Morning_sea_of_mist_at_Si_Nan19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan19.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติศรีน่าน",
+   "date": "2022-11-17 07:22:15",
+   "primary": true,
+   "sha256": "bd861a58f25f12a8615ff83e94580b2c3baaba8d477e28853a9d635bcb57dcf0"
+  },
+  {
+   "file": "ten-minutes/ten-minutes-morning-sea-of-mist-at-si-nan23.jpg",
+   "source": "commons",
+   "title": "File:Morning sea of mist at Si Nan23.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Morning_sea_of_mist_at_Si_Nan23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan23.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติศรีน่าน",
+   "date": "2022-11-17 07:33:25",
+   "primary": false,
+   "sha256": "202da487a4a57f7d9603398de5d954eeaed3a44d97e6e9763c1571796dca446f"
+  },
+  {
+   "file": "ten-minutes/ten-minutes-morning-sea-of-mist-at-si-nan6.jpg",
+   "source": "commons",
+   "title": "File:Morning sea of mist at Si Nan6.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Morning_sea_of_mist_at_Si_Nan6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan6.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "อุทยานแห่งชาติศรีน่าน",
+   "date": "2022-11-17 07:14:37",
+   "primary": false,
+   "sha256": "db95f6351f2a6687a0a65c06daf03d735474d2e8235ea1227f56877aec99c5dc"
+  },
+  {
+   "file": "ten-minutes/ten-minutes-sunrise-over-the-sea-of-mist-at-khao-phang-chumphon-thailand.jpg",
+   "source": "commons",
+   "title": "File:Sunrise over the sea of mist at Khao Phang , Chumphon, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sunrise_over_the_sea_of_mist_at_Khao_Phang_%2C_Chumphon%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASunrise_over_the_sea_of_mist_at_Khao_Phang_%2C_Chumphon%2C_Thailand.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Kittisak Yangsoh",
+   "credit": "Own work",
+   "alt": "พระอาทิตย์ขึ้นเหนือทะเลหมอกที่เขาพัง ชุมพร ประเทศไทย",
+   "date": "2025-12-21 06:55:36",
+   "primary": false,
+   "sha256": "d02dfd66475f3c4554705f3f71129f16f599c3f6bd6882a5fe30901a3680ad9c"
+  }
+ ]
+}

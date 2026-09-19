@@ -1,30 +1,31 @@
 {
- "built": "2026-09-19 08:00",
- "records": 77,
+ "built": "2026-09-19 10:14",
+ "records": 109,
  "by_type": {
   "leg": 9,
   "road": 6,
   "town": 8,
-  "stop": 10,
-  "wat": 2,
-  "coffee": 0,
-  "spring": 0,
-  "stay": 0,
-  "hazard": 9,
+  "stop": 14,
+  "wat": 6,
+  "dish": 7,
+  "coffee": 4,
+  "spring": 3,
+  "stay": 3,
+  "hazard": 7,
   "bike": 6,
   "kit": 7,
-  "person": 2,
+  "person": 3,
   "org": 0,
-  "event": 6,
+  "event": 10,
   "term": 5,
-  "story": 6,
-  "art": 1
+  "story": 9,
+  "art": 2
  },
- "kin_edges": 281,
- "sources": 94,
- "needs_verification": 18,
- "bilingual": 77,
- "th_fields": 170,
+ "kin_edges": 390,
+ "sources": 115,
+ "needs_verification": 31,
+ "bilingual": 109,
+ "th_fields": 234,
  "roads_measured": [
   "107",
   "108",
@@ -77,6 +78,16 @@
    "waterfall": 70
   }
  },
+ "base": {
+  "rivers": 66,
+  "lakes": 1818,
+  "boundary": 86,
+  "elevation_points": 7649,
+  "elevation_range_m": [
+   30.0,
+   2512.0
+  ]
+ },
  "air": {
   "point_days": 15050,
   "stations_near_loop": 3,
@@ -85,9 +96,9 @@
   ]
  },
  "tiers": {
-  "harvested": 12,
-  "inference": 23,
-  "cited": 38,
-  "tradition": 4
+  "harvested": 19,
+  "inference": 25,
+  "cited": 52,
+  "tradition": 13
  }
 }

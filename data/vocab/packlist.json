@@ -1,0 +1,67 @@
+{
+ "note": "What to put in which bag. The split is the point: the small bag stays with you on the bike, the big one leapfrogs ahead by post or on the bus. Anything medical is in the small bag regardless of size, because a lost bag is a laundry problem and a lost inhaler is not.",
+ "groups": [
+  {"key": "on-you", "en": "On you, always", "th": "ติดตัวเสมอ",
+   "why_en": "If the bike and the bags went separate ways tomorrow, this is what you would need to sort it out.",
+   "why_th": "ถ้าพรุ่งนี้รถกับกระเป๋าแยกทางกัน นี่คือของที่ต้องมีเพื่อจัดการเรื่องนั้น",
+   "items": [
+    {"en": "Passport", "th": "พาสปอร์ต"},
+    {"en": "Driving licence with a motorcycle entitlement, and the International Driving Permit", "th": "ใบขับขี่ที่มีสิทธิ์ขับขี่รถจักรยานยนต์ และใบอนุญาตขับขี่สากล"},
+    {"en": "The rental agreement, photographed", "th": "สัญญาเช่ารถ ถ่ายรูปเก็บไว้"},
+    {"en": "Insurance details and an emergency number", "th": "รายละเอียดประกันและเบอร์ฉุกเฉิน"},
+    {"en": "Cash — several towns have one ATM and it is sometimes empty", "th": "เงินสด หลายเมืองมีตู้เอทีเอ็มตู้เดียวและบางครั้งเงินหมด"},
+    {"en": "Phone, and a cable that fits the bike's USB socket if it has one", "th": "โทรศัพท์ และสายที่เสียบกับช่อง USB ของรถได้ ถ้ารถมี"}]},
+
+  {"key": "medical", "en": "Medical — never in the bag that travels separately", "th": "ของทางการแพทย์ ห้ามอยู่ในกระเป๋าที่ส่งแยก",
+   "why_en": "A lost bag is a laundry problem. A lost CPAP, inhaler or insulin is a medical one, and it is not replaceable in Khun Yuam at nine at night.",
+   "why_th": "กระเป๋าหายคือปัญหาเรื่องเสื้อผ้า แต่ CPAP ยาพ่น หรืออินซูลินหาย คือปัญหาทางการแพทย์ และหาใหม่ที่ขุนยวมตอนสามทุ่มไม่ได้",
+   "items": [
+    {"en": "Everything you take daily, in its own labelled container", "th": "ยาที่กินประจำทุกชนิด ในภาชนะที่ติดฉลาก"},
+    {"en": "CPAP, inhaler, EpiPen, insulin — with the guesthouse warned that you need a socket", "th": "CPAP ยาพ่น ปากกาอะดรีนาลีน อินซูลิน และแจ้งที่พักล่วงหน้าว่าต้องใช้ปลั๊ก"},
+    {"en": "A few days' spare of anything you would have a bad night without", "th": "ยาสำรองสองสามวันสำหรับอะไรก็ตามที่ขาดแล้วคืนนั้นจะแย่"},
+    {"en": "Plasters, tape, antiseptic — gravel rash is the injury that actually happens", "th": "พลาสเตอร์ เทป น้ำยาฆ่าเชื้อ แผลถลอกจากกรวดคือการบาดเจ็บที่เกิดขึ้นจริง"},
+    {"en": "Rehydration salts", "th": "ผงเกลือแร่"}]},
+
+  {"key": "small-bag", "en": "The small bag, on the bike", "th": "กระเป๋าใบเล็ก ไปกับรถ",
+   "why_en": "Low and forward — the footwell before the rack, the rack before the pillion seat.",
+   "why_th": "ต่ำและไปข้างหน้า พื้นวางเท้าก่อนแร็ค แร็คก่อนเบาะซ้อน",
+   "items": [
+    {"en": "Waterproof jacket, and a dry bag or bin liner for whatever must stay dry", "th": "เสื้อกันฝน และถุงกันน้ำหรือถุงขยะสำหรับของที่ต้องแห้ง"},
+    {"en": "Something windproof — mornings above a thousand metres are genuinely cold November to February", "th": "เสื้อกันลม เช้าบนที่สูงเกินพันเมตรหนาวจริงตั้งแต่พฤศจิกายนถึงกุมภาพันธ์"},
+    {"en": "Gloves. Highest value per gram on the bike", "th": "ถุงมือ คุ้มค่าที่สุดต่อน้ำหนักหนึ่งกรัมบนรถ"},
+    {"en": "Sunglasses, and a clean visor cloth — a dusty visor turns low sun into a white wall", "th": "แว่นกันแดด และผ้าเช็ดหน้ากากหมวก หน้ากากมีฝุ่นจะเปลี่ยนแดดต่ำเป็นผนังสีขาว"},
+    {"en": "Two litres of water", "th": "น้ำสองลิตร"},
+    {"en": "A fitted FFP2 or N95, if you are riding in March or April", "th": "หน้ากาก FFP2 หรือ N95 ที่กระชับ ถ้าขี่เดือนมีนาคมหรือเมษายน"},
+    {"en": "Head torch — there is no street lighting between the towns", "th": "ไฟฉายคาดหัว ระหว่างเมืองไม่มีไฟถนน"},
+    {"en": "Offline map on the phone. Long stretches have no signal", "th": "แผนที่ออฟไลน์ในโทรศัพท์ หลายช่วงไม่มีสัญญาณ"}]},
+
+  {"key": "big-bag", "en": "The big bag, sent ahead", "th": "กระเป๋าใบใหญ่ ส่งไปก่อน",
+   "why_en": "Four days needs three shirts, not six — there is laundry in every town on this list.",
+   "why_th": "สี่วันใช้เสื้อสามตัว ไม่ใช่หกตัว ทุกเมืองในรายการนี้มีร้านซักผ้า",
+   "items": [
+    {"en": "Three shirts, two trousers, four of the things you change daily", "th": "เสื้อสามตัว กางเกงสองตัว และของที่เปลี่ยนทุกวันสี่ชุด"},
+    {"en": "Something warm for the evening at altitude", "th": "เสื้อกันหนาวสำหรับตอนเย็นบนที่สูง"},
+    {"en": "Swimwear or a sarong — the hot springs are mixed and clothed", "th": "ชุดว่ายน้ำหรือผ้าถุง บ่อน้ำพุร้อนเป็นบ่อรวมและใส่เสื้อผ้า"},
+    {"en": "Long trousers and covered shoulders for the temples", "th": "กางเกงขายาวและเสื้อคลุมไหล่สำหรับเข้าวัด"},
+    {"en": "Sandals, for everything that is not riding", "th": "รองเท้าแตะ สำหรับทุกอย่างที่ไม่ใช่การขี่รถ"},
+    {"en": "Chargers, and a plug adaptor if yours is not a Thai socket", "th": "ที่ชาร์จ และหัวแปลงปลั๊กถ้าของคุณไม่ใช่แบบไทย"}]},
+
+  {"key": "bike", "en": "For the bike", "th": "สำหรับตัวรถ",
+   "why_en": "Small, cheap, and it turns a long wait into a short one.",
+   "why_th": "เล็ก ถูก และเปลี่ยนการรอที่ยาวให้สั้นลง",
+   "items": [
+    {"en": "Tyre plug kit and a small pump or CO2 — a puncture between towns is the most common stop", "th": "ชุดปะยางและสูบเล็กหรือ CO2 ยางรั่วระหว่างเมืองคือเหตุที่ต้องจอดบ่อยที่สุด"},
+    {"en": "Two bungees and a metre of strap", "th": "เชือกยางสองเส้นและสายรัดหนึ่งเมตร"},
+    {"en": "Cable ties and tape", "th": "เคเบิลไทและเทป"},
+    {"en": "A photograph of the bike, its plate and its odometer, taken before you rode away", "th": "รูปรถ ป้ายทะเบียน และเลขไมล์ ถ่ายไว้ก่อนขี่ออกจากร้าน"}]},
+
+  {"key": "leave", "en": "Leave behind", "th": "ทิ้งไว้",
+   "why_en": "Room in the bag is the thing you will want on day three.",
+   "why_th": "พื้นที่ว่างในกระเป๋าคือสิ่งที่คุณจะอยากได้ในวันที่สาม",
+   "items": [
+    {"en": "The sixth shirt", "th": "เสื้อตัวที่หก"},
+    {"en": "A laptop, unless it is your work", "th": "โน้ตบุ๊ก เว้นแต่มันคืองานของคุณ"},
+    {"en": "Hard-shell cases, if the bag is going by bus or post", "th": "กระเป๋าแข็ง ถ้ากระเป๋าจะไปทางรถหรือไปรษณีย์"},
+    {"en": "Anything you would cancel the trip over", "th": "อะไรก็ตามที่ถ้าหายแล้วต้องยกเลิกทริป"}]}
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "id": "phansa",
+ "type": "event",
+ "names": {
+  "name": "Khao Phansa and Ok Phansa",
+  "th": "เข้าพรรษา และออกพรรษา",
+  "said": "The three months monks stay put, opening on the July full moon and closing in October.",
+  "said_th": "สามเดือนที่พระอยู่ประจำที่ เริ่มวันเพ็ญเดือนกรกฎาคมและจบในเดือนตุลาคม"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "jul"
+ },
+ "text": {
+  "what": "Vassa, the rains retreat. It opens and closes with festivals, and it runs across exactly the months this circuit is quietest.",
+  "story": "Vassa is the three-month retreat, observed by Theravada monastics during the rainy season, when monks remain in one place. It begins on the full moon of the eighth lunar month — usually July — and ends around the eleventh, usually October.\n\n*Inference —* for a rider this is the most underrated window on the whole calendar. It falls squarely in the green season: the measured air is at its cleanest, the terraces are green, the waterfalls are running, the rooms are cheap and the roads are empty. And the temples, which are the province's other subject, are at their most active rather than least — the opening and closing of the retreat are both marked, and candle offerings are made at the start.\n\n**What you give up** is dry tarmac, and Route 1263 comes off the plan. *Inference —* that is a small price for having Mae Hong Son to yourself."
+ },
+ "text_th": {
+  "what": "วสา หรือการจำพรรษาในฤดูฝน เปิดและปิดด้วยงานบุญ และกินเวลาตรงกับเดือนที่เส้นทางนี้เงียบที่สุดพอดี",
+  "story": "วสาคือการจำพรรษาสามเดือนของพระสงฆ์เถรวาทในฤดูฝน ซึ่งพระจะอยู่ประจำที่เดียว เริ่มวันเพ็ญเดือนแปดตามจันทรคติ มักเป็นเดือนกรกฎาคม และจบราวเดือนสิบเอ็ด มักเป็นเดือนตุลาคม\n\n*อนุมาน —* สำหรับคนขี่รถ นี่คือช่วงที่ถูกมองข้ามที่สุดในปฏิทินทั้งปี มันตกอยู่กลางหน้าเขียวพอดี อากาศที่วัดได้สะอาดที่สุด นาขั้นบันไดเขียว น้ำตกมีน้ำ ห้องพักถูก และถนนว่าง ส่วนวัด ซึ่งเป็นอีกเรื่องหลักของจังหวัดนี้ ก็คึกคักที่สุดแทนที่จะเงียบที่สุด ทั้งวันเข้าและวันออกพรรษามีงาน และมีการถวายเทียนพรรษาตอนเริ่ม\n\n**สิ่งที่ต้องแลก** คือถนนแห้ง และทางหลวง 1263 หลุดจากแผน *อนุมาน —* เป็นราคาที่ไม่แพงเลยสำหรับการได้แม่ฮ่องสอนไว้คนเดียว"
+ },
+ "kin": [
+  {
+   "to": "the-rains",
+   "as": "The season it runs across.",
+   "rel": "event"
+  },
+  {
+   "to": "pa-bong-piang",
+   "as": "Green for exactly these months.",
+   "rel": "stop"
+  },
+  {
+   "to": "chong-kham-chong-klang",
+   "as": "Where the candles go.",
+   "rel": "wat"
+  }
+ ],
+ "sources": [
+  "s:wp-vassa",
+  "s:wp-public-holidays-in-thailand"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-vassa"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

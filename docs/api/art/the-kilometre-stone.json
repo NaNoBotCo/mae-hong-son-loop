@@ -1,0 +1,101 @@
+{
+ "id": "the-kilometre-stone",
+ "type": "art",
+ "names": {
+  "name": "The kilometre stone",
+  "th": "หลักกิโลเมตร",
+  "said": "Concrete, white, waist-high, and the only thing on the road that always tells the truth.",
+  "said_th": "คอนกรีต สีขาว สูงระดับเอว และเป็นสิ่งเดียวบนถนนที่พูดความจริงเสมอ"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "sign",
+  "price": "free"
+ },
+ "text": {
+  "what": "Thailand marks its highways with a numbered stone every kilometre. On a road with no phone signal they are the navigation.",
+  "story": "*Inference —* the pleasure in them is the counting. On Route 108 the numbers restart at zero at the Hot roundabout and run to Mae Hong Son, so the stone tells you exactly how much of the 265 kilometres is behind you. Watching a number come down over a long afternoon is a quiet and surprisingly good way to spend one.\n\nThey are also how you describe where you are to somebody else. A Thai driver will say *kilometre thirty-two* rather than a place name, because between towns that is the only address there is.\n\n*Tradition holds —* the small numbers under the big ones on some stones are the distance to the next town and the one after it, which turns every stone into a small map."
+ },
+ "text_th": {
+  "what": "ประเทศไทยปักหลักกิโลเมตรมีเลขกำกับทุกหนึ่งกิโลเมตรบนทางหลวง บนถนนที่ไม่มีสัญญาณโทรศัพท์ หลักพวกนี้คือการนำทาง",
+  "story": "*อนุมาน —* ความสุขของมันอยู่ที่การนับ บนทางหลวง 108 เลขเริ่มใหม่ที่ศูนย์ตรงวงเวียนฮอดแล้ววิ่งไปแม่ฮ่องสอน หลักจึงบอกได้แน่ชัดว่าผ่านมาแล้วเท่าไรจาก 265 กิโลเมตร การเฝ้าดูตัวเลขลดลงตลอดบ่ายที่ยาวนานเป็นวิธีใช้เวลาที่เงียบและดีอย่างน่าประหลาด\n\nมันยังเป็นวิธีบอกคนอื่นว่าคุณอยู่ไหน คนขับรถไทยจะพูดว่ากิโลเมตรที่สามสิบสอง แทนชื่อสถานที่ เพราะระหว่างเมือง นั่นคือที่อยู่เดียวที่มี\n\n*ตามธรรมเนียม —* ตัวเลขเล็กใต้ตัวใหญ่บนหลักบางหลักคือระยะถึงเมืองถัดไปและเมืองถัดจากนั้น ทำให้ทุกหลักกลายเป็นแผนที่ย่อ"
+ },
+ "kin": [
+  {
+   "to": "route-108",
+   "as": "Where the numbers restart at zero.",
+   "rel": "road"
+  },
+  {
+   "to": "hot",
+   "as": "The roundabout that resets them.",
+   "rel": "town"
+  },
+  {
+   "to": "the-1864-sign",
+   "as": "The other thing by the roadside with a number on it.",
+   "rel": "art"
+  }
+ ],
+ "sources": [
+  "s:thwp-108",
+  "s:wp-road-signs-in-thailand"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:thwp-108"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "the-kilometre-stone/the-kilometre-stone-0-01.jpg",
+   "source": "commons",
+   "title": "File:หลักกิโลเมตรที่ 0 ใกล้กับ อนุสาวรีย์ประชาธิปไตย 01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B9%80%E0%B8%A1%E0%B8%95%E0%B8%A3%E0%B8%97%E0%B8%B5%E0%B9%88_0_%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%81%E0%B8%B1%E0%B8%9A_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%9B%E0%B9%84%E0%B8%95%E0%B8%A2_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B9%80%E0%B8%A1%E0%B8%95%E0%B8%A3%E0%B8%97%E0%B8%B5%E0%B9%88_0_%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%81%E0%B8%B1%E0%B8%9A_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%9B%E0%B9%84%E0%B8%95%E0%B8%A2_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Chainwit.",
+   "credit": "Own work",
+   "alt": "Kilometre Zero (The 0 Kilometre Marker) is the kilometre zero of all public roadways in Thailand located near the Democracy Monument, Bangkok",
+   "date": "2021-10-23 12:19:12",
+   "primary": true,
+   "sha256": "b7efa7c68041d0880fb946b59e756d8d7e2c0b4d0ba3960433c97d9b1fe48588"
+  },
+  {
+   "file": "the-kilometre-stone/the-kilometre-stone-0-02.jpg",
+   "source": "commons",
+   "title": "File:หลักกิโลเมตรที่ 0 ใกล้กับ อนุสาวรีย์ประชาธิปไตย 02.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B9%80%E0%B8%A1%E0%B8%95%E0%B8%A3%E0%B8%97%E0%B8%B5%E0%B9%88_0_%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%81%E0%B8%B1%E0%B8%9A_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%9B%E0%B9%84%E0%B8%95%E0%B8%A2_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A%E0%B8%AB%E0%B8%A5%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B4%E0%B9%82%E0%B8%A5%E0%B9%80%E0%B8%A1%E0%B8%95%E0%B8%A3%E0%B8%97%E0%B8%B5%E0%B9%88_0_%E0%B9%83%E0%B8%81%E0%B8%A5%E0%B9%89%E0%B8%81%E0%B8%B1%E0%B8%9A_%E0%B8%AD%E0%B8%99%E0%B8%B8%E0%B8%AA%E0%B8%B2%E0%B8%A7%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B2%E0%B8%98%E0%B8%B4%E0%B8%9B%E0%B9%84%E0%B8%95%E0%B8%A2_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Chainwit.",
+   "credit": "Own work",
+   "alt": "Kilometre Zero (The 0 Kilometre Marker) is the kilometre zero of all public roadways in Thailand located near the Democracy Monument, Bangkok",
+   "date": "2021-10-23 12:19:19",
+   "primary": false,
+   "sha256": "d46e23d1b2e61fef854bb6b552dc64b8c2ab147cf512b34b462cf9a9700ff57e"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "annoyances",
+   "type": "hazard",
+   "name": "Annoyances",
+   "as": "What tells you where you are when the phone does not."
+  }
+ ]
+}

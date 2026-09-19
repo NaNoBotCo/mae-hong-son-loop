@@ -68,6 +68,12 @@
    "type": "story",
    "name": "How many curves, actually",
    "as": "The object the number lives on."
+  },
+  {
+   "from": "the-kilometre-stone",
+   "type": "art",
+   "name": "The kilometre stone",
+   "as": "The other thing by the roadside with a number on it."
   }
  ]
 }

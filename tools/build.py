@@ -81,6 +81,8 @@ def main() -> int:
     air_m = load_harvest("air-model")
     air_g = load_harvest("air-ground")
     places = load_harvest("osm-places") or {"rows": [], "count": 0}
+    base = load_harvest("osm-base") or {}
+    elev = load_harvest("elevation") or {}
 
     # geometry comes from the curve analysis where it exists (better stitching), else the harvest
     roads = {}
@@ -98,6 +100,11 @@ def main() -> int:
                                "spans": r["spans"], "hardest": r.get("hardest", [])})
 
     attach_geometry(recs, roads)
+
+    # the circuit as one closed line, so every map can draw a loop that is a loop
+    import ring as ring_mod
+    ring_pts, ring_bridges, ring_stats = ring_mod.build(roads)
+    itinerary_ring = {"line": ring_pts, "bridges": ring_bridges, **ring_stats}
 
     by_id = {r["id"]: r for r in recs}
     for r in recs:
@@ -152,6 +159,10 @@ def main() -> int:
            "th_fields": sum(len(r.get("text_th") or {}) for r in recs),
            "roads_measured": sorted(curves.get("roads", {}).keys()),
            "osm_places": place_summary,
+           "base": {"rivers": len(base.get("rivers", [])), "lakes": len(base.get("lakes", [])),
+                    "boundary": len(base.get("boundary", [])),
+                    "elevation_points": elev.get("count", 0),
+                    "elevation_range_m": [elev.get("min_m"), elev.get("max_m")]},
            "air": {"point_days": sum(p["days"] for p in (air_m or {}).get("points", [])),
                    "stations_near_loop": (air_g or {}).get("stations_near_loop"),
                    "mhs_province_stations": (air_g or {}).get("mhs_province_stations", [])},
@@ -162,12 +173,15 @@ def main() -> int:
 
     API.mkdir(parents=True, exist_ok=True)
     jdump({"count": len(recs), "nodes": recs}, API / "nodes.json")
+    itinerary["ring"] = itinerary_ring
     jdump(itinerary, API / "itinerary.json")
     jdump(roads, API / "roads.json", indent=0)
     jdump(curves, API / "curves.json", indent=0)
     jdump(air_summary(air_m), API / "air.json", indent=0)
     jdump(air_g or {}, API / "air-now.json")
     jdump(places, API / "places.json", indent=0)
+    jdump(base, API / "base.json", indent=0)
+    jdump(elev, API / "elevation.json", indent=0)
     jdump({"sources": list(sources.values())}, API / "sources.json")
     jdump(vocab, API / "vocab.json")
     jdump(cov, API / "coverage.json")
@@ -180,6 +194,8 @@ def main() -> int:
     print(f"build: {len(recs)} records, {cov['kin_edges']} kin, {len(sources)} sources, "
           f"{cov['th_fields']} Thai fields")
     print(f"       roads measured: {', '.join(cov['roads_measured']) or 'none'}")
+    print(f"       ring: {ring_stats['km']} km, {ring_stats['bridges']} bridges, "
+          f"{ring_stats['bridged_pct']}% interpolated")
     print(f"       air: {cov['air']['point_days']} point-days · "
           f"osm places: {place_summary['count']}")
     print(f"       tiers: {cov['tiers']}")

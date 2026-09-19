@@ -1,0 +1,151 @@
+{
+ "id": "jong-and-chong",
+ "type": "wat",
+ "names": {
+  "name": "Why the temples here are called Chong",
+  "th": "ทำไมวัดแถบนี้ชื่อจอง",
+  "said": "In Chiang Mai a temple is Wat Phra That Something. In Mae Hong Son it is Wat Chong Something. The word is Shan.",
+  "said_th": "ที่เชียงใหม่วัดชื่อวัดพระธาตุอะไรสักอย่าง ที่แม่ฮ่องสอนชื่อวัดจองอะไรสักอย่าง คำว่าจองเป็นคำไทใหญ่"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "tradition": "shan",
+  "kind": "pattern"
+ },
+ "text": {
+  "what": "A naming pattern that maps the cultural border better than the political one does, and it is visible in the map data.",
+  "story": "*Tradition holds —* *chong* or *jong* (จอง) is the Shan word for a monastery, and it turns up in temple names through Shan country on both sides of the border.\n\n**So it should be testable, and it is.** Counting the named Buddhist temples in the OpenStreetMap harvest within fifteen kilometres of each town: Mae Hong Son has three of ten carrying the word — Wat Chong Kham, Wat Chong Klang and the pair listed together as วัดจองกลาง วัดจองคำ. Mae Sariang has one, Wat Jong Soong. Khun Yuam has none. Pai has none of seventeen. **Chiang Mai has none of three hundred and eighty-two.**\n\n*Inference —* that is a small sample and OpenStreetMap's romanisation is inconsistent, so treat it as a floor rather than a survey. But zero out of 382 in Chiang Mai against three out of ten in Mae Hong Son is not noise, and it is the same line the architecture draws: this province was Shan before it was Thai, and the Anglo-Siamese boundary settlement of 1892–93 moved the border without moving the people.\n\nWhich means a rider crossing from Pai to Mae Hong Son is crossing something older than the province, and the temple signboards are where it shows."
+ },
+ "text_th": {
+  "what": "รูปแบบการตั้งชื่อที่บอกเส้นแบ่งทางวัฒนธรรมได้ดีกว่าเส้นแบ่งทางการเมือง และมองเห็นได้จากข้อมูลแผนที่",
+  "story": "*ตามธรรมเนียม —* คำว่าจอง (จอง) เป็นคำไทใหญ่ที่หมายถึงวัดหรืออาราม และปรากฏในชื่อวัดทั่วเขตไทใหญ่ทั้งสองฝั่งชายแดน\n\n**มันจึงควรทดสอบได้ และทดสอบได้จริง** เมื่อนับวัดพุทธที่มีชื่อในข้อมูล OpenStreetMap ในรัศมีสิบห้ากิโลเมตรจากแต่ละเมือง แม่ฮ่องสอนมีสามในสิบที่ใช้คำนี้ คือวัดจองคำ วัดจองกลาง และคู่ที่ขึ้นทะเบียนรวมกันว่าวัดจองกลาง วัดจองคำ แม่สะเรียงมีหนึ่งแห่ง คือวัดจองสูง ขุนยวมไม่มี ปายไม่มีเลยจากสิบเจ็ดแห่ง **เชียงใหม่ไม่มีเลยจากสามร้อยแปดสิบสองแห่ง**\n\n*อนุมาน —* นั่นเป็นกลุ่มตัวอย่างเล็ก และการถอดอักษรโรมันใน OpenStreetMap ก็ไม่สม่ำเสมอ จึงควรถือเป็นขั้นต่ำ ไม่ใช่การสำรวจ แต่ศูนย์จาก 382 ในเชียงใหม่ เทียบกับสามจากสิบในแม่ฮ่องสอน ไม่ใช่ความบังเอิญ และเป็นเส้นเดียวกับที่สถาปัตยกรรมลากไว้ จังหวัดนี้เป็นไทใหญ่ก่อนจะเป็นไทย และการปักปันเขตแดนอังกฤษ-สยาม พ.ศ. 2435–2436 ย้ายชายแดนโดยไม่ได้ย้ายผู้คน\n\nแปลว่าคนขี่รถที่ข้ามจากปายไปแม่ฮ่องสอนกำลังข้ามบางอย่างที่เก่าแก่กว่าตัวจังหวัด และป้ายชื่อวัดคือที่ที่มันแสดงตัว"
+ },
+ "kin": [
+  {
+   "to": "chong-kham-chong-klang",
+   "as": "The two the word is most attached to.",
+   "rel": "wat"
+  },
+  {
+   "to": "shan",
+   "as": "Whose word it is.",
+   "rel": "person"
+  },
+  {
+   "to": "wat-jong-soong",
+   "as": "The one in Mae Sariang.",
+   "rel": "wat"
+  },
+  {
+   "to": "mae-hong-son",
+   "as": "Where the pattern concentrates.",
+   "rel": "town"
+  }
+ ],
+ "sources": [
+  "s:osm",
+  "s:wp-shan-people",
+  "s:wp-mae-hong-son-province",
+  "s:wp-shan-state"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "jong-and-chong/jong-and-chong-wat-chong-klang-7.jpg",
+   "source": "commons",
+   "title": "File:Wat Chong Klang 7.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Wat_Chong_Klang_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Chong_Klang_7.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Wat Chong Klang in Mae Hong Son.",
+   "date": "2018-09-01 18:00:41",
+   "primary": true,
+   "sha256": "e69d8a8ae7da440d1081e14dd5bc2e423b1406d3de3d398d5b29ae710ca41085"
+  },
+  {
+   "file": "jong-and-chong/jong-and-chong-wat-chong-klang-8.jpg",
+   "source": "commons",
+   "title": "File:Wat Chong Klang 8.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Wat_Chong_Klang_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Chong_Klang_8.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "The interior of Wat Chong Klang in Mae Hong Son.",
+   "date": "2018-09-01 18:03:06",
+   "primary": false,
+   "sha256": "16044e3c92fe63d9953fa978795640d1ed007cab88e9367fe88414b673e773a4"
+  },
+  {
+   "file": "jong-and-chong/jong-and-chong-wat-chong-klang-9.jpg",
+   "source": "commons",
+   "title": "File:Wat Chong Klang 9.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Wat_Chong_Klang_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Chong_Klang_9.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "The interior of Wat Chong Klang in Mae Hong Son.",
+   "date": "2018-09-01 18:03:24",
+   "primary": false,
+   "sha256": "6fc0d6900d1e79d2921b9712a37d20bc2d6c0a4a330e8ad190813d21672c8ded"
+  },
+  {
+   "file": "jong-and-chong/jong-and-chong-wat-chong-klang-and-wat-chong-kham.jpg",
+   "source": "commons",
+   "title": "File:Wat Chong Klang and Wat Chong Kham.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Wat_Chong_Klang_and_Wat_Chong_Kham.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Chong_Klang_and_Wat_Chong_Kham.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "View of Wat Chong Klang and Wat Chong Kham from Wat Phrathat Doi Kong Mu in Mae Hong Son.",
+   "date": "2018-09-01 18:42:42",
+   "primary": false,
+   "sha256": "34ce7ca53ee5b2e2e37421820591d42bee4a46497dd5eda0f4f0eaef0e15a957"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "wat-hua-wiang",
+   "type": "wat",
+   "name": "Wat Hua Wiang",
+   "as": "The naming pattern it sits inside."
+  },
+  {
+   "from": "wat-jong-soong",
+   "type": "wat",
+   "name": "Wat Jong Soong",
+   "as": "The pattern, and where it thins out."
+  },
+  {
+   "from": "wat-phra-that-mae-yen",
+   "type": "wat",
+   "name": "Wat Phra That Mae Yen",
+   "as": "The pattern this one is an exception to."
+  }
+ ]
+}

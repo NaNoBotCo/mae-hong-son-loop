@@ -1,0 +1,119 @@
+{
+ "id": "teak-shophouse",
+ "type": "stay",
+ "names": {
+  "name": "The teak shophouse",
+  "th": "ตึกแถวไม้สัก",
+  "said": "Two storeys, a wooden balcony over the street, and floorboards that announce everybody.",
+  "said_th": "สองชั้น ระเบียงไม้ยื่นเหนือถนน และพื้นไม้ที่ประกาศการมาของทุกคน"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "shophouse",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "Mae Sariang and Mae Hong Son both keep rows of timber shophouses from the teak years, and some of them take guests.",
+  "story": "Teak built these towns. The trade ran west into Burma and down the rivers, and the buildings that are left are the physical remains of it — wide boards, deep eaves, a balcony over the shopfront.\n\n*Inference —* staying in one is the cheapest history lesson on the circuit, and the trade-off is plain: timber carries sound, so you will hear the street until it sleeps and the stairs whenever anyone uses them. Mae Sariang is the quieter of the two towns to try it in.\n\nThe rooms are usually simple — a bed, a fan, a shared bathroom in the older ones. What you get is the building."
+ },
+ "text_th": {
+  "what": "แม่สะเรียงและแม่ฮ่องสอนต่างมีตึกแถวไม้จากยุคไม้สักเหลืออยู่เป็นแถว และบางหลังเปิดรับแขก",
+  "story": "ไม้สักสร้างเมืองเหล่านี้ การค้าไม้วิ่งไปทางตะวันตกเข้าพม่าและล่องลงตามลำน้ำ อาคารที่เหลืออยู่คือซากทางกายภาพของมัน ไม้แผ่นกว้าง ชายคาลึก ระเบียงเหนือหน้าร้าน\n\n*อนุมาน —* การได้นอนในตึกแบบนี้คือบทเรียนประวัติศาสตร์ที่ถูกที่สุดบนเส้นทาง และสิ่งที่ต้องแลกก็ตรงไปตรงมา ไม้พาเสียง คุณจะได้ยินเสียงถนนจนกว่ามันจะหลับ และได้ยินบันไดทุกครั้งที่มีคนใช้ แม่สะเรียงเป็นเมืองที่เงียบกว่าในสองเมืองนี้ถ้าจะลอง\n\nห้องมักเรียบง่าย เตียง พัดลม ห้องน้ำรวมในหลังเก่าๆ สิ่งที่คุณได้คือตัวอาคาร"
+ },
+ "kin": [
+  {
+   "to": "mae-sariang",
+   "as": "The quieter town to try it in.",
+   "rel": "town"
+  },
+  {
+   "to": "mae-hong-son",
+   "as": "The other one.",
+   "rel": "town"
+  }
+ ],
+ "sources": [
+  "s:wp-teak",
+  "s:wp-mae-sariang-district",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-teak"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "teak-shophouse/teak-shophouse-mountains-in-mae-sariang-mae-kanai.jpg",
+   "source": "commons",
+   "title": "File:Mountains in Mae Sariang (Mae Kanai).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Mountains_in_Mae_Sariang_%28Mae_Kanai%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMountains_in_Mae_Sariang_%28Mae_Kanai%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Angkun-ane",
+   "credit": "Own work",
+   "alt": "Mountains in Mae Sariang (Mae Kanai)",
+   "date": "25 February 2026 (according to Exif data",
+   "primary": true,
+   "sha256": "e49a1600ac342b1607484877db335d15a4fe68ef335d04e378369ce8fdbac81b"
+  },
+  {
+   "file": "teak-shophouse/teak-shophouse-sukhumbandhunirmit-building-in-mae-sariang-boripat-s-6916288.jpg",
+   "source": "commons",
+   "title": "File:Sukhumbandhunirmit building in Mae Sariang Boripat Suksa School.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Sukhumbandhunirmit_building_in_Mae_Sariang_Boripat_Suksa_School.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASukhumbandhunirmit_building_in_Mae_Sariang_Boripat_Suksa_School.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Angkun-ane",
+   "credit": "Own work",
+   "alt": "A three-story school building named \"Sukhumbandhunirmit\"",
+   "date": "Taken on 24 December 2025, 08:20",
+   "primary": false,
+   "sha256": "24fc7ce4b2182263391eb5498024c7c2a54f2a14bc6cfeba2f6309650a7bd243"
+  },
+  {
+   "file": "teak-shophouse/teak-shophouse-the-first-group-of-mathayom-students-in-mae-sariang-19eaa3d.jpg",
+   "source": "commons",
+   "title": "File:The first group of Mathayom students in Mae Sariang Boripat Suksa school.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/The_first_group_of_Mathayom_students_in_Mae_Sariang_Boripat_Suksa_school.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_first_group_of_Mathayom_students_in_Mae_Sariang_Boripat_Suksa_school.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Mae Sariang Boripat Suksa school, scanned and enhancement edits by นายภูมิ สินทรัพย์",
+   "credit": "Mae Sariang Boripat Suksa school",
+   "alt": "The first group of Mathayom students in Mae Sariang Boripat Suksa school in 1940",
+   "date": "1940",
+   "primary": false,
+   "sha256": "aca19bbc3ded2489fbd2d006f4444cebaf7e67c28a61eab024e7a8b4e101bfd3"
+  },
+  {
+   "file": "teak-shophouse/teak-shophouse-the-street-of-mae-sariang.jpg",
+   "source": "commons",
+   "title": "File:The street of Mae Sariang.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/The_street_of_Mae_Sariang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThe_street_of_Mae_Sariang.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Angkun-ane",
+   "credit": "Own work",
+   "alt": "Taken at night, this is a picture of street in Mae Sariang, decorated with Lanna lantern",
+   "date": "2024-10-03 19:43:16",
+   "primary": false,
+   "sha256": "4c76111978a699337b931cd790fc18e915bb7a1e065673216bfaef837a222a78"
+  }
+ ]
+}

@@ -19,11 +19,11 @@
  },
  "text": {
   "what": "Kong Lan: narrow eroded sandstone ridges on the edge of the Pai basin, walked at sunset by most of the town.",
-  "story": "*Inference —* two things are worth saying about it that the photographs do not. The ridges are genuinely narrow with unprotected drops on both sides and the sandstone crumbles; people have been hurt there. And it is ten minutes from Pai on Route 1095, which means it works as the last stop of the day you ride in, rather than as an outing.\n\nSunset is when everyone goes, which is also when the light is best and when the walk back is done in the dark."
+  "story": "*Inference —* ten minutes from Pai on Route 1095, which makes it the last stop of the day you ride in rather than an outing of its own. Go for sunset: the light comes in sideways along the ridges and the whole basin turns orange underneath you.\n\nThe ridges are narrow with open drops on both sides and the sandstone is soft. Walk out as far as you feel like and no further — the view from the first fifty metres is the same view."
  },
  "text_th": {
   "what": "กองแลน สันหินทรายแคบๆ ที่ถูกกัดเซาะ อยู่ริมแอ่งปาย คนเกือบทั้งเมืองมาเดินตอนพระอาทิตย์ตก",
-  "story": "*อนุมาน —* มีสองเรื่องที่ควรพูดซึ่งภาพถ่ายไม่ได้บอก สันหินแคบจริงและมีเหวสองข้างที่ไม่มีราวกั้น และหินทรายก็ร่วน มีคนบาดเจ็บที่นั่นมาแล้ว และมันอยู่ห่างจากปายสิบนาทีบนทางหลวง 1095 แปลว่ามันใช้เป็นจุดแวะสุดท้ายของวันที่ขี่เข้ามาได้ ไม่ต้องจัดเป็นทริปแยก\n\nพระอาทิตย์ตกคือเวลาที่ทุกคนไป ซึ่งเป็นเวลาที่แสงดีที่สุด และเป็นเวลาที่ต้องเดินกลับในความมืด"
+  "story": "*อนุมาน —* ห่างจากปายสิบนาทีบนทางหลวง 1095 จึงเป็นจุดแวะสุดท้ายของวันที่ขี่เข้ามา ไม่ต้องจัดเป็นทริปแยก ไปตอนพระอาทิตย์ตก แสงจะเฉียงมาตามสันเขาและแอ่งทั้งแอ่งข้างล่างจะเป็นสีส้ม\n\nสันหินแคบ มีเหวเปิดสองข้าง และหินทรายร่วน เดินออกไปเท่าที่สบายใจแล้วพอ วิวจากห้าสิบเมตรแรกก็วิวเดียวกัน"
  },
  "kin": [
   {
@@ -126,5 +126,12 @@
    "sha256": "fb85f81b22e5b9b5db8e2486c55e27452dee2099dc568b79b234eba1664ce5c6"
   }
  ],
- "kin_in": []
+ "kin_in": [
+  {
+   "from": "wat-phra-that-mae-yen",
+   "type": "wat",
+   "name": "Wat Phra That Mae Yen",
+   "as": "The other sunset, ten minutes the other way."
+  }
+ ]
 }

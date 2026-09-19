@@ -133,6 +133,18 @@
    "as": "How they get counted."
   },
   {
+   "from": "how-old-is-this-ride",
+   "type": "story",
+   "name": "How old is this ride",
+   "as": "The other thing people argue about."
+  },
+  {
+   "from": "small-bike-more-fun",
+   "type": "story",
+   "name": "Why a small bike is more fun here",
+   "as": "Where the densities come from."
+  },
+  {
    "from": "which-way-round",
    "type": "story",
    "name": "Clockwise or counter-clockwise",

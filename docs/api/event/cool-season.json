@@ -125,6 +125,12 @@
  ],
  "kin_in": [
   {
+   "from": "huai-nam-dang",
+   "type": "stop",
+   "name": "Huai Nam Dang",
+   "as": "The months the mist happens."
+  },
+  {
    "from": "pang-ung",
    "type": "stop",
    "name": "Pang Ung",
@@ -137,6 +143,12 @@
    "as": "When the mist is there."
   },
   {
+   "from": "bamboo-hut",
+   "type": "stay",
+   "name": "The hut with no wall on the valley side",
+   "as": "The months it is cold before dawn."
+  },
+  {
    "from": "gear",
    "type": "kit",
    "name": "What to wear",
@@ -146,6 +158,12 @@
    "from": "bua-tong-bloom",
    "type": "event",
    "name": "The Bua Tong bloom",
+   "as": "The season it opens."
+  },
+  {
+   "from": "loi-krathong",
+   "type": "event",
+   "name": "Loi Krathong and Yi Peng",
    "as": "The season it opens."
   },
   {

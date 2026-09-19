@@ -2,7 +2,7 @@
 
 > 600 kilometres, 1,864 curves on the sign, and a different answer from the map
 
-A bilingual (English and Thai) directory and route guide for the Mae Hong Son loop in northern Thailand, built from 94 named sources. Every claim carries a provenance tier. Records are CC BY 4.0.
+A bilingual (English and Thai) directory and route guide for the Mae Hong Son loop in northern Thailand, built from 115 named sources. Every claim carries a provenance tier. Records are CC BY 4.0.
 
 ## What is measured here, and how
 
@@ -19,6 +19,8 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Legs](https://nanobotco.github.io/mae-hong-son-loop/legs/)
 - [Which way](https://nanobotco.github.io/mae-hong-son-loop/which-way/)
 - [Numbers](https://nanobotco.github.io/mae-hong-son-loop/numbers/)
+- [The good part](https://nanobotco.github.io/mae-hong-son-loop/good/)
+- [The year](https://nanobotco.github.io/mae-hong-son-loop/year/)
 - [Air](https://nanobotco.github.io/mae-hong-son-loop/air/)
 - [Danger](https://nanobotco.github.io/mae-hong-son-loop/danger/)
 - [Baggage](https://nanobotco.github.io/mae-hong-son-loop/baggage/)
@@ -30,16 +32,20 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Legs](https://nanobotco.github.io/mae-hong-son-loop/legs/) — 9
 - [Roads](https://nanobotco.github.io/mae-hong-son-loop/roads/) — 6
 - [Towns](https://nanobotco.github.io/mae-hong-son-loop/towns/) — 8
-- [Stops](https://nanobotco.github.io/mae-hong-son-loop/stops/) — 10
-- [Wats](https://nanobotco.github.io/mae-hong-son-loop/wats/) — 2
-- [Hazards](https://nanobotco.github.io/mae-hong-son-loop/hazards/) — 9
+- [Stops](https://nanobotco.github.io/mae-hong-son-loop/stops/) — 14
+- [Wats](https://nanobotco.github.io/mae-hong-son-loop/wats/) — 6
+- [What you eat](https://nanobotco.github.io/mae-hong-son-loop/food/) — 7
+- [Coffee](https://nanobotco.github.io/mae-hong-son-loop/coffee/) — 4
+- [Hot springs](https://nanobotco.github.io/mae-hong-son-loop/springs/) — 3
+- [Beds](https://nanobotco.github.io/mae-hong-son-loop/beds/) — 3
+- [Hazards](https://nanobotco.github.io/mae-hong-son-loop/hazards/) — 7
 - [Bikes](https://nanobotco.github.io/mae-hong-son-loop/bikes/) — 6
 - [Kit and logistics](https://nanobotco.github.io/mae-hong-son-loop/kit/) — 7
-- [People](https://nanobotco.github.io/mae-hong-son-loop/people/) — 2
-- [The calendar](https://nanobotco.github.io/mae-hong-son-loop/calendar/) — 6
+- [People](https://nanobotco.github.io/mae-hong-son-loop/people/) — 3
+- [The calendar](https://nanobotco.github.io/mae-hong-son-loop/calendar/) — 10
 - [Words](https://nanobotco.github.io/mae-hong-son-loop/words/) — 5
-- [Long reads](https://nanobotco.github.io/mae-hong-son-loop/stories/) — 6
-- [Signs and objects](https://nanobotco.github.io/mae-hong-son-loop/objects/) — 1
+- [Long reads](https://nanobotco.github.io/mae-hong-son-loop/stories/) — 9
+- [Signs and objects](https://nanobotco.github.io/mae-hong-son-loop/objects/) — 2
 
 ## Data
 
@@ -486,6 +492,25 @@ A rider coming over the 1263 cut can reach it from the Mae Chaem side on Route 1
 Provenance: cited · s:wp-doi-inthanon
 Sources: s:wp-doi-inthanon, s:wp-chom-thong
 
+## Huai Nam Dang (stop/huai-nam-dang)
+Thai: ห้วยน้ำดัง
+
+### what
+A national park straddling the Chiang Mai and Mae Hong Son line, right on Route 1095, with a viewpoint that looks east over cloud at dawn.
+
+### story
+*Inference —* the rare one on this circuit that is directly on the route rather than up a dead end, which matters because a dawn viewpoint you have to detour to is a dawn you will not see.
+
+The mist is a cool-season, still-air, before-sunrise phenomenon — the same conditions that make Pang Ung work, a hundred kilometres west. From here the sun comes up over the ridges toward Chiang Mai with cloud filling the valleys underneath.
+
+*Inference —* the arrangement that works is sleeping near the top rather than riding up from Pai in the dark. There is camping and there are park bungalows.
+
+**Not on this disk:** current fees, bungalow booking or road conditions to the viewpoint.
+
+Provenance: tradition
+Sources: s:wp-mae-taeng-district, s:wp-pai-district, s:osm
+NEEDS VERIFICATION
+
 ## The Japanese memorial at Khun Yuam (stop/khun-yuam-memorial)
 Thai: อนุสรณ์สถานมิตรภาพไทย–ญี่ปุ่น ขุนยวม
 
@@ -501,6 +526,25 @@ Thailand's position in the Second World War was its own complicated thing — an
 
 Provenance: cited · s:wp-thailand-in-world-war-ii
 Sources: s:wp-thailand-in-world-war-ii, s:wp-japanese-occupation-of-burma, s:wp-khun-yuam-district
+NEEDS VERIFICATION
+
+## Mae Sam Laep and the Salween (stop/mae-sam-laep)
+Thai: แม่สามแลบ และแม่น้ำสาละวิน
+
+### what
+A river village west of Mae Sariang at the end of a side road, on the Salween where it forms the frontier.
+
+### story
+The Salween rises in Tibet and runs some two and a half thousand kilometres to the Andaman Sea, and for a long stretch of its lower course it is the line between Thailand and Myanmar. At Mae Sam Laep you are standing on that line.
+
+*Inference —* this is the best detour on the southern leg and almost nobody takes it, because the long Mae Sariang day already feels long. It is worth rearranging the day for: a wide brown river, forest on both banks, longtail boats loading rice and people, and a far bank that is a different country with no bridge to it.
+
+The road in is a side road off Route 108 and it descends steeply to the water. *Inference —* go in the morning, when the boats are working, and eat at the river.
+
+**Not on this disk:** current boat services, prices, or whether any particular trip is running. The border is a live administrative thing and what is possible there changes.
+
+Provenance: cited · s:wp-salween-river
+Sources: s:wp-salween-river, s:wp-mae-sariang-district, s:thwp-salween
 NEEDS VERIFICATION
 
 ## Mae Surin Waterfall (stop/mae-surin-waterfall)
@@ -532,6 +576,23 @@ The gorge itself is narrow and deep and the water goes through it fast; the nati
 Provenance: cited · s:wp-op-luang-national-park
 Sources: s:wp-op-luang-national-park
 
+## Pa Bong Piang rice terraces (stop/pa-bong-piang)
+Thai: นาขั้นบันไดป่าบงเปียง
+
+### what
+In Mae Chaem district, off the eastern end of the 1263 cut. One of the reasons to take the shortcut at all.
+
+### story
+*Tradition holds —* these are working Karen terraces, farmed, not a viewing platform. They are at their green between about July and September and turn gold before the harvest around October and November.
+
+*Inference —* the timing is the opposite of most of this circuit's advice. The cool dry season that everyone books is when the terraces are cut stubble. If the terraces are what you came for, come in the green season — which is also, from the air data, the cleanest air of the year.
+
+Getting there is a side road off the Mae Chaem end, and it is the kind of place where arriving early means having it to yourself.
+
+Provenance: harvested · s:osm
+Sources: s:wp-mae-chaem-district, s:osm, s:wp-karen-peoples
+NEEDS VERIFICATION
+
 ## Pai Canyon (stop/pai-canyon)
 Thai: กองแลน
 
@@ -539,13 +600,31 @@ Thai: กองแลน
 Kong Lan: narrow eroded sandstone ridges on the edge of the Pai basin, walked at sunset by most of the town.
 
 ### story
-*Inference —* two things are worth saying about it that the photographs do not. The ridges are genuinely narrow with unprotected drops on both sides and the sandstone crumbles; people have been hurt there. And it is ten minutes from Pai on Route 1095, which means it works as the last stop of the day you ride in, rather than as an outing.
+*Inference —* ten minutes from Pai on Route 1095, which makes it the last stop of the day you ride in rather than an outing of its own. Go for sunset: the light comes in sideways along the ridges and the whole basin turns orange underneath you.
 
-Sunset is when everyone goes, which is also when the light is best and when the walk back is done in the dark.
+The ridges are narrow with open drops on both sides and the sandstone is soft. Walk out as far as you feel like and no further — the view from the first fifty metres is the same view.
 
 Provenance: tradition
 Sources: s:wp-pai-district, s:wp-pai-thailand
 NEEDS VERIFICATION
+
+## The evening in Pai (stop/pai-walking-street)
+Thai: ถนนคนเดินปาย
+
+### what
+Pai's evening market runs down the main street every night in the season: food stalls, music, and most of the town's visitors in one place.
+
+### story
+*Inference —* this is the most divisive thing on the circuit and it is worth saying plainly what it is. Pai in high season is busy, loud, young and commercial. Wikipedia's article records that between November and March the town has traffic jams and runs short of electricity, water and petrol.
+
+If that is what you want for one night, it is genuinely good at it: the food is cheap and various, there is live music most nights, and the valley is still right there in the morning.
+
+If it is not what you want, the answer is not to skip Pai — it is to sleep outside the town in the valley, come in for dinner, and ride out early. Soppong, forty minutes on, is the opposite of all of this.
+
+*Tradition holds —* the night market is a Thai form, not a visitor invention. Every town on this loop has an evening market; Pai's is simply the one with an audience.
+
+Provenance: cited · s:wp-pai-thailand
+Sources: s:wp-pai-thailand, s:wp-night-market, s:osm
 
 ## Pang Ung (stop/pang-ung)
 Thai: ปางอุ๋ง
@@ -647,6 +726,402 @@ The practical note: there is a road to the top, so this is a ride rather than a 
 Provenance: cited · s:thwp-wat-phra-that-doi-kong-mu
 Sources: s:thwp-wat-phra-that-doi-kong-mu, s:wp-mae-hong-son, s:wp-mae-hong-son-province, s:wp-shan-state
 
+## Why the temples here are called Chong (wat/jong-and-chong)
+Thai: ทำไมวัดแถบนี้ชื่อจอง
+
+### what
+A naming pattern that maps the cultural border better than the political one does, and it is visible in the map data.
+
+### story
+*Tradition holds —* *chong* or *jong* (จอง) is the Shan word for a monastery, and it turns up in temple names through Shan country on both sides of the border.
+
+**So it should be testable, and it is.** Counting the named Buddhist temples in the OpenStreetMap harvest within fifteen kilometres of each town: Mae Hong Son has three of ten carrying the word — Wat Chong Kham, Wat Chong Klang and the pair listed together as วัดจองกลาง วัดจองคำ. Mae Sariang has one, Wat Jong Soong. Khun Yuam has none. Pai has none of seventeen. **Chiang Mai has none of three hundred and eighty-two.**
+
+*Inference —* that is a small sample and OpenStreetMap's romanisation is inconsistent, so treat it as a floor rather than a survey. But zero out of 382 in Chiang Mai against three out of ten in Mae Hong Son is not noise, and it is the same line the architecture draws: this province was Shan before it was Thai, and the Anglo-Siamese boundary settlement of 1892–93 moved the border without moving the people.
+
+Which means a rider crossing from Pai to Mae Hong Son is crossing something older than the province, and the temple signboards are where it shows.
+
+Provenance: harvested · s:osm
+Sources: s:osm, s:wp-shan-people, s:wp-mae-hong-son-province, s:wp-shan-state
+NEEDS VERIFICATION
+
+## Wat Hua Wiang (wat/wat-hua-wiang)
+Thai: วัดหัวเวียง
+
+### what
+In the centre of Mae Hong Son town, beside the morning market. The image inside is the reason to go in.
+
+### story
+*Tradition holds —* the principal image, Phra Chao Phara La Khaeng, is held to have been cast in Burma and brought over in sections. Whatever the exact route, the object is not a Lanna casting and it does not look like one.
+
+*Inference —* what makes this one worth ten minutes rather than a photograph from the road is the setting. It is a working neighbourhood temple in the middle of a market, with a corrugated roof and no ticket, which is a different proposition from a hilltop chedi, and it is where you see what these buildings are for on an ordinary Tuesday.
+
+It is next to the morning market, which means you can do both before eight and be riding by nine.
+
+Provenance: tradition
+Sources: s:wp-mae-hong-son, s:osm, s:wp-shan-people
+NEEDS VERIFICATION
+
+## Wat Jong Soong (wat/wat-jong-soong)
+Thai: วัดจองสูง
+
+### what
+In the middle of Mae Sariang, with the whitewashed tiered chedis and the tin roofs of the Shan-Burmese manner rather than the Lanna one.
+
+### story
+*Inference —* Mae Sariang is the southern Shan town on this circuit, and this temple is the clearest single piece of evidence for that. From here south and east the architecture turns Lanna; from here north and west it stays Shan all the way to the border.
+
+OpenStreetMap maps eighteen named temples within fifteen kilometres of Mae Sariang. This is the only one carrying the Shan word, which is a smaller share than Mae Hong Son's three in ten — the pattern thins as you go south, which is what you would expect of a cultural gradient rather than a line.
+
+*Inference —* for a rider it is a five-minute stop in the middle of a town you are probably sleeping in anyway, on the longest and emptiest leg of the circuit. It is the leg that most needs a reason to slow down.
+
+Provenance: harvested · s:osm
+Sources: s:osm, s:wp-mae-sariang-district, s:wp-shan-people
+NEEDS VERIFICATION
+
+## Wat Phra That Mae Yen (wat/wat-phra-that-mae-yen)
+Thai: วัดพระธาตุแม่เย็น
+
+### what
+On the hill east of Pai. The seated white image is visible from most of the town, and the climb is the reason people go.
+
+### story
+*Inference —* the useful thing about this one is the timing. It faces west over the valley, which makes it a sunset rather than a sunrise, and it is close enough to town that it works on the evening you arrive rather than needing its own morning.
+
+There is a road up as well as the steps. On a small bike take the road; the steps are the point only if you want them to be.
+
+This is a Lanna-named temple — *Phra That*, a relic stupa — in a town that sits on the Shan side of the province, which is a reminder that the naming pattern further west is a tendency and not a rule. Pai has none of the Chong names at all.
+
+Provenance: tradition
+Sources: s:wp-pai-thailand, s:wp-pai-district, s:osm
+NEEDS VERIFICATION
+
+## Grilled by the road (dish/grilled-by-the-road)
+Thai: ของย่างริมทาง
+
+### what
+The roadside grill is the most reliable good meal between towns, and you smell it before you see it.
+
+### story
+*Tradition holds —* *gai yang* is chicken butterflied flat, clamped in split bamboo and grilled slowly over charcoal at the roadside; it goes with sticky rice and *som tam*, green papaya pounded with lime, chilli, fish sauce and tomato. Pork skewers, grilled river fish packed in salt, and sausages are on the same grills.
+
+*Inference —* the smell is the point. On a bike you get it a hundred metres before the stall, which is enough warning to stop, and it is the single most common reason a planned four-hour leg becomes five.
+
+*Tradition holds —* the northern sausage, *sai ua*, is the local one: pork with lemongrass, galangal, makrut leaf and chilli, coiled and grilled. It is sold by weight at every market on this circuit and it travels in a bag on the bike better than anything else here.
+
+Provenance: tradition
+Sources: s:wp-thai-cuisine, s:wp-nam-phrik
+
+## Khao soi (dish/khao-soi)
+Thai: ข้าวซอย
+
+### what
+A coconut curry noodle soup of upper northern Thailand, Laos and the Shan States. Chicken or beef, pickled mustard greens, shallot, lime, chilli paste on the side.
+
+### story
+The name means *cut rice*, from the way the fresh sheets of noodle are sliced. It belongs to the Tai Yai and to the wider Burmese-border kitchen as much as to Chiang Mai, which is why it is on the board the whole way round this loop.
+
+*Inference —* the practical fact for a rider is the hour. This is breakfast and lunch food. Many of the best places sell out and close by early afternoon, so it is a reason to be on the road by seven and off it by one — which happens to be the same advice the smoke and the heat give you, for entirely different reasons.
+
+*Tradition holds —* the four things on the side are not a garnish. The pickled greens and the lime cut the coconut, the shallot is raw and sharp, and the chilli paste is where the heat lives, so the bowl arrives mild and you build it.
+
+Provenance: cited · s:wp-khao-soi
+Sources: s:wp-khao-soi, s:wp-thai-cuisine
+
+## The morning market (dish/morning-market)
+Thai: ตลาดเช้า
+
+### what
+Every town on this loop has one. Rice, curries in bags, grilled things, sticky rice, coffee, and whatever the hills sent down that morning.
+
+### story
+*Inference —* this is the single best thing on the circuit that costs almost nothing and that most riders sleep through. The market is at its fullest between five and seven and is packing up by nine, which is the same window in which you want to be riding anyway — so the answer is to eat first and leave at eight, not to lie in and buy a sandwich.
+
+What is on the tables changes by altitude and by who is selling. In Mae Hong Son and Mae Sariang the Shan and Burmese side of the kitchen is right there; up the hill it is Karen and Lisu produce; in Mae Chaem it is a Lanna market.
+
+*Tradition holds —* curry is sold by the bag, tied at the neck, to take away. You buy rice separately. Nobody minds you pointing.
+
+Provenance: tradition
+Sources: s:wp-night-market, s:wp-thai-cuisine, s:wp-mae-hong-son-province
+
+## Kanom jeen nam ngiao (dish/nam-ngiao)
+Thai: ขนมจีนน้ำเงี้ยว
+
+### what
+Fermented rice vermicelli under a thin, sour, red broth of tomato and pork, with dried kapok flower, pork blood cubes and a pork rib.
+
+### story
+The name is the giveaway: *ngiao* is an old Thai word for the Shan. This is Shan food that northern Thailand adopted, and on the western half of this loop you are eating it where it comes from rather than where it travelled to.
+
+*Tradition holds —* the dried kapok flower, *dok ngiao*, is the ingredient that makes it what it is: it goes soft in the broth and adds body rather than flavour. Without it the bowl is a tomato soup.
+
+*Inference —* it is lighter than khao soi and served all day, which makes it the better bet when you arrive somewhere at three in the afternoon and the khao soi has gone.
+
+Provenance: tradition
+Sources: s:wp-thai-cuisine, s:wp-shan-people
+NEEDS VERIFICATION
+
+## Sticky rice (dish/sticky-rice)
+Thai: ข้าวเหนียว
+
+### what
+Glutinous rice, steamed rather than boiled, eaten with the right hand in small pressed balls. The everyday grain of the north and the northeast.
+
+### story
+Glutinous rice contains effectively no amylose, which is the starch that makes ordinary rice separate into grains; that is the whole reason it holds together.
+
+*Inference —* why it matters on a motorcycle: a basket of sticky rice and a bag of something to dip it in needs no plate, no cutlery, no table and no stop longer than the time it takes to sit down. It is the only lunch on this list you can genuinely eat at a viewpoint.
+
+*Tradition holds —* you take a small amount, press it into a ball in your fingers, and use it to pick up whatever is beside it. It is eaten with the hand and it is not rude to do so.
+
+Provenance: cited · s:wp-glutinous-rice
+Sources: s:wp-glutinous-rice, s:wp-thai-cuisine
+
+## Thua nao (dish/thua-nao)
+Thai: ถั่วเน่า
+
+### what
+Soybeans fermented, mashed, pressed flat and sun-dried into thin discs, then toasted or fried and crumbled into food. The name means rotten bean and nobody minds.
+
+### story
+*Tradition holds —* this is the northern and Shan answer to fish sauce, in a region far from the sea. Where central Thailand reaches for *nam pla*, the hill kitchens reach for a toasted disc of fermented bean.
+
+*Inference —* it is the single ingredient that most reliably tells you which side of the cultural line you are eating on, and it is easy to miss because it arrives crumbled into something else. Ask, and people will show you the discs — they are stacked like coasters in every market on the western half of this loop.
+
+The smell on a toasting grill is strong and it is the good kind.
+
+Provenance: tradition
+Sources: s:wp-soybean, s:wp-burmese-cuisine, s:wp-shan-people
+NEEDS VERIFICATION
+
+## The Yunnanese table at Ban Rak Thai (dish/yunnan-table)
+Thai: อาหารยูนนานที่บ้านรักไทย
+
+### what
+Chinese Yunnanese food, on a reservoir, a few kilometres from the Myanmar border, at the end of a road that goes nowhere else.
+
+### story
+Chinese Yunnanese are one of the named population groups of Mae Hong Son province, and this village is the most concentrated expression of that on the circuit: the cooking is Yunnanese, not Thai, and so is the architecture.
+
+*Inference —* for a rider the thing worth knowing is that it is a dead-end road, so this is an afternoon out of Mae Hong Son rather than a leg of the loop. Which is a large part of why Mae Hong Son is worth two nights and not one.
+
+*Tradition holds —* the tea is grown on the terraces above the village and is sold and poured by the people who picked it. That is the meal, as much as the food is.
+
+Provenance: cited · s:wp-yunnan-cuisine
+Sources: s:wp-yunnan-cuisine, s:thwp-ban-rak-thai, s:wp-mae-hong-son-province
+NEEDS VERIFICATION
+
+## Miang and mountain tea (coffee/miang-and-tea)
+Thai: เมี่ยงและชาบนดอย
+
+### what
+Before the coffee, these hills grew tea. Much of it still does, and the older use of the leaf is not a drink at all.
+
+### story
+*Tradition holds —* *miang* is tea leaf steamed and fermented, then chewed as a wad with salt, ginger or sugar. It was the northern Thai way with the tea plant long before anyone here brewed it, and *miang* forests — old semi-wild tea gardens under shade trees — still stand on these hills.
+
+*Inference —* the reason it is worth knowing is that it reframes what you are riding through. The coffee on these slopes arrived in the twentieth century as a substitution crop; the tea has been here far longer, and the shade trees over the old gardens are why parts of this forest look tended rather than wild.
+
+At Ban Rak Thai the Yunnanese grow and brew tea in the Chinese manner and will pour it for you properly, which is a different plant culture again, arriving over the border from the north.
+
+Provenance: tradition
+Sources: s:wp-thai-cuisine, s:wp-coffee-production-in-thailand, s:wp-yunnan-cuisine
+NEEDS VERIFICATION
+
+## Arabica off the ridge you just rode over (coffee/ridge-arabica)
+Thai: อาราบิก้าจากดอยที่เพิ่งข้ามมา
+
+### what
+Northern Thailand grows arabica on the hills this road climbs. The plant wants altitude, shade and a dry harvest — which is exactly what these slopes are.
+
+### story
+*Coffea arabica* does best at altitude in the tropics, and the reason there is coffee on these hills at all is a deliberate substitution: Thai highland coffee was promoted from the 1970s onward as a replacement crop for opium poppy, under royal project and government programmes.
+
+*Inference —* which makes a roadside cup on this circuit a piece of the region's history rather than a nice drink, and it is why so many of the growers are Lisu, Lahu, Akha, Hmong and Karen families rather than lowland Thai companies.
+
+What this means on the road: the cup at the top of a climb is often grown within sight of where you are standing. Ask where it is from and you frequently get pointed at a hillside rather than given a brand.
+
+Provenance: cited · s:wp-coffee-production-in-thailand
+Sources: s:wp-coffee-production-in-thailand, s:wp-coffea-arabica
+
+## The stall at the top of the climb (coffee/roadside-stall)
+Thai: เพิงกาแฟบนยอดดอย
+
+### what
+Somewhere near the top of most long climbs on this circuit there is a shack selling coffee, with a bench pointed at the valley.
+
+### story
+*Inference —* this is the thing to plan the day around. The distance is short and the day is long, and these stops are why.
+
+The pattern is consistent enough to rely on. A climb of any length on 1095, 1263 or 1088 will have a pull-in near the top where the view opens, and where there is a view there is usually someone selling coffee. The coffee is often grown nearby; the view is always free.
+
+**What the harvest found:** OpenStreetMap has 220 cafés mapped within twelve kilometres of a town on this loop, 188 of them named. That is a floor and not a survey — the shack with three stools and no sign is exactly the kind of place a volunteer mapper has not entered.
+
+Provenance: inference
+Sources: s:wp-coffee-production-in-thailand, s:osm
+
+## The 7-Eleven (coffee/seven-eleven)
+Thai: เซเว่น
+
+### what
+In the towns, the convenience store is a coffee stop, a water stop, a shade stop and a toilet. It is also the most reliable of the four.
+
+### story
+*Inference —* there is a kind of rider who will ride past a 7-Eleven in forty-degree heat because it is not characterful. That rider arrives at the guesthouse dehydrated, and dehydration on a bike arrives without a signal because the airflow stops you noticing you are sweating.
+
+What it is good for: cold water in quantity, shade with air conditioning in it, a toilet that is always there, an ATM, a phone top-up, and coffee that is fine.
+
+What it is not good for is the reason you came. Between the towns, stop at the stall with the bench and the view. In the towns, at two in the afternoon, in March, take the air conditioning.
+
+Provenance: inference
+Sources: s:wp-thai-cuisine
+
+## Pha Bong hot springs (spring/pha-bong)
+Thai: น้ำพุร้อนผาบ่อง
+
+### what
+A developed hot spring on the southern road out of Mae Hong Son, with a communal foot pool and rooms where the water is run into a tub for you.
+
+### story
+*Inference —* this one is on the route rather than up a side road, which on a circuit where every detour costs daylight is most of what makes it usable. It is the first thing on Route 108 going south, so it works as a stop on the way out of Mae Hong Son rather than an expedition.
+
+*Tradition holds —* the private room with a tub is the arrangement at Thai developed springs, and it is what to ask for if sitting in a communal pool in a swimsuit is not what you want. A foot pool costs less and does most of the work.
+
+**Not on this disk:** current charges or hours.
+
+Provenance: harvested · s:osm
+Sources: s:wp-hot-spring, s:wp-mueang-mae-hong-son-district, s:osm
+NEEDS VERIFICATION
+
+## Tha Pai hot springs (spring/tha-pai-hot-springs)
+Thai: น้ำพุร้อนท่าปาย
+
+### what
+A hot spring inside a national park east of Pai, where the source feeds a stream you can sit in where it has cooled enough.
+
+### story
+A hot spring is groundwater heated at depth and returned to the surface, and in this part of northern Thailand there are several along the same geological grain the road follows.
+
+*Inference —* arrive in Pai with daylight left and this is where the afternoon goes. Teak overhead, the stream running warm over your legs, and nothing else to do until dinner.
+
+**Not on this disk:** the current entrance fee — Thailand charges a separate foreigner rate at national parks — the opening hours, or which pools are open in which season. The source is very hot; the temperature you can sit in is a stretch of the stream, not the source itself.
+
+Provenance: harvested · s:osm
+Sources: s:wp-hot-spring, s:wp-pai-district, s:osm
+NEEDS VERIFICATION
+
+## How a Thai hot spring works (spring/what-a-spring-is)
+Thai: น้ำพุร้อนแบบไทยเป็นอย่างไร
+
+### what
+What to expect at a developed spring here, and how it differs from the Japanese arrangement most visitors have in mind.
+
+### story
+An onsen is bathed in naked, sex-segregated, after washing. *Tradition holds —* a Thai developed spring is generally not that: communal pools are mixed and clothed, swimwear or a sarong, and the built form is usually concrete pools and a foot bath rather than timber and stone.
+
+The private room with a tub is the option if you want to be alone, and it is normally cheap.
+
+*Tradition holds —* the egg thing is not a gimmick for visitors. Baskets of raw eggs are sold at the source and lowered into it; the water is hot enough to cook them and people have been doing it as long as there have been eggs and springs.
+
+*Inference —* what none of that changes is the reason to go. Hot water, a hillside, and an hour in which nothing is required of you. It is the cheapest hour on the circuit and it is not close.
+
+Provenance: tradition
+Sources: s:wp-hot-spring, s:wp-onsen
+
+## The hut with no wall on the valley side (stay/bamboo-hut)
+Thai: กระท่อมที่ไม่มีผนังด้านหุบเขา
+
+### what
+The form that made Pai's name and has since spread down the whole circuit: a raised bamboo platform hut, open on the view side, often with the bathroom in a separate box.
+
+### story
+*Inference —* what you are buying is the first ten minutes after you stop riding, when you sit on the step with the engine ticking as it cools and the valley doing whatever the valley is doing. On a trip whose whole subject is motion, the places that make stopping worth something are doing the heavier work.
+
+Two things worth knowing. It is cold before dawn from November to February and bamboo is not insulated, so the blanket matters more than the view does at five in the morning. And the huts with the best view are usually up the steepest track — the one at the bottom of the slope looks at the same valley.
+
+Provenance: inference
+Sources: s:osm, s:wp-pai-district
+
+## The teak shophouse (stay/teak-shophouse)
+Thai: ตึกแถวไม้สัก
+
+### what
+Mae Sariang and Mae Hong Son both keep rows of timber shophouses from the teak years, and some of them take guests.
+
+### story
+Teak built these towns. The trade ran west into Burma and down the rivers, and the buildings that are left are the physical remains of it — wide boards, deep eaves, a balcony over the shopfront.
+
+*Inference —* staying in one is the cheapest history lesson on the circuit, and the trade-off is plain: timber carries sound, so you will hear the street until it sleeps and the stairs whenever anyone uses them. Mae Sariang is the quieter of the two towns to try it in.
+
+The rooms are usually simple — a bed, a fan, a shared bathroom in the older ones. What you get is the building.
+
+Provenance: cited · s:wp-teak
+Sources: s:wp-teak, s:wp-mae-sariang-district, s:osm
+
+## Where to put the nights (stay/where-to-put-the-nights)
+Thai: ควรนอนที่ไหนบ้าง
+
+### what
+Which towns are worth a night, which are worth two, and the one decision that changes the trip most.
+
+### story
+*Inference —* the single highest-value change anyone can make to this itinerary is **two nights in Mae Hong Son instead of one.** Everything the province is actually known for is a dawn or an afternoon that a one-night stop cannot reach: the mist off Doi Kong Mu before the town wakes, Pang Ung at six in the morning, the dead-end road up to Ban Rak Thai, the lake temples lit after dark. One night gets you an evening and a departure.
+
+**Second-highest:** stopping at Soppong rather than running Pai to Mae Hong Son in a day. It turns a long day ending in the hardest descent of the northern leg into two short ones with a cave in the middle.
+
+**Worth a night:** Pai, Soppong, Mae Hong Son, Mae Sariang. **Worth two:** Mae Hong Son, and Pai if you want the valley rather than the town. **Skip if pushed:** Khun Yuam and Hot are stops, not stays, unless the Bua Tong is out.
+
+**What the harvest found:** 417 places to stay are mapped within twelve kilometres of a town on this loop, 402 of them named. Pai has 259 of them and Soppong has 7, which tells you most of what you need to know about booking ahead in each.
+
+Provenance: harvested · s:osm
+Sources: s:osm, s:wp-mae-hong-son-province
+
+## Annoyances (hazard/annoyances)
+Thai: เรื่องกวนใจ
+
+### what
+The small stuff, in one drawer, with what to do about it and what to say afterwards. None of these will end your trip. Most of them will end up being the bit you tell people about.
+
+### story
+**Village dogs** — One comes off a porch at your ankle.
+
+*Antidote —* Slow, hold a straight line, keep going. It is defending a boundary, not hunting, and the chase ends in a few metres. The swerve is the only part that can hurt you.
+
+*Alibi —* Every rider in Thailand has this story. Yours is not the best one.
+
+**The guesthouse driveway** — Six hundred kilometres survived, and it goes over outside the room.
+
+*Antidote —* Stop at the bottom and look before committing. Take the luggage off if it is steep. Walk it if the concrete is wet — polished wet concrete is far more slippery than it looks. On anything heavy, reverse in.
+
+*Alibi —* At walking pace, with a bag on, on wet concrete, at the end of a six-hour day. Nobody who has ridden here will raise an eyebrow.
+
+**A loaded bike steers differently** — It goes where it was pointed a second ago.
+
+*Antidote —* Low and forward: footwell before rack, rack before pillion seat, heavy things against the tank. A rucksack on your back is the worst option of all because it moves when you do.
+
+*Alibi —* Or send the bag ahead and ride the bike the shop designed.
+
+**The pump is shut** — You arrive at four and the village station closed at three.
+
+*Antidote —* Fill at every town whether or not the tank needs it. Where there is no station, small shops sell fuel by the litre from bottles on a rack outside.
+
+*Alibi —* The bottle costs a little more and comes with someone who wants to know where you are going.
+
+**No signal** — The map stops working somewhere on the 1263.
+
+*Antidote —* Download the offline map before you leave the guesthouse wifi. The road is one road; the kilometre stones tell you where you are.
+
+*Alibi —* Two hours without a phone on a mountain road is the thing you told people you came for.
+
+**The afternoon storm** — It arrives at two, hard, for forty minutes.
+
+*Antidote —* Stop. Have the coffee. In the green season the rain is heavy and short, and a day planned to finish at two usually finishes dry.
+
+*Alibi —* The forty minutes under a shop awning with three other people waiting it out is a better story than the kilometres either side of it.
+
+Provenance: inference
+Sources: s:wp-motorcycle-safety, s:mhs-measured
+
 ## Brake fade (hazard/brake-fade)
 Thai: เบรกเฟด
 
@@ -677,20 +1152,6 @@ What that means on the road is that the correct position entering a blind left-h
 Provenance: inference
 Sources: s:wp-hairpin-turn, s:wp-motorcycle-safety
 
-## Dogs (hazard/dogs)
-Thai: สุนัข
-
-### what
-Free-roaming dogs are ordinary in Thai villages, and a bike at village speed through a village is what triggers a chase.
-
-### story
-*Inference —* the danger is almost never the bite. It is the swerve: a rider who jerks away from a dog on a two-lane road with a drop on one side has made the dog's problem into a much worse one. Slowing and holding a straight line ends the chase in a few metres, because the dog is defending a boundary rather than hunting.
-
-Where it matters is at night and in the villages strung along Route 108, where the houses are on both sides and the road is the only flat ground.
-
-Provenance: inference
-Sources: s:wp-motorcycle-safety
-
 ## Gravel on the apex (hazard/gravel-on-the-apex)
 Thai: กรวดกลางโค้ง
 
@@ -706,20 +1167,6 @@ What to do about it is a line choice, not a skill: stay wide, turn late, get the
 
 Provenance: inference
 Sources: s:wp-motorcycle-safety, s:wp-hairpin-turn
-
-## A loaded bike is a different bike (hazard/loaded-bike)
-Thai: รถที่บรรทุกคือรถคนละคัน
-
-### what
-Weight added high and behind the rear axle — a tail pack, a rucksack, a pillion — changes the handling in ways that all show up on a descent.
-
-### story
-*Inference —* the effects compound rather than add. Higher centre of mass means more effort to lean and more reluctance to stay leant; more total mass means longer stopping and more heat in the brakes over a long descent; and weight behind the axle lightens the front, which is the wheel doing the steering and most of the braking.
-
-The fix is placement before it is technique. Low and forward: footwell before rack, panniers before top box, and anything heavy against the tank rather than over the tail light. See the packing page.
-
-Provenance: inference
-Sources: s:wp-motorcycle-safety
 
 ## The low sun (hazard/low-sun)
 Thai: แดดต่ำ
@@ -765,20 +1212,6 @@ There is also a third effect that gets missed: *Inference —* smoke flattens co
 Provenance: harvested · s:open-meteo-aq
 Sources: s:open-meteo-aq, s:epa-pm25-2024, s:wp-southeast-asian-haze, s:wp-motorcycle-helmet
 
-## The guesthouse driveway (hazard/steep-driveways)
-Thai: ทางเข้าที่พักชัน
-
-### what
-Hillside guesthouses are reached by short, very steep, often unsealed or wet-concrete ramps. It is where heavy bikes are dropped.
-
-### story
-*Inference —* the combination is specific: a gradient steeper than anything on the highway, a surface that is polished concrete or loose dirt, a tight turn at the top or bottom, and a rider who has been riding for six hours and has luggage on the back. Nothing about it is difficult in isolation.
-
-The habits that prevent it are unglamorous. Stop at the bottom and look before committing. Take the luggage off first if it is steep. Walk it if the surface is wet concrete, which is far more slippery than it looks. And on a heavy bike, reverse in rather than discovering at checkout that you cannot push it back up.
-
-Provenance: inference
-Sources: s:wp-motorcycle-safety
-
 ## The 700cc-and-up adventure bike (bike/big-adventure)
 Thai: รถแอดเวนเจอร์ 700 ซีซีขึ้นไป
 
@@ -786,6 +1219,8 @@ Thai: รถแอดเวนเจอร์ 700 ซีซีขึ้นไป
 An Africa Twin, a GS, a Tiger, a V-Strom 1050: 220 to 260 kilograms wet, tall, and entirely capable.
 
 ### story
+**What it is like.** Commanding. You sit high enough to see over the vegetation into the next valley, the engine never has to try, and on the 265 kilometres of two-lane between Hot and Mae Hong Son it turns a long day into an easy one. Luggage is a solved problem. Nothing on this circuit is beyond it.
+
 There is nothing on this circuit a large adventure bike cannot do. The question is arithmetic, not capability.
 
 *Inference —* the measured curve density on Route 1095 and 1263 means a rider is making a steering input every few seconds for hours. On a light bike that is pleasure. At 250 kilograms it is work, and work accumulates: the mistakes on this road are made in the last hour of a long day, not the first.
@@ -802,6 +1237,8 @@ Thai: รถสองสูบ 400–700
 A CB500X, an MT-07, a Rally 500, a Himalayan 450: mid-capacity, torque low down, real brakes, and 17- or 19-inch wheels.
 
 ### story
+**What it is like.** The sweet spot, if there is one. Enough torque to leave a hairpin without a downshift, brakes that never complain, and a seat you can stay on for six hours. On the long open sweeps of Route 108 south of Mae Sariang it is doing exactly what it was built for, and on 1095 it is still light enough to enjoy.
+
 *Inference —* this is the range that suits the circuit best on paper: the engine braking to hold a descent, brakes that do not fade, enough power for the long Route 108 straights, and a weight you can still turn around on a one-and-a-half-lane switchback when you find a landslide.
 
 The catch is the same weight. A 200-kilogram bike that falls over on a steep gravel guesthouse driveway needs two people to pick up, and on this circuit the second person may be an hour away.
@@ -816,6 +1253,8 @@ Thai: นั่งซ้อนท้าย
 Two people, one bike, six hundred kilometres of camber changes. Common, and worth planning around rather than discovering.
 
 ### story
+**What it is like.** Better, in the ways nobody mentions. The passenger gets to look. The rider is working a line and watching the surface; the pillion is watching the valley open up, spotting the stall with the bench, seeing the gibbon. Two people on this road come home with different trips and the pillion's is often the richer one.
+
 *Inference —* three things change with a passenger, and all three are worse on a descent. The bike is heavier so it stops later; the weight is high and behind the rear axle so it wants to stand the bike up mid-corner; and the passenger cannot see the road surface coming, so every unannounced brake application is a surprise that moves their weight forward into the rider.
 
 What fixes most of it is boring: more distance, earlier braking, and telling the passenger where the next stop is. Days should be shorter — *Inference —* about two-thirds of the distance a solo rider would plan.
@@ -832,6 +1271,8 @@ Thai: รถออโต้ 110–125 ซีซี
 A Honda Click, a Scoopy, a Mio, a Nouvo: automatic, small wheels, drum or single-disc brakes, and the rental shop's default. It will complete the loop. Several thousand a year do.
 
 ### story
+**What it is like.** Feet forward, back straight, the whole valley in front of you because there is no screen and no tank. It weighs almost nothing, so you place it rather than steer it, and at forty kilometres an hour on a road this tight you are going quite fast enough to be busy. Everyone in northern Thailand is on one; you will be waved at by grandmothers.
+
 Two things about a twist-and-go on a long mountain descent, and they are the same thing said twice.
 
 An automatic transmission gives you **no engine braking worth the name**. On a road with the hairpin density of Route 1095 or 1263 that means the brakes do all the work for tens of kilometres at a stretch, and a small drum brake that has been dragged for four minutes stops working the way it did in the first minute. *Inference —* this is the single mechanical fact that most changes how a scooter should be ridden here: come down slowly, in stages, and stop to let the brakes cool, which feels absurd until the lever comes back to the bar.
@@ -850,6 +1291,8 @@ Thai: รถวิบาก 250–450
 A KLX, a CRF, a D-Tracker, a Versys-X: long travel, 21- or 19-inch front wheel, upright, light, and rented all over Chiang Mai.
 
 ### story
+**What it is like.** Tall, light and upright, which on a road with this many blind bends means you can see over the bank and around the corner before the corner arrives. The long suspension turns broken tarmac into texture rather than an event. It is the bike that makes every side road on the map a live option, and there are a great many side roads.
+
 On a circuit that is sealed almost end to end, a trail bike's advantage is not the dirt. It is the suspension travel over broken edges, the ground clearance over the concrete water bars on steep sections, and the fact that dropping it at walking pace on a wet driveway costs nothing.
 
 *Inference —* it is also the machine that makes Route 1263 and the side roads to the villages a decision you make on the day rather than one you make when you rent. What you give up is a comfortable 100 km/h on the four-lane section of Route 108 out of Chiang Mai, where a tall single-cylinder is buzzy and tiring.
@@ -864,6 +1307,8 @@ Thai: รถครอบครัวมีเกียร์ 125
 A Honda Wave, a Dream, a Sonic: a small four-stroke in a step-through frame with a four-speed gearbox and usually a centrifugal clutch, so there are gears but no clutch lever. The machine most of northern Thailand actually rides.
 
 ### story
+**What it is like.** The most satisfying cheap thing on two wheels. The clutchless gearbox means you change with your left foot and nothing else, so climbing becomes a rhythm — heel down, hold, heel down — and a long ascent stops being work. It is the bike the whole region actually rides, and riding one is the closest you get to travelling as a local rather than through a place.
+
 The gearbox is the whole argument. Second gear holds a loaded 125 down a hairpin descent on the engine, and the brakes are then there for corners rather than for the entire hill. *Inference —* for a rider who has never come down ten kilometres of switchbacks before, this one change matters more than any amount of extra engine.
 
 It is slower than a scooter off the line and faster everywhere that matters here, because 'faster' on this road means 'able to hold a steady speed up a long climb without the transmission hunting'.
@@ -1053,6 +1498,22 @@ Among the smallest of the Karen groups in Thailand are the Kayan Lahwi, whose wo
 Provenance: cited · s:wp-mae-hong-son-province
 Sources: s:wp-karen-peoples, s:wp-mae-hong-son-province, s:wp-kayan-people-myanmar, s:thwp-karen
 
+## Lisu, Lahu, Hmong and Lua (person/lisu-lahu-hmong)
+Thai: ลีซู ลาหู่ ม้ง และลัวะ
+
+### what
+Mae Hong Son's population is mostly not Thai. Seven named groups make up 63 per cent of it, and these are four of them.
+
+### story
+The Wikipedia article on the province is specific: seven groups make up 63 per cent of the provincial population — Karen, Lahu, Lisu, Lua, Miao, Chinese Yunnanese and Pa-O. Lahu, Lisu and Lua have their own spoken languages and write them in Latin script.
+
+*Inference —* for a rider this is not background. The villages on the higher ground either side of 1095 and 1263 are these communities, the coffee sold at the top of most climbs is grown by these families, and the produce on the morning market tables came down from their fields that morning.
+
+*Inference —* the useful thing to carry is that a village is somewhere people live and work, not a feature of the route. Slow down through them, and buy something — the coffee, the fruit, the woven thing — because a transaction is a better way to meet somebody than a photograph is.
+
+Provenance: cited · s:wp-mae-hong-son-province
+Sources: s:wp-mae-hong-son-province, s:wp-lahu-people, s:wp-lisu-people, s:wp-hmong-people
+
 ## The Shan (person/shan)
 Thai: ไทใหญ่
 
@@ -1068,6 +1529,24 @@ The province was formerly part of Mawkmai State, one of the Shan States, founded
 
 Provenance: cited · s:wp-mae-hong-son-province
 Sources: s:wp-shan-people, s:wp-mae-hong-son-province, s:wp-shan-state, s:wp-tai-peoples, s:thwp-shan
+
+## The Akha Swing Festival (event/akha-swing)
+Thai: เทศกาลโล้ชิงช้าของชาวอาข่า
+
+### what
+Yehkuja, the most important festival of the Akha year, held around a tall four-posted village swing. Worth timing a trip for — a different trip.
+
+### story
+**What it is.** Every Akha village keeps a tall four-posted swing, rebuilt each year by an elder called a *dzoeuh mah*, used in an annual ancestor offering tied to the fertility of rice. The four-day festival comes in **late August**, on the **120th day after the village has planted its rice**. The Akha name, *Yehkuja*, translates as *eating bitter rice* — a reference to the previous year's supply running down and a hope that the monsoon will water the new crop.
+
+It is also called **Women's New Year**, because the women wear the clothing they have spent the year making and show, through the ornamentation, that they are reaching marriageable age. The traditional New Year in late December is Men's New Year.
+
+**Why it is probably not on your loop.** The seven groups Wikipedia names as making up 63 per cent of Mae Hong Son's population are Karen, Lahu, Lisu, Lua, Miao, Chinese Yunnanese and Pa-O. **Akha are not among them.** Akha settlement in Thailand is concentrated well east of this circuit. *Inference —* so timing a Mae Hong Son trip for the Swing Festival is unlikely to work, and anyone who wants it should plan a different route east rather than expect to meet it here.
+
+**What is here in late August instead.** The rains, which the measured air data says is the cleanest air of the year, and the rice terraces at their greenest. Which is not a consolation prize.
+
+Provenance: cited · s:wp-akha-people
+Sources: s:wp-akha-people, s:wp-mae-hong-son-province
 
 ## The Bua Tong bloom (event/bua-tong-bloom)
 Thai: ทุ่งบัวตอง
@@ -1132,6 +1611,40 @@ The practical consequence is the same as the smoke advice and reinforces it: sta
 Provenance: inference
 Sources: s:wp-monsoon, s:wp-geography-of-thailand
 
+## Loi Krathong and Yi Peng (event/loi-krathong)
+Thai: ลอยกระทง และยี่เป็ง
+
+### what
+The full moon of the twelfth lunar month, usually November. The river festival, and the northern lantern festival that shares its dates.
+
+### story
+A *krathong* is a small float, traditionally a section of banana trunk dressed with folded leaves, flowers, incense and a candle, set on the water on the full moon of the twelfth lunar month. In the north the Lanna festival of Yi Peng falls at the same time and adds lanterns — the paper ones that rise, and the ones hung outside houses and temples.
+
+*Inference —* the timing is the good news. November is the start of the cool dry season, the measured air is clean, the Bua Tong is out above Khun Yuam, and the rains have left the waterfalls running. A rider who can pick their month can have all four at once, which is not true of any other window in the year.
+
+Every town on this circuit has a river or a pond and every one of them does something. Mae Hong Son floats its krathong on the pond between the two lit temples, which is about as good as a small town evening gets.
+
+*Tradition holds —* the floats were once entirely banana trunk and leaf, and styrofoam ones have been widely discouraged and in places banned. Buy the leaf one.
+
+Provenance: cited · s:wp-loy-krathong
+Sources: s:wp-loy-krathong, s:wp-mae-hong-son, s:wp-tithonia-diversifolia
+
+## Khao Phansa and Ok Phansa (event/phansa)
+Thai: เข้าพรรษา และออกพรรษา
+
+### what
+Vassa, the rains retreat. It opens and closes with festivals, and it runs across exactly the months this circuit is quietest.
+
+### story
+Vassa is the three-month retreat, observed by Theravada monastics during the rainy season, when monks remain in one place. It begins on the full moon of the eighth lunar month — usually July — and ends around the eleventh, usually October.
+
+*Inference —* for a rider this is the most underrated window on the whole calendar. It falls squarely in the green season: the measured air is at its cleanest, the terraces are green, the waterfalls are running, the rooms are cheap and the roads are empty. And the temples, which are the province's other subject, are at their most active rather than least — the opening and closing of the retreat are both marked, and candle offerings are made at the start.
+
+**What you give up** is dry tarmac, and Route 1263 comes off the plan. *Inference —* that is a small price for having Mae Hong Son to yourself.
+
+Provenance: cited · s:wp-vassa
+Sources: s:wp-vassa, s:wp-public-holidays-in-thailand
+
 ## Poy Sang Long (event/poy-sang-long)
 Thai: ปอยส่างลอง
 
@@ -1148,6 +1661,24 @@ It is also a religious event in people's own town rather than a display. *Infere
 Provenance: cited · s:wp-poy-sang-long
 Sources: s:wp-poy-sang-long, s:wp-shan-people, s:wp-mae-hong-son-province
 NEEDS VERIFICATION
+
+## Songkran (event/songkran)
+Thai: สงกรานต์
+
+### what
+The hottest days of the year, marked by pouring water. On a motorcycle this is a fact you plan around rather than a festival you attend.
+
+### story
+Songkran is the Thai new year, held 13–15 April, and the water-throwing that it is known for grew out of the gentler ritual of pouring water over Buddha images and over the hands of elders.
+
+*Inference —* the thing to understand as a rider is that you will be soaked, repeatedly, without being asked, and that this is not aimed at you personally. In the towns on this circuit, anyone on two wheels is a target — people with buckets stand at the roadside for three days.
+
+So the practical shape: put anything that must stay dry in a sealed bag before you set off, expect to ride wet, and accept that a leg through several towns will take much longer than the map says. Some riders plan to be *between* towns during the worst of it, which works.
+
+*Inference —* it also falls in the worst measured air of the year and the hottest weather. April is the hardest month on this circuit for reasons that have nothing to do with the festival, and Songkran is a reason some people come anyway.
+
+Provenance: cited · s:wp-songkran-thailand
+Sources: s:wp-songkran-thailand, s:wp-public-holidays-in-thailand
 
 ## The rains (event/the-rains)
 Thai: หน้าฝน
@@ -1259,6 +1790,26 @@ The sign is not coming down and the shirt still sells. *Inference —* the usefu
 Provenance: cited · s:doh-1095
 Sources: s:doh-1095, s:thwp-1095, s:osm, s:mhs-measured, s:wp-hairpin-turn
 
+## How old is this ride (story/how-old-is-this-ride)
+Thai: ทริปนี้เก่าแค่ไหน
+
+### what
+People have moved along this line for centuries and have been riding it for pleasure for under thirty years. Both halves of that are worth knowing.
+
+### story
+**The southern road is old.** Thai Wikipedia's article on Route 108 describes it as an ancient route, because it linked Chiang Mai — the centre of the Lanna kingdom — with **Mawlamyine**, the port on the Andaman Sea in Mon State, crossing the border at the Salween in what is now Mae Sariang district. That is a trade road to the Indian Ocean, and it was walked long before it was driven.
+
+**Then the dates.** The Highways Department built it up from a rough track into a **gravel road between 1957 and 1963**, about five metres wide. Asphalt came much later: a surfacing programme ran **from 1987 to 1990** in named sections — Hot to Mae Sariang, Mae La Noi to Khun Yuam, Khun Yuam to Ban Huai Pong, Ban Huai Pong to Mae Hong Son, Mae Sariang to Mae La Noi — and the whole road was **finished in 1998**.
+
+**The northern road is younger still.** Work on the Chiang Mai–Pai–Mae Hong Son road, today's Route 1095, started in **1967** and the paving was not finished until the **early-to-mid 1990s**.
+
+*Inference —* put those together and the circuit as a thing you would ride for fun, on a road sealed the whole way, is **about thirty years old**. Anyone who did it in the 1980s was doing something else entirely: gravel, five metres wide, on a road that took a day and a half.
+
+**How many people do it now?** Not on this disk — nobody publishes a count for the loop. What is published is a symptom: the Wikipedia article on Pai records that in the November-to-March high season, visitor numbers swell to the point that the town has traffic jams and runs short of electricity, water and petrol. Pai was a quiet Shan market village before this road was sealed.
+
+Provenance: cited · s:thwp-108
+Sources: s:thwp-108, s:thwp-1095, s:wp-pai-thailand, s:wp-mae-sariang-district
+
 ## The villages that charge admission (story/kayan-question)
 Thai: หมู่บ้านที่เก็บค่าเข้า
 
@@ -1300,6 +1851,42 @@ Clockwise against counter-clockwise is usually argued as if the road were the on
 Provenance: inference
 Sources: s:open-meteo-aq, s:wp-tithonia-diversifolia, s:wp-monsoon, s:mhs-measured
 NEEDS VERIFICATION
+
+## Why a small bike is more fun here (story/small-bike-more-fun)
+Thai: ทำไมรถเล็กสนุกกว่าที่นี่
+
+### what
+The measured density of this road is the argument for renting the cheap thing, and it is not a compromise.
+
+### story
+*Inference —* Route 1095 measures 4.03 curves a kilometre, Route 1263 measures 4.25 and Route 1096 measures 4.46. At those densities you are never on a straight long enough for horsepower to express itself. What you are doing instead, continuously, is choosing a line, judging a radius you cannot fully see, and carrying momentum through a corner rather than making it with the throttle.
+
+A 110cc step-through is completely absorbing at that game, because it has no power to fall back on and every bit of speed has to be kept rather than bought. There is a specific pleasure in arriving at the top of a climb having not touched the brakes, and it is available on the cheapest machine in the shop.
+
+The measured figures also say something less obvious: **the road with the merchandise is only third.** Route 1096, the Samoeng day loop an hour from Chiang Mai, is denser than the famous one. So is the 1263.
+
+*Inference —* which means the best riding on this network is not where the shirts are sold, and a rider on a 125 has access to all of it.
+
+Provenance: harvested · s:mhs-measured
+Sources: s:mhs-measured, s:osm
+
+## The ten minutes after you stop (story/ten-minutes)
+Thai: สิบนาทีหลังจากคุณหยุด
+
+### what
+Nobody puts this in an itinerary and it is most of what the trip is made of.
+
+### story
+*Inference —* a motorcycle removes the glass. You arrive somewhere already smelling it — wet leaf litter on the climbs, woodsmoke through the villages, hot dust where the tarmac has been in the sun, and the particular sweetness of teak forest after rain. None of that reaches you through a car window.
+
+Then you stop, and there is a gap. The engine is ticking. Your ears, which have had wind in them for an hour, come back. Whatever it was — the valley, the chedi, the reservoir with mist on it — has been there the whole time and you can finally hear it.
+
+That happens six or seven times a day on this circuit, because the road is short and the stops are frequent. It is the reason people who have ridden it once talk about it the way they do, and it is completely unphotographable, which is why nobody puts it on a list.
+
+*Inference —* the practical version, if there has to be one: plan fewer kilometres than you think. The ten minutes is the product. The riding between them is how you get more of them.
+
+Provenance: inference
+Sources: s:wp-motorcycle-touring
 
 ## The smoke (story/the-smoke)
 Thai: ควันไฟ
@@ -1391,3 +1978,19 @@ None of which makes the sign wrong, because the sign is not making a measurement
 
 Provenance: cited · s:thwp-1095
 Sources: s:thwp-1095, s:mhs-measured, s:osm
+
+## The kilometre stone (art/the-kilometre-stone)
+Thai: หลักกิโลเมตร
+
+### what
+Thailand marks its highways with a numbered stone every kilometre. On a road with no phone signal they are the navigation.
+
+### story
+*Inference —* the pleasure in them is the counting. On Route 108 the numbers restart at zero at the Hot roundabout and run to Mae Hong Son, so the stone tells you exactly how much of the 265 kilometres is behind you. Watching a number come down over a long afternoon is a quiet and surprisingly good way to spend one.
+
+They are also how you describe where you are to somebody else. A Thai driver will say *kilometre thirty-two* rather than a place name, because between towns that is the only address there is.
+
+*Tradition holds —* the small numbers under the big ones on some stones are the distance to the next town and the one after it, which turns every stone into a small map.
+
+Provenance: cited · s:thwp-108
+Sources: s:thwp-108, s:wp-road-signs-in-thailand

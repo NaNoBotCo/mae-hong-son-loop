@@ -1,0 +1,127 @@
+{
+ "id": "where-to-put-the-nights",
+ "type": "stay",
+ "names": {
+  "name": "Where to put the nights",
+  "th": "ควรนอนที่ไหนบ้าง",
+  "said": "Four nights is the classic and five is the one that gets you the things the province is known for.",
+  "said_th": "สี่คืนคือแบบคลาสสิก ห้าคืนคือแบบที่ได้สิ่งที่จังหวัดนี้ขึ้นชื่อจริงๆ"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "planning"
+ },
+ "text": {
+  "what": "Which towns are worth a night, which are worth two, and the one decision that changes the trip most.",
+  "story": "*Inference —* the single highest-value change anyone can make to this itinerary is **two nights in Mae Hong Son instead of one.** Everything the province is actually known for is a dawn or an afternoon that a one-night stop cannot reach: the mist off Doi Kong Mu before the town wakes, Pang Ung at six in the morning, the dead-end road up to Ban Rak Thai, the lake temples lit after dark. One night gets you an evening and a departure.\n\n**Second-highest:** stopping at Soppong rather than running Pai to Mae Hong Son in a day. It turns a long day ending in the hardest descent of the northern leg into two short ones with a cave in the middle.\n\n**Worth a night:** Pai, Soppong, Mae Hong Son, Mae Sariang. **Worth two:** Mae Hong Son, and Pai if you want the valley rather than the town. **Skip if pushed:** Khun Yuam and Hot are stops, not stays, unless the Bua Tong is out.\n\n**What the harvest found:** 417 places to stay are mapped within twelve kilometres of a town on this loop, 402 of them named. Pai has 259 of them and Soppong has 7, which tells you most of what you need to know about booking ahead in each."
+ },
+ "text_th": {
+  "what": "เมืองไหนควรนอนหนึ่งคืน เมืองไหนควรสองคืน และการตัดสินใจข้อเดียวที่เปลี่ยนทริปมากที่สุด",
+  "story": "*อนุมาน —* การเปลี่ยนแปลงที่คุ้มค่าที่สุดข้อเดียวที่ใครก็ทำได้กับแผนนี้คือ **นอนแม่ฮ่องสอนสองคืนแทนที่จะเป็นคืนเดียว** ทุกสิ่งที่จังหวัดนี้ขึ้นชื่อจริงๆ คือรุ่งสางหรือบ่ายที่การพักคืนเดียวไปไม่ถึง ทะเลหมอกจากดอยกองมูก่อนเมืองตื่น ปางอุ๋งตอนหกโมงเช้า ถนนทางตันขึ้นบ้านรักไทย วัดริมหนองที่เปิดไฟหลังมืด คืนเดียวได้แค่เย็นหนึ่งเย็นกับการออกเดินทาง\n\n**คุ้มค่าเป็นอันดับสอง** พักที่สบป่องแทนที่จะวิ่งปายถึงแม่ฮ่องสอนในวันเดียว มันเปลี่ยนวันยาวที่จบด้วยทางลงที่ยากที่สุดของช่วงเหนือ ให้กลายเป็นสองวันสั้นๆ ที่มีถ้ำอยู่ตรงกลาง\n\n**ควรนอนหนึ่งคืน** ปาย สบป่อง แม่ฮ่องสอน แม่สะเรียง **ควรสองคืน** แม่ฮ่องสอน และปายถ้าอยากได้หุบเขามากกว่าตัวเมือง **ตัดได้ถ้าจำเป็น** ขุนยวมกับฮอดเป็นจุดแวะ ไม่ใช่ที่นอน เว้นแต่บัวตองกำลังบาน\n\n**สิ่งที่การเก็บข้อมูลพบ** มีที่พัก 417 แห่งบนแผนที่ในรัศมีสิบสองกิโลเมตรจากเมืองบนเส้นทางนี้ มีชื่อ 402 แห่ง ปายมี 259 แห่ง สบป่องมี 7 แห่ง ซึ่งบอกเกือบทุกอย่างที่ต้องรู้เรื่องการจองล่วงหน้าของแต่ละที่"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The two-night town.",
+   "rel": "town"
+  },
+  {
+   "to": "soppong",
+   "as": "The stop that shortens the hardest day.",
+   "rel": "town"
+  },
+  {
+   "to": "pang-ung",
+   "as": "The dawn the second night buys.",
+   "rel": "stop"
+  },
+  {
+   "to": "bamboo-hut",
+   "as": "What you are sleeping in when you get there.",
+   "rel": "stay"
+  }
+ ],
+ "sources": [
+  "s:osm",
+  "s:wp-mae-hong-son-province"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "where-to-put-the-nights/where-to-put-the-nights-guesthouse-in-chiang-khan.jpg",
+   "source": "commons",
+   "title": "File:Guesthouse in Chiang Khan.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Guesthouse_in_Chiang_Khan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AGuesthouse_in_Chiang_Khan.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Guesthouse in Chiang Khan, Loei Province.",
+   "date": "2018-08-27 08:26:10",
+   "primary": true,
+   "sha256": "36a2ce37e1144379a48742bbcf9ba29d48b6c97d21c08869ccacb53220901e6f"
+  },
+  {
+   "file": "where-to-put-the-nights/where-to-put-the-nights-srintip-guesthouse-01.jpg",
+   "source": "commons",
+   "title": "File:Srintip Guesthouse & ร้านนัมเบอร์วัน 01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Srintip_Guesthouse_%26_%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%A1%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%99_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASrintip_Guesthouse_%26_%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%A1%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%99_01.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Chainwit.",
+   "credit": "Own work",
+   "alt": "Srintip Guesthouse and Number One Vegetarian and Thai FoodThis gingerbread building is notable for its carved wooden gable depicting the Constitution phan, the symbol of Thailand's constitutional mona",
+   "date": "2021-10-23 12:07:18",
+   "primary": false,
+   "sha256": "ca53902611d7cca0741ceda7fbd21d55774bcaab7ae560772521bd845f23946d"
+  },
+  {
+   "file": "where-to-put-the-nights/where-to-put-the-nights-srintip-guesthouse-02.jpg",
+   "source": "commons",
+   "title": "File:Srintip Guesthouse & ร้านนัมเบอร์วัน 02.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Srintip_Guesthouse_%26_%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%A1%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%99_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASrintip_Guesthouse_%26_%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%A1%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%99_02.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Chainwit.",
+   "credit": "Own work",
+   "alt": "Srintip Guesthouse and Number One Vegetarian and Thai FoodThis gingerbread building is notable for its carved wooden gable depicting the Constitution phan, the symbol of Thailand's constitutional mona",
+   "date": "2021-10-23 12:07:18",
+   "primary": false,
+   "sha256": "8c5f1c7d113d4f82ce456777153433a6dcb5868d40beec0baf0e0698aaf7cca3"
+  },
+  {
+   "file": "where-to-put-the-nights/where-to-put-the-nights-srintip-guesthouse-03.jpg",
+   "source": "commons",
+   "title": "File:Srintip Guesthouse & ร้านนัมเบอร์วัน 03.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Srintip_Guesthouse_%26_%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%A1%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%99_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASrintip_Guesthouse_%26_%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B1%E0%B8%A1%E0%B9%80%E0%B8%9A%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%99_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Chainwit.",
+   "credit": "Own work",
+   "alt": "Srintip Guesthouse and Number One Vegetarian and Thai FoodThis gingerbread building is notable for its carved wooden gable depicting the Constitution phan, the symbol of Thailand's constitutional mona",
+   "date": "2021-10-23 12:07:18",
+   "primary": false,
+   "sha256": "6a042260592b2a215624bc78dc79a554cd1866f3408128d1c765bb83207c4799"
+  }
+ ]
+}

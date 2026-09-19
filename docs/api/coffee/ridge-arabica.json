@@ -1,0 +1,149 @@
+{
+ "id": "ridge-arabica",
+ "type": "coffee",
+ "names": {
+  "name": "Arabica off the ridge you just rode over",
+  "th": "อาราบิก้าจากดอยที่เพิ่งข้ามมา",
+  "said": "Grown between about 1,000 and 1,500 metres, picked by the family, roasted in the village, and sold to you at the bottom of their own road.",
+  "said_th": "ปลูกที่ความสูงราว 1,000 ถึง 1,500 เมตร ครอบครัวเก็บเอง คั่วในหมู่บ้าน แล้วขายให้คุณที่เชิงดอยของเขาเอง"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "grower",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "Northern Thailand grows arabica on the hills this road climbs. The plant wants altitude, shade and a dry harvest — which is exactly what these slopes are.",
+  "story": "*Coffea arabica* does best at altitude in the tropics, and the reason there is coffee on these hills at all is a deliberate substitution: Thai highland coffee was promoted from the 1970s onward as a replacement crop for opium poppy, under royal project and government programmes.\n\n*Inference —* which makes a roadside cup on this circuit a piece of the region's history rather than a nice drink, and it is why so many of the growers are Lisu, Lahu, Akha, Hmong and Karen families rather than lowland Thai companies.\n\nWhat this means on the road: the cup at the top of a climb is often grown within sight of where you are standing. Ask where it is from and you frequently get pointed at a hillside rather than given a brand."
+ },
+ "text_th": {
+  "what": "ภาคเหนือปลูกอาราบิก้าบนดอยที่ถนนสายนี้ไต่ขึ้นไป ต้นกาแฟต้องการความสูง ร่มเงา และฤดูเก็บที่แห้ง ซึ่งเป็นสิ่งที่ไหล่เขาเหล่านี้มีพอดี",
+  "story": "ต้นอาราบิก้าเติบโตได้ดีที่สุดบนที่สูงในเขตร้อน และเหตุผลที่มีกาแฟบนดอยเหล่านี้ตั้งแต่แรกคือการทดแทนพืชอย่างตั้งใจ กาแฟบนที่สูงของไทยถูกส่งเสริมตั้งแต่ทศวรรษ 2510 เป็นพืชทดแทนฝิ่น ภายใต้โครงการหลวงและโครงการของรัฐ\n\n*อนุมาน —* ซึ่งทำให้กาแฟแก้วหนึ่งริมทางบนเส้นทางนี้เป็นชิ้นส่วนของประวัติศาสตร์ภูมิภาค มากกว่าจะเป็นแค่เครื่องดื่มอร่อย และเป็นเหตุผลที่ผู้ปลูกจำนวนมากเป็นครอบครัวลีซู ลาหู่ อาข่า ม้ง และกะเหรี่ยง ไม่ใช่บริษัทจากที่ราบ\n\nบนถนนจริงแปลว่า แก้วที่ได้ตอนขึ้นถึงยอดมักปลูกอยู่ในระยะที่มองเห็นจากตรงที่คุณยืน ลองถามว่ามาจากไหน คำตอบมักเป็นการชี้ไปที่ไหล่เขา ไม่ใช่การบอกยี่ห้อ"
+ },
+ "kin": [
+  {
+   "to": "roadside-stall",
+   "as": "Where you actually drink it.",
+   "rel": "coffee"
+  },
+  {
+   "to": "karen",
+   "as": "Among the families growing it.",
+   "rel": "person"
+  },
+  {
+   "to": "yunnan-table",
+   "as": "The other thing grown on these slopes, a ridge further west.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-coffee-production-in-thailand",
+  "s:wp-coffea-arabica"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-coffee-production-in-thailand"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "ridge-arabica/ridge-arabica-coffea-arabica-coffee-beans.jpg",
+   "source": "commons",
+   "title": "File:Coffea arabica, coffee beans .jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Coffea_arabica%2C_coffee_beans_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACoffea_arabica%2C_coffee_beans_.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Renjusplace",
+   "credit": "Own work",
+   "alt": "From Kottayam",
+   "date": "15 November 2015 (according to Exif data",
+   "primary": true,
+   "sha256": "303c0874cbc358c437f15238df7420917dee7667251646ccf5b649c3edb0b154"
+  },
+  {
+   "file": "ridge-arabica/ridge-arabica-coffea-arabica-fruit11.jpg",
+   "source": "commons",
+   "title": "File:Coffea arabica- fruit11.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Coffea_arabica-_fruit11.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACoffea_arabica-_fruit11.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Satheesan.vn",
+   "credit": "Own work",
+   "alt": "coffee fruit at Wynad, Kerala, India",
+   "date": "2011-02-20 07:45:36",
+   "primary": false,
+   "sha256": "f15b1a5992044fe7f447f3e171a0a5af1e71ce0e0a38f039ce00bb524299d0c4"
+  },
+  {
+   "file": "ridge-arabica/ridge-arabica-coffea-canephora-1-at-aanakkulam.jpg",
+   "source": "commons",
+   "title": "File:Coffea canephora 1 at Aanakkulam.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Coffea_canephora_1_at_Aanakkulam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ACoffea_canephora_1_at_Aanakkulam.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jeevan Jose, Kerala, India",
+   "credit": "Own work",
+   "alt": "Robusta coffee (Coffea canephora; syn. Coffea robusta) is a species of coffee that has its origins in central and western sub-Saharan Africa. It is a species of flowering plant in the Rubiaceae family",
+   "date": "3 January 2010",
+   "primary": false,
+   "sha256": "5516d37b415190d8c6f8db9da4eaf8a918dc1eda272159427e9d4548538548fa"
+  },
+  {
+   "file": "ridge-arabica/ridge-arabica-plantation-4.jpg",
+   "source": "commons",
+   "title": "File:Plantation 4.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Plantation_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APlantation_4.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Dave Caguioa",
+   "credit": "Own work",
+   "alt": "Rocky Mountain Cafe plantation",
+   "date": "2013-04-17 19:06:21",
+   "primary": false,
+   "sha256": "e9a6d96fca5db2e36e9bc66054da84e5c57a271dbbd0fa2e8d120dff53960efa"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "yunnan-table",
+   "type": "dish",
+   "name": "The Yunnanese table at Ban Rak Thai",
+   "as": "The other thing grown on these slopes."
+  },
+  {
+   "from": "miang-and-tea",
+   "type": "coffee",
+   "name": "Miang and mountain tea",
+   "as": "The newer crop on the same slopes."
+  },
+  {
+   "from": "roadside-stall",
+   "type": "coffee",
+   "name": "The stall at the top of the climb",
+   "as": "What is in the cup."
+  },
+  {
+   "from": "lisu-lahu-hmong",
+   "type": "person",
+   "name": "Lisu, Lahu, Hmong and Lua",
+   "as": "What many of these families grow."
+  }
+ ]
+}

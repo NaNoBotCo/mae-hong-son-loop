@@ -70,13 +70,15 @@ FACETS = V["facets"]["facets"]
 REGIONS = {e["key"]: e for e in V["regions"]["entries"]}
 PATH_OF = {t: TYPE_INFO[t]["path"] for t in TYPE_INFO}
 DIR_OF = {"leg": "legs", "road": "roads", "town": "towns", "stop": "stops", "wat": "wats",
+          "dish": "food",
           "coffee": "coffee", "spring": "springs", "stay": "beds", "hazard": "hazards",
           "bike": "bikes", "kit": "kit", "person": "people", "org": "outfits", "event": "calendar",
           "term": "words", "story": "stories", "art": "objects"}
 
 UI = {
  "en": {"home": "The loop", "legs": "Legs", "which": "Which way", "numbers": "Numbers",
-        "air": "Air", "danger": "Danger", "baggage": "Baggage", "quiz": "Which ride",
+        "good": "The good part", "year": "The year", "air": "Air", "danger": "Danger", "baggage": "Baggage",
+        "quiz": "Which ride",
         "roadbook": "Roadbook",
         "all": "Everything", "about": "How this was made",
         "cw": "Clockwise", "ccw": "Counter-clockwise",
@@ -89,7 +91,8 @@ UI = {
         "unverified": "Parts of this record are marked as needing verification.",
         "riding": "What it asks of you", "season": "By season", "route": "The route"},
  "th": {"home": "วงรอบ", "legs": "ช่วงทาง", "which": "ไปทางไหน", "numbers": "ตัวเลข",
-        "air": "อากาศ", "danger": "อันตราย", "baggage": "สัมภาระ", "quiz": "ขี่แบบไหน",
+        "good": "ส่วนที่ดี", "year": "ทั้งปี", "air": "อากาศ", "danger": "อันตราย", "baggage": "สัมภาระ",
+        "quiz": "ขี่แบบไหน",
         "roadbook": "สมุดเส้นทาง",
         "all": "ทั้งหมด", "about": "ทำขึ้นอย่างไร",
         "cw": "ตามเข็มนาฬิกา", "ccw": "ทวนเข็มนาฬิกา",
@@ -105,8 +108,8 @@ UI = {
 }
 
 NAV = [("", "home"), ("legs/", "legs"), ("which-way/", "which"), ("numbers/", "numbers"),
-       ("air/", "air"), ("danger/", "danger"), ("baggage/", "baggage"), ("quiz/", "quiz"),
-       ("roadbook/", "roadbook")]
+       ("good/", "good"), ("year/", "year"), ("air/", "air"), ("danger/", "danger"), ("baggage/", "baggage"),
+       ("quiz/", "quiz"), ("roadbook/", "roadbook")]
 
 
 def rel(depth: int) -> str:
@@ -221,9 +224,15 @@ CURVES = jload(API / "curves.json")
 AIR = jload(API / "air.json")
 AIR_NOW = jload(API / "air-now.json")
 PLACES = jload(API / "places.json")
+PACKLIST = jload(Path(__file__).resolve().parent.parent / "data" / "vocab" / "packlist.json")
+BASE = jload(API / "base.json") if (API / "base.json").exists() else {}
+ELEV = jload(API / "elevation.json") if (API / "elevation.json").exists() else {}
 SOURCES = {s["id"]: s for s in jload(API / "sources.json")["sources"]}
 COV = jload(API / "coverage.json")
 ROSTER = fleet.load(Path(__file__).resolve().parent.parent / "data" / "fleet.json")
+
+
+
 SELF = "mae-hong-son-loop"
 
 MONTHS = [("01", "Jan", "ม.ค."), ("02", "Feb", "ก.พ."), ("03", "Mar", "มี.ค."), ("04", "Apr", "เม.ย."),
@@ -240,12 +249,37 @@ def aqi_class(pm: float) -> str:
     return "aq6"
 
 
+_RING = ITIN.get("ring") or {}
+MAP_CREDIT = (
+    f'The circuit is drawn from OpenStreetMap ways tagged Route 107, 1095 and 108: '
+    f'{_RING.get("km", "—")} km, of which {_RING.get("bridged_pct", 0)}% is bridged in a '
+    f'straight line where the route number is not tagged. '
+    f'© OpenStreetMap contributors · relief Open-Meteo / Copernicus DEM'
+) if _RING else "© OpenStreetMap contributors · relief Open-Meteo / Copernicus DEM"
+
 ALL_LINES = [[tuple(c) for c in ln]
              for r in ROADS.values() for ln in (r.get("lines") or ([r["line"]] if r.get("line") else []))]
 BOX = geo.fit(ALL_LINES)
 
 
-def base_map(width=820, demand=False, highlight=None, pins=None, labels=True):
+def basemap_svg() -> str:
+    """The land, drawn once at the shared projection. Every map <image>s this.
+
+    Shaded relief is a per-pixel job, so the terrain arrives as a PNG built by
+    tools/terrain.py and is referenced here; water and the provincial line stay vector,
+    because a river at one pixel wide wants to be crisp."""
+    p = geo.Proj(box=BOX, width=900)
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {p.width:.0f} {p.height:.0f}" '
+           f'width="{p.width:.0f}" height="{p.height:.0f}">',
+           f"<style>{geo.BASEMAP_CSS}</style>"]
+    if BASE:
+        out.append(geo.water_layer(p, BASE))
+        out.append(geo.boundary_layer(p, BASE))
+    out.append("</svg>")
+    return "".join(out)
+
+
+def base_map(width=820, demand=False, highlight=None, pins=None, labels=True, depth=1):
     """The one map. Every page draws the same geography and adds its own layer.
 
     Every stitched chain is drawn, not just the longest: a route number goes missing for a
@@ -254,15 +288,32 @@ def base_map(width=820, demand=False, highlight=None, pins=None, labels=True):
     p = geo.Proj(box=BOX, width=width)
     out = [f'<svg viewBox="0 0 {p.width:.0f} {p.height:.0f}" role="img" '
            f'aria-label="Map of the Mae Hong Son loop">']
-    # base: every chain of every road
+    # the land: the shaded-relief picture, then the vector water and boundary on top.
+    # Both are referenced directly — an <image> pointing at an SVG is isolated and will
+    # not fetch anything further, so the terrain cannot live inside basemap.svg.
+    r_ = rel(depth)
+    out.append(f'<image class="terrain-light" href="{r_}terrain.png" x="0" y="0" '
+               f'width="{p.width:.0f}" height="{p.height:.0f}" preserveAspectRatio="none"/>')
+    out.append(f'<image class="terrain-dark" href="{r_}terrain-dark.png" x="0" y="0" '
+               f'width="{p.width:.0f}" height="{p.height:.0f}" preserveAspectRatio="none"/>')
+    if BASE:
+        out.append(f'<image href="{r_}basemap.svg" x="0" y="0" '
+                   f'width="{p.width:.0f}" height="{p.height:.0f}"/>')
+    # every traced road, faint, as context
     for ref, r in ROADS.items():
         for ln in (r.get("lines") or ([r["line"]] if r.get("line") else [])):
             out.append(f'<path class="road" d="{p.path([tuple(c) for c in ln])}"/>')
+    # then the circuit itself, as one closed line
+    ring = (ITIN.get("ring") or {}).get("line") or []
+    if ring and not demand:
+        d_ring = p.path([tuple(c) for c in ring])
+        out.append(f'<path class="loop-case" d="{d_ring}"/>')
+        out.append(f'<path class="loop" d="{d_ring}"><title>The circuit</title></path>')
     if demand:
         for ref, r in CURVES.get("roads", {}).items():
             if r.get("density"):
                 out.append(geo.demand_path_layer(p, r["density"]))
-    else:
+    elif not ring:
         for ref, r in ROADS.items():
             for ln in (r.get("lines") or ([r["line"]] if r.get("line") else [])):
                 out.append(f'<path class="road-on" d="{p.path([tuple(c) for c in ln])}">'
@@ -272,10 +323,24 @@ def base_map(width=820, demand=False, highlight=None, pins=None, labels=True):
             r = ROADS.get(ref) or {}
             for ln in (r.get("lines") or ([r["line"]] if r.get("line") else [])):
                 out.append(f'<path class="hilite" d="{p.path([tuple(c) for c in ln])}"/>')
-    rows = pins if pins is not None else [
-        {"lat": n["geo"]["lat"], "lon": n["geo"]["lon"], "name": n["names"]["name"], "cls": "town"}
-        for n in NODES if n["type"] == "town" and n.get("geo")]
-    out.append(geo.dots(p, rows, r=4.2, label=labels))
+    if pins is None:
+        # written-up stops are stars, towns are dots; a waypoint and a destination should
+        # not look the same on the page
+        starred = [{"lat": n["geo"]["lat"], "lon": n["geo"]["lon"], "name": n["names"]["name"],
+                    "cls": ""} for n in NODES
+                   if n["type"] in ("stop", "wat", "spring") and n.get("geo")]
+        rows = [{"lat": n["geo"]["lat"], "lon": n["geo"]["lon"], "name": n["names"]["name"],
+                 "cls": "town"} for n in NODES if n["type"] == "town" and n.get("geo")]
+        # everything OpenStreetMap calls a viewpoint or a waterfall, small, underneath —
+        # a preview of what there is to stop for, at a density no written-up list reaches
+        poi = [{"lat": x["lat"], "lon": x["lon"], "cls": x["kind"],
+                "title": x.get("name") or x["kind"]}
+               for x in PLACES.get("rows", []) if x["kind"] in ("viewpoint", "waterfall")]
+        out.append(geo.dots(p, poi, cls="poi", r=2.1))
+        out.append(geo.stars(p, starred, r=5.4))
+        out.append(geo.dots(p, rows, r=4.2, label=labels))
+    else:
+        out.append(geo.dots(p, pins, r=4.2, label=labels))
     out.append(geo.scalebar(p))
     out.append("</svg>")
     return "".join(out)
@@ -442,6 +507,7 @@ def node_page(n: dict, lang: str) -> str:
     kind = ti["th"] if lang == "th" else ti["name"]
     said = T(n, "names.said", lang)
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}{url_of(n)}"
+    rdepth = root_depth(depth, lang)
     b = [f'<h1><span class="kind">{E(kind)}</span>{E(name)}</h1>']
     if lang == "en" and n["names"].get("th"):
         b.append(f'<p class="said th">{E(n["names"]["th"])}'
@@ -451,7 +517,6 @@ def node_page(n: dict, lang: str) -> str:
     if n.get("needs_verification"):
         b.append(f'<div class="warn">{E(ui["unverified"])}</div>')
     ims = pictures(n)
-    rdepth = root_depth(depth, lang)
     if ims:
         b.append(hero_shot(n, rdepth))
 
@@ -483,17 +548,18 @@ def node_page(n: dict, lang: str) -> str:
                      f'<article class="card"><h3>↺ {E(ui["ccw"])}</h3><p>{E(ccw or "")}</p></article>'
                      f'</div>')
         if rt.get("roads"):
-            b.append('<figure class="map">' + base_map(820, highlight=rt["roads"]) +
+            b.append('<figure class="map">' + base_map(820, highlight=rt["roads"], depth=rdepth) +
                      f'<figcaption>{E("Highlighted: " + ", ".join("Route " + x for x in rt["roads"]) if lang == "en" else "เน้น: " + ", ".join("ทางหลวง " + x for x in rt["roads"]))} · '
-                     f'© OpenStreetMap contributors</figcaption></figure>')
+                     f'{MAP_CREDIT}</figcaption></figure>')
 
     if n.get("geo"):
         g = n["geo"]
         b.append('<figure class="map">' + base_map(
-            820, pins=[{"lat": g["lat"], "lon": g["lon"], "name": name, "cls": "town"}], labels=True) +
+            820, pins=[{"lat": g["lat"], "lon": g["lon"], "name": name, "cls": "town"}],
+            labels=True, depth=rdepth) +
             f'<figcaption>{g["lat"]:.4f}, {g["lon"]:.4f}'
             f'{" · " + str(g["elevation_m"]) + " m" if g.get("elevation_m") else ""} · '
-            f'© OpenStreetMap contributors</figcaption></figure>')
+            f'{MAP_CREDIT}</figcaption></figure>')
 
     # prose
     for key, label in (("what", ui["what"]), ("story", ui["story"]), ("how", ui["how"]), ("today", ui["today"])):
@@ -721,6 +787,7 @@ def leg_list(lang: str, depth: int) -> str:
 def front(lang: str) -> str:
     ui = UI[lang]
     r = "./"
+    d0 = root_depth(0, lang)
     cur = CURVES.get("roads", {}).get("1095", {}).get("whole", {})
     n_stop = sum(1 for n in NODES if n["type"] in ("stop", "wat", "spring"))
     b = [f'<h1><span class="kind">{E("Northern Thailand · 600 km" if lang == "en" else "ภาคเหนือ · 600 กม.")}</span>'
@@ -735,17 +802,23 @@ def front(lang: str) -> str:
              '</div>')
     b.append(f'<div class="btns"><a class="btn" href="{r}quiz/">{E("Which ride is yours?" if lang == "en" else "คุณควรขี่แบบไหน")}</a>'
              f'<a class="btn alt" href="{r}which-way/">{E("Clockwise or not?" if lang == "en" else "ตามเข็มหรือทวนเข็ม")}</a>'
-             f'<a class="btn alt" href="{r}air/">{E("When not to go" if lang == "en" else "ช่วงที่ไม่ควรไป")}</a></div>')
+             f'<a class="btn alt" href="{r}good/">{E("The good part" if lang == "en" else "ส่วนที่ดี")}</a>'
+             f'<a class="btn alt" href="{r}air/">{E("When to go" if lang == "en" else "ควรไปเมื่อไหร่")}</a></div>')
     pool = gallery_pool()
     if pool:
         b.append(shot_strip([im for _, im in pool[:8]], root_depth(0, lang)))
-    b.append('<figure class="map">' + base_map(880, demand=True) +
+    b.append('<figure class="map">' + base_map(880, demand=True, depth=d0) +
              f'<figcaption>{E("Coloured by how much steering each 2 km asks for — not a crash map." if lang == "en" else "สีบอกว่าทุก 2 กม. ต้องบังคับรถมากแค่ไหน ไม่ใช่แผนที่อุบัติเหตุ")} '
-             f'© OpenStreetMap contributors</figcaption></figure>')
+             f'{MAP_CREDIT}</figcaption></figure>')
     b.append('<div class="legend">' + "".join(
         f'<span><i style="background:var(--{k})"></i>{E(v if lang == "en" else v)}</span>'
-        for k, v in (("g", "under 2 curves/km"), ("b", "2–4"), ("h", "4–6"), ("r", "over 6"))) + "</div>")
-    d0 = root_depth(0, lang)
+        for k, v in (("g", "under 2 curves/km"), ("b", "2–4"), ("h", "4–6"), ("r", "over 6"))) +
+        f'<span><svg width="14" height="14" viewBox="0 0 14 14" style="vertical-align:-.15em">'
+        f'<polygon class="star" points="{geo.star(7, 7, 6)}"/></svg> '
+        f'{E("a stop" if lang == "en" else "จุดแวะ")}</span>' +
+        f'<span><svg width="12" height="12" viewBox="0 0 12 12" style="vertical-align:-.1em">'
+        f'<circle class="dot town" cx="6" cy="6" r="4"/></svg> '
+        f'{E("a town" if lang == "en" else "เมือง")}</span>' + "</div>")
     b.append(band("pano-chaem", "Mae Chaem" if lang == "en" else "แม่แจ่ม",
                   "Six hundred kilometres of this" if lang == "en" else "หกร้อยกิโลเมตรแบบนี้",
                   "Chiang Mai out, Pai, Mae Hong Son, Mae Sariang, home. Four days if you hurry."
@@ -803,7 +876,8 @@ def front(lang: str) -> str:
 
     # the doors
     b.append(f'<h2>{E("Everything else" if lang == "en" else "อย่างอื่นทั้งหมด")}</h2><div class="grid">')
-    for t in ("bike", "hazard", "kit", "stop", "wat", "town", "event", "term", "story"):
+    for t in ("stop", "wat", "dish", "coffee", "spring", "stay", "town", "bike", "kit",
+              "event", "hazard", "term", "story"):
         ti = TYPE_INFO[t]
         n = sum(1 for x in NODES if x["type"] == t)
         if not n:
@@ -867,8 +941,8 @@ def which_way(lang: str) -> str:
                   "North first up the curves, or south first down the long one."
                   if lang == "en" else "ขึ้นเหนือเจอโค้งก่อน หรือลงใต้เจอทางยาวก่อน", d1, lang))
     b.append(dirsw(lang))
-    b.append('<figure class="map">' + base_map(880) +
-             f'<figcaption>{E("Same road, either direction." if lang == "en" else "ถนนเดียวกัน ไปได้ทั้งสองทาง")} © OpenStreetMap contributors</figcaption></figure>')
+    b.append('<figure class="map">' + base_map(880, depth=root_depth(1, lang)) +
+             f'<figcaption>{E("Same road, either direction." if lang == "en" else "ถนนเดียวกัน ไปได้ทั้งสองทาง")} {MAP_CREDIT}</figcaption></figure>')
     b.append(leg_list(lang, 1))
     b.append(band("bua-tong", "Doi Mae U-Kho, November" if lang == "en" else "ดอยแม่อูคอ พฤศจิกายน",
                   "The season picks the direction" if lang == "en" else "ฤดูกาลเป็นคนเลือกทิศ",
@@ -987,8 +1061,8 @@ def numbers(lang: str) -> str:
 def air_page(lang: str) -> str:
     pts = AIR.get("points", [])
     b = [f'<h1><span class="kind">{E("Measured · " + str(AIR.get("point_days", 0)) + " point-days" if lang == "en" else "วัดแล้ว · " + str(AIR.get("point_days", 0)) + " จุด-วัน")}</span>'
-         f'{E("When not to go" if lang == "en" else "ช่วงที่ไม่ควรไป")}</h1>',
-         f'<p class="lede">{E("Ten points on the circuit, four burning seasons, daily PM2.5. The shape is not subtle." if lang == "en" else "สิบจุดบนเส้นทาง สี่ฤดูเผา ค่า PM2.5 รายวัน รูปร่างของมันชัดมาก")}</p>']
+         f'{E("When to go" if lang == "en" else "ควรไปเมื่อไหร่")}</h1>',
+         f'<p class="lede">{E("Ten points on the circuit, four years of daily PM2.5. Ten months of the year the answer is yes." if lang == "en" else "สิบจุดบนเส้นทาง ข้อมูล PM2.5 รายวันสี่ปี สิบเดือนในหนึ่งปีคำตอบคือไปได้")}</p>']
     pai = next((p for p in pts if p["id"] == "pai"), None)
     cnx = next((p for p in pts if p["id"] == "chiang-mai"), None)
     if pai and cnx:
@@ -1000,10 +1074,12 @@ def air_page(lang: str) -> str:
                  f'<span>{E("official monitor in MHS province" if lang == "en" else "สถานีวัดของรัฐในแม่ฮ่องสอน")}</span></div>'
                  '</div>')
     d1 = root_depth(1, lang)
-    b.append(band("smoke", "Burning season" if lang == "en" else "ช่วงเผา",
-                  "The valleys hold it" if lang == "en" else "หุบเขาเก็บมันไว้",
-                  "Late February to late April, and it ends with the first rains."
-                  if lang == "en" else "ปลายกุมภาพันธ์ถึงปลายเมษายน และจบเมื่อฝนแรกมา", d1, lang))
+    b.append(band("rains", "May to October" if lang == "en" else "พฤษภาคมถึงตุลาคม",
+                  "Ten months of the year this is some of the cleanest air in Thailand"
+                  if lang == "en" else "สิบเดือนในหนึ่งปี อากาศที่นี่สะอาดที่สุดแห่งหนึ่งในประเทศไทย",
+                  "Pai measures 3.0 µg/m³ in July. The green months are the clean ones."
+                  if lang == "en" else "ปายวัดได้ 3.0 ในเดือนกรกฎาคม เดือนที่เขียวคือเดือนที่สะอาด",
+                  d1, lang, big="3.0", big_label="µg/m³ · Pai, July"))
     b.append(f'<h2>{E("Every town, every month" if lang == "en" else "ทุกเมือง ทุกเดือน")}</h2>')
     b.append(f'<p class="small mute">{E("Mean PM2.5 in µg/m³. Green is under the WHO-adjacent 9.0; the US 24-hour standard is 35.4." if lang == "en" else "ค่าเฉลี่ย PM2.5 ไมโครกรัม/ลบ.ม. สีเขียวคือต่ำกว่า 9.0 ส่วนมาตรฐาน 24 ชั่วโมงของสหรัฐฯ คือ 35.4")}</p>')
     for p in pts:
@@ -1012,11 +1088,11 @@ def air_page(lang: str) -> str:
                  f'{E(dict((k, en) for k, en, th in MONTHS).get(p["worst_month"], p["worst_month"]))} '
                  f'{p["worst_mean"]} · ×{p["ratio"]} {E("swing" if lang == "en" else "เท่า")}</span></h3>')
         b.append(month_strip(p, lang))
-    b.append(band("rains", "June to October" if lang == "en" else "มิถุนายนถึงตุลาคม",
-                  "The cleanest air of the year" if lang == "en" else "อากาศสะอาดที่สุดของปี",
-                  "Pai at 3.0 µg/m³ in July. Green hills, running waterfalls, a wet road."
-                  if lang == "en" else "ปายอยู่ที่ 3.0 ในเดือนกรกฎาคม ภูเขาเขียว น้ำตกมีน้ำ ถนนเปียก",
-                  d1, lang, big="3.0", big_label="µg/m³", cls="right"))
+    b.append(band("smoke", "March and April" if lang == "en" else "มีนาคมและเมษายน",
+                  "And the two months that are not" if lang == "en" else "และสองเดือนที่ไม่ใช่",
+                  "Late February to late April the hills burn, and it ends with the first rains."
+                  if lang == "en" else "ปลายกุมภาพันธ์ถึงปลายเมษายนภูเขาถูกเผา และจบเมื่อฝนแรกมา",
+                  d1, lang, cls="right"))
     b.append(f'<h2>{E("Right now" if lang == "en" else "ตอนนี้")}</h2>')
     rows = sorted([r for r in AIR_NOW.get("rows", []) if r.get("pm25") is not None],
                   key=lambda r: r["km_from_point"])[:8]
@@ -1043,7 +1119,7 @@ def air_page(lang: str) -> str:
     b.append(f'<p class="small mute">{E(AIR.get("attribution", ""))} · {E(AIR.get("start"))} → {E(AIR.get("end"))}</p>')
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}air/"
     b.append(share_row(url, "When not to ride the Mae Hong Son loop", lang))
-    return page(f'{"When not to go" if lang == "en" else "ช่วงที่ไม่ควรไป"} — {NAME[lang]}', "".join(b), 1, lang,
+    return page(f'{"When to go" if lang == "en" else "ควรไปเมื่อไหร่"} — {NAME[lang]}', "".join(b), 1, lang,
                 "Four burning seasons of daily PM2.5 at ten points on the loop.", None, url,
                 cur="air", path="air/")
 
@@ -1061,7 +1137,7 @@ def danger(lang: str) -> str:
                   if lang == "en" else "จำนวนโค้งต่อกิโลเมตรในหน้าต่างสองกิโลเมตร วัดด้วยวิธีเดียวกันทุกที่",
                   d1, lang, big="7.45", big_label=("hardest 2 km on Route 1095"
                                                    if lang == "en" else "2 กม. ที่หนักที่สุดบน 1095")))
-    b.append('<figure class="map">' + base_map(880, demand=True) +
+    b.append('<figure class="map">' + base_map(880, demand=True, depth=d1) +
              f'<figcaption>© OpenStreetMap contributors · {E("2 km windows, 25° threshold" if lang == "en" else "หน้าต่าง 2 กม. เกณฑ์ 25 องศา")}</figcaption></figure>')
     bands = CURVES.get("bands", {})
     b.append('<div class="legend">' + "".join(
@@ -1205,6 +1281,178 @@ def quiz_page(lang: str) -> str:
                 QUIZ["lede"][lang], None, url, head=head, cur="quiz", path="quiz/")
 
 
+# ---------------------------------------------------------------- the year
+# What is on, month by month. Each row: months, EN label, TH label, EN line, TH line,
+# record id to link, and how good a month it is to be here (1 fine, 2 good, 3 special).
+YEAR = [
+ (["01","02"], "Cool, dry, clear", "หนาว แห้ง ฟ้าใส",
+  "Sea of mist at dawn, cold mornings on the ridges, dry tarmac on every descent.",
+  "ทะเลหมอกยามรุ่ง เช้าหนาวบนสันเขา ถนนแห้งทุกทางลง", "cool-season", 3),
+ (["02","03","04"], "The hills burn", "ภูเขาถูกเผา",
+  "Late February to late April. The viewpoints go white and the air is at its worst.",
+  "ปลายกุมภาพันธ์ถึงปลายเมษายน จุดชมวิวกลายเป็นสีขาว และอากาศแย่ที่สุด", "burning-season", 1),
+ (["03","04"], "Poy Sang Long", "ปอยส่างลอง",
+  "The Shan ordination festival. Boys in gold, carried, feet never touching the ground.",
+  "งานบวชลูกแก้วของชาวไทใหญ่ เด็กชายแต่งทอง ถูกแบก เท้าไม่แตะพื้น", "poy-sang-long", 3),
+ (["04"], "Songkran", "สงกรานต์",
+  "13 to 15 April. You will be soaked, repeatedly, by strangers with buckets.",
+  "13 ถึง 15 เมษายน คุณจะเปียกซ้ำๆ จากคนแปลกหน้าถือถัง", "songkran", 2),
+ (["05"], "It clears", "อากาศเปิด",
+  "The smoke goes, the first rain comes, and Pai drops from 29.8 to 10.0 µg/m³.",
+  "ควันหายไป ฝนแรกมา และปายลงจาก 29.8 เหลือ 10.0", "the-rains", 2),
+ (["06","07","08","09","10"], "The green season", "หน้าเขียว",
+  "The cleanest air of the year, waterfalls running, rooms cheap, roads empty.",
+  "อากาศสะอาดที่สุดของปี น้ำตกมีน้ำ ห้องพักถูก ถนนว่าง", "the-rains", 3),
+ (["07","08","09","10"], "Khao Phansa", "เข้าพรรษา",
+  "The rains retreat. Candles at the temples, and the province at its quietest.",
+  "ช่วงจำพรรษา เทียนพรรษาที่วัด และจังหวัดที่เงียบที่สุด", "phansa", 2),
+ (["07","08","09"], "Terraces green", "นาเขียว",
+  "Pa Bong Piang and the Karen terraces at their greenest, above Mae Chaem.",
+  "ป่าบงเปียงและนาขั้นบันไดกะเหรี่ยงเขียวที่สุด เหนือแม่แจ่ม", "pa-bong-piang", 3),
+ (["08"], "Akha Swing Festival", "เทศกาลโล้ชิงช้าอาข่า",
+  "Late August — but east of here. Worth a trip; not this trip.",
+  "ปลายสิงหาคม แต่อยู่ทางตะวันออก ควรไป แต่คนละทริป", "akha-swing", 1),
+ (["10","11"], "Terraces gold", "นาเหลืองทอง",
+  "The rice turns before the harvest.",
+  "ข้าวเปลี่ยนสีก่อนเกี่ยว", "pa-bong-piang", 2),
+ (["11"], "Bua Tong", "ทุ่งบัวตอง",
+  "Doi Mae U-Kho above Khun Yuam turns yellow for a few weeks and then does not.",
+  "ดอยแม่อูคอเหนือขุนยวมเหลืองอยู่ไม่กี่สัปดาห์ แล้วก็ไม่", "bua-tong-bloom", 3),
+ (["11"], "Loi Krathong and Yi Peng", "ลอยกระทง และยี่เป็ง",
+  "Floats on every river, lanterns in the north, on the twelfth full moon.",
+  "กระทงลอยทุกสายน้ำ โคมลอยทางเหนือ ในคืนเพ็ญเดือนสิบสอง", "loi-krathong", 3),
+ (["11","12"], "Mist season opens", "เริ่มฤดูทะเลหมอก",
+  "Pang Ung and Huai Nam Dang start working at six in the morning.",
+  "ปางอุ๋งและห้วยน้ำดังเริ่มทำงานตอนหกโมงเช้า", "pang-ung", 3),
+]
+
+
+def year_page(lang: str) -> str:
+    en = lang == "en"
+    d1 = root_depth(1, lang)
+    b = [f'<h1><span class="kind">{E("Month by month" if en else "เดือนต่อเดือน")}</span>'
+         f'{E("The year" if en else "ทั้งปี")}</h1>',
+         f'<p class="lede">{E("What is flowering, what is flooded, what is burning and what is being carried through the streets." if en else "อะไรกำลังบาน อะไรกำลังท่วม อะไรกำลังไหม้ และอะไรกำลังถูกแห่ไปตามถนน")}</p>']
+    b.append(band("bua-tong", "Doi Mae U-Kho, November" if en else "ดอยแม่อูคอ พฤศจิกายน",
+                  "Time it right and you get four things at once"
+                  if en else "จับจังหวะให้ดี แล้วจะได้สี่อย่างพร้อมกัน",
+                  "Clean air, the sunflowers out, the waterfalls still running and the lanterns going up."
+                  if en else "อากาศสะอาด ทุ่งบัวตองบาน น้ำตกยังมีน้ำ และโคมกำลังลอยขึ้น", d1, lang))
+    # the grid
+    b.append('<div class="scroll"><table class="year"><thead><tr><th></th>' +
+             "".join(f'<th class="num">{E(th if lang == "th" else en_)}</th>'
+                     for _, en_, th in MONTHS) + "</tr></thead><tbody>")
+    for months, l_en, l_th, line_en, line_th, rid, rank in YEAR:
+        rec = BY_ID.get(rid)
+        label = E(l_th if lang == "th" else l_en)
+        if rec:
+            label = f'<a href="{rel(1)}{url_of(rec)}">{label}</a>'
+        cells = "".join(
+            f'<td class="yr y{rank}" data-m="{E(th if lang == "th" else en_)}"></td>'
+            if m in months else f'<td class="yr" data-m="{E(th if lang == "th" else en_)}"></td>'
+            for m, en_, th in MONTHS)
+        b.append(f'<tr><th>{label}<div class="small mute">'
+                 f'{E(line_th if lang == "th" else line_en)}</div></th>{cells}</tr>')
+    b.append("</tbody></table></div>")
+    b.append('<div class="legend">'
+             f'<span><i class="sw y3"></i>{E("the reason to pick that month" if en else "เหตุผลที่ควรเลือกเดือนนั้น")}</span>'
+             f'<span><i class="sw y2"></i>{E("good, and on" if en else "ดี และมีอยู่")}</span>'
+             f'<span><i class="sw y1"></i>{E("happening, plan around it" if en else "เกิดขึ้น ควรวางแผนเผื่อ")}</span></div>')
+    pai = next((p for p in AIR.get("points", []) if p["id"] == "pai"), None)
+    if pai:
+        b.append(f'<h2>{E("And the air, the same twelve months" if en else "และอากาศ ในสิบสองเดือนเดียวกัน")}</h2>')
+        b.append(month_strip(pai, lang))
+        b.append(f'<p class="small mute">{E("Pai, mean PM2.5 µg/m³, four years measured." if en else "ปาย ค่าเฉลี่ย PM2.5 วัดสี่ปี")}</p>')
+    b.append(f'<h2>{E("Everything with a date" if en else "ทุกอย่างที่มีวันกำหนด")}</h2><div class="grid">')
+    for n_ in sorted([x for x in NODES if x["type"] == "event"], key=lambda x: x["names"]["name"]):
+        b.append(node_card(n_, lang, 1))
+    b.append("</div>")
+    url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}year/"
+    b.append(share_row(url, "The Mae Hong Son loop, month by month", lang))
+    return page(f'{"The year" if en else "ทั้งปี"} — {NAME[lang]}', "".join(b), 1, lang,
+                "Festivals, blooms, mist, rain and smoke, month by month.",
+                None, url, cur="year", path="year/")
+
+
+# ---------------------------------------------------------------- the good part
+def good(lang: str) -> str:
+    en = lang == "en"
+    d1 = root_depth(1, lang)
+    cur = CURVES.get("roads", {}).get("1095", {}).get("whole", {})
+    b = [f'<h1><span class="kind">{E("Why you would" if en else "ทำไมถึงไป")}</span>'
+         f'{E("The good part" if en else "ส่วนที่ดี")}</h1>',
+         f'<p class="lede">{E("Six hundred kilometres of mountain road with something worth stopping for every twenty minutes of it." if en else "ถนนภูเขาหกร้อยกิโลเมตร ที่มีอะไรให้หยุดดูทุกยี่สิบนาที")}</p>']
+    b.append(band("pang-ung", "Pang Ung, six in the morning" if en else "ปางอุ๋ง หกโมงเช้า",
+                  "Four curves a kilometre, for four days"
+                  if en else "สี่โค้งต่อกิโลเมตร ต่อเนื่องสี่วัน",
+                  "A steering input every few seconds, for four days. That is the whole attraction."
+                  if en else "สั่งรถเลี้ยวทุกไม่กี่วินาที ต่อเนื่องสี่วัน นั่นคือเสน่ห์ทั้งหมด",
+                  d1, lang, big=str(cur.get("per_km", "4.03")),
+                  big_label=("curves per kilometre on Route 1095"
+                             if en else "โค้งต่อกิโลเมตรบนทางหลวง 1095")))
+    joy_en = ("""**{c} curves over {k} kilometres. {h} of them hairpins.** On a road this tight engine size stops mattering and line choice starts, which is why a 110cc step-through is as absorbing here as anything with four times the power. You are never not doing something.
+
+The riding is the obvious pleasure and it is not the biggest one. What the circuit actually gives you is a rhythm: you are somewhere different every evening, the days are short enough to stop constantly, and there is something worth stopping for roughly every twenty minutes. Nobody rides this loop fast twice.
+
+**The province is quiet in a way that is hard to find.** Mae Hong Son has the lowest population density of any province in Thailand — twenty-two people per square kilometre across nearly thirteen thousand of them. On the long southern leg you can ride for half an hour and meet four vehicles.
+
+And the thing nobody puts in the itinerary: **the ten minutes after you stop.** You get off, the engine ticks as it cools, your hearing comes back, and whatever you climbed for is just sitting there. That happens six or seven times a day on this road. It is the whole thing.""").format(
+        c=cur.get("curves", 729), k=cur.get("km", 185), h=cur.get("hairpins", 110))
+    joy_th = ("""**{c} โค้งในระยะ {k} กิโลเมตร เป็นโค้งหักศอก {h} โค้ง** บนถนนที่แคบขนาดนี้ ขนาดเครื่องยนต์เลิกมีความหมาย แล้วการเลือกไลน์เริ่มมีแทน นั่นคือเหตุผลที่รถออโต้ 110 ซีซี สนุกที่นี่ได้เท่ารถที่แรงกว่าสี่เท่า คุณไม่มีวินาทีไหนที่ไม่ได้ทำอะไร
+
+การขี่คือความสุขที่เห็นชัด และไม่ใช่ความสุขที่ใหญ่ที่สุด สิ่งที่เส้นทางนี้ให้จริงๆ คือจังหวะ คุณอยู่คนละที่ทุกเย็น วันสั้นพอที่จะหยุดได้ตลอด และมีอะไรให้หยุดดูราวทุกยี่สิบนาที ไม่มีใครขี่วงรอบนี้เร็วเป็นครั้งที่สอง
+
+**จังหวัดนี้เงียบในแบบที่หายาก** แม่ฮ่องสอนมีความหนาแน่นประชากรต่ำที่สุดในบรรดาทุกจังหวัดของไทย ยี่สิบสองคนต่อตารางกิโลเมตร บนพื้นที่เกือบหนึ่งหมื่นสามพันตารางกิโลเมตร บนช่วงใต้ที่ยาว คุณขี่ครึ่งชั่วโมงแล้วอาจสวนกับรถแค่สี่คัน
+
+และสิ่งที่ไม่มีใครใส่ไว้ในแผนการเดินทาง **สิบนาทีหลังจากคุณหยุด** คุณลงจากรถ เครื่องยนต์ดังติ๊กๆ ขณะเย็นตัว การได้ยินกลับมา และสิ่งที่คุณไต่ขึ้นมาดูก็นั่งอยู่ตรงนั้น เรื่องนี้เกิดขึ้นหกหรือเจ็ดครั้งต่อวันบนถนนสายนี้ นั่นแหละคือทั้งหมด""").format(
+        c=cur.get("curves", 729), k=cur.get("km", 185), h=cur.get("hairpins", 110))
+    b.append(f'<div class="prose">{prose(joy_en if en else joy_th)}</div>')
+
+    b.append(band("bua-tong", "Doi Mae U-Kho" if en else "ดอยแม่อูคอ",
+                  "A day built round the stops" if en else "วันที่สร้างขึ้นรอบจุดแวะ",
+                  "", d1, lang, cls="right"))
+    day_en = """**06:00** The morning market. Curry in a bag, sticky rice, coffee. It is packing up by nine.
+**08:00** Ride. The first two hours are the clearest air and the emptiest road of the day.
+**10:00** The stall at the top of the climb. Twenty minutes, a bench, a valley.
+**12:00** Noodles, wherever you are. Khao soi if it has not gone; nam ngiao if it has.
+**14:00** Stop riding. The afternoon is for the town you landed in.
+**16:00** Hot water on the forearms, or a temple with nobody in it, or a hammock.
+**18:00** Whatever the town does in the evening. In Mae Hong Son that is two lit temples reflected in a pond.
+"""
+    day_th = """**06:00** ตลาดเช้า แกงใส่ถุง ข้าวเหนียว กาแฟ เก็บร้านตอนเก้าโมง
+**08:00** ออกเดินทาง สองชั่วโมงแรกคืออากาศที่ใสที่สุดและถนนที่ว่างที่สุดของวัน
+**10:00** เพิงกาแฟบนยอดดอย ยี่สิบนาที ม้านั่งหนึ่งตัว หุบเขาหนึ่งหุบ
+**12:00** ก๋วยเตี๋ยว ที่ไหนก็ได้ที่อยู่ ข้าวซอยถ้ายังไม่หมด ขนมจีนน้ำเงี้ยวถ้าหมดแล้ว
+**14:00** เลิกขี่ บ่ายเป็นของเมืองที่คุณไปถึง
+**16:00** น้ำร้อนบนท้องแขน หรือวัดที่ไม่มีคน หรือเปลญวน
+**18:00** อะไรก็ตามที่เมืองนั้นทำตอนเย็น ที่แม่ฮ่องสอนคือวัดสองหลังเปิดไฟสะท้อนหนองน้ำ
+"""
+    b.append(f'<div class="prose">{prose(day_en if en else day_th)}</div>')
+
+    for t, head_en, head_th in (("dish", "What you eat", "ของกิน"),
+                                ("coffee", "Coffee", "กาแฟ"),
+                                ("spring", "Hot water", "น้ำพุร้อน"),
+                                ("wat", "Wats", "วัด"),
+                                ("stop", "Stops", "จุดแวะ"),
+                                ("stay", "Beds", "ที่พัก")):
+        recs = sorted([n for n in NODES if n["type"] == t], key=lambda n: n["names"]["name"])
+        if not recs:
+            continue
+        b.append(f'<h2><a href="{rel(1)}{DIR_OF[t]}/">{E(head_en if en else head_th)}</a></h2>'
+                 '<div class="grid">')
+        b += [node_card(n_, lang, 1) for n_ in recs[:6]]
+        b.append("</div>")
+
+    b.append(band("ban-rak-thai2", "Ban Rak Thai" if en else "บ้านรักไทย",
+                  "Nobody rides it fast twice" if en else "ไม่มีใครขี่เร็วเป็นครั้งที่สอง",
+                  "", d1, lang, cls="short"))
+    url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}good/"
+    b.append(share_row(url, "The good part of the Mae Hong Son loop", lang))
+    return page(f'{"The good part" if en else "ส่วนที่ดี"} — {NAME[lang]}', "".join(b), 1, lang,
+                "Food, coffee, hot water, temples and the ten minutes after you stop.",
+                None, url, cur="good", path="good/")
+
+
 # ---------------------------------------------------------------- baggage
 # The towns a rider actually sleeps in, in clockwise order, against what is mapped there.
 BAG_TOWNS = [("chiang-mai", 18.7883, 98.9853), ("mae-malai", 19.1206, 98.9450),
@@ -1324,9 +1572,9 @@ def baggage(lang: str) -> str:
             if row["kind"] == kind:
                 pins.append({"lat": row["lat"], "lon": row["lon"], "cls": cls, "name": "",
                              "title": (row.get("name") or kind)})
-    b.append('<figure class="map">' + base_map(860, pins=pins, labels=False) +
+    b.append('<figure class="map">' + base_map(860, pins=pins, labels=False, depth=root_depth(1, lang)) +
              f'<figcaption>{E(str(sum(1 for r in PLACES["rows"] if r["kind"] == "post")) + " post offices and " + str(sum(1 for r in PLACES["rows"] if r["kind"] == "bus")) + " bus stations in the corridor" if en else str(sum(1 for r in PLACES["rows"] if r["kind"] == "post")) + " ที่ทำการไปรษณีย์ และ " + str(sum(1 for r in PLACES["rows"] if r["kind"] == "bus")) + " สถานีขนส่ง ในเขตเส้นทาง")} · '
-             f'© OpenStreetMap contributors</figcaption></figure>')
+             f'{MAP_CREDIT}</figcaption></figure>')
 
     # the bus method, step by step: the part that usually gets a sentence rather than a procedure
     bp = BY_ID.get("bus-parcel")
@@ -1355,6 +1603,41 @@ def baggage(lang: str) -> str:
     if n:
         b.append(f'<h2>{E("Carry, do not ship" if en else "พกไปเอง อย่าส่ง")}</h2>'
                  f'<div class="prose">{prose(T(n, "text.how", lang))}</div>')
+
+    # the checklist — the thing people actually want when they open a baggage page
+    b.append(band("pai-canyon", "Four nights" if en else "สี่คืน",
+                  "What to pack" if en else "เอาอะไรไปบ้าง",
+                  "Which bag each thing goes in, and why the split is the point."
+                  if en else "ของแต่ละอย่างอยู่กระเป๋าใบไหน และทำไมการแยกใบถึงสำคัญ",
+                  d1, lang, cls="right short"))
+    b.append(f'<p class="small mute">{E(PACKLIST["note"])}</p>' if en else "")
+    b.append('<div class="grid packs">')
+    for g in PACKLIST["groups"]:
+        head = g["en"] if en else g["th"]
+        why = g["why_en"] if en else g["why_th"]
+        items = "".join(
+            f'<li><label><input type="checkbox"> <span>{E(i["en"] if en else i["th"])}</span></label></li>'
+            for i in g["items"])
+        b.append(f'<article class="card pack"><h3>{E(head)}</h3>'
+                 f'<p class="mute small">{E(why)}</p><ul class="check">{items}</ul></article>')
+    b.append("</div>")
+    b.append(f'<div class="btns">'
+             f'<button type="button" class="btn alt" id="copypack">'
+             f'{E("Copy the list" if en else "คัดลอกรายการ")}</button>'
+             f'<button type="button" class="btn alt" onclick="window.print()">'
+             f'{E("Print it" if en else "พิมพ์")}</button></div>')
+    plain = []
+    for g in PACKLIST["groups"]:
+        plain.append((g["en"] if en else g["th"]).upper())
+        plain += ["  [ ] " + (i["en"] if en else i["th"]) for i in g["items"]]
+        plain.append("")
+    txt = json.dumps("\n".join(plain) + f"\n{SITE_URL}/{'th/' if lang == 'th' else ''}baggage/")
+    b.append("<script>document.addEventListener('DOMContentLoaded',function(){"
+             "var b=document.getElementById('copypack');if(!b)return;"
+             "b.addEventListener('click',function(){navigator.clipboard&&"
+             f"navigator.clipboard.writeText({txt});"
+             "var t=b.textContent;b.textContent='\u2713';"
+             "setTimeout(function(){b.textContent=t},1400)})});</script>")
     ns = BY_ID.get("no-storage")
     if ns:
         b.append(band("pai-canyon", "Pai" if en else "ปาย",
@@ -1425,7 +1708,7 @@ def roadbook(lang: str) -> str:
                  f'{" · " + E(n["names"]["rtgs"]) if n["names"].get("rtgs") else ""} — '
                  f'{E(clip(T(n, "text.what", lang) or "", 110))}</li>')
     b.append("</ul>")
-    b.append('<figure class="map">' + base_map(820) + "</figure>")
+    b.append('<figure class="map">' + base_map(820, depth=root_depth(1, lang)) + "</figure>")
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}roadbook/"
     b.append(share_row(url, "Mae Hong Son loop roadbook", lang))
     return page(f'{"The roadbook" if lang == "en" else "สมุดเส้นทาง"} — {NAME[lang]}', "".join(b), 1, lang,
@@ -1436,7 +1719,9 @@ def roadbook(lang: str) -> str:
 # A band per type index, so every door into the site opens on a photograph. Keyed by
 # type: (band key, EN kicker, TH kicker, EN line, TH line, extra classes).
 TYPE_BANDS = {
- "leg":    ("mhs", "Mae Hong Son", "แม่ฮ่องสอน", "", "", "short"),
+ "leg":    ("mhs", "Mae Hong Son", "แม่ฮ่องสอน",
+            "Every leg reads differently depending on which way you came at it.",
+            "แต่ละช่วงอ่านต่างกันไปตามทิศที่คุณมา", "short"),
  "road":   ("road-1263", "Route 1263", "ทางหลวง 1263",
             "Six numbers on a blue sign, and one of them is 4.46 curves a kilometre.",
             "หกหมายเลขบนป้ายสีน้ำเงิน และหนึ่งในนั้นคือ 4.46 โค้งต่อกิโลเมตร", ""),
@@ -1449,10 +1734,15 @@ TYPE_BANDS = {
  "wat":    ("doi-kong-mu", "Doi Kong Mu", "ดอยกองมู",
             "Shan spires and Burmese tin, in a Thai province. The border explains it.",
             "เจดีย์ไทใหญ่และสังกะสีพม่า ในจังหวัดไทย ชายแดนคือคำอธิบาย", ""),
- "coffee": ("ban-rak-thai2", "Ban Rak Thai", "บ้านรักไทย", "", "", "short"),
+ "coffee": ("ban-rak-thai2", "Ban Rak Thai", "บ้านรักไทย",
+            "Grown on the ridge you just rode over, and poured at the bottom of it.",
+            "ปลูกบนดอยที่เพิ่งข้ามมา และชงให้ที่เชิงดอย", "short"),
  "spring": ("tham-pla" if "tham-pla" in BANDS else "op-luang", "Hot water", "น้ำพุร้อน",
-            "", "", "short"),
- "stay":   ("ban-rak-thai", "Ban Rak Thai", "บ้านรักไทย", "", "", "short"),
+            "Geothermal water, a hillside, and an hour with nothing required of you.",
+            "น้ำพุร้อน ไหล่เขา และหนึ่งชั่วโมงที่ไม่มีอะไรเรียกร้องจากคุณ", "short"),
+ "stay":   ("ban-rak-thai", "Ban Rak Thai", "บ้านรักไทย",
+            "Bamboo, a mattress, and the valley where the fourth wall should be.",
+            "ไม้ไผ่ ที่นอน และหุบเขาตรงที่ควรเป็นผนังที่สี่", "short"),
  "hazard": ("road-1263", "Route 1263", "ทางหลวง 1263",
             "Gravel on the apex, diesel at the junction, and the drop with nothing beside it.",
             "กรวดกลางโค้ง คราบน้ำมันตรงแยก และเหวที่ไม่มีอะไรกั้น", "right"),
@@ -1465,7 +1755,9 @@ TYPE_BANDS = {
  "person": ("poy", "Poy Sang Long", "ปอยส่างลอง",
             "Shan, Karen, Lisu, Lahu, Hmong, Lua, Pa-O and Chinese Yunnanese.",
             "ไทใหญ่ กะเหรี่ยง ลีซู ลาหู่ ม้ง ลัวะ ปะโอ และจีนยูนนาน", ""),
- "org":    ("cnx-pano", "Chiang Mai", "เชียงใหม่", "", "", "short"),
+ "org":    ("cnx-pano", "Chiang Mai", "เชียงใหม่",
+            "Rental counters, parcel offices, hospitals and national parks.",
+            "เคาน์เตอร์เช่ารถ ที่ทำการพัสดุ โรงพยาบาล และอุทยานแห่งชาติ", "short"),
  "event":  ("bua-tong", "Doi Mae U-Kho", "ดอยแม่อูคอ",
             "When you go decides what you get.", "ไปเมื่อไหร่เป็นตัวกำหนดว่าจะได้อะไร", ""),
  "term":   ("tham-lot", "Tham Lot", "ถ้ำลอด",
@@ -1474,7 +1766,9 @@ TYPE_BANDS = {
  "story":  ("pano-chaem", "Mae Chaem", "แม่แจ่ม",
             "The arguments this road starts, and who is making them.",
             "ข้อถกเถียงที่ถนนสายนี้ก่อ และใครเป็นคนเถียง", ""),
- "art":    ("pai-canyon", "Pai", "ปาย", "", "", "short"),
+ "art":    ("pai-canyon", "Pai", "ปาย",
+            "The sign with the number on it, and the stone that always tells the truth.",
+            "ป้ายที่มีตัวเลข และหลักที่พูดความจริงเสมอ", "short"),
 }
 
 
@@ -1503,14 +1797,12 @@ def type_index(t: str, lang: str) -> str:
     tb = TYPE_BANDS.get(t)
     if tb:
         key, k_en, k_th, l_en, l_th, cls = tb
-        b.append(band(key, k_en if lang == "en" else k_th, title,
-                      l_en if lang == "en" else l_th, root_depth(1, lang), lang, cls=cls))
+        # the headline is the band's own line — repeating the page title under the page
+        # title is the thing that makes these read as filler
+        b.append(band(key, k_en if lang == "en" else k_th,
+                      (l_en if lang == "en" else l_th) or title, "",
+                      root_depth(1, lang), lang, cls=cls))
     if t == "leg":
-        b.append(band("mhs", "Mae Hong Son" if lang == "en" else "แม่ฮ่องสอน",
-                      "Both ways round" if lang == "en" else "ได้ทั้งสองทาง",
-                      "Every leg reads differently depending on which way you came at it."
-                      if lang == "en" else "แต่ละช่วงอ่านต่างกันไปตามทิศที่คุณมา",
-                      root_depth(1, lang), lang, cls="short"))
         b.append(dirsw(lang))
         b.append(leg_list(lang, 1))
         opt = [BY_ID[x] for x in ITIN["optional"] if x in BY_ID]
@@ -1524,9 +1816,9 @@ def type_index(t: str, lang: str) -> str:
         if pins or named:
             hp = pins + [{"lat": h["lat"], "lon": h["lon"], "name": "", "cls": t,
                           "title": h.get("name") or ""} for h in named[:1200]]
-            b.append('<figure class="map">' + base_map(860, pins=hp, labels=False) +
+            b.append('<figure class="map">' + base_map(860, pins=hp, labels=False, depth=root_depth(1, lang)) +
                      f'<figcaption>{E(str(len(recs)) + " written up, " + format(len(harv), ",") + " harvested from OpenStreetMap" if lang == "en" else str(len(recs)) + " รายการที่เขียนไว้ " + format(len(harv), ",") + " รายการจาก OpenStreetMap")} · '
-                     f'© OpenStreetMap contributors</figcaption></figure>')
+                     f'{MAP_CREDIT}</figcaption></figure>')
         if recs:
             b.append('<div class="grid">')
             b += [node_card(n, lang, 1) for n in recs]
@@ -1644,8 +1936,8 @@ def robots() -> str:
 def sitemap() -> str:
     urls = []
     today = time.strftime("%Y-%m-%d")
-    static = ["", "legs/", "which-way/", "numbers/", "air/", "danger/", "baggage/",
-              "quiz/", "roadbook/", "all/", "about/"] + [f"{DIR_OF[t]}/" for t in TYPES
+    static = ["", "legs/", "which-way/", "numbers/", "good/", "year/", "air/", "danger/",
+              "baggage/", "quiz/", "roadbook/", "all/", "about/"] + [f"{DIR_OF[t]}/" for t in TYPES
                                    if any(n["type"] == t for n in NODES)]
     for lang in LANGS:
         pre = "th/" if lang == "th" else ""
@@ -1797,11 +2089,13 @@ def main() -> int:
         write(base / "air" / "index.html", air_page(lang))
         write(base / "danger" / "index.html", danger(lang))
         write(base / "quiz" / "index.html", quiz_page(lang))
+        write(base / "good" / "index.html", good(lang))
+        write(base / "year" / "index.html", year_page(lang))
         write(base / "baggage" / "index.html", baggage(lang))
         write(base / "roadbook" / "index.html", roadbook(lang))
         write(base / "all" / "index.html", all_page(lang))
         write(base / "about" / "index.html", about(lang))
-        n_pages += 10
+        n_pages += 12
         for t in TYPES:
             if any(n["type"] == t for n in NODES):
                 write(base / DIR_OF[t] / "index.html", type_index(t, lang))
@@ -1822,6 +2116,7 @@ def main() -> int:
                 SITE / "api" / "quiz.json")
     write(SITE / "api" / "index.html", api_index())
 
+    write(SITE / "basemap.svg", basemap_svg())
     write(SITE / "icon.svg", icon_svg())
     write(SITE / "manifest.webmanifest", manifest())
     write(SITE / "robots.txt", robots())

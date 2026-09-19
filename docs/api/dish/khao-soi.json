@@ -1,0 +1,138 @@
+{
+ "id": "khao-soi",
+ "type": "dish",
+ "names": {
+  "name": "Khao soi",
+  "th": "ข้าวซอย",
+  "said": "Soft noodles under the broth, fried ones on top, and the crunch is the point.",
+  "said_th": "เส้นนิ่มอยู่ใต้น้ำ เส้นทอดอยู่บน และความกรอบคือหัวใจ",
+  "rtgs": "khao soi"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "noodles",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "A coconut curry noodle soup of upper northern Thailand, Laos and the Shan States. Chicken or beef, pickled mustard greens, shallot, lime, chilli paste on the side.",
+  "story": "The name means *cut rice*, from the way the fresh sheets of noodle are sliced. It belongs to the Tai Yai and to the wider Burmese-border kitchen as much as to Chiang Mai, which is why it is on the board the whole way round this loop.\n\n*Inference —* the practical fact for a rider is the hour. This is breakfast and lunch food. Many of the best places sell out and close by early afternoon, so it is a reason to be on the road by seven and off it by one — which happens to be the same advice the smoke and the heat give you, for entirely different reasons.\n\n*Tradition holds —* the four things on the side are not a garnish. The pickled greens and the lime cut the coconut, the shallot is raw and sharp, and the chilli paste is where the heat lives, so the bowl arrives mild and you build it."
+ },
+ "text_th": {
+  "what": "ก๋วยเตี๋ยวน้ำแกงกะทิของภาคเหนือตอนบน ลาว และรัฐฉาน ใส่ไก่หรือเนื้อ กินกับผักกาดดอง หอมแดง มะนาว และพริกเผาแยกข้าง",
+  "story": "ชื่อหมายถึงข้าวที่ถูกซอย มาจากวิธีตัดแผ่นเส้นสด อาหารจานนี้เป็นของไทใหญ่และของครัวแถบชายแดนพม่าไม่น้อยไปกว่าของเชียงใหม่ จึงมีขายตลอดเส้นทางวงรอบนี้\n\n*อนุมาน —* ข้อเท็จจริงที่ใช้ได้จริงสำหรับคนขี่รถคือเรื่องเวลา นี่คืออาหารเช้าและอาหารกลางวัน ร้านดีๆ หลายร้านขายหมดและปิดตั้งแต่บ่ายต้นๆ จึงเป็นเหตุผลให้ออกเดินทางตั้งแต่เจ็ดโมงและเลิกตอนบ่ายโมง ซึ่งบังเอิญเป็นคำแนะนำเดียวกับที่ควันและความร้อนให้ไว้ ด้วยเหตุผลคนละอย่างสิ้นเชิง\n\n*ตามธรรมเนียม —* ของสี่อย่างที่วางข้างชามไม่ใช่เครื่องเคียงประดับ ผักดองกับมะนาวตัดกะทิ หอมแดงดิบและฉุน ส่วนพริกเผาคือที่อยู่ของความเผ็ด ชามจึงมาถึงแบบอ่อนๆ แล้วคุณปรุงเอง"
+ },
+ "kin": [
+  {
+   "to": "morning-market",
+   "as": "Where to find it before it runs out.",
+   "rel": "dish"
+  },
+  {
+   "to": "nam-ngiao",
+   "as": "The other northern noodle bowl, and the Shan one.",
+   "rel": "dish"
+  },
+  {
+   "to": "shan",
+   "as": "Whose kitchen this also is.",
+   "rel": "person"
+  }
+ ],
+ "sources": [
+  "s:wp-khao-soi",
+  "s:wp-thai-cuisine"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-khao-soi"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "khao-soi/khao-soi-khao-soi-chiang-mai.jpg",
+   "source": "commons",
+   "title": "File:Khao soi Chiang Mai.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Khao_soi_Chiang_Mai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AKhao_soi_Chiang_Mai.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "Khao soi (Thai script: ข้าวซอย) is a dish from Northern Thailand with mixed deep-fried egg noodles and cooked egg noodles served in a coconut based curry with meat (most often chicken as with the khao",
+   "date": "2011-06-02",
+   "primary": true,
+   "sha256": "91d8894045d5eb41a28abdcbf7ef15f4a2c6c593cac69ba96c29dcd7cefd48e5"
+  },
+  {
+   "file": "khao-soi/khao-soi-ok-chicken-and-khao-soi-portland-oregon-5.jpg",
+   "source": "commons",
+   "title": "File:OK Chicken and Khao Soi, Portland, Oregon - 5.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/OK_Chicken_and_Khao_Soi%2C_Portland%2C_Oregon_-_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AOK_Chicken_and_Khao_Soi%2C_Portland%2C_Oregon_-_5.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Another Believer",
+   "credit": "Own work",
+   "alt": "OK Chicken and Khao Soi",
+   "date": "2026-02-13 17:11:23",
+   "primary": false,
+   "sha256": "ffcad12b4c53940e4f509f436c72ac7d699a721b6f591c1ee44986ba6dae64dc"
+  },
+  {
+   "file": "khao-soi/khao-soi-ok-chicken-and-khao-soi-portland-oregon-6.jpg",
+   "source": "commons",
+   "title": "File:OK Chicken and Khao Soi, Portland, Oregon - 6.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/OK_Chicken_and_Khao_Soi%2C_Portland%2C_Oregon_-_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AOK_Chicken_and_Khao_Soi%2C_Portland%2C_Oregon_-_6.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Another Believer",
+   "credit": "Own work",
+   "alt": "OK Chicken and Khao Soi",
+   "date": "2026-02-13 17:13:43",
+   "primary": false,
+   "sha256": "d6af4bd66b97141f6fb02f17cf0fd4a53236e5e6d7c083fe7d0b59df10f00d00"
+  },
+  {
+   "file": "khao-soi/khao-soi-trimeresurus-vogeli-vogel-s-pit-viper-khao-soi-dao-w-4fdc6a2.jpg",
+   "source": "commons",
+   "title": "File:Trimeresurus vogeli, Vogel's pit viper - Khao Soi Dao Wildlife Sanctuary (46361404605).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Trimeresurus_vogeli%2C_Vogel%27s_pit_viper_-_Khao_Soi_Dao_Wildlife_Sanctuary_%2846361404605%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATrimeresurus_vogeli%2C_Vogel%27s_pit_viper_-_Khao_Soi_Dao_Wildlife_Sanctuary_%2846361404605%29.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Rushen",
+   "credit": "Trimeresurus vogeli, Vogel's pit viper - Khao Soi Dao Wildlife Sanctuary",
+   "alt": "Vogel's pit viper (Trimeresurus vogeli). Khao Soi Dao Wildlife Sanctuary, Thailand",
+   "date": "2019-02-21 20:16",
+   "primary": false,
+   "sha256": "5f426a40e022455722a45274975a4bc5122491f16bd4ff8410099043c8e3b788"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "morning-market",
+   "type": "dish",
+   "name": "The morning market",
+   "as": "Often the best bowl in town is in here."
+  },
+  {
+   "from": "nam-ngiao",
+   "type": "dish",
+   "name": "Kanom jeen nam ngiao",
+   "as": "The heavier bowl, and the one that sells out."
+  }
+ ]
+}

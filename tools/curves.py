@@ -164,11 +164,16 @@ def main() -> int:
         for sp in cut(line, SPLITS.get(ref, [])):
             m = measure(sp.pop("points"))
             r["spans"].append(dict(sp, **m))
-        # every chain over 2 km, simplified, so the map draws a complete road even where
-        # the ref tag breaks; measurements still come from the longest chain only.
-        from harvest_osm import simplify
+        # Two stitches, on purpose. MEASUREMENT uses the strict one (30 m joins, then a
+        # 2.5 km second pass) so a curve count is never inflated by an invented straight.
+        # DRAWING uses a looser one: a route number goes untagged for several kilometres
+        # through a town centre, and a map with holes in it is worse than a map with a
+        # few straight kilometres in it. The strict chain is what `whole` and `spans`
+        # are computed from; these are only ever drawn.
+        from harvest_osm import simplify, _join
+        draw = _join([list(c) for c in load_chains(ref)], 6.0)
         r["lines"] = [[[round(x, 5), round(y, 5)] for x, y in simplify(c, 0.06)]
-                      for c in load_chains(ref) if chain_km(c) > 1.5]
+                      for c in draw if chain_km(c) > 1.5]
         r["chains"] = len(r["lines"])
         r["density"] = density(line)
         r["bands"] = BANDS

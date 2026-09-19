@@ -50,7 +50,7 @@ ROADS = {
              "span": (18.78, 98.88, 19.18, 99.05),
              "note": "Chiang Mai north to Mae Malai, where 1095 turns off."},
     "108":  {"name": "Route 108", "th": "ทางหลวงหมายเลข 108",
-             "span": (17.60, 97.80, 19.35, 98.90),
+             "span": (17.60, 97.80, 19.35, 99.06),
              "note": "Chiang Mai to Hot to Mae Sariang to Khun Yuam to Mae Hong Son."},
     "1263": {"name": "Route 1263", "th": "ทางหลวงหมายเลข 1263",
              "span": (18.20, 97.90, 18.85, 98.50),

@@ -708,6 +708,12 @@
    "as": "The way in from the north."
   },
   {
+   "from": "grilled-by-the-road",
+   "type": "dish",
+   "name": "Grilled by the road",
+   "as": "The leg with the most roadside grills on it."
+  },
+  {
    "from": "karen",
    "type": "person",
    "name": "The Karen",

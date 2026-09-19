@@ -122,16 +122,40 @@
    "as": "When there is water in it."
   },
   {
+   "from": "pa-bong-piang",
+   "type": "stop",
+   "name": "Pa Bong Piang rice terraces",
+   "as": "When they are green."
+  },
+  {
+   "from": "annoyances",
+   "type": "hazard",
+   "name": "Annoyances",
+   "as": "The season the afternoon storm belongs to."
+  },
+  {
    "from": "gravel-on-the-apex",
    "type": "hazard",
    "name": "Gravel on the apex",
    "as": "The season that puts it there."
   },
   {
+   "from": "akha-swing",
+   "type": "event",
+   "name": "The Akha Swing Festival",
+   "as": "What late August is on this loop."
+  },
+  {
    "from": "burning-season",
    "type": "event",
    "name": "Burning season",
    "as": "What ends it."
+  },
+  {
+   "from": "phansa",
+   "type": "event",
+   "name": "Khao Phansa and Ok Phansa",
+   "as": "The season it runs across."
   },
   {
    "from": "season-and-direction",

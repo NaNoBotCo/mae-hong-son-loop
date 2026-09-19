@@ -1,0 +1,126 @@
+{
+ "id": "thua-nao",
+ "type": "dish",
+ "names": {
+  "name": "Thua nao",
+  "th": "ถั่วเน่า",
+  "said": "Fermented soybean, dried into discs and toasted. The Shan kitchen's salt.",
+  "said_th": "ถั่วเหลืองหมัก ตากเป็นแผ่นแล้วปิ้ง เป็นเกลือของครัวไทใหญ่",
+  "rtgs": "thua nao"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "ingredient",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "Soybeans fermented, mashed, pressed flat and sun-dried into thin discs, then toasted or fried and crumbled into food. The name means rotten bean and nobody minds.",
+  "story": "*Tradition holds —* this is the northern and Shan answer to fish sauce, in a region far from the sea. Where central Thailand reaches for *nam pla*, the hill kitchens reach for a toasted disc of fermented bean.\n\n*Inference —* it is the single ingredient that most reliably tells you which side of the cultural line you are eating on, and it is easy to miss because it arrives crumbled into something else. Ask, and people will show you the discs — they are stacked like coasters in every market on the western half of this loop.\n\nThe smell on a toasting grill is strong and it is the good kind."
+ },
+ "text_th": {
+  "what": "ถั่วเหลืองหมัก บด กดเป็นแผ่นบาง ตากแดด แล้วปิ้งหรือทอดโขลกใส่อาหาร ชื่อแปลว่าถั่วเน่า และไม่มีใครถือ",
+  "story": "*ตามธรรมเนียม —* นี่คือคำตอบของภาคเหนือและของไทใหญ่ต่อน้ำปลา ในดินแดนที่อยู่ไกลทะเล ที่ภาคกลางใช้น้ำปลา ครัวบนดอยใช้แผ่นถั่วหมักปิ้ง\n\n*อนุมาน —* มันเป็นวัตถุดิบเดียวที่บอกได้แน่นอนที่สุดว่าคุณกำลังกินอยู่ฝั่งไหนของเส้นวัฒนธรรม และสังเกตยากเพราะมันมาถึงในรูปที่โขลกปนอยู่ในอย่างอื่นแล้ว ลองถามดู คนจะหยิบแผ่นให้ดู มันวางซ้อนกันเหมือนที่รองแก้วในทุกตลาดบนครึ่งตะวันตกของวงรอบนี้\n\nกลิ่นตอนปิ้งบนเตาแรงมาก และเป็นความแรงแบบที่ดี"
+ },
+ "kin": [
+  {
+   "to": "shan",
+   "as": "Whose kitchen it belongs to.",
+   "rel": "person"
+  },
+  {
+   "to": "morning-market",
+   "as": "Stacked like coasters, on every table.",
+   "rel": "dish"
+  },
+  {
+   "to": "nam-ngiao",
+   "as": "Often in the bowl without being announced.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-soybean",
+  "s:wp-burmese-cuisine",
+  "s:wp-shan-people"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "thua-nao/thua-nao-3locally-made-famous-bean-paste-sold-at-mong-yawng-m-5c5e7b5.jpg",
+   "source": "commons",
+   "title": "File:-3Locally Made famous bean paste sold at Mong Yawng Market in early monrning of 2016-2 December.-3.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/-3Locally_Made_famous_bean_paste_sold_at_Mong_Yawng_Market_in_early_monrning_of_2016-2_December.-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A-3Locally_Made_famous_bean_paste_sold_at_Mong_Yawng_Market_in_early_monrning_of_2016-2_December.-3.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Sai Htun Lin",
+   "credit": "Own work",
+   "alt": "Locally Made famous bean paste sold at Mong Yawng Market in early monrning of 2016 December.",
+   "date": "2017-01-02 06:39:20",
+   "primary": true,
+   "sha256": "e6453ca35a722eab71231d11fe40b62cf53f3c9b1d81f31462946d660183b237"
+  },
+  {
+   "file": "thua-nao/thua-nao-2017-0419-thanin-market-tua-nao.jpg",
+   "source": "commons",
+   "title": "File:2017 0419 Thanin market tua nao.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/2017_0419_Thanin_market_tua_nao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A2017_0419_Thanin_market_tua_nao.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "Tua nao (Thai script: ถั่วเน่า) are a food ingredient made from fermented soy beans in the form of round patties. Within Thailand, they are mainly used in northern Thai cuisine. This ingredient is ass",
+   "date": "2017-04-19 13:32:11",
+   "primary": false,
+   "sha256": "b0999a6f2860f3005b813a4e7bd5b6873a880ab1ceb772d36c0def9937ef4fb0"
+  },
+  {
+   "file": "thua-nao/thua-nao-dried-fermented-bean-cakes.jpg",
+   "source": "commons",
+   "title": "File:Dried fermented bean cakes.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Dried_fermented_bean_cakes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ADried_fermented_bean_cakes.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "User:Wagaung",
+   "credit": "Own work",
+   "alt": "Pè bouk (pé-bôk, pébôk) - dried fermented soybean cakes",
+   "date": "5 January 2007 (according to Exif data)",
+   "primary": false,
+   "sha256": "2b8d5030aaca918c2c3b2e430e4be575f5f92d8237d683a8e5117779913b666a"
+  },
+  {
+   "file": "thua-nao/thua-nao-ethnic-women-selling-fermented-soybeans-on-market-da-31c51c3.jpg",
+   "source": "commons",
+   "title": "File:Ethnic women selling fermented soybeans on market day (January 2020).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Ethnic_women_selling_fermented_soybeans_on_market_day_%28January_2020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AEthnic_women_selling_fermented_soybeans_on_market_day_%28January_2020%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Ba Gyee Soe",
+   "credit": "https://www.facebook.com/BGSAungban/",
+   "alt": "Ethnic women selling fermented soybeans on market day (12 January 2020)",
+   "date": "2020-01-12",
+   "primary": false,
+   "sha256": "bc52a6a53346c9c7ae78c237f51cecec44bc6167013d7edc70e2461d0c17b6d0"
+  }
+ ],
+ "kin_in": []
+}

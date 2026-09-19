@@ -1,0 +1,147 @@
+{
+ "id": "pha-bong",
+ "type": "spring",
+ "names": {
+  "name": "Pha Bong hot springs",
+  "th": "น้ำพุร้อนผาบ่อง",
+  "said": "Public pools and private tubs, eleven kilometres south of Mae Hong Son, right beside Route 108.",
+  "said_th": "บ่อสาธารณะและห้องอาบส่วนตัว ห่างแม่ฮ่องสอนลงใต้สิบเอ็ดกิโลเมตร อยู่ติดทางหลวง 108"
+ },
+ "region": [
+  "mhs",
+  "mueang-mhs",
+  "loop",
+  "south-leg"
+ ],
+ "facets": {
+  "kind": "bath",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "A developed hot spring on the southern road out of Mae Hong Son, with a communal foot pool and rooms where the water is run into a tub for you.",
+  "story": "*Inference —* this one is on the route rather than up a side road, which on a circuit where every detour costs daylight is most of what makes it usable. It is the first thing on Route 108 going south, so it works as a stop on the way out of Mae Hong Son rather than an expedition.\n\n*Tradition holds —* the private room with a tub is the arrangement at Thai developed springs, and it is what to ask for if sitting in a communal pool in a swimsuit is not what you want. A foot pool costs less and does most of the work.\n\n**Not on this disk:** current charges or hours."
+ },
+ "text_th": {
+  "what": "น้ำพุร้อนที่พัฒนาแล้วบนถนนขาใต้ออกจากแม่ฮ่องสอน มีบ่อแช่เท้ารวม และมีห้องที่ปล่อยน้ำลงอ่างให้",
+  "story": "*อนุมาน —* ที่นี่อยู่บนเส้นทางเลย ไม่ใช่ต้องแยกเข้าไป ซึ่งบนวงรอบที่ทุกการแยกออกนอกเส้นทางกินแสงแดด นั่นคือสิ่งที่ทำให้มันใช้ได้จริง มันเป็นสิ่งแรกบนทางหลวง 108 ขาลงใต้ จึงใช้เป็นจุดแวะระหว่างออกจากแม่ฮ่องสอนได้ ไม่ต้องจัดเป็นทริปแยก\n\n*ตามธรรมเนียม —* ห้องส่วนตัวที่มีอ่างเป็นรูปแบบปกติของน้ำพุร้อนที่พัฒนาแล้วในไทย และเป็นสิ่งที่ควรขอถ้าไม่อยากลงบ่อรวมในชุดว่ายน้ำ ส่วนบ่อแช่เท้าถูกกว่าและได้ผลเกือบเท่ากัน\n\n**ไม่มีข้อมูลในชุดนี้** ค่าบริการหรือเวลาเปิดปิดปัจจุบัน"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The town it is south of.",
+   "rel": "town"
+  },
+  {
+   "to": "mhs-to-khun-yuam",
+   "as": "The leg it sits at the start of.",
+   "rel": "leg"
+  },
+  {
+   "to": "tha-pai-hot-springs",
+   "as": "The other one, at the Pai end.",
+   "rel": "spring"
+  }
+ ],
+ "sources": [
+  "s:wp-hot-spring",
+  "s:wp-mueang-mae-hong-son-district",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.2167,
+  "lon": 97.9833,
+  "precision": "town"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "pha-bong/pha-bong-chiang-mai-wat-pha-bong-mangkhalaram-2026-img-01.jpg",
+   "source": "commons",
+   "title": "File:Chiang Mai - Wat Pha Bong (Mangkhalaram) - วัดผาบ่อง (มังคลาราม) (2026) - IMG 01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Chiang_Mai_-_Wat_Pha_Bong_%28Mangkhalaram%29_-_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B2%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%87_%28%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%29_%282026%29_-_IMG_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_Mai_-_Wat_Pha_Bong_%28Mangkhalaram%29_-_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B2%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%87_%28%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%29_%282026%29_-_IMG_01.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Chainwit.",
+   "credit": "Own work",
+   "alt": "Wat Pha Bong (Mangkhalaram / Mangalaram), Chiang Mai",
+   "date": "2026-07-30 12:16:16",
+   "primary": true,
+   "sha256": "e3650fe1c36db13c44491b2cadb6069ef95600241022dc21e749982aa302c5c2"
+  },
+  {
+   "file": "pha-bong/pha-bong-chiang-mai-wat-pha-bong-mangkhalaram-2026-img-15.jpg",
+   "source": "commons",
+   "title": "File:Chiang Mai - Wat Pha Bong (Mangkhalaram) - วัดผาบ่อง (มังคลาราม) (2026) - IMG 15.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Chiang_Mai_-_Wat_Pha_Bong_%28Mangkhalaram%29_-_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B2%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%87_%28%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%29_%282026%29_-_IMG_15.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_Mai_-_Wat_Pha_Bong_%28Mangkhalaram%29_-_%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B2%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%87_%28%E0%B8%A1%E0%B8%B1%E0%B8%87%E0%B8%84%E0%B8%A5%E0%B8%B2%E0%B8%A3%E0%B8%B2%E0%B8%A1%29_%282026%29_-_IMG_15.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Chainwit.",
+   "credit": "Own work",
+   "alt": "Wat Pha Bong (Mangkhalaram / Mangalaram), Chiang Mai",
+   "date": "2026-07-30 12:22:28",
+   "primary": false,
+   "sha256": "33cfee9ee16e2e36e837436d84a360f2783f997fe1c808e5d42b3912aba02f0f"
+  },
+  {
+   "file": "pha-bong/pha-bong-sai-ngam-hot-spring-1.jpg",
+   "source": "commons",
+   "title": "File:Sai Ngam Hot Spring 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Sai_Ngam_Hot_Spring_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASai_Ngam_Hot_Spring_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Sai Ngam Hot Spring in Pai District, Mae Hong Son Province.",
+   "date": "2018-08-30 14:44:13",
+   "primary": false,
+   "sha256": "a3043388794481e864eb2790b309c7624bc06030688a61dd2070182ad27103f2"
+  },
+  {
+   "file": "pha-bong/pha-bong-sai-ngam-hot-spring-2.jpg",
+   "source": "commons",
+   "title": "File:Sai Ngam Hot Spring 2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Sai_Ngam_Hot_Spring_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASai_Ngam_Hot_Spring_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Sai Ngam Hot Spring in Pai District, Mae Hong Son Province.",
+   "date": "2018-08-30 15:33:06",
+   "primary": false,
+   "sha256": "c98d817ae47f3593ade4628ac9404260c6bff896b2d2d8085da4948976e41b0f"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "tha-pai-hot-springs",
+   "type": "spring",
+   "name": "Tha Pai hot springs",
+   "as": "The other one, at the far end of the loop."
+  },
+  {
+   "from": "what-a-spring-is",
+   "type": "spring",
+   "name": "How a Thai hot spring works",
+   "as": "The one near Mae Hong Son."
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "id": "how-old-is-this-ride",
+ "type": "story",
+ "names": {
+  "name": "How old is this ride",
+  "th": "ทริปนี้เก่าแค่ไหน",
+  "said": "The road is ancient and the ride is not. The loop was not sealed end to end until 1998.",
+  "said_th": "ถนนเก่าแก่ แต่การขี่เที่ยวไม่ได้เก่า วงรอบนี้เพิ่งลาดยางครบทั้งเส้นเมื่อ พ.ศ. 2541"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "history"
+ },
+ "text": {
+  "what": "People have moved along this line for centuries and have been riding it for pleasure for under thirty years. Both halves of that are worth knowing.",
+  "story": "**The southern road is old.** Thai Wikipedia's article on Route 108 describes it as an ancient route, because it linked Chiang Mai — the centre of the Lanna kingdom — with **Mawlamyine**, the port on the Andaman Sea in Mon State, crossing the border at the Salween in what is now Mae Sariang district. That is a trade road to the Indian Ocean, and it was walked long before it was driven.\n\n**Then the dates.** The Highways Department built it up from a rough track into a **gravel road between 1957 and 1963**, about five metres wide. Asphalt came much later: a surfacing programme ran **from 1987 to 1990** in named sections — Hot to Mae Sariang, Mae La Noi to Khun Yuam, Khun Yuam to Ban Huai Pong, Ban Huai Pong to Mae Hong Son, Mae Sariang to Mae La Noi — and the whole road was **finished in 1998**.\n\n**The northern road is younger still.** Work on the Chiang Mai–Pai–Mae Hong Son road, today's Route 1095, started in **1967** and the paving was not finished until the **early-to-mid 1990s**.\n\n*Inference —* put those together and the circuit as a thing you would ride for fun, on a road sealed the whole way, is **about thirty years old**. Anyone who did it in the 1980s was doing something else entirely: gravel, five metres wide, on a road that took a day and a half.\n\n**How many people do it now?** Not on this disk — nobody publishes a count for the loop. What is published is a symptom: the Wikipedia article on Pai records that in the November-to-March high season, visitor numbers swell to the point that the town has traffic jams and runs short of electricity, water and petrol. Pai was a quiet Shan market village before this road was sealed."
+ },
+ "text_th": {
+  "what": "ผู้คนเดินทางตามแนวนี้มาหลายศตวรรษ แต่ขี่มันเพื่อความสนุกมาไม่ถึงสามสิบปี ทั้งสองส่วนน่ารู้พอๆ กัน",
+  "story": "**ถนนสายใต้เก่าแก่** บทความวิกิพีเดียภาษาไทยเรื่องทางหลวง 108 บรรยายว่าเป็นเส้นทางโบราณ เพราะมันเชื่อมเชียงใหม่ ซึ่งเป็นศูนย์กลางอาณาจักรล้านนา กับ **เมืองมะละแหม่ง** เมืองท่าชายฝั่งอันดามันในรัฐมอญ โดยข้ามชายแดนที่แม่น้ำสาละวินในเขตอำเภอแม่สะเรียงปัจจุบัน นั่นคือถนนการค้าสู่มหาสมุทรอินเดีย และมีคนเดินก่อนจะมีคนขับ\n\n**แล้วก็ถึงตัวเลขปี** กรมทางหลวงสร้างจากทางลำลองขึ้นเป็น **ทางลูกรังในช่วง พ.ศ. 2500–2506** กว้างราวห้าเมตร ส่วนแอสฟัลต์มาทีหลังมาก โครงการปูผิวทางดำเนินระหว่าง **พ.ศ. 2530–2533** แบ่งเป็นตอนๆ คือ ฮอด–แม่สะเรียง แม่ลาน้อย–ขุนยวม ขุนยวม–บ้านห้วยโป่ง บ้านห้วยโป่ง–แม่ฮ่องสอน และแม่สะเรียง–แม่ลาน้อย จนเสร็จตลอดสายใน **พ.ศ. 2541**\n\n**ถนนสายเหนือยิ่งใหม่กว่า** งานก่อสร้างถนนเชียงใหม่–ปาย–แม่ฮ่องสอน ซึ่งคือทางหลวง 1095 ในปัจจุบัน เริ่มเมื่อ **พ.ศ. 2510** และการลาดยางไม่เสร็จจนถึง **ต้นถึงกลางทศวรรษ 2530**\n\n*อนุมาน —* เอามารวมกันแล้ว วงรอบนี้ในฐานะสิ่งที่คุณจะขี่เพื่อความสนุก บนถนนที่ลาดยางตลอดสาย มีอายุ **ราวสามสิบปี** ใครที่ทำมันในทศวรรษ 2520 กำลังทำอย่างอื่นไปเลย ทางลูกรังกว้างห้าเมตร บนถนนที่ใช้เวลาวันครึ่ง\n\n**ตอนนี้มีคนทำกี่คน** ไม่มีข้อมูลในชุดนี้ ไม่มีใครเผยแพร่ตัวเลขของวงรอบนี้ สิ่งที่เผยแพร่คืออาการ บทความวิกิพีเดียเรื่องปายบันทึกว่าในฤดูท่องเที่ยวเดือนพฤศจิกายนถึงมีนาคม จำนวนผู้มาเยือนเพิ่มจนเมืองรถติด และขาดแคลนไฟฟ้า น้ำ และน้ำมัน ปายเคยเป็นหมู่บ้านตลาดไทใหญ่ที่เงียบสงบก่อนถนนสายนี้จะลาดยาง"
+ },
+ "kin": [
+  {
+   "to": "route-108",
+   "as": "The ancient half, and the one that took until 1998.",
+   "rel": "road"
+  },
+  {
+   "to": "route-1095",
+   "as": "The younger half.",
+   "rel": "road"
+  },
+  {
+   "to": "mae-sariang",
+   "as": "Where the old road crossed to Burma.",
+   "rel": "town"
+  },
+  {
+   "to": "pai",
+   "as": "A quiet Shan market village, before the seal.",
+   "rel": "town"
+  },
+  {
+   "to": "how-many-curves",
+   "as": "The other thing people argue about.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:thwp-108",
+  "s:thwp-1095",
+  "s:wp-pai-thailand",
+  "s:wp-mae-sariang-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:thwp-108"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "how-old-is-this-ride/how-old-is-this-ride-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-a04b28c.jpg",
+   "source": "commons",
+   "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031193728/http://www.panoramio.com/photo/124380306",
+   "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+   "date": "Taken on 15 July 2015",
+   "primary": true,
+   "sha256": "c97a1bf171d1c5ae45c0afb7de10cf858c0d9832fc07d5f3cd6e30061d6644c6"
+  },
+  {
+   "file": "how-old-is-this-ride/how-old-is-this-ride-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-93478b0.jpg",
+   "source": "commons",
+   "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio (1).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "::::=UT=::::",
+   "credit": "https://web.archive.org/web/20161031193239/http://www.panoramio.com/photo/124380303",
+   "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+   "date": "Taken on 15 July 2015",
+   "primary": false,
+   "sha256": "42a4e24e5a71b08eca40034450f636a08a4cf5811aa4ae11553714dae37415fc"
+  },
+  {
+   "file": "how-old-is-this-ride/how-old-is-this-ride-ruta-1095-240125-norteam-rica-s-a-metalbus-urbano-me-b6aca27.jpg",
+   "source": "commons",
+   "title": "File:Ruta 1095 240125 Norteamérica S.A. Metalbus Urbano Mercedes-Benz OF-914.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ruta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARuta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Fabco09",
+   "credit": "Own work",
+   "alt": "Route 1095.",
+   "date": "2025-01-24 15:21:38",
+   "primary": false,
+   "sha256": "f89cb77917c2d77186e2623767a8bb088b582a358dc18873f596a2149fd3b5b0"
+  },
+  {
+   "file": "how-old-is-this-ride/how-old-is-this-ride-thailand-route-1095.jpg",
+   "source": "commons",
+   "title": "File:Thailand Route 1095.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Thailand_Route_1095.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThailand_Route_1095.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Thailand Route 1095 and a minibus going from Chiang Mai to Pai in Mae Taeng District, Chiang Mai Province.",
+   "date": "2018-08-29 14:08:13",
+   "primary": false,
+   "sha256": "98d29fc18592e9627c27b08638368c3501bd901d778593d82f7bf4e4b77837fc"
+  }
+ ]
+}

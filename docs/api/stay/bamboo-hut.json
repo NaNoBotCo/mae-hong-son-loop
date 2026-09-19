@@ -1,0 +1,130 @@
+{
+ "id": "bamboo-hut",
+ "type": "stay",
+ "names": {
+  "name": "The hut with no wall on the valley side",
+  "th": "กระท่อมที่ไม่มีผนังด้านหุบเขา",
+  "said": "Bamboo, a mattress, a mosquito net, and the whole valley where the fourth wall should be.",
+  "said_th": "ไม้ไผ่ ที่นอน มุ้ง และหุบเขาทั้งหุบตรงที่ควรเป็นผนังที่สี่"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "hut",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "The form that made Pai's name and has since spread down the whole circuit: a raised bamboo platform hut, open on the view side, often with the bathroom in a separate box.",
+  "story": "*Inference —* what you are buying is the first ten minutes after you stop riding, when you sit on the step with the engine ticking as it cools and the valley doing whatever the valley is doing. On a trip whose whole subject is motion, the places that make stopping worth something are doing the heavier work.\n\nTwo things worth knowing. It is cold before dawn from November to February and bamboo is not insulated, so the blanket matters more than the view does at five in the morning. And the huts with the best view are usually up the steepest track — the one at the bottom of the slope looks at the same valley."
+ },
+ "text_th": {
+  "what": "รูปแบบที่ทำให้ปายเป็นที่รู้จัก และตอนนี้กระจายไปทั่วเส้นทาง กระท่อมไม้ไผ่ยกพื้น เปิดโล่งด้านวิว ห้องน้ำมักแยกอยู่อีกหลัง",
+  "story": "*อนุมาน —* สิ่งที่คุณจ่ายเงินซื้อคือสิบนาทีแรกหลังหยุดขี่ ตอนที่นั่งอยู่บนขั้นบันไดโดยมีเสียงเครื่องยนต์ดังติ๊กๆ ขณะเย็นตัว และหุบเขากำลังทำอะไรก็ตามที่หุบเขาทำ ในทริปที่มีเรื่องการเคลื่อนที่เป็นแก่น ที่ที่ทำให้การหยุดมีความหมายคือที่ที่ทำงานหนักกว่า\n\nสองเรื่องที่ควรรู้ หนาวก่อนรุ่งสางตั้งแต่พฤศจิกายนถึงกุมภาพันธ์ และไม้ไผ่ไม่มีฉนวน ผ้าห่มจึงสำคัญกว่าวิวตอนตีห้า และหลังที่วิวดีที่สุดมักอยู่ปลายทางที่ชันที่สุด ส่วนหลังที่อยู่เชิงเนินก็มองเห็นหุบเขาเดียวกัน"
+ },
+ "kin": [
+  {
+   "to": "annoyances",
+   "as": "The small stuff, with antidotes.",
+   "rel": "hazard"
+  },
+  {
+   "to": "cool-season",
+   "as": "The months it is cold before dawn.",
+   "rel": "event"
+  },
+  {
+   "to": "pai",
+   "as": "Where the form is thickest on the ground.",
+   "rel": "town"
+  }
+ ],
+ "sources": [
+  "s:osm",
+  "s:wp-pai-district"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "bamboo-hut/bamboo-hut-akha-hut.jpg",
+   "source": "commons",
+   "title": "File:Akha Hut.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Akha_Hut.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AAkha_Hut.JPG",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Manuel Jobi",
+   "credit": "self-made Weltenbummler84",
+   "alt": "An Akha hut made from Bamboo in a village near Chiang Rai, Thailand.",
+   "date": "2007-07",
+   "primary": true,
+   "sha256": "90c8ed1075aa46a010580bacece9a4ae6b319d896a9e69f16d9b69798b32c954"
+  },
+  {
+   "file": "bamboo-hut/bamboo-hut-bungalow-in-pai-thailand.jpg",
+   "source": "commons",
+   "title": "File:Bungalow in Pai, Thailand.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Bungalow_in_Pai%2C_Thailand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ABungalow_in_Pai%2C_Thailand.JPG",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Flora-Victoria",
+   "credit": "Own work",
+   "alt": "Bungalow in Pai, Thailand",
+   "date": "2011-08-09 23:56:23",
+   "primary": false,
+   "sha256": "97a0e84fefeb4e26827fc763c5cc1467ae8fa5878f1504bb42aa757848f02e8a"
+  },
+  {
+   "file": "bamboo-hut/bamboo-hut-khao-sok-national-park-thailand-panoramio.jpg",
+   "source": "commons",
+   "title": "File:Khao Sok National Park Thailand - panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Khao_Sok_National_Park_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AKhao_Sok_National_Park_Thailand_-_panoramio.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Abrar Alam Khan",
+   "credit": "https://web.archive.org/web/20161014052849/http://www.panoramio.com/photo/28451730",
+   "alt": "Khao Sok National Park Thailand (Sai Chon Raft houses)",
+   "date": "Taken on 14 September 2008",
+   "primary": false,
+   "sha256": "0e551b1f128ed2ec74f717a73742ef4ff8a2dc20f0b7e0cc112d3dbc1f32112a"
+  },
+  {
+   "file": "bamboo-hut/bamboo-hut-pai-river-thailand.jpg",
+   "source": "commons",
+   "title": "File:Pai river, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pai_river%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APai_river%2C_Thailand.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Davidlohr Bueso",
+   "credit": "Flickr: pai river",
+   "alt": "I photographed this near the bungalow I am staying at, next to the Pai river - which is very shallow this time a year.\nPai, Thailand.\n\nFor more pictures of Thailand, click &lt;a href=\"https://www.flic",
+   "date": "2010-04-05 17:50:22",
+   "primary": false,
+   "sha256": "285e6ccc3b0d3dd797aab3f792f698a2c38e938796f02a86e599dcb63f6c645e"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "where-to-put-the-nights",
+   "type": "stay",
+   "name": "Where to put the nights",
+   "as": "What you are sleeping in when you get there."
+  }
+ ]
+}

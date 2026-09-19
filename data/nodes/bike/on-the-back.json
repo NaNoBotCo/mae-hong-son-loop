@@ -16,16 +16,16 @@
  },
  "text": {
   "what": "Two people, one bike, six hundred kilometres of camber changes. Common, and worth planning around rather than discovering.",
-  "story": "*Inference —* three things change with a passenger, and all three are worse on a descent. The bike is heavier so it stops later; the weight is high and behind the rear axle so it wants to stand the bike up mid-corner; and the passenger cannot see the road surface coming, so every unannounced brake application is a surprise that moves their weight forward into the rider.\n\nWhat fixes most of it is boring: more distance, earlier braking, and telling the passenger where the next stop is. Days should be shorter — *Inference —* about two-thirds of the distance a solo rider would plan.\n\nThe pillion needs their own helmet, their own long sleeves and their own gloves, and the rental shop's spare helmet is often the one nobody chose."
+  "story": "**What it is like.** Better, in the ways nobody mentions. The passenger gets to look. The rider is working a line and watching the surface; the pillion is watching the valley open up, spotting the stall with the bench, seeing the gibbon. Two people on this road come home with different trips and the pillion's is often the richer one.\n\n*Inference —* three things change with a passenger, and all three are worse on a descent. The bike is heavier so it stops later; the weight is high and behind the rear axle so it wants to stand the bike up mid-corner; and the passenger cannot see the road surface coming, so every unannounced brake application is a surprise that moves their weight forward into the rider.\n\nWhat fixes most of it is boring: more distance, earlier braking, and telling the passenger where the next stop is. Days should be shorter — *Inference —* about two-thirds of the distance a solo rider would plan.\n\nThe pillion needs their own helmet, their own long sleeves and their own gloves, and the rental shop's spare helmet is often the one nobody chose."
  },
  "text_th": {
   "what": "สองคน หนึ่งคัน หกร้อยกิโลเมตรที่เอียงซ้ายเอียงขวาตลอด เป็นเรื่องปกติ และควรวางแผนไว้ก่อน ไม่ใช่ค่อยไปรู้เอาตอนนั้น",
-  "story": "*อนุมาน —* สามอย่างเปลี่ยนไปเมื่อมีคนซ้อน และทั้งสามอย่างแย่กว่าเดิมตอนลงเขา รถหนักขึ้นจึงหยุดช้าลง น้ำหนักอยู่สูงและอยู่หลังเพลาล้อหลังจึงพยายามดันรถให้ตั้งขึ้นกลางโค้ง และคนซ้อนมองไม่เห็นผิวถนนที่กำลังจะมาถึง ทุกครั้งที่เบรกโดยไม่บอกล่วงหน้าจึงเป็นความประหลาดใจที่ผลักน้ำหนักเขามาข้างหน้าทับคนขี่\n\nสิ่งที่แก้ได้เกือบหมดนั้นน่าเบื่อมาก คือเว้นระยะมากขึ้น เบรกเร็วขึ้น และบอกคนซ้อนว่าจุดพักถัดไปอยู่ตรงไหน ระยะต่อวันควรสั้นลง *อนุมาน —* ราวสองในสามของระยะที่คนขี่คนเดียวจะวางแผนไว้\n\nคนซ้อนต้องมีหมวกกันน็อกของตัวเอง เสื้อแขนยาวของตัวเอง และถุงมือของตัวเอง ส่วนหมวกสำรองของร้านเช่ามักเป็นใบที่ไม่มีใครเลือก"
+  "story": "**ขี่แล้วเป็นอย่างไร** ดีกว่า ในแบบที่ไม่มีใครพูดถึง คนซ้อนได้มอง คนขี่กำลังจัดไลน์และดูผิวถนน ส่วนคนซ้อนกำลังดูหุบเขาที่ค่อยๆ เปิดออก เห็นเพิงกาแฟที่มีม้านั่ง เห็นชะนี สองคนบนถนนสายนี้กลับบ้านพร้อมทริปคนละแบบ และทริปของคนซ้อนมักจะรวยกว่า\n\n*อนุมาน —* สามอย่างเปลี่ยนไปเมื่อมีคนซ้อน และทั้งสามอย่างแย่กว่าเดิมตอนลงเขา รถหนักขึ้นจึงหยุดช้าลง น้ำหนักอยู่สูงและอยู่หลังเพลาล้อหลังจึงพยายามดันรถให้ตั้งขึ้นกลางโค้ง และคนซ้อนมองไม่เห็นผิวถนนที่กำลังจะมาถึง ทุกครั้งที่เบรกโดยไม่บอกล่วงหน้าจึงเป็นความประหลาดใจที่ผลักน้ำหนักเขามาข้างหน้าทับคนขี่\n\nสิ่งที่แก้ได้เกือบหมดนั้นน่าเบื่อมาก คือเว้นระยะมากขึ้น เบรกเร็วขึ้น และบอกคนซ้อนว่าจุดพักถัดไปอยู่ตรงไหน ระยะต่อวันควรสั้นลง *อนุมาน —* ราวสองในสามของระยะที่คนขี่คนเดียวจะวางแผนไว้\n\nคนซ้อนต้องมีหมวกกันน็อกของตัวเอง เสื้อแขนยาวของตัวเอง และถุงมือของตัวเอง ส่วนหมวกสำรองของร้านเช่ามักเป็นใบที่ไม่มีใครเลือก"
  },
  "kin": [
   {
-   "to": "loaded-bike",
-   "as": "The same physics, without the conversation.",
+   "to": "annoyances",
+   "as": "The small stuff, with antidotes.",
    "rel": "hazard"
   },
   {

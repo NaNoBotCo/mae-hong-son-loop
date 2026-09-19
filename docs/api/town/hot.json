@@ -151,6 +151,12 @@
    "type": "road",
    "name": "Route 108",
    "as": "Where the road changes character and the kilometres restart."
+  },
+  {
+   "from": "the-kilometre-stone",
+   "type": "art",
+   "name": "The kilometre stone",
+   "as": "The roundabout that resets them."
   }
  ]
 }

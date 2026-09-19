@@ -65,6 +65,12 @@
  "updated": "2026-09-18",
  "kin_in": [
   {
+   "from": "seven-eleven",
+   "type": "coffee",
+   "name": "The 7-Eleven",
+   "as": "Clean air indoors, when there is none outside."
+  },
+  {
    "from": "burning-season",
    "type": "event",
    "name": "Burning season",

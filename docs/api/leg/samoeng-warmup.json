@@ -234,6 +234,12 @@
    "as": "The day that tests what you were given."
   },
   {
+   "from": "small-bike-more-fun",
+   "type": "story",
+   "name": "Why a small bike is more fun here",
+   "as": "A hundred kilometres from your hotel."
+  },
+  {
    "from": "which-bike",
    "type": "story",
    "name": "Every bike goes up there",

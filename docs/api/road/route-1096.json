@@ -150,6 +150,12 @@
    "type": "story",
    "name": "How many curves, actually",
    "as": "The Samoeng road: the same curve density, 100 km from your hotel."
+  },
+  {
+   "from": "small-bike-more-fun",
+   "type": "story",
+   "name": "Why a small bike is more fun here",
+   "as": "The densest road measured here."
   }
  ]
 }

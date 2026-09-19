@@ -1,0 +1,119 @@
+{
+ "id": "sticky-rice",
+ "type": "dish",
+ "names": {
+  "name": "Sticky rice",
+  "th": "ข้าวเหนียว",
+  "said": "It travels in a basket, it does not need a fork, and it is the staple here rather than the side.",
+  "said_th": "ใส่กระติบไป ไม่ต้องใช้ส้อม และที่นี่มันคืออาหารหลัก ไม่ใช่เครื่องเคียง",
+  "rtgs": "khao niao"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "staple",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "Glutinous rice, steamed rather than boiled, eaten with the right hand in small pressed balls. The everyday grain of the north and the northeast.",
+  "story": "Glutinous rice contains effectively no amylose, which is the starch that makes ordinary rice separate into grains; that is the whole reason it holds together.\n\n*Inference —* why it matters on a motorcycle: a basket of sticky rice and a bag of something to dip it in needs no plate, no cutlery, no table and no stop longer than the time it takes to sit down. It is the only lunch on this list you can genuinely eat at a viewpoint.\n\n*Tradition holds —* you take a small amount, press it into a ball in your fingers, and use it to pick up whatever is beside it. It is eaten with the hand and it is not rude to do so."
+ },
+ "text_th": {
+  "what": "ข้าวเหนียวนึ่ง ไม่ได้ต้ม กินด้วยมือขวา ปั้นเป็นก้อนเล็กๆ เป็นข้าวประจำวันของภาคเหนือและอีสาน",
+  "story": "ข้าวเหนียวแทบไม่มีอะมิโลสเลย ซึ่งเป็นแป้งที่ทำให้ข้าวธรรมดาร่วนเป็นเม็ด นั่นคือเหตุผลทั้งหมดที่มันเกาะกันเป็นก้อน\n\n*อนุมาน —* ทำไมมันสำคัญกับคนขี่มอเตอร์ไซค์ กระติบข้าวเหนียวกับถุงกับข้าวไม่ต้องใช้จาน ไม่ต้องใช้ช้อน ไม่ต้องใช้โต๊ะ และไม่ต้องหยุดนานกว่าเวลาที่ใช้นั่งลง มันเป็นมื้อเดียวในรายการนี้ที่กินบนจุดชมวิวได้จริงๆ\n\n*ตามธรรมเนียม —* หยิบมานิดหนึ่ง ปั้นเป็นก้อนในนิ้ว แล้วใช้จิ้มของที่วางอยู่ข้างๆ กินด้วยมือ และไม่ใช่เรื่องเสียมารยาท"
+ },
+ "kin": [
+  {
+   "to": "morning-market",
+   "as": "Where the basket comes from.",
+   "rel": "dish"
+  },
+  {
+   "to": "packing-light",
+   "as": "Lunch that needs no equipment.",
+   "rel": "kit"
+  }
+ ],
+ "sources": [
+  "s:wp-glutinous-rice",
+  "s:wp-thai-cuisine"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-glutinous-rice"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "sticky-rice/sticky-rice-purple-mango-sticky-rice.jpg",
+   "source": "commons",
+   "title": "File:Purple Mango Sticky rice.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Purple_Mango_Sticky_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APurple_Mango_Sticky_rice.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Kenamparo",
+   "credit": "Own work",
+   "alt": "Purple mango sticky rice in Thailand",
+   "date": "2020-04-14 00:01:56",
+   "primary": true,
+   "sha256": "35b32f637b6693ba15273482ecf5317835bbbc7d3fd7a05eafdd0046e2d03a57"
+  },
+  {
+   "file": "sticky-rice/sticky-rice-sticky-bean-rice.jpg",
+   "source": "commons",
+   "title": "File:Sticky Bean Rice.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Sticky_Bean_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASticky_Bean_Rice.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "စာကလေး SarKaLay",
+   "credit": "Own work",
+   "alt": "ပဲကောက်ညှင်းထုပ်၊ ပဲကောက်ညှင်း ငှက်ပျောဖက်ထုပ် Sticky Bean Rice",
+   "date": "20 August 2025 (according to Exif data)",
+   "primary": false,
+   "sha256": "a80a32d8d32d5982bf692e0375d813d168102d92ca997d2867aafed7a32a68c9"
+  },
+  {
+   "file": "sticky-rice/sticky-rice-sticky-rice-85950.jpg",
+   "source": "commons",
+   "title": "File:Sticky Rice (85950).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sticky_Rice_%2885950%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASticky_Rice_%2885950%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "SarKaLay စာကလေး",
+   "credit": "Own work",
+   "alt": "sticky rice / နှမ်းထောင်း ရှမ်းခေါပုတ်။",
+   "date": "9 May 2025 (according to Exif data)",
+   "primary": false,
+   "sha256": "188074839b845e6c48de85414bfee9d1017162d2e984eb7ae43dcabb40e5af53"
+  },
+  {
+   "file": "sticky-rice/sticky-rice-thai-classic-mango-sticky-rice-with-coconut-ice-crea-bca7abd.jpg",
+   "source": "commons",
+   "title": "File:Thai Classic Mango & Sticky Rice with Coconut Ice Cream - Namo 2026-07-30.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Thai_Classic_Mango_%26_Sticky_Rice_with_Coconut_Ice_Cream_-_Namo_2026-07-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThai_Classic_Mango_%26_Sticky_Rice_with_Coconut_Ice_Cream_-_Namo_2026-07-30.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Andy Li",
+   "credit": "Own work",
+   "alt": "Thai Classic Mango &amp; Sticky Rice with Coconut Ice Cream",
+   "date": "2026-07-30 21:17:02",
+   "primary": false,
+   "sha256": "8a733efecb22eadd538ca8ac006ea37a48a8cc10cf57e080fdd511c9801dd271"
+  }
+ ]
+}

@@ -56,5 +56,12 @@
  "confidence": "medium",
  "schema": 1,
  "updated": "2026-09-18",
- "kin_in": []
+ "kin_in": [
+  {
+   "from": "annoyances",
+   "type": "hazard",
+   "name": "Annoyances",
+   "as": "The fuel rule this drawer keeps repeating."
+  }
+ ]
 }

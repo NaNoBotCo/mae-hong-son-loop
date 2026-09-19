@@ -24,25 +24,48 @@ pai,town,Pai,ปาย,19.3592,98.4407,,,,cited,high,False,https://nanobotco.git
 soppong,town,Soppong,สบป่อง,19.4906,98.2694,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/town/soppong/
 ban-rak-thai,stop,Ban Rak Thai,บ้านรักไทย,19.5,97.85,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/stop/ban-rak-thai/
 doi-inthanon,stop,Doi Inthanon,ดอยอินทนนท์,18.5885,98.4867,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/stop/doi-inthanon/
+huai-nam-dang,stop,Huai Nam Dang,ห้วยน้ำดัง,19.305,98.61,,,,tradition,medium,True,https://nanobotco.github.io/mae-hong-son-loop/stop/huai-nam-dang/
 khun-yuam-memorial,stop,The Japanese memorial at Khun Yuam,อนุสรณ์สถานมิตรภาพไทย–ญี่ปุ่น ขุนยวม,18.8228,97.9336,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/stop/khun-yuam-memorial/
+mae-sam-laep,stop,Mae Sam Laep and the Salween,แม่สามแลบ และแม่น้ำสาละวิน,18.0333,97.7333,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/stop/mae-sam-laep/
 mae-surin-waterfall,stop,Mae Surin Waterfall,น้ำตกแม่สุรินทร์,19.0333,97.9333,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/stop/mae-surin-waterfall/
 op-luang,stop,Op Luang,ออบหลวง,18.2167,98.4167,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/stop/op-luang/
+pa-bong-piang,stop,Pa Bong Piang rice terraces,นาขั้นบันไดป่าบงเปียง,18.4333,98.3167,,,,harvested,medium,True,https://nanobotco.github.io/mae-hong-son-loop/stop/pa-bong-piang/
 pai-canyon,stop,Pai Canyon,กองแลน,19.3333,98.4333,,,,tradition,medium,True,https://nanobotco.github.io/mae-hong-son-loop/stop/pai-canyon/
+pai-walking-street,stop,The evening in Pai,ถนนคนเดินปาย,19.3592,98.4407,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/stop/pai-walking-street/
 pang-ung,stop,Pang Ung,ปางอุ๋ง,19.4833,97.8667,,,,tradition,medium,True,https://nanobotco.github.io/mae-hong-son-loop/stop/pang-ung/
 su-tong-pae,stop,Su Tong Pae bridge,สะพานซูตองเป้,19.25,97.9833,,,,tradition,medium,True,https://nanobotco.github.io/mae-hong-son-loop/stop/su-tong-pae/
 tham-lot,stop,Tham Lot,ถ้ำลอด,19.5686,98.2694,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/stop/tham-lot/
 tham-pla,stop,"Tham Pla, the fish cave",ถ้ำปลา,19.4333,97.9833,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/stop/tham-pla/
 chong-kham-chong-klang,wat,Wat Chong Kham and Wat Chong Klang,วัดจองคำ และวัดจองกลาง,19.2969,97.9681,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/wat/chong-kham-chong-klang/
 doi-kong-mu,wat,Wat Phra That Doi Kong Mu,วัดพระธาตุดอยกองมู,19.2983,97.9569,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/wat/doi-kong-mu/
+jong-and-chong,wat,Why the temples here are called Chong,ทำไมวัดแถบนี้ชื่อจอง,,,,,,harvested,medium,True,https://nanobotco.github.io/mae-hong-son-loop/wat/jong-and-chong/
+wat-hua-wiang,wat,Wat Hua Wiang,วัดหัวเวียง,19.3009,97.9663,,,,tradition,medium,True,https://nanobotco.github.io/mae-hong-son-loop/wat/wat-hua-wiang/
+wat-jong-soong,wat,Wat Jong Soong,วัดจองสูง,18.1621,97.9312,,,,harvested,medium,True,https://nanobotco.github.io/mae-hong-son-loop/wat/wat-jong-soong/
+wat-phra-that-mae-yen,wat,Wat Phra That Mae Yen,วัดพระธาตุแม่เย็น,19.3556,98.4569,,,,tradition,medium,True,https://nanobotco.github.io/mae-hong-son-loop/wat/wat-phra-that-mae-yen/
+grilled-by-the-road,dish,Grilled by the road,ของย่างริมทาง,,,,,,tradition,medium,False,https://nanobotco.github.io/mae-hong-son-loop/dish/grilled-by-the-road/
+khao-soi,dish,Khao soi,ข้าวซอย,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/dish/khao-soi/
+morning-market,dish,The morning market,ตลาดเช้า,,,,,,tradition,medium,False,https://nanobotco.github.io/mae-hong-son-loop/dish/morning-market/
+nam-ngiao,dish,Kanom jeen nam ngiao,ขนมจีนน้ำเงี้ยว,,,,,,tradition,medium,True,https://nanobotco.github.io/mae-hong-son-loop/dish/nam-ngiao/
+sticky-rice,dish,Sticky rice,ข้าวเหนียว,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/dish/sticky-rice/
+thua-nao,dish,Thua nao,ถั่วเน่า,,,,,,tradition,medium,True,https://nanobotco.github.io/mae-hong-son-loop/dish/thua-nao/
+yunnan-table,dish,The Yunnanese table at Ban Rak Thai,อาหารยูนนานที่บ้านรักไทย,19.5,97.85,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/dish/yunnan-table/
+miang-and-tea,coffee,Miang and mountain tea,เมี่ยงและชาบนดอย,,,,,,tradition,medium,True,https://nanobotco.github.io/mae-hong-son-loop/coffee/miang-and-tea/
+ridge-arabica,coffee,Arabica off the ridge you just rode over,อาราบิก้าจากดอยที่เพิ่งข้ามมา,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/coffee/ridge-arabica/
+roadside-stall,coffee,The stall at the top of the climb,เพิงกาแฟบนยอดดอย,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/coffee/roadside-stall/
+seven-eleven,coffee,The 7-Eleven,เซเว่น,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/coffee/seven-eleven/
+pha-bong,spring,Pha Bong hot springs,น้ำพุร้อนผาบ่อง,19.2167,97.9833,,,,harvested,medium,True,https://nanobotco.github.io/mae-hong-son-loop/spring/pha-bong/
+tha-pai-hot-springs,spring,Tha Pai hot springs,น้ำพุร้อนท่าปาย,19.3419,98.4869,,,,harvested,medium,True,https://nanobotco.github.io/mae-hong-son-loop/spring/tha-pai-hot-springs/
+what-a-spring-is,spring,How a Thai hot spring works,น้ำพุร้อนแบบไทยเป็นอย่างไร,,,,,,tradition,medium,False,https://nanobotco.github.io/mae-hong-son-loop/spring/what-a-spring-is/
+bamboo-hut,stay,The hut with no wall on the valley side,กระท่อมที่ไม่มีผนังด้านหุบเขา,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/stay/bamboo-hut/
+teak-shophouse,stay,The teak shophouse,ตึกแถวไม้สัก,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/stay/teak-shophouse/
+where-to-put-the-nights,stay,Where to put the nights,ควรนอนที่ไหนบ้าง,,,,,,harvested,medium,False,https://nanobotco.github.io/mae-hong-son-loop/stay/where-to-put-the-nights/
+annoyances,hazard,Annoyances,เรื่องกวนใจ,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/hazard/annoyances/
 brake-fade,hazard,Brake fade,เบรกเฟด,,,,,,inference,high,False,https://nanobotco.github.io/mae-hong-son-loop/hazard/brake-fade/
 buses-on-your-line,hazard,Buses and pickups on your line,รถบัสและรถกระบะกินเลน,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/hazard/buses-on-your-line/
-dogs,hazard,Dogs,สุนัข,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/hazard/dogs/
 gravel-on-the-apex,hazard,Gravel on the apex,กรวดกลางโค้ง,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/hazard/gravel-on-the-apex/
-loaded-bike,hazard,A loaded bike is a different bike,รถที่บรรทุกคือรถคนละคัน,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/hazard/loaded-bike/
 low-sun,hazard,The low sun,แดดต่ำ,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/hazard/low-sun/
 night-riding,hazard,Riding after dark,ขี่ตอนกลางคืน,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/hazard/night-riding/
 smoke-riding,hazard,Riding in the smoke,ขี่ในควัน,,,,,,harvested,high,False,https://nanobotco.github.io/mae-hong-son-loop/hazard/smoke-riding/
-steep-driveways,hazard,The guesthouse driveway,ทางเข้าที่พักชัน,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/hazard/steep-driveways/
 big-adventure,bike,The 700cc-and-up adventure bike,รถแอดเวนเจอร์ 700 ซีซีขึ้นไป,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/bike/big-adventure/
 midweight-twin,bike,The 400–700 twin,รถสองสูบ 400–700,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/bike/midweight-twin/
 on-the-back,bike,Riding on the back,นั่งซ้อนท้าย,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/bike/on-the-back/
@@ -57,12 +80,17 @@ packing-light,kit,What actually fits,ของที่ใส่ได้จร�
 renting-a-bike,kit,Renting the bike,การเช่ารถ,,,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/kit/renting-a-bike/
 sending-the-bag-ahead,kit,Sending the bag ahead,ส่งกระเป๋าล่วงหน้า,,,,,,harvested,medium,True,https://nanobotco.github.io/mae-hong-son-loop/kit/sending-the-bag-ahead/
 karen,person,The Karen,กะเหรี่ยง,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/person/karen/
+lisu-lahu-hmong,person,"Lisu, Lahu, Hmong and Lua",ลีซู ลาหู่ ม้ง และลัวะ,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/person/lisu-lahu-hmong/
 shan,person,The Shan,ไทใหญ่,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/person/shan/
+akha-swing,event,The Akha Swing Festival,เทศกาลโล้ชิงช้าของชาวอาข่า,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/event/akha-swing/
 bua-tong-bloom,event,The Bua Tong bloom,ทุ่งบัวตอง,,,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/event/bua-tong-bloom/
 burning-season,event,Burning season,ช่วงเผา,,,,,,harvested,high,False,https://nanobotco.github.io/mae-hong-son-loop/event/burning-season/
 cool-season,event,The cool season,ฤดูหนาว,,,,,,harvested,high,False,https://nanobotco.github.io/mae-hong-son-loop/event/cool-season/
 hot-season,event,The hot season,หน้าร้อน,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/event/hot-season/
+loi-krathong,event,Loi Krathong and Yi Peng,ลอยกระทง และยี่เป็ง,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/event/loi-krathong/
+phansa,event,Khao Phansa and Ok Phansa,เข้าพรรษา และออกพรรษา,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/event/phansa/
 poy-sang-long,event,Poy Sang Long,ปอยส่างลอง,,,,,,cited,medium,True,https://nanobotco.github.io/mae-hong-son-loop/event/poy-sang-long/
+songkran,event,Songkran,สงกรานต์,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/event/songkran/
 the-rains,event,The rains,หน้าฝน,,,,,,harvested,high,False,https://nanobotco.github.io/mae-hong-son-loop/event/the-rains/
 engine-braking,term,Engine braking,เอนจินเบรก,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/term/engine-braking/
 gasohol,term,Gasohol 91 and 95,แก๊สโซฮอล์ 91 และ 95,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/term/gasohol/
@@ -70,9 +98,13 @@ hairpin,term,Hairpin,โค้งหักศอก,,,,,,cited,medium,False,http
 pm25,term,PM2.5,ฝุ่น PM2.5,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/term/pm25/
 songthaew,term,Songthaew,สองแถว,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/term/songthaew/
 how-many-curves,story,"How many curves, actually",โค้งกี่โค้งกันแน่,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/story/how-many-curves/
+how-old-is-this-ride,story,How old is this ride,ทริปนี้เก่าแค่ไหน,,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/story/how-old-is-this-ride/
 kayan-question,story,The villages that charge admission,หมู่บ้านที่เก็บค่าเข้า,,,,,,cited,low,True,https://nanobotco.github.io/mae-hong-son-loop/story/kayan-question/
 season-and-direction,story,The season picks the direction,ฤดูกาลเป็นคนเลือกทิศ,,,,,,inference,medium,True,https://nanobotco.github.io/mae-hong-son-loop/story/season-and-direction/
+small-bike-more-fun,story,Why a small bike is more fun here,ทำไมรถเล็กสนุกกว่าที่นี่,,,,,,harvested,medium,False,https://nanobotco.github.io/mae-hong-son-loop/story/small-bike-more-fun/
+ten-minutes,story,The ten minutes after you stop,สิบนาทีหลังจากคุณหยุด,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/story/ten-minutes/
 the-smoke,story,The smoke,ควันไฟ,,,,,,harvested,high,False,https://nanobotco.github.io/mae-hong-son-loop/story/the-smoke/
 which-bike,story,Every bike goes up there,รถทุกแบบขึ้นไปได้,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/story/which-bike/
 which-way-round,story,Clockwise or counter-clockwise,ตามเข็มหรือทวนเข็ม,,,,,,inference,medium,False,https://nanobotco.github.io/mae-hong-son-loop/story/which-way-round/
 the-1864-sign,art,"The 1,864 sign","ป้าย 1,864 โค้ง",,,,,,cited,high,False,https://nanobotco.github.io/mae-hong-son-loop/art/the-1864-sign/
+the-kilometre-stone,art,The kilometre stone,หลักกิโลเมตร,,,,,,cited,medium,False,https://nanobotco.github.io/mae-hong-son-loop/art/the-kilometre-stone/

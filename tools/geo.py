@@ -143,3 +143,218 @@ def sparkline(values: list, width=120, height=26, cls="spark") -> str:
         pts.append(f"{'M' if not pts else 'L'}{x:.1f} {y:.1f}")
     return (f'<svg class="{cls}" viewBox="0 0 {width} {height}" width="{width}" height="{height}" '
             f'role="img" aria-hidden="true"><path d="{"".join(pts)}"/></svg>')
+
+
+# ---------------------------------------------------------------- the basemap
+# A route drawn on an empty rectangle reads as a squiggle. These layers give it a place
+# to be: ground coloured by height, then water, then the provincial line, then the road.
+
+RELIEF = [(0, "#e9e2d2"), (300, "#ddd6c2"), (600, "#d0c8b0"), (900, "#c2b99c"),
+          (1200, "#b3a988"), (1500, "#a39873"), (1800, "#93875f"), (2200, "#847849")]
+RELIEF_DARK = [(0, "#1b1812"), (300, "#211d16"), (600, "#28231a"), (900, "#2f291e"),
+               (1200, "#372f22"), (1500, "#3f3626"), (1800, "#473d2b"), (2200, "#504530")]
+
+
+def _regular(grid: list, step: float):
+    """Put the fetched points back on a regular lattice, and fill the holes.
+
+    The elevation API throttles, so a long fetch comes back with gaps — whole batches
+    missing, which on a map are stripes. Missing cells are filled from their neighbours
+    by inverse-distance over a widening ring. That is interpolation, not measurement, and
+    it is fine for shading a hillside; it is not a source for how high anything is.
+    """
+    if not grid:
+        return [], [], {}
+    lats = sorted({round(g["lat"], 4) for g in grid})
+    lons = sorted({round(g["lon"], 4) for g in grid})
+    # rebuild a complete lattice from the observed extent and the known step
+    lat0, lat1 = lats[0], lats[-1]
+    lon0, lon1 = lons[0], lons[-1]
+    nr = int(round((lat1 - lat0) / step)) + 1
+    nc = int(round((lon1 - lon0) / step)) + 1
+    Z = [[None] * nc for _ in range(nr)]
+    for g in grid:
+        r = int(round((g["lat"] - lat0) / step))
+        c = int(round((g["lon"] - lon0) / step))
+        if 0 <= r < nr and 0 <= c < nc:
+            Z[r][c] = float(g["m"])
+    holes = [(r, c) for r in range(nr) for c in range(nc) if Z[r][c] is None]
+    for r, c in holes:
+        acc = wsum = 0.0
+        for rad in (1, 2, 3, 4):
+            for dr in range(-rad, rad + 1):
+                for dc in range(-rad, rad + 1):
+                    if max(abs(dr), abs(dc)) != rad:
+                        continue
+                    rr, cc = r + dr, c + dc
+                    if 0 <= rr < nr and 0 <= cc < nc and Z[rr][cc] is not None:
+                        wt = 1.0 / (dr * dr + dc * dc)
+                        acc += Z[rr][cc] * wt
+                        wsum += wt
+            if wsum:
+                break
+        Z[r][c] = acc / wsum if wsum else 0.0
+    return (lat0, lon0, step, nr, nc), Z, len(holes)
+
+
+def _upsample(Z, nr, nc, f=3):
+    """Bilinear, so a 2 km lattice stops looking like 2 km squares."""
+    out = [[0.0] * ((nc - 1) * f + 1) for _ in range((nr - 1) * f + 1)]
+    for r in range((nr - 1) * f + 1):
+        fr = r / f
+        r0 = min(int(fr), nr - 2)
+        tr = fr - r0
+        for c in range((nc - 1) * f + 1):
+            fc = c / f
+            c0 = min(int(fc), nc - 2)
+            tc = fc - c0
+            a = Z[r0][c0] * (1 - tc) + Z[r0][c0 + 1] * tc
+            b = Z[r0 + 1][c0] * (1 - tc) + Z[r0 + 1][c0 + 1] * tc
+            out[r][c] = a * (1 - tr) + b * tr
+    return out
+
+
+# Green in the valleys, brown on the flanks, pale on the tops. The ramp does the reading;
+# the hillshade does the drama.
+RAMP = [(0, (108, 132, 88)), (250, (126, 142, 92)), (500, (150, 152, 98)),
+        (750, (166, 150, 104)), (1000, (176, 146, 110)), (1250, (184, 150, 122)),
+        (1500, (196, 166, 146)), (1750, (214, 196, 182)), (2100, (236, 228, 220))]
+RAMP_DARK = [(0, (26, 34, 26)), (250, (32, 40, 28)), (500, (40, 44, 30)),
+             (750, (48, 46, 32)), (1000, (56, 48, 36)), (1250, (64, 52, 42)),
+             (1500, (74, 60, 52)), (1750, (88, 74, 66)), (2100, (104, 94, 88))]
+
+
+def _ramp(m: float, ramp) -> tuple:
+    if m <= ramp[0][0]:
+        return ramp[0][1]
+    for (a, ca), (b, cb) in zip(ramp, ramp[1:]):
+        if m <= b:
+            t = (m - a) / (b - a) if b > a else 0
+            return tuple(round(ca[i] + (cb[i] - ca[i]) * t) for i in range(3))
+    return ramp[-1][1]
+
+
+def terrain_layer(p: Proj, grid: list, step_deg: float, dark=False, upscale=3,
+                  az=315.0, alt=42.0, zf=7.0) -> str:
+    """Hypsometric tint and hillshade, baked to one colour per cell so the whole thing is
+    a single flat list of rects rather than two stacked layers."""
+    import math
+    meta, Z, holes = _regular(grid, step_deg)
+    if not Z:
+        return ""
+    lat0, lon0, step, nr, nc = meta
+    U = _upsample(Z, nr, nc, upscale)
+    ur, uc = len(U), len(U[0])
+    ustep = step / upscale
+    mid = math.radians(lat0 + (nr - 1) * step / 2)
+    dy = ustep * 111320.0
+    dx = ustep * 111320.0 * math.cos(mid)
+    az_r, alt_r = math.radians(360 - az + 90), math.radians(alt)
+    ramp = RAMP_DARK if dark else RAMP
+    half = ustep / 2
+    out = ['<g class="terrain">']
+    for r in range(ur):
+        for c in range(uc):
+            m = U[r][c]
+            w = U[r][max(c - 1, 0)]; e = U[r][min(c + 1, uc - 1)]
+            s_ = U[max(r - 1, 0)][c]; n = U[min(r + 1, ur - 1)][c]
+            dzdx = (e - w) / (2 * dx) * zf
+            dzdy = (n - s_) / (2 * dy) * zf
+            slope = math.atan(math.hypot(dzdx, dzdy))
+            aspect = math.atan2(dzdy, -dzdx)
+            sh = (math.sin(alt_r) * math.cos(slope)
+                  + math.cos(alt_r) * math.sin(slope) * math.cos(az_r - aspect))
+            sh = max(0.0, min(1.0, sh))
+            col = _ramp(m, ramp)
+            k = 0.55 + 0.9 * sh          # multiply the tint by the light
+            col = tuple(max(0, min(255, round(v * k))) for v in col)
+            lat = lat0 + r * ustep
+            lon = lon0 + c * ustep
+            x1, y1 = p.xy(lat + half, lon - half)
+            x2, y2 = p.xy(lat - half, lon + half)
+            wpx, hpx = abs(x2 - x1), abs(y2 - y1)
+            if wpx < 0.2 or hpx < 0.2:
+                continue
+            out.append(f'<rect x="{min(x1,x2):.2f}" y="{min(y1,y2):.2f}" '
+                       f'width="{wpx + 0.45:.2f}" height="{hpx + 0.45:.2f}" '
+                       f'fill="#{col[0]:02x}{col[1]:02x}{col[2]:02x}"/>')
+    out.append("</g>")
+    return "".join(out)
+
+
+def water_layer(p: Proj, base: dict, min_lake_pts: int = 24) -> str:
+    """Lakes as filled shapes, rivers as lines. The lake list is mostly farm ponds, so
+    only the ones with enough traced outline to be worth a shape are drawn."""
+    out = ['<g class="water">']
+    for ring in base.get("lakes", []):
+        if len(ring) < min_lake_pts:
+            continue
+        d = p.path([tuple(c) for c in ring])
+        if d:
+            out.append(f'<path class="lake" d="{d}Z"/>')
+    for r in base.get("rivers", []):
+        total = sum(len(l) for l in r["lines"])
+        cls = "river big" if total > 200 else "river"
+        for line in r["lines"]:
+            d = p.path([tuple(c) for c in line])
+            if d:
+                out.append(f'<path class="{cls}" d="{d}"><title>{r["name"]}</title></path>')
+    out.append("</g>")
+    return "".join(out)
+
+
+def boundary_layer(p: Proj, base: dict) -> str:
+    out = ['<g class="bound">']
+    for seg in base.get("boundary", []):
+        d = p.path([tuple(c) for c in seg])
+        if d:
+            out.append(f'<path d="{d}"/>')
+    out.append("</g>")
+    return "".join(out)
+
+
+def star(x: float, y: float, r: float = 6.0) -> str:
+    """A five-pointed star, points up, centred on (x, y)."""
+    import math
+    pts = []
+    for i in range(10):
+        a = math.pi / 2 + i * math.pi / 5
+        rad = r if i % 2 == 0 else r * 0.42
+        pts.append(f"{x + rad * math.cos(a):.1f},{y - rad * math.sin(a):.1f}")
+    return " ".join(pts)
+
+
+def stars(p: Proj, rows: list, cls="star", r=6.0, label=False) -> str:
+    """Stops, as stars. Anything that is a destination rather than a waypoint."""
+    out = []
+    for row in rows:
+        lat, lon = row.get("lat"), row.get("lon")
+        if lat is None:
+            continue
+        x, y = p.xy(lat, lon)
+        name = (row.get("name") or "").replace("&", "&amp;").replace("<", "&lt;")
+        out.append(f'<polygon class="{cls} {row.get("cls","")}" points="{star(x, y, r)}">'
+                   f'<title>{row.get("title") or name}</title></polygon>')
+        if label and name:
+            flip = (x + 9 + len(name) * 6.4) > p.width
+            lx = x - 8 if flip else x + 8
+            anchor = ' text-anchor="end"' if flip else ""
+            out.append(f'<text class="lbl"{anchor} x="{lx:.1f}" y="{y + 3.5:.1f}">{name}</text>')
+    return "".join(out)
+
+
+# The basemap ships as its own file, so it carries its own styles. It is referenced by
+# <image>, which is an isolated document: the page's stylesheet does not reach inside it.
+BASEMAP_CSS = """
+.relief rect{stroke:none}
+.r0{fill:#e9e2d2}.r1{fill:#ddd6c2}.r2{fill:#d0c8b0}.r3{fill:#c2b99c}
+.r4{fill:#b3a988}.r5{fill:#a39873}.r6{fill:#93875f}.r7{fill:#847849}
+.lake{fill:#9fc9e0;stroke:#6aa9cd;stroke-width:.4;opacity:.95}
+.river{fill:none;stroke:#6fb0d4;stroke-width:1.1;stroke-linecap:round;opacity:.9}
+.river.big{stroke-width:2.6;stroke:#4f9ac4}
+.bound path{fill:none;stroke:#6b5b3e;stroke-width:1.6;stroke-dasharray:8 6;opacity:.6}
+@media (prefers-color-scheme:dark){
+ .lake{fill:#1f4560;stroke:#2f6285}
+ .river{stroke:#2f6285}.river.big{stroke:#3f7ea6}
+ .bound path{stroke:#6f6248;opacity:.7}}
+"""

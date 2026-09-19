@@ -1,0 +1,130 @@
+{
+ "id": "wat-phra-that-mae-yen",
+ "type": "wat",
+ "names": {
+  "name": "Wat Phra That Mae Yen",
+  "th": "วัดพระธาตุแม่เย็น",
+  "said": "Three hundred and fifty-odd steps, a large white Buddha, and the whole Pai valley underneath it.",
+  "said_th": "บันไดสามร้อยกว่าขั้น พระขาวองค์ใหญ่ และหุบปายทั้งหุบอยู่ข้างใต้"
+ },
+ "region": [
+  "mhs",
+  "pai"
+ ],
+ "facets": {
+  "tradition": "lanna",
+  "price": "free"
+ },
+ "text": {
+  "what": "On the hill east of Pai. The seated white image is visible from most of the town, and the climb is the reason people go.",
+  "story": "*Inference —* the useful thing about this one is the timing. It faces west over the valley, which makes it a sunset rather than a sunrise, and it is close enough to town that it works on the evening you arrive rather than needing its own morning.\n\nThere is a road up as well as the steps. On a small bike take the road; the steps are the point only if you want them to be.\n\nThis is a Lanna-named temple — *Phra That*, a relic stupa — in a town that sits on the Shan side of the province, which is a reminder that the naming pattern further west is a tendency and not a rule. Pai has none of the Chong names at all."
+ },
+ "text_th": {
+  "what": "อยู่บนเนินทางตะวันออกของปาย พระขาวปางประทับนั่งมองเห็นได้จากเกือบทั้งเมือง และบันไดคือเหตุผลที่คนขึ้นไป",
+  "story": "*อนุมาน —* สิ่งที่มีประโยชน์เกี่ยวกับที่นี่คือเรื่องเวลา มันหันหน้าไปทางตะวันตกเหนือหุบเขา จึงเป็นที่สำหรับพระอาทิตย์ตก ไม่ใช่พระอาทิตย์ขึ้น และอยู่ใกล้เมืองพอที่จะไปได้ในเย็นวันที่มาถึง โดยไม่ต้องเสียเช้าทั้งเช้า\n\nมีถนนขึ้นไปด้วย ไม่ใช่แค่บันได ถ้าขี่รถเล็กให้ใช้ถนน บันไดเป็นประเด็นก็ต่อเมื่อคุณอยากให้มันเป็น\n\nวัดนี้ใช้ชื่อแบบล้านนา คือพระธาตุ ในเมืองที่อยู่ฝั่งไทใหญ่ของจังหวัด ซึ่งเป็นเครื่องเตือนว่ารูปแบบการตั้งชื่อที่พบทางตะวันตกเป็นแนวโน้ม ไม่ใช่กฎ ปายไม่มีชื่อจองเลยสักแห่ง"
+ },
+ "kin": [
+  {
+   "to": "pai",
+   "as": "The town below it.",
+   "rel": "town"
+  },
+  {
+   "to": "jong-and-chong",
+   "as": "The pattern this one is an exception to.",
+   "rel": "wat"
+  },
+  {
+   "to": "pai-canyon",
+   "as": "The other sunset, ten minutes the other way.",
+   "rel": "stop"
+  }
+ ],
+ "sources": [
+  "s:wp-pai-thailand",
+  "s:wp-pai-district",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.3556,
+  "lon": 98.4569,
+  "precision": "street"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "wat-phra-that-mae-yen/wat-phra-that-mae-yen-view-of-pai-2.jpg",
+   "source": "commons",
+   "title": "File:View of Pai 2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/View_of_Pai_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AView_of_Pai_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "View of Pai from the Big Buddha of Wat Phra That Mae Yen.",
+   "date": "2018-08-30 10:28:44",
+   "primary": true,
+   "sha256": "4301fbe99eacf3c19ae8a47b8bbf4ee3346512d7fe73d9904f3e366e3f9c1567"
+  },
+  {
+   "file": "wat-phra-that-mae-yen/wat-phra-that-mae-yen-view-of-pai-3.jpg",
+   "source": "commons",
+   "title": "File:View of Pai 3.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/View_of_Pai_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AView_of_Pai_3.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "View of Pai from the Big Buddha of Wat Phra That Mae Yen.",
+   "date": "2018-08-30 10:31:13",
+   "primary": false,
+   "sha256": "05812430e1b48dbccf6c5414f0b1abfffebe0af11bc3aea778b4ad9b84a6440e"
+  },
+  {
+   "file": "wat-phra-that-mae-yen/wat-phra-that-mae-yen-wat-phra-that-mae-yen-1.jpg",
+   "source": "commons",
+   "title": "File:Wat Phra That Mae Yen 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Wat_Phra_That_Mae_Yen_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Phra_That_Mae_Yen_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "View of Wat Phra That Mae Yen from the Big Buddha.",
+   "date": "2018-08-30 10:29:11",
+   "primary": false,
+   "sha256": "205fede6eaac12eaa0ff83e98303dc3cf3a0dbd52cb39c35dc7e12986b817404"
+  },
+  {
+   "file": "wat-phra-that-mae-yen/wat-phra-that-mae-yen-wat-phra-that-mae-yen-2.jpg",
+   "source": "commons",
+   "title": "File:Wat Phra That Mae Yen 2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Wat_Phra_That_Mae_Yen_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Phra_That_Mae_Yen_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "View of Wat Phra That Mae Yen from the Big Buddha.",
+   "date": "2018-08-30 10:29:22",
+   "primary": false,
+   "sha256": "664f5042c45a952a8b458597a6d5937ce83e9f52caa829c54efd493f38c3d2e6"
+  }
+ ]
+}

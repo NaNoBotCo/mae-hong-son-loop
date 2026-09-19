@@ -1,0 +1,61 @@
+{
+ "id": "akha-swing",
+ "type": "event",
+ "names": {
+  "name": "The Akha Swing Festival",
+  "th": "เทศกาลโล้ชิงช้าของชาวอาข่า",
+  "said": "Four days in late August, and — this is the honest part — almost certainly not on this loop.",
+  "said_th": "สี่วันในปลายเดือนสิงหาคม และนี่คือส่วนที่ต้องพูดตรงๆ เกือบแน่นอนว่าไม่ได้อยู่บนเส้นทางนี้"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "aug"
+ },
+ "text": {
+  "what": "Yehkuja, the most important festival of the Akha year, held around a tall four-posted village swing. Worth timing a trip for — a different trip.",
+  "story": "**What it is.** Every Akha village keeps a tall four-posted swing, rebuilt each year by an elder called a *dzoeuh mah*, used in an annual ancestor offering tied to the fertility of rice. The four-day festival comes in **late August**, on the **120th day after the village has planted its rice**. The Akha name, *Yehkuja*, translates as *eating bitter rice* — a reference to the previous year's supply running down and a hope that the monsoon will water the new crop.\n\nIt is also called **Women's New Year**, because the women wear the clothing they have spent the year making and show, through the ornamentation, that they are reaching marriageable age. The traditional New Year in late December is Men's New Year.\n\n**Why it is probably not on your loop.** The seven groups Wikipedia names as making up 63 per cent of Mae Hong Son's population are Karen, Lahu, Lisu, Lua, Miao, Chinese Yunnanese and Pa-O. **Akha are not among them.** Akha settlement in Thailand is concentrated well east of this circuit. *Inference —* so timing a Mae Hong Son trip for the Swing Festival is unlikely to work, and anyone who wants it should plan a different route east rather than expect to meet it here.\n\n**What is here in late August instead.** The rains, which the measured air data says is the cleanest air of the year, and the rice terraces at their greenest. Which is not a consolation prize."
+ },
+ "text_th": {
+  "what": "เยฮ์กูจา เทศกาลสำคัญที่สุดของปีอาข่า จัดรอบชิงช้าสี่เสาต้นสูงกลางหมู่บ้าน ควรวางแผนไปให้ตรง แต่เป็นคนละทริป",
+  "story": "**มันคืออะไร** ทุกหมู่บ้านอาข่ามีชิงช้าสี่เสาต้นสูง สร้างใหม่ทุกปีโดยผู้อาวุโสที่เรียกว่าโจ่วมะ ใช้ในพิธีเซ่นบรรพบุรุษประจำปีที่ผูกกับความอุดมสมบูรณ์ของข้าว เทศกาลสี่วันนี้มาถึงใน **ปลายเดือนสิงหาคม** ตรงกับ **วันที่ 120 หลังหมู่บ้านลงกล้า** ชื่ออาข่าว่าเยฮ์กูจา แปลว่า กินข้าวขม อ้างถึงข้าวของปีก่อนที่กำลังร่อยหรอ และความหวังว่าฝนจะมาเลี้ยงข้าวรุ่นใหม่\n\nอีกชื่อหนึ่งคือ **ปีใหม่ผู้หญิง** เพราะผู้หญิงจะสวมเสื้อผ้าที่ใช้เวลาทั้งปีทำ และแสดงผ่านเครื่องประดับว่ากำลังเข้าสู่วัยที่พร้อมแต่งงาน ส่วนปีใหม่ตามประเพณีในปลายเดือนธันวาคมคือปีใหม่ผู้ชาย\n\n**ทำไมถึงน่าจะไม่ได้อยู่บนเส้นทางของคุณ** เจ็ดกลุ่มที่วิกิพีเดียระบุว่ารวมกันเป็นร้อยละ 63 ของประชากรแม่ฮ่องสอนคือ กะเหรี่ยง ลาหู่ ลีซู ลัวะ ม้ง จีนยูนนาน และปะโอ **ไม่มีอาข่าอยู่ในนั้น** ชุมชนอาข่าในไทยกระจุกตัวอยู่ทางตะวันออกของเส้นทางนี้ค่อนข้างมาก *อนุมาน —* การวางแผนทริปแม่ฮ่องสอนให้ตรงกับเทศกาลโล้ชิงช้าจึงไม่น่าจะได้ผล ใครที่อยากไปควรวางเส้นทางไปทางตะวันออกแทน ไม่ใช่คาดหวังว่าจะเจอที่นี่\n\n**แล้วปลายสิงหาคมที่นี่มีอะไร** หน้าฝน ซึ่งข้อมูลอากาศที่วัดได้บอกว่าเป็นช่วงที่อากาศสะอาดที่สุดของปี และนาขั้นบันไดที่เขียวที่สุด ซึ่งไม่ใช่รางวัลปลอบใจ"
+ },
+ "kin": [
+  {
+   "to": "lisu-lahu-hmong",
+   "as": "The groups who ARE here.",
+   "rel": "person"
+  },
+  {
+   "to": "pa-bong-piang",
+   "as": "Green at exactly the same weeks.",
+   "rel": "stop"
+  },
+  {
+   "to": "the-rains",
+   "as": "What late August is on this loop.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-akha-people",
+  "s:wp-mae-hong-son-province"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-akha-people"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": []
+}

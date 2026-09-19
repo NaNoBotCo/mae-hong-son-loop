@@ -225,8 +225,8 @@
      "rel": "kit"
     },
     {
-     "to": "loaded-bike",
-     "as": "What a high tail pack does on a descent.",
+     "to": "annoyances",
+     "as": "The small stuff, with antidotes.",
      "rel": "hazard"
     },
     {
@@ -377,8 +377,8 @@
      "rel": "kit"
     },
     {
-     "to": "loaded-bike",
-     "as": "What the weight does when the road turns down.",
+     "to": "annoyances",
+     "as": "The small stuff, with antidotes.",
      "rel": "hazard"
     },
     {
@@ -406,16 +406,22 @@
    "updated": "2026-09-18",
    "kin_in": [
     {
-     "from": "loaded-bike",
-     "type": "hazard",
-     "name": "A loaded bike is a different bike",
-     "as": "Where the weight should go instead."
+     "from": "sticky-rice",
+     "type": "dish",
+     "name": "Sticky rice",
+     "as": "Lunch that needs no equipment."
     },
     {
-     "from": "steep-driveways",
+     "from": "what-a-spring-is",
+     "type": "spring",
+     "name": "How a Thai hot spring works",
+     "as": "Which is why a swimsuit is on the list."
+    },
+    {
+     "from": "annoyances",
      "type": "hazard",
-     "name": "The guesthouse driveway",
-     "as": "The load that comes off first."
+     "name": "Annoyances",
+     "as": "Where the weight should sit."
     },
     {
      "from": "bus-parcel",
@@ -626,8 +632,8 @@
      "rel": "kit"
     },
     {
-     "to": "loaded-bike",
-     "as": "What the weight does when the road turns down.",
+     "to": "annoyances",
+     "as": "The small stuff, with antidotes.",
      "rel": "hazard"
     },
     {
@@ -688,6 +694,12 @@
      "type": "town",
      "name": "Mae Hong Son",
      "as": "The only sensible forwarding address on the circuit."
+    },
+    {
+     "from": "annoyances",
+     "type": "hazard",
+     "name": "Annoyances",
+     "as": "Or do not carry it at all."
     },
     {
      "from": "bus-parcel",

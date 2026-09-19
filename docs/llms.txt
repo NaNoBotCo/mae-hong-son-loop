@@ -2,7 +2,7 @@
 
 > 600 kilometres, 1,864 curves on the sign, and a different answer from the map
 
-A bilingual (English and Thai) directory and route guide for the Mae Hong Son loop in northern Thailand, built from 94 named sources. Every claim carries a provenance tier. Records are CC BY 4.0.
+A bilingual (English and Thai) directory and route guide for the Mae Hong Son loop in northern Thailand, built from 115 named sources. Every claim carries a provenance tier. Records are CC BY 4.0.
 
 ## What is measured here, and how
 
@@ -19,6 +19,8 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Legs](https://nanobotco.github.io/mae-hong-son-loop/legs/)
 - [Which way](https://nanobotco.github.io/mae-hong-son-loop/which-way/)
 - [Numbers](https://nanobotco.github.io/mae-hong-son-loop/numbers/)
+- [The good part](https://nanobotco.github.io/mae-hong-son-loop/good/)
+- [The year](https://nanobotco.github.io/mae-hong-son-loop/year/)
 - [Air](https://nanobotco.github.io/mae-hong-son-loop/air/)
 - [Danger](https://nanobotco.github.io/mae-hong-son-loop/danger/)
 - [Baggage](https://nanobotco.github.io/mae-hong-son-loop/baggage/)
@@ -30,16 +32,20 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Legs](https://nanobotco.github.io/mae-hong-son-loop/legs/) — 9
 - [Roads](https://nanobotco.github.io/mae-hong-son-loop/roads/) — 6
 - [Towns](https://nanobotco.github.io/mae-hong-son-loop/towns/) — 8
-- [Stops](https://nanobotco.github.io/mae-hong-son-loop/stops/) — 10
-- [Wats](https://nanobotco.github.io/mae-hong-son-loop/wats/) — 2
-- [Hazards](https://nanobotco.github.io/mae-hong-son-loop/hazards/) — 9
+- [Stops](https://nanobotco.github.io/mae-hong-son-loop/stops/) — 14
+- [Wats](https://nanobotco.github.io/mae-hong-son-loop/wats/) — 6
+- [What you eat](https://nanobotco.github.io/mae-hong-son-loop/food/) — 7
+- [Coffee](https://nanobotco.github.io/mae-hong-son-loop/coffee/) — 4
+- [Hot springs](https://nanobotco.github.io/mae-hong-son-loop/springs/) — 3
+- [Beds](https://nanobotco.github.io/mae-hong-son-loop/beds/) — 3
+- [Hazards](https://nanobotco.github.io/mae-hong-son-loop/hazards/) — 7
 - [Bikes](https://nanobotco.github.io/mae-hong-son-loop/bikes/) — 6
 - [Kit and logistics](https://nanobotco.github.io/mae-hong-son-loop/kit/) — 7
-- [People](https://nanobotco.github.io/mae-hong-son-loop/people/) — 2
-- [The calendar](https://nanobotco.github.io/mae-hong-son-loop/calendar/) — 6
+- [People](https://nanobotco.github.io/mae-hong-son-loop/people/) — 3
+- [The calendar](https://nanobotco.github.io/mae-hong-son-loop/calendar/) — 10
 - [Words](https://nanobotco.github.io/mae-hong-son-loop/words/) — 5
-- [Long reads](https://nanobotco.github.io/mae-hong-son-loop/stories/) — 6
-- [Signs and objects](https://nanobotco.github.io/mae-hong-son-loop/objects/) — 1
+- [Long reads](https://nanobotco.github.io/mae-hong-son-loop/stories/) — 9
+- [Signs and objects](https://nanobotco.github.io/mae-hong-son-loop/objects/) — 2
 
 ## Data
 

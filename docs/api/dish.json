@@ -1,0 +1,984 @@
+{
+ "type": "dish",
+ "count": 7,
+ "nodes": [
+  {
+   "id": "grilled-by-the-road",
+   "type": "dish",
+   "names": {
+    "name": "Grilled by the road",
+    "th": "ของย่างริมทาง",
+    "said": "Chicken flattened on a split bamboo, sticky rice, som tam, and a plastic table in the shade.",
+    "said_th": "ไก่แบนบนไม้ไผ่ผ่าซีก ข้าวเหนียว ส้มตำ และโต๊ะพลาสติกในร่ม",
+    "rtgs": "gai yang"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "grill",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "The roadside grill is the most reliable good meal between towns, and you smell it before you see it.",
+    "story": "*Tradition holds —* *gai yang* is chicken butterflied flat, clamped in split bamboo and grilled slowly over charcoal at the roadside; it goes with sticky rice and *som tam*, green papaya pounded with lime, chilli, fish sauce and tomato. Pork skewers, grilled river fish packed in salt, and sausages are on the same grills.\n\n*Inference —* the smell is the point. On a bike you get it a hundred metres before the stall, which is enough warning to stop, and it is the single most common reason a planned four-hour leg becomes five.\n\n*Tradition holds —* the northern sausage, *sai ua*, is the local one: pork with lemongrass, galangal, makrut leaf and chilli, coiled and grilled. It is sold by weight at every market on this circuit and it travels in a bag on the bike better than anything else here."
+   },
+   "text_th": {
+    "what": "เตาย่างริมทางคือมื้อดีที่แน่นอนที่สุดระหว่างเมือง และคุณจะได้กลิ่นก่อนเห็น",
+    "story": "*ตามธรรมเนียม —* ไก่ย่างคือไก่ผ่าแบน หนีบด้วยไม้ไผ่ผ่าซีก ย่างช้าๆ บนถ่านริมทาง กินกับข้าวเหนียวและส้มตำ มะละกอเขียวตำกับมะนาว พริก น้ำปลา และมะเขือเทศ บนเตาเดียวกันยังมีหมูปิ้ง ปลาเผาพอกเกลือ และไส้กรอก\n\n*อนุมาน —* กลิ่นคือหัวใจ บนมอเตอร์ไซค์คุณได้กลิ่นก่อนถึงแผงร้อยเมตร ซึ่งเตือนทันพอดีให้จอด และเป็นเหตุผลที่พบบ่อยที่สุดที่ช่วงทางซึ่งวางแผนไว้สี่ชั่วโมงกลายเป็นห้า\n\n*ตามธรรมเนียม —* ไส้อั่วคือไส้กรอกของภาคเหนือ หมูผสมตะไคร้ ข่า ใบมะกรูด และพริก ขดเป็นวงแล้วย่าง ขายเป็นน้ำหนักในทุกตลาดบนเส้นทางนี้ และใส่ถุงติดรถไปได้ดีกว่าอะไรทั้งหมดที่นี่"
+   },
+   "kin": [
+    {
+     "to": "sticky-rice",
+     "as": "What it is eaten with, and what carries it.",
+     "rel": "dish"
+    },
+    {
+     "to": "morning-market",
+     "as": "Where the sausage is sold by weight.",
+     "rel": "dish"
+    },
+    {
+     "to": "khun-yuam-to-mae-sariang",
+     "as": "The leg with the most roadside grills on it.",
+     "rel": "leg"
+    }
+   ],
+   "sources": [
+    "s:wp-thai-cuisine",
+    "s:wp-nam-phrik"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "tradition"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "grilled-by-the-road/grilled-by-the-road-erizo-de-mar-viol-ceo-sphaerechinus-granularis-madei-9802f14.jpg",
+     "source": "commons",
+     "title": "File:Erizo de mar violáceo (Sphaerechinus granularis), Madeira, Portugal, 2019-05-31, DD 40.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Erizo_de_mar_viol%C3%A1ceo_%28Sphaerechinus_granularis%29%2C_Madeira%2C_Portugal%2C_2019-05-31%2C_DD_40.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AErizo_de_mar_viol%C3%A1ceo_%28Sphaerechinus_granularis%29%2C_Madeira%2C_Portugal%2C_2019-05-31%2C_DD_40.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Diego Delso",
+     "credit": "Own work",
+     "alt": "Purple sea urchin (Sphaerechinus granularis), Garajau Marine Nature Reserve, Madeira, Portugal.",
+     "date": "2019-05-31 15:35:29",
+     "primary": true,
+     "sha256": "6fd393618e82721daea24091972ebfb4fb274908d535cee1cdc00b113d298748"
+    },
+    {
+     "file": "grilled-by-the-road/grilled-by-the-road-restaurant-kiin-kiin-chiang-mai-p-lse-6200716210.jpg",
+     "source": "commons",
+     "title": "File:Restaurant Kiin Kiin Chiang mai-pølse (6200716210).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Restaurant_Kiin_Kiin_Chiang_mai-p%C3%B8lse_%286200716210%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ARestaurant_Kiin_Kiin_Chiang_mai-p%C3%B8lse_%286200716210%29.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "author": "cyclonebill from Copenhagen, Denmark",
+     "credit": "Restaurant Kiin Kiin: Chiang mai-pølse\n\nUploaded by FAEP",
+     "alt": "Restaurant Kiin Kiin: Chiang mai-pølse (Chiang mai sausage)",
+     "date": "2011-09-27 20:21",
+     "primary": false,
+     "sha256": "c7751a4495648283490962a57852035b2f046f93f53d578aa4b84d1cf3c12731"
+    },
+    {
+     "file": "grilled-by-the-road/grilled-by-the-road-sai-ua-namo-2025-10-28.jpg",
+     "source": "commons",
+     "title": "File:Sai Ua - Namo 2025-10-28.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sai_Ua_-_Namo_2025-10-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASai_Ua_-_Namo_2025-10-28.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Andy Li",
+     "credit": "Own work",
+     "alt": "Description on menu: \"spicy northen thai pork sausage\"",
+     "date": "2025-10-28 19:48:12",
+     "primary": false,
+     "sha256": "cb0a9ee6a307f405a41bf65773f95241ba3e44208b446b75c1a4fe070b537fc9"
+    },
+    {
+     "file": "grilled-by-the-road/grilled-by-the-road-som-tam-or-thai-green-papaya-salad.jpg",
+     "source": "commons",
+     "title": "File:Som Tam or Thai Green Papaya Salad.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Som_Tam_or_Thai_Green_Papaya_Salad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASom_Tam_or_Thai_Green_Papaya_Salad.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Sumit Surai",
+     "credit": "Own work",
+     "alt": "Made from shredded green papaya, this is a spicy thai salad.\nThis photo was taken at SOI - The Asian Street Kitchen, Kolkata.",
+     "date": "2017-01-15 19:56:24",
+     "primary": false,
+     "sha256": "d1791a561e33e494f30a9463b07c639c7dae839244d9c3246c28dfb546af1756"
+    }
+   ],
+   "kin_in": []
+  },
+  {
+   "id": "khao-soi",
+   "type": "dish",
+   "names": {
+    "name": "Khao soi",
+    "th": "ข้าวซอย",
+    "said": "Soft noodles under the broth, fried ones on top, and the crunch is the point.",
+    "said_th": "เส้นนิ่มอยู่ใต้น้ำ เส้นทอดอยู่บน และความกรอบคือหัวใจ",
+    "rtgs": "khao soi"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "noodles",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "A coconut curry noodle soup of upper northern Thailand, Laos and the Shan States. Chicken or beef, pickled mustard greens, shallot, lime, chilli paste on the side.",
+    "story": "The name means *cut rice*, from the way the fresh sheets of noodle are sliced. It belongs to the Tai Yai and to the wider Burmese-border kitchen as much as to Chiang Mai, which is why it is on the board the whole way round this loop.\n\n*Inference —* the practical fact for a rider is the hour. This is breakfast and lunch food. Many of the best places sell out and close by early afternoon, so it is a reason to be on the road by seven and off it by one — which happens to be the same advice the smoke and the heat give you, for entirely different reasons.\n\n*Tradition holds —* the four things on the side are not a garnish. The pickled greens and the lime cut the coconut, the shallot is raw and sharp, and the chilli paste is where the heat lives, so the bowl arrives mild and you build it."
+   },
+   "text_th": {
+    "what": "ก๋วยเตี๋ยวน้ำแกงกะทิของภาคเหนือตอนบน ลาว และรัฐฉาน ใส่ไก่หรือเนื้อ กินกับผักกาดดอง หอมแดง มะนาว และพริกเผาแยกข้าง",
+    "story": "ชื่อหมายถึงข้าวที่ถูกซอย มาจากวิธีตัดแผ่นเส้นสด อาหารจานนี้เป็นของไทใหญ่และของครัวแถบชายแดนพม่าไม่น้อยไปกว่าของเชียงใหม่ จึงมีขายตลอดเส้นทางวงรอบนี้\n\n*อนุมาน —* ข้อเท็จจริงที่ใช้ได้จริงสำหรับคนขี่รถคือเรื่องเวลา นี่คืออาหารเช้าและอาหารกลางวัน ร้านดีๆ หลายร้านขายหมดและปิดตั้งแต่บ่ายต้นๆ จึงเป็นเหตุผลให้ออกเดินทางตั้งแต่เจ็ดโมงและเลิกตอนบ่ายโมง ซึ่งบังเอิญเป็นคำแนะนำเดียวกับที่ควันและความร้อนให้ไว้ ด้วยเหตุผลคนละอย่างสิ้นเชิง\n\n*ตามธรรมเนียม —* ของสี่อย่างที่วางข้างชามไม่ใช่เครื่องเคียงประดับ ผักดองกับมะนาวตัดกะทิ หอมแดงดิบและฉุน ส่วนพริกเผาคือที่อยู่ของความเผ็ด ชามจึงมาถึงแบบอ่อนๆ แล้วคุณปรุงเอง"
+   },
+   "kin": [
+    {
+     "to": "morning-market",
+     "as": "Where to find it before it runs out.",
+     "rel": "dish"
+    },
+    {
+     "to": "nam-ngiao",
+     "as": "The other northern noodle bowl, and the Shan one.",
+     "rel": "dish"
+    },
+    {
+     "to": "shan",
+     "as": "Whose kitchen this also is.",
+     "rel": "person"
+    }
+   ],
+   "sources": [
+    "s:wp-khao-soi",
+    "s:wp-thai-cuisine"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-khao-soi"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "khao-soi/khao-soi-khao-soi-chiang-mai.jpg",
+     "source": "commons",
+     "title": "File:Khao soi Chiang Mai.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Khao_soi_Chiang_Mai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AKhao_soi_Chiang_Mai.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "Khao soi (Thai script: ข้าวซอย) is a dish from Northern Thailand with mixed deep-fried egg noodles and cooked egg noodles served in a coconut based curry with meat (most often chicken as with the khao",
+     "date": "2011-06-02",
+     "primary": true,
+     "sha256": "91d8894045d5eb41a28abdcbf7ef15f4a2c6c593cac69ba96c29dcd7cefd48e5"
+    },
+    {
+     "file": "khao-soi/khao-soi-ok-chicken-and-khao-soi-portland-oregon-5.jpg",
+     "source": "commons",
+     "title": "File:OK Chicken and Khao Soi, Portland, Oregon - 5.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/OK_Chicken_and_Khao_Soi%2C_Portland%2C_Oregon_-_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AOK_Chicken_and_Khao_Soi%2C_Portland%2C_Oregon_-_5.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Another Believer",
+     "credit": "Own work",
+     "alt": "OK Chicken and Khao Soi",
+     "date": "2026-02-13 17:11:23",
+     "primary": false,
+     "sha256": "ffcad12b4c53940e4f509f436c72ac7d699a721b6f591c1ee44986ba6dae64dc"
+    },
+    {
+     "file": "khao-soi/khao-soi-ok-chicken-and-khao-soi-portland-oregon-6.jpg",
+     "source": "commons",
+     "title": "File:OK Chicken and Khao Soi, Portland, Oregon - 6.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/OK_Chicken_and_Khao_Soi%2C_Portland%2C_Oregon_-_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AOK_Chicken_and_Khao_Soi%2C_Portland%2C_Oregon_-_6.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Another Believer",
+     "credit": "Own work",
+     "alt": "OK Chicken and Khao Soi",
+     "date": "2026-02-13 17:13:43",
+     "primary": false,
+     "sha256": "d6af4bd66b97141f6fb02f17cf0fd4a53236e5e6d7c083fe7d0b59df10f00d00"
+    },
+    {
+     "file": "khao-soi/khao-soi-trimeresurus-vogeli-vogel-s-pit-viper-khao-soi-dao-w-4fdc6a2.jpg",
+     "source": "commons",
+     "title": "File:Trimeresurus vogeli, Vogel's pit viper - Khao Soi Dao Wildlife Sanctuary (46361404605).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Trimeresurus_vogeli%2C_Vogel%27s_pit_viper_-_Khao_Soi_Dao_Wildlife_Sanctuary_%2846361404605%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ATrimeresurus_vogeli%2C_Vogel%27s_pit_viper_-_Khao_Soi_Dao_Wildlife_Sanctuary_%2846361404605%29.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "author": "Rushen",
+     "credit": "Trimeresurus vogeli, Vogel's pit viper - Khao Soi Dao Wildlife Sanctuary",
+     "alt": "Vogel's pit viper (Trimeresurus vogeli). Khao Soi Dao Wildlife Sanctuary, Thailand",
+     "date": "2019-02-21 20:16",
+     "primary": false,
+     "sha256": "5f426a40e022455722a45274975a4bc5122491f16bd4ff8410099043c8e3b788"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "morning-market",
+     "type": "dish",
+     "name": "The morning market",
+     "as": "Often the best bowl in town is in here."
+    },
+    {
+     "from": "nam-ngiao",
+     "type": "dish",
+     "name": "Kanom jeen nam ngiao",
+     "as": "The heavier bowl, and the one that sells out."
+    }
+   ]
+  },
+  {
+   "id": "morning-market",
+   "type": "dish",
+   "names": {
+    "name": "The morning market",
+    "th": "ตลาดเช้า",
+    "said": "Open at five, finished by nine, and the best meal of your day is in it.",
+    "said_th": "เปิดตีห้า เลิกเก้าโมง และมื้อที่ดีที่สุดของวันอยู่ในนั้น",
+    "rtgs": "talat chao"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "market",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "Every town on this loop has one. Rice, curries in bags, grilled things, sticky rice, coffee, and whatever the hills sent down that morning.",
+    "story": "*Inference —* this is the single best thing on the circuit that costs almost nothing and that most riders sleep through. The market is at its fullest between five and seven and is packing up by nine, which is the same window in which you want to be riding anyway — so the answer is to eat first and leave at eight, not to lie in and buy a sandwich.\n\nWhat is on the tables changes by altitude and by who is selling. In Mae Hong Son and Mae Sariang the Shan and Burmese side of the kitchen is right there; up the hill it is Karen and Lisu produce; in Mae Chaem it is a Lanna market.\n\n*Tradition holds —* curry is sold by the bag, tied at the neck, to take away. You buy rice separately. Nobody minds you pointing."
+   },
+   "text_th": {
+    "what": "ทุกเมืองบนเส้นทางนี้มี ข้าว แกงใส่ถุง ของย่าง ข้าวเหนียว กาแฟ และอะไรก็ตามที่ดอยส่งลงมาเช้านั้น",
+    "story": "*อนุมาน —* นี่คือสิ่งที่ดีที่สุดบนเส้นทางที่แทบไม่ต้องจ่ายอะไรเลย และเป็นสิ่งที่คนขี่ส่วนใหญ่นอนหลับผ่านไป ตลาดคึกที่สุดระหว่างตีห้าถึงเจ็ดโมงและเริ่มเก็บตอนเก้าโมง ซึ่งเป็นช่วงเดียวกับที่คุณอยากออกเดินทางอยู่แล้ว คำตอบจึงคือกินก่อนแล้วออกแปดโมง ไม่ใช่ตื่นสายแล้วซื้อแซนด์วิช\n\nของบนแผงเปลี่ยนไปตามความสูงและตามคนขาย ที่แม่ฮ่องสอนและแม่สะเรียง ฝั่งไทใหญ่และพม่าของครัวอยู่ตรงนั้นเลย ขึ้นดอยไปเป็นผลผลิตของกะเหรี่ยงและลีซู ส่วนที่แม่แจ่มเป็นตลาดล้านนา\n\n*ตามธรรมเนียม —* แกงขายเป็นถุง มัดปากถุง เอากลับไปกิน ข้าวซื้อแยก และไม่มีใครว่าถ้าคุณจะชี้เอา"
+   },
+   "kin": [
+    {
+     "to": "khao-soi",
+     "as": "Often the best bowl in town is in here.",
+     "rel": "dish"
+    },
+    {
+     "to": "sticky-rice",
+     "as": "Bought here, eaten all day.",
+     "rel": "dish"
+    },
+    {
+     "to": "mae-hong-son",
+     "as": "Where the Shan side of the kitchen is plainest.",
+     "rel": "town"
+    }
+   ],
+   "sources": [
+    "s:wp-night-market",
+    "s:wp-thai-cuisine",
+    "s:wp-mae-hong-son-province"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "tradition"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "morning-market/morning-market-krabi-thailand-april-2025-mornig-market-fruit.jpg",
+     "source": "commons",
+     "title": "File:Krabi, Thailand April 2025 - Mornig Market Fruit.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Krabi%2C_Thailand_April_2025_-_Mornig_Market_Fruit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AKrabi%2C_Thailand_April_2025_-_Mornig_Market_Fruit.jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Sharon Hahn Darlin",
+     "credit": "https://www.flickr.com/photos/sharonhahndarlin/54473528662/",
+     "alt": "Maharaj (morning) Market ตลาดสดมหาราช",
+     "date": "2025-04-25 05:52:59",
+     "primary": true,
+     "sha256": "ed024d29aae8586d0d8a344472a62489a0462e330f125a7ff1e6a8b2dca4c8dc"
+    },
+    {
+     "file": "morning-market/morning-market-krabi-thailand-april-2025-morning-market-sign.jpg",
+     "source": "commons",
+     "title": "File:Krabi, Thailand April 2025 - Morning Market sign.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Krabi%2C_Thailand_April_2025_-_Morning_Market_sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AKrabi%2C_Thailand_April_2025_-_Morning_Market_sign.jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Sharon Hahn Darlin",
+     "credit": "https://www.flickr.com/photos/sharonhahndarlin/54473526277/",
+     "alt": "Maharaj (morning) Market ตลาดสดมหาราช",
+     "date": "2025-04-25 05:51:13",
+     "primary": false,
+     "sha256": "a2f033b7298f016d138bf0772fa69c7d2e5050bb0a48310273dda6c35e5adbb7"
+    },
+    {
+     "file": "morning-market/morning-market-market-in-mae-hong-son.jpg",
+     "source": "commons",
+     "title": "File:Market in Mae Hong Son.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Market_in_Mae_Hong_Son.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMarket_in_Mae_Hong_Son.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Street market in Mae Hong Son.",
+     "date": "2018-09-01 17:45:43",
+     "primary": false,
+     "sha256": "e1fc2d176d8d6c63490d84af95cc7e655b944b6543dcc70339414a3270e0fe38"
+    },
+    {
+     "file": "morning-market/morning-market-morning-at-phayao-lake-10.jpg",
+     "source": "commons",
+     "title": "File:Morning at Phayao Lake ยามเช้าที่กว๊านพะเยา 10.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Morning_at_Phayao_Lake_%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%A7%E0%B9%8A%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B0%E0%B9%80%E0%B8%A2%E0%B8%B2_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_at_Phayao_Lake_%E0%B8%A2%E0%B8%B2%E0%B8%A1%E0%B9%80%E0%B8%8A%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%A7%E0%B9%8A%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B0%E0%B9%80%E0%B8%A2%E0%B8%B2_10.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Chainwit.",
+     "credit": "Own work",
+     "alt": "Kwan Phayao (Phayao Lake) in the morning",
+     "date": "2021-12-26",
+     "primary": false,
+     "sha256": "092819813ae8752572706e490616fdc7e1b873e6e6b7e799ca67055bb36d62b2"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "pai-walking-street",
+     "type": "stop",
+     "name": "The evening in Pai",
+     "as": "The other market, and the better meal."
+    },
+    {
+     "from": "wat-hua-wiang",
+     "type": "wat",
+     "name": "Wat Hua Wiang",
+     "as": "Next door, and do that first."
+    },
+    {
+     "from": "grilled-by-the-road",
+     "type": "dish",
+     "name": "Grilled by the road",
+     "as": "Where the sausage is sold by weight."
+    },
+    {
+     "from": "khao-soi",
+     "type": "dish",
+     "name": "Khao soi",
+     "as": "Where to find it before it runs out."
+    },
+    {
+     "from": "sticky-rice",
+     "type": "dish",
+     "name": "Sticky rice",
+     "as": "Where the basket comes from."
+    },
+    {
+     "from": "thua-nao",
+     "type": "dish",
+     "name": "Thua nao",
+     "as": "Stacked like coasters, on every table."
+    },
+    {
+     "from": "roadside-stall",
+     "type": "coffee",
+     "name": "The stall at the top of the climb",
+     "as": "The other thing worth getting up for."
+    },
+    {
+     "from": "lisu-lahu-hmong",
+     "type": "person",
+     "name": "Lisu, Lahu, Hmong and Lua",
+     "as": "Where their fields arrive every morning."
+    }
+   ]
+  },
+  {
+   "id": "nam-ngiao",
+   "type": "dish",
+   "names": {
+    "name": "Kanom jeen nam ngiao",
+    "th": "ขนมจีนน้ำเงี้ยว",
+    "said": "A tomato-and-pork broth with a flower in it, over fermented rice noodles.",
+    "said_th": "น้ำซุปมะเขือเทศกับหมู มีดอกไม้อยู่ในนั้น ราดบนขนมจีน",
+    "rtgs": "khanom chin nam ngiao"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "noodles",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "Fermented rice vermicelli under a thin, sour, red broth of tomato and pork, with dried kapok flower, pork blood cubes and a pork rib.",
+    "story": "The name is the giveaway: *ngiao* is an old Thai word for the Shan. This is Shan food that northern Thailand adopted, and on the western half of this loop you are eating it where it comes from rather than where it travelled to.\n\n*Tradition holds —* the dried kapok flower, *dok ngiao*, is the ingredient that makes it what it is: it goes soft in the broth and adds body rather than flavour. Without it the bowl is a tomato soup.\n\n*Inference —* it is lighter than khao soi and served all day, which makes it the better bet when you arrive somewhere at three in the afternoon and the khao soi has gone."
+   },
+   "text_th": {
+    "what": "ขนมจีนราดน้ำซุปใสสีแดง เปรี้ยว ทำจากมะเขือเทศกับหมู ใส่ดอกงิ้วแห้ง เลือดหมู และซี่โครงหมู",
+    "story": "ชื่อบอกที่มาอยู่แล้ว คำว่าเงี้ยวเป็นคำไทยเก่าที่ใช้เรียกชาวไทใหญ่ นี่คืออาหารไทใหญ่ที่ภาคเหนือรับมา และบนครึ่งตะวันตกของวงรอบนี้ คุณกำลังกินมันในที่ที่มันมา ไม่ใช่ที่ที่มันเดินทางไปถึง\n\n*ตามธรรมเนียม —* ดอกงิ้วแห้งคือวัตถุดิบที่ทำให้มันเป็นตัวมันเอง มันนิ่มในน้ำซุปและให้เนื้อสัมผัสมากกว่าให้รส ถ้าไม่มีดอกงิ้ว ชามนั้นก็เป็นแค่ซุปมะเขือเทศ\n\n*อนุมาน —* มันเบากว่าข้าวซอยและมีขายทั้งวัน จึงเป็นตัวเลือกที่ดีกว่าเมื่อคุณไปถึงที่ไหนสักแห่งตอนบ่ายสามและข้าวซอยหมดแล้ว"
+   },
+   "kin": [
+    {
+     "to": "khao-soi",
+     "as": "The heavier bowl, and the one that sells out.",
+     "rel": "dish"
+    },
+    {
+     "to": "shan",
+     "as": "Whose dish it is, and whose name is in it.",
+     "rel": "person"
+    },
+    {
+     "to": "mae-sariang",
+     "as": "Deep in the country it belongs to.",
+     "rel": "town"
+    }
+   ],
+   "sources": [
+    "s:wp-thai-cuisine",
+    "s:wp-shan-people"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "tradition"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "nam-ngiao/nam-ngiao-khanom-farang-kudi-chin-2020-10-10-1.jpg",
+     "source": "commons",
+     "title": "File:Khanom Farang Kudi Chin, 2020-10-10 (1).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Khanom_Farang_Kudi_Chin%2C_2020-10-10_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AKhanom_Farang_Kudi_Chin%2C_2020-10-10_%281%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "แอนเดอร์สัน",
+     "credit": "Own work",
+     "alt": "Khanom Farang Kudi Chin, a Thai snack of Portuguese origin.",
+     "date": "2020-10-10",
+     "primary": true,
+     "sha256": "05a02803a28d56d463718a338c316055db626a77b559726555a5fa9d4b749979"
+    },
+    {
+     "file": "nam-ngiao/nam-ngiao-khanom-chin-kaeng-kiao-wan-kai.jpg",
+     "source": "commons",
+     "title": "File:Khanom chin kaeng kiao wan kai.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Khanom_chin_kaeng_kiao_wan_kai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AKhanom_chin_kaeng_kiao_wan_kai.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "Khanom chin kaeng khiao wan kai (Thai script: ขนมจีนแกงเขียวหวานไก่) is a popular dish in Thailand consisting of Thai green chicken curry served over freshly made Thai rice noodles. It is usually serv",
+     "date": "2013-05-11 12:14:55",
+     "primary": false,
+     "sha256": "24f9309d9950a31501b88929c644f0a8b09b18e1ef4b17c41f729437af36e6e7"
+    },
+    {
+     "file": "nam-ngiao/nam-ngiao-luso-thai-cuisine-at-kudi-chin-2020-10-10-1.jpg",
+     "source": "commons",
+     "title": "File:Luso-Thai Cuisine at Kudi Chin, 2020-10-10 (1).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Luso-Thai_Cuisine_at_Kudi_Chin%2C_2020-10-10_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ALuso-Thai_Cuisine_at_Kudi_Chin%2C_2020-10-10_%281%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "แอนเดอร์สัน",
+     "credit": "Own work",
+     "alt": "สำรับอาหารไทย-โปรตุเกส และของว่างชาววัง",
+     "date": "2020-10-10",
+     "primary": false,
+     "sha256": "d93d37725e8c2e219879b559011b97ee7fd6deaaef9454844825ac4b46edeaf6"
+    },
+    {
+     "file": "nam-ngiao/nam-ngiao-nam-ngiao-bangkok-2019-08-29.jpg",
+     "source": "commons",
+     "title": "File:Nam ngiao, Bangkok, 2019-08-29.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Nam_ngiao%2C_Bangkok%2C_2019-08-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ANam_ngiao%2C_Bangkok%2C_2019-08-29.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Bitterschoko",
+     "credit": "Own work",
+     "alt": "Nam ngiao (น้ำเงี้ยว; literally \"cotton flower soup\"), a dish of noodles served in a soup containing cotton flowers, as sold in Bangkok, Thailand.",
+     "date": "2019-08-29 15:04:28",
+     "primary": false,
+     "sha256": "87f4d251cf4181ae1fa78c385b88cde1d36e0f4ccc2659451b6ee512a5e1ad9d"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "khao-soi",
+     "type": "dish",
+     "name": "Khao soi",
+     "as": "The other northern noodle bowl, and the Shan one."
+    },
+    {
+     "from": "thua-nao",
+     "type": "dish",
+     "name": "Thua nao",
+     "as": "Often in the bowl without being announced."
+    }
+   ]
+  },
+  {
+   "id": "sticky-rice",
+   "type": "dish",
+   "names": {
+    "name": "Sticky rice",
+    "th": "ข้าวเหนียว",
+    "said": "It travels in a basket, it does not need a fork, and it is the staple here rather than the side.",
+    "said_th": "ใส่กระติบไป ไม่ต้องใช้ส้อม และที่นี่มันคืออาหารหลัก ไม่ใช่เครื่องเคียง",
+    "rtgs": "khao niao"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "staple",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "Glutinous rice, steamed rather than boiled, eaten with the right hand in small pressed balls. The everyday grain of the north and the northeast.",
+    "story": "Glutinous rice contains effectively no amylose, which is the starch that makes ordinary rice separate into grains; that is the whole reason it holds together.\n\n*Inference —* why it matters on a motorcycle: a basket of sticky rice and a bag of something to dip it in needs no plate, no cutlery, no table and no stop longer than the time it takes to sit down. It is the only lunch on this list you can genuinely eat at a viewpoint.\n\n*Tradition holds —* you take a small amount, press it into a ball in your fingers, and use it to pick up whatever is beside it. It is eaten with the hand and it is not rude to do so."
+   },
+   "text_th": {
+    "what": "ข้าวเหนียวนึ่ง ไม่ได้ต้ม กินด้วยมือขวา ปั้นเป็นก้อนเล็กๆ เป็นข้าวประจำวันของภาคเหนือและอีสาน",
+    "story": "ข้าวเหนียวแทบไม่มีอะมิโลสเลย ซึ่งเป็นแป้งที่ทำให้ข้าวธรรมดาร่วนเป็นเม็ด นั่นคือเหตุผลทั้งหมดที่มันเกาะกันเป็นก้อน\n\n*อนุมาน —* ทำไมมันสำคัญกับคนขี่มอเตอร์ไซค์ กระติบข้าวเหนียวกับถุงกับข้าวไม่ต้องใช้จาน ไม่ต้องใช้ช้อน ไม่ต้องใช้โต๊ะ และไม่ต้องหยุดนานกว่าเวลาที่ใช้นั่งลง มันเป็นมื้อเดียวในรายการนี้ที่กินบนจุดชมวิวได้จริงๆ\n\n*ตามธรรมเนียม —* หยิบมานิดหนึ่ง ปั้นเป็นก้อนในนิ้ว แล้วใช้จิ้มของที่วางอยู่ข้างๆ กินด้วยมือ และไม่ใช่เรื่องเสียมารยาท"
+   },
+   "kin": [
+    {
+     "to": "morning-market",
+     "as": "Where the basket comes from.",
+     "rel": "dish"
+    },
+    {
+     "to": "packing-light",
+     "as": "Lunch that needs no equipment.",
+     "rel": "kit"
+    }
+   ],
+   "sources": [
+    "s:wp-glutinous-rice",
+    "s:wp-thai-cuisine"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-glutinous-rice"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "sticky-rice/sticky-rice-purple-mango-sticky-rice.jpg",
+     "source": "commons",
+     "title": "File:Purple Mango Sticky rice.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Purple_Mango_Sticky_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APurple_Mango_Sticky_rice.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Kenamparo",
+     "credit": "Own work",
+     "alt": "Purple mango sticky rice in Thailand",
+     "date": "2020-04-14 00:01:56",
+     "primary": true,
+     "sha256": "35b32f637b6693ba15273482ecf5317835bbbc7d3fd7a05eafdd0046e2d03a57"
+    },
+    {
+     "file": "sticky-rice/sticky-rice-sticky-bean-rice.jpg",
+     "source": "commons",
+     "title": "File:Sticky Bean Rice.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Sticky_Bean_Rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASticky_Bean_Rice.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "စာကလေး SarKaLay",
+     "credit": "Own work",
+     "alt": "ပဲကောက်ညှင်းထုပ်၊ ပဲကောက်ညှင်း ငှက်ပျောဖက်ထုပ် Sticky Bean Rice",
+     "date": "20 August 2025 (according to Exif data)",
+     "primary": false,
+     "sha256": "a80a32d8d32d5982bf692e0375d813d168102d92ca997d2867aafed7a32a68c9"
+    },
+    {
+     "file": "sticky-rice/sticky-rice-sticky-rice-85950.jpg",
+     "source": "commons",
+     "title": "File:Sticky Rice (85950).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sticky_Rice_%2885950%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASticky_Rice_%2885950%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "SarKaLay စာကလေး",
+     "credit": "Own work",
+     "alt": "sticky rice / နှမ်းထောင်း ရှမ်းခေါပုတ်။",
+     "date": "9 May 2025 (according to Exif data)",
+     "primary": false,
+     "sha256": "188074839b845e6c48de85414bfee9d1017162d2e984eb7ae43dcabb40e5af53"
+    },
+    {
+     "file": "sticky-rice/sticky-rice-thai-classic-mango-sticky-rice-with-coconut-ice-crea-bca7abd.jpg",
+     "source": "commons",
+     "title": "File:Thai Classic Mango & Sticky Rice with Coconut Ice Cream - Namo 2026-07-30.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Thai_Classic_Mango_%26_Sticky_Rice_with_Coconut_Ice_Cream_-_Namo_2026-07-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThai_Classic_Mango_%26_Sticky_Rice_with_Coconut_Ice_Cream_-_Namo_2026-07-30.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Andy Li",
+     "credit": "Own work",
+     "alt": "Thai Classic Mango &amp; Sticky Rice with Coconut Ice Cream",
+     "date": "2026-07-30 21:17:02",
+     "primary": false,
+     "sha256": "8a733efecb22eadd538ca8ac006ea37a48a8cc10cf57e080fdd511c9801dd271"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "grilled-by-the-road",
+     "type": "dish",
+     "name": "Grilled by the road",
+     "as": "What it is eaten with, and what carries it."
+    },
+    {
+     "from": "morning-market",
+     "type": "dish",
+     "name": "The morning market",
+     "as": "Bought here, eaten all day."
+    }
+   ]
+  },
+  {
+   "id": "thua-nao",
+   "type": "dish",
+   "names": {
+    "name": "Thua nao",
+    "th": "ถั่วเน่า",
+    "said": "Fermented soybean, dried into discs and toasted. The Shan kitchen's salt.",
+    "said_th": "ถั่วเหลืองหมัก ตากเป็นแผ่นแล้วปิ้ง เป็นเกลือของครัวไทใหญ่",
+    "rtgs": "thua nao"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "ingredient",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "Soybeans fermented, mashed, pressed flat and sun-dried into thin discs, then toasted or fried and crumbled into food. The name means rotten bean and nobody minds.",
+    "story": "*Tradition holds —* this is the northern and Shan answer to fish sauce, in a region far from the sea. Where central Thailand reaches for *nam pla*, the hill kitchens reach for a toasted disc of fermented bean.\n\n*Inference —* it is the single ingredient that most reliably tells you which side of the cultural line you are eating on, and it is easy to miss because it arrives crumbled into something else. Ask, and people will show you the discs — they are stacked like coasters in every market on the western half of this loop.\n\nThe smell on a toasting grill is strong and it is the good kind."
+   },
+   "text_th": {
+    "what": "ถั่วเหลืองหมัก บด กดเป็นแผ่นบาง ตากแดด แล้วปิ้งหรือทอดโขลกใส่อาหาร ชื่อแปลว่าถั่วเน่า และไม่มีใครถือ",
+    "story": "*ตามธรรมเนียม —* นี่คือคำตอบของภาคเหนือและของไทใหญ่ต่อน้ำปลา ในดินแดนที่อยู่ไกลทะเล ที่ภาคกลางใช้น้ำปลา ครัวบนดอยใช้แผ่นถั่วหมักปิ้ง\n\n*อนุมาน —* มันเป็นวัตถุดิบเดียวที่บอกได้แน่นอนที่สุดว่าคุณกำลังกินอยู่ฝั่งไหนของเส้นวัฒนธรรม และสังเกตยากเพราะมันมาถึงในรูปที่โขลกปนอยู่ในอย่างอื่นแล้ว ลองถามดู คนจะหยิบแผ่นให้ดู มันวางซ้อนกันเหมือนที่รองแก้วในทุกตลาดบนครึ่งตะวันตกของวงรอบนี้\n\nกลิ่นตอนปิ้งบนเตาแรงมาก และเป็นความแรงแบบที่ดี"
+   },
+   "kin": [
+    {
+     "to": "shan",
+     "as": "Whose kitchen it belongs to.",
+     "rel": "person"
+    },
+    {
+     "to": "morning-market",
+     "as": "Stacked like coasters, on every table.",
+     "rel": "dish"
+    },
+    {
+     "to": "nam-ngiao",
+     "as": "Often in the bowl without being announced.",
+     "rel": "dish"
+    }
+   ],
+   "sources": [
+    "s:wp-soybean",
+    "s:wp-burmese-cuisine",
+    "s:wp-shan-people"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "tradition"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "thua-nao/thua-nao-3locally-made-famous-bean-paste-sold-at-mong-yawng-m-5c5e7b5.jpg",
+     "source": "commons",
+     "title": "File:-3Locally Made famous bean paste sold at Mong Yawng Market in early monrning of 2016-2 December.-3.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/-3Locally_Made_famous_bean_paste_sold_at_Mong_Yawng_Market_in_early_monrning_of_2016-2_December.-3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A-3Locally_Made_famous_bean_paste_sold_at_Mong_Yawng_Market_in_early_monrning_of_2016-2_December.-3.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Sai Htun Lin",
+     "credit": "Own work",
+     "alt": "Locally Made famous bean paste sold at Mong Yawng Market in early monrning of 2016 December.",
+     "date": "2017-01-02 06:39:20",
+     "primary": true,
+     "sha256": "e6453ca35a722eab71231d11fe40b62cf53f3c9b1d81f31462946d660183b237"
+    },
+    {
+     "file": "thua-nao/thua-nao-2017-0419-thanin-market-tua-nao.jpg",
+     "source": "commons",
+     "title": "File:2017 0419 Thanin market tua nao.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/2017_0419_Thanin_market_tua_nao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A2017_0419_Thanin_market_tua_nao.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "Tua nao (Thai script: ถั่วเน่า) are a food ingredient made from fermented soy beans in the form of round patties. Within Thailand, they are mainly used in northern Thai cuisine. This ingredient is ass",
+     "date": "2017-04-19 13:32:11",
+     "primary": false,
+     "sha256": "b0999a6f2860f3005b813a4e7bd5b6873a880ab1ceb772d36c0def9937ef4fb0"
+    },
+    {
+     "file": "thua-nao/thua-nao-dried-fermented-bean-cakes.jpg",
+     "source": "commons",
+     "title": "File:Dried fermented bean cakes.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Dried_fermented_bean_cakes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ADried_fermented_bean_cakes.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "User:Wagaung",
+     "credit": "Own work",
+     "alt": "Pè bouk (pé-bôk, pébôk) - dried fermented soybean cakes",
+     "date": "5 January 2007 (according to Exif data)",
+     "primary": false,
+     "sha256": "2b8d5030aaca918c2c3b2e430e4be575f5f92d8237d683a8e5117779913b666a"
+    },
+    {
+     "file": "thua-nao/thua-nao-ethnic-women-selling-fermented-soybeans-on-market-da-31c51c3.jpg",
+     "source": "commons",
+     "title": "File:Ethnic women selling fermented soybeans on market day (January 2020).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Ethnic_women_selling_fermented_soybeans_on_market_day_%28January_2020%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AEthnic_women_selling_fermented_soybeans_on_market_day_%28January_2020%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Ba Gyee Soe",
+     "credit": "https://www.facebook.com/BGSAungban/",
+     "alt": "Ethnic women selling fermented soybeans on market day (12 January 2020)",
+     "date": "2020-01-12",
+     "primary": false,
+     "sha256": "bc52a6a53346c9c7ae78c237f51cecec44bc6167013d7edc70e2461d0c17b6d0"
+    }
+   ],
+   "kin_in": []
+  },
+  {
+   "id": "yunnan-table",
+   "type": "dish",
+   "names": {
+    "name": "The Yunnanese table at Ban Rak Thai",
+    "th": "อาหารยูนนานที่บ้านรักไทย",
+    "said": "Steamed buns, braised pork, black chicken, and tea grown on the hill you can see from the table.",
+    "said_th": "หมั่นโถว หมูพะโล้ ไก่ดำ และชาที่ปลูกบนดอยที่มองเห็นจากโต๊ะ"
+   },
+   "region": [
+    "mhs",
+    "mueang-mhs"
+   ],
+   "facets": {
+    "kind": "regional",
+    "price": "mid"
+   },
+   "text": {
+    "what": "Chinese Yunnanese food, on a reservoir, a few kilometres from the Myanmar border, at the end of a road that goes nowhere else.",
+    "story": "Chinese Yunnanese are one of the named population groups of Mae Hong Son province, and this village is the most concentrated expression of that on the circuit: the cooking is Yunnanese, not Thai, and so is the architecture.\n\n*Inference —* for a rider the thing worth knowing is that it is a dead-end road, so this is an afternoon out of Mae Hong Son rather than a leg of the loop. Which is a large part of why Mae Hong Son is worth two nights and not one.\n\n*Tradition holds —* the tea is grown on the terraces above the village and is sold and poured by the people who picked it. That is the meal, as much as the food is."
+   },
+   "text_th": {
+    "what": "อาหารจีนยูนนาน ริมอ่างเก็บน้ำ ห่างชายแดนเมียนมาไม่กี่กิโลเมตร ที่ปลายถนนที่ไปที่อื่นไม่ได้",
+    "story": "ชาวจีนยูนนานเป็นหนึ่งในกลุ่มประชากรที่ระบุไว้ของจังหวัดแม่ฮ่องสอน และหมู่บ้านนี้คือการแสดงออกที่เข้มข้นที่สุดของเรื่องนั้นบนเส้นทาง อาหารเป็นยูนนาน ไม่ใช่ไทย และสถาปัตยกรรมก็เช่นกัน\n\n*อนุมาน —* สำหรับคนขี่รถ สิ่งที่ควรรู้คือมันเป็นถนนทางตัน ที่นี่จึงเป็นบ่ายหนึ่งบ่ายที่ออกจากแม่ฮ่องสอน ไม่ใช่ช่วงหนึ่งของวงรอบ และนั่นเป็นเหตุผลใหญ่ที่แม่ฮ่องสอนควรได้สองคืน ไม่ใช่คืนเดียว\n\n*ตามธรรมเนียม —* ชาปลูกบนไร่ขั้นบันไดเหนือหมู่บ้าน และขายและชงโดยคนที่เก็บเอง นั่นคือมื้ออาหาร พอๆ กับตัวอาหารเอง"
+   },
+   "kin": [
+    {
+     "to": "ban-rak-thai",
+     "as": "The village itself.",
+     "rel": "stop"
+    },
+    {
+     "to": "mae-hong-son",
+     "as": "The town the afternoon starts from.",
+     "rel": "town"
+    },
+    {
+     "to": "ridge-arabica",
+     "as": "The other thing grown on these slopes.",
+     "rel": "coffee"
+    }
+   ],
+   "sources": [
+    "s:wp-yunnan-cuisine",
+    "s:thwp-ban-rak-thai",
+    "s:wp-mae-hong-son-province"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-yunnan-cuisine"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "geo": {
+    "lat": 19.5,
+    "lon": 97.85,
+    "precision": "town"
+   },
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "yunnan-table/yunnan-table-nuodeng-ham-with-dali-dried-cheese-at-hong-0871-yunn-ea268fc.jpg",
+     "source": "commons",
+     "title": "File:Nuodeng ham with Dali dried cheese at Hong 0871 Yunnan Cuisine, Beijing (20211030132843).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Nuodeng_ham_with_Dali_dried_cheese_at_Hong_0871_Yunnan_Cuisine%2C_Beijing_%2820211030132843%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ANuodeng_ham_with_Dali_dried_cheese_at_Hong_0871_Yunnan_Cuisine%2C_Beijing_%2820211030132843%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "N509FZ",
+     "credit": "Own work",
+     "alt": "Clash of the salty and the sweet, for CNY198.",
+     "date": "2021-10-30 13:28:43",
+     "primary": true,
+     "sha256": "7f511732197c2bbac78ecdc2b7168d01f98638d37255a6759cfa874fc73ac7f7"
+    },
+    {
+     "file": "yunnan-table/yunnan-table-nuodeng-ham-with-dali-dried-cheese-at-hong-0871-yunn-ba181cb.jpg",
+     "source": "commons",
+     "title": "File:Nuodeng ham with Dali dried cheese at Hong 0871 Yunnan Cuisine, Beijing (20211030132854).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Nuodeng_ham_with_Dali_dried_cheese_at_Hong_0871_Yunnan_Cuisine%2C_Beijing_%2820211030132854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ANuodeng_ham_with_Dali_dried_cheese_at_Hong_0871_Yunnan_Cuisine%2C_Beijing_%2820211030132854%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "N509FZ",
+     "credit": "Own work",
+     "alt": "Close-up for the \"jamon\".",
+     "date": "2021-10-30 13:28:54",
+     "primary": false,
+     "sha256": "a9fc7b68c8b1f38e0900d12f2a598ea4588a50dabd7ed301b2b91c8f11c570f2"
+    },
+    {
+     "file": "yunnan-table/yunnan-table-tengchong-hot-pot-at-hong-0871-yunnan-cuisine-beijin-c9867c1.jpg",
+     "source": "commons",
+     "title": "File:Tengchong hot pot at Hong 0871 Yunnan Cuisine, Beijing (20211030133011).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Tengchong_hot_pot_at_Hong_0871_Yunnan_Cuisine%2C_Beijing_%2820211030133011%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ATengchong_hot_pot_at_Hong_0871_Yunnan_Cuisine%2C_Beijing_%2820211030133011%29.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "N509FZ",
+     "credit": "Own work",
+     "alt": "Actually called \"Tuguozi\" (土锅子), CNY138 for this example.",
+     "date": "Taken on 30 October 2021, 13:30:11",
+     "primary": false,
+     "sha256": "e24d26d693634d4cd6cbbd5b94198d36d35c31e34ba185a48c7f60d1bb97018e"
+    },
+    {
+     "file": "yunnan-table/yunnan-table-yunnan-colorful-glutinous-rice.jpg",
+     "source": "commons",
+     "title": "File:Yunnan colorful glutinous rice.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Yunnan_colorful_glutinous_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AYunnan_colorful_glutinous_rice.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Fumikas Sagisavas",
+     "credit": "Own work",
+     "alt": "Yunnan colorful glutinous rice",
+     "date": "2024-12-24 14:41:30",
+     "primary": false,
+     "sha256": "cd9710a3868c74742674548286e27084ef3453940c70adf61d1d2e624af1e668"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "miang-and-tea",
+     "type": "coffee",
+     "name": "Miang and mountain tea",
+     "as": "Tea poured the Chinese way, at the border."
+    },
+    {
+     "from": "ridge-arabica",
+     "type": "coffee",
+     "name": "Arabica off the ridge you just rode over",
+     "as": "The other thing grown on these slopes, a ridge further west."
+    }
+   ]
+  }
+ ]
+}

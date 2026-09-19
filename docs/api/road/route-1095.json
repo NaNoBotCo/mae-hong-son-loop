@@ -566,6 +566,12 @@
    "as": "The road the number is attached to."
   },
   {
+   "from": "how-old-is-this-ride",
+   "type": "story",
+   "name": "How old is this ride",
+   "as": "The younger half."
+  },
+  {
    "from": "which-way-round",
    "type": "story",
    "name": "Clockwise or counter-clockwise",

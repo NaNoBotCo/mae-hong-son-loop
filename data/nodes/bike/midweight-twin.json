@@ -16,11 +16,11 @@
  },
  "text": {
   "what": "A CB500X, an MT-07, a Rally 500, a Himalayan 450: mid-capacity, torque low down, real brakes, and 17- or 19-inch wheels.",
-  "story": "*Inference —* this is the range that suits the circuit best on paper: the engine braking to hold a descent, brakes that do not fade, enough power for the long Route 108 straights, and a weight you can still turn around on a one-and-a-half-lane switchback when you find a landslide.\n\nThe catch is the same weight. A 200-kilogram bike that falls over on a steep gravel guesthouse driveway needs two people to pick up, and on this circuit the second person may be an hour away."
+  "story": "**What it is like.** The sweet spot, if there is one. Enough torque to leave a hairpin without a downshift, brakes that never complain, and a seat you can stay on for six hours. On the long open sweeps of Route 108 south of Mae Sariang it is doing exactly what it was built for, and on 1095 it is still light enough to enjoy.\n\n*Inference —* this is the range that suits the circuit best on paper: the engine braking to hold a descent, brakes that do not fade, enough power for the long Route 108 straights, and a weight you can still turn around on a one-and-a-half-lane switchback when you find a landslide.\n\nThe catch is the same weight. A 200-kilogram bike that falls over on a steep gravel guesthouse driveway needs two people to pick up, and on this circuit the second person may be an hour away."
  },
  "text_th": {
   "what": "CB500X, MT-07, Rally 500, Himalayan 450 พิกัดกลาง แรงบิดมาตั้งแต่รอบต่ำ เบรกจริงจัง ล้อ 17 หรือ 19 นิ้ว",
-  "story": "*อนุมาน —* พิกัดนี้เหมาะกับเส้นทางที่สุดบนกระดาษ มีเอนจินเบรกพอหน่วงทางลง เบรกไม่เฟด แรงพอสำหรับทางตรงยาวๆ ของทางหลวง 108 และน้ำหนักที่ยังกลับรถได้ในโค้งหักศอกกว้างหนึ่งเลนครึ่งเวลาเจอดินสไลด์\n\nข้อเสียคือน้ำหนักเดียวกันนั้น รถ 200 กิโลกรัมที่ล้มบนทางเข้าเกสต์เฮาส์ที่ชันและเป็นกรวด ต้องใช้คนสองคนยก และบนเส้นทางนี้คนที่สองอาจอยู่ห่างออกไปหนึ่งชั่วโมง"
+  "story": "**ขี่แล้วเป็นอย่างไร** จุดลงตัว ถ้ามีจุดลงตัวอยู่จริง แรงบิดพอจะออกจากโค้งหักศอกโดยไม่ต้องลดเกียร์ เบรกที่ไม่เคยบ่น และเบาะที่นั่งได้หกชั่วโมง บนทางโค้งกว้างเปิดโล่งของทางหลวง 108 ใต้แม่สะเรียง มันกำลังทำสิ่งที่ถูกสร้างมาเพื่อทำพอดี และบน 1095 มันก็ยังเบาพอที่จะสนุก\n\n*อนุมาน —* พิกัดนี้เหมาะกับเส้นทางที่สุดบนกระดาษ มีเอนจินเบรกพอหน่วงทางลง เบรกไม่เฟด แรงพอสำหรับทางตรงยาวๆ ของทางหลวง 108 และน้ำหนักที่ยังกลับรถได้ในโค้งหักศอกกว้างหนึ่งเลนครึ่งเวลาเจอดินสไลด์\n\nข้อเสียคือน้ำหนักเดียวกันนั้น รถ 200 กิโลกรัมที่ล้มบนทางเข้าเกสต์เฮาส์ที่ชันและเป็นกรวด ต้องใช้คนสองคนยก และบนเส้นทางนี้คนที่สองอาจอยู่ห่างออกไปหนึ่งชั่วโมง"
  },
  "kin": [
   {
@@ -29,8 +29,8 @@
    "rel": "bike"
   },
   {
-   "to": "steep-driveways",
-   "as": "The hazard that scales with kerb weight.",
+   "to": "annoyances",
+   "as": "The small stuff, with antidotes.",
    "rel": "hazard"
   },
   {

@@ -1,0 +1,122 @@
+{
+ "id": "what-a-spring-is",
+ "type": "spring",
+ "names": {
+  "name": "How a Thai hot spring works",
+  "th": "น้ำพุร้อนแบบไทยเป็นอย่างไร",
+  "said": "Not an onsen. Bring a swimsuit, expect concrete, and the eggs are a real thing.",
+  "said_th": "ไม่ใช่ออนเซ็น เอาชุดว่ายน้ำไป คาดว่าจะเจอคอนกรีต และการต้มไข่คือเรื่องจริง"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "practice",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "What to expect at a developed spring here, and how it differs from the Japanese arrangement most visitors have in mind.",
+  "story": "An onsen is bathed in naked, sex-segregated, after washing. *Tradition holds —* a Thai developed spring is generally not that: communal pools are mixed and clothed, swimwear or a sarong, and the built form is usually concrete pools and a foot bath rather than timber and stone.\n\nThe private room with a tub is the option if you want to be alone, and it is normally cheap.\n\n*Tradition holds —* the egg thing is not a gimmick for visitors. Baskets of raw eggs are sold at the source and lowered into it; the water is hot enough to cook them and people have been doing it as long as there have been eggs and springs.\n\n*Inference —* what none of that changes is the reason to go. Hot water, a hillside, and an hour in which nothing is required of you. It is the cheapest hour on the circuit and it is not close."
+ },
+ "text_th": {
+  "what": "สิ่งที่จะเจอที่น้ำพุร้อนที่พัฒนาแล้วในไทย และมันต่างจากแบบญี่ปุ่นที่คนส่วนใหญ่นึกถึงอย่างไร",
+  "story": "ออนเซ็นคือการแช่แบบเปลือย แยกเพศ หลังอาบน้ำชำระร่างกายแล้ว *ตามธรรมเนียม —* น้ำพุร้อนที่พัฒนาแล้วในไทยโดยทั่วไปไม่ใช่แบบนั้น บ่อรวมเป็นบ่อรวมเพศและใส่เสื้อผ้า ชุดว่ายน้ำหรือผ้าถุง และรูปแบบที่สร้างมักเป็นบ่อคอนกรีตกับบ่อแช่เท้า ไม่ใช่ไม้กับหิน\n\nห้องส่วนตัวที่มีอ่างเป็นทางเลือกถ้าอยากอยู่คนเดียว และปกติราคาไม่แพง\n\n*ตามธรรมเนียม —* เรื่องไข่ไม่ใช่ลูกเล่นสำหรับนักท่องเที่ยว มีไข่ดิบใส่ตะกร้าขายที่ตาน้ำแล้วหย่อนลงไป น้ำร้อนพอจะทำให้สุก และคนทำกันมาตั้งแต่มีไข่และมีน้ำพุร้อน\n\n*อนุมาน —* สิ่งที่ไม่เปลี่ยนเลยคือเหตุผลที่ควรไป น้ำร้อน ไหล่เขา และหนึ่งชั่วโมงที่ไม่มีอะไรเรียกร้องจากคุณ เป็นชั่วโมงที่ถูกที่สุดของทั้งวงรอบ แบบไม่มีคู่แข่ง"
+ },
+ "kin": [
+  {
+   "to": "tha-pai-hot-springs",
+   "as": "The one near Pai.",
+   "rel": "spring"
+  },
+  {
+   "to": "pha-bong",
+   "as": "The one near Mae Hong Son.",
+   "rel": "spring"
+  },
+  {
+   "to": "packing-light",
+   "as": "Which is why a swimsuit is on the list.",
+   "rel": "kit"
+  }
+ ],
+ "sources": [
+  "s:wp-hot-spring",
+  "s:wp-onsen"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "what-a-spring-is/what-a-spring-is-hot-spring-pond-with-rocks-at-chae-son-national-park-73fd877.jpg",
+   "source": "commons",
+   "title": "File:Hot spring pond with rocks at Chae Son National Park, Lampang, Thailand - 2025.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Hot_spring_pond_with_rocks_at_Chae_Son_National_Park%2C_Lampang%2C_Thailand_-_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHot_spring_pond_with_rocks_at_Chae_Son_National_Park%2C_Lampang%2C_Thailand_-_2025.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "A natural hot spring pond surrounded by forest at Chae Son National Park in Lampang Province, Thailand. Steam rises from the mineral-rich water while rocks and trees are reflected on the calm surface.",
+   "date": "2025-08-09 08:22:10",
+   "primary": true,
+   "sha256": "3b7af0c8b726973af343e4c57f08d5d6a4420b8e69661c55a03c391d311dbd67"
+  },
+  {
+   "file": "what-a-spring-is/what-a-spring-is-hot-spring-stream-at-chae-son-national-park-lampang-ba7194f.jpg",
+   "source": "commons",
+   "title": "File:Hot spring stream at Chae Son National Park Lampang Thailand 2025.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Hot_spring_stream_at_Chae_Son_National_Park_Lampang_Thailand_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHot_spring_stream_at_Chae_Son_National_Park_Lampang_Thailand_2025.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "A mineral-rich hot spring stream flowing through rocks at Chae Son National Park in Lampang Province, Thailand. The flowing water creates delicate patterns around aquatic vegetation and mineral deposi",
+   "date": "2025-08-09 08:05:18",
+   "primary": false,
+   "sha256": "3cc9a4e88d32f1604b733dde387af8e360d02e63aa075197f7d34edbcb525592"
+  },
+  {
+   "file": "what-a-spring-is/what-a-spring-is-reflection-at-a-hot-spring-pond-in-chae-son-national-8b433d9.jpg",
+   "source": "commons",
+   "title": "File:Reflection at a hot spring pond in Chae Son National Park, Lampang, Thailand - 2025.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Reflection_at_a_hot_spring_pond_in_Chae_Son_National_Park%2C_Lampang%2C_Thailand_-_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AReflection_at_a_hot_spring_pond_in_Chae_Son_National_Park%2C_Lampang%2C_Thailand_-_2025.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "A natural hot spring pond surrounded by forest at Chae Son National Park in Lampang Province, Thailand. Steam rises from the mineral-rich water while the surrounding trees are reflected on the calm su",
+   "date": "2025-08-09 08:13:57",
+   "primary": false,
+   "sha256": "9958172c10f40ab39f1aca11d61f09db05e0b0144cfd6f0dd914a3347e38242a"
+  },
+  {
+   "file": "what-a-spring-is/what-a-spring-is-steaming-hot-spring-pond-at-chae-son-national-park-l-5182ae1.jpg",
+   "source": "commons",
+   "title": "File:Steaming hot spring pond at Chae Son National Park, Lampang, Thailand - 2025.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Steaming_hot_spring_pond_at_Chae_Son_National_Park%2C_Lampang%2C_Thailand_-_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASteaming_hot_spring_pond_at_Chae_Son_National_Park%2C_Lampang%2C_Thailand_-_2025.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Jomis 9",
+   "credit": "Own work",
+   "alt": "Steam rising from a natural hot spring pond at Chae Son National Park, Lampang, Thailand.",
+   "date": "2025-08-09 08:15:58",
+   "primary": false,
+   "sha256": "e7aa1c5f7e680d7596e590d494016a7c62608d51684d88b8a7d0119f4416e7ce"
+  }
+ ]
+}

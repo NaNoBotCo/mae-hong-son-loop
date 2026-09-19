@@ -16,11 +16,11 @@
  },
  "text": {
   "what": "An Africa Twin, a GS, a Tiger, a V-Strom 1050: 220 to 260 kilograms wet, tall, and entirely capable.",
-  "story": "There is nothing on this circuit a large adventure bike cannot do. The question is arithmetic, not capability.\n\n*Inference —* the measured curve density on Route 1095 and 1263 means a rider is making a steering input every few seconds for hours. On a light bike that is pleasure. At 250 kilograms it is work, and work accumulates: the mistakes on this road are made in the last hour of a long day, not the first.\n\nThe second arithmetic is the U-turn. A one-and-a-half-lane hairpin with a bank on one side and nothing on the other is a place where a tall, heavy bike has to be paddled round, and the surface there is often exactly the loose stuff that has washed down."
+  "story": "**What it is like.** Commanding. You sit high enough to see over the vegetation into the next valley, the engine never has to try, and on the 265 kilometres of two-lane between Hot and Mae Hong Son it turns a long day into an easy one. Luggage is a solved problem. Nothing on this circuit is beyond it.\n\nThere is nothing on this circuit a large adventure bike cannot do. The question is arithmetic, not capability.\n\n*Inference —* the measured curve density on Route 1095 and 1263 means a rider is making a steering input every few seconds for hours. On a light bike that is pleasure. At 250 kilograms it is work, and work accumulates: the mistakes on this road are made in the last hour of a long day, not the first.\n\nThe second arithmetic is the U-turn. A one-and-a-half-lane hairpin with a bank on one side and nothing on the other is a place where a tall, heavy bike has to be paddled round, and the surface there is often exactly the loose stuff that has washed down."
  },
  "text_th": {
   "what": "Africa Twin, GS, Tiger, V-Strom 1050 น้ำหนักพร้อมของเหลว 220 ถึง 260 กิโลกรัม ตัวสูง และทำได้ทุกอย่าง",
-  "story": "ไม่มีอะไรบนเส้นทางนี้ที่รถแอดเวนเจอร์คันใหญ่ทำไม่ได้ คำถามคือเลขคณิต ไม่ใช่ความสามารถ\n\n*อนุมาน —* ความหนาแน่นของโค้งที่วัดได้บนทางหลวง 1095 และ 1263 แปลว่าคนขี่ต้องสั่งรถเลี้ยวทุกไม่กี่วินาที ต่อเนื่องหลายชั่วโมง บนรถเบานั่นคือความสนุก ที่ 250 กิโลกรัมนั่นคือการทำงาน และงานมันสะสม ความผิดพลาดบนถนนสายนี้เกิดในชั่วโมงสุดท้ายของวันยาวๆ ไม่ใช่ชั่วโมงแรก\n\nเลขคณิตข้อที่สองคือการกลับรถ โค้งหักศอกกว้างหนึ่งเลนครึ่งที่มีเขาอยู่ด้านหนึ่งและไม่มีอะไรอยู่อีกด้าน คือที่ที่รถสูงและหนักต้องใช้เท้าถีบกลับ และผิวถนนตรงนั้นมักเป็นเศษหินที่น้ำพัดลงมากองพอดี"
+  "story": "**ขี่แล้วเป็นอย่างไร** สง่า คุณนั่งสูงพอจะมองข้ามพุ่มไม้เข้าไปเห็นหุบถัดไป เครื่องยนต์ไม่ต้องออกแรงเลย และบนสองเลนระยะ 265 กิโลเมตรระหว่างฮอดกับแม่ฮ่องสอน มันเปลี่ยนวันที่ยาวให้เป็นวันที่สบาย เรื่องสัมภาระจบไปแล้ว ไม่มีอะไรบนเส้นทางนี้ที่เกินความสามารถของมัน\n\nไม่มีอะไรบนเส้นทางนี้ที่รถแอดเวนเจอร์คันใหญ่ทำไม่ได้ คำถามคือเลขคณิต ไม่ใช่ความสามารถ\n\n*อนุมาน —* ความหนาแน่นของโค้งที่วัดได้บนทางหลวง 1095 และ 1263 แปลว่าคนขี่ต้องสั่งรถเลี้ยวทุกไม่กี่วินาที ต่อเนื่องหลายชั่วโมง บนรถเบานั่นคือความสนุก ที่ 250 กิโลกรัมนั่นคือการทำงาน และงานมันสะสม ความผิดพลาดบนถนนสายนี้เกิดในชั่วโมงสุดท้ายของวันยาวๆ ไม่ใช่ชั่วโมงแรก\n\nเลขคณิตข้อที่สองคือการกลับรถ โค้งหักศอกกว้างหนึ่งเลนครึ่งที่มีเขาอยู่ด้านหนึ่งและไม่มีอะไรอยู่อีกด้าน คือที่ที่รถสูงและหนักต้องใช้เท้าถีบกลับ และผิวถนนตรงนั้นมักเป็นเศษหินที่น้ำพัดลงมากองพอดี"
  },
  "kin": [
   {
@@ -34,8 +34,8 @@
    "rel": "term"
   },
   {
-   "to": "steep-driveways",
-   "as": "Where the weight actually bites.",
+   "to": "annoyances",
+   "as": "The small stuff, with antidotes.",
    "rel": "hazard"
   },
   {

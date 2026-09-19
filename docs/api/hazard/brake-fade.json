@@ -102,12 +102,6 @@
    "as": "What the descents do to a small bike."
   },
   {
-   "from": "loaded-bike",
-   "type": "hazard",
-   "name": "A loaded bike is a different bike",
-   "as": "What the extra mass does to a long descent."
-  },
-  {
    "from": "step-through-110",
    "type": "bike",
    "name": "The 110–125 step-through",

@@ -320,6 +320,12 @@
      "type": "road",
      "name": "Route 108",
      "as": "Where the road changes character and the kilometres restart."
+    },
+    {
+     "from": "the-kilometre-stone",
+     "type": "art",
+     "name": "The kilometre stone",
+     "as": "The roundabout that resets them."
     }
    ]
   },
@@ -676,6 +682,12 @@
      "as": "The town on the back side."
     },
     {
+     "from": "pa-bong-piang",
+     "type": "stop",
+     "name": "Pa Bong Piang rice terraces",
+     "as": "The district it is in."
+    },
+    {
      "from": "sending-the-bag-ahead",
      "type": "kit",
      "name": "Sending the bag ahead",
@@ -896,6 +908,48 @@
      "as": "The town below."
     },
     {
+     "from": "jong-and-chong",
+     "type": "wat",
+     "name": "Why the temples here are called Chong",
+     "as": "Where the pattern concentrates."
+    },
+    {
+     "from": "wat-hua-wiang",
+     "type": "wat",
+     "name": "Wat Hua Wiang",
+     "as": "The town it is the centre of."
+    },
+    {
+     "from": "morning-market",
+     "type": "dish",
+     "name": "The morning market",
+     "as": "Where the Shan side of the kitchen is plainest."
+    },
+    {
+     "from": "yunnan-table",
+     "type": "dish",
+     "name": "The Yunnanese table at Ban Rak Thai",
+     "as": "The town the afternoon starts from."
+    },
+    {
+     "from": "pha-bong",
+     "type": "spring",
+     "name": "Pha Bong hot springs",
+     "as": "The town it is south of."
+    },
+    {
+     "from": "teak-shophouse",
+     "type": "stay",
+     "name": "The teak shophouse",
+     "as": "The other one."
+    },
+    {
+     "from": "where-to-put-the-nights",
+     "type": "stay",
+     "name": "Where to put the nights",
+     "as": "The two-night town."
+    },
+    {
      "from": "bus-parcel",
      "type": "kit",
      "name": "Sending a bag on the bus",
@@ -912,6 +966,12 @@
      "type": "person",
      "name": "The Shan",
      "as": "The province where they are the majority."
+    },
+    {
+     "from": "loi-krathong",
+     "type": "event",
+     "name": "Loi Krathong and Yi Peng",
+     "as": "The pond, and the evening."
     },
     {
      "from": "poy-sang-long",
@@ -1081,6 +1141,36 @@
      "type": "road",
      "name": "Route 108",
      "as": "The town that breaks the long half in two."
+    },
+    {
+     "from": "mae-sam-laep",
+     "type": "stop",
+     "name": "Mae Sam Laep and the Salween",
+     "as": "The town the road leaves from."
+    },
+    {
+     "from": "wat-jong-soong",
+     "type": "wat",
+     "name": "Wat Jong Soong",
+     "as": "The town it is in."
+    },
+    {
+     "from": "nam-ngiao",
+     "type": "dish",
+     "name": "Kanom jeen nam ngiao",
+     "as": "Deep in the country it belongs to."
+    },
+    {
+     "from": "teak-shophouse",
+     "type": "stay",
+     "name": "The teak shophouse",
+     "as": "The quieter town to try it in."
+    },
+    {
+     "from": "how-old-is-this-ride",
+     "type": "story",
+     "name": "How old is this ride",
+     "as": "Where the old road crossed to Burma."
     }
    ]
   },
@@ -1257,10 +1347,40 @@
      "as": "The town it is outside."
     },
     {
+     "from": "pai-walking-street",
+     "type": "stop",
+     "name": "The evening in Pai",
+     "as": "The town it happens in."
+    },
+    {
+     "from": "wat-phra-that-mae-yen",
+     "type": "wat",
+     "name": "Wat Phra That Mae Yen",
+     "as": "The town below it."
+    },
+    {
+     "from": "tha-pai-hot-springs",
+     "type": "spring",
+     "name": "Tha Pai hot springs",
+     "as": "The town it is outside."
+    },
+    {
+     "from": "bamboo-hut",
+     "type": "stay",
+     "name": "The hut with no wall on the valley side",
+     "as": "Where the form is thickest on the ground."
+    },
+    {
      "from": "bus-parcel",
      "type": "kit",
      "name": "Sending a bag on the bus",
      "as": "Where the northern operator's station is."
+    },
+    {
+     "from": "how-old-is-this-ride",
+     "type": "story",
+     "name": "How old is this ride",
+     "as": "A quiet Shan market village, before the seal."
     },
     {
      "from": "the-smoke",
@@ -1425,10 +1545,22 @@
      "as": "The town at the end."
     },
     {
+     "from": "pai-walking-street",
+     "type": "stop",
+     "name": "The evening in Pai",
+     "as": "The opposite of all of this, forty minutes on."
+    },
+    {
      "from": "tham-lot",
      "type": "stop",
      "name": "Tham Lot",
      "as": "The town it belongs to."
+    },
+    {
+     "from": "where-to-put-the-nights",
+     "type": "stay",
+     "name": "Where to put the nights",
+     "as": "The stop that shortens the hardest day."
     }
    ]
   }

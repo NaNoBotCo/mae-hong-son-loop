@@ -189,8 +189,49 @@ figure.shot figcaption a{color:var(--mute)}
 figure.map{margin:1.2rem 0;border:3px solid var(--ink);background:var(--panel);overflow:hidden}
 figure.map svg{display:block;width:100%;height:auto;background:var(--panel)}
 figure.map figcaption{padding:.55rem .8rem;font-size:.78rem;color:var(--mute);border-top:2px solid var(--line)}
+/* the basemap, bottom to top: relief, water, boundary, then the road */
+.relief rect{stroke:none}
+.relief .r0{fill:#e9e2d2}.relief .r1{fill:#ddd6c2}.relief .r2{fill:#d0c8b0}.relief .r3{fill:#c2b99c}
+.relief .r4{fill:#b3a988}.relief .r5{fill:#a39873}.relief .r6{fill:#93875f}.relief .r7{fill:#847849}
+.lake{fill:#9fc9e0;stroke:none;opacity:.9}
+.river{fill:none;stroke:#7fb6d6;stroke-width:1.1;stroke-linecap:round}
+.river.big{stroke-width:2.4;stroke:#6aa9cd}
+.bound path{fill:none;stroke:#8a7a5e;stroke-width:1.5;stroke-dasharray:7 5;opacity:.75}
+.star{fill:var(--sun);stroke:var(--ink);stroke-width:1.2;paint-order:stroke}
+.poi{fill:#3d7a55;stroke:none;opacity:.62}
+.poi.waterfall{fill:#2f7ea8}
+.star.big{fill:var(--hot)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .relief .r0{fill:#1b1812}
+ :root:not([data-theme="light"]) .relief .r1{fill:#211d16}
+ :root:not([data-theme="light"]) .relief .r2{fill:#28231a}
+ :root:not([data-theme="light"]) .relief .r3{fill:#2f291e}
+ :root:not([data-theme="light"]) .relief .r4{fill:#372f22}
+ :root:not([data-theme="light"]) .relief .r5{fill:#3f3626}
+ :root:not([data-theme="light"]) .relief .r6{fill:#473d2b}
+ :root:not([data-theme="light"]) .relief .r7{fill:#504530}
+ :root:not([data-theme="light"]) .lake{fill:#27506b}
+ :root:not([data-theme="light"]) .river{stroke:#2f5f7d}
+ :root:not([data-theme="light"]) .river.big{stroke:#3a7d9e}}
+:root[data-theme="dark"] .relief .r0{fill:#1b1812}
+:root[data-theme="dark"] .relief .r1{fill:#211d16}
+:root[data-theme="dark"] .relief .r2{fill:#28231a}
+:root[data-theme="dark"] .relief .r3{fill:#2f291e}
+:root[data-theme="dark"] .relief .r4{fill:#372f22}
+:root[data-theme="dark"] .relief .r5{fill:#3f3626}
+:root[data-theme="dark"] .relief .r6{fill:#473d2b}
+:root[data-theme="dark"] .relief .r7{fill:#504530}
+:root[data-theme="dark"] .lake{fill:#27506b}
+:root[data-theme="dark"] .river{stroke:#2f5f7d}
 .road{fill:none;stroke:var(--line);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
 .road-on{fill:none;stroke:var(--road);stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round;opacity:.85}
+/* the circuit — a dark casing under a bright core, so it reads over any terrain */
+.loop-case{fill:none;stroke:#100c06;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;opacity:.62}
+.loop{fill:none;stroke:#ff3b2f;stroke-width:3.6;stroke-linecap:round;stroke-linejoin:round}
+.terrain-dark{display:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .terrain-light{display:none}
+ :root:not([data-theme="light"]) .terrain-dark{display:block}}
+:root[data-theme="dark"] .terrain-light{display:none}
+:root[data-theme="dark"] .terrain-dark{display:block}
 .hilite{fill:none;stroke:var(--hot);stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
 .dm{fill:none;stroke-width:6.5;stroke-linecap:round;stroke-linejoin:round}
 .dm-g{stroke:var(--g)}.dm-b{stroke:var(--b)}.dm-h{stroke:var(--h)}.dm-r{stroke:var(--r)}
@@ -236,6 +277,8 @@ ol.legs p{font-size:.9rem;margin:.25rem 0 0}
 
 /* ---- air */
 .months{display:grid;grid-template-columns:repeat(12,1fr);gap:2px;margin:.4rem 0}
+/* twelve columns will not fit a phone; six by two reads the same and fits */
+@media (max-width:34rem){.months{grid-template-columns:repeat(6,1fr)}}
 .months div{text-align:center;padding:.4rem .1rem;font-size:.62rem;font-weight:800;color:#fff;
  font-family:var(--mono)}
 .months .m{font-size:.56rem;opacity:.85;display:block;letter-spacing:.02em}
@@ -249,6 +292,42 @@ th{font-size:.7rem;text-transform:uppercase;letter-spacing:.09em;color:var(--mut
 td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
 tbody tr:hover{background:var(--chip)}
 .spark path{fill:none;stroke:var(--hot);stroke-width:2}
+
+/* ---- the year grid
+   On a narrow screen twelve columns cannot fit, and a table you have to drag sideways is
+   a table most people never see the end of. Below 46rem each row becomes a block with
+   its months as a wrapped strip of chips. */
+@media (max-width:46rem){
+ table.year, table.year tbody, table.year tr, table.year th, table.year td{display:block;width:100%}
+ table.year thead{display:none}
+ table.year tbody tr{border-bottom:2px solid var(--line);padding:.5rem 0}
+ table.year th:first-child{min-width:0;border:0;padding-left:0}
+ table.year td.yr{display:inline-block;width:auto;min-width:2.1rem;padding:.14rem .2rem;
+  margin:.12rem .1rem 0 0;border:0;text-align:center;font-size:.6rem;font-weight:800;
+  color:var(--mute);background:var(--chip);border-radius:3px}
+ table.year td.yr::before{content:attr(data-m)}
+ table.year td.yr.y1,table.year td.yr.y2,table.year td.yr.y3{color:#fff}
+}
+/* ---- the year grid */
+table.year th:first-child{min-width:10rem}
+table.year td.yr{padding:0;border-bottom:1px solid var(--line);min-width:1.6rem}
+td.yr.y1{background:color-mix(in srgb,var(--b) 55%,transparent)}
+td.yr.y2{background:color-mix(in srgb,var(--jade) 55%,transparent)}
+td.yr.y3{background:var(--hot)}
+.legend i.sw{width:1.2rem;height:.9rem;border-radius:2px;display:inline-block;vertical-align:-.1em;margin-right:.3rem}
+.legend i.sw.y1{background:color-mix(in srgb,var(--b) 55%,transparent)}
+.legend i.sw.y2{background:color-mix(in srgb,var(--jade) 55%,transparent)}
+.legend i.sw.y3{background:var(--hot)}
+
+/* ---- checklists */
+.packs{grid-template-columns:repeat(auto-fill,minmax(19rem,1fr))}
+.card.pack h3{margin-top:0}
+ul.check{list-style:none;padding:0;margin:.5rem 0 0}
+ul.check li{padding:.16rem 0;font-size:.88rem;border:0}
+ul.check label{display:flex;gap:.55rem;align-items:flex-start;cursor:pointer}
+ul.check input{margin-top:.28rem;flex:0 0 auto;width:1rem;height:1rem;accent-color:var(--hot)}
+ul.check input:checked+span{opacity:.5;text-decoration:line-through}
+@media print{ul.check input{appearance:none;border:1px solid #000;width:.8rem;height:.8rem}}
 
 /* ---- provenance */
 .tier{font-size:.64rem;text-transform:uppercase;letter-spacing:.1em;font-weight:800;padding:.12rem .4rem;
@@ -316,14 +395,14 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
 <a class="sr" href="#main">Skip to content</a>
 <header class="top"><div class="in">
 <a class="brand" href="../">Mae Hong Son <b>Loop</b></a>
-<nav><a href="../">วงรอบ</a><a href="../legs/">ช่วงทาง</a><a href="../which-way/">ไปทางไหน</a><a href="../numbers/">ตัวเลข</a><a href="../air/">อากาศ</a><a href="../danger/">อันตราย</a><a href="../baggage/">สัมภาระ</a><a href="../quiz/">ขี่แบบไหน</a><a href="../roadbook/">สมุดเส้นทาง</a></nav>
+<nav><a href="../">วงรอบ</a><a href="../legs/">ช่วงทาง</a><a href="../which-way/">ไปทางไหน</a><a href="../numbers/">ตัวเลข</a><a href="../good/">ส่วนที่ดี</a><a href="../year/">ทั้งปี</a><a href="../air/">อากาศ</a><a href="../danger/">อันตราย</a><a href="../baggage/">สัมภาระ</a><a href="../quiz/">ขี่แบบไหน</a><a href="../roadbook/">สมุดเส้นทาง</a></nav>
 <span class="langsw">
 <a href="../../all/" hreflang="en">EN</a>
 <a href="../../th/all/" aria-current="true" hreflang="th">ไทย</a>
 </span>
 </div></header>
 <main id="main">
-<h1><span class="kind">77 บันทึก</span>ทั้งหมด</h1><h2><a href="../legs/">ช่วงทาง</a> (9)</h2><div class="cols"><a href="../leg/cnx-to-pai/">เชียงใหม่ – ปาย</a><a href="../leg/hot-to-cnx/">ฮอด – เชียงใหม่</a><a href="../leg/khun-yuam-to-mae-sariang/">ขุนยวม – แม่สะเรียง</a><a href="../leg/mhs-to-khun-yuam/">แม่ฮ่องสอน – ขุนยวม</a><a href="../leg/mae-sariang-to-hot/">แม่สะเรียง – ฮอด</a><a href="../leg/pai-to-soppong/">ปาย – สบป่อง</a><a href="../leg/soppong-to-mhs/">สบป่อง – แม่ฮ่องสอน</a><a href="../leg/the-1263-cut/">ทางลัด 1263</a><a href="../leg/samoeng-warmup/">วงรอบสะเมิง ซ้อมใหญ่</a></div><h2><a href="../roads/">ทางหลวง</a> (6)</h2><div class="cols"><a href="../road/route-107/">ทางหลวงแผ่นดินหมายเลข 107</a><a href="../road/route-108/">ทางหลวงแผ่นดินหมายเลข 108</a><a href="../road/route-1088/">ทางหลวงแผ่นดินหมายเลข 1088</a><a href="../road/route-1095/">ทางหลวงแผ่นดินหมายเลข 1095</a><a href="../road/route-1096/">ทางหลวงแผ่นดินหมายเลข 1096</a><a href="../road/route-1263/">ทางหลวงแผ่นดินหมายเลข 1263</a></div><h2><a href="../towns/">เมืองและหมู่บ้าน</a> (8)</h2><div class="cols"><a href="../town/chiang-mai/">เชียงใหม่</a><a href="../town/hot/">ฮอด</a><a href="../town/khun-yuam/">ขุนยวม</a><a href="../town/mae-chaem/">แม่แจ่ม</a><a href="../town/mae-hong-son/">แม่ฮ่องสอน</a><a href="../town/mae-sariang/">แม่สะเรียง</a><a href="../town/pai/">ปาย</a><a href="../town/soppong/">สบป่อง</a></div><h2><a href="../stops/">จุดแวะ</a> (10)</h2><div class="cols"><a href="../stop/ban-rak-thai/">บ้านรักไทย</a><a href="../stop/doi-inthanon/">ดอยอินทนนท์</a><a href="../stop/mae-surin-waterfall/">น้ำตกแม่สุรินทร์</a><a href="../stop/op-luang/">ออบหลวง</a><a href="../stop/pai-canyon/">กองแลน</a><a href="../stop/pang-ung/">ปางอุ๋ง</a><a href="../stop/su-tong-pae/">สะพานซูตองเป้</a><a href="../stop/tham-lot/">ถ้ำลอด</a><a href="../stop/tham-pla/">ถ้ำปลา</a><a href="../stop/khun-yuam-memorial/">อนุสรณ์สถานมิตรภาพไทย–ญี่ปุ่น ขุนยวม</a></div><h2><a href="../wats/">วัด</a> (2)</h2><div class="cols"><a href="../wat/chong-kham-chong-klang/">วัดจองคำ และวัดจองกลาง</a><a href="../wat/doi-kong-mu/">วัดพระธาตุดอยกองมู</a></div><h2><a href="../hazards/">จุดอันตราย</a> (9)</h2><div class="cols"><a href="../hazard/loaded-bike/">รถที่บรรทุกคือรถคนละคัน</a><a href="../hazard/brake-fade/">เบรกเฟด</a><a href="../hazard/buses-on-your-line/">รถบัสและรถกระบะกินเลน</a><a href="../hazard/dogs/">สุนัข</a><a href="../hazard/gravel-on-the-apex/">กรวดกลางโค้ง</a><a href="../hazard/night-riding/">ขี่ตอนกลางคืน</a><a href="../hazard/smoke-riding/">ขี่ในควัน</a><a href="../hazard/steep-driveways/">ทางเข้าที่พักชัน</a><a href="../hazard/low-sun/">แดดต่ำ</a></div><h2><a href="../bikes/">รถ</a> (6)</h2><div class="cols"><a href="../bike/on-the-back/">นั่งซ้อนท้าย</a><a href="../bike/step-through-110/">รถออโต้ 110–125 ซีซี</a><a href="../bike/trail-250/">รถวิบาก 250–450</a><a href="../bike/midweight-twin/">รถสองสูบ 400–700</a><a href="../bike/big-adventure/">รถแอดเวนเจอร์ 700 ซีซีขึ้นไป</a><a href="../bike/underbone-125/">รถครอบครัวมีเกียร์ 125</a></div><h2><a href="../kit/">สัมภาระและการเดินทาง</a> (7)</h2><div class="cols"><a href="../kit/one-way-rental/">ไม่กลับเชียงใหม่</a><a href="../kit/renting-a-bike/">การเช่ารถ</a><a href="../kit/bus-parcel/">ฝากของไปกับรถโดยสาร</a><a href="../kit/sending-the-bag-ahead/">ส่งกระเป๋าล่วงหน้า</a><a href="../kit/no-storage/">รถไม่มีที่ใส่ของ</a><a href="../kit/packing-light/">ของที่ใส่ได้จริง</a><a href="../kit/gear/">ใส่อะไร</a></div><h2><a href="../people/">ผู้คน</a> (2)</h2><div class="cols"><a href="../person/karen/">กะเหรี่ยง</a><a href="../person/shan/">ไทใหญ่</a></div><h2><a href="../calendar/">ปฏิทิน</a> (6)</h2><div class="cols"><a href="../event/burning-season/">ช่วงเผา</a><a href="../event/poy-sang-long/">ปอยส่างลอง</a><a href="../event/bua-tong-bloom/">ทุ่งบัวตอง</a><a href="../event/cool-season/">ฤดูหนาว</a><a href="../event/hot-season/">หน้าร้อน</a><a href="../event/the-rains/">หน้าฝน</a></div><h2><a href="../words/">คำศัพท์</a> (5)</h2><div class="cols"><a href="../term/engine-braking/">เอนจินเบรก</a><a href="../term/gasohol/">แก๊สโซฮอล์ 91 และ 95</a><a href="../term/hairpin/">โค้งหักศอก</a><a href="../term/pm25/">ฝุ่น PM2.5</a><a href="../term/songthaew/">สองแถว</a></div><h2><a href="../stories/">เรื่องยาว</a> (6)</h2><div class="cols"><a href="../story/which-way-round/">ตามเข็มหรือทวนเข็ม</a><a href="../story/which-bike/">รถทุกแบบขึ้นไปได้</a><a href="../story/how-many-curves/">โค้งกี่โค้งกันแน่</a><a href="../story/season-and-direction/">ฤดูกาลเป็นคนเลือกทิศ</a><a href="../story/the-smoke/">ควันไฟ</a><a href="../story/kayan-question/">หมู่บ้านที่เก็บค่าเข้า</a></div><h2><a href="../objects/">ป้ายและสิ่งของ</a> (1)</h2><div class="cols"><a href="../art/the-1864-sign/">ป้าย 1,864 โค้ง</a></div>
+<h1><span class="kind">109 บันทึก</span>ทั้งหมด</h1><h2><a href="../legs/">ช่วงทาง</a> (9)</h2><div class="cols"><a href="../leg/cnx-to-pai/">เชียงใหม่ – ปาย</a><a href="../leg/hot-to-cnx/">ฮอด – เชียงใหม่</a><a href="../leg/khun-yuam-to-mae-sariang/">ขุนยวม – แม่สะเรียง</a><a href="../leg/mhs-to-khun-yuam/">แม่ฮ่องสอน – ขุนยวม</a><a href="../leg/mae-sariang-to-hot/">แม่สะเรียง – ฮอด</a><a href="../leg/pai-to-soppong/">ปาย – สบป่อง</a><a href="../leg/soppong-to-mhs/">สบป่อง – แม่ฮ่องสอน</a><a href="../leg/the-1263-cut/">ทางลัด 1263</a><a href="../leg/samoeng-warmup/">วงรอบสะเมิง ซ้อมใหญ่</a></div><h2><a href="../roads/">ทางหลวง</a> (6)</h2><div class="cols"><a href="../road/route-107/">ทางหลวงแผ่นดินหมายเลข 107</a><a href="../road/route-108/">ทางหลวงแผ่นดินหมายเลข 108</a><a href="../road/route-1088/">ทางหลวงแผ่นดินหมายเลข 1088</a><a href="../road/route-1095/">ทางหลวงแผ่นดินหมายเลข 1095</a><a href="../road/route-1096/">ทางหลวงแผ่นดินหมายเลข 1096</a><a href="../road/route-1263/">ทางหลวงแผ่นดินหมายเลข 1263</a></div><h2><a href="../towns/">เมืองและหมู่บ้าน</a> (8)</h2><div class="cols"><a href="../town/chiang-mai/">เชียงใหม่</a><a href="../town/hot/">ฮอด</a><a href="../town/khun-yuam/">ขุนยวม</a><a href="../town/mae-chaem/">แม่แจ่ม</a><a href="../town/mae-hong-son/">แม่ฮ่องสอน</a><a href="../town/mae-sariang/">แม่สะเรียง</a><a href="../town/pai/">ปาย</a><a href="../town/soppong/">สบป่อง</a></div><h2><a href="../stops/">จุดแวะ</a> (14)</h2><div class="cols"><a href="../stop/ban-rak-thai/">บ้านรักไทย</a><a href="../stop/doi-inthanon/">ดอยอินทนนท์</a><a href="../stop/huai-nam-dang/">ห้วยน้ำดัง</a><a href="../stop/mae-sam-laep/">แม่สามแลบ และแม่น้ำสาละวิน</a><a href="../stop/mae-surin-waterfall/">น้ำตกแม่สุรินทร์</a><a href="../stop/op-luang/">ออบหลวง</a><a href="../stop/pa-bong-piang/">นาขั้นบันไดป่าบงเปียง</a><a href="../stop/pai-canyon/">กองแลน</a><a href="../stop/pang-ung/">ปางอุ๋ง</a><a href="../stop/su-tong-pae/">สะพานซูตองเป้</a><a href="../stop/tham-lot/">ถ้ำลอด</a><a href="../stop/tham-pla/">ถ้ำปลา</a><a href="../stop/khun-yuam-memorial/">อนุสรณ์สถานมิตรภาพไทย–ญี่ปุ่น ขุนยวม</a><a href="../stop/pai-walking-street/">ถนนคนเดินปาย</a></div><h2><a href="../wats/">วัด</a> (6)</h2><div class="cols"><a href="../wat/chong-kham-chong-klang/">วัดจองคำ และวัดจองกลาง</a><a href="../wat/wat-hua-wiang/">วัดหัวเวียง</a><a href="../wat/wat-jong-soong/">วัดจองสูง</a><a href="../wat/doi-kong-mu/">วัดพระธาตุดอยกองมู</a><a href="../wat/wat-phra-that-mae-yen/">วัดพระธาตุแม่เย็น</a><a href="../wat/jong-and-chong/">ทำไมวัดแถบนี้ชื่อจอง</a></div><h2><a href="../food/">ของกิน</a> (7)</h2><div class="cols"><a href="../dish/grilled-by-the-road/">ของย่างริมทาง</a><a href="../dish/nam-ngiao/">ขนมจีนน้ำเงี้ยว</a><a href="../dish/khao-soi/">ข้าวซอย</a><a href="../dish/sticky-rice/">ข้าวเหนียว</a><a href="../dish/yunnan-table/">อาหารยูนนานที่บ้านรักไทย</a><a href="../dish/morning-market/">ตลาดเช้า</a><a href="../dish/thua-nao/">ถั่วเน่า</a></div><h2><a href="../coffee/">กาแฟ</a> (4)</h2><div class="cols"><a href="../coffee/ridge-arabica/">อาราบิก้าจากดอยที่เพิ่งข้ามมา</a><a href="../coffee/miang-and-tea/">เมี่ยงและชาบนดอย</a><a href="../coffee/seven-eleven/">เซเว่น</a><a href="../coffee/roadside-stall/">เพิงกาแฟบนยอดดอย</a></div><h2><a href="../springs/">น้ำพุร้อน</a> (3)</h2><div class="cols"><a href="../spring/what-a-spring-is/">น้ำพุร้อนแบบไทยเป็นอย่างไร</a><a href="../spring/pha-bong/">น้ำพุร้อนผาบ่อง</a><a href="../spring/tha-pai-hot-springs/">น้ำพุร้อนท่าปาย</a></div><h2><a href="../beds/">ที่พัก</a> (3)</h2><div class="cols"><a href="../stay/bamboo-hut/">กระท่อมที่ไม่มีผนังด้านหุบเขา</a><a href="../stay/teak-shophouse/">ตึกแถวไม้สัก</a><a href="../stay/where-to-put-the-nights/">ควรนอนที่ไหนบ้าง</a></div><h2><a href="../hazards/">จุดอันตราย</a> (7)</h2><div class="cols"><a href="../hazard/annoyances/">เรื่องกวนใจ</a><a href="../hazard/brake-fade/">เบรกเฟด</a><a href="../hazard/buses-on-your-line/">รถบัสและรถกระบะกินเลน</a><a href="../hazard/gravel-on-the-apex/">กรวดกลางโค้ง</a><a href="../hazard/night-riding/">ขี่ตอนกลางคืน</a><a href="../hazard/smoke-riding/">ขี่ในควัน</a><a href="../hazard/low-sun/">แดดต่ำ</a></div><h2><a href="../bikes/">รถ</a> (6)</h2><div class="cols"><a href="../bike/on-the-back/">นั่งซ้อนท้าย</a><a href="../bike/step-through-110/">รถออโต้ 110–125 ซีซี</a><a href="../bike/trail-250/">รถวิบาก 250–450</a><a href="../bike/midweight-twin/">รถสองสูบ 400–700</a><a href="../bike/big-adventure/">รถแอดเวนเจอร์ 700 ซีซีขึ้นไป</a><a href="../bike/underbone-125/">รถครอบครัวมีเกียร์ 125</a></div><h2><a href="../kit/">สัมภาระและการเดินทาง</a> (7)</h2><div class="cols"><a href="../kit/one-way-rental/">ไม่กลับเชียงใหม่</a><a href="../kit/renting-a-bike/">การเช่ารถ</a><a href="../kit/bus-parcel/">ฝากของไปกับรถโดยสาร</a><a href="../kit/sending-the-bag-ahead/">ส่งกระเป๋าล่วงหน้า</a><a href="../kit/no-storage/">รถไม่มีที่ใส่ของ</a><a href="../kit/packing-light/">ของที่ใส่ได้จริง</a><a href="../kit/gear/">ใส่อะไร</a></div><h2><a href="../people/">ผู้คน</a> (3)</h2><div class="cols"><a href="../person/lisu-lahu-hmong/">ลีซู ลาหู่ ม้ง และลัวะ</a><a href="../person/karen/">กะเหรี่ยง</a><a href="../person/shan/">ไทใหญ่</a></div><h2><a href="../calendar/">ปฏิทิน</a> (10)</h2><div class="cols"><a href="../event/burning-season/">ช่วงเผา</a><a href="../event/phansa/">เข้าพรรษา และออกพรรษา</a><a href="../event/loi-krathong/">ลอยกระทง และยี่เป็ง</a><a href="../event/poy-sang-long/">ปอยส่างลอง</a><a href="../event/songkran/">สงกรานต์</a><a href="../event/akha-swing/">เทศกาลโล้ชิงช้าของชาวอาข่า</a><a href="../event/bua-tong-bloom/">ทุ่งบัวตอง</a><a href="../event/cool-season/">ฤดูหนาว</a><a href="../event/hot-season/">หน้าร้อน</a><a href="../event/the-rains/">หน้าฝน</a></div><h2><a href="../words/">คำศัพท์</a> (5)</h2><div class="cols"><a href="../term/engine-braking/">เอนจินเบรก</a><a href="../term/gasohol/">แก๊สโซฮอล์ 91 และ 95</a><a href="../term/hairpin/">โค้งหักศอก</a><a href="../term/pm25/">ฝุ่น PM2.5</a><a href="../term/songthaew/">สองแถว</a></div><h2><a href="../stories/">เรื่องยาว</a> (9)</h2><div class="cols"><a href="../story/which-way-round/">ตามเข็มหรือทวนเข็ม</a><a href="../story/which-bike/">รถทุกแบบขึ้นไปได้</a><a href="../story/how-many-curves/">โค้งกี่โค้งกันแน่</a><a href="../story/how-old-is-this-ride/">ทริปนี้เก่าแค่ไหน</a><a href="../story/season-and-direction/">ฤดูกาลเป็นคนเลือกทิศ</a><a href="../story/the-smoke/">ควันไฟ</a><a href="../story/ten-minutes/">สิบนาทีหลังจากคุณหยุด</a><a href="../story/kayan-question/">หมู่บ้านที่เก็บค่าเข้า</a><a href="../story/small-bike-more-fun/">ทำไมรถเล็กสนุกกว่าที่นี่</a></div><h2><a href="../objects/">ป้ายและสิ่งของ</a> (2)</h2><div class="cols"><a href="../art/the-1864-sign/">ป้าย 1,864 โค้ง</a><a href="../art/the-kilometre-stone/">หลักกิโลเมตร</a></div>
 </main>
 <footer class="bot"><div class="in">
 <p><b>วงรอบแม่ฮ่องสอน</b> — หกร้อยกิโลเมตร ป้ายบอก 1,864 โค้ง และแผนที่ให้คำตอบอีกแบบ</p>

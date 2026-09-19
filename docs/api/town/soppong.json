@@ -147,10 +147,22 @@
    "as": "The town at the end."
   },
   {
+   "from": "pai-walking-street",
+   "type": "stop",
+   "name": "The evening in Pai",
+   "as": "The opposite of all of this, forty minutes on."
+  },
+  {
    "from": "tham-lot",
    "type": "stop",
    "name": "Tham Lot",
    "as": "The town it belongs to."
+  },
+  {
+   "from": "where-to-put-the-nights",
+   "type": "stay",
+   "name": "Where to put the nights",
+   "as": "The stop that shortens the hardest day."
   }
  ]
 }

@@ -1,5 +1,558 @@
 {
  "type": "coffee",
- "count": 0,
- "nodes": []
+ "count": 4,
+ "nodes": [
+  {
+   "id": "miang-and-tea",
+   "type": "coffee",
+   "names": {
+    "name": "Miang and mountain tea",
+    "th": "เมี่ยงและชาบนดอย",
+    "said": "Tea leaves fermented and chewed, and the same bush picked young and brewed. Older here than coffee by centuries.",
+    "said_th": "ใบชาหมักไว้เคี้ยว และพุ่มเดียวกันที่เก็บยอดอ่อนมาชง เก่าแก่กว่ากาแฟที่นี่หลายศตวรรษ",
+    "rtgs": "miang"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "grower",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "Before the coffee, these hills grew tea. Much of it still does, and the older use of the leaf is not a drink at all.",
+    "story": "*Tradition holds —* *miang* is tea leaf steamed and fermented, then chewed as a wad with salt, ginger or sugar. It was the northern Thai way with the tea plant long before anyone here brewed it, and *miang* forests — old semi-wild tea gardens under shade trees — still stand on these hills.\n\n*Inference —* the reason it is worth knowing is that it reframes what you are riding through. The coffee on these slopes arrived in the twentieth century as a substitution crop; the tea has been here far longer, and the shade trees over the old gardens are why parts of this forest look tended rather than wild.\n\nAt Ban Rak Thai the Yunnanese grow and brew tea in the Chinese manner and will pour it for you properly, which is a different plant culture again, arriving over the border from the north."
+   },
+   "text_th": {
+    "what": "ก่อนจะมีกาแฟ ดอยเหล่านี้ปลูกชา และหลายแห่งยังปลูกอยู่ ส่วนการใช้ใบชาแบบเก่ากว่านั้นไม่ใช่เครื่องดื่มเลย",
+    "story": "*ตามธรรมเนียม —* เมี่ยงคือใบชานึ่งแล้วหมัก แล้วเคี้ยวเป็นคำกับเกลือ ขิง หรือน้ำตาล เป็นวิธีที่คนเหนือใช้ต้นชามานานก่อนที่ใครที่นี่จะเอามาชง และป่าเมี่ยง คือสวนชากึ่งป่าเก่าแก่ใต้ร่มไม้ใหญ่ ก็ยังอยู่บนดอยเหล่านี้\n\n*อนุมาน —* เหตุผลที่ควรรู้คือมันเปลี่ยนความหมายของสิ่งที่คุณกำลังขี่ผ่าน กาแฟบนไหล่เขาเหล่านี้มาถึงในศตวรรษที่ยี่สิบในฐานะพืชทดแทน ส่วนชาอยู่ที่นี่มานานกว่านั้นมาก และต้นไม้ใหญ่ที่ให้ร่มเหนือสวนเก่าคือเหตุผลที่ป่าบางส่วนดูเหมือนมีคนดูแลมากกว่าจะเป็นป่ารก\n\nที่บ้านรักไทย ชาวยูนนานปลูกและชงชาแบบจีน และจะรินให้คุณอย่างถูกวิธี ซึ่งเป็นวัฒนธรรมของพืชอีกแบบหนึ่ง เดินทางข้ามชายแดนมาจากทางเหนือ"
+   },
+   "kin": [
+    {
+     "to": "ridge-arabica",
+     "as": "The newer crop on the same slopes.",
+     "rel": "coffee"
+    },
+    {
+     "to": "yunnan-table",
+     "as": "Tea poured the Chinese way, at the border.",
+     "rel": "dish"
+    },
+    {
+     "to": "lisu-lahu-hmong",
+     "as": "Among the families farming these gardens.",
+     "rel": "person"
+    }
+   ],
+   "sources": [
+    "s:wp-thai-cuisine",
+    "s:wp-coffee-production-in-thailand",
+    "s:wp-yunnan-cuisine"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "tradition"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "needs_verification": true,
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "miang-and-tea/miang-and-tea-chiang-rai-thailand-49717389087.jpg",
+     "source": "commons",
+     "title": "File:Chiang Rai, Thailand (49717389087).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Chiang_Rai%2C_Thailand_%2849717389087%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_Rai%2C_Thailand_%2849717389087%29.jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Nina R from Africa",
+     "credit": "Chiang Rai, Thailand",
+     "alt": "Tea Plantation",
+     "date": "Taken on 28 January 2018 08:05",
+     "primary": true,
+     "sha256": "ee81785afea4558264b22fb7dcd9dda295bdfbb7f3e7419f6c1c0c7bf8a2faed"
+    },
+    {
+     "file": "miang-and-tea/miang-and-tea-chiang-rai-thailand-49717393797.jpg",
+     "source": "commons",
+     "title": "File:Chiang Rai, Thailand (49717393797).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Chiang_Rai%2C_Thailand_%2849717393797%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_Rai%2C_Thailand_%2849717393797%29.jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Nina R from Africa",
+     "credit": "Chiang Rai, Thailand",
+     "alt": "Tea Plantation",
+     "date": "Taken on 28 January 2018 08:00",
+     "primary": false,
+     "sha256": "8506bda831be0e45efe700413e339958212726b9daeafc76bf6de213b5cb769e"
+    },
+    {
+     "file": "miang-and-tea/miang-and-tea-choui-fong-tea-plantation.jpg",
+     "source": "commons",
+     "title": "File:Choui Fong tea plantation.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Choui_Fong_tea_plantation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AChoui_Fong_tea_plantation.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Pixabay user Denchai",
+     "credit": "https://pixabay.com/en/tea-plantations-tea-the-north-2983050/ archive copy at the Wayback Machine",
+     "alt": "Choui Fong tea plantation in Chiang Rai province, Northern Thailand",
+     "date": "2017-11-23 15:31:10",
+     "primary": false,
+     "sha256": "de679362936b15eda94f64b3242e46a9228c5127f3ec537625a2f089ba420a95"
+    },
+    {
+     "file": "miang-and-tea/miang-and-tea-tea-plantation-chiang-rai-thailand-49717233207.jpg",
+     "source": "commons",
+     "title": "File:Tea plantation - Chiang Rai, Thailand (49717233207).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Tea_plantation_-_Chiang_Rai%2C_Thailand_%2849717233207%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ATea_plantation_-_Chiang_Rai%2C_Thailand_%2849717233207%29.jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Nina R from Africa",
+     "credit": "Chiang Rai, Thailand",
+     "alt": "Tea plantation - Chiang Rai, Thailand",
+     "date": "2018-01-28 07:35",
+     "primary": false,
+     "sha256": "4ea7bd2abba0006193874c7cf0d213b57b9f18bd92ab52a0971ca3b10a734943"
+    }
+   ],
+   "kin_in": []
+  },
+  {
+   "id": "ridge-arabica",
+   "type": "coffee",
+   "names": {
+    "name": "Arabica off the ridge you just rode over",
+    "th": "อาราบิก้าจากดอยที่เพิ่งข้ามมา",
+    "said": "Grown between about 1,000 and 1,500 metres, picked by the family, roasted in the village, and sold to you at the bottom of their own road.",
+    "said_th": "ปลูกที่ความสูงราว 1,000 ถึง 1,500 เมตร ครอบครัวเก็บเอง คั่วในหมู่บ้าน แล้วขายให้คุณที่เชิงดอยของเขาเอง"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "grower",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "Northern Thailand grows arabica on the hills this road climbs. The plant wants altitude, shade and a dry harvest — which is exactly what these slopes are.",
+    "story": "*Coffea arabica* does best at altitude in the tropics, and the reason there is coffee on these hills at all is a deliberate substitution: Thai highland coffee was promoted from the 1970s onward as a replacement crop for opium poppy, under royal project and government programmes.\n\n*Inference —* which makes a roadside cup on this circuit a piece of the region's history rather than a nice drink, and it is why so many of the growers are Lisu, Lahu, Akha, Hmong and Karen families rather than lowland Thai companies.\n\nWhat this means on the road: the cup at the top of a climb is often grown within sight of where you are standing. Ask where it is from and you frequently get pointed at a hillside rather than given a brand."
+   },
+   "text_th": {
+    "what": "ภาคเหนือปลูกอาราบิก้าบนดอยที่ถนนสายนี้ไต่ขึ้นไป ต้นกาแฟต้องการความสูง ร่มเงา และฤดูเก็บที่แห้ง ซึ่งเป็นสิ่งที่ไหล่เขาเหล่านี้มีพอดี",
+    "story": "ต้นอาราบิก้าเติบโตได้ดีที่สุดบนที่สูงในเขตร้อน และเหตุผลที่มีกาแฟบนดอยเหล่านี้ตั้งแต่แรกคือการทดแทนพืชอย่างตั้งใจ กาแฟบนที่สูงของไทยถูกส่งเสริมตั้งแต่ทศวรรษ 2510 เป็นพืชทดแทนฝิ่น ภายใต้โครงการหลวงและโครงการของรัฐ\n\n*อนุมาน —* ซึ่งทำให้กาแฟแก้วหนึ่งริมทางบนเส้นทางนี้เป็นชิ้นส่วนของประวัติศาสตร์ภูมิภาค มากกว่าจะเป็นแค่เครื่องดื่มอร่อย และเป็นเหตุผลที่ผู้ปลูกจำนวนมากเป็นครอบครัวลีซู ลาหู่ อาข่า ม้ง และกะเหรี่ยง ไม่ใช่บริษัทจากที่ราบ\n\nบนถนนจริงแปลว่า แก้วที่ได้ตอนขึ้นถึงยอดมักปลูกอยู่ในระยะที่มองเห็นจากตรงที่คุณยืน ลองถามว่ามาจากไหน คำตอบมักเป็นการชี้ไปที่ไหล่เขา ไม่ใช่การบอกยี่ห้อ"
+   },
+   "kin": [
+    {
+     "to": "roadside-stall",
+     "as": "Where you actually drink it.",
+     "rel": "coffee"
+    },
+    {
+     "to": "karen",
+     "as": "Among the families growing it.",
+     "rel": "person"
+    },
+    {
+     "to": "yunnan-table",
+     "as": "The other thing grown on these slopes, a ridge further west.",
+     "rel": "dish"
+    }
+   ],
+   "sources": [
+    "s:wp-coffee-production-in-thailand",
+    "s:wp-coffea-arabica"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-coffee-production-in-thailand"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "ridge-arabica/ridge-arabica-coffea-arabica-coffee-beans.jpg",
+     "source": "commons",
+     "title": "File:Coffea arabica, coffee beans .jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Coffea_arabica%2C_coffee_beans_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ACoffea_arabica%2C_coffee_beans_.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Renjusplace",
+     "credit": "Own work",
+     "alt": "From Kottayam",
+     "date": "15 November 2015 (according to Exif data",
+     "primary": true,
+     "sha256": "303c0874cbc358c437f15238df7420917dee7667251646ccf5b649c3edb0b154"
+    },
+    {
+     "file": "ridge-arabica/ridge-arabica-coffea-arabica-fruit11.jpg",
+     "source": "commons",
+     "title": "File:Coffea arabica- fruit11.JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Coffea_arabica-_fruit11.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ACoffea_arabica-_fruit11.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "Satheesan.vn",
+     "credit": "Own work",
+     "alt": "coffee fruit at Wynad, Kerala, India",
+     "date": "2011-02-20 07:45:36",
+     "primary": false,
+     "sha256": "f15b1a5992044fe7f447f3e171a0a5af1e71ce0e0a38f039ce00bb524299d0c4"
+    },
+    {
+     "file": "ridge-arabica/ridge-arabica-coffea-canephora-1-at-aanakkulam.jpg",
+     "source": "commons",
+     "title": "File:Coffea canephora 1 at Aanakkulam.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Coffea_canephora_1_at_Aanakkulam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ACoffea_canephora_1_at_Aanakkulam.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Jeevan Jose, Kerala, India",
+     "credit": "Own work",
+     "alt": "Robusta coffee (Coffea canephora; syn. Coffea robusta) is a species of coffee that has its origins in central and western sub-Saharan Africa. It is a species of flowering plant in the Rubiaceae family",
+     "date": "3 January 2010",
+     "primary": false,
+     "sha256": "5516d37b415190d8c6f8db9da4eaf8a918dc1eda272159427e9d4548538548fa"
+    },
+    {
+     "file": "ridge-arabica/ridge-arabica-plantation-4.jpg",
+     "source": "commons",
+     "title": "File:Plantation 4.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Plantation_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3APlantation_4.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Dave Caguioa",
+     "credit": "Own work",
+     "alt": "Rocky Mountain Cafe plantation",
+     "date": "2013-04-17 19:06:21",
+     "primary": false,
+     "sha256": "e9a6d96fca5db2e36e9bc66054da84e5c57a271dbbd0fa2e8d120dff53960efa"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "yunnan-table",
+     "type": "dish",
+     "name": "The Yunnanese table at Ban Rak Thai",
+     "as": "The other thing grown on these slopes."
+    },
+    {
+     "from": "miang-and-tea",
+     "type": "coffee",
+     "name": "Miang and mountain tea",
+     "as": "The newer crop on the same slopes."
+    },
+    {
+     "from": "roadside-stall",
+     "type": "coffee",
+     "name": "The stall at the top of the climb",
+     "as": "What is in the cup."
+    },
+    {
+     "from": "lisu-lahu-hmong",
+     "type": "person",
+     "name": "Lisu, Lahu, Hmong and Lua",
+     "as": "What many of these families grow."
+    }
+   ]
+  },
+  {
+   "id": "roadside-stall",
+   "type": "coffee",
+   "names": {
+    "name": "The stall at the top of the climb",
+    "th": "เพิงกาแฟบนยอดดอย",
+    "said": "A hut, a viewpoint, a dog, and the best twenty minutes of the morning.",
+    "said_th": "เพิงหนึ่งหลัง จุดชมวิว หมาหนึ่งตัว และยี่สิบนาทีที่ดีที่สุดของเช้าวันนั้น"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "stall",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "Somewhere near the top of most long climbs on this circuit there is a shack selling coffee, with a bench pointed at the valley.",
+    "story": "*Inference —* this is the thing to plan the day around. The distance is short and the day is long, and these stops are why.\n\nThe pattern is consistent enough to rely on. A climb of any length on 1095, 1263 or 1088 will have a pull-in near the top where the view opens, and where there is a view there is usually someone selling coffee. The coffee is often grown nearby; the view is always free.\n\n**What the harvest found:** OpenStreetMap has 220 cafés mapped within twelve kilometres of a town on this loop, 188 of them named. That is a floor and not a survey — the shack with three stools and no sign is exactly the kind of place a volunteer mapper has not entered."
+   },
+   "text_th": {
+    "what": "ใกล้ยอดของทางไต่ยาวๆ เกือบทุกช่วงบนเส้นทางนี้จะมีเพิงขายกาแฟ พร้อมม้านั่งที่หันหน้าเข้าหุบเขา",
+    "story": "*อนุมาน —* นี่คือสิ่งที่ควรวางแผนทั้งวันไว้รอบๆ ระยะทางสั้นแต่วันยาว และจุดแวะพวกนี้คือเหตุผล\n\nรูปแบบนี้สม่ำเสมอพอจะพึ่งได้ ทางไต่ยาวๆ บน 1095, 1263 หรือ 1088 จะมีที่จอดใกล้ยอดตรงที่วิวเปิดออก และที่ไหนมีวิว ที่นั่นมักมีคนขายกาแฟ กาแฟมักปลูกอยู่แถวนั้น ส่วนวิวฟรีเสมอ\n\n**สิ่งที่การเก็บข้อมูลพบ** OpenStreetMap มีร้านกาแฟ 220 แห่งในรัศมีสิบสองกิโลเมตรจากเมืองบนเส้นทางนี้ มีชื่อ 188 แห่ง นั่นเป็นขั้นต่ำ ไม่ใช่การสำรวจ เพิงที่มีเก้าอี้สามตัวและไม่มีป้าย คือแบบที่อาสาสมัครยังไม่ได้บันทึกพอดี"
+   },
+   "kin": [
+    {
+     "to": "ridge-arabica",
+     "as": "What is in the cup.",
+     "rel": "coffee"
+    },
+    {
+     "to": "seven-eleven",
+     "as": "The other coffee stop, and it is not a joke.",
+     "rel": "coffee"
+    },
+    {
+     "to": "morning-market",
+     "as": "The other thing worth getting up for.",
+     "rel": "dish"
+    }
+   ],
+   "sources": [
+    "s:wp-coffee-production-in-thailand",
+    "s:osm"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "roadside-stall/roadside-stall-2019-02-awesome-coffee-shop-in-korat.jpg",
+     "source": "commons",
+     "title": "File:2019 02 Awesome Coffee Shop in Korat.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/2019_02_Awesome_Coffee_Shop_in_Korat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A2019_02_Awesome_Coffee_Shop_in_Korat.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Takeaway",
+     "credit": "Own work",
+     "alt": "Korat's \"Awesome Coffee\" shop interior. The owner is the winner of Thailand's 7th Indy Barista Championship. This shop is located behind the family's gold shop on the main road, and accessed through a",
+     "date": "2019-02-10 12:26:10",
+     "primary": true,
+     "sha256": "6d5348055515b096caa711f902509ee4b93784b04b05ab460b5173019b2f34cc"
+    },
+    {
+     "file": "roadside-stall/roadside-stall-chai-thung-coffee-by-tris-t7.jpg",
+     "source": "commons",
+     "title": "File:Chai Thung Coffee by Tris T7.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Chai_Thung_Coffee_by_Tris_T7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AChai_Thung_Coffee_by_Tris_T7.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Tris T7",
+     "credit": "Own work",
+     "alt": "Chai Thung Coffee",
+     "date": "2018-11-15 16:50:17",
+     "primary": false,
+     "sha256": "fb6bba84acb0f78396b992c2b9800215b428da0f0e7476d471cb1ba3a0b3a208"
+    },
+    {
+     "file": "roadside-stall/roadside-stall-forests-in-pang-mapha-district.jpg",
+     "source": "commons",
+     "title": "File:Forests in Pang Mapha District.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Forests_in_Pang_Mapha_District.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AForests_in_Pang_Mapha_District.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "View from the Doi Kiew Lom Viewpoint in Pang Mapha District, Mae Hong Son Province.",
+     "date": "2018-08-30 11:21:51",
+     "primary": false,
+     "sha256": "f1bb5d71bea5c114c886e58f4ec55f13f9b8ddcda1605b31bcc6665f7ebf0a78"
+    },
+    {
+     "file": "roadside-stall/roadside-stall-thailand-3450-coffee-shop-3682332274.jpg",
+     "source": "commons",
+     "title": "File:Thailand-3450 - Coffee Shop (3682332274).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Thailand-3450_-_Coffee_Shop_%283682332274%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThailand-3450_-_Coffee_Shop_%283682332274%29.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "author": "Dennis G. Jarvis",
+     "credit": "Thailand-3450 - Coffee Shop",
+     "alt": "We went to a street market on our way to the floating market, this was whole day was a optional part of the tour. Bangkok, Thailand",
+     "date": "2009-02-06 01:12",
+     "primary": false,
+     "sha256": "830cd831868ae15d4d229535ee85d6f743df6a34e9ee0566cb4c9d32fcf701d1"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "ridge-arabica",
+     "type": "coffee",
+     "name": "Arabica off the ridge you just rode over",
+     "as": "Where you actually drink it."
+    },
+    {
+     "from": "seven-eleven",
+     "type": "coffee",
+     "name": "The 7-Eleven",
+     "as": "The one you actually came for."
+    },
+    {
+     "from": "annoyances",
+     "type": "hazard",
+     "name": "Annoyances",
+     "as": "Where you wait out the forty minutes."
+    },
+    {
+     "from": "ten-minutes",
+     "type": "story",
+     "name": "The ten minutes after you stop",
+     "as": "Where it usually happens."
+    }
+   ]
+  },
+  {
+   "id": "seven-eleven",
+   "type": "coffee",
+   "names": {
+    "name": "The 7-Eleven",
+    "th": "เซเว่น",
+    "said": "Cold, air-conditioned, open, and it has a toilet. Do not be proud about it.",
+    "said_th": "เย็น มีแอร์ เปิดตลอด และมีห้องน้ำ อย่าถือตัว"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "shop",
+    "price": "cheap"
+   },
+   "text": {
+    "what": "In the towns, the convenience store is a coffee stop, a water stop, a shade stop and a toilet. It is also the most reliable of the four.",
+    "story": "*Inference —* there is a kind of rider who will ride past a 7-Eleven in forty-degree heat because it is not characterful. That rider arrives at the guesthouse dehydrated, and dehydration on a bike arrives without a signal because the airflow stops you noticing you are sweating.\n\nWhat it is good for: cold water in quantity, shade with air conditioning in it, a toilet that is always there, an ATM, a phone top-up, and coffee that is fine.\n\nWhat it is not good for is the reason you came. Between the towns, stop at the stall with the bench and the view. In the towns, at two in the afternoon, in March, take the air conditioning."
+   },
+   "text_th": {
+    "what": "ในเมือง ร้านสะดวกซื้อคือจุดพักกาแฟ จุดเติมน้ำ จุดหลบแดด และห้องน้ำ และเป็นสิ่งที่พึ่งพาได้ที่สุดในสี่อย่างนั้น",
+    "story": "*อนุมาน —* มีคนขี่ประเภทหนึ่งที่จะขี่ผ่านเซเว่นไปในอากาศสี่สิบองศาเพราะมันไม่มีเสน่ห์ คนคนนั้นจะไปถึงที่พักในสภาพขาดน้ำ และภาวะขาดน้ำบนรถมาถึงโดยไม่ส่งสัญญาณ เพราะลมที่ปะทะทำให้ไม่รู้ตัวว่ากำลังเสียเหงื่อ\n\nรายการที่มันดีจริง น้ำเย็นในปริมาณมาก ร่มเงาที่มีแอร์ ห้องน้ำที่มีอยู่เสมอ ตู้เอทีเอ็ม เติมเงินโทรศัพท์ และกาแฟที่พอใช้ได้\n\nสิ่งที่มันไม่ดีคือเหตุผลที่คุณมา ระหว่างเมือง ให้แวะเพิงที่มีม้านั่งและมีวิว ส่วนในเมือง ตอนบ่ายสอง เดือนมีนาคม ให้เอาแอร์"
+   },
+   "kin": [
+    {
+     "to": "roadside-stall",
+     "as": "The one you actually came for.",
+     "rel": "coffee"
+    },
+    {
+     "to": "hot-season",
+     "as": "The month this stops being a joke.",
+     "rel": "event"
+    },
+    {
+     "to": "smoke-riding",
+     "as": "Clean air indoors, when there is none outside.",
+     "rel": "hazard"
+    }
+   ],
+   "sources": [
+    "s:wp-thai-cuisine"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "seven-eleven/seven-eleven-7-eleven-bangkok-thailand.jpg",
+     "source": "commons",
+     "title": "File:7-Eleven, Bangkok, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/7-Eleven%2C_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A7-Eleven%2C_Bangkok%2C_Thailand.jpg",
+     "license": "CC BY 3.0",
+     "license_url": "https://creativecommons.org/licenses/by/3.0/",
+     "author": "Omio Asad",
+     "credit": "Own work",
+     "alt": "A 7-Eleven store at Sukhumvit, Bangkok in Thailand",
+     "date": "2016-10-10 22:28:46",
+     "primary": true,
+     "sha256": "a6db20b7c3139fb9d454c88836abdd4b0f499f5ebcb6d153c2e616f469f86424"
+    },
+    {
+     "file": "seven-eleven/seven-eleven-7-eleven-pattaya-thailand.jpg",
+     "source": "commons",
+     "title": "File:7-Eleven, Pattaya, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/7-Eleven%2C_Pattaya%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A7-Eleven%2C_Pattaya%2C_Thailand.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Omio Asad",
+     "credit": "Own work",
+     "alt": "A 7-Eleven store at Beach Road, Pattaya in Thailand",
+     "date": "2016-10-12 09:37:39",
+     "primary": false,
+     "sha256": "ce5bf0827a843c0f6a283e887acd716370ab798017fce929d983ce6d3231bcf7"
+    },
+    {
+     "file": "seven-eleven/seven-eleven-7-eleven-varun-5356685900.jpg",
+     "source": "commons",
+     "title": "File:7-Eleven Varun (5356685900).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/7-Eleven_Varun_%285356685900%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A7-Eleven_Varun_%285356685900%29.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "author": "nist6dh",
+     "credit": "7-Eleven Varun",
+     "alt": "This picture shows a 7-Eleven in Soi 20 in Bangkok.",
+     "date": "2010-06-23 08:10",
+     "primary": false,
+     "sha256": "e803b6de38deb0ed92b3478734c8023b8eebf0d249559b9a116277648e4a85b9"
+    },
+    {
+     "file": "seven-eleven/seven-eleven-7-eleven-in-pattaya.jpg",
+     "source": "commons",
+     "title": "File:7-Eleven in Pattaya.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/7-Eleven_in_Pattaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3A7-Eleven_in_Pattaya.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Alharomain354",
+     "credit": "Own work",
+     "alt": "The world’s largest 7-Eleven in Pattaya",
+     "date": "2025-11-24 12:41:07",
+     "primary": false,
+     "sha256": "db42714f1ab256df5310d538822dc56963db4187da69fdcbd8e34279b0306836"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "roadside-stall",
+     "type": "coffee",
+     "name": "The stall at the top of the climb",
+     "as": "The other coffee stop, and it is not a joke."
+    }
+   ]
+  }
+ ]
 }

@@ -1,0 +1,131 @@
+{
+ "id": "wat-hua-wiang",
+ "type": "wat",
+ "names": {
+  "name": "Wat Hua Wiang",
+  "th": "วัดหัวเวียง",
+  "said": "A Burmese-cast bronze Buddha in a tin-roofed hall in the middle of the market.",
+  "said_th": "พระพุทธรูปสำริดหล่อจากพม่า ในวิหารหลังคาสังกะสีกลางตลาด"
+ },
+ "region": [
+  "mhs",
+  "mueang-mhs",
+  "shan"
+ ],
+ "facets": {
+  "tradition": "burmese",
+  "price": "free"
+ },
+ "text": {
+  "what": "In the centre of Mae Hong Son town, beside the morning market. The image inside is the reason to go in.",
+  "story": "*Tradition holds —* the principal image, Phra Chao Phara La Khaeng, is held to have been cast in Burma and brought over in sections. Whatever the exact route, the object is not a Lanna casting and it does not look like one.\n\n*Inference —* what makes this one worth ten minutes rather than a photograph from the road is the setting. It is a working neighbourhood temple in the middle of a market, with a corrugated roof and no ticket, which is a different proposition from a hilltop chedi, and it is where you see what these buildings are for on an ordinary Tuesday.\n\nIt is next to the morning market, which means you can do both before eight and be riding by nine."
+ },
+ "text_th": {
+  "what": "อยู่กลางตัวเมืองแม่ฮ่องสอน ติดตลาดเช้า พระประธานข้างในคือเหตุผลที่ควรเข้าไป",
+  "story": "*ตามธรรมเนียม —* พระประธานคือพระเจ้าพาราละแข่ง เชื่อกันว่าหล่อที่พม่าแล้วแยกชิ้นนำมาประกอบ ไม่ว่าเส้นทางจริงจะเป็นอย่างไร วัตถุชิ้นนี้ไม่ใช่งานหล่อล้านนา และหน้าตาก็ไม่เหมือน\n\n*อนุมาน —* สิ่งที่ทำให้ที่นี่คุ้มค่าสิบนาที แทนที่จะเป็นแค่รูปถ่ายจากถนน คือบริบทของมัน มันเป็นวัดชุมชนที่ใช้งานจริงกลางตลาด หลังคาสังกะสี ไม่มีค่าเข้า ซึ่งเป็นคนละเรื่องกับเจดีย์บนยอดดอย และเป็นที่ที่คุณเห็นว่าอาคารพวกนี้มีไว้ทำอะไรในวันอังคารธรรมดา\n\nมันอยู่ติดตลาดเช้า แปลว่าทำได้ทั้งสองอย่างก่อนแปดโมงแล้วออกเดินทางเก้าโมง"
+ },
+ "kin": [
+  {
+   "to": "mae-hong-son",
+   "as": "The town it is the centre of.",
+   "rel": "town"
+  },
+  {
+   "to": "morning-market",
+   "as": "Next door, and do that first.",
+   "rel": "dish"
+  },
+  {
+   "to": "jong-and-chong",
+   "as": "The naming pattern it sits inside.",
+   "rel": "wat"
+  }
+ ],
+ "sources": [
+  "s:wp-mae-hong-son",
+  "s:osm",
+  "s:wp-shan-people"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.3009,
+  "lon": 97.9663,
+  "precision": "street"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "wat-hua-wiang/wat-hua-wiang-wat-chong-klang-7.jpg",
+   "source": "commons",
+   "title": "File:Wat Chong Klang 7.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Wat_Chong_Klang_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Chong_Klang_7.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Wat Chong Klang in Mae Hong Son.",
+   "date": "2018-09-01 18:00:41",
+   "primary": true,
+   "sha256": "e69d8a8ae7da440d1081e14dd5bc2e423b1406d3de3d398d5b29ae710ca41085"
+  },
+  {
+   "file": "wat-hua-wiang/wat-hua-wiang-wat-chong-klang-8.jpg",
+   "source": "commons",
+   "title": "File:Wat Chong Klang 8.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Wat_Chong_Klang_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Chong_Klang_8.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "The interior of Wat Chong Klang in Mae Hong Son.",
+   "date": "2018-09-01 18:03:06",
+   "primary": false,
+   "sha256": "16044e3c92fe63d9953fa978795640d1ed007cab88e9367fe88414b673e773a4"
+  },
+  {
+   "file": "wat-hua-wiang/wat-hua-wiang-wat-chong-klang-9.jpg",
+   "source": "commons",
+   "title": "File:Wat Chong Klang 9.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Wat_Chong_Klang_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Chong_Klang_9.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "The interior of Wat Chong Klang in Mae Hong Son.",
+   "date": "2018-09-01 18:03:24",
+   "primary": false,
+   "sha256": "6fc0d6900d1e79d2921b9712a37d20bc2d6c0a4a330e8ad190813d21672c8ded"
+  },
+  {
+   "file": "wat-hua-wiang/wat-hua-wiang-wat-chong-klang-and-wat-chong-kham.jpg",
+   "source": "commons",
+   "title": "File:Wat Chong Klang and Wat Chong Kham.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Wat_Chong_Klang_and_Wat_Chong_Kham.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AWat_Chong_Klang_and_Wat_Chong_Kham.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "View of Wat Chong Klang and Wat Chong Kham from Wat Phrathat Doi Kong Mu in Mae Hong Son.",
+   "date": "2018-09-01 18:42:42",
+   "primary": false,
+   "sha256": "34ce7ca53ee5b2e2e37421820591d42bee4a46497dd5eda0f4f0eaef0e15a957"
+  }
+ ]
+}

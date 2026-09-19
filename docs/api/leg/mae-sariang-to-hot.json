@@ -723,10 +723,22 @@
    "as": "The long eastern day."
   },
   {
+   "from": "mae-sam-laep",
+   "type": "stop",
+   "name": "Mae Sam Laep and the Salween",
+   "as": "The long leg this is worth rearranging."
+  },
+  {
    "from": "op-luang",
    "type": "stop",
    "name": "Op Luang",
    "as": "The long leg it breaks."
+  },
+  {
+   "from": "wat-jong-soong",
+   "type": "wat",
+   "name": "Wat Jong Soong",
+   "as": "The leg that needs a reason to stop."
   },
   {
    "from": "hot-season",

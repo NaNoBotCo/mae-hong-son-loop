@@ -133,5 +133,24 @@
    "sha256": "34ce7ca53ee5b2e2e37421820591d42bee4a46497dd5eda0f4f0eaef0e15a957"
   }
  ],
- "kin_in": []
+ "kin_in": [
+  {
+   "from": "jong-and-chong",
+   "type": "wat",
+   "name": "Why the temples here are called Chong",
+   "as": "The two the word is most attached to."
+  },
+  {
+   "from": "loi-krathong",
+   "type": "event",
+   "name": "Loi Krathong and Yi Peng",
+   "as": "The two lit temples the floats go between."
+  },
+  {
+   "from": "phansa",
+   "type": "event",
+   "name": "Khao Phansa and Ok Phansa",
+   "as": "Where the candles go."
+  }
+ ]
 }

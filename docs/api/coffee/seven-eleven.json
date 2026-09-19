@@ -1,0 +1,129 @@
+{
+ "id": "seven-eleven",
+ "type": "coffee",
+ "names": {
+  "name": "The 7-Eleven",
+  "th": "เซเว่น",
+  "said": "Cold, air-conditioned, open, and it has a toilet. Do not be proud about it.",
+  "said_th": "เย็น มีแอร์ เปิดตลอด และมีห้องน้ำ อย่าถือตัว"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "shop",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "In the towns, the convenience store is a coffee stop, a water stop, a shade stop and a toilet. It is also the most reliable of the four.",
+  "story": "*Inference —* there is a kind of rider who will ride past a 7-Eleven in forty-degree heat because it is not characterful. That rider arrives at the guesthouse dehydrated, and dehydration on a bike arrives without a signal because the airflow stops you noticing you are sweating.\n\nWhat it is good for: cold water in quantity, shade with air conditioning in it, a toilet that is always there, an ATM, a phone top-up, and coffee that is fine.\n\nWhat it is not good for is the reason you came. Between the towns, stop at the stall with the bench and the view. In the towns, at two in the afternoon, in March, take the air conditioning."
+ },
+ "text_th": {
+  "what": "ในเมือง ร้านสะดวกซื้อคือจุดพักกาแฟ จุดเติมน้ำ จุดหลบแดด และห้องน้ำ และเป็นสิ่งที่พึ่งพาได้ที่สุดในสี่อย่างนั้น",
+  "story": "*อนุมาน —* มีคนขี่ประเภทหนึ่งที่จะขี่ผ่านเซเว่นไปในอากาศสี่สิบองศาเพราะมันไม่มีเสน่ห์ คนคนนั้นจะไปถึงที่พักในสภาพขาดน้ำ และภาวะขาดน้ำบนรถมาถึงโดยไม่ส่งสัญญาณ เพราะลมที่ปะทะทำให้ไม่รู้ตัวว่ากำลังเสียเหงื่อ\n\nรายการที่มันดีจริง น้ำเย็นในปริมาณมาก ร่มเงาที่มีแอร์ ห้องน้ำที่มีอยู่เสมอ ตู้เอทีเอ็ม เติมเงินโทรศัพท์ และกาแฟที่พอใช้ได้\n\nสิ่งที่มันไม่ดีคือเหตุผลที่คุณมา ระหว่างเมือง ให้แวะเพิงที่มีม้านั่งและมีวิว ส่วนในเมือง ตอนบ่ายสอง เดือนมีนาคม ให้เอาแอร์"
+ },
+ "kin": [
+  {
+   "to": "roadside-stall",
+   "as": "The one you actually came for.",
+   "rel": "coffee"
+  },
+  {
+   "to": "hot-season",
+   "as": "The month this stops being a joke.",
+   "rel": "event"
+  },
+  {
+   "to": "smoke-riding",
+   "as": "Clean air indoors, when there is none outside.",
+   "rel": "hazard"
+  }
+ ],
+ "sources": [
+  "s:wp-thai-cuisine"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "inference"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "seven-eleven/seven-eleven-7-eleven-bangkok-thailand.jpg",
+   "source": "commons",
+   "title": "File:7-Eleven, Bangkok, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/7-Eleven%2C_Bangkok%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A7-Eleven%2C_Bangkok%2C_Thailand.jpg",
+   "license": "CC BY 3.0",
+   "license_url": "https://creativecommons.org/licenses/by/3.0/",
+   "author": "Omio Asad",
+   "credit": "Own work",
+   "alt": "A 7-Eleven store at Sukhumvit, Bangkok in Thailand",
+   "date": "2016-10-10 22:28:46",
+   "primary": true,
+   "sha256": "a6db20b7c3139fb9d454c88836abdd4b0f499f5ebcb6d153c2e616f469f86424"
+  },
+  {
+   "file": "seven-eleven/seven-eleven-7-eleven-pattaya-thailand.jpg",
+   "source": "commons",
+   "title": "File:7-Eleven, Pattaya, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/7-Eleven%2C_Pattaya%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A7-Eleven%2C_Pattaya%2C_Thailand.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Omio Asad",
+   "credit": "Own work",
+   "alt": "A 7-Eleven store at Beach Road, Pattaya in Thailand",
+   "date": "2016-10-12 09:37:39",
+   "primary": false,
+   "sha256": "ce5bf0827a843c0f6a283e887acd716370ab798017fce929d983ce6d3231bcf7"
+  },
+  {
+   "file": "seven-eleven/seven-eleven-7-eleven-varun-5356685900.jpg",
+   "source": "commons",
+   "title": "File:7-Eleven Varun (5356685900).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/7-Eleven_Varun_%285356685900%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A7-Eleven_Varun_%285356685900%29.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "nist6dh",
+   "credit": "7-Eleven Varun",
+   "alt": "This picture shows a 7-Eleven in Soi 20 in Bangkok.",
+   "date": "2010-06-23 08:10",
+   "primary": false,
+   "sha256": "e803b6de38deb0ed92b3478734c8023b8eebf0d249559b9a116277648e4a85b9"
+  },
+  {
+   "file": "seven-eleven/seven-eleven-7-eleven-in-pattaya.jpg",
+   "source": "commons",
+   "title": "File:7-Eleven in Pattaya.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/7-Eleven_in_Pattaya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A7-Eleven_in_Pattaya.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Alharomain354",
+   "credit": "Own work",
+   "alt": "The world’s largest 7-Eleven in Pattaya",
+   "date": "2025-11-24 12:41:07",
+   "primary": false,
+   "sha256": "db42714f1ab256df5310d538822dc56963db4187da69fdcbd8e34279b0306836"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "roadside-stall",
+   "type": "coffee",
+   "name": "The stall at the top of the climb",
+   "as": "The other coffee stop, and it is not a joke."
+  }
+ ]
+}

@@ -164,6 +164,12 @@
    "as": "The town on the back side."
   },
   {
+   "from": "pa-bong-piang",
+   "type": "stop",
+   "name": "Pa Bong Piang rice terraces",
+   "as": "The district it is in."
+  },
+  {
    "from": "sending-the-bag-ahead",
    "type": "kit",
    "name": "Sending the bag ahead",

@@ -1,0 +1,60 @@
+{
+ "id": "songkran",
+ "type": "event",
+ "names": {
+  "name": "Songkran",
+  "th": "สงกรานต์",
+  "said": "Thai new year, 13 to 15 April, and the entire country throws water at everybody.",
+  "said_th": "ปีใหม่ไทย 13 ถึง 15 เมษายน และทั้งประเทศสาดน้ำใส่ทุกคน"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "apr"
+ },
+ "text": {
+  "what": "The hottest days of the year, marked by pouring water. On a motorcycle this is a fact you plan around rather than a festival you attend.",
+  "story": "Songkran is the Thai new year, held 13–15 April, and the water-throwing that it is known for grew out of the gentler ritual of pouring water over Buddha images and over the hands of elders.\n\n*Inference —* the thing to understand as a rider is that you will be soaked, repeatedly, without being asked, and that this is not aimed at you personally. In the towns on this circuit, anyone on two wheels is a target — people with buckets stand at the roadside for three days.\n\nSo the practical shape: put anything that must stay dry in a sealed bag before you set off, expect to ride wet, and accept that a leg through several towns will take much longer than the map says. Some riders plan to be *between* towns during the worst of it, which works.\n\n*Inference —* it also falls in the worst measured air of the year and the hottest weather. April is the hardest month on this circuit for reasons that have nothing to do with the festival, and Songkran is a reason some people come anyway."
+ },
+ "text_th": {
+  "what": "วันที่ร้อนที่สุดของปี ฉลองด้วยการรดน้ำ บนมอเตอร์ไซค์ นี่คือข้อเท็จจริงที่ต้องวางแผนเผื่อ มากกว่าจะเป็นเทศกาลที่ไปร่วม",
+  "story": "สงกรานต์คือปีใหม่ไทย จัดวันที่ 13–15 เมษายน และการสาดน้ำที่เป็นที่รู้จักเติบโตมาจากพิธีที่อ่อนโยนกว่า คือการรดน้ำพระพุทธรูปและรดน้ำดำหัวผู้ใหญ่\n\n*อนุมาน —* สิ่งที่คนขี่รถต้องเข้าใจคือคุณจะเปียก ซ้ำแล้วซ้ำอีก โดยไม่มีใครถามก่อน และมันไม่ได้เล็งมาที่คุณเป็นการส่วนตัว ในเมืองต่างๆ บนเส้นทางนี้ ใครก็ตามที่อยู่บนสองล้อคือเป้าหมาย คนถือถังยืนอยู่ริมถนนสามวัน\n\nรูปแบบในทางปฏิบัติ เอาของที่ต้องแห้งใส่ถุงซีลก่อนออกเดินทาง เตรียมใจว่าจะขี่ทั้งที่เปียก และยอมรับว่าช่วงทางที่ผ่านหลายเมืองจะใช้เวลานานกว่าที่แผนที่บอกมาก คนขี่บางคนวางแผนให้อยู่ *ระหว่าง* เมืองในช่วงที่หนักที่สุด ซึ่งได้ผล\n\n*อนุมาน —* มันยังตรงกับช่วงที่อากาศแย่ที่สุดที่วัดได้ของปี และอากาศร้อนที่สุด เมษายนเป็นเดือนที่ยากที่สุดของเส้นทางนี้ด้วยเหตุผลที่ไม่เกี่ยวกับเทศกาลเลย และสงกรานต์คือเหตุผลที่บางคนยังมาอยู่ดี"
+ },
+ "kin": [
+  {
+   "to": "hot-season",
+   "as": "The same days, from the thermometer.",
+   "rel": "event"
+  },
+  {
+   "to": "burning-season",
+   "as": "And the same days, from the air.",
+   "rel": "event"
+  },
+  {
+   "to": "poy-sang-long",
+   "as": "The other spring festival, and the province's own.",
+   "rel": "event"
+  }
+ ],
+ "sources": [
+  "s:wp-songkran-thailand",
+  "s:wp-public-holidays-in-thailand"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-songkran-thailand"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "high",
+ "schema": 1,
+ "updated": "2026-09-18"
+}

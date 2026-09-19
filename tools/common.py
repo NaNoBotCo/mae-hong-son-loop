@@ -27,8 +27,8 @@ VENDOR = ROOT / "vendor"
 PROJECTS = Path(os.environ.get("NAN_PROJECTS") or (Path.home() / "Developer" / "claude code projects"))
 SEARCH_CORE = Path(os.environ.get("SEARCH_CORE") or (PROJECTS / "search-core"))
 
-TYPES = ("leg", "road", "town", "stop", "wat", "coffee", "spring", "stay", "hazard", "bike", "kit",
-         "person", "org", "event", "term", "story", "art")
+TYPES = ("leg", "road", "town", "stop", "wat", "dish", "coffee", "spring", "stay",
+         "hazard", "bike", "kit", "person", "org", "event", "term", "story", "art")
 TIERS = ("cited", "harvested", "tradition", "inference", "field")
 TIER_LABEL = {
     "cited": "Cited — a named source, linked",

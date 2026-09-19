@@ -675,8 +675,8 @@
    "rel": "story"
   },
   {
-   "to": "dogs",
-   "as": "The villages on both sides of it.",
+   "to": "annoyances",
+   "as": "The small stuff, with antidotes.",
    "rel": "hazard"
   },
   {
@@ -747,16 +747,22 @@
    "as": "The road it is on."
   },
   {
-   "from": "dogs",
-   "type": "hazard",
-   "name": "Dogs",
-   "as": "The road with the villages on both sides."
+   "from": "how-old-is-this-ride",
+   "type": "story",
+   "name": "How old is this ride",
+   "as": "The ancient half, and the one that took until 1998."
   },
   {
    "from": "which-way-round",
    "type": "story",
    "name": "Clockwise or counter-clockwise",
    "as": "The road that makes counter-clockwise a gentle start."
+  },
+  {
+   "from": "the-kilometre-stone",
+   "type": "art",
+   "name": "The kilometre stone",
+   "as": "Where the numbers restart at zero."
   }
  ]
 }

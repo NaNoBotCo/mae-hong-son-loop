@@ -1,0 +1,138 @@
+{
+ "id": "nam-ngiao",
+ "type": "dish",
+ "names": {
+  "name": "Kanom jeen nam ngiao",
+  "th": "ขนมจีนน้ำเงี้ยว",
+  "said": "A tomato-and-pork broth with a flower in it, over fermented rice noodles.",
+  "said_th": "น้ำซุปมะเขือเทศกับหมู มีดอกไม้อยู่ในนั้น ราดบนขนมจีน",
+  "rtgs": "khanom chin nam ngiao"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "noodles",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "Fermented rice vermicelli under a thin, sour, red broth of tomato and pork, with dried kapok flower, pork blood cubes and a pork rib.",
+  "story": "The name is the giveaway: *ngiao* is an old Thai word for the Shan. This is Shan food that northern Thailand adopted, and on the western half of this loop you are eating it where it comes from rather than where it travelled to.\n\n*Tradition holds —* the dried kapok flower, *dok ngiao*, is the ingredient that makes it what it is: it goes soft in the broth and adds body rather than flavour. Without it the bowl is a tomato soup.\n\n*Inference —* it is lighter than khao soi and served all day, which makes it the better bet when you arrive somewhere at three in the afternoon and the khao soi has gone."
+ },
+ "text_th": {
+  "what": "ขนมจีนราดน้ำซุปใสสีแดง เปรี้ยว ทำจากมะเขือเทศกับหมู ใส่ดอกงิ้วแห้ง เลือดหมู และซี่โครงหมู",
+  "story": "ชื่อบอกที่มาอยู่แล้ว คำว่าเงี้ยวเป็นคำไทยเก่าที่ใช้เรียกชาวไทใหญ่ นี่คืออาหารไทใหญ่ที่ภาคเหนือรับมา และบนครึ่งตะวันตกของวงรอบนี้ คุณกำลังกินมันในที่ที่มันมา ไม่ใช่ที่ที่มันเดินทางไปถึง\n\n*ตามธรรมเนียม —* ดอกงิ้วแห้งคือวัตถุดิบที่ทำให้มันเป็นตัวมันเอง มันนิ่มในน้ำซุปและให้เนื้อสัมผัสมากกว่าให้รส ถ้าไม่มีดอกงิ้ว ชามนั้นก็เป็นแค่ซุปมะเขือเทศ\n\n*อนุมาน —* มันเบากว่าข้าวซอยและมีขายทั้งวัน จึงเป็นตัวเลือกที่ดีกว่าเมื่อคุณไปถึงที่ไหนสักแห่งตอนบ่ายสามและข้าวซอยหมดแล้ว"
+ },
+ "kin": [
+  {
+   "to": "khao-soi",
+   "as": "The heavier bowl, and the one that sells out.",
+   "rel": "dish"
+  },
+  {
+   "to": "shan",
+   "as": "Whose dish it is, and whose name is in it.",
+   "rel": "person"
+  },
+  {
+   "to": "mae-sariang",
+   "as": "Deep in the country it belongs to.",
+   "rel": "town"
+  }
+ ],
+ "sources": [
+  "s:wp-thai-cuisine",
+  "s:wp-shan-people"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "nam-ngiao/nam-ngiao-khanom-farang-kudi-chin-2020-10-10-1.jpg",
+   "source": "commons",
+   "title": "File:Khanom Farang Kudi Chin, 2020-10-10 (1).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Khanom_Farang_Kudi_Chin%2C_2020-10-10_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AKhanom_Farang_Kudi_Chin%2C_2020-10-10_%281%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "แอนเดอร์สัน",
+   "credit": "Own work",
+   "alt": "Khanom Farang Kudi Chin, a Thai snack of Portuguese origin.",
+   "date": "2020-10-10",
+   "primary": true,
+   "sha256": "05a02803a28d56d463718a338c316055db626a77b559726555a5fa9d4b749979"
+  },
+  {
+   "file": "nam-ngiao/nam-ngiao-khanom-chin-kaeng-kiao-wan-kai.jpg",
+   "source": "commons",
+   "title": "File:Khanom chin kaeng kiao wan kai.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Khanom_chin_kaeng_kiao_wan_kai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AKhanom_chin_kaeng_kiao_wan_kai.jpg",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "Takeaway",
+   "credit": "Own work",
+   "alt": "Khanom chin kaeng khiao wan kai (Thai script: ขนมจีนแกงเขียวหวานไก่) is a popular dish in Thailand consisting of Thai green chicken curry served over freshly made Thai rice noodles. It is usually serv",
+   "date": "2013-05-11 12:14:55",
+   "primary": false,
+   "sha256": "24f9309d9950a31501b88929c644f0a8b09b18e1ef4b17c41f729437af36e6e7"
+  },
+  {
+   "file": "nam-ngiao/nam-ngiao-luso-thai-cuisine-at-kudi-chin-2020-10-10-1.jpg",
+   "source": "commons",
+   "title": "File:Luso-Thai Cuisine at Kudi Chin, 2020-10-10 (1).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Luso-Thai_Cuisine_at_Kudi_Chin%2C_2020-10-10_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALuso-Thai_Cuisine_at_Kudi_Chin%2C_2020-10-10_%281%29.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "แอนเดอร์สัน",
+   "credit": "Own work",
+   "alt": "สำรับอาหารไทย-โปรตุเกส และของว่างชาววัง",
+   "date": "2020-10-10",
+   "primary": false,
+   "sha256": "d93d37725e8c2e219879b559011b97ee7fd6deaaef9454844825ac4b46edeaf6"
+  },
+  {
+   "file": "nam-ngiao/nam-ngiao-nam-ngiao-bangkok-2019-08-29.jpg",
+   "source": "commons",
+   "title": "File:Nam ngiao, Bangkok, 2019-08-29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Nam_ngiao%2C_Bangkok%2C_2019-08-29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ANam_ngiao%2C_Bangkok%2C_2019-08-29.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Bitterschoko",
+   "credit": "Own work",
+   "alt": "Nam ngiao (น้ำเงี้ยว; literally \"cotton flower soup\"), a dish of noodles served in a soup containing cotton flowers, as sold in Bangkok, Thailand.",
+   "date": "2019-08-29 15:04:28",
+   "primary": false,
+   "sha256": "87f4d251cf4181ae1fa78c385b88cde1d36e0f4ccc2659451b6ee512a5e1ad9d"
+  }
+ ],
+ "kin_in": [
+  {
+   "from": "khao-soi",
+   "type": "dish",
+   "name": "Khao soi",
+   "as": "The other northern noodle bowl, and the Shan one."
+  },
+  {
+   "from": "thua-nao",
+   "type": "dish",
+   "name": "Thua nao",
+   "as": "Often in the bowl without being announced."
+  }
+ ]
+}

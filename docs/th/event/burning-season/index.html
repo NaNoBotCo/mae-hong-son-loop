@@ -189,8 +189,49 @@ figure.shot figcaption a{color:var(--mute)}
 figure.map{margin:1.2rem 0;border:3px solid var(--ink);background:var(--panel);overflow:hidden}
 figure.map svg{display:block;width:100%;height:auto;background:var(--panel)}
 figure.map figcaption{padding:.55rem .8rem;font-size:.78rem;color:var(--mute);border-top:2px solid var(--line)}
+/* the basemap, bottom to top: relief, water, boundary, then the road */
+.relief rect{stroke:none}
+.relief .r0{fill:#e9e2d2}.relief .r1{fill:#ddd6c2}.relief .r2{fill:#d0c8b0}.relief .r3{fill:#c2b99c}
+.relief .r4{fill:#b3a988}.relief .r5{fill:#a39873}.relief .r6{fill:#93875f}.relief .r7{fill:#847849}
+.lake{fill:#9fc9e0;stroke:none;opacity:.9}
+.river{fill:none;stroke:#7fb6d6;stroke-width:1.1;stroke-linecap:round}
+.river.big{stroke-width:2.4;stroke:#6aa9cd}
+.bound path{fill:none;stroke:#8a7a5e;stroke-width:1.5;stroke-dasharray:7 5;opacity:.75}
+.star{fill:var(--sun);stroke:var(--ink);stroke-width:1.2;paint-order:stroke}
+.poi{fill:#3d7a55;stroke:none;opacity:.62}
+.poi.waterfall{fill:#2f7ea8}
+.star.big{fill:var(--hot)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .relief .r0{fill:#1b1812}
+ :root:not([data-theme="light"]) .relief .r1{fill:#211d16}
+ :root:not([data-theme="light"]) .relief .r2{fill:#28231a}
+ :root:not([data-theme="light"]) .relief .r3{fill:#2f291e}
+ :root:not([data-theme="light"]) .relief .r4{fill:#372f22}
+ :root:not([data-theme="light"]) .relief .r5{fill:#3f3626}
+ :root:not([data-theme="light"]) .relief .r6{fill:#473d2b}
+ :root:not([data-theme="light"]) .relief .r7{fill:#504530}
+ :root:not([data-theme="light"]) .lake{fill:#27506b}
+ :root:not([data-theme="light"]) .river{stroke:#2f5f7d}
+ :root:not([data-theme="light"]) .river.big{stroke:#3a7d9e}}
+:root[data-theme="dark"] .relief .r0{fill:#1b1812}
+:root[data-theme="dark"] .relief .r1{fill:#211d16}
+:root[data-theme="dark"] .relief .r2{fill:#28231a}
+:root[data-theme="dark"] .relief .r3{fill:#2f291e}
+:root[data-theme="dark"] .relief .r4{fill:#372f22}
+:root[data-theme="dark"] .relief .r5{fill:#3f3626}
+:root[data-theme="dark"] .relief .r6{fill:#473d2b}
+:root[data-theme="dark"] .relief .r7{fill:#504530}
+:root[data-theme="dark"] .lake{fill:#27506b}
+:root[data-theme="dark"] .river{stroke:#2f5f7d}
 .road{fill:none;stroke:var(--line);stroke-width:5;stroke-linecap:round;stroke-linejoin:round}
 .road-on{fill:none;stroke:var(--road);stroke-width:3.4;stroke-linecap:round;stroke-linejoin:round;opacity:.85}
+/* the circuit — a dark casing under a bright core, so it reads over any terrain */
+.loop-case{fill:none;stroke:#100c06;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;opacity:.62}
+.loop{fill:none;stroke:#ff3b2f;stroke-width:3.6;stroke-linecap:round;stroke-linejoin:round}
+.terrain-dark{display:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .terrain-light{display:none}
+ :root:not([data-theme="light"]) .terrain-dark{display:block}}
+:root[data-theme="dark"] .terrain-light{display:none}
+:root[data-theme="dark"] .terrain-dark{display:block}
 .hilite{fill:none;stroke:var(--hot);stroke-width:6;stroke-linecap:round;stroke-linejoin:round}
 .dm{fill:none;stroke-width:6.5;stroke-linecap:round;stroke-linejoin:round}
 .dm-g{stroke:var(--g)}.dm-b{stroke:var(--b)}.dm-h{stroke:var(--h)}.dm-r{stroke:var(--r)}
@@ -236,6 +277,8 @@ ol.legs p{font-size:.9rem;margin:.25rem 0 0}
 
 /* ---- air */
 .months{display:grid;grid-template-columns:repeat(12,1fr);gap:2px;margin:.4rem 0}
+/* twelve columns will not fit a phone; six by two reads the same and fits */
+@media (max-width:34rem){.months{grid-template-columns:repeat(6,1fr)}}
 .months div{text-align:center;padding:.4rem .1rem;font-size:.62rem;font-weight:800;color:#fff;
  font-family:var(--mono)}
 .months .m{font-size:.56rem;opacity:.85;display:block;letter-spacing:.02em}
@@ -249,6 +292,42 @@ th{font-size:.7rem;text-transform:uppercase;letter-spacing:.09em;color:var(--mut
 td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
 tbody tr:hover{background:var(--chip)}
 .spark path{fill:none;stroke:var(--hot);stroke-width:2}
+
+/* ---- the year grid
+   On a narrow screen twelve columns cannot fit, and a table you have to drag sideways is
+   a table most people never see the end of. Below 46rem each row becomes a block with
+   its months as a wrapped strip of chips. */
+@media (max-width:46rem){
+ table.year, table.year tbody, table.year tr, table.year th, table.year td{display:block;width:100%}
+ table.year thead{display:none}
+ table.year tbody tr{border-bottom:2px solid var(--line);padding:.5rem 0}
+ table.year th:first-child{min-width:0;border:0;padding-left:0}
+ table.year td.yr{display:inline-block;width:auto;min-width:2.1rem;padding:.14rem .2rem;
+  margin:.12rem .1rem 0 0;border:0;text-align:center;font-size:.6rem;font-weight:800;
+  color:var(--mute);background:var(--chip);border-radius:3px}
+ table.year td.yr::before{content:attr(data-m)}
+ table.year td.yr.y1,table.year td.yr.y2,table.year td.yr.y3{color:#fff}
+}
+/* ---- the year grid */
+table.year th:first-child{min-width:10rem}
+table.year td.yr{padding:0;border-bottom:1px solid var(--line);min-width:1.6rem}
+td.yr.y1{background:color-mix(in srgb,var(--b) 55%,transparent)}
+td.yr.y2{background:color-mix(in srgb,var(--jade) 55%,transparent)}
+td.yr.y3{background:var(--hot)}
+.legend i.sw{width:1.2rem;height:.9rem;border-radius:2px;display:inline-block;vertical-align:-.1em;margin-right:.3rem}
+.legend i.sw.y1{background:color-mix(in srgb,var(--b) 55%,transparent)}
+.legend i.sw.y2{background:color-mix(in srgb,var(--jade) 55%,transparent)}
+.legend i.sw.y3{background:var(--hot)}
+
+/* ---- checklists */
+.packs{grid-template-columns:repeat(auto-fill,minmax(19rem,1fr))}
+.card.pack h3{margin-top:0}
+ul.check{list-style:none;padding:0;margin:.5rem 0 0}
+ul.check li{padding:.16rem 0;font-size:.88rem;border:0}
+ul.check label{display:flex;gap:.55rem;align-items:flex-start;cursor:pointer}
+ul.check input{margin-top:.28rem;flex:0 0 auto;width:1rem;height:1rem;accent-color:var(--hot)}
+ul.check input:checked+span{opacity:.5;text-decoration:line-through}
+@media print{ul.check input{appearance:none;border:1px solid #000;width:.8rem;height:.8rem}}
 
 /* ---- provenance */
 .tier{font-size:.64rem;text-transform:uppercase;letter-spacing:.1em;font-weight:800;padding:.12rem .4rem;
@@ -316,14 +395,14 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
 <a class="sr" href="#main">Skip to content</a>
 <header class="top"><div class="in">
 <a class="brand" href="../../">Mae Hong Son <b>Loop</b></a>
-<nav><a href="../../">วงรอบ</a><a href="../../legs/">ช่วงทาง</a><a href="../../which-way/">ไปทางไหน</a><a href="../../numbers/">ตัวเลข</a><a href="../../air/">อากาศ</a><a href="../../danger/">อันตราย</a><a href="../../baggage/">สัมภาระ</a><a href="../../quiz/">ขี่แบบไหน</a><a href="../../roadbook/">สมุดเส้นทาง</a></nav>
+<nav><a href="../../">วงรอบ</a><a href="../../legs/">ช่วงทาง</a><a href="../../which-way/">ไปทางไหน</a><a href="../../numbers/">ตัวเลข</a><a href="../../good/">ส่วนที่ดี</a><a href="../../year/">ทั้งปี</a><a href="../../air/">อากาศ</a><a href="../../danger/">อันตราย</a><a href="../../baggage/">สัมภาระ</a><a href="../../quiz/">ขี่แบบไหน</a><a href="../../roadbook/">สมุดเส้นทาง</a></nav>
 <span class="langsw">
 <a href="../../../event/burning-season/" hreflang="en">EN</a>
 <a href="../../../th/event/burning-season/" aria-current="true" hreflang="th">ไทย</a>
 </span>
 </div></header>
 <main id="main">
-<h1><span class="kind">ปฏิทิน</span>ช่วงเผา</h1><p class="said">สองเดือนของปีที่ทริปนี้มีเหตุผลที่จะไม่เกิดขึ้น</p><h2>คืออะไร</h2><div class="prose"><p>ราวปลายกุมภาพันธ์ถึงปลายเมษายน การเผาพื้นที่เกษตรและป่าทำให้หุบเขาภาคเหนือตอนบนของไทยและฝั่งเมียนมาที่ติดกันเต็มไปด้วยควัน จบลงเมื่อฝนแรกมา</p></div><h2>ฉบับยาว</h2><div class="prose"><p>รูปร่างที่วัดได้ จากข้อมูลรายวันสี่ปีที่สิบจุดบนเส้นทาง <strong>กุมภาพันธ์ยังดีอยู่บนดอย</strong> ค่าเฉลี่ยกุมภาพันธ์ของปายคือ 15.0 และตลอดสี่ปีไม่มีวันไหนในกุมภาพันธ์ที่เกินมาตรฐาน 24 ชั่วโมงของสหรัฐฯ ที่นั่นเลย <strong>มีนาคมกับเมษายนคือกำแพง</strong> ค่าเฉลี่ยเมษายนของปายคือ 29.8 และทั้งสามสิบวันที่วัดได้อยู่เหนือมาตรฐานนั้น <strong>พฤษภาคมจบแล้ว</strong> ปายลงมาที่ 10.0 และอยู่ต่ำต่อไป</p><p>เชียงใหม่แย่กว่าทุกเมืองบนเส้นทางตลอดช่วงนี้ ค่าเฉลี่ยมีนาคม 37.8 เทียบกับแม่ฮ่องสอน 29.1</p><p><mark class="inf">อนุมาน —</mark> ถ้าวันเดินทางล็อกไว้แล้วและตกอยู่ในช่วงนี้ ทริปก็ยังไปได้ สิ่งที่ไปไม่ได้คือวิว วางแผนวันสั้นลง ออกเช้า และถือว่าจุดชมวิวเป็นของแถม ไม่ใช่ตัวแผน</p></div><h2>ตามฤดูกาล</h2><div class="grid"><article class="card"><h3>March</h3><p>กำแพง ออกเช้า หยุดบ่ายสอง และคาดว่าจะเจอสีขาวตรงที่ควรเป็นวิว</p><p class="mute small">ควันหนาที่สุดในบ่ายที่ลมนิ่ง นาฬิกาจึงสำคัญกว่าทิศทาง</p></article><article class="card"><h3>April</h3><p>เดือนที่วัดได้แย่ที่สุด และร้อนที่สุด</p></article></div><h2>เกี่ยวข้องกับ</h2><ul class="kin"><li><span class="rel">story</span><a href="../../story/the-smoke/">ควันไฟ</a> — The data and where it is weak.</li><li><span class="rel">hazard</span><a href="../../hazard/smoke-riding/">ขี่ในควัน</a> — What it does to you on the bike.</li><li><span class="rel">event</span><a href="../../event/the-rains/">หน้าฝน</a> — What ends it.</li><li><span class="rel">event</span><a href="../../event/hot-season/">หน้าร้อน</a> — The same months, from the thermometer&#x27;s side.</li></ul><h2>ถูกอ้างถึงโดย</h2><ul class="kin"><li><span class="rel">hazard</span><a href="../../hazard/smoke-riding/">ขี่ในควัน</a> — The dates.</li><li><span class="rel">event</span><a href="../../event/hot-season/">หน้าร้อน</a> — The same months, from the air&#x27;s side.</li><li><span class="rel">event</span><a href="../../event/poy-sang-long/">ปอยส่างลอง</a> — The months it shares.</li><li><span class="rel">event</span><a href="../../event/the-rains/">หน้าฝน</a> — What it washes away.</li><li><span class="rel">story</span><a href="../../story/the-smoke/">ควันไฟ</a> — The season itself, as a date range.</li></ul><div class="share"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/" rel="noopener">Facebook</a><a href="https://line.me/R/msg/text/?%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B8%B2%20https%3A//nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/" rel="noopener">LINE</a><a href="https://api.whatsapp.com/send?text=%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B8%B2%20https%3A//nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/" rel="noopener">WhatsApp</a><a href="https://reddit.com/submit?url=https%3A//nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/&title=%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B8%B2" rel="noopener">Reddit</a><a href="mailto:?subject=%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B8%B2&body=https%3A//nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/">Email</a><button type="button" data-copy="https://nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/">คัดลอกลิงก์</button><button type="button" onclick="window.print()">พิมพ์</button></div><details><summary>แต่ละข้อความมาจากไหน</summary><div class="scroll"><table><thead><tr><th>Field</th><th>Tier</th><th>Source</th><th>Note</th></tr></thead><tbody><tr><td><em>default</em></td><td><span class="tier harvested">harvested</span></td><td><a href="https://open-meteo.com/en/docs/air-quality-api" rel="noopener">Open-Meteo Air Quality API (Copernicus CAMS)</a> — Open-Meteo</td><td class='small mute'></td></tr><tr><td>text_th</td><td><span class="tier inference">inference</span></td><td></td><td class='small mute'>written in Thai by this project, not machine-translated</td></tr></tbody></table></div><h3>แหล่งอ้างอิง</h3><ul class="small"><li><a href="https://open-meteo.com/en/docs/air-quality-api" rel="noopener">Open-Meteo Air Quality API (Copernicus CAMS)</a> — Open-Meteo</li><li><a href="https://en.wikipedia.org/wiki/Southeast_Asian_haze" rel="noopener">Southeast Asian haze</a> — Wikipedia (en)</li><li><a href="https://www.epa.gov/pm-pollution/final-reconsideration-national-ambient-air-quality-standards-particulate-matter-pm" rel="noopener">Final Reconsideration of the National Ambient Air Quality Standards for Particulate Matter</a> — US Environmental Protection Agency</li></ul><p class="small mute"><b>cited</b> Cited — a named source, linked · <b>harvested</b> Harvested — fetched from an open dataset, with its licence · <b>tradition</b> Tradition — general knowledge of the tradition, hedged · <b>inference</b> Inference — this project&#x27;s own reasoning from the above · <b>field</b> Field — someone stood there</p></details>
+<h1><span class="kind">ปฏิทิน</span>ช่วงเผา</h1><p class="said">สองเดือนของปีที่ทริปนี้มีเหตุผลที่จะไม่เกิดขึ้น</p><h2>คืออะไร</h2><div class="prose"><p>ราวปลายกุมภาพันธ์ถึงปลายเมษายน การเผาพื้นที่เกษตรและป่าทำให้หุบเขาภาคเหนือตอนบนของไทยและฝั่งเมียนมาที่ติดกันเต็มไปด้วยควัน จบลงเมื่อฝนแรกมา</p></div><h2>ฉบับยาว</h2><div class="prose"><p>รูปร่างที่วัดได้ จากข้อมูลรายวันสี่ปีที่สิบจุดบนเส้นทาง <strong>กุมภาพันธ์ยังดีอยู่บนดอย</strong> ค่าเฉลี่ยกุมภาพันธ์ของปายคือ 15.0 และตลอดสี่ปีไม่มีวันไหนในกุมภาพันธ์ที่เกินมาตรฐาน 24 ชั่วโมงของสหรัฐฯ ที่นั่นเลย <strong>มีนาคมกับเมษายนคือกำแพง</strong> ค่าเฉลี่ยเมษายนของปายคือ 29.8 และทั้งสามสิบวันที่วัดได้อยู่เหนือมาตรฐานนั้น <strong>พฤษภาคมจบแล้ว</strong> ปายลงมาที่ 10.0 และอยู่ต่ำต่อไป</p><p>เชียงใหม่แย่กว่าทุกเมืองบนเส้นทางตลอดช่วงนี้ ค่าเฉลี่ยมีนาคม 37.8 เทียบกับแม่ฮ่องสอน 29.1</p><p><mark class="inf">อนุมาน —</mark> ถ้าวันเดินทางล็อกไว้แล้วและตกอยู่ในช่วงนี้ ทริปก็ยังไปได้ สิ่งที่ไปไม่ได้คือวิว วางแผนวันสั้นลง ออกเช้า และถือว่าจุดชมวิวเป็นของแถม ไม่ใช่ตัวแผน</p></div><h2>ตามฤดูกาล</h2><div class="grid"><article class="card"><h3>March</h3><p>กำแพง ออกเช้า หยุดบ่ายสอง และคาดว่าจะเจอสีขาวตรงที่ควรเป็นวิว</p><p class="mute small">ควันหนาที่สุดในบ่ายที่ลมนิ่ง นาฬิกาจึงสำคัญกว่าทิศทาง</p></article><article class="card"><h3>April</h3><p>เดือนที่วัดได้แย่ที่สุด และร้อนที่สุด</p></article></div><h2>เกี่ยวข้องกับ</h2><ul class="kin"><li><span class="rel">story</span><a href="../../story/the-smoke/">ควันไฟ</a> — The data and where it is weak.</li><li><span class="rel">hazard</span><a href="../../hazard/smoke-riding/">ขี่ในควัน</a> — What it does to you on the bike.</li><li><span class="rel">event</span><a href="../../event/the-rains/">หน้าฝน</a> — What ends it.</li><li><span class="rel">event</span><a href="../../event/hot-season/">หน้าร้อน</a> — The same months, from the thermometer&#x27;s side.</li></ul><h2>ถูกอ้างถึงโดย</h2><ul class="kin"><li><span class="rel">hazard</span><a href="../../hazard/smoke-riding/">ขี่ในควัน</a> — The dates.</li><li><span class="rel">event</span><a href="../../event/hot-season/">หน้าร้อน</a> — The same months, from the air&#x27;s side.</li><li><span class="rel">event</span><a href="../../event/poy-sang-long/">ปอยส่างลอง</a> — The months it shares.</li><li><span class="rel">event</span><a href="../../event/songkran/">สงกรานต์</a> — And the same days, from the air.</li><li><span class="rel">event</span><a href="../../event/the-rains/">หน้าฝน</a> — What it washes away.</li><li><span class="rel">story</span><a href="../../story/the-smoke/">ควันไฟ</a> — The season itself, as a date range.</li></ul><div class="share"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/" rel="noopener">Facebook</a><a href="https://line.me/R/msg/text/?%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B8%B2%20https%3A//nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/" rel="noopener">LINE</a><a href="https://api.whatsapp.com/send?text=%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B8%B2%20https%3A//nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/" rel="noopener">WhatsApp</a><a href="https://reddit.com/submit?url=https%3A//nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/&title=%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B8%B2" rel="noopener">Reddit</a><a href="mailto:?subject=%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%87%E0%B9%80%E0%B8%9C%E0%B8%B2&body=https%3A//nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/">Email</a><button type="button" data-copy="https://nanobotco.github.io/mae-hong-son-loop/th/event/burning-season/">คัดลอกลิงก์</button><button type="button" onclick="window.print()">พิมพ์</button></div><details><summary>แต่ละข้อความมาจากไหน</summary><div class="scroll"><table><thead><tr><th>Field</th><th>Tier</th><th>Source</th><th>Note</th></tr></thead><tbody><tr><td><em>default</em></td><td><span class="tier harvested">harvested</span></td><td><a href="https://open-meteo.com/en/docs/air-quality-api" rel="noopener">Open-Meteo Air Quality API (Copernicus CAMS)</a> — Open-Meteo</td><td class='small mute'></td></tr><tr><td>text_th</td><td><span class="tier inference">inference</span></td><td></td><td class='small mute'>written in Thai by this project, not machine-translated</td></tr></tbody></table></div><h3>แหล่งอ้างอิง</h3><ul class="small"><li><a href="https://open-meteo.com/en/docs/air-quality-api" rel="noopener">Open-Meteo Air Quality API (Copernicus CAMS)</a> — Open-Meteo</li><li><a href="https://en.wikipedia.org/wiki/Southeast_Asian_haze" rel="noopener">Southeast Asian haze</a> — Wikipedia (en)</li><li><a href="https://www.epa.gov/pm-pollution/final-reconsideration-national-ambient-air-quality-standards-particulate-matter-pm" rel="noopener">Final Reconsideration of the National Ambient Air Quality Standards for Particulate Matter</a> — US Environmental Protection Agency</li></ul><p class="small mute"><b>cited</b> Cited — a named source, linked · <b>harvested</b> Harvested — fetched from an open dataset, with its licence · <b>tradition</b> Tradition — general knowledge of the tradition, hedged · <b>inference</b> Inference — this project&#x27;s own reasoning from the above · <b>field</b> Field — someone stood there</p></details>
 </main>
 <footer class="bot"><div class="in">
 <p><b>วงรอบแม่ฮ่องสอน</b> — หกร้อยกิโลเมตร ป้ายบอก 1,864 โค้ง และแผนที่ให้คำตอบอีกแบบ</p>

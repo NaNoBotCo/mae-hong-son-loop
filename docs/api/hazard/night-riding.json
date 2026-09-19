@@ -23,8 +23,8 @@
  },
  "kin": [
   {
-   "to": "dogs",
-   "as": "Harder to see, same swerve.",
+   "to": "annoyances",
+   "as": "The small stuff, with antidotes.",
    "rel": "hazard"
   },
   {
@@ -63,12 +63,6 @@
    "type": "leg",
    "name": "Mae Sariang to Hot",
    "as": "What this leg turns into if you start late."
-  },
-  {
-   "from": "dogs",
-   "type": "hazard",
-   "name": "Dogs",
-   "as": "When this gets worse."
   }
  ]
 }

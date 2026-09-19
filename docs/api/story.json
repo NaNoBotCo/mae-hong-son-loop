@@ -1,6 +1,6 @@
 {
  "type": "story",
- "count": 6,
+ "count": 9,
  "nodes": [
   {
    "id": "how-many-curves",
@@ -137,6 +137,18 @@
      "as": "How they get counted."
     },
     {
+     "from": "how-old-is-this-ride",
+     "type": "story",
+     "name": "How old is this ride",
+     "as": "The other thing people argue about."
+    },
+    {
+     "from": "small-bike-more-fun",
+     "type": "story",
+     "name": "Why a small bike is more fun here",
+     "as": "Where the densities come from."
+    },
+    {
      "from": "which-way-round",
      "type": "story",
      "name": "Clockwise or counter-clockwise",
@@ -147,6 +159,148 @@
      "type": "art",
      "name": "The 1,864 sign",
      "as": "The three numbers, laid out."
+    }
+   ]
+  },
+  {
+   "id": "how-old-is-this-ride",
+   "type": "story",
+   "names": {
+    "name": "How old is this ride",
+    "th": "ทริปนี้เก่าแค่ไหน",
+    "said": "The road is ancient and the ride is not. The loop was not sealed end to end until 1998.",
+    "said_th": "ถนนเก่าแก่ แต่การขี่เที่ยวไม่ได้เก่า วงรอบนี้เพิ่งลาดยางครบทั้งเส้นเมื่อ พ.ศ. 2541"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "history"
+   },
+   "text": {
+    "what": "People have moved along this line for centuries and have been riding it for pleasure for under thirty years. Both halves of that are worth knowing.",
+    "story": "**The southern road is old.** Thai Wikipedia's article on Route 108 describes it as an ancient route, because it linked Chiang Mai — the centre of the Lanna kingdom — with **Mawlamyine**, the port on the Andaman Sea in Mon State, crossing the border at the Salween in what is now Mae Sariang district. That is a trade road to the Indian Ocean, and it was walked long before it was driven.\n\n**Then the dates.** The Highways Department built it up from a rough track into a **gravel road between 1957 and 1963**, about five metres wide. Asphalt came much later: a surfacing programme ran **from 1987 to 1990** in named sections — Hot to Mae Sariang, Mae La Noi to Khun Yuam, Khun Yuam to Ban Huai Pong, Ban Huai Pong to Mae Hong Son, Mae Sariang to Mae La Noi — and the whole road was **finished in 1998**.\n\n**The northern road is younger still.** Work on the Chiang Mai–Pai–Mae Hong Son road, today's Route 1095, started in **1967** and the paving was not finished until the **early-to-mid 1990s**.\n\n*Inference —* put those together and the circuit as a thing you would ride for fun, on a road sealed the whole way, is **about thirty years old**. Anyone who did it in the 1980s was doing something else entirely: gravel, five metres wide, on a road that took a day and a half.\n\n**How many people do it now?** Not on this disk — nobody publishes a count for the loop. What is published is a symptom: the Wikipedia article on Pai records that in the November-to-March high season, visitor numbers swell to the point that the town has traffic jams and runs short of electricity, water and petrol. Pai was a quiet Shan market village before this road was sealed."
+   },
+   "text_th": {
+    "what": "ผู้คนเดินทางตามแนวนี้มาหลายศตวรรษ แต่ขี่มันเพื่อความสนุกมาไม่ถึงสามสิบปี ทั้งสองส่วนน่ารู้พอๆ กัน",
+    "story": "**ถนนสายใต้เก่าแก่** บทความวิกิพีเดียภาษาไทยเรื่องทางหลวง 108 บรรยายว่าเป็นเส้นทางโบราณ เพราะมันเชื่อมเชียงใหม่ ซึ่งเป็นศูนย์กลางอาณาจักรล้านนา กับ **เมืองมะละแหม่ง** เมืองท่าชายฝั่งอันดามันในรัฐมอญ โดยข้ามชายแดนที่แม่น้ำสาละวินในเขตอำเภอแม่สะเรียงปัจจุบัน นั่นคือถนนการค้าสู่มหาสมุทรอินเดีย และมีคนเดินก่อนจะมีคนขับ\n\n**แล้วก็ถึงตัวเลขปี** กรมทางหลวงสร้างจากทางลำลองขึ้นเป็น **ทางลูกรังในช่วง พ.ศ. 2500–2506** กว้างราวห้าเมตร ส่วนแอสฟัลต์มาทีหลังมาก โครงการปูผิวทางดำเนินระหว่าง **พ.ศ. 2530–2533** แบ่งเป็นตอนๆ คือ ฮอด–แม่สะเรียง แม่ลาน้อย–ขุนยวม ขุนยวม–บ้านห้วยโป่ง บ้านห้วยโป่ง–แม่ฮ่องสอน และแม่สะเรียง–แม่ลาน้อย จนเสร็จตลอดสายใน **พ.ศ. 2541**\n\n**ถนนสายเหนือยิ่งใหม่กว่า** งานก่อสร้างถนนเชียงใหม่–ปาย–แม่ฮ่องสอน ซึ่งคือทางหลวง 1095 ในปัจจุบัน เริ่มเมื่อ **พ.ศ. 2510** และการลาดยางไม่เสร็จจนถึง **ต้นถึงกลางทศวรรษ 2530**\n\n*อนุมาน —* เอามารวมกันแล้ว วงรอบนี้ในฐานะสิ่งที่คุณจะขี่เพื่อความสนุก บนถนนที่ลาดยางตลอดสาย มีอายุ **ราวสามสิบปี** ใครที่ทำมันในทศวรรษ 2520 กำลังทำอย่างอื่นไปเลย ทางลูกรังกว้างห้าเมตร บนถนนที่ใช้เวลาวันครึ่ง\n\n**ตอนนี้มีคนทำกี่คน** ไม่มีข้อมูลในชุดนี้ ไม่มีใครเผยแพร่ตัวเลขของวงรอบนี้ สิ่งที่เผยแพร่คืออาการ บทความวิกิพีเดียเรื่องปายบันทึกว่าในฤดูท่องเที่ยวเดือนพฤศจิกายนถึงมีนาคม จำนวนผู้มาเยือนเพิ่มจนเมืองรถติด และขาดแคลนไฟฟ้า น้ำ และน้ำมัน ปายเคยเป็นหมู่บ้านตลาดไทใหญ่ที่เงียบสงบก่อนถนนสายนี้จะลาดยาง"
+   },
+   "kin": [
+    {
+     "to": "route-108",
+     "as": "The ancient half, and the one that took until 1998.",
+     "rel": "road"
+    },
+    {
+     "to": "route-1095",
+     "as": "The younger half.",
+     "rel": "road"
+    },
+    {
+     "to": "mae-sariang",
+     "as": "Where the old road crossed to Burma.",
+     "rel": "town"
+    },
+    {
+     "to": "pai",
+     "as": "A quiet Shan market village, before the seal.",
+     "rel": "town"
+    },
+    {
+     "to": "how-many-curves",
+     "as": "The other thing people argue about.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:thwp-108",
+    "s:thwp-1095",
+    "s:wp-pai-thailand",
+    "s:wp-mae-sariang-district"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:thwp-108"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "how-old-is-this-ride/how-old-is-this-ride-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-a04b28c.jpg",
+     "source": "commons",
+     "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "::::=UT=::::",
+     "credit": "https://web.archive.org/web/20161031193728/http://www.panoramio.com/photo/124380306",
+     "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+     "date": "Taken on 15 July 2015",
+     "primary": true,
+     "sha256": "c97a1bf171d1c5ae45c0afb7de10cf858c0d9832fc07d5f3cd6e30061d6644c6"
+    },
+    {
+     "file": "how-old-is-this-ride/how-old-is-this-ride-mae-na-toeng-pai-district-mae-hong-son-58130-thailan-93478b0.jpg",
+     "source": "commons",
+     "title": "File:Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand - panoramio (1).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Mae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMae_Na_Toeng%2C_Pai_District%2C_Mae_Hong_Son_58130%2C_Thailand_-_panoramio_%281%29.jpg",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "::::=UT=::::",
+     "credit": "https://web.archive.org/web/20161031193239/http://www.panoramio.com/photo/124380303",
+     "alt": "Mae Na Toeng, Pai District, Mae Hong Son 58130, Thailand",
+     "date": "Taken on 15 July 2015",
+     "primary": false,
+     "sha256": "42a4e24e5a71b08eca40034450f636a08a4cf5811aa4ae11553714dae37415fc"
+    },
+    {
+     "file": "how-old-is-this-ride/how-old-is-this-ride-ruta-1095-240125-norteam-rica-s-a-metalbus-urbano-me-b6aca27.jpg",
+     "source": "commons",
+     "title": "File:Ruta 1095 240125 Norteamérica S.A. Metalbus Urbano Mercedes-Benz OF-914.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Ruta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ARuta_1095_240125_Norteam%C3%A9rica_S.A._Metalbus_Urbano_Mercedes-Benz_OF-914.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "Fabco09",
+     "credit": "Own work",
+     "alt": "Route 1095.",
+     "date": "2025-01-24 15:21:38",
+     "primary": false,
+     "sha256": "f89cb77917c2d77186e2623767a8bb088b582a358dc18873f596a2149fd3b5b0"
+    },
+    {
+     "file": "how-old-is-this-ride/how-old-is-this-ride-thailand-route-1095.jpg",
+     "source": "commons",
+     "title": "File:Thailand Route 1095.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Thailand_Route_1095.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AThailand_Route_1095.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Christophe95",
+     "credit": "Own work",
+     "alt": "Thailand Route 1095 and a minibus going from Chiang Mai to Pai in Mae Taeng District, Chiang Mai Province.",
+     "date": "2018-08-29 14:08:13",
+     "primary": false,
+     "sha256": "98d29fc18592e9627c27b08638368c3501bd901d778593d82f7bf4e4b77837fc"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "mae-sam-laep",
+     "type": "stop",
+     "name": "Mae Sam Laep and the Salween",
+     "as": "The old road to Burma crossed near here."
     }
    ]
   },
@@ -348,6 +502,262 @@
      "type": "story",
      "name": "Clockwise or counter-clockwise",
      "as": "The same question, answered month by month."
+    }
+   ]
+  },
+  {
+   "id": "small-bike-more-fun",
+   "type": "story",
+   "names": {
+    "name": "Why a small bike is more fun here",
+    "th": "ทำไมรถเล็กสนุกกว่าที่นี่",
+    "said": "On a road with four curves a kilometre, power stops being the interesting variable.",
+    "said_th": "บนถนนที่มีสี่โค้งต่อกิโลเมตร แรงม้าเลิกเป็นตัวแปรที่น่าสนใจ"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "argument"
+   },
+   "text": {
+    "what": "The measured density of this road is the argument for renting the cheap thing, and it is not a compromise.",
+    "story": "*Inference —* Route 1095 measures 4.03 curves a kilometre, Route 1263 measures 4.25 and Route 1096 measures 4.46. At those densities you are never on a straight long enough for horsepower to express itself. What you are doing instead, continuously, is choosing a line, judging a radius you cannot fully see, and carrying momentum through a corner rather than making it with the throttle.\n\nA 110cc step-through is completely absorbing at that game, because it has no power to fall back on and every bit of speed has to be kept rather than bought. There is a specific pleasure in arriving at the top of a climb having not touched the brakes, and it is available on the cheapest machine in the shop.\n\nThe measured figures also say something less obvious: **the road with the merchandise is only third.** Route 1096, the Samoeng day loop an hour from Chiang Mai, is denser than the famous one. So is the 1263.\n\n*Inference —* which means the best riding on this network is not where the shirts are sold, and a rider on a 125 has access to all of it."
+   },
+   "text_th": {
+    "what": "ความหนาแน่นของโค้งที่วัดได้บนถนนสายนี้คือเหตุผลที่ควรเช่ารถถูกๆ และไม่ใช่การยอมลดมาตรฐาน",
+    "story": "*อนุมาน —* ทางหลวง 1095 วัดได้ 4.03 โค้งต่อกิโลเมตร ทางหลวง 1263 วัดได้ 4.25 และทางหลวง 1096 วัดได้ 4.46 ที่ความหนาแน่นแบบนั้น คุณไม่เคยอยู่บนทางตรงนานพอให้แรงม้าได้แสดงตัว สิ่งที่คุณทำแทนอย่างต่อเนื่องคือการเลือกไลน์ กะรัศมีที่มองไม่เห็นทั้งหมด และรักษาโมเมนตัมผ่านโค้ง แทนที่จะสร้างมันขึ้นมาด้วยคันเร่ง\n\nรถออโต้ 110 ซีซี สนุกเต็มที่กับเกมนั้น เพราะมันไม่มีแรงให้พึ่ง และความเร็วทุกหน่วยต้องรักษาไว้ ไม่ใช่ซื้อเอา มีความสุขเฉพาะตัวในการไปถึงยอดเขาโดยไม่ได้แตะเบรกเลย และมันมีให้ใช้บนรถที่ถูกที่สุดในร้าน\n\nตัวเลขที่วัดได้ยังบอกอะไรที่ไม่ชัดนัก **ถนนที่มีเสื้อขายอยู่อันดับสามเท่านั้น** ทางหลวง 1096 วงรอบสะเมิงที่ห่างเชียงใหม่ชั่วโมงเดียว หนาแน่นกว่าสายดัง ทางหลวง 1263 ก็เช่นกัน\n\n*อนุมาน —* แปลว่าการขี่ที่ดีที่สุดในเครือข่ายนี้ไม่ได้อยู่ที่ที่ขายเสื้อ และคนขี่รถ 125 เข้าถึงมันได้ทั้งหมด"
+   },
+   "kin": [
+    {
+     "to": "step-through-110",
+     "as": "The cheapest thing in the shop, and the point.",
+     "rel": "bike"
+    },
+    {
+     "to": "route-1096",
+     "as": "The densest road measured here.",
+     "rel": "road"
+    },
+    {
+     "to": "samoeng-warmup",
+     "as": "A hundred kilometres from your hotel.",
+     "rel": "leg"
+    },
+    {
+     "to": "how-many-curves",
+     "as": "Where the densities come from.",
+     "rel": "story"
+    }
+   ],
+   "sources": [
+    "s:mhs-measured",
+    "s:osm"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "harvested",
+     "source": "s:mhs-measured"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "small-bike-more-fun/small-bike-more-fun-honda-wave125s-motorcycle-taxi-at-cha-am.jpg",
+     "source": "commons",
+     "title": "File:Honda Wave125S motorcycle taxi at Cha-am.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Honda_Wave125S_motorcycle_taxi_at_Cha-am.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Wave125S_motorcycle_taxi_at_Cha-am.jpg",
+     "license": "CC BY-SA 2.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+     "author": "Wit Pimkanchanapong",
+     "credit": "originally posted to Flickr as Cha-am motorcycle taxi",
+     "alt": "Cha-am motorcycle taxi.\n\nHonda Wave125S",
+     "date": "2007-05-31 02:18:45",
+     "primary": true,
+     "sha256": "f7d30886f1702e843a8c7931e7db14409e32523ad2366453a7024d61e6b4dba1"
+    },
+    {
+     "file": "small-bike-more-fun/small-bike-more-fun-honda-wave-100-s.jpg",
+     "source": "commons",
+     "title": "File:Honda Wave 100 S.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Honda_Wave_100_S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Wave_100_S.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "M.rJirapat",
+     "credit": "Own work",
+     "alt": "Honda Wave 100 S",
+     "date": "2017-02-23 17:12:38",
+     "primary": false,
+     "sha256": "1f707b1d284e489726431f7a5b1290593e6785d515533e3b1c302661ec453eda"
+    },
+    {
+     "file": "small-bike-more-fun/small-bike-more-fun-honda-wave-at-chiang-mai.jpg",
+     "source": "commons",
+     "title": "File:Honda Wave at Chiang Mai.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Honda_Wave_at_Chiang_Mai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Wave_at_Chiang_Mai.jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "John Wigham",
+     "credit": "originally posted to Flickr as Motor Cyclist, Soi Santitham Santirak",
+     "alt": "Motor Cyclist, Soi Santitham Santirak / Chiang Mai, Thailand.\n\nHonda Wave",
+     "date": "2007-02-21 06:42:01",
+     "primary": false,
+     "sha256": "90e513a1bd9d9c5bdfdc8a6803c63c61e3af4b649078c1ba1ac1f4b40c9f8c17"
+    },
+    {
+     "file": "small-bike-more-fun/small-bike-more-fun-honda-wave-with-multi-purpose-sidecar-thailand.jpg",
+     "source": "commons",
+     "title": "File:Honda Wave with multi-purpose sidecar - Thailand.JPG",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Honda_Wave_with_multi-purpose_sidecar_-_Thailand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Wave_with_multi-purpose_sidecar_-_Thailand.JPG",
+     "license": "CC BY-SA 3.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+     "author": "User:Mattes",
+     "credit": "Own work",
+     "alt": "Honda Wave 125 with multi-purpose sidecar, seen in Thailand.",
+     "date": "2009-03-07",
+     "primary": false,
+     "sha256": "3948c98d472e0c71f971d863376c1fc324e200a6e15d8a52acc6edc94fc990ee"
+    }
+   ],
+   "kin_in": []
+  },
+  {
+   "id": "ten-minutes",
+   "type": "story",
+   "names": {
+    "name": "The ten minutes after you stop",
+    "th": "สิบนาทีหลังจากคุณหยุด",
+    "said": "The engine ticks as it cools, your hearing comes back, and the thing you climbed for is just sitting there.",
+    "said_th": "เสียงเครื่องยนต์ดังติ๊กๆ ขณะเย็นตัว การได้ยินกลับคืนมา และสิ่งที่คุณไต่ขึ้นมาดูก็นั่งอยู่ตรงนั้น"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "argument"
+   },
+   "text": {
+    "what": "Nobody puts this in an itinerary and it is most of what the trip is made of.",
+    "story": "*Inference —* a motorcycle removes the glass. You arrive somewhere already smelling it — wet leaf litter on the climbs, woodsmoke through the villages, hot dust where the tarmac has been in the sun, and the particular sweetness of teak forest after rain. None of that reaches you through a car window.\n\nThen you stop, and there is a gap. The engine is ticking. Your ears, which have had wind in them for an hour, come back. Whatever it was — the valley, the chedi, the reservoir with mist on it — has been there the whole time and you can finally hear it.\n\nThat happens six or seven times a day on this circuit, because the road is short and the stops are frequent. It is the reason people who have ridden it once talk about it the way they do, and it is completely unphotographable, which is why nobody puts it on a list.\n\n*Inference —* the practical version, if there has to be one: plan fewer kilometres than you think. The ten minutes is the product. The riding between them is how you get more of them."
+   },
+   "text_th": {
+    "what": "ไม่มีใครใส่เรื่องนี้ไว้ในแผนการเดินทาง และมันคือเกือบทั้งหมดของสิ่งที่ทริปนี้ทำด้วย",
+    "story": "*อนุมาน —* มอเตอร์ไซค์เอากระจกออกไป คุณไปถึงที่ไหนสักแห่งโดยได้กลิ่นมันก่อนแล้ว ใบไม้เปียกบนทางขึ้นเขา ควันฟืนตอนผ่านหมู่บ้าน ฝุ่นร้อนตรงที่ยางมะตอยโดนแดดมาทั้งวัน และกลิ่นหวานเฉพาะตัวของป่าสักหลังฝน ไม่มีอะไรในนั้นผ่านกระจกรถยนต์มาถึงคุณได้\n\nแล้วคุณก็หยุด และเกิดช่องว่างขึ้น เครื่องยนต์ดังติ๊กๆ หูของคุณที่มีลมอยู่ในนั้นมาชั่วโมงหนึ่งก็กลับมา อะไรก็ตามที่อยู่ตรงนั้น หุบเขา เจดีย์ อ่างเก็บน้ำที่มีหมอกลอย มันอยู่ตรงนั้นมาตลอด และตอนนี้คุณได้ยินมันแล้ว\n\nเรื่องนี้เกิดขึ้นหกหรือเจ็ดครั้งต่อวันบนเส้นทางนี้ เพราะถนนสั้นและจุดแวะถี่ เป็นเหตุผลที่คนที่เคยขี่มันครั้งหนึ่งพูดถึงมันแบบนั้น และถ่ายรูปไม่ได้เลย จึงไม่มีใครใส่ไว้ในรายการ\n\n*อนุมาน —* ฉบับใช้งานจริง ถ้าต้องมี วางแผนระยะทางให้น้อยกว่าที่คิด สิบนาทีนั้นคือตัวสินค้า ส่วนการขี่ระหว่างนั้นคือวิธีที่จะได้มันมากขึ้น"
+   },
+   "kin": [
+    {
+     "to": "roadside-stall",
+     "as": "Where it usually happens.",
+     "rel": "coffee"
+    },
+    {
+     "to": "pang-ung",
+     "as": "The best of them, at six in the morning.",
+     "rel": "stop"
+    },
+    {
+     "to": "where-to-put-the-nights",
+     "as": "Plan fewer kilometres than you think.",
+     "rel": "stay"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-touring"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "ten-minutes/ten-minutes-morning-sea-of-mist-at-si-nan19.jpg",
+     "source": "commons",
+     "title": "File:Morning sea of mist at Si Nan19.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Morning_sea_of_mist_at_Si_Nan19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan19.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Jomis 9",
+     "credit": "Own work",
+     "alt": "อุทยานแห่งชาติศรีน่าน",
+     "date": "2022-11-17 07:22:15",
+     "primary": true,
+     "sha256": "bd861a58f25f12a8615ff83e94580b2c3baaba8d477e28853a9d635bcb57dcf0"
+    },
+    {
+     "file": "ten-minutes/ten-minutes-morning-sea-of-mist-at-si-nan23.jpg",
+     "source": "commons",
+     "title": "File:Morning sea of mist at Si Nan23.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Morning_sea_of_mist_at_Si_Nan23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan23.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Jomis 9",
+     "credit": "Own work",
+     "alt": "อุทยานแห่งชาติศรีน่าน",
+     "date": "2022-11-17 07:33:25",
+     "primary": false,
+     "sha256": "202da487a4a57f7d9603398de5d954eeaed3a44d97e6e9763c1571796dca446f"
+    },
+    {
+     "file": "ten-minutes/ten-minutes-morning-sea-of-mist-at-si-nan6.jpg",
+     "source": "commons",
+     "title": "File:Morning sea of mist at Si Nan6.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Morning_sea_of_mist_at_Si_Nan6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AMorning_sea_of_mist_at_Si_Nan6.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Jomis 9",
+     "credit": "Own work",
+     "alt": "อุทยานแห่งชาติศรีน่าน",
+     "date": "2022-11-17 07:14:37",
+     "primary": false,
+     "sha256": "db95f6351f2a6687a0a65c06daf03d735474d2e8235ea1227f56877aec99c5dc"
+    },
+    {
+     "file": "ten-minutes/ten-minutes-sunrise-over-the-sea-of-mist-at-khao-phang-chumphon-thailand.jpg",
+     "source": "commons",
+     "title": "File:Sunrise over the sea of mist at Khao Phang , Chumphon, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sunrise_over_the_sea_of_mist_at_Khao_Phang_%2C_Chumphon%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ASunrise_over_the_sea_of_mist_at_Khao_Phang_%2C_Chumphon%2C_Thailand.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "Kittisak Yangsoh",
+     "credit": "Own work",
+     "alt": "พระอาทิตย์ขึ้นเหนือทะเลหมอกที่เขาพัง ชุมพร ประเทศไทย",
+     "date": "2025-12-21 06:55:36",
+     "primary": false,
+     "sha256": "d02dfd66475f3c4554705f3f71129f16f599c3f6bd6882a5fe30901a3680ad9c"
+    }
+   ],
+   "kin_in": [
+    {
+     "from": "huai-nam-dang",
+     "type": "stop",
+     "name": "Huai Nam Dang",
+     "as": "What you actually came up here for."
     }
    ]
   },

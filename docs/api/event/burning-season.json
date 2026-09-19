@@ -100,6 +100,12 @@
    "as": "The months it shares."
   },
   {
+   "from": "songkran",
+   "type": "event",
+   "name": "Songkran",
+   "as": "And the same days, from the air."
+  },
+  {
    "from": "the-rains",
    "type": "event",
    "name": "The rains",

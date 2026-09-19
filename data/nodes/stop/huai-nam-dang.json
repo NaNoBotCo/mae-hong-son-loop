@@ -1,0 +1,137 @@
+{
+ "id": "huai-nam-dang",
+ "type": "stop",
+ "names": {
+  "name": "Huai Nam Dang",
+  "th": "ห้วยน้ำดัง",
+  "said": "The sea of mist people set an alarm for, on the ridge between Mae Malai and Pai.",
+  "said_th": "ทะเลหมอกที่คนตั้งนาฬิกาปลุกมาดู อยู่บนสันเขาระหว่างแม่มาลัยกับปาย"
+ },
+ "region": [
+  "cnx",
+  "mhs",
+  "loop",
+  "north-leg"
+ ],
+ "facets": {
+  "kind": "viewpoint",
+  "price": "mid"
+ },
+ "text": {
+  "what": "A national park straddling the Chiang Mai and Mae Hong Son line, right on Route 1095, with a viewpoint that looks east over cloud at dawn.",
+  "story": "*Inference —* the rare one on this circuit that is directly on the route rather than up a dead end, which matters because a dawn viewpoint you have to detour to is a dawn you will not see.\n\nThe mist is a cool-season, still-air, before-sunrise phenomenon — the same conditions that make Pang Ung work, a hundred kilometres west. From here the sun comes up over the ridges toward Chiang Mai with cloud filling the valleys underneath.\n\n*Inference —* the arrangement that works is sleeping near the top rather than riding up from Pai in the dark. There is camping and there are park bungalows.\n\n**Not on this disk:** current fees, bungalow booking or road conditions to the viewpoint."
+ },
+ "text_th": {
+  "what": "อุทยานแห่งชาติที่คร่อมเส้นแบ่งเชียงใหม่กับแม่ฮ่องสอน อยู่ติดทางหลวง 1095 มีจุดชมวิวที่มองไปทางตะวันออกเหนือทะเลเมฆตอนรุ่งสาง",
+  "story": "*อนุมาน —* เป็นจุดที่หายากบนเส้นทางนี้ คืออยู่บนเส้นทางเลย ไม่ใช่ต้องแยกเข้าทางตัน ซึ่งสำคัญ เพราะจุดชมวิวรุ่งสางที่ต้องขับอ้อมไปคือรุ่งสางที่คุณจะไม่ได้เห็น\n\nทะเลหมอกเป็นปรากฏการณ์ของฤดูหนาว อากาศนิ่ง ก่อนพระอาทิตย์ขึ้น เงื่อนไขเดียวกับที่ทำให้ปางอุ๋งเป็นปางอุ๋ง ซึ่งอยู่ห่างไปทางตะวันตกร้อยกิโลเมตร จากที่นี่พระอาทิตย์ขึ้นเหนือสันเขาทางเชียงใหม่ โดยมีเมฆเต็มหุบข้างล่าง\n\n*อนุมาน —* วิธีที่ได้ผลคือนอนใกล้ยอด ไม่ใช่ขี่ขึ้นมาจากปายตอนมืด มีที่กางเต็นท์และมีบ้านพักอุทยาน\n\n**ไม่มีข้อมูลในชุดนี้** ค่าธรรมเนียม การจองบ้านพัก หรือสภาพถนนขึ้นจุดชมวิวในปัจจุบัน"
+ },
+ "kin": [
+  {
+   "to": "cnx-to-pai",
+   "as": "The leg it sits on top of.",
+   "rel": "leg"
+  },
+  {
+   "to": "cool-season",
+   "as": "The months the mist happens.",
+   "rel": "event"
+  },
+  {
+   "to": "pang-ung",
+   "as": "The same dawn, a hundred kilometres west.",
+   "rel": "stop"
+  },
+  {
+   "to": "ten-minutes",
+   "as": "What you actually came up here for.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-mae-taeng-district",
+  "s:wp-pai-district",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.305,
+  "lon": 98.61,
+  "precision": "town"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "huai-nam-dang/huai-nam-dang-1080-huai-nam-dang-national-park-01.jpg",
+   "source": "commons",
+   "title": "File:1080-Huai-Nam-Dang-National-Park-01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/1080-Huai-Nam-Dang-National-Park-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A1080-Huai-Nam-Dang-National-Park-01.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Sirapa Atikomchakorn",
+   "credit": "Own work",
+   "alt": "This is a photo of a natural heritage site in Thailand, id: 1080",
+   "date": "2016-06-29",
+   "primary": true,
+   "sha256": "60393d549b5d8449347f42db38f9a8d6c648954f1d07d71bc6f7c1812ae6755f"
+  },
+  {
+   "file": "huai-nam-dang/huai-nam-dang-1080-huai-nam-dang-national-park-02.jpg",
+   "source": "commons",
+   "title": "File:1080-Huai-Nam-Dang-National-Park-02.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/1080-Huai-Nam-Dang-National-Park-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3A1080-Huai-Nam-Dang-National-Park-02.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Sirapa Atikomchakorn",
+   "credit": "Own work",
+   "alt": "Hill Pine Camp, Huai Nam Dang National Park, Chiang Mai Province",
+   "date": "2016-06-29",
+   "primary": false,
+   "sha256": "cc4f976e2aba65ca9a525dd2d8969481ecd55fa018509b34238d2b32d08f7996"
+  },
+  {
+   "file": "huai-nam-dang/huai-nam-dang-mountain-garden-in-morning-light.jpg",
+   "source": "commons",
+   "title": "File:Mountain Garden in Morning Light.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Mountain_Garden_in_Morning_Light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AMountain_Garden_in_Morning_Light.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Paktaotik123456",
+   "credit": "Own work",
+   "alt": "Beautiful scenery during sunrise and mountain range of Huai Nam Dang National park at Chiang Mai in Thailand.",
+   "date": "2025-12-20 11:26:41",
+   "primary": false,
+   "sha256": "3ddca00b5b907782203ca0924d2149f34362fd4dd9c3cac02a45d7c648c91e41"
+  },
+  {
+   "file": "huai-nam-dang/huai-nam-dang-sunrise-above-the-sea-of-mist.jpg",
+   "source": "commons",
+   "title": "File:Sunrise Above the Sea of Mist.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Sunrise_Above_the_Sea_of_Mist.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASunrise_Above_the_Sea_of_Mist.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Paktaotik123456",
+   "credit": "Own work",
+   "alt": "View point of Landscape, fog, flower and mountain at Huai Nam Dang National Park, Chiang Mai, Thailand",
+   "date": "2025-12-20 11:25:07",
+   "primary": false,
+   "sha256": "12435292590e53496f13542a06f85cefdf3f617639ceb914e30dc8e8248498c4"
+  }
+ ]
+}

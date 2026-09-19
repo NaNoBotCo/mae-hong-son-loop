@@ -48,8 +48,8 @@
    "rel": "kit"
   },
   {
-   "to": "loaded-bike",
-   "as": "What the weight does when the road turns down.",
+   "to": "annoyances",
+   "as": "The small stuff, with antidotes.",
    "rel": "hazard"
   },
   {
@@ -110,6 +110,12 @@
    "type": "town",
    "name": "Mae Hong Son",
    "as": "The only sensible forwarding address on the circuit."
+  },
+  {
+   "from": "annoyances",
+   "type": "hazard",
+   "name": "Annoyances",
+   "as": "Or do not carry it at all."
   },
   {
    "from": "bus-parcel",

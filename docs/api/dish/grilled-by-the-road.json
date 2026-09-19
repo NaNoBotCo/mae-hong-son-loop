@@ -1,0 +1,124 @@
+{
+ "id": "grilled-by-the-road",
+ "type": "dish",
+ "names": {
+  "name": "Grilled by the road",
+  "th": "ของย่างริมทาง",
+  "said": "Chicken flattened on a split bamboo, sticky rice, som tam, and a plastic table in the shade.",
+  "said_th": "ไก่แบนบนไม้ไผ่ผ่าซีก ข้าวเหนียว ส้มตำ และโต๊ะพลาสติกในร่ม",
+  "rtgs": "gai yang"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "grill",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "The roadside grill is the most reliable good meal between towns, and you smell it before you see it.",
+  "story": "*Tradition holds —* *gai yang* is chicken butterflied flat, clamped in split bamboo and grilled slowly over charcoal at the roadside; it goes with sticky rice and *som tam*, green papaya pounded with lime, chilli, fish sauce and tomato. Pork skewers, grilled river fish packed in salt, and sausages are on the same grills.\n\n*Inference —* the smell is the point. On a bike you get it a hundred metres before the stall, which is enough warning to stop, and it is the single most common reason a planned four-hour leg becomes five.\n\n*Tradition holds —* the northern sausage, *sai ua*, is the local one: pork with lemongrass, galangal, makrut leaf and chilli, coiled and grilled. It is sold by weight at every market on this circuit and it travels in a bag on the bike better than anything else here."
+ },
+ "text_th": {
+  "what": "เตาย่างริมทางคือมื้อดีที่แน่นอนที่สุดระหว่างเมือง และคุณจะได้กลิ่นก่อนเห็น",
+  "story": "*ตามธรรมเนียม —* ไก่ย่างคือไก่ผ่าแบน หนีบด้วยไม้ไผ่ผ่าซีก ย่างช้าๆ บนถ่านริมทาง กินกับข้าวเหนียวและส้มตำ มะละกอเขียวตำกับมะนาว พริก น้ำปลา และมะเขือเทศ บนเตาเดียวกันยังมีหมูปิ้ง ปลาเผาพอกเกลือ และไส้กรอก\n\n*อนุมาน —* กลิ่นคือหัวใจ บนมอเตอร์ไซค์คุณได้กลิ่นก่อนถึงแผงร้อยเมตร ซึ่งเตือนทันพอดีให้จอด และเป็นเหตุผลที่พบบ่อยที่สุดที่ช่วงทางซึ่งวางแผนไว้สี่ชั่วโมงกลายเป็นห้า\n\n*ตามธรรมเนียม —* ไส้อั่วคือไส้กรอกของภาคเหนือ หมูผสมตะไคร้ ข่า ใบมะกรูด และพริก ขดเป็นวงแล้วย่าง ขายเป็นน้ำหนักในทุกตลาดบนเส้นทางนี้ และใส่ถุงติดรถไปได้ดีกว่าอะไรทั้งหมดที่นี่"
+ },
+ "kin": [
+  {
+   "to": "sticky-rice",
+   "as": "What it is eaten with, and what carries it.",
+   "rel": "dish"
+  },
+  {
+   "to": "morning-market",
+   "as": "Where the sausage is sold by weight.",
+   "rel": "dish"
+  },
+  {
+   "to": "khun-yuam-to-mae-sariang",
+   "as": "The leg with the most roadside grills on it.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:wp-thai-cuisine",
+  "s:wp-nam-phrik"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "tradition"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "grilled-by-the-road/grilled-by-the-road-erizo-de-mar-viol-ceo-sphaerechinus-granularis-madei-9802f14.jpg",
+   "source": "commons",
+   "title": "File:Erizo de mar violáceo (Sphaerechinus granularis), Madeira, Portugal, 2019-05-31, DD 40.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Erizo_de_mar_viol%C3%A1ceo_%28Sphaerechinus_granularis%29%2C_Madeira%2C_Portugal%2C_2019-05-31%2C_DD_40.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AErizo_de_mar_viol%C3%A1ceo_%28Sphaerechinus_granularis%29%2C_Madeira%2C_Portugal%2C_2019-05-31%2C_DD_40.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Diego Delso",
+   "credit": "Own work",
+   "alt": "Purple sea urchin (Sphaerechinus granularis), Garajau Marine Nature Reserve, Madeira, Portugal.",
+   "date": "2019-05-31 15:35:29",
+   "primary": true,
+   "sha256": "6fd393618e82721daea24091972ebfb4fb274908d535cee1cdc00b113d298748"
+  },
+  {
+   "file": "grilled-by-the-road/grilled-by-the-road-restaurant-kiin-kiin-chiang-mai-p-lse-6200716210.jpg",
+   "source": "commons",
+   "title": "File:Restaurant Kiin Kiin Chiang mai-pølse (6200716210).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Restaurant_Kiin_Kiin_Chiang_mai-p%C3%B8lse_%286200716210%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ARestaurant_Kiin_Kiin_Chiang_mai-p%C3%B8lse_%286200716210%29.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "cyclonebill from Copenhagen, Denmark",
+   "credit": "Restaurant Kiin Kiin: Chiang mai-pølse\n\nUploaded by FAEP",
+   "alt": "Restaurant Kiin Kiin: Chiang mai-pølse (Chiang mai sausage)",
+   "date": "2011-09-27 20:21",
+   "primary": false,
+   "sha256": "c7751a4495648283490962a57852035b2f046f93f53d578aa4b84d1cf3c12731"
+  },
+  {
+   "file": "grilled-by-the-road/grilled-by-the-road-sai-ua-namo-2025-10-28.jpg",
+   "source": "commons",
+   "title": "File:Sai Ua - Namo 2025-10-28.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sai_Ua_-_Namo_2025-10-28.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASai_Ua_-_Namo_2025-10-28.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "Andy Li",
+   "credit": "Own work",
+   "alt": "Description on menu: \"spicy northen thai pork sausage\"",
+   "date": "2025-10-28 19:48:12",
+   "primary": false,
+   "sha256": "cb0a9ee6a307f405a41bf65773f95241ba3e44208b446b75c1a4fe070b537fc9"
+  },
+  {
+   "file": "grilled-by-the-road/grilled-by-the-road-som-tam-or-thai-green-papaya-salad.jpg",
+   "source": "commons",
+   "title": "File:Som Tam or Thai Green Papaya Salad.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Som_Tam_or_Thai_Green_Papaya_Salad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASom_Tam_or_Thai_Green_Papaya_Salad.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Sumit Surai",
+   "credit": "Own work",
+   "alt": "Made from shredded green papaya, this is a spicy thai salad.\nThis photo was taken at SOI - The Asian Street Kitchen, Kolkata.",
+   "date": "2017-01-15 19:56:24",
+   "primary": false,
+   "sha256": "d1791a561e33e494f30a9463b07c639c7dae839244d9c3246c28dfb546af1756"
+  }
+ ],
+ "kin_in": []
+}

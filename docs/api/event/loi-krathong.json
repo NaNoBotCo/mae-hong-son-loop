@@ -1,0 +1,129 @@
+{
+ "id": "loi-krathong",
+ "type": "event",
+ "names": {
+  "name": "Loi Krathong and Yi Peng",
+  "th": "ลอยกระทง และยี่เป็ง",
+  "said": "Baskets of flowers and candles on every river, and in the north, lanterns going up as well.",
+  "said_th": "กระทงดอกไม้และเทียนลอยอยู่บนทุกสายน้ำ และทางเหนือยังมีโคมลอยขึ้นฟ้าด้วย"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "month": "nov"
+ },
+ "text": {
+  "what": "The full moon of the twelfth lunar month, usually November. The river festival, and the northern lantern festival that shares its dates.",
+  "story": "A *krathong* is a small float, traditionally a section of banana trunk dressed with folded leaves, flowers, incense and a candle, set on the water on the full moon of the twelfth lunar month. In the north the Lanna festival of Yi Peng falls at the same time and adds lanterns — the paper ones that rise, and the ones hung outside houses and temples.\n\n*Inference —* the timing is the good news. November is the start of the cool dry season, the measured air is clean, the Bua Tong is out above Khun Yuam, and the rains have left the waterfalls running. A rider who can pick their month can have all four at once, which is not true of any other window in the year.\n\nEvery town on this circuit has a river or a pond and every one of them does something. Mae Hong Son floats its krathong on the pond between the two lit temples, which is about as good as a small town evening gets.\n\n*Tradition holds —* the floats were once entirely banana trunk and leaf, and styrofoam ones have been widely discouraged and in places banned. Buy the leaf one."
+ },
+ "text_th": {
+  "what": "คืนเพ็ญเดือนสิบสองตามจันทรคติ มักตรงกับเดือนพฤศจิกายน เทศกาลลอยกระทง และเทศกาลยี่เป็งของทางเหนือที่จัดในช่วงเดียวกัน",
+  "story": "กระทงคือแพเล็กๆ ตามประเพณีทำจากท่อนกาบกล้วย ประดับด้วยใบตองพับ ดอกไม้ ธูป และเทียน แล้วลอยลงน้ำในคืนเพ็ญเดือนสิบสอง ทางเหนือมีเทศกาลยี่เป็งของล้านนาตรงกับช่วงเดียวกัน และเพิ่มโคมเข้ามา ทั้งโคมลอยที่ปล่อยขึ้นฟ้า และโคมที่แขวนหน้าบ้านและหน้าวัด\n\n*อนุมาน —* ช่วงเวลาคือข่าวดี พฤศจิกายนเป็นต้นฤดูหนาวแห้ง อากาศที่วัดได้สะอาด ทุ่งบัวตองเหนือขุนยวมกำลังบาน และฝนที่เพิ่งผ่านไปทิ้งน้ำไว้ให้น้ำตก คนขี่ที่เลือกเดือนได้จะได้ทั้งสี่อย่างพร้อมกัน ซึ่งไม่มีช่วงอื่นของปีที่ทำได้\n\nทุกเมืองบนเส้นทางนี้มีแม่น้ำหรือหนองน้ำ และทุกเมืองจัดอะไรสักอย่าง แม่ฮ่องสอนลอยกระทงบนหนองน้ำระหว่างวัดสองหลังที่เปิดไฟ ซึ่งเป็นเย็นในเมืองเล็กๆ ที่ดีเท่าที่จะดีได้\n\n*ตามธรรมเนียม —* กระทงแต่เดิมทำจากกาบกล้วยและใบตองล้วน ส่วนกระทงโฟมถูกรณรงค์ให้เลิกใช้และหลายที่ห้าม ให้ซื้อแบบใบตอง"
+ },
+ "kin": [
+  {
+   "to": "cool-season",
+   "as": "The season it opens.",
+   "rel": "event"
+  },
+  {
+   "to": "bua-tong-bloom",
+   "as": "Out on the same weeks, above Khun Yuam.",
+   "rel": "event"
+  },
+  {
+   "to": "chong-kham-chong-klang",
+   "as": "The two lit temples the floats go between.",
+   "rel": "wat"
+  },
+  {
+   "to": "mae-hong-son",
+   "as": "The pond, and the evening.",
+   "rel": "town"
+  }
+ ],
+ "sources": [
+  "s:wp-loy-krathong",
+  "s:wp-mae-hong-son",
+  "s:wp-tithonia-diversifolia"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-loy-krathong"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "loi-krathong/loi-krathong-chiang-mai-loy-krathong-lantern-festival-thailand.jpg",
+   "source": "commons",
+   "title": "File:Chiang Mai, Loy Krathong Lantern Festival, Thailand.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Chiang_Mai%2C_Loy_Krathong_Lantern_Festival%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_Mai%2C_Loy_Krathong_Lantern_Festival%2C_Thailand.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "author": "Vyacheslav Argenberg",
+   "credit": "Own work",
+   "alt": "Loy Krathong. Yee Peng. Siamese Lantern Festival. Full moon of the 12th month in the traditional Thai lunar calendar. Chiang Mai, Thailand.",
+   "date": "2010-11-20 18:58:16",
+   "primary": true,
+   "sha256": "5c73a5459da32c1576b99c2d393455751ac411198b72f8463c76693a2d47f9d7"
+  },
+  {
+   "file": "loi-krathong/loi-krathong-loi-krathong-09631-23513660545.jpg",
+   "source": "commons",
+   "title": "File:Loi-Krathong-09631 (23513660545).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Loi-Krathong-09631_%2823513660545%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ALoi-Krathong-09631_%2823513660545%29.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "Visions of Domino",
+   "credit": "https://www.flickr.com/photos/99092496@N00/23513660545/",
+   "alt": "Loi Krathong",
+   "date": "2015-11-24 05:42:42",
+   "primary": false,
+   "sha256": "706f7f5caa131adee3062a3732b42563f49cab4cb5fd9efaeaa6b6ea828fb847"
+  },
+  {
+   "file": "loi-krathong/loi-krathong-yi-peng-lantern-festival-thailand.jpg",
+   "source": "commons",
+   "title": "File:YI PENG LANTERN FESTIVAL THAILAND.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/YI_PENG_LANTERN_FESTIVAL_THAILAND.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AYI_PENG_LANTERN_FESTIVAL_THAILAND.jpg",
+   "license": "CC0 1.0",
+   "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "author": "DEBA PRASAD ROY",
+   "credit": "Own work",
+   "alt": "Yi Peng means “the second full moon” of Lanna's calendar month, is a religious event where various types of lanterns is put up in front of the house to show devotion to the Buddha, including the sky l",
+   "date": "2015-11-25 20:01:37",
+   "primary": false,
+   "sha256": "c870f7ceb86727d854bcb6edc97c92841097cf33982f9ec5197fe70db3000c5c"
+  },
+  {
+   "file": "loi-krathong/loi-krathong-yi-peng-festival.jpg",
+   "source": "commons",
+   "title": "File:Yi Peng festival.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Yi_Peng_festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AYi_Peng_festival.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "ManoiCMU",
+   "credit": "Own work",
+   "alt": "Hanging lanterns (khom khwaen) at CAD Khomloy Sky Lantern Festival",
+   "date": "2025-11-05 18:07:34",
+   "primary": false,
+   "sha256": "5ab9cd0b6dd83ac09c77b395966c861bc0af4813dc17bdcbd6b7f334704af243"
+  }
+ ],
+ "kin_in": []
+}

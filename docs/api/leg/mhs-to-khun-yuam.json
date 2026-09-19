@@ -725,6 +725,12 @@
    "type": "stop",
    "name": "Su Tong Pae bridge",
    "as": "The leg it sits near the start of."
+  },
+  {
+   "from": "pha-bong",
+   "type": "spring",
+   "name": "Pha Bong hot springs",
+   "as": "The leg it sits at the start of."
   }
  ]
 }

@@ -595,10 +595,22 @@
    "as": "The leg that ends here, and the curves that get you here."
   },
   {
+   "from": "huai-nam-dang",
+   "type": "stop",
+   "name": "Huai Nam Dang",
+   "as": "The leg it sits on top of."
+  },
+  {
    "from": "pai-canyon",
    "type": "stop",
    "name": "Pai Canyon",
    "as": "The leg it sits at the end of."
+  },
+  {
+   "from": "tha-pai-hot-springs",
+   "type": "spring",
+   "name": "Tha Pai hot springs",
+   "as": "The leg whose forearms it is for."
   },
   {
    "from": "how-many-curves",

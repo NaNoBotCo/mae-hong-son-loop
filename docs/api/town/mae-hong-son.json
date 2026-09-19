@@ -211,6 +211,48 @@
    "as": "The town below."
   },
   {
+   "from": "jong-and-chong",
+   "type": "wat",
+   "name": "Why the temples here are called Chong",
+   "as": "Where the pattern concentrates."
+  },
+  {
+   "from": "wat-hua-wiang",
+   "type": "wat",
+   "name": "Wat Hua Wiang",
+   "as": "The town it is the centre of."
+  },
+  {
+   "from": "morning-market",
+   "type": "dish",
+   "name": "The morning market",
+   "as": "Where the Shan side of the kitchen is plainest."
+  },
+  {
+   "from": "yunnan-table",
+   "type": "dish",
+   "name": "The Yunnanese table at Ban Rak Thai",
+   "as": "The town the afternoon starts from."
+  },
+  {
+   "from": "pha-bong",
+   "type": "spring",
+   "name": "Pha Bong hot springs",
+   "as": "The town it is south of."
+  },
+  {
+   "from": "teak-shophouse",
+   "type": "stay",
+   "name": "The teak shophouse",
+   "as": "The other one."
+  },
+  {
+   "from": "where-to-put-the-nights",
+   "type": "stay",
+   "name": "Where to put the nights",
+   "as": "The two-night town."
+  },
+  {
    "from": "bus-parcel",
    "type": "kit",
    "name": "Sending a bag on the bus",
@@ -227,6 +269,12 @@
    "type": "person",
    "name": "The Shan",
    "as": "The province where they are the majority."
+  },
+  {
+   "from": "loi-krathong",
+   "type": "event",
+   "name": "Loi Krathong and Yi Peng",
+   "as": "The pond, and the evening."
   },
   {
    "from": "poy-sang-long",

@@ -59,10 +59,22 @@
    "as": "The eastern end is the hottest riding of the circuit."
   },
   {
+   "from": "seven-eleven",
+   "type": "coffee",
+   "name": "The 7-Eleven",
+   "as": "The month this stops being a joke."
+  },
+  {
    "from": "burning-season",
    "type": "event",
    "name": "Burning season",
    "as": "The same months, from the thermometer's side."
+  },
+  {
+   "from": "songkran",
+   "type": "event",
+   "name": "Songkran",
+   "as": "The same days, from the thermometer."
   }
  ]
 }

@@ -1,0 +1,127 @@
+{
+ "id": "small-bike-more-fun",
+ "type": "story",
+ "names": {
+  "name": "Why a small bike is more fun here",
+  "th": "ทำไมรถเล็กสนุกกว่าที่นี่",
+  "said": "On a road with four curves a kilometre, power stops being the interesting variable.",
+  "said_th": "บนถนนที่มีสี่โค้งต่อกิโลเมตร แรงม้าเลิกเป็นตัวแปรที่น่าสนใจ"
+ },
+ "region": [
+  "loop"
+ ],
+ "facets": {
+  "kind": "argument"
+ },
+ "text": {
+  "what": "The measured density of this road is the argument for renting the cheap thing, and it is not a compromise.",
+  "story": "*Inference —* Route 1095 measures 4.03 curves a kilometre, Route 1263 measures 4.25 and Route 1096 measures 4.46. At those densities you are never on a straight long enough for horsepower to express itself. What you are doing instead, continuously, is choosing a line, judging a radius you cannot fully see, and carrying momentum through a corner rather than making it with the throttle.\n\nA 110cc step-through is completely absorbing at that game, because it has no power to fall back on and every bit of speed has to be kept rather than bought. There is a specific pleasure in arriving at the top of a climb having not touched the brakes, and it is available on the cheapest machine in the shop.\n\nThe measured figures also say something less obvious: **the road with the merchandise is only third.** Route 1096, the Samoeng day loop an hour from Chiang Mai, is denser than the famous one. So is the 1263.\n\n*Inference —* which means the best riding on this network is not where the shirts are sold, and a rider on a 125 has access to all of it."
+ },
+ "text_th": {
+  "what": "ความหนาแน่นของโค้งที่วัดได้บนถนนสายนี้คือเหตุผลที่ควรเช่ารถถูกๆ และไม่ใช่การยอมลดมาตรฐาน",
+  "story": "*อนุมาน —* ทางหลวง 1095 วัดได้ 4.03 โค้งต่อกิโลเมตร ทางหลวง 1263 วัดได้ 4.25 และทางหลวง 1096 วัดได้ 4.46 ที่ความหนาแน่นแบบนั้น คุณไม่เคยอยู่บนทางตรงนานพอให้แรงม้าได้แสดงตัว สิ่งที่คุณทำแทนอย่างต่อเนื่องคือการเลือกไลน์ กะรัศมีที่มองไม่เห็นทั้งหมด และรักษาโมเมนตัมผ่านโค้ง แทนที่จะสร้างมันขึ้นมาด้วยคันเร่ง\n\nรถออโต้ 110 ซีซี สนุกเต็มที่กับเกมนั้น เพราะมันไม่มีแรงให้พึ่ง และความเร็วทุกหน่วยต้องรักษาไว้ ไม่ใช่ซื้อเอา มีความสุขเฉพาะตัวในการไปถึงยอดเขาโดยไม่ได้แตะเบรกเลย และมันมีให้ใช้บนรถที่ถูกที่สุดในร้าน\n\nตัวเลขที่วัดได้ยังบอกอะไรที่ไม่ชัดนัก **ถนนที่มีเสื้อขายอยู่อันดับสามเท่านั้น** ทางหลวง 1096 วงรอบสะเมิงที่ห่างเชียงใหม่ชั่วโมงเดียว หนาแน่นกว่าสายดัง ทางหลวง 1263 ก็เช่นกัน\n\n*อนุมาน —* แปลว่าการขี่ที่ดีที่สุดในเครือข่ายนี้ไม่ได้อยู่ที่ที่ขายเสื้อ และคนขี่รถ 125 เข้าถึงมันได้ทั้งหมด"
+ },
+ "kin": [
+  {
+   "to": "step-through-110",
+   "as": "The cheapest thing in the shop, and the point.",
+   "rel": "bike"
+  },
+  {
+   "to": "route-1096",
+   "as": "The densest road measured here.",
+   "rel": "road"
+  },
+  {
+   "to": "samoeng-warmup",
+   "as": "A hundred kilometres from your hotel.",
+   "rel": "leg"
+  },
+  {
+   "to": "how-many-curves",
+   "as": "Where the densities come from.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:mhs-measured",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:mhs-measured"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "small-bike-more-fun/small-bike-more-fun-honda-wave125s-motorcycle-taxi-at-cha-am.jpg",
+   "source": "commons",
+   "title": "File:Honda Wave125S motorcycle taxi at Cha-am.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Honda_Wave125S_motorcycle_taxi_at_Cha-am.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Wave125S_motorcycle_taxi_at_Cha-am.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+   "author": "Wit Pimkanchanapong",
+   "credit": "originally posted to Flickr as Cha-am motorcycle taxi",
+   "alt": "Cha-am motorcycle taxi.\n\nHonda Wave125S",
+   "date": "2007-05-31 02:18:45",
+   "primary": true,
+   "sha256": "f7d30886f1702e843a8c7931e7db14409e32523ad2366453a7024d61e6b4dba1"
+  },
+  {
+   "file": "small-bike-more-fun/small-bike-more-fun-honda-wave-100-s.jpg",
+   "source": "commons",
+   "title": "File:Honda Wave 100 S.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Honda_Wave_100_S.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Wave_100_S.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "M.rJirapat",
+   "credit": "Own work",
+   "alt": "Honda Wave 100 S",
+   "date": "2017-02-23 17:12:38",
+   "primary": false,
+   "sha256": "1f707b1d284e489726431f7a5b1290593e6785d515533e3b1c302661ec453eda"
+  },
+  {
+   "file": "small-bike-more-fun/small-bike-more-fun-honda-wave-at-chiang-mai.jpg",
+   "source": "commons",
+   "title": "File:Honda Wave at Chiang Mai.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Honda_Wave_at_Chiang_Mai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Wave_at_Chiang_Mai.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "John Wigham",
+   "credit": "originally posted to Flickr as Motor Cyclist, Soi Santitham Santirak",
+   "alt": "Motor Cyclist, Soi Santitham Santirak / Chiang Mai, Thailand.\n\nHonda Wave",
+   "date": "2007-02-21 06:42:01",
+   "primary": false,
+   "sha256": "90e513a1bd9d9c5bdfdc8a6803c63c61e3af4b649078c1ba1ac1f4b40c9f8c17"
+  },
+  {
+   "file": "small-bike-more-fun/small-bike-more-fun-honda-wave-with-multi-purpose-sidecar-thailand.jpg",
+   "source": "commons",
+   "title": "File:Honda Wave with multi-purpose sidecar - Thailand.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Honda_Wave_with_multi-purpose_sidecar_-_Thailand.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AHonda_Wave_with_multi-purpose_sidecar_-_Thailand.JPG",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+   "author": "User:Mattes",
+   "credit": "Own work",
+   "alt": "Honda Wave 125 with multi-purpose sidecar, seen in Thailand.",
+   "date": "2009-03-07",
+   "primary": false,
+   "sha256": "3948c98d472e0c71f971d863376c1fc324e200a6e15d8a52acc6edc94fc990ee"
+  }
+ ]
+}

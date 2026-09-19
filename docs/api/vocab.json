@@ -58,6 +58,17 @@
     "icon": "wat"
    },
    {
+    "key": "dish",
+    "name": "What you eat",
+    "th": "ของกิน",
+    "one": "dish",
+    "path": "dish",
+    "blurb": "Khao soi at the morning market, nam ngiao in Shan country, sticky rice in a basket, and the thing your hands smell of afterwards.",
+    "th_blurb": "ข้าวซอยตอนเช้าที่ตลาด ขนมจีนน้ำเงี้ยวในเขตไทใหญ่ ข้าวเหนียวในกระติบ และกลิ่นที่ติดมือ",
+    "group_by": "facets.kind",
+    "icon": "dish"
+   },
+   {
     "key": "coffee",
     "name": "Coffee",
     "th": "กาแฟ",
@@ -536,7 +547,8 @@
      "spring",
      "stay",
      "coffee",
-     "kit"
+     "kit",
+     "art"
     ]
    },
    "fuel": {

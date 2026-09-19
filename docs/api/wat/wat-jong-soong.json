@@ -1,0 +1,78 @@
+{
+ "id": "wat-jong-soong",
+ "type": "wat",
+ "names": {
+  "name": "Wat Jong Soong",
+  "th": "วัดจองสูง",
+  "said": "Mae Sariang's Shan temple, and the furthest south the naming pattern reaches on this loop.",
+  "said_th": "วัดไทใหญ่ของแม่สะเรียง และเป็นจุดใต้สุดที่รูปแบบชื่อนี้ไปถึงบนเส้นทาง"
+ },
+ "region": [
+  "mhs",
+  "mae-sariang",
+  "shan"
+ ],
+ "facets": {
+  "tradition": "shan",
+  "price": "free"
+ },
+ "text": {
+  "what": "In the middle of Mae Sariang, with the whitewashed tiered chedis and the tin roofs of the Shan-Burmese manner rather than the Lanna one.",
+  "story": "*Inference —* Mae Sariang is the southern Shan town on this circuit, and this temple is the clearest single piece of evidence for that. From here south and east the architecture turns Lanna; from here north and west it stays Shan all the way to the border.\n\nOpenStreetMap maps eighteen named temples within fifteen kilometres of Mae Sariang. This is the only one carrying the Shan word, which is a smaller share than Mae Hong Son's three in ten — the pattern thins as you go south, which is what you would expect of a cultural gradient rather than a line.\n\n*Inference —* for a rider it is a five-minute stop in the middle of a town you are probably sleeping in anyway, on the longest and emptiest leg of the circuit. It is the leg that most needs a reason to slow down."
+ },
+ "text_th": {
+  "what": "อยู่กลางเมืองแม่สะเรียง มีเจดีย์ซ้อนชั้นทาขาวและหลังคาสังกะสีแบบไทใหญ่-พม่า ไม่ใช่แบบล้านนา",
+  "story": "*อนุมาน —* แม่สะเรียงเป็นเมืองไทใหญ่ทางใต้สุดของเส้นทางนี้ และวัดแห่งนี้คือหลักฐานชิ้นเดียวที่ชัดที่สุด จากที่นี่ลงใต้และไปตะวันออก สถาปัตยกรรมจะกลายเป็นล้านนา จากที่นี่ขึ้นเหนือและไปตะวันตก มันยังเป็นไทใหญ่ไปจนถึงชายแดน\n\nOpenStreetMap มีวัดที่มีชื่อสิบแปดแห่งในรัศมีสิบห้ากิโลเมตรจากแม่สะเรียง นี่เป็นแห่งเดียวที่ใช้คำไทใหญ่ ซึ่งเป็นสัดส่วนที่น้อยกว่าสามในสิบของแม่ฮ่องสอน รูปแบบนี้จางลงเมื่อลงใต้ ซึ่งเป็นสิ่งที่คาดได้จากการไล่ระดับทางวัฒนธรรม มากกว่าจะเป็นเส้นแบ่ง\n\n*อนุมาน —* สำหรับคนขี่รถ มันคือจุดแวะห้านาทีกลางเมืองที่คุณน่าจะนอนอยู่แล้ว บนช่วงที่ยาวและว่างเปล่าที่สุดของวงรอบ เป็นช่วงที่ต้องการเหตุผลให้ช้าลงมากที่สุด"
+ },
+ "kin": [
+  {
+   "to": "mae-sariang",
+   "as": "The town it is in.",
+   "rel": "town"
+  },
+  {
+   "to": "jong-and-chong",
+   "as": "The pattern, and where it thins out.",
+   "rel": "wat"
+  },
+  {
+   "to": "mae-sariang-to-hot",
+   "as": "The leg that needs a reason to stop.",
+   "rel": "leg"
+  }
+ ],
+ "sources": [
+  "s:osm",
+  "s:wp-mae-sariang-district",
+  "s:wp-shan-people"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "harvested",
+   "source": "s:osm"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 18.1621,
+  "lon": 97.9312,
+  "precision": "street"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "kin_in": [
+  {
+   "from": "jong-and-chong",
+   "type": "wat",
+   "name": "Why the temples here are called Chong",
+   "as": "The one in Mae Sariang."
+  }
+ ]
+}

@@ -137,6 +137,12 @@
    "type": "person",
    "name": "The Shan",
    "as": "Their ordination festival."
+  },
+  {
+   "from": "songkran",
+   "type": "event",
+   "name": "Songkran",
+   "as": "The other spring festival, and the province's own."
   }
  ]
 }

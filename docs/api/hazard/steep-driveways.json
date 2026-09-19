@@ -53,6 +53,12 @@
  "updated": "2026-09-18",
  "kin_in": [
   {
+   "from": "bamboo-hut",
+   "type": "stay",
+   "name": "The hut with no wall on the valley side",
+   "as": "The hazard attached to the best view."
+  },
+  {
    "from": "big-adventure",
    "type": "bike",
    "name": "The 700cc-and-up adventure bike",

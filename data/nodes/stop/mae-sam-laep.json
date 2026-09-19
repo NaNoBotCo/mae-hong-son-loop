@@ -1,0 +1,137 @@
+{
+ "id": "mae-sam-laep",
+ "type": "stop",
+ "names": {
+  "name": "Mae Sam Laep and the Salween",
+  "th": "แม่สามแลบ และแม่น้ำสาละวิน",
+  "said": "A river wide enough to be a border, a wooden longtail, and Myanmar on the far bank.",
+  "said_th": "แม่น้ำที่กว้างพอจะเป็นชายแดน เรือหางยาวไม้ และเมียนมาอยู่อีกฝั่ง"
+ },
+ "region": [
+  "mhs",
+  "mae-sariang",
+  "salween"
+ ],
+ "facets": {
+  "kind": "river",
+  "price": "free"
+ },
+ "text": {
+  "what": "A river village west of Mae Sariang at the end of a side road, on the Salween where it forms the frontier.",
+  "story": "The Salween rises in Tibet and runs some two and a half thousand kilometres to the Andaman Sea, and for a long stretch of its lower course it is the line between Thailand and Myanmar. At Mae Sam Laep you are standing on that line.\n\n*Inference —* this is the best detour on the southern leg and almost nobody takes it, because the long Mae Sariang day already feels long. It is worth rearranging the day for: a wide brown river, forest on both banks, longtail boats loading rice and people, and a far bank that is a different country with no bridge to it.\n\nThe road in is a side road off Route 108 and it descends steeply to the water. *Inference —* go in the morning, when the boats are working, and eat at the river.\n\n**Not on this disk:** current boat services, prices, or whether any particular trip is running. The border is a live administrative thing and what is possible there changes."
+ },
+ "text_th": {
+  "what": "หมู่บ้านริมน้ำทางตะวันตกของแม่สะเรียง ที่ปลายทางแยก อยู่บนแม่น้ำสาละวินตรงช่วงที่เป็นเส้นเขตแดน",
+  "story": "แม่น้ำสาละวินมีต้นกำเนิดในทิเบตและไหลราวสองพันห้าร้อยกิโลเมตรลงสู่ทะเลอันดามัน และตลอดช่วงยาวของตอนล่าง มันคือเส้นแบ่งระหว่างไทยกับเมียนมา ที่แม่สามแลบ คุณกำลังยืนอยู่บนเส้นนั้น\n\n*อนุมาน —* นี่คือทางแยกที่ดีที่สุดบนช่วงใต้ และแทบไม่มีใครไป เพราะวันแม่สะเรียงที่ยาวอยู่แล้วก็รู้สึกยาวพอ แต่มันคุ้มที่จะจัดวันใหม่เพื่อมัน แม่น้ำกว้างสีน้ำตาล ป่าสองฝั่ง เรือหางยาวขนข้าวและคน และฝั่งตรงข้ามที่เป็นคนละประเทศโดยไม่มีสะพานถึง\n\nทางเข้าเป็นทางแยกจากทางหลวง 108 และลงชันไปถึงริมน้ำ *อนุมาน —* ไปตอนเช้าตอนที่เรือกำลังทำงาน แล้วกินข้าวที่ริมน้ำ\n\n**ไม่มีข้อมูลในชุดนี้** บริการเรือ ราคา หรือว่าเที่ยวไหนวิ่งอยู่บ้างในปัจจุบัน ชายแดนเป็นเรื่องทางปกครองที่มีชีวิต และสิ่งที่ทำได้ที่นั่นเปลี่ยนไปเรื่อย"
+ },
+ "kin": [
+  {
+   "to": "mae-sariang",
+   "as": "The town the road leaves from.",
+   "rel": "town"
+  },
+  {
+   "to": "mae-sariang-to-hot",
+   "as": "The long leg this is worth rearranging.",
+   "rel": "leg"
+  },
+  {
+   "to": "karen",
+   "as": "Whose river country this is on both banks.",
+   "rel": "person"
+  },
+  {
+   "to": "how-old-is-this-ride",
+   "as": "The old road to Burma crossed near here.",
+   "rel": "story"
+  }
+ ],
+ "sources": [
+  "s:wp-salween-river",
+  "s:wp-mae-sariang-district",
+  "s:thwp-salween"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-salween-river"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 18.0333,
+  "lon": 97.7333,
+  "precision": "town"
+ },
+ "needs_verification": true,
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "mae-sam-laep/mae-sam-laep-sweet-view-of-salween-river-in-tang-yan-township-sha-6fb11cb.jpg",
+   "source": "commons",
+   "title": "File:Sweet View of Salween River in Tang Yan Township, Shan State, Myanmar.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sweet_View_of_Salween_River_in_Tang_Yan_Township%2C_Shan_State%2C_Myanmar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ASweet_View_of_Salween_River_in_Tang_Yan_Township%2C_Shan_State%2C_Myanmar.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Saosukham",
+   "credit": "Own work",
+   "alt": "ၼမ်ႉၶူင်းၼႆႉ ပဵၼ်မႄႈၼမ်ႉဢၼ်ယႂ်ႇသေပိူၼ်ႈ ၼႂ်းမိူင်းတႆး၊ ႁူဝ်မၼ်း မီးမိူင်းတိပႅတ်ႉ မိူင်းၶႄႇ ၵၢင်မၼ်း လႄႇမိူင်းႁဝ်း ႁၢင်မၼ်း ၵဝ်းမိူင်းမၢၼ်ႈ",
+   "date": "2022-05-12 16:23:42",
+   "primary": true,
+   "sha256": "476227fd6ffc53725b98c47bb08a609bb146a806c39cba83cbd1a703085f8922"
+  },
+  {
+   "file": "mae-sam-laep/mae-sam-laep-thanlwin-bridge-1.jpg",
+   "source": "commons",
+   "title": "File:Thanlwin Bridge 1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Thanlwin_Bridge_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThanlwin_Bridge_1.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "kallerna",
+   "credit": "Own work",
+   "alt": "Thanlwin Bridge, Hpa-An, Myanmar.",
+   "date": "2019-12-19 12:23",
+   "primary": false,
+   "sha256": "77a11a3c368a4cd49ead8523dc6b8cd522e56e996f4ae1c89225a4561c8d415e"
+  },
+  {
+   "file": "mae-sam-laep/mae-sam-laep-thanlwin-bridge-2.jpg",
+   "source": "commons",
+   "title": "File:Thanlwin Bridge 2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Thanlwin_Bridge_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThanlwin_Bridge_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "kallerna",
+   "credit": "Own work",
+   "alt": "Thanlwin Bridge, Hpa-An, Myanmar.",
+   "date": "2019-12-19 12:25",
+   "primary": false,
+   "sha256": "dc430dbef9d07ebb3ab59818ce2b8e8db160ed8ba3c1a7b1f951ef2bd39bea98"
+  },
+  {
+   "file": "mae-sam-laep/mae-sam-laep-thanlwin-river-or-salween-river.jpg",
+   "source": "commons",
+   "title": "File:Thanlwin River or Salween River.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Thanlwin_River_or_Salween_River.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3AThanlwin_River_or_Salween_River.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Saosukham",
+   "credit": "Own work",
+   "alt": "ၼမ်ႉၶူင်းၼႆႉ ပဵၼ်မႄႈၼမ်ႉဢၼ်ယႂ်ႇသေပိူၼ်ႈ ၼႂ်းမိူင်းတႆး၊ ႁူဝ်မၼ်း မီးမိူင်းတိပႅတ်ႉ မိူင်းၶႄႇ ၵၢင်မၼ်း လႄႇမိူင်းႁဝ်း ႁၢင်မၼ်း ၵဝ်းမိူင်းမၢၼ်ႈ",
+   "date": "2022-05-12 15:56:11",
+   "primary": false,
+   "sha256": "b7808868a28e2e6522d2ff33059b13ae3d4e4685ca0ec7f13c667c4a0f5dfa01"
+  }
+ ]
+}

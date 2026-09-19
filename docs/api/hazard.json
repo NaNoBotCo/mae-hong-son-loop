@@ -1,7 +1,138 @@
 {
  "type": "hazard",
- "count": 9,
+ "count": 7,
  "nodes": [
+  {
+   "id": "annoyances",
+   "type": "hazard",
+   "names": {
+    "name": "Annoyances",
+    "th": "เรื่องกวนใจ",
+    "said": "Six things that will happen, none of which is a reason not to go.",
+    "said_th": "หกเรื่องที่จะเกิดขึ้นแน่ และไม่มีเรื่องไหนเป็นเหตุผลที่จะไม่ไป"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "kind": "annoyance"
+   },
+   "text": {
+    "what": "The small stuff, in one drawer, with what to do about it and what to say afterwards. None of these will end your trip. Most of them will end up being the bit you tell people about.",
+    "story": "**Village dogs** — One comes off a porch at your ankle.\n\n*Antidote —* Slow, hold a straight line, keep going. It is defending a boundary, not hunting, and the chase ends in a few metres. The swerve is the only part that can hurt you.\n\n*Alibi —* Every rider in Thailand has this story. Yours is not the best one.\n\n**The guesthouse driveway** — Six hundred kilometres survived, and it goes over outside the room.\n\n*Antidote —* Stop at the bottom and look before committing. Take the luggage off if it is steep. Walk it if the concrete is wet — polished wet concrete is far more slippery than it looks. On anything heavy, reverse in.\n\n*Alibi —* At walking pace, with a bag on, on wet concrete, at the end of a six-hour day. Nobody who has ridden here will raise an eyebrow.\n\n**A loaded bike steers differently** — It goes where it was pointed a second ago.\n\n*Antidote —* Low and forward: footwell before rack, rack before pillion seat, heavy things against the tank. A rucksack on your back is the worst option of all because it moves when you do.\n\n*Alibi —* Or send the bag ahead and ride the bike the shop designed.\n\n**The pump is shut** — You arrive at four and the village station closed at three.\n\n*Antidote —* Fill at every town whether or not the tank needs it. Where there is no station, small shops sell fuel by the litre from bottles on a rack outside.\n\n*Alibi —* The bottle costs a little more and comes with someone who wants to know where you are going.\n\n**No signal** — The map stops working somewhere on the 1263.\n\n*Antidote —* Download the offline map before you leave the guesthouse wifi. The road is one road; the kilometre stones tell you where you are.\n\n*Alibi —* Two hours without a phone on a mountain road is the thing you told people you came for.\n\n**The afternoon storm** — It arrives at two, hard, for forty minutes.\n\n*Antidote —* Stop. Have the coffee. In the green season the rain is heavy and short, and a day planned to finish at two usually finishes dry.\n\n*Alibi —* The forty minutes under a shop awning with three other people waiting it out is a better story than the kilometres either side of it."
+   },
+   "text_th": {
+    "what": "เรื่องเล็กๆ รวมไว้ในลิ้นชักเดียว พร้อมวิธีรับมือและคำแก้ตัวหลังจากนั้น ไม่มีเรื่องไหนทำให้ทริปจบ และส่วนใหญ่จะกลายเป็นตอนที่คุณเอาไปเล่าให้คนอื่นฟัง",
+    "story": "**สุนัขในหมู่บ้าน** — มีตัวหนึ่งพุ่งออกมาจากใต้ถุนเข้าหาข้อเท้า\n\n*ทางแก้ —* ชะลอ รักษาเส้นตรง แล้วไปต่อ มันหวงอาณาเขต ไม่ได้ล่า การไล่จะจบในไม่กี่เมตร การหักหลบคือส่วนเดียวที่ทำร้ายคุณได้\n\n*ข้อแก้ตัว —* คนขี่รถในไทยทุกคนมีเรื่องนี้ ของคุณไม่ใช่เรื่องที่ดีที่สุด\n\n**ทางเข้าที่พัก** — รอดมาหกร้อยกิโลเมตร แล้วมาล้มหน้าห้อง\n\n*ทางแก้ —* จอดที่เชิงทางแล้วมองก่อนตัดสินใจ ถอดสัมภาระถ้ามันชัน เข็นถ้าคอนกรีตเปียก คอนกรีตขัดมันเปียกลื่นกว่าที่ตาเห็นมาก ถ้ารถหนักให้ถอยเข้า\n\n*ข้อแก้ตัว —* ความเร็วเดิน มีของท้ายรถ บนคอนกรีตเปียก ตอนจบวันหกชั่วโมง ไม่มีใครที่เคยขี่ที่นี่จะเลิกคิ้วใส่\n\n**รถที่บรรทุกของบังคับต่างไป** — มันไปตรงที่ชี้ไว้เมื่อวินาทีก่อน\n\n*ทางแก้ —* ต่ำและไปข้างหน้า พื้นวางเท้าก่อนแร็ค แร็คก่อนเบาะซ้อน ของหนักชิดถังน้ำมัน เป้สะพายหลังแย่ที่สุด เพราะมันขยับตามตัวคุณ\n\n*ข้อแก้ตัว —* หรือส่งกระเป๋าไปก่อน แล้วขี่รถแบบที่โรงงานออกแบบมา\n\n**ปั๊มปิด** — คุณไปถึงบ่ายสี่ ปั๊มในหมู่บ้านปิดไปตั้งแต่บ่ายสาม\n\n*ทางแก้ —* เติมทุกเมืองไม่ว่าถังจะพร่องหรือไม่ ที่ไหนไม่มีปั๊ม ร้านเล็กๆ ขายน้ำมันเป็นลิตรใส่ขวดวางบนชั้นหน้าร้าน\n\n*ข้อแก้ตัว —* น้ำมันขวดแพงกว่านิดหน่อย และมาพร้อมคนที่อยากรู้ว่าคุณจะไปไหน\n\n**ไม่มีสัญญาณ** — แผนที่หยุดทำงานที่ไหนสักแห่งบน 1263\n\n*ทางแก้ —* โหลดแผนที่ออฟไลน์ตั้งแต่ยังอยู่กับไวไฟที่พัก ถนนมีเส้นเดียว และหลักกิโลเมตรบอกได้ว่าคุณอยู่ไหน\n\n*ข้อแก้ตัว —* สองชั่วโมงที่ไม่มีโทรศัพท์บนถนนภูเขา คือสิ่งที่คุณบอกคนอื่นว่าคุณมาเพื่อมัน\n\n**พายุฝนตอนบ่าย** — มาบ่ายสอง หนัก สี่สิบนาที\n\n*ทางแก้ —* จอด กินกาแฟ หน้าฝนน้ำฝนหนักแต่สั้น และวันที่วางแผนให้จบบ่ายสองมักจบแบบแห้ง\n\n*ข้อแก้ตัว —* สี่สิบนาทีใต้กันสาดร้านกับคนอีกสามคนที่รอฝนหยุด เป็นเรื่องเล่าที่ดีกว่ากิโลเมตรทั้งสองฝั่งของมัน"
+   },
+   "kin": [
+    {
+     "to": "packing-light",
+     "as": "Where the weight should sit.",
+     "rel": "kit"
+    },
+    {
+     "to": "sending-the-bag-ahead",
+     "as": "Or do not carry it at all.",
+     "rel": "kit"
+    },
+    {
+     "to": "gasohol",
+     "as": "The fuel rule this drawer keeps repeating.",
+     "rel": "term"
+    },
+    {
+     "to": "the-rains",
+     "as": "The season the afternoon storm belongs to.",
+     "rel": "event"
+    },
+    {
+     "to": "the-kilometre-stone",
+     "as": "What tells you where you are when the phone does not.",
+     "rel": "art"
+    },
+    {
+     "to": "roadside-stall",
+     "as": "Where you wait out the forty minutes.",
+     "rel": "coffee"
+    }
+   ],
+   "sources": [
+    "s:wp-motorcycle-safety",
+    "s:mhs-measured"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "inference",
+     "note": "ordinary riding knowledge, deliberately compacted; the three records this replaces were hazard-shaped and are annoyance-sized"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "updated": "2026-09-19",
+   "schema": 1,
+   "kin_in": [
+    {
+     "from": "route-108",
+     "type": "road",
+     "name": "Route 108",
+     "as": "The small stuff, with antidotes."
+    },
+    {
+     "from": "bamboo-hut",
+     "type": "stay",
+     "name": "The hut with no wall on the valley side",
+     "as": "The small stuff, with antidotes."
+    },
+    {
+     "from": "night-riding",
+     "type": "hazard",
+     "name": "Riding after dark",
+     "as": "The small stuff, with antidotes."
+    },
+    {
+     "from": "big-adventure",
+     "type": "bike",
+     "name": "The 700cc-and-up adventure bike",
+     "as": "The small stuff, with antidotes."
+    },
+    {
+     "from": "midweight-twin",
+     "type": "bike",
+     "name": "The 400–700 twin",
+     "as": "The small stuff, with antidotes."
+    },
+    {
+     "from": "on-the-back",
+     "type": "bike",
+     "name": "Riding on the back",
+     "as": "The small stuff, with antidotes."
+    },
+    {
+     "from": "no-storage",
+     "type": "kit",
+     "name": "The bike has nowhere to put it",
+     "as": "The small stuff, with antidotes."
+    },
+    {
+     "from": "packing-light",
+     "type": "kit",
+     "name": "What actually fits",
+     "as": "The small stuff, with antidotes."
+    },
+    {
+     "from": "sending-the-bag-ahead",
+     "type": "kit",
+     "name": "Sending the bag ahead",
+     "as": "The small stuff, with antidotes."
+    }
+   ]
+  },
   {
    "id": "brake-fade",
    "type": "hazard",
@@ -106,12 +237,6 @@
      "as": "What the descents do to a small bike."
     },
     {
-     "from": "loaded-bike",
-     "type": "hazard",
-     "name": "A loaded bike is a different bike",
-     "as": "What the extra mass does to a long descent."
-    },
-    {
      "from": "step-through-110",
      "type": "bike",
      "name": "The 110–125 step-through",
@@ -207,74 +332,6 @@
    ]
   },
   {
-   "id": "dogs",
-   "type": "hazard",
-   "names": {
-    "name": "Dogs",
-    "th": "สุนัข",
-    "said": "Village dogs defend a stretch of road they consider theirs, and they aim at your ankle.",
-    "said_th": "สุนัขในหมู่บ้านหวงถนนช่วงที่มันถือว่าเป็นของมัน และมันพุ่งเข้าหาข้อเท้าคุณ"
-   },
-   "region": [
-    "loop"
-   ],
-   "facets": {
-    "kind": "living"
-   },
-   "text": {
-    "what": "Free-roaming dogs are ordinary in Thai villages, and a bike at village speed through a village is what triggers a chase.",
-    "story": "*Inference —* the danger is almost never the bite. It is the swerve: a rider who jerks away from a dog on a two-lane road with a drop on one side has made the dog's problem into a much worse one. Slowing and holding a straight line ends the chase in a few metres, because the dog is defending a boundary rather than hunting.\n\nWhere it matters is at night and in the villages strung along Route 108, where the houses are on both sides and the road is the only flat ground."
-   },
-   "text_th": {
-    "what": "สุนัขที่เดินอิสระเป็นเรื่องปกติในหมู่บ้านไทย และรถที่วิ่งผ่านหมู่บ้านด้วยความเร็วระดับหมู่บ้านคือสิ่งที่กระตุ้นให้มันไล่",
-    "story": "*อนุมาน —* อันตรายแทบไม่เคยอยู่ที่การถูกกัด แต่อยู่ที่การหักหลบ คนขี่ที่กระตุกหลบสุนัขบนถนนสองเลนที่มีเหวอยู่ด้านหนึ่ง ได้เปลี่ยนปัญหาของสุนัขให้เป็นปัญหาที่ใหญ่กว่ามาก การชะลอและรักษาเส้นตรงจะจบการไล่ภายในไม่กี่เมตร เพราะสุนัขกำลังป้องกันอาณาเขต ไม่ได้ล่า\n\nจุดที่สำคัญคือตอนกลางคืน และในหมู่บ้านที่เรียงอยู่ตามทางหลวง 108 ที่บ้านเรือนอยู่สองฝั่งและถนนเป็นพื้นราบเพียงแห่งเดียว"
-   },
-   "kin": [
-    {
-     "to": "route-108",
-     "as": "The road with the villages on both sides.",
-     "rel": "road"
-    },
-    {
-     "to": "night-riding",
-     "as": "When this gets worse.",
-     "rel": "hazard"
-    }
-   ],
-   "sources": [
-    "s:wp-motorcycle-safety"
-   ],
-   "provenance": {
-    "default": {
-     "tier": "inference",
-     "note": "general riding knowledge applied to this circuit's measured shape"
-    },
-    "fields": {
-     "text_th": {
-      "tier": "inference",
-      "note": "written in Thai by this project, not machine-translated"
-     }
-    }
-   },
-   "confidence": "medium",
-   "schema": 1,
-   "updated": "2026-09-18",
-   "kin_in": [
-    {
-     "from": "route-108",
-     "type": "road",
-     "name": "Route 108",
-     "as": "The villages on both sides of it."
-    },
-    {
-     "from": "night-riding",
-     "type": "hazard",
-     "name": "Riding after dark",
-     "as": "Harder to see, same swerve."
-    }
-   ]
-  },
-  {
    "id": "gravel-on-the-apex",
    "type": "hazard",
    "names": {
@@ -356,91 +413,6 @@
      "type": "term",
      "name": "Hairpin",
      "as": "What collects on the inside of one."
-    }
-   ]
-  },
-  {
-   "id": "loaded-bike",
-   "type": "hazard",
-   "names": {
-    "name": "A loaded bike is a different bike",
-    "th": "รถที่บรรทุกคือรถคนละคัน",
-    "said": "It steers later, stops later and stands up in corners.",
-    "said_th": "เลี้ยวช้าลง หยุดช้าลง และตั้งตรงกลางโค้ง"
-   },
-   "region": [
-    "loop"
-   ],
-   "facets": {
-    "kind": "mechanical"
-   },
-   "text": {
-    "what": "Weight added high and behind the rear axle — a tail pack, a rucksack, a pillion — changes the handling in ways that all show up on a descent.",
-    "story": "*Inference —* the effects compound rather than add. Higher centre of mass means more effort to lean and more reluctance to stay leant; more total mass means longer stopping and more heat in the brakes over a long descent; and weight behind the axle lightens the front, which is the wheel doing the steering and most of the braking.\n\nThe fix is placement before it is technique. Low and forward: footwell before rack, panniers before top box, and anything heavy against the tank rather than over the tail light. See the packing page."
-   },
-   "text_th": {
-    "what": "น้ำหนักที่เพิ่มไว้สูงและอยู่หลังเพลาล้อหลัง ทั้งกระเป๋าท้าย เป้ หรือคนซ้อน เปลี่ยนการควบคุมรถในแบบที่แสดงผลตอนลงเขาทั้งหมด",
-    "story": "*อนุมาน —* ผลกระทบมันทวีคูณ ไม่ใช่แค่บวกกัน จุดศูนย์ถ่วงสูงขึ้นแปลว่าต้องออกแรงเอียงรถมากขึ้นและรถไม่อยากคงมุมเอียง มวลรวมมากขึ้นแปลว่าระยะหยุดยาวขึ้นและความร้อนสะสมในเบรกมากขึ้นตลอดทางลงยาวๆ และน้ำหนักที่อยู่หลังเพลาทำให้ล้อหน้าเบา ซึ่งล้อหน้าคือล้อที่ทำหน้าที่เลี้ยวและเบรกเป็นส่วนใหญ่\n\nวิธีแก้อยู่ที่การจัดวางก่อนเทคนิค ต่ำและไปข้างหน้า พื้นวางเท้าก่อนแร็ค กระเป๋าข้างก่อนกล่องท้าย และของหนักให้ชิดถังน้ำมันแทนที่จะอยู่เหนือไฟท้าย ดูหน้าเรื่องการจัดสัมภาระ"
-   },
-   "kin": [
-    {
-     "to": "packing-light",
-     "as": "Where the weight should go instead.",
-     "rel": "kit"
-    },
-    {
-     "to": "brake-fade",
-     "as": "What the extra mass does to a long descent.",
-     "rel": "hazard"
-    },
-    {
-     "to": "on-the-back",
-     "as": "The heaviest thing you can add.",
-     "rel": "bike"
-    }
-   ],
-   "sources": [
-    "s:wp-motorcycle-safety"
-   ],
-   "provenance": {
-    "default": {
-     "tier": "inference",
-     "note": "general riding knowledge applied to this circuit's measured shape"
-    },
-    "fields": {
-     "text_th": {
-      "tier": "inference",
-      "note": "written in Thai by this project, not machine-translated"
-     }
-    }
-   },
-   "confidence": "medium",
-   "schema": 1,
-   "updated": "2026-09-18",
-   "kin_in": [
-    {
-     "from": "on-the-back",
-     "type": "bike",
-     "name": "Riding on the back",
-     "as": "The same physics, without the conversation."
-    },
-    {
-     "from": "no-storage",
-     "type": "kit",
-     "name": "The bike has nowhere to put it",
-     "as": "What a high tail pack does on a descent."
-    },
-    {
-     "from": "packing-light",
-     "type": "kit",
-     "name": "What actually fits",
-     "as": "What the weight does when the road turns down."
-    },
-    {
-     "from": "sending-the-bag-ahead",
-     "type": "kit",
-     "name": "Sending the bag ahead",
-     "as": "What the weight does when the road turns down."
     }
    ]
   },
@@ -549,8 +521,8 @@
    },
    "kin": [
     {
-     "to": "dogs",
-     "as": "Harder to see, same swerve.",
+     "to": "annoyances",
+     "as": "The small stuff, with antidotes.",
      "rel": "hazard"
     },
     {
@@ -589,12 +561,6 @@
      "type": "leg",
      "name": "Mae Sariang to Hot",
      "as": "What this leg turns into if you start late."
-    },
-    {
-     "from": "dogs",
-     "type": "hazard",
-     "name": "Dogs",
-     "as": "When this gets worse."
     }
    ]
   },
@@ -665,6 +631,12 @@
    "updated": "2026-09-18",
    "kin_in": [
     {
+     "from": "seven-eleven",
+     "type": "coffee",
+     "name": "The 7-Eleven",
+     "as": "Clean air indoors, when there is none outside."
+    },
+    {
      "from": "burning-season",
      "type": "event",
      "name": "Burning season",
@@ -681,74 +653,6 @@
      "type": "story",
      "name": "The smoke",
      "as": "Riding in it: what it does to sight and to lungs."
-    }
-   ]
-  },
-  {
-   "id": "steep-driveways",
-   "type": "hazard",
-   "names": {
-    "name": "The guesthouse driveway",
-    "th": "ทางเข้าที่พักชัน",
-    "said": "Six hundred kilometres survived, and the bike goes over at walking pace outside the room.",
-    "said_th": "รอด 600 กิโลเมตรมาได้ แล้วรถล้มด้วยความเร็วเดินหน้าห้องพัก"
-   },
-   "region": [
-    "loop"
-   ],
-   "facets": {
-    "kind": "surface"
-   },
-   "text": {
-    "what": "Hillside guesthouses are reached by short, very steep, often unsealed or wet-concrete ramps. It is where heavy bikes are dropped.",
-    "story": "*Inference —* the combination is specific: a gradient steeper than anything on the highway, a surface that is polished concrete or loose dirt, a tight turn at the top or bottom, and a rider who has been riding for six hours and has luggage on the back. Nothing about it is difficult in isolation.\n\nThe habits that prevent it are unglamorous. Stop at the bottom and look before committing. Take the luggage off first if it is steep. Walk it if the surface is wet concrete, which is far more slippery than it looks. And on a heavy bike, reverse in rather than discovering at checkout that you cannot push it back up."
-   },
-   "text_th": {
-    "what": "ที่พักบนไหล่เขาเข้าถึงด้วยทางลาดสั้นๆ ที่ชันมาก มักเป็นดินหรือคอนกรีตเปียก เป็นจุดที่รถหนักล้ม",
-    "story": "*อนุมาน —* ส่วนผสมมันเฉพาะเจาะจงมาก ความชันที่มากกว่าอะไรก็ตามบนทางหลวง ผิวที่เป็นคอนกรีตขัดมันหรือดินร่วน โค้งแคบที่หัวหรือท้ายทางลาด และคนขี่ที่ขี่มาหกชั่วโมงพร้อมสัมภาระท้ายรถ ไม่มีอะไรยากเลยถ้าแยกกัน\n\nนิสัยที่ป้องกันได้นั้นไม่เท่เลย จอดที่เชิงทางแล้วมองก่อนตัดสินใจ ถอดสัมภาระออกก่อนถ้ามันชัน เข็นถ้าเป็นคอนกรีตเปียก ซึ่งลื่นกว่าที่ตาเห็นมาก และถ้าเป็นรถหนัก ให้ถอยเข้า แทนที่จะมารู้ตอนเช็คเอาต์ว่าเข็นขึ้นไม่ไหว"
-   },
-   "kin": [
-    {
-     "to": "big-adventure",
-     "as": "The weight that makes this a two-person job.",
-     "rel": "bike"
-    },
-    {
-     "to": "packing-light",
-     "as": "The load that comes off first.",
-     "rel": "kit"
-    }
-   ],
-   "sources": [
-    "s:wp-motorcycle-safety"
-   ],
-   "provenance": {
-    "default": {
-     "tier": "inference",
-     "note": "general riding knowledge applied to this circuit's measured shape"
-    },
-    "fields": {
-     "text_th": {
-      "tier": "inference",
-      "note": "written in Thai by this project, not machine-translated"
-     }
-    }
-   },
-   "confidence": "medium",
-   "schema": 1,
-   "updated": "2026-09-18",
-   "kin_in": [
-    {
-     "from": "big-adventure",
-     "type": "bike",
-     "name": "The 700cc-and-up adventure bike",
-     "as": "Where the weight actually bites."
-    },
-    {
-     "from": "midweight-twin",
-     "type": "bike",
-     "name": "The 400–700 twin",
-     "as": "The hazard that scales with kerb weight."
     }
    ]
   }

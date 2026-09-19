@@ -134,6 +134,30 @@
    "as": "Whose country this leg runs through."
   },
   {
+   "from": "mae-sam-laep",
+   "type": "stop",
+   "name": "Mae Sam Laep and the Salween",
+   "as": "Whose river country this is on both banks."
+  },
+  {
+   "from": "pa-bong-piang",
+   "type": "stop",
+   "name": "Pa Bong Piang rice terraces",
+   "as": "Whose fields these are."
+  },
+  {
+   "from": "ridge-arabica",
+   "type": "coffee",
+   "name": "Arabica off the ridge you just rode over",
+   "as": "Among the families growing it."
+  },
+  {
+   "from": "lisu-lahu-hmong",
+   "type": "person",
+   "name": "Lisu, Lahu, Hmong and Lua",
+   "as": "The largest of the hill groups here."
+  },
+  {
    "from": "shan",
    "type": "person",
    "name": "The Shan",

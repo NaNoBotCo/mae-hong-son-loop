@@ -1,7 +1,68 @@
 {
  "type": "event",
- "count": 6,
+ "count": 10,
  "nodes": [
+  {
+   "id": "akha-swing",
+   "type": "event",
+   "names": {
+    "name": "The Akha Swing Festival",
+    "th": "เทศกาลโล้ชิงช้าของชาวอาข่า",
+    "said": "Four days in late August, and — this is the honest part — almost certainly not on this loop.",
+    "said_th": "สี่วันในปลายเดือนสิงหาคม และนี่คือส่วนที่ต้องพูดตรงๆ เกือบแน่นอนว่าไม่ได้อยู่บนเส้นทางนี้"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "month": "aug"
+   },
+   "text": {
+    "what": "Yehkuja, the most important festival of the Akha year, held around a tall four-posted village swing. Worth timing a trip for — a different trip.",
+    "story": "**What it is.** Every Akha village keeps a tall four-posted swing, rebuilt each year by an elder called a *dzoeuh mah*, used in an annual ancestor offering tied to the fertility of rice. The four-day festival comes in **late August**, on the **120th day after the village has planted its rice**. The Akha name, *Yehkuja*, translates as *eating bitter rice* — a reference to the previous year's supply running down and a hope that the monsoon will water the new crop.\n\nIt is also called **Women's New Year**, because the women wear the clothing they have spent the year making and show, through the ornamentation, that they are reaching marriageable age. The traditional New Year in late December is Men's New Year.\n\n**Why it is probably not on your loop.** The seven groups Wikipedia names as making up 63 per cent of Mae Hong Son's population are Karen, Lahu, Lisu, Lua, Miao, Chinese Yunnanese and Pa-O. **Akha are not among them.** Akha settlement in Thailand is concentrated well east of this circuit. *Inference —* so timing a Mae Hong Son trip for the Swing Festival is unlikely to work, and anyone who wants it should plan a different route east rather than expect to meet it here.\n\n**What is here in late August instead.** The rains, which the measured air data says is the cleanest air of the year, and the rice terraces at their greenest. Which is not a consolation prize."
+   },
+   "text_th": {
+    "what": "เยฮ์กูจา เทศกาลสำคัญที่สุดของปีอาข่า จัดรอบชิงช้าสี่เสาต้นสูงกลางหมู่บ้าน ควรวางแผนไปให้ตรง แต่เป็นคนละทริป",
+    "story": "**มันคืออะไร** ทุกหมู่บ้านอาข่ามีชิงช้าสี่เสาต้นสูง สร้างใหม่ทุกปีโดยผู้อาวุโสที่เรียกว่าโจ่วมะ ใช้ในพิธีเซ่นบรรพบุรุษประจำปีที่ผูกกับความอุดมสมบูรณ์ของข้าว เทศกาลสี่วันนี้มาถึงใน **ปลายเดือนสิงหาคม** ตรงกับ **วันที่ 120 หลังหมู่บ้านลงกล้า** ชื่ออาข่าว่าเยฮ์กูจา แปลว่า กินข้าวขม อ้างถึงข้าวของปีก่อนที่กำลังร่อยหรอ และความหวังว่าฝนจะมาเลี้ยงข้าวรุ่นใหม่\n\nอีกชื่อหนึ่งคือ **ปีใหม่ผู้หญิง** เพราะผู้หญิงจะสวมเสื้อผ้าที่ใช้เวลาทั้งปีทำ และแสดงผ่านเครื่องประดับว่ากำลังเข้าสู่วัยที่พร้อมแต่งงาน ส่วนปีใหม่ตามประเพณีในปลายเดือนธันวาคมคือปีใหม่ผู้ชาย\n\n**ทำไมถึงน่าจะไม่ได้อยู่บนเส้นทางของคุณ** เจ็ดกลุ่มที่วิกิพีเดียระบุว่ารวมกันเป็นร้อยละ 63 ของประชากรแม่ฮ่องสอนคือ กะเหรี่ยง ลาหู่ ลีซู ลัวะ ม้ง จีนยูนนาน และปะโอ **ไม่มีอาข่าอยู่ในนั้น** ชุมชนอาข่าในไทยกระจุกตัวอยู่ทางตะวันออกของเส้นทางนี้ค่อนข้างมาก *อนุมาน —* การวางแผนทริปแม่ฮ่องสอนให้ตรงกับเทศกาลโล้ชิงช้าจึงไม่น่าจะได้ผล ใครที่อยากไปควรวางเส้นทางไปทางตะวันออกแทน ไม่ใช่คาดหวังว่าจะเจอที่นี่\n\n**แล้วปลายสิงหาคมที่นี่มีอะไร** หน้าฝน ซึ่งข้อมูลอากาศที่วัดได้บอกว่าเป็นช่วงที่อากาศสะอาดที่สุดของปี และนาขั้นบันไดที่เขียวที่สุด ซึ่งไม่ใช่รางวัลปลอบใจ"
+   },
+   "kin": [
+    {
+     "to": "lisu-lahu-hmong",
+     "as": "The groups who ARE here.",
+     "rel": "person"
+    },
+    {
+     "to": "pa-bong-piang",
+     "as": "Green at exactly the same weeks.",
+     "rel": "stop"
+    },
+    {
+     "to": "the-rains",
+     "as": "What late August is on this loop.",
+     "rel": "event"
+    }
+   ],
+   "sources": [
+    "s:wp-akha-people",
+    "s:wp-mae-hong-son-province"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-akha-people"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": []
+  },
   {
    "id": "bua-tong-bloom",
    "type": "event",
@@ -148,6 +209,12 @@
      "as": "The November thing worth timing for."
     },
     {
+     "from": "loi-krathong",
+     "type": "event",
+     "name": "Loi Krathong and Yi Peng",
+     "as": "Out on the same weeks, above Khun Yuam."
+    },
+    {
      "from": "season-and-direction",
      "type": "story",
      "name": "The season picks the direction",
@@ -255,6 +322,12 @@
      "type": "event",
      "name": "Poy Sang Long",
      "as": "The months it shares."
+    },
+    {
+     "from": "songkran",
+     "type": "event",
+     "name": "Songkran",
+     "as": "And the same days, from the air."
     },
     {
      "from": "the-rains",
@@ -397,6 +470,12 @@
    ],
    "kin_in": [
     {
+     "from": "huai-nam-dang",
+     "type": "stop",
+     "name": "Huai Nam Dang",
+     "as": "The months the mist happens."
+    },
+    {
      "from": "pang-ung",
      "type": "stop",
      "name": "Pang Ung",
@@ -409,6 +488,12 @@
      "as": "When the mist is there."
     },
     {
+     "from": "bamboo-hut",
+     "type": "stay",
+     "name": "The hut with no wall on the valley side",
+     "as": "The months it is cold before dawn."
+    },
+    {
      "from": "gear",
      "type": "kit",
      "name": "What to wear",
@@ -418,6 +503,12 @@
      "from": "bua-tong-bloom",
      "type": "event",
      "name": "The Bua Tong bloom",
+     "as": "The season it opens."
+    },
+    {
+     "from": "loi-krathong",
+     "type": "event",
+     "name": "Loi Krathong and Yi Peng",
      "as": "The season it opens."
     },
     {
@@ -489,12 +580,214 @@
      "as": "The eastern end is the hottest riding of the circuit."
     },
     {
+     "from": "seven-eleven",
+     "type": "coffee",
+     "name": "The 7-Eleven",
+     "as": "The month this stops being a joke."
+    },
+    {
      "from": "burning-season",
      "type": "event",
      "name": "Burning season",
      "as": "The same months, from the thermometer's side."
+    },
+    {
+     "from": "songkran",
+     "type": "event",
+     "name": "Songkran",
+     "as": "The same days, from the thermometer."
     }
    ]
+  },
+  {
+   "id": "loi-krathong",
+   "type": "event",
+   "names": {
+    "name": "Loi Krathong and Yi Peng",
+    "th": "ลอยกระทง และยี่เป็ง",
+    "said": "Baskets of flowers and candles on every river, and in the north, lanterns going up as well.",
+    "said_th": "กระทงดอกไม้และเทียนลอยอยู่บนทุกสายน้ำ และทางเหนือยังมีโคมลอยขึ้นฟ้าด้วย"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "month": "nov"
+   },
+   "text": {
+    "what": "The full moon of the twelfth lunar month, usually November. The river festival, and the northern lantern festival that shares its dates.",
+    "story": "A *krathong* is a small float, traditionally a section of banana trunk dressed with folded leaves, flowers, incense and a candle, set on the water on the full moon of the twelfth lunar month. In the north the Lanna festival of Yi Peng falls at the same time and adds lanterns — the paper ones that rise, and the ones hung outside houses and temples.\n\n*Inference —* the timing is the good news. November is the start of the cool dry season, the measured air is clean, the Bua Tong is out above Khun Yuam, and the rains have left the waterfalls running. A rider who can pick their month can have all four at once, which is not true of any other window in the year.\n\nEvery town on this circuit has a river or a pond and every one of them does something. Mae Hong Son floats its krathong on the pond between the two lit temples, which is about as good as a small town evening gets.\n\n*Tradition holds —* the floats were once entirely banana trunk and leaf, and styrofoam ones have been widely discouraged and in places banned. Buy the leaf one."
+   },
+   "text_th": {
+    "what": "คืนเพ็ญเดือนสิบสองตามจันทรคติ มักตรงกับเดือนพฤศจิกายน เทศกาลลอยกระทง และเทศกาลยี่เป็งของทางเหนือที่จัดในช่วงเดียวกัน",
+    "story": "กระทงคือแพเล็กๆ ตามประเพณีทำจากท่อนกาบกล้วย ประดับด้วยใบตองพับ ดอกไม้ ธูป และเทียน แล้วลอยลงน้ำในคืนเพ็ญเดือนสิบสอง ทางเหนือมีเทศกาลยี่เป็งของล้านนาตรงกับช่วงเดียวกัน และเพิ่มโคมเข้ามา ทั้งโคมลอยที่ปล่อยขึ้นฟ้า และโคมที่แขวนหน้าบ้านและหน้าวัด\n\n*อนุมาน —* ช่วงเวลาคือข่าวดี พฤศจิกายนเป็นต้นฤดูหนาวแห้ง อากาศที่วัดได้สะอาด ทุ่งบัวตองเหนือขุนยวมกำลังบาน และฝนที่เพิ่งผ่านไปทิ้งน้ำไว้ให้น้ำตก คนขี่ที่เลือกเดือนได้จะได้ทั้งสี่อย่างพร้อมกัน ซึ่งไม่มีช่วงอื่นของปีที่ทำได้\n\nทุกเมืองบนเส้นทางนี้มีแม่น้ำหรือหนองน้ำ และทุกเมืองจัดอะไรสักอย่าง แม่ฮ่องสอนลอยกระทงบนหนองน้ำระหว่างวัดสองหลังที่เปิดไฟ ซึ่งเป็นเย็นในเมืองเล็กๆ ที่ดีเท่าที่จะดีได้\n\n*ตามธรรมเนียม —* กระทงแต่เดิมทำจากกาบกล้วยและใบตองล้วน ส่วนกระทงโฟมถูกรณรงค์ให้เลิกใช้และหลายที่ห้าม ให้ซื้อแบบใบตอง"
+   },
+   "kin": [
+    {
+     "to": "cool-season",
+     "as": "The season it opens.",
+     "rel": "event"
+    },
+    {
+     "to": "bua-tong-bloom",
+     "as": "Out on the same weeks, above Khun Yuam.",
+     "rel": "event"
+    },
+    {
+     "to": "chong-kham-chong-klang",
+     "as": "The two lit temples the floats go between.",
+     "rel": "wat"
+    },
+    {
+     "to": "mae-hong-son",
+     "as": "The pond, and the evening.",
+     "rel": "town"
+    }
+   ],
+   "sources": [
+    "s:wp-loy-krathong",
+    "s:wp-mae-hong-son",
+    "s:wp-tithonia-diversifolia"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-loy-krathong"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "images": [
+    {
+     "file": "loi-krathong/loi-krathong-chiang-mai-loy-krathong-lantern-festival-thailand.jpg",
+     "source": "commons",
+     "title": "File:Chiang Mai, Loy Krathong Lantern Festival, Thailand.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Chiang_Mai%2C_Loy_Krathong_Lantern_Festival%2C_Thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AChiang_Mai%2C_Loy_Krathong_Lantern_Festival%2C_Thailand.jpg",
+     "license": "CC BY 4.0",
+     "license_url": "https://creativecommons.org/licenses/by/4.0/",
+     "author": "Vyacheslav Argenberg",
+     "credit": "Own work",
+     "alt": "Loy Krathong. Yee Peng. Siamese Lantern Festival. Full moon of the 12th month in the traditional Thai lunar calendar. Chiang Mai, Thailand.",
+     "date": "2010-11-20 18:58:16",
+     "primary": true,
+     "sha256": "5c73a5459da32c1576b99c2d393455751ac411198b72f8463c76693a2d47f9d7"
+    },
+    {
+     "file": "loi-krathong/loi-krathong-loi-krathong-09631-23513660545.jpg",
+     "source": "commons",
+     "title": "File:Loi-Krathong-09631 (23513660545).jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Loi-Krathong-09631_%2823513660545%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3ALoi-Krathong-09631_%2823513660545%29.jpg",
+     "license": "CC BY 2.0",
+     "license_url": "https://creativecommons.org/licenses/by/2.0/",
+     "author": "Visions of Domino",
+     "credit": "https://www.flickr.com/photos/99092496@N00/23513660545/",
+     "alt": "Loi Krathong",
+     "date": "2015-11-24 05:42:42",
+     "primary": false,
+     "sha256": "706f7f5caa131adee3062a3732b42563f49cab4cb5fd9efaeaa6b6ea828fb847"
+    },
+    {
+     "file": "loi-krathong/loi-krathong-yi-peng-lantern-festival-thailand.jpg",
+     "source": "commons",
+     "title": "File:YI PENG LANTERN FESTIVAL THAILAND.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/YI_PENG_LANTERN_FESTIVAL_THAILAND.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AYI_PENG_LANTERN_FESTIVAL_THAILAND.jpg",
+     "license": "CC0 1.0",
+     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+     "author": "DEBA PRASAD ROY",
+     "credit": "Own work",
+     "alt": "Yi Peng means “the second full moon” of Lanna's calendar month, is a religious event where various types of lanterns is put up in front of the house to show devotion to the Buddha, including the sky l",
+     "date": "2015-11-25 20:01:37",
+     "primary": false,
+     "sha256": "c870f7ceb86727d854bcb6edc97c92841097cf33982f9ec5197fe70db3000c5c"
+    },
+    {
+     "file": "loi-krathong/loi-krathong-yi-peng-festival.jpg",
+     "source": "commons",
+     "title": "File:Yi Peng festival.jpg",
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Yi_Peng_festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "page_url": "https://commons.wikimedia.org/wiki/File%3AYi_Peng_festival.jpg",
+     "license": "CC BY-SA 4.0",
+     "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "author": "ManoiCMU",
+     "credit": "Own work",
+     "alt": "Hanging lanterns (khom khwaen) at CAD Khomloy Sky Lantern Festival",
+     "date": "2025-11-05 18:07:34",
+     "primary": false,
+     "sha256": "5ab9cd0b6dd83ac09c77b395966c861bc0af4813dc17bdcbd6b7f334704af243"
+    }
+   ],
+   "kin_in": []
+  },
+  {
+   "id": "phansa",
+   "type": "event",
+   "names": {
+    "name": "Khao Phansa and Ok Phansa",
+    "th": "เข้าพรรษา และออกพรรษา",
+    "said": "The three months monks stay put, opening on the July full moon and closing in October.",
+    "said_th": "สามเดือนที่พระอยู่ประจำที่ เริ่มวันเพ็ญเดือนกรกฎาคมและจบในเดือนตุลาคม"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "month": "jul"
+   },
+   "text": {
+    "what": "Vassa, the rains retreat. It opens and closes with festivals, and it runs across exactly the months this circuit is quietest.",
+    "story": "Vassa is the three-month retreat, observed by Theravada monastics during the rainy season, when monks remain in one place. It begins on the full moon of the eighth lunar month — usually July — and ends around the eleventh, usually October.\n\n*Inference —* for a rider this is the most underrated window on the whole calendar. It falls squarely in the green season: the measured air is at its cleanest, the terraces are green, the waterfalls are running, the rooms are cheap and the roads are empty. And the temples, which are the province's other subject, are at their most active rather than least — the opening and closing of the retreat are both marked, and candle offerings are made at the start.\n\n**What you give up** is dry tarmac, and Route 1263 comes off the plan. *Inference —* that is a small price for having Mae Hong Son to yourself."
+   },
+   "text_th": {
+    "what": "วสา หรือการจำพรรษาในฤดูฝน เปิดและปิดด้วยงานบุญ และกินเวลาตรงกับเดือนที่เส้นทางนี้เงียบที่สุดพอดี",
+    "story": "วสาคือการจำพรรษาสามเดือนของพระสงฆ์เถรวาทในฤดูฝน ซึ่งพระจะอยู่ประจำที่เดียว เริ่มวันเพ็ญเดือนแปดตามจันทรคติ มักเป็นเดือนกรกฎาคม และจบราวเดือนสิบเอ็ด มักเป็นเดือนตุลาคม\n\n*อนุมาน —* สำหรับคนขี่รถ นี่คือช่วงที่ถูกมองข้ามที่สุดในปฏิทินทั้งปี มันตกอยู่กลางหน้าเขียวพอดี อากาศที่วัดได้สะอาดที่สุด นาขั้นบันไดเขียว น้ำตกมีน้ำ ห้องพักถูก และถนนว่าง ส่วนวัด ซึ่งเป็นอีกเรื่องหลักของจังหวัดนี้ ก็คึกคักที่สุดแทนที่จะเงียบที่สุด ทั้งวันเข้าและวันออกพรรษามีงาน และมีการถวายเทียนพรรษาตอนเริ่ม\n\n**สิ่งที่ต้องแลก** คือถนนแห้ง และทางหลวง 1263 หลุดจากแผน *อนุมาน —* เป็นราคาที่ไม่แพงเลยสำหรับการได้แม่ฮ่องสอนไว้คนเดียว"
+   },
+   "kin": [
+    {
+     "to": "the-rains",
+     "as": "The season it runs across.",
+     "rel": "event"
+    },
+    {
+     "to": "pa-bong-piang",
+     "as": "Green for exactly these months.",
+     "rel": "stop"
+    },
+    {
+     "to": "chong-kham-chong-klang",
+     "as": "Where the candles go.",
+     "rel": "wat"
+    }
+   ],
+   "sources": [
+    "s:wp-vassa",
+    "s:wp-public-holidays-in-thailand"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-vassa"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "medium",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": []
   },
   {
    "id": "poy-sang-long",
@@ -635,8 +928,75 @@
      "type": "person",
      "name": "The Shan",
      "as": "Their ordination festival."
+    },
+    {
+     "from": "songkran",
+     "type": "event",
+     "name": "Songkran",
+     "as": "The other spring festival, and the province's own."
     }
    ]
+  },
+  {
+   "id": "songkran",
+   "type": "event",
+   "names": {
+    "name": "Songkran",
+    "th": "สงกรานต์",
+    "said": "Thai new year, 13 to 15 April, and the entire country throws water at everybody.",
+    "said_th": "ปีใหม่ไทย 13 ถึง 15 เมษายน และทั้งประเทศสาดน้ำใส่ทุกคน"
+   },
+   "region": [
+    "loop"
+   ],
+   "facets": {
+    "month": "apr"
+   },
+   "text": {
+    "what": "The hottest days of the year, marked by pouring water. On a motorcycle this is a fact you plan around rather than a festival you attend.",
+    "story": "Songkran is the Thai new year, held 13–15 April, and the water-throwing that it is known for grew out of the gentler ritual of pouring water over Buddha images and over the hands of elders.\n\n*Inference —* the thing to understand as a rider is that you will be soaked, repeatedly, without being asked, and that this is not aimed at you personally. In the towns on this circuit, anyone on two wheels is a target — people with buckets stand at the roadside for three days.\n\nSo the practical shape: put anything that must stay dry in a sealed bag before you set off, expect to ride wet, and accept that a leg through several towns will take much longer than the map says. Some riders plan to be *between* towns during the worst of it, which works.\n\n*Inference —* it also falls in the worst measured air of the year and the hottest weather. April is the hardest month on this circuit for reasons that have nothing to do with the festival, and Songkran is a reason some people come anyway."
+   },
+   "text_th": {
+    "what": "วันที่ร้อนที่สุดของปี ฉลองด้วยการรดน้ำ บนมอเตอร์ไซค์ นี่คือข้อเท็จจริงที่ต้องวางแผนเผื่อ มากกว่าจะเป็นเทศกาลที่ไปร่วม",
+    "story": "สงกรานต์คือปีใหม่ไทย จัดวันที่ 13–15 เมษายน และการสาดน้ำที่เป็นที่รู้จักเติบโตมาจากพิธีที่อ่อนโยนกว่า คือการรดน้ำพระพุทธรูปและรดน้ำดำหัวผู้ใหญ่\n\n*อนุมาน —* สิ่งที่คนขี่รถต้องเข้าใจคือคุณจะเปียก ซ้ำแล้วซ้ำอีก โดยไม่มีใครถามก่อน และมันไม่ได้เล็งมาที่คุณเป็นการส่วนตัว ในเมืองต่างๆ บนเส้นทางนี้ ใครก็ตามที่อยู่บนสองล้อคือเป้าหมาย คนถือถังยืนอยู่ริมถนนสามวัน\n\nรูปแบบในทางปฏิบัติ เอาของที่ต้องแห้งใส่ถุงซีลก่อนออกเดินทาง เตรียมใจว่าจะขี่ทั้งที่เปียก และยอมรับว่าช่วงทางที่ผ่านหลายเมืองจะใช้เวลานานกว่าที่แผนที่บอกมาก คนขี่บางคนวางแผนให้อยู่ *ระหว่าง* เมืองในช่วงที่หนักที่สุด ซึ่งได้ผล\n\n*อนุมาน —* มันยังตรงกับช่วงที่อากาศแย่ที่สุดที่วัดได้ของปี และอากาศร้อนที่สุด เมษายนเป็นเดือนที่ยากที่สุดของเส้นทางนี้ด้วยเหตุผลที่ไม่เกี่ยวกับเทศกาลเลย และสงกรานต์คือเหตุผลที่บางคนยังมาอยู่ดี"
+   },
+   "kin": [
+    {
+     "to": "hot-season",
+     "as": "The same days, from the thermometer.",
+     "rel": "event"
+    },
+    {
+     "to": "burning-season",
+     "as": "And the same days, from the air.",
+     "rel": "event"
+    },
+    {
+     "to": "poy-sang-long",
+     "as": "The other spring festival, and the province's own.",
+     "rel": "event"
+    }
+   ],
+   "sources": [
+    "s:wp-songkran-thailand",
+    "s:wp-public-holidays-in-thailand"
+   ],
+   "provenance": {
+    "default": {
+     "tier": "cited",
+     "source": "s:wp-songkran-thailand"
+    },
+    "fields": {
+     "text_th": {
+      "tier": "inference",
+      "note": "written in Thai by this project, not machine-translated"
+     }
+    }
+   },
+   "confidence": "high",
+   "schema": 1,
+   "updated": "2026-09-18",
+   "kin_in": []
   },
   {
    "id": "the-rains",
@@ -762,16 +1122,40 @@
      "as": "When there is water in it."
     },
     {
+     "from": "pa-bong-piang",
+     "type": "stop",
+     "name": "Pa Bong Piang rice terraces",
+     "as": "When they are green."
+    },
+    {
+     "from": "annoyances",
+     "type": "hazard",
+     "name": "Annoyances",
+     "as": "The season the afternoon storm belongs to."
+    },
+    {
      "from": "gravel-on-the-apex",
      "type": "hazard",
      "name": "Gravel on the apex",
      "as": "The season that puts it there."
     },
     {
+     "from": "akha-swing",
+     "type": "event",
+     "name": "The Akha Swing Festival",
+     "as": "What late August is on this loop."
+    },
+    {
      "from": "burning-season",
      "type": "event",
      "name": "Burning season",
      "as": "What ends it."
+    },
+    {
+     "from": "phansa",
+     "type": "event",
+     "name": "Khao Phansa and Ok Phansa",
+     "as": "The season it runs across."
     },
     {
      "from": "season-and-direction",

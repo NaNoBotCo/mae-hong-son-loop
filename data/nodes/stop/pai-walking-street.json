@@ -1,0 +1,131 @@
+{
+ "id": "pai-walking-street",
+ "type": "stop",
+ "names": {
+  "name": "The evening in Pai",
+  "th": "ถนนคนเดินปาย",
+  "said": "The main street closes, the stalls come out, and the town does the thing it does.",
+  "said_th": "ถนนสายหลักปิด แผงลอยออกมา แล้วเมืองก็ทำสิ่งที่มันทำ"
+ },
+ "region": [
+  "mhs",
+  "pai",
+  "loop"
+ ],
+ "facets": {
+  "kind": "market",
+  "price": "cheap"
+ },
+ "text": {
+  "what": "Pai's evening market runs down the main street every night in the season: food stalls, music, and most of the town's visitors in one place.",
+  "story": "*Inference —* this is the most divisive thing on the circuit and it is worth saying plainly what it is. Pai in high season is busy, loud, young and commercial. Wikipedia's article records that between November and March the town has traffic jams and runs short of electricity, water and petrol.\n\nIf that is what you want for one night, it is genuinely good at it: the food is cheap and various, there is live music most nights, and the valley is still right there in the morning.\n\nIf it is not what you want, the answer is not to skip Pai — it is to sleep outside the town in the valley, come in for dinner, and ride out early. Soppong, forty minutes on, is the opposite of all of this.\n\n*Tradition holds —* the night market is a Thai form, not a visitor invention. Every town on this loop has an evening market; Pai's is simply the one with an audience."
+ },
+ "text_th": {
+  "what": "ตลาดเย็นของปายเปิดตลอดถนนสายหลักทุกคืนในฤดูท่องเที่ยว มีแผงอาหาร ดนตรี และผู้มาเยือนเกือบทั้งเมืองรวมกันอยู่ที่เดียว",
+  "story": "*อนุมาน —* นี่เป็นสิ่งที่คนเห็นต่างกันมากที่สุดบนเส้นทาง และควรพูดตรงๆ ว่ามันคืออะไร ปายในฤดูท่องเที่ยวคือความคึกคัก เสียงดัง วัยรุ่น และเชิงพาณิชย์ บทความวิกิพีเดียบันทึกว่าระหว่างพฤศจิกายนถึงมีนาคม เมืองรถติดและขาดแคลนไฟฟ้า น้ำ และน้ำมัน\n\nถ้านั่นคือสิ่งที่คุณอยากได้สักคืน มันทำได้ดีจริง อาหารถูกและหลากหลาย มีดนตรีสดเกือบทุกคืน และหุบเขาก็ยังอยู่ตรงนั้นในตอนเช้า\n\nถ้าไม่ใช่สิ่งที่อยากได้ คำตอบไม่ใช่การข้ามปายไป แต่คือนอนนอกเมืองในหุบ เข้ามากินข้าวเย็น แล้วออกเช้า ส่วนสบป่องที่ห่างไปสี่สิบนาที เป็นสิ่งตรงข้ามกับทั้งหมดนี้\n\n*ตามธรรมเนียม —* ตลาดกลางคืนเป็นรูปแบบของไทย ไม่ใช่สิ่งที่นักเดินทางคิดขึ้น ทุกเมืองบนเส้นทางนี้มีตลาดเย็น ของปายเป็นแค่ที่ที่มีคนดู"
+ },
+ "kin": [
+  {
+   "to": "pai",
+   "as": "The town it happens in.",
+   "rel": "town"
+  },
+  {
+   "to": "soppong",
+   "as": "The opposite of all of this, forty minutes on.",
+   "rel": "town"
+  },
+  {
+   "to": "morning-market",
+   "as": "The other market, and the better meal.",
+   "rel": "dish"
+  }
+ ],
+ "sources": [
+  "s:wp-pai-thailand",
+  "s:wp-night-market",
+  "s:osm"
+ ],
+ "provenance": {
+  "default": {
+   "tier": "cited",
+   "source": "s:wp-pai-thailand"
+  },
+  "fields": {
+   "text_th": {
+    "tier": "inference",
+    "note": "written in Thai by this project, not machine-translated"
+   }
+  }
+ },
+ "confidence": "medium",
+ "geo": {
+  "lat": 19.3592,
+  "lon": 98.4407,
+  "precision": "town"
+ },
+ "schema": 1,
+ "updated": "2026-09-18",
+ "images": [
+  {
+   "file": "pai-walking-street/pai-walking-street-pai-walking-street-2.jpg",
+   "source": "commons",
+   "title": "File:Pai Walking Street 2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Pai_Walking_Street_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Walking_Street_2.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Pai Walking Street in Thailand.",
+   "date": "2018-08-29 19:33:13",
+   "primary": true,
+   "sha256": "dfe41d20a21605bbce5b0566450bab11ccf9f44e88d0354f2df021fd4fb39918"
+  },
+  {
+   "file": "pai-walking-street/pai-walking-street-pai-walking-street-4.jpg",
+   "source": "commons",
+   "title": "File:Pai Walking Street 4.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Pai_Walking_Street_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Walking_Street_4.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Pai Walking Street in Thailand.",
+   "date": "2018-08-30 19:07:52",
+   "primary": false,
+   "sha256": "a3a9042ca93d78efd9cac58257d05e6fa5f7cc4e5ffc33e1f7c59478c1ad6754"
+  },
+  {
+   "file": "pai-walking-street/pai-walking-street-pai-walking-street-5.jpg",
+   "source": "commons",
+   "title": "File:Pai Walking Street 5.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Pai_Walking_Street_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3APai_Walking_Street_5.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "author": "Christophe95",
+   "credit": "Own work",
+   "alt": "Pai Walking Street in Thailand.",
+   "date": "2018-08-30 19:25:41",
+   "primary": false,
+   "sha256": "76cd5d375210f5ee9d3851d0291b9b0bc3b260a92099199716c014956e5153e5"
+  },
+  {
+   "file": "pai-walking-street/pai-walking-street-taiwanese-style-steak.jpg",
+   "source": "commons",
+   "title": "File:Taiwanese-Style Steak.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Taiwanese-Style_Steak.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "page_url": "https://commons.wikimedia.org/wiki/File%3ATaiwanese-Style_Steak.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0/",
+   "author": "midnightbreakfastcafe",
+   "credit": "https://www.flickr.com/photos/midnightbreakfastcafe/52710318521/",
+   "alt": "Steak on pasta with black pepper sauce and an over-easy egg",
+   "date": "2023-02-25 19:45:56",
+   "primary": false,
+   "sha256": "bc5a136d38aa629c4efcfd142610d26b596b05443671ea3a0ff251c78c21a421"
+  }
+ ]
+}
