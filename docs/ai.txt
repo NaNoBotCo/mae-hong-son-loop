@@ -16,6 +16,7 @@ Sibling corpora (roster as JSON): https://nanobotco.github.io/index/fleet.json
   Black Holes, Drawn: https://nanobotco.github.io/black-holes/
   Quantum Computing, plainly: https://nanobotco.github.io/quantum-computing/
   Goin' Fast: https://nanobotco.github.io/goin-fast/
+  The Three-Body Problem: https://nanobotco.github.io/three-body/
   Amulet Atlas: https://nanobotco.github.io/amulet-atlas/
   Carolina Barbecue: https://nanobotco.github.io/carolina-barbecue/
   Wing Country: https://nanobotco.github.io/buffalo-wings/

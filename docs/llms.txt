@@ -80,6 +80,7 @@ Made by Hongdam (https://hongdam.net/), a bilingual web studio in Chiang Rai.
 - [Black Holes, Drawn](https://nanobotco.github.io/black-holes/): black holes modelled and drawn from the equations — generators, the past, present and future, the legends
 - [Quantum Computing, plainly](https://nanobotco.github.io/quantum-computing/): the history and theory of quantum computing in plain words, with demos; refreshed weekly
 - [Goin' Fast](https://nanobotco.github.io/goin-fast/): a dirt-simple explainer about speed — twenty measured speeds from the ground under the house to light, and what each one costs
+- [The Three-Body Problem](https://nanobotco.github.io/three-body/): the mathematics of the three-body problem in plain words, with the orbits found rather than copied
 - [Amulet Atlas](https://nanobotco.github.io/amulet-atlas/): amulets, charms and talismans worldwide
 - [Carolina Barbecue](https://nanobotco.github.io/carolina-barbecue/): barbecue in North and South Carolina
 - [Wing Country](https://nanobotco.github.io/buffalo-wings/): the American chicken wing

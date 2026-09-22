@@ -15,6 +15,7 @@ Sitemap: https://nanobotco.github.io/hand-poke/sitemap.xml
 Sitemap: https://nanobotco.github.io/black-holes/sitemap.xml
 Sitemap: https://nanobotco.github.io/quantum-computing/sitemap.xml
 Sitemap: https://nanobotco.github.io/goin-fast/sitemap.xml
+Sitemap: https://nanobotco.github.io/three-body/sitemap.xml
 Sitemap: https://nanobotco.github.io/amulet-atlas/sitemap.xml
 Sitemap: https://nanobotco.github.io/carolina-barbecue/sitemap.xml
 Sitemap: https://nanobotco.github.io/buffalo-wings/sitemap.xml
