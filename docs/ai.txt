@@ -10,8 +10,12 @@ Everything this publisher holds, counted: https://nanobotco.github.io/index/
 Sibling corpora (roster as JSON): https://nanobotco.github.io/index/fleet.json
   Mot Dang: https://motdang.net/
   Muay Thai: https://motdang.net/muay-thai/
+  Roads of Chiang Mai: https://motdang.net/roads/
   wichaa: https://wichaa.net/
   Hand Poke: https://nanobotco.github.io/hand-poke/
+  Black Holes, Drawn: https://nanobotco.github.io/black-holes/
+  Quantum Computing, plainly: https://nanobotco.github.io/quantum-computing/
+  Goin' Fast: https://nanobotco.github.io/goin-fast/
   Amulet Atlas: https://nanobotco.github.io/amulet-atlas/
   Carolina Barbecue: https://nanobotco.github.io/carolina-barbecue/
   Wing Country: https://nanobotco.github.io/buffalo-wings/
