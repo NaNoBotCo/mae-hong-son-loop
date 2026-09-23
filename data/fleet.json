@@ -13,7 +13,8 @@
       "note": "city directory for Chiang Mai and Chiang Rai",
       "lane": "directory",
       "audience": "th",
-      "sitemap": "https://motdang.net/sitemap.xml"
+      "sitemap": "https://motdang.net/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/mot-dang"
     },
     {
       "id": "mae-hong-son-loop",
@@ -23,7 +24,8 @@
       "note": "motorcycling the 600 km loop out of Chiang Mai — curves counted, air measured",
       "lane": "directory",
       "audience": "th",
-      "sitemap": "https://nanobotco.github.io/mae-hong-son-loop/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/mae-hong-son-loop/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/mae-hong-son-loop"
     },
     {
       "id": "muay-thai",
@@ -33,7 +35,8 @@
       "note": "the eight limbs, the thirty named techniques, the ceremony, and every gym on the map",
       "lane": "directory",
       "audience": "th",
-      "sitemap": "https://motdang.net/muay-thai/sitemap.xml"
+      "sitemap": "https://motdang.net/muay-thai/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/muay-thai"
     },
     {
       "id": "chiang-mai-roads",
@@ -43,7 +46,8 @@
       "note": "the square of 1296, four rings, and what each one did to the city — counted from the map",
       "lane": "directory",
       "audience": "th",
-      "sitemap": "https://motdang.net/roads/sitemap.xml"
+      "sitemap": "https://motdang.net/roads/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/chiang-mai-roads"
     },
     {
       "id": "wichaa",
@@ -63,7 +67,8 @@
       "note": "28 traditions of marking skin by hand — the leg-tattoo zone of Burma, the Shan States and Lanna, counted",
       "lane": "directory",
       "audience": "th",
-      "sitemap": "https://nanobotco.github.io/hand-poke/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/hand-poke/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/hand-poke"
     },
     {
       "id": "black-holes",
@@ -72,7 +77,8 @@
       "note": "black holes modelled and drawn from the equations — generators, the past, present and future, the legends",
       "lane": "directory",
       "audience": "world",
-      "sitemap": "https://nanobotco.github.io/black-holes/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/black-holes/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/black-holes"
     },
     {
       "id": "quantum-computing",
@@ -82,7 +88,8 @@
       "note": "the history and theory of quantum computing in plain words, with demos; refreshed weekly",
       "lane": "directory",
       "audience": "en",
-      "sitemap": "https://nanobotco.github.io/quantum-computing/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/quantum-computing/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/quantum-computing"
     },
     {
       "id": "goin-fast",
@@ -91,7 +98,8 @@
       "note": "a dirt-simple explainer about speed — twenty measured speeds from the ground under the house to light, and what each one costs",
       "lane": "directory",
       "audience": "en",
-      "sitemap": "https://nanobotco.github.io/goin-fast/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/goin-fast/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/goin-fast"
     },
     {
       "id": "three-body",
@@ -100,7 +108,8 @@
       "note": "the mathematics of the three-body problem in plain words, with the orbits found rather than copied",
       "lane": "directory",
       "audience": "en",
-      "sitemap": "https://nanobotco.github.io/three-body/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/three-body/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/three-body"
     },
     {
       "id": "exceptional-magic",
@@ -109,7 +118,8 @@
       "audience": "world",
       "note": "the octonions, triality, the magic square and E8, computed and drawn — a plain-spoken reading of one paper",
       "url": "https://nanobotco.github.io/exceptional-magic/",
-      "sitemap": "https://nanobotco.github.io/exceptional-magic/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/exceptional-magic/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/exceptional-magic"
     },
     {
       "id": "amulet-atlas",
@@ -118,7 +128,8 @@
       "note": "amulets, charms and talismans worldwide",
       "lane": "directory",
       "audience": "world",
-      "sitemap": "https://nanobotco.github.io/amulet-atlas/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/amulet-atlas/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/amulet-atlas"
     },
     {
       "id": "carolina-barbecue",
@@ -127,7 +138,8 @@
       "note": "barbecue in North and South Carolina",
       "lane": "directory",
       "audience": "us",
-      "sitemap": "https://nanobotco.github.io/carolina-barbecue/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/carolina-barbecue/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/carolina-barbecue"
     },
     {
       "id": "buffalo-wings",
@@ -136,7 +148,8 @@
       "note": "the American chicken wing",
       "lane": "directory",
       "audience": "us",
-      "sitemap": "https://nanobotco.github.io/buffalo-wings/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/buffalo-wings/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/buffalo-wings"
     },
     {
       "id": "pink-box",
@@ -145,7 +158,8 @@
       "note": "the American mom-and-pop donut shop",
       "lane": "directory",
       "audience": "us",
-      "sitemap": "https://nanobotco.github.io/pink-box/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/pink-box/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/pink-box"
     },
     {
       "id": "basque-tables",
@@ -154,7 +168,8 @@
       "note": "Basque dining rooms of California, Nevada and Idaho",
       "lane": "directory",
       "audience": "us",
-      "sitemap": "https://nanobotco.github.io/basque-tables/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/basque-tables/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/basque-tables"
     },
     {
       "id": "pinot-noir",
@@ -163,7 +178,8 @@
       "note": "pinot noir: the vine, the regions, the cellars",
       "lane": "directory",
       "audience": "us",
-      "sitemap": "https://nanobotco.github.io/pinot-noir/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/pinot-noir/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/pinot-noir"
     },
     {
       "id": "care-abroad",
@@ -172,7 +188,8 @@
       "note": "treatment across borders, with published prices and their dates",
       "lane": "directory",
       "audience": "world",
-      "sitemap": "https://nanobotco.github.io/care-abroad/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/care-abroad/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/care-abroad"
     },
     {
       "id": "thairoots",
@@ -182,7 +199,8 @@
       "note": "a root dictionary of Thai, with a word decomposer",
       "lane": "directory",
       "audience": "th",
-      "sitemap": "https://nanobotco.github.io/thairoots/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/thairoots/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/thairoots"
     },
     {
       "id": "index",
@@ -191,7 +209,8 @@
       "note": "every corpus, site and repository, counted",
       "lane": "meta",
       "audience": "all",
-      "sitemap": "https://nanobotco.github.io/index/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/index/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/index"
     },
     {
       "id": "uptake",
@@ -200,7 +219,8 @@
       "note": "a field manual on publishing for machines that copy",
       "lane": "meta",
       "audience": "all",
-      "sitemap": "https://nanobotco.github.io/uptake/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/uptake/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/uptake"
     },
     {
       "id": "portal",
@@ -209,7 +229,8 @@
       "note": "the portal",
       "lane": "meta",
       "audience": "all",
-      "sitemap": "https://nanobotco.github.io/sitemap.xml"
+      "sitemap": "https://nanobotco.github.io/sitemap.xml",
+      "repo": "https://github.com/NaNoBotCo/nanobotco.github.io"
     },
     {
       "id": "ask-motdang",
@@ -234,7 +255,8 @@
       "url": "https://defiant.to/",
       "note": "medical and dental care in Chiang Mai, with a translator at the appointment",
       "lane": "company",
-      "audience": "world"
+      "audience": "world",
+      "repo": "https://github.com/NaNoBotCo/defiant-site"
     },
     {
       "id": "hongdam",
@@ -251,7 +273,8 @@
       "url": "https://hakfarang.net/",
       "note": "เรื่องเงิน วีซ่า และชีวิตกับแฟนฝรั่ง",
       "lane": "directory",
-      "audience": "th"
+      "audience": "th",
+      "repo": "https://github.com/NaNoBotCo/hak-farang"
     },
     {
       "id": "offramp",
@@ -259,7 +282,8 @@
       "url": "https://offrampt.net/",
       "note": "turning crypto into spendable local money, Thailand first",
       "lane": "directory",
-      "audience": "world"
+      "audience": "world",
+      "repo": "https://github.com/NaNoBotCo/offramp"
     },
     {
       "id": "patreon",
@@ -286,5 +310,6 @@
     "note": "the studio these sites are built in",
     "th": "หงส์ดำ",
     "city_th": "เชียงราย"
-  }
+  },
+  "source": "https://github.com/NaNoBotCo"
 }
