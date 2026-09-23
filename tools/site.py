@@ -232,7 +232,7 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
 <p>{'Records CC BY 4.0. Road geometry and places © OpenStreetMap contributors, ODbL 1.0. Air data from Open-Meteo (CAMS), CC BY 4.0, and the Thai Pollution Control Department. Corpus text from Wikipedia, CC BY-SA 4.0.' if lang == 'en' else 'บันทึกเผยแพร่ภายใต้ CC BY 4.0 เส้นทางและสถานที่ © ผู้ร่วมสร้าง OpenStreetMap ภายใต้ ODbL 1.0 ข้อมูลอากาศจาก Open-Meteo (CAMS) ภายใต้ CC BY 4.0 และกรมควบคุมมลพิษ เนื้อหาอ้างอิงจากวิกิพีเดีย ภายใต้ CC BY-SA 4.0'}</p>
 <p><a href="{rin}about/">{E(ui['about'])}</a> · <a href="{r}api/">API</a> · <a href="{rin}all/">{E(ui['all'])}</a> · <a href="{r}llms.txt">llms.txt</a></p>
 {fleet.row_html(SELF, label=("More from the same publisher" if lang == "en" else "เว็บอื่นของผู้จัดทำ"), roster=ROSTER)}
-{fleet.support_html(roster=ROSTER)}
+{fleet.support_html(self_id="mae-hong-son-loop", roster=ROSTER)}
 {fleet.maker_html(roster=ROSTER, lang=lang)}
 </div></footer>
 </body></html>
