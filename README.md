@@ -140,6 +140,7 @@ All of it, counted: https://nanobotco.github.io/index/ · roster as JSON: https:
 - [Quantum Computing, plainly](https://nanobotco.github.io/quantum-computing/) — the history and theory of quantum computing in plain words, with demos; refreshed weekly
 - [Goin' Fast](https://nanobotco.github.io/goin-fast/) — a dirt-simple explainer about speed — twenty measured speeds from the ground under the house to light, and what each one costs
 - [The Three-Body Problem](https://nanobotco.github.io/three-body/) — the mathematics of the three-body problem in plain words, with the orbits found rather than copied
+- [Exceptional Magic](https://nanobotco.github.io/exceptional-magic/) — the octonions, triality, the magic square and E8, computed and drawn — a plain-spoken reading of one paper
 - [Amulet Atlas](https://nanobotco.github.io/amulet-atlas/) — amulets, charms and talismans worldwide
 - [Carolina Barbecue](https://nanobotco.github.io/carolina-barbecue/) — barbecue in North and South Carolina
 - [Wing Country](https://nanobotco.github.io/buffalo-wings/) — the American chicken wing
