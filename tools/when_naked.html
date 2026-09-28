@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mae Hong Son Timing</title>
+<style>
+:root{--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#8a8984;--grid:#e6e5e0;--s1:#2a78d6;--s1f:rgba(42,120,214,.14);--hi:#eb6834}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--muted:#8f8e86;--grid:#2e2e2c;--s1:#3987e5;--s1f:rgba(57,135,229,.2);--hi:#d95926}}
+:root[data-theme="dark"]{--surface:#1a1a19;--ink:#fff;--ink2:#c3c2b7;--muted:#8f8e86;--grid:#2e2e2c;--s1:#3987e5;--s1f:rgba(57,135,229,.2);--hi:#d95926}
+body{margin:0;background:var(--surface);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Noto Sans Thai",sans-serif}
+main{max-width:980px;margin:0 auto;padding:20px 16px 40px}
+h1{font-size:22px;margin:0 0 2px}h2{font-size:14px;margin:18px 0 2px;color:var(--ink2);font-weight:600}
+.sub{color:var(--ink2);margin:0 0 14px}
+svg{display:block;width:100%;height:auto;overflow:visible}
+.ax text{fill:var(--muted);font-size:11px}.ax line{stroke:var(--grid)}
+#tip{position:fixed;pointer-events:none;background:var(--surface);color:var(--ink);border:1px solid var(--grid);border-radius:6px;padding:8px 10px;font-size:13px;box-shadow:0 2px 10px rgba(0,0,0,.15);display:none;max-width:260px}
+#tip b{font-size:15px}
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin:14px 0}
+.pick{border:1px solid var(--grid);border-radius:8px;padding:10px 12px}
+.pick .r{font-size:24px;font-weight:700}.pick .m{color:var(--ink2);font-size:13px}
+.note{color:var(--ink2);font-size:13px;margin-top:22px}
+details{margin-top:14px;font-size:13px}table{border-collapse:collapse;width:100%}td,th{padding:3px 6px;border-bottom:1px solid var(--grid);text-align:right}td:first-child,th:first-child{text-align:left}
+</style></head><body><main>
+<h1>Mae Hong Son loop — when to go</h1>
+<p class="sub"><a href="https://motdang.net/loop/when/" style="color:inherit">motdang.net/loop/when</a> · แม่ฮ่องสอน ไปวันไหนดี · a 4-day trip, rated by its start date · ควัน ฝน คนเยอะ</p>
+<div class="picks" id="picks"></div>
+<h2>Rating, 0–10 · คะแนน</h2><svg id="main"></svg>
+<h2>Chance of a wet riding day (≥5 mm) · โอกาสฝนตก</h2><svg id="wet"></svg>
+<h2>Smoke, a bad year's PM2.5 (µg/m³, model) · ฝุ่นควัน</h2><svg id="pm"></svg>
+<h2>Crowds, 0–100 · คนเยอะ</h2><svg id="crowd"></svg>
+<div id="tip"></div>
+<p class="note">Rain: ERA5 daily totals 1996–2025 at Pai, Soppong, Mae Hong Son, Khun Yuam, Mae Sariang (Open-Meteo). Smoke: CAMS PM2.5 Aug 2022–Sep 2026 at nine loop points, 75th percentile by date; the model reads low against ground monitors, so the scale is set to it. Crowds: a seasonal curve plus weekends, Thai public holidays, school breaks, Golden Week, Chinese New Year, Ok Phansa, Loy Krathong and the Bua Tong bloom — estimated, no visitor counts are published. Rating = 10 × cube root of (clean air × dry × quiet), so one bad factor sinks a date.<br>ฝน: ERA5 ปี 2539–2568 · ฝุ่น: CAMS · คนเยอะ: ประมาณจากวันหยุดและเทศกาล</p>
+<details><summary>Table · ตาราง</summary><table id="tbl"><thead><tr><th>Start</th><th>Rating</th><th>Wet %</th><th>PM2.5</th><th>Crowd</th><th>Events</th></tr></thead><tbody></tbody></table></details>
+</main>
+<script>
+const D=__DATA__,P=__PICKS__;
+const W=940,L=34,R=8,N=D.length,x=i=>L+i*(W-L-R)/(N-1);
+const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const fmt=s=>{const d=new Date(s+'T00:00');return d.getDate()+' '+MON[d.getMonth()]+' '+d.getFullYear()};
+const dow=s=>['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][new Date(s+'T00:00').getDay()];
+const end=s=>{const d=new Date(s+'T00:00');d.setDate(d.getDate()+3);return d.toISOString().slice(0,10)};
+function chart(id,key,max,H,ticks,area){
+  const el=document.getElementById(id);el.setAttribute('viewBox',`0 0 ${W} ${H+18}`);
+  const y=v=>6+(H-6)*(1-v/max);let s='<g class="ax">';
+  ticks.forEach(t=>s+=`<line x1="${L}" x2="${W-R}" y1="${y(t)}" y2="${y(t)}"/><text x="${L-6}" y="${y(t)+4}" text-anchor="end">${t}</text>`);
+  D.forEach((d,i)=>{if(d.d.slice(8)==='01')s+=`<text x="${x(i)}" y="${H+15}">${MON[+d.d.slice(5,7)-1]}${d.d.slice(5,7)==='01'||i===0?' '+d.d.slice(2,4):''}</text>`});
+  s+='</g>';
+  const pts=D.map((d,i)=>`${x(i).toFixed(1)},${y(Math.min(d[key],max)).toFixed(1)}`).join(' ');
+  if(area)s+=`<polygon points="${L},${y(0)} ${pts} ${W-R},${y(0)}" fill="var(--s1f)"/>`;
+  s+=`<polyline points="${pts}" fill="none" stroke="var(--s1)" stroke-width="2" stroke-linejoin="round"/>`;
+  s+=`<line class="xh" y1="4" y2="${H}" stroke="var(--muted)" stroke-width="1" style="display:none"/><circle class="dot" r="4" fill="var(--s1)" stroke="var(--surface)" stroke-width="2" style="display:none"/>`;
+  el.innerHTML=s;el._y=y;el._key=key;el._max=max;return el;
+}
+const charts=[chart('main','r',10,200,[0,2,4,6,8,10],true),chart('wet','wet',80,70,[0,40,80]),chart('pm','pm',40,70,[0,20,40]),chart('crowd','crowd',100,70,[0,50,100])];
+// picks: best start in distinct windows at least 10 days apart
+const picks=P.map(p=>D.findIndex(d=>d.d===p)).filter(i=>i>=0);
+const m=charts[0];
+picks.forEach((i,k)=>{const d=D[i];
+  m.insertAdjacentHTML('beforeend',`<circle cx="${x(i)}" cy="${m._y(d.r)}" r="5" fill="var(--hi)" stroke="var(--surface)" stroke-width="2"/><text x="${x(i)}" y="${m._y(d.r)-10}" text-anchor="middle" font-size="11" fill="var(--ink)">${k+1}</text>`);
+  document.getElementById('picks').insertAdjacentHTML('beforeend',`<div class="pick"><div class="m">#${k+1} · ${dow(d.d)} ${fmt(d.d)} → ${dow(end(d.d))} ${fmt(end(d.d))}</div><div class="r">${d.r.toFixed(1)}</div><div class="m">wet ${d.wet}% · PM2.5 ${d.pm} · crowd ${d.crowd}${d.ev.length?' · '+d.ev.join(', '):''}</div></div>`)});
+const tip=document.getElementById('tip');
+charts.forEach(c=>{
+  c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect(),px=(e.clientX-r.left)*W/r.width;
+    const i=Math.max(0,Math.min(N-1,Math.round((px-L)/((W-L-R)/(N-1))))),d=D[i];
+    charts.forEach(k=>{const xh=k.querySelector('.xh'),dot=k.querySelector('.dot');xh.style.display=dot.style.display='';xh.setAttribute('x1',x(i));xh.setAttribute('x2',x(i));dot.setAttribute('cx',x(i));dot.setAttribute('cy',k._y(Math.min(d[k._key],k._max)))});
+    tip.style.display='block';tip.innerHTML=`${dow(d.d)} ${fmt(d.d)} → ${dow(end(d.d))} ${fmt(end(d.d))}<br><b>${d.r.toFixed(1)} / 10</b><br>wet day ${d.wet}% · PM2.5 ${d.pm} · crowd ${d.crowd}${d.ev.length?'<br>'+d.ev.join(', '):''}`;
+    tip.style.left=Math.min(e.clientX+14,innerWidth-270)+'px';tip.style.top=(e.clientY+14)+'px'});
+  c.addEventListener('pointerleave',()=>{tip.style.display='none';charts.forEach(k=>{k.querySelector('.xh').style.display=k.querySelector('.dot').style.display='none'})})});
+document.querySelector('#tbl tbody').innerHTML=D.map(d=>`<tr><td>${dow(d.d)} ${fmt(d.d)}</td><td>${d.r.toFixed(1)}</td><td>${d.wet}</td><td>${d.pm}</td><td>${d.crowd}</td><td>${d.ev.join(', ')}</td></tr>`).join('');
+</script></body></html>

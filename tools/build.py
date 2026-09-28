@@ -179,6 +179,7 @@ def main() -> int:
     jdump(curves, API / "curves.json", indent=0)
     jdump(air_summary(air_m), API / "air.json", indent=0)
     jdump(air_g or {}, API / "air-now.json")
+    jdump(load_harvest("when") or {}, API / "when.json", indent=0)
     jdump(places, API / "places.json", indent=0)
     jdump(base, API / "base.json", indent=0)
     jdump(elev, API / "elevation.json", indent=0)

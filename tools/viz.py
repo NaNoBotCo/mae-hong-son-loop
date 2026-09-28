@@ -241,7 +241,7 @@ def timeline_svg(rows: list, w=760):
 
 
 def bars_svg(rows: list, w=760, unit="", rowh=30, left=190):
-    """Horizontal bars, one hue, value at the end of each. The plainest honest form."""
+    """Horizontal bars, one hue, value at the end of each. The plainest form."""
     if not rows:
         return ""
     top = max(v for _, v in rows)
