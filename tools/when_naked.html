@@ -37,7 +37,7 @@ const W=940,L=34,R=8,N=D.length,x=i=>L+i*(W-L-R)/(N-1);
 const MON=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 const fmt=s=>{const d=new Date(s+'T00:00');return d.getDate()+' '+MON[d.getMonth()]+' '+d.getFullYear()};
 const dow=s=>['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][new Date(s+'T00:00').getDay()];
-const end=s=>{const d=new Date(s+'T00:00');d.setDate(d.getDate()+3);return d.toISOString().slice(0,10)};
+const end=s=>{const d=new Date(s+'T12:00');d.setDate(d.getDate()+3);return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0')};
 function chart(id,key,max,H,ticks,area){
   const el=document.getElementById(id);el.setAttribute('viewBox',`0 0 ${W} ${H+18}`);
   const y=v=>6+(H-6)*(1-v/max);let s='<g class="ax">';
