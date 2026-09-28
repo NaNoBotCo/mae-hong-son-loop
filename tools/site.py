@@ -212,7 +212,7 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
 <link rel="alternate" type="application/atom+xml" href="{r}feed.xml">
 <style>{CSS}</style>{head}
 <script type="application/ld+json">{ld}</script>
-<script defer src="{r}copy.js?v=20260928b"></script>
+<script defer src="{r}copy.js?v=20260928c"></script>
 </head>
 <body>
 <a class="sr" href="#main">Skip to content</a>
@@ -2849,11 +2849,16 @@ def main() -> int:
           # The fold keeps the page's height: the rows it drops become margin under
           # the bar, so nothing below moves and the browser does not re-anchor the
           # scroll, which read as an upward scroll and brought the bar straight back.
+          # Scroll anchoring is off for the instant of the fold: the height is read
+          # between the two steps, and Chrome anchored on that half-folded layout and
+          # threw the page back to the top.
           '(function(){var h=document.querySelector("header.top");if(!h)return;'
           'var b=document.body,y=window.pageYOffset,up=0,dn=0,t=false;'
           'function tight(on){if(on===b.classList.contains("nav-tight"))return;'
+          'var r=document.documentElement.style;r.overflowAnchor="none";'
           'h.style.marginBottom="";var a=h.offsetHeight;b.classList.toggle("nav-tight",on);'
-          'if(on)h.style.marginBottom=Math.max(0,a-h.offsetHeight)+"px"}'
+          'if(on)h.style.marginBottom=Math.max(0,a-h.offsetHeight)+"px";'
+          'h.offsetHeight;r.overflowAnchor=""}'
           'function f(){t=false;var n=window.pageYOffset,d=n-y;y=n;'
           'if(n<60){up=dn=0;b.classList.remove("nav-away");tight(false);return}'
           'tight(true);'
