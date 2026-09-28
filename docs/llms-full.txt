@@ -21,6 +21,7 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Numbers](https://nanobotco.github.io/mae-hong-son-loop/numbers/)
 - [The good part](https://nanobotco.github.io/mae-hong-son-loop/good/)
 - [The year](https://nanobotco.github.io/mae-hong-son-loop/year/)
+- [Pick a date](https://nanobotco.github.io/mae-hong-son-loop/when/)
 - [Air](https://nanobotco.github.io/mae-hong-son-loop/air/)
 - [Danger](https://nanobotco.github.io/mae-hong-son-loop/danger/)
 - [Baggage](https://nanobotco.github.io/mae-hong-son-loop/baggage/)

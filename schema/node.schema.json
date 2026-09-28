@@ -495,7 +495,7 @@
   },
   "tags": {
    "type": "array",
-   "description": "Claims about a place that a reader might pick a place by. Every tag names its evidence; ownership and welcome tags are never inferred.",
+   "description": "Claims about a place that a reader might pick a place by. A tag names its evidence; validate.py rejects ownership and welcome tags at the tradition and inference tiers.",
    "items": {
     "type": "object",
     "required": [

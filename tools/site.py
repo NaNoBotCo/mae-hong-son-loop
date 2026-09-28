@@ -95,7 +95,7 @@ DIR_OF = {"leg": "legs", "road": "roads", "town": "towns", "stop": "stops", "wat
 
 UI = {
  "en": {"home": "The loop", "legs": "Legs", "which": "Which way", "numbers": "Numbers",
-        "good": "The good part", "year": "The year", "air": "Air", "danger": "Danger", "baggage": "Baggage",
+        "good": "The good part", "year": "The year", "when": "Pick a date", "air": "Air", "danger": "Danger", "baggage": "Baggage",
         "quiz": "Which ride",
         "words": "Words",
         "roadbook": "Roadbook",
@@ -110,7 +110,7 @@ UI = {
         "unverified": "Parts of this record are marked as needing verification.",
         "riding": "What it asks of you", "season": "By season", "route": "The route"},
  "th": {"home": "วงรอบ", "legs": "ช่วงทาง", "which": "ไปทางไหน", "numbers": "ตัวเลข",
-        "good": "ส่วนที่ดี", "year": "ทั้งปี", "air": "อากาศ", "danger": "อันตราย", "baggage": "สัมภาระ",
+        "good": "ส่วนที่ดี", "year": "ทั้งปี", "when": "เลือกวัน", "air": "อากาศ", "danger": "อันตราย", "baggage": "สัมภาระ",
         "quiz": "ขี่แบบไหน",
         "words": "คำพูด",
         "roadbook": "สมุดเส้นทาง",
@@ -128,7 +128,7 @@ UI = {
 }
 
 NAV = [("", "home"), ("legs/", "legs"), ("which-way/", "which"), ("numbers/", "numbers"),
-       ("good/", "good"), ("year/", "year"), ("air/", "air"), ("danger/", "danger"), ("baggage/", "baggage"),
+       ("good/", "good"), ("year/", "year"), ("when/", "when"), ("air/", "air"), ("danger/", "danger"), ("baggage/", "baggage"),
        ("quiz/", "quiz"), ("words/", "words"), ("roadbook/", "roadbook")]
 
 
@@ -325,6 +325,7 @@ ROADS = jload(API / "roads.json")
 CURVES = jload(API / "curves.json")
 AIR = jload(API / "air.json")
 AIR_NOW = jload(API / "air-now.json")
+WHEN = jload(API / "when.json") if (API / "when.json").exists() else {}
 PLACES = jload(API / "places.json")
 PACKLIST = jload(Path(__file__).resolve().parent.parent / "data" / "vocab" / "packlist.json")
 PHRASES = jload(Path(__file__).resolve().parent.parent / "data" / "vocab" / "phrases.json")
@@ -1008,7 +1009,7 @@ def front(lang: str) -> str:
     b.append(f'<div class="btns"><a class="btn" href="{r}quiz/">{E("Which ride is yours?" if lang == "en" else "คุณควรขี่แบบไหน")}</a>'
              f'<a class="btn alt" href="{r}which-way/">{E("Clockwise or not?" if lang == "en" else "ตามเข็มหรือทวนเข็ม")}</a>'
              f'<a class="btn alt" href="{r}good/">{E("The good part" if lang == "en" else "ส่วนที่ดี")}</a>'
-             f'<a class="btn alt" href="{r}air/">{E("When to go" if lang == "en" else "ควรไปเมื่อไหร่")}</a></div>')
+             f'<a class="btn alt" href="{r}when/">{E("Pick a date" if lang == "en" else "เลือกวัน")}</a></div>')
     pool = gallery_pool()
     if pool:
         b.append(shot_strip([im for _, im in pool[:8]], root_depth(0, lang)))
@@ -1358,12 +1359,13 @@ def air_page(lang: str) -> str:
         b.append("</tbody></table></div>")
         b.append(f'<p class="small mute">{E("Fetched " + str(AIR_NOW.get("fetched")) + " when this page was built — it does not update by itself." if lang == "en" else "ดึงข้อมูลเมื่อ " + str(AIR_NOW.get("fetched")) + " ตอนสร้างหน้านี้ และไม่อัปเดตเอง")} '
                  f'<a href="https://air4thai.pcd.go.th/" rel="noopener">air4thai</a></p>')
-    b.append(f'<div class="warn"><strong>{E("Two caveats, both load-bearing." if lang == "en" else "ข้อควรระวังสองข้อ สำคัญทั้งคู่")}</strong> '
+    b.append(f'<div class="warn"><strong>{E("Two caveats." if lang == "en" else "ข้อควรระวังสองข้อ สำคัญทั้งคู่")}</strong> '
              f'{E("In " + format(AIR.get("point_days", 0), ",") + " point-days the model never produced a daily mean above " + str(AIR.get("model_ceiling")) + " µg/m³. Ground stations in northern Thailand have recorded far higher: read the seasonal shape from this data, not the ceiling. And Mae Hong Son province — 12,765 km² — has one official monitor, in Mae Hong Son town. Pai, Soppong, Khun Yuam and Mae Sariang have none." if lang == "en" else "ใน " + format(AIR.get("point_days", 0), ",") + " จุด-วัน แบบจำลองไม่เคยให้ค่าเฉลี่ยรายวันเกิน " + str(AIR.get("model_ceiling")) + " เลย สถานีภาคพื้นดินในภาคเหนือเคยวัดได้สูงกว่านั้นมาก ให้อ่านรูปร่างของฤดูกาลจากข้อมูลนี้ ไม่ใช่เพดานสูงสุด และจังหวัดแม่ฮ่องสอน พื้นที่ 12,765 ตร.กม. มีสถานีวัดของรัฐแห่งเดียว อยู่ในตัวเมือง ปาย สบป่อง ขุนยวม แม่สะเรียง ไม่มีเลย")}</div>')
     n = BY_ID.get("the-smoke")
     if n:
         b.append(f'<h2>{E(T(n, "names.name", lang))}</h2><div class="prose">{prose(T(n, "text.story", lang))}</div>'
                  f'<p><a class="btn alt" href="{lroot(lang)}{url_of(n)}">{E("Full page" if lang == "en" else "หน้าเต็ม")}</a></p>')
+    b.append(f'<p><a class="btn alt" href="{lroot(lang)}when/">{E("Pick a date: every day rated" if lang == "en" else "เลือกวัน: ให้คะแนนทุกวัน")}</a></p>')
     b.append(f'<p class="small mute">{E(AIR.get("attribution", ""))} · {E(AIR.get("start"))} → {E(AIR.get("end"))}</p>')
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}air/"
     b.append(share_row(url, "When not to ride the Mae Hong Son loop", lang))
@@ -1377,7 +1379,7 @@ def danger(lang: str) -> str:
     hz = [n for n in NODES if n["type"] == "hazard"]
     b = [f'<h1><span class="kind">{E("Demand, not crashes" if lang == "en" else "ความยาก ไม่ใช่อุบัติเหตุ")}</span>'
          f'{E("Where it asks the most" if lang == "en" else "ช่วงที่หนักที่สุด")}</h1>',
-         f'<p class="lede">{E("Nobody publishes a crash map for these roads and this project will not invent one. This is a map of how much steering each two kilometres asks for, measured the same way everywhere." if lang == "en" else "ไม่มีใครเผยแพร่แผนที่อุบัติเหตุของถนนเหล่านี้ และโครงการนี้จะไม่แต่งขึ้นมา นี่คือแผนที่ว่าทุกสองกิโลเมตรต้องบังคับรถมากแค่ไหน วัดด้วยวิธีเดียวกันทุกที่")}</p>']
+         f'<p class="lede">{E("Nobody publishes a crash map for these roads, so this is not one. It is a map of how much steering each two kilometres asks for, measured the same way everywhere." if lang == "en" else "ไม่มีใครเผยแพร่แผนที่อุบัติเหตุของถนนเหล่านี้ หน้านี้จึงไม่ใช่แผนที่อุบัติเหตุ แต่เป็นแผนที่ว่าทุกสองกิโลเมตรต้องบังคับรถมากแค่ไหน วัดด้วยวิธีเดียวกันทุกที่")}</p>']
     d1 = root_depth(1, lang)
     # the figure was hardcoded at 7.45 and had gone stale against the road it named, and
     # the band's kicker said 1263 while its label said 1095. Take both from the count.
@@ -1676,11 +1678,181 @@ def year_page(lang: str) -> str:
     for n_ in sorted([x for x in NODES if x["type"] == "event"], key=lambda x: x["names"]["name"]):
         b.append(node_card(n_, lang, 1))
     b.append("</div>")
+    b.append(f'<p><a class="btn alt" href="{lroot(lang)}when/">{E("Pick a date: every day rated" if en else "เลือกวัน: ให้คะแนนทุกวัน")}</a></p>')
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}year/"
     b.append(share_row(url, "The Mae Hong Son loop, month by month", lang))
     return page(f'{"The year" if en else "ทั้งปี"} — {NAME[lang]}', "".join(b), 1, lang,
                 "Festivals, blooms, mist, rain and smoke, month by month.",
                 None, url, cur="year", path="year/", card="year")
+
+
+# ---------------------------------------------------------------- pick a date
+WDAY = {"en": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        "th": ["จ.", "อ.", "พ.", "พฤ.", "ศ.", "ส.", "อา."]}
+
+
+def when_date(iso: str, lang: str) -> str:
+    y, m, d = (int(x) for x in iso.split("-"))
+    wd = WDAY[lang][time.strptime(iso, "%Y-%m-%d").tm_wday]
+    mo = MONTHS[m - 1]
+    if lang == "th":
+        return f"{wd} {d} {mo[2]} {y + 543}"
+    return f"{wd} {d} {mo[1]} {y}"
+
+
+def when_end(iso: str, n: int) -> str:
+    t = time.mktime(time.strptime(iso, "%Y-%m-%d")) + (n - 1) * 86400 + 43200
+    return time.strftime("%Y-%m-%d", time.localtime(t))
+
+
+def when_svg(days: list, key: str, top: float, h: int, ticks: list, area: bool,
+             picks: list = ()) -> str:
+    """One strip of the year, drawn at build time. The hover layer reads the same rows."""
+    w, l, r = 940, 34, 8
+    n = len(days)
+    x = lambda i: l + i * (w - l - r) / (n - 1)
+    y = lambda v: 6 + (h - 6) * (1 - min(v, top) / top)
+    s = [f'<svg class="when-svg" data-key="{key}" data-top="{top}" data-h="{h}" '
+         f'viewBox="0 0 {w} {h + 18}" role="img">']
+    for t in ticks:
+        s.append(f'<line x1="{l}" x2="{w - r}" y1="{y(t):.1f}" y2="{y(t):.1f}" class="g"/>'
+                 f'<text x="{l - 6}" y="{y(t) + 4:.1f}" text-anchor="end">{t}</text>')
+    for i, d in enumerate(days):
+        if d["d"][8:] == "01":
+            mo = int(d["d"][5:7])
+            lab = MONTHS[mo - 1][1] + (" " + d["d"][2:4] if mo == 1 or i == 0 else "")
+            s.append(f'<text x="{x(i):.1f}" y="{h + 15}">{E(lab)}</text>')
+    pts = " ".join(f"{x(i):.1f},{y(d[key]):.1f}" for i, d in enumerate(days))
+    if area:
+        s.append(f'<polygon points="{l},{y(0):.1f} {pts} {w - r},{y(0):.1f}" class="a"/>')
+    s.append(f'<polyline points="{pts}" class="l"/>')
+    for k, i in enumerate(picks):
+        s.append(f'<circle cx="{x(i):.1f}" cy="{y(days[i][key]):.1f}" r="6" class="p"/>'
+                 f'<text x="{x(i):.1f}" y="{y(days[i][key]) - 11:.1f}" text-anchor="middle" '
+                 f'class="pn">{k + 1}</text>')
+    s.append(f'<line class="xh" y1="4" y2="{h}"/><circle class="dot" r="4"/></svg>')
+    return "".join(s)
+
+
+WHEN_CSS = """<style>
+.when-svg{display:block;width:100%;height:auto;overflow:visible;margin:.2rem 0 1rem;touch-action:pan-y}
+.when-svg text{fill:var(--mute);font-size:11px;font-family:var(--body)}
+.when-svg .g{stroke:var(--line)}
+.when-svg .l{fill:none;stroke:var(--sky);stroke-width:2;stroke-linejoin:round}
+.when-svg .a{fill:var(--sky);opacity:.14}
+.when-svg .p{fill:var(--hot);stroke:var(--bg);stroke-width:2}
+.when-svg .pn{fill:var(--ink);font-weight:700;font-size:12px}
+.when-svg .xh{stroke:var(--mute);display:none}.when-svg .dot{fill:var(--sky);stroke:var(--bg);stroke-width:2;display:none}
+.when-h{font-size:.95rem;margin:1.2rem 0 0}
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.8rem;margin:1rem 0 1.4rem}
+.pick{border:3px solid var(--ink);padding:.7rem .9rem;background:var(--panel)}
+.pick b{display:block;font-family:var(--display);font-size:2.4rem;line-height:1}
+.pick span{display:block;font-size:.85rem;color:var(--mute)}
+#when-tip{position:fixed;pointer-events:none;background:var(--panel);color:var(--ink);border:2px solid var(--ink);
+ padding:.45rem .6rem;font-size:.8rem;max-width:17rem;display:none;z-index:50}
+#when-tip b{font-size:1.1rem}
+</style>"""
+
+
+def when_page(lang: str) -> str:
+    en = lang == "en"
+    days = WHEN.get("days", [])
+    if not days:
+        return page("Pick a date", "<p>Not built.</p>", 1, lang, path="when/")
+    trip = WHEN.get("trip_days", 4)
+    idx = {d["d"]: i for i, d in enumerate(days)}
+    picks = [idx[p] for p in WHEN.get("picks", []) if p in idx]
+
+    def ev(d):
+        return ", ".join(d["ev_th"] if lang == "th" else d["ev"])
+
+    def span(d):
+        return f'{when_date(d["d"], lang)} → {when_date(when_end(d["d"], trip), lang)}'
+
+    b = [f'<h1><span class="kind">{E(f"{trip}-day trips, rated" if en else f"ทริป {trip} วัน ให้คะแนน")}</span>'
+         f'{E("Pick a date" if en else "เลือกวัน")}</h1>',
+         f'<p class="lede">{E("Every start date for the next twelve months, rated out of ten for smoke, rain and crowds." if en else "ทุกวันออกเดินทางในสิบสองเดือนข้างหน้า ให้คะแนนเต็มสิบ จากควัน ฝน และคนเยอะ")}</p>',
+         '<div class="picks">']
+    for k, i in enumerate(picks):
+        d = days[i]
+        line = (f'{"wet day" if en else "โอกาสฝน"} {d["wet"]}% · PM2.5 {d["pm"]} · '
+                f'{"crowd" if en else "คนเยอะ"} {d["crowd"]}')
+        b.append(f'<div class="pick"><span>#{k + 1} · {E(span(d))}</span><b>{d["r"]:.1f}</b>'
+                 f'<span>{E(line)}</span>{f"<span>{E(ev(d))}</span>" if ev(d) else ""}</div>')
+    b.append("</div>")
+    b.append(f'<h2 class="when-h">{E("Rating, 0–10" if en else "คะแนน 0–10")}</h2>'
+             + when_svg(days, "r", 10, 200, [0, 2, 4, 6, 8, 10], True, picks))
+    b.append(f'<h2 class="when-h">{E("Chance of a wet riding day, 5 mm or more (%)" if en else "โอกาสเจอฝน 5 มม. ขึ้นไป ในวันขี่ (%)")}</h2>'
+             + when_svg(days, "wet", 80, 70, [0, 40, 80], False))
+    b.append(f'<h2 class="when-h">{E("Smoke: PM2.5 in a bad year (µg/m³, model)" if en else "ควัน: PM2.5 ในปีที่แย่ (ไมโครกรัม/ลบ.ม. จากแบบจำลอง)")}</h2>'
+             + when_svg(days, "pm", 40, 70, [0, 20, 40], False))
+    b.append(f'<h2 class="when-h">{E("Crowds, 0–100 (estimated)" if en else "ความหนาแน่นของคน 0–100 (ประมาณการ)")}</h2>'
+             + when_svg(days, "crowd", 100, 70, [0, 50, 100], False))
+    # the month table doubles as the no-hover view
+    b.append(f'<h2>{E("Best start in each month" if en else "วันออกเดินทางที่ดีที่สุดของแต่ละเดือน")}</h2>'
+             '<div class="scroll"><table><thead><tr>'
+             f'<th>{E("Month" if en else "เดือน")}</th><th class="num">{E("Average" if en else "เฉลี่ย")}</th>'
+             f'<th>{E("Best start" if en else "วันที่ดีที่สุด")}</th><th class="num">{E("Rating" if en else "คะแนน")}</th>'
+             f'<th class="num">{E("Wet %" if en else "ฝน %")}</th><th class="num">PM2.5</th>'
+             f'<th class="num">{E("Crowd" if en else "คน")}</th></tr></thead><tbody>')
+    by_m = {}
+    for d in days:
+        by_m.setdefault(d["d"][:7], []).append(d)
+    for ym, g in by_m.items():
+        best = max(g, key=lambda x: x["r"])
+        mo = MONTHS[int(ym[5:]) - 1]
+        yr = int(ym[:4]) + (543 if lang == "th" else 0)
+        b.append(f'<tr><th>{E(mo[2] if lang == "th" else mo[1])} {yr}</th>'
+                 f'<td class="num">{sum(x["r"] for x in g) / len(g):.1f}</td>'
+                 f'<td>{E(when_date(best["d"], lang))}</td><td class="num">{best["r"]:.1f}</td>'
+                 f'<td class="num">{best["wet"]}</td><td class="num">{best["pm"]}</td>'
+                 f'<td class="num">{best["crowd"]}</td></tr>')
+    b.append("</tbody></table></div>")
+    m = WHEN.get("method", {})
+    b.append(f'<div class="warn"><strong>{E("How the numbers are made." if en else "ตัวเลขมาจากไหน")}</strong> '
+             + E("Rain: " + m.get("rain", "") + ", from a reanalysis grid, not a gauge. "
+                 "Smoke: " + m.get("smoke", "") + ". The model reads low against ground monitors, so the scale is set to the model. "
+                 "Crowds: " + m.get("crowds", "") + " (long weekends, school breaks, Golden Week, Chinese New Year, Ok Phansa, Loy Krathong, the Bua Tong bloom); no visitor counts are published for the loop. "
+                 "Rating: " + m.get("rating", "") + ", so one bad factor sinks a date."
+                 if en else
+                 "ฝน: สัดส่วนวันที่ฝนตก 5 มม. ขึ้นไป ปี 2539–2568 ห้าเมืองบนเส้นทาง จากข้อมูลวิเคราะห์ซ้ำ ERA5 ไม่ใช่เครื่องวัดฝน "
+                 "ควัน: PM2.5 จากแบบจำลอง CAMS ค่าเปอร์เซ็นไทล์ที่ 75 ของแต่ละวัน เก้าจุดบนเส้นทาง แบบจำลองอ่านค่าต่ำกว่าสถานีภาคพื้นดิน จึงตั้งสเกลตามแบบจำลอง "
+                 "คนเยอะ: ประมาณจากฤดูท่องเที่ยว วันหยุดสุดสัปดาห์ วันหยุดยาว ปิดเทอม ตรุษจีน ออกพรรษา ลอยกระทง และทุ่งบัวตอง ไม่มีการเผยแพร่จำนวนนักท่องเที่ยวของเส้นทางนี้ "
+                 "คะแนน: 10 × รากที่สามของ (อากาศสะอาด × แห้ง × คนน้อย) ปัจจัยที่แย่ตัวเดียวจึงดึงคะแนนลงทั้งหมด")
+             + "</div>")
+    b.append(f'<p><a class="btn alt" href="{lroot(lang)}air/">{E("The air, town by town" if en else "อากาศ ทีละเมือง")}</a> '
+             f'<a class="btn alt" href="{lroot(lang)}year/">{E("What is on, month by month" if en else "มีอะไรบ้าง เดือนต่อเดือน")}</a> '
+             f'<a class="btn alt" href="{BASE_PATH}api/when.json">when.json</a></p>')
+    b.append(f'<p class="small mute">{E(" · ".join(WHEN.get("sources", [])))} · '
+             f'{E(("scored " if en else "คำนวณเมื่อ ") + WHEN.get("generated", ""))}</p>')
+    rows = [[d["d"], d["r"], d["wet"], d["pm"], d["crowd"], ev(d)] for d in days]
+    b.append('<div id="when-tip"></div><script>(function(){'
+             f'var D={json.dumps(rows, ensure_ascii=False)},N=D.length,T={trip},'
+             f'L={json.dumps({"en": ["wet day", "crowd"], "th": ["โอกาสฝน", "คนเยอะ"]}[lang], ensure_ascii=False)},'
+             f'M={json.dumps([mo[2] if lang == "th" else mo[1] for mo in MONTHS], ensure_ascii=False)},'
+             f'W={json.dumps(WDAY[lang], ensure_ascii=False)},BE={543 if lang == "th" else 0};'
+             'var K={r:1,wet:2,pm:3,crowd:4},tip=document.getElementById("when-tip"),'
+             'S=[].slice.call(document.querySelectorAll(".when-svg"));'
+             'function f(s,a){var d=new Date(s+"T12:00:00");d.setDate(d.getDate()+(a||0));'
+             'return W[(d.getDay()+6)%7]+" "+d.getDate()+" "+M[d.getMonth()]+" "+(d.getFullYear()+BE)}'
+             'function x(i){return 34+i*(940-42)/(N-1)}'
+             'function hide(){tip.style.display="none";S.forEach(function(s){s.querySelector(".xh").style.display="none";s.querySelector(".dot").style.display="none"})}'
+             'S.forEach(function(el){el.addEventListener("pointermove",function(e){'
+             'var b=el.getBoundingClientRect(),px=(e.clientX-b.left)*940/b.width,'
+             'i=Math.max(0,Math.min(N-1,Math.round((px-34)/((940-42)/(N-1))))),d=D[i];'
+             'S.forEach(function(s){var k=K[s.dataset.key],t=+s.dataset.top,h=+s.dataset.h,'
+             'y=6+(h-6)*(1-Math.min(d[k],t)/t),xh=s.querySelector(".xh"),o=s.querySelector(".dot");'
+             'xh.style.display=o.style.display="block";xh.setAttribute("x1",x(i));xh.setAttribute("x2",x(i));'
+             'o.setAttribute("cx",x(i));o.setAttribute("cy",y)});'
+             'tip.style.display="block";tip.innerHTML=f(d[0])+" → "+f(d[0],T-1)+"<br><b>"+d[1].toFixed(1)+" / 10</b><br>"'
+             '+L[0]+" "+d[2]+"% · PM2.5 "+d[3]+" · "+L[1]+" "+d[4]+(d[5]?"<br>"+d[5]:"");'
+             'tip.style.left=Math.min(e.clientX+14,innerWidth-280)+"px";tip.style.top=(e.clientY+14)+"px"});'
+             'el.addEventListener("pointerleave",hide)})})();</script>')
+    url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}when/"
+    b.append(share_row(url, "The best dates to ride the Mae Hong Son loop", lang))
+    return page(f'{"Pick a date" if en else "เลือกวัน"} — {NAME[lang]}', "".join(b), 1, lang,
+                "Every start date for the next twelve months, rated for smoke, rain and crowds.",
+                None, url, head=WHEN_CSS, cur="when", path="when/", card="when")
 
 
 # ---------------------------------------------------------------- the good part
@@ -2454,7 +2626,7 @@ def robots() -> str:
 def sitemap() -> str:
     urls = []
     today = time.strftime("%Y-%m-%d")
-    static = ["", "legs/", "which-way/", "numbers/", "good/", "year/", "air/", "danger/",
+    static = ["", "legs/", "which-way/", "numbers/", "good/", "year/", "when/", "air/", "danger/",
               "baggage/", "quiz/", "roadbook/", "all/", "about/"] + [f"{DIR_OF[t]}/" for t in TYPES
                                    if any(n["type"] == t for n in NODES)]
     for lang in LANGS:
@@ -2572,7 +2744,7 @@ def ai_txt() -> str:
 
 
 def api_index() -> str:
-    files = ["nodes.json", "itinerary.json", "roads.json", "curves.json", "air.json",
+    files = ["nodes.json", "itinerary.json", "roads.json", "curves.json", "air.json", "when.json",
              "air-now.json", "places.json", "sources.json", "vocab.json", "coverage.json",
              "quiz.json"] + [f"{t}.json" for t in TYPES if any(n["type"] == t for n in NODES)]
     b = ["<h1><span class=\"kind\">Open</span>API</h1>",
@@ -2609,11 +2781,12 @@ def main() -> int:
         write(base / "quiz" / "index.html", quiz_page(lang))
         write(base / "good" / "index.html", good(lang))
         write(base / "year" / "index.html", year_page(lang))
+        write(base / "when" / "index.html", when_page(lang))
         write(base / "baggage" / "index.html", baggage(lang))
         write(base / "roadbook" / "index.html", roadbook(lang))
         write(base / "all" / "index.html", all_page(lang))
         write(base / "about" / "index.html", about(lang))
-        n_pages += 12
+        n_pages += 13
         for t in TYPES:
             if any(n["type"] == t for n in NODES):
                 write(base / DIR_OF[t] / "index.html", type_index(t, lang))
@@ -2681,6 +2854,13 @@ def main() -> int:
           'if(Math.abs(d)>1)last=y},{passive:true});'
           'addEventListener("focusin",function(e){if(h.contains(e.target))'
           'b.classList.remove("nav-away")});})();')
+
+    # the same ratings as one bare page, no site chrome (her word, 2026-09-28)
+    naked = Path(__file__).resolve().parent / "when_naked.html"
+    if WHEN.get("days") and naked.exists():
+        write(SITE / "when-to-go.html", naked.read_text(encoding="utf-8").replace(
+            "__DATA__", json.dumps(WHEN["days"], ensure_ascii=False)).replace(
+            "__PICKS__", json.dumps(WHEN.get("picks", []))))
 
     # the mount point, so serve.py and links.py can reproduce production exactly
     write(SITE / ".basepath", BASE_PATH)

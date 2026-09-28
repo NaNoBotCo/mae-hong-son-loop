@@ -51,12 +51,14 @@ DRAFT = bool(os.environ.get("BUILD_DRAFT"))
 # it appears here inside quotation marks and attributed. Outside a quotation, name the
 # people — Shan, Karen, Kayan, Lahu, Lisu, Hmong, Lua, Pa-O — which is both more accurate
 # and what they call themselves.
+# stylecheck: allow-start — the list names the words it refuses
 BANNED = re.compile(
     r"\b(authentic(ity|ally)?|inauthentic|unspoil\w+|untouched|exotic|primitive|backward"
     r"|tourist(s|y)?|touristy|hidden gems?|off the beaten (track|path)|must[- ]see|must[- ]do"
     r"|bucket[- ]list|real riders?|proper riding|true riders?|the real thing|honest(ly|y)?"
     r"|purist|hill ?tribes?|native tribes?|sacrile\w+|breathtaking|stunning|paradise"
     r"|hidden treasures?|best[- ]kept secret)\b", re.I)
+# stylecheck: allow-end
 
 
 def _get(rec: dict, dotted: str):

@@ -158,6 +158,8 @@ if __name__ == "__main__":
          "3.0", "µg/m³ · Pai, July", "the-rains"),
         ("good", "Something worth stopping for every twenty minutes", "The good part",
          "", "", "pang-ung"),
+        ("when", "Smoke, rain and crowds, every date of the year", "Pick a date",
+         "", "", "bua-tong-bloom"),
         ("year", "Time it right and you get four things at once", "Month by month",
          "", "", "bua-tong-bloom"),
         ("baggage", "Send the bag ahead. The bus is going your way.", "Logistics",
