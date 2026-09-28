@@ -59,14 +59,19 @@ img{max-width:100%;height:auto}
 
 /* ---- frame */
 header.top{border-bottom:2px solid var(--ink);position:sticky;top:0;z-index:30;background:var(--bg)}
-/* ---- the bar gets out of the way on a phone (added 2026-09-19)
-   The nav wraps to three or four rows at 375px; sticky kept them over a
-   quarter of the screen for the whole page. Scroll down and the bar slides
-   away; scroll up — any amount — and it comes back. Wide screens, where the
-   bar is one row, keep it pinned. */
-@media (max-width:52rem){
- header.top{transition:transform .2s ease}
- body.nav-away header.top{transform:translateY(-100%)}
+/* NaN, 2026-09-28: "isn't staying properly collapsed". The motdang home rule (9/22),
+   at every width: past the fold the nav and language switch fold away and the bar
+   keeps only the brand; scrolling down takes the bar; it returns on 90 px of
+   deliberate upward scroll or at the top. UP and DOWN accumulate separately. */
+header.top{transition:transform .26s cubic-bezier(.4,0,.2,1),box-shadow .26s ease}
+body.nav-away header.top{transform:translateY(-102%)}
+body.nav-tight header.top{box-shadow:0 10px 24px -14px var(--shadow)}
+header.top nav,header.top .langsw{transition:opacity .18s ease,max-height .26s ease,margin .26s ease}
+body.nav-tight header.top .in{row-gap:0}
+body.nav-tight header.top nav,body.nav-tight header.top .langsw{
+ opacity:0;max-height:0;margin-block:0;overflow:hidden;pointer-events:none}
+@media (prefers-reduced-motion:reduce){
+ header.top,header.top nav,header.top .langsw{transition:none}
 }
 
 header.top .in{max-width:68rem;margin:0 auto;padding:.5rem 1rem;display:flex;gap:.5rem 1rem;
@@ -546,7 +551,7 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
  .slab,.band .cred{background-attachment:scroll}}
 </style>
 <script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "Mae Hong Son to Khun Yuam", "inLanguage": "en", "url": "https://nanobotco.github.io/mae-hong-son-loop/leg/mhs-to-khun-yuam/", "description": "Route 108 south. The climb out of the Mae Hong Son valley, then the first of the long southern running.", "author": {"@type": "Person", "name": "NaN", "url": "https://wichaa.net"}, "license": "https://creativecommons.org/licenses/by/4.0/", "dateModified": "2026-09-18", "isPartOf": {"@type": "WebSite", "name": "The Mae Hong Son Loop", "url": "https://nanobotco.github.io/mae-hong-son-loop"}}]</script>
-<script defer src="/mae-hong-son-loop/copy.js"></script>
+<script defer src="/mae-hong-son-loop/copy.js?v=20260928b"></script>
 </head>
 <body>
 <a class="sr" href="#main">Skip to content</a>

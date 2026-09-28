@@ -212,7 +212,7 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
 <link rel="alternate" type="application/atom+xml" href="{r}feed.xml">
 <style>{CSS}</style>{head}
 <script type="application/ld+json">{ld}</script>
-<script defer src="{r}copy.js"></script>
+<script defer src="{r}copy.js?v=20260928b"></script>
 </head>
 <body>
 <a class="sr" href="#main">Skip to content</a>
@@ -2844,16 +2844,26 @@ def main() -> int:
           "b.addEventListener('click',function(){navigator.clipboard&&"
           "navigator.clipboard.writeText(b.dataset.copy);var t=b.textContent;"
           "b.textContent='\\u2713';setTimeout(function(){b.textContent=t},1200)})});"
-          # the top bar retracts on scroll-down, returns on scroll-up (2026-09-19)
+          # the top bar folds to the brand past the fold, leaves on scroll-down and
+          # returns on 90 px of deliberate scroll-up (motdang's rule, 2026-09-28).
+          # The fold keeps the page's height: the rows it drops become margin under
+          # the bar, so nothing below moves and the browser does not re-anchor the
+          # scroll, which read as an upward scroll and brought the bar straight back.
           '(function(){var h=document.querySelector("header.top");if(!h)return;'
-          'var b=document.body,last=window.pageYOffset,hh=h.offsetHeight;'
-          'addEventListener("resize",function(){hh=h.offsetHeight},{passive:true});'
-          'addEventListener("scroll",function(){var y=window.pageYOffset,d=y-last;'
-          'if(y<=hh||d<-4){b.classList.remove("nav-away")}'
-          'else if(d>4){b.classList.add("nav-away")}'
-          'if(Math.abs(d)>1)last=y},{passive:true});'
-          'addEventListener("focusin",function(e){if(h.contains(e.target))'
-          'b.classList.remove("nav-away")});})();')
+          'var b=document.body,y=window.pageYOffset,up=0,dn=0,t=false;'
+          'function tight(on){if(on===b.classList.contains("nav-tight"))return;'
+          'h.style.marginBottom="";var a=h.offsetHeight;b.classList.toggle("nav-tight",on);'
+          'if(on)h.style.marginBottom=Math.max(0,a-h.offsetHeight)+"px"}'
+          'function f(){t=false;var n=window.pageYOffset,d=n-y;y=n;'
+          'if(n<60){up=dn=0;b.classList.remove("nav-away");tight(false);return}'
+          'tight(true);'
+          'if(d>0){dn+=d;up=0;if(dn>14)b.classList.add("nav-away")}'
+          'else if(d<0){up-=d;dn=0;if(up>90)b.classList.remove("nav-away")}}'
+          'addEventListener("scroll",function(){if(!t){t=true;requestAnimationFrame(f)}},{passive:true});'
+          'addEventListener("resize",function(){if(b.classList.contains("nav-tight")){'
+          'b.classList.remove("nav-tight");tight(true)}},{passive:true});'
+          'addEventListener("focusin",function(e){if(h.contains(e.target)){'
+          'b.classList.remove("nav-away");tight(false)}});f()})();')
 
     # the same ratings as one bare page, no site chrome (her word, 2026-09-28)
     naked = Path(__file__).resolve().parent / "when_naked.html"
