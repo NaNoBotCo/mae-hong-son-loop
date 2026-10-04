@@ -717,6 +717,9 @@ def node_page(n: dict, lang: str) -> str:
         b.append(hero_shot(n, rdepth))
     if n["id"] in ("renting-a-bike", "one-way-rental"):
         b.append(rent_row(lang, check=n["id"] != "renting-a-bike"))
+    if n["type"] == "kit" and n["id"] in KIT_PAID:
+        keys, h_en, h_th = KIT_PAID[n["id"]]
+        b.append(paid_row(keys, lang, h_en, h_th))
 
     # the route slab, for legs and roads
     rt = n.get("route") or {}
@@ -1003,6 +1006,50 @@ RENT = [("https://bikesbooking.tpx.li/KcOf7DBL", "Scooter or big bike", "มอ�
         ("https://localrent.tpx.li/k7FlWeCg", "Car", "รถเช่า")]
 
 
+# More Travelpayouts links, same project and sub ID: key -> (url, EN, TH, EN note, TH note)
+PAID_LINKS = {
+    "radical": ("https://radicalstorage.tpx.li/1kzmdckO",
+                "Leave the big bag in Chiang Mai · Radical Storage", "ฝากกระเป๋าใบใหญ่ไว้ที่เชียงใหม่ · Radical Storage", "", ""),
+    "kiwitaxi": ("https://kiwitaxi.tpx.li/a5c9iIu2",
+                 "Airport to your bed · Kiwitaxi", "รถจากสนามบินถึงที่พัก · Kiwitaxi", "", ""),
+    "gettransfer": ("https://gettransfer.tpx.li/rt6gyJ6X",
+                    "A van back to Chiang Mai · GetTransfer", "รถตู้กลับเชียงใหม่ · GetTransfer",
+                    "Ask before you book whether the van can take the bike.",
+                    "ถามก่อนจองว่ารถตู้ขนมอเตอร์ไซค์ไปด้วยได้ไหม"),
+    "yesim": ("https://yesim.tpx.li/2eaZbxNh", "Thai eSIM · Yesim", "อีซิมสำหรับเมืองไทย · Yesim", "", ""),
+    "klook": ("https://klook.tpx.li/8jn80BxS", "Things to do in Chiang Mai · Klook", "กิจกรรมในเชียงใหม่ · Klook", "", ""),
+    "ekta": ("https://ektatraveling.tpx.li/FPCSkBAC", "Travel insurance · EKTA", "ประกันการเดินทาง · EKTA",
+             "Before you buy, check whether the policy covers riding a motorbike.",
+             "ก่อนซื้อ ตรวจดูว่ากรมธรรม์คุ้มครองการขี่มอเตอร์ไซค์หรือไม่"),
+}
+
+
+def paid_row(keys, lang: str, head_en: str, head_th: str) -> str:
+    """A box of paid links, labelled as paid."""
+    en = lang == "en"
+    got = [PAID_LINKS[k] for k in keys if k in PAID_LINKS]
+    if not got:
+        return ""
+    links = "".join(
+        f'<a class="btn alt" href="{E(u)}" rel="sponsored nofollow noopener" target="_blank">{E(a if en else t)}</a>'
+        for u, a, t, _, _ in got)
+    notes = "".join(f'<p class="small">{E(ne if en else nt)}</p>' for _, _, _, ne, nt in got if ne)
+    return (f'<aside class="rent"><h3>{E(head_en if en else head_th)}</h3>'
+            f'<div class="btns">{links}</div>{notes}'
+            f'<p class="small mute">{E(PAID[lang])}</p></aside>')
+
+
+# which kit pages carry which paid links
+KIT_PAID = {
+    "no-storage": (("radical",), "Leave the big bag in Chiang Mai", "ฝากกระเป๋าใบใหญ่ไว้ที่เชียงใหม่"),
+    "packing-light": (("radical",), "Leave the big bag in Chiang Mai", "ฝากกระเป๋าใบใหญ่ไว้ที่เชียงใหม่"),
+    "sending-the-bag-ahead": (("radical",), "Or leave it in Chiang Mai", "หรือฝากไว้ที่เชียงใหม่"),
+    "one-way-rental": (("gettransfer", "radical"), "Getting back to Chiang Mai", "กลับเชียงใหม่"),
+    "gear": (("ekta",), "Insurance", "ประกัน"),
+}
+FIRST_DAY = ("kiwitaxi", "yesim", "radical", "klook", "ekta")
+
+
 def rent_row(lang: str, check: bool = True) -> str:
     en = lang == "en"
     links = "".join(
@@ -1212,6 +1259,7 @@ def stays_index(lang: str) -> str:
         out.append(stay_section(t, lang))
         if t["id"] == "chiang-mai":
             out.append(rent_row(lang))
+            out.append(paid_row(FIRST_DAY, lang, "Chiang Mai, the first day", "เชียงใหม่ วันแรก"))
     return "".join(out)
 
 
@@ -1355,6 +1403,7 @@ def flights_page(lang: str) -> str:
              f'<a class="btn alt" href="{r}baggage/">{E("What to do with the big bag" if en else "กระเป๋าใบใหญ่ทำอย่างไรดี")}</a>'
              f'<a class="btn alt" href="{r}kit/renting-a-bike/">{E("Before you ride off" if en else "ก่อนขี่ออกจากร้าน")}</a></div>')
     b.append(rent_row(lang, check=False))
+    b.append(paid_row(FIRST_DAY, lang, "Chiang Mai, the first day", "เชียงใหม่ วันแรก"))
     url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}flights/"
     b.append(share_row(url, title, lang))
     b.append(REDATE)
@@ -2382,6 +2431,7 @@ def baggage(lang: str) -> str:
     if n:
         b.append(f'<div class="prose">{prose(T(n, "text.story", lang))}</div>')
 
+    b.append(paid_row(("radical", "gettransfer"), lang, "Or leave it in Chiang Mai", "หรือฝากไว้ที่เชียงใหม่"))
     b.append(f'<h2>{E("Where it can land" if en else "ส่งไปลงที่ไหนได้")}</h2>')
     note_en = ("Counted from OpenStreetMap on " + str(PLACES.get("fetched")) + ". Distance is to "
                "the town centre. OSM tags a state post office and a private courier counter "
