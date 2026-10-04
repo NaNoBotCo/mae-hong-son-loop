@@ -503,6 +503,9 @@ legend{font-family:var(--display);font-weight:800;text-transform:uppercase;font-
 .btn:hover{color:#fff;transform:translate(2px,2px);box-shadow:2px 2px 0 var(--ink)}
 .btn.alt{background:var(--bg);color:var(--ink)}
 .btns{display:flex;gap:.8rem;flex-wrap:wrap;margin:1.2rem 0}
+.rent{border:3px solid var(--ink);background:var(--panel);padding:.8rem 1rem;margin:1.6rem 0}
+.rent h3{margin:0}.rent .btns{margin:.8rem 0 .6rem}.rent .btn{font-size:.95rem}.rent p{margin:0}
+@media print{.rent{display:none}}
 
 /* ---- misc */
 .cols{columns:2 15rem;column-gap:2rem}
