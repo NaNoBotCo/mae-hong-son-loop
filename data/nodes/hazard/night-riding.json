@@ -15,16 +15,16 @@
  },
  "text": {
   "what": "Once the sun is down the circuit has no ambient light at all outside the towns, and a rented bike's headlight is usually a single bulb of unknown age.",
-  "story": "*Inference —* three things stack. The headlight on a small rental is dim and often aimed badly. The hazards that matter here — gravel on the apex, a buffalo, a dog, a broken edge — are all low-contrast and low to the ground, which is exactly what a dipped beam shows worst. And the corner you cannot see round is a corner you cannot judge the radius of, on a road whose radii change constantly.\n\nThe practical rule people ride to is to be off the road by dusk and to plan legs so that arriving late is not required. Sunset in northern Thailand is early and quick year-round — this is near the tropics, so there is not much twilight to work with."
+  "story": "*Inference —* three things stack. The headlight on a small rental is dim and often aimed badly. The hazards that matter here — gravel on the apex, a buffalo, a dog, a broken edge — are all low-contrast and low to the ground, which is exactly what a dipped beam shows worst. And the corner you cannot see round is a corner you cannot judge the radius of, on a road whose radii change constantly.\n\nSunset in northern Thailand is early and quick year-round — this is near the tropics, so there is not much twilight to work with."
  },
  "text_th": {
   "what": "เมื่อพระอาทิตย์ตก เส้นทางนี้ไม่มีแสงรอบข้างเลยเมื่อพ้นเขตเมือง และไฟหน้ารถเช่ามักเป็นหลอดเดียวที่ไม่รู้อายุ",
-  "story": "*อนุมาน —* สามอย่างซ้อนกัน ไฟหน้าของรถเช่าคันเล็กมักหรี่และปรับองศาไว้ผิด อันตรายที่สำคัญที่นี่ ทั้งกรวดกลางโค้ง ควาย สุนัข ขอบถนนแตก ล้วนคอนทราสต์ต่ำและอยู่ติดพื้น ซึ่งเป็นสิ่งที่ไฟต่ำส่องได้แย่ที่สุด และโค้งที่มองไม่เห็นก็คือโค้งที่กะรัศมีไม่ได้ บนถนนที่รัศมีเปลี่ยนตลอดเวลา\n\nกฎที่คนใช้กันจริงคือให้พ้นถนนก่อนพลบ และวางแผนแต่ละช่วงไม่ให้ต้องไปถึงดึก พระอาทิตย์ตกในภาคเหนือเร็วและไวตลอดปี เพราะที่นี่ใกล้เขตร้อน จึงไม่มีช่วงสนธยายาวๆ ให้ใช้"
+  "story": "*อนุมาน —* สามอย่างซ้อนกัน ไฟหน้าของรถเช่าคันเล็กมักหรี่และปรับองศาไว้ผิด อันตรายที่สำคัญที่นี่ ทั้งกรวดกลางโค้ง ควาย สุนัข ขอบถนนแตก ล้วนคอนทราสต์ต่ำและอยู่ติดพื้น ซึ่งเป็นสิ่งที่ไฟต่ำส่องได้แย่ที่สุด และโค้งที่มองไม่เห็นก็คือโค้งที่กะรัศมีไม่ได้ บนถนนที่รัศมีเปลี่ยนตลอดเวลา\n\nพระอาทิตย์ตกในภาคเหนือเร็วและไวตลอดปี เพราะที่นี่ใกล้เขตร้อน จึงไม่มีช่วงสนธยายาวๆ ให้ใช้"
  },
  "kin": [
   {
    "to": "annoyances",
-   "as": "The small stuff, with antidotes.",
+   "as": "The small stuff.",
    "rel": "hazard"
   },
   {

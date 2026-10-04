@@ -70,7 +70,7 @@
      "note": "Village pumps shut at dusk."
     },
     {
-     "en": "Check the tyres, please",
+     "en": "Could you check the tyre pressure?",
      "th": "ช่วยเช็คลมยางหน่อย",
      "rtgs": "chuai chek lom yang noi",
      "say": "chûai chék lom-yaang nòi"
@@ -113,7 +113,7 @@
      "th": "เล่มทะเบียน",
      "rtgs": "lem thabian",
      "say": "lêm thá-bian",
-     "note": "The green book. Ask the rental shop for a copy before you leave."
+     "note": "The green book: the bike's registration."
     },
     {
      "en": "Insurance",
@@ -307,8 +307,7 @@
      "en": "Landslide",
      "th": "ดินถล่ม",
      "rtgs": "din thalom",
-     "say": "din thà-lòm",
-     "note": "Ask before the wet season, not after it."
+     "say": "din thà-lòm"
     },
     {
      "en": "Fog",

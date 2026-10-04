@@ -5,7 +5,7 @@
   "name": "The hut with no wall on the valley side",
   "th": "กระท่อมที่ไม่มีผนังด้านหุบเขา",
   "said": "Bamboo, a mattress, a mosquito net, and the whole valley where the fourth wall should be.",
-  "said_th": "ไม้ไผ่ ที่นอน มุ้ง และหุบเขาทั้งหุบตรงที่ควรเป็นผนังที่สี่"
+  "said_th": "ไม้ไผ่ ที่นอน มุ้ง และหุบเขาทั้งหุบตรงที่น่าจะเป็นผนังที่สี่"
  },
  "region": [
   "loop"
@@ -16,16 +16,16 @@
  },
  "text": {
   "what": "The form that made Pai's name and has since spread down the whole circuit: a raised bamboo platform hut, open on the view side, often with the bathroom in a separate box.",
-  "story": "*Inference —* what you are buying is the first ten minutes after you stop riding, when you sit on the step with the engine ticking as it cools and the valley doing whatever the valley is doing. On a trip whose whole subject is motion, the places that make stopping worth something are doing the heavier work.\n\nTwo things worth knowing. It is cold before dawn from November to February and bamboo is not insulated, so the blanket matters more than the view does at five in the morning. And the huts with the best view are usually up the steepest track — the one at the bottom of the slope looks at the same valley."
+  "story": "*Inference —* what you are buying is the first ten minutes after you stop riding, when you sit on the step with the engine ticking as it cools and the valley doing whatever the valley is doing. On a trip whose whole subject is motion, the places that make stopping worth something are doing the heavier work.\n\nTwo things. It is cold before dawn from November to February and bamboo is not insulated, so the blanket matters more than the view does at five in the morning. And the huts with the best view are usually up the steepest track — the one at the bottom of the slope looks at the same valley."
  },
  "text_th": {
   "what": "รูปแบบที่ทำให้ปายเป็นที่รู้จัก และตอนนี้กระจายไปทั่วเส้นทาง กระท่อมไม้ไผ่ยกพื้น เปิดโล่งด้านวิว ห้องน้ำมักแยกอยู่อีกหลัง",
-  "story": "*อนุมาน —* สิ่งที่คุณจ่ายเงินซื้อคือสิบนาทีแรกหลังหยุดขี่ ตอนที่นั่งอยู่บนขั้นบันไดโดยมีเสียงเครื่องยนต์ดังติ๊กๆ ขณะเย็นตัว และหุบเขากำลังทำอะไรก็ตามที่หุบเขาทำ ในทริปที่มีเรื่องการเคลื่อนที่เป็นแก่น ที่ที่ทำให้การหยุดมีความหมายคือที่ที่ทำงานหนักกว่า\n\nสองเรื่องที่ควรรู้ หนาวก่อนรุ่งสางตั้งแต่พฤศจิกายนถึงกุมภาพันธ์ และไม้ไผ่ไม่มีฉนวน ผ้าห่มจึงสำคัญกว่าวิวตอนตีห้า และหลังที่วิวดีที่สุดมักอยู่ปลายทางที่ชันที่สุด ส่วนหลังที่อยู่เชิงเนินก็มองเห็นหุบเขาเดียวกัน"
+  "story": "*อนุมาน —* สิ่งที่คุณจ่ายเงินซื้อคือสิบนาทีแรกหลังหยุดขี่ ตอนที่นั่งอยู่บนขั้นบันไดโดยมีเสียงเครื่องยนต์ดังติ๊กๆ ขณะเย็นตัว และหุบเขากำลังทำอะไรก็ตามที่หุบเขาทำ ในทริปที่มีเรื่องการเคลื่อนที่เป็นแก่น ที่ที่ทำให้การหยุดมีความหมายคือที่ที่ทำงานหนักกว่า\n\nสองเรื่อง หนาวก่อนรุ่งสางตั้งแต่พฤศจิกายนถึงกุมภาพันธ์ และไม้ไผ่ไม่มีฉนวน ผ้าห่มจึงสำคัญกว่าวิวตอนตีห้า และหลังที่วิวดีที่สุดมักอยู่ปลายทางที่ชันที่สุด ส่วนหลังที่อยู่เชิงเนินก็มองเห็นหุบเขาเดียวกัน"
  },
  "kin": [
   {
    "to": "annoyances",
-   "as": "The small stuff, with antidotes.",
+   "as": "The small stuff.",
    "rel": "hazard"
   },
   {

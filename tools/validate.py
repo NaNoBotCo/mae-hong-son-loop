@@ -225,10 +225,10 @@ def validate_all(strict=False, quiet=False) -> int:
     errors += check_images(recs)
     if not quiet:
         for w in warns:
-            print("warn ", w)
+            print("warn ", w)  # stylecheck: allow — validator output for the operator
         for e in errors:
             print("ERROR", e)
-        print(f"{len(recs)} records · {len(errors)} errors · {len(warns)} warnings")
+        print(f"{len(recs)} records · {len(errors)} errors · {len(warns)} warnings")  # stylecheck: allow — validator output for the operator
     if errors or (strict and warns):
         return 1
     return 0

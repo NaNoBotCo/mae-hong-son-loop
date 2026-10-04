@@ -4,8 +4,8 @@
  "names": {
   "name": "The 700cc-and-up adventure bike",
   "th": "รถแอดเวนเจอร์ 700 ซีซีขึ้นไป",
-  "said": "It goes round. Ask what it is like in the last hour of the last day.",
-  "said_th": "มันวิ่งจบรอบได้ ลองถามว่าชั่วโมงสุดท้ายของวันสุดท้ายเป็นอย่างไร"
+  "said": "It goes round. The last hour of the last day is another matter.",
+  "said_th": "มันวิ่งจบรอบได้ ส่วนชั่วโมงสุดท้ายของวันสุดท้ายเป็นอีกเรื่องหนึ่ง"
  },
  "region": [
   "loop"
@@ -35,7 +35,7 @@
   },
   {
    "to": "annoyances",
-   "as": "The small stuff, with antidotes.",
+   "as": "The small stuff.",
    "rel": "hazard"
   },
   {

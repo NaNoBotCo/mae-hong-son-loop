@@ -1,5 +1,5 @@
 {
- "note": "Open list. Regions are the ride's own geography plus the administrative units a Thai address actually uses. A record may name a region not listed here; validate.py warns so it can be added.",
+ "note": "Open list. Regions are the ride's own geography plus the administrative units a Thai address actually uses. A record may name a region not listed here; validate.py reports it so it can be added.",
  "entries": [
   {"key": "loop", "name": "The loop", "th": "วงรอบแม่ฮ่องสอน", "province": null, "note": "the whole circuit, both directions"},
   {"key": "mhs", "name": "Mae Hong Son province", "th": "จังหวัดแม่ฮ่องสอน", "province": "MHS", "note": "Thailand's westernmost and most mountainous province; 12,765 km², 22 people per km², the lowest density of any province"},
