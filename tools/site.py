@@ -96,6 +96,7 @@ DIR_OF = {"leg": "legs", "road": "roads", "town": "towns", "stop": "stops", "wat
 UI = {
  "en": {"home": "The loop", "legs": "Legs", "which": "Which way", "numbers": "Numbers",
         "good": "The good part", "year": "The year", "when": "Pick a date", "air": "Air", "danger": "Danger", "baggage": "Baggage",
+        "flights": "Flights", "beds": "Beds",
         "quiz": "Which ride",
         "words": "Words",
         "roadbook": "Roadbook",
@@ -111,6 +112,7 @@ UI = {
         "riding": "What it asks of you", "season": "By season", "route": "The route"},
  "th": {"home": "วงรอบ", "legs": "ช่วงทาง", "which": "ไปทางไหน", "numbers": "ตัวเลข",
         "good": "ส่วนที่ดี", "year": "ทั้งปี", "when": "เลือกวัน", "air": "อากาศ", "danger": "อันตราย", "baggage": "สัมภาระ",
+        "flights": "เที่ยวบิน", "beds": "ที่พัก",
         "quiz": "ขี่แบบไหน",
         "words": "คำพูด",
         "roadbook": "สมุดเส้นทาง",
@@ -129,6 +131,7 @@ UI = {
 
 NAV = [("", "home"), ("legs/", "legs"), ("which-way/", "which"), ("numbers/", "numbers"),
        ("good/", "good"), ("year/", "year"), ("when/", "when"), ("air/", "air"), ("danger/", "danger"), ("baggage/", "baggage"),
+       ("flights/", "flights"), ("beds/", "beds"),
        ("quiz/", "quiz"), ("words/", "words"), ("roadbook/", "roadbook")]
 
 
@@ -823,6 +826,9 @@ def node_page(n: dict, lang: str) -> str:
                      f'{whyhtml}{dirhtml}</article>')
         b.append("</div>")
 
+    # beds, for the overnight stops
+    b.append(town_stays(n, lang))
+
     # kin, both directions
     if n.get("kin"):
         b.append(f'<h2>{E(ui["kin"])}</h2><ul class="kin">')
@@ -1007,7 +1013,355 @@ def rent_row(lang: str, check: bool = True) -> str:
             if check and kit else "")
     return (f'<aside class="rent"><h3>{E("Rent a bike in Chiang Mai" if en else "เช่ารถที่เชียงใหม่")}</h3>'
             f'<div class="btns">{links}</div>'
+            f'<p><a href="https://motdang.net/sites/bike-rentals/" target="_blank">Bike rentals in Chiang Mai · เช่ามอเตอร์ไซค์ในเชียงใหม่</a></p>'
             f'<p class="small mute">{E("Paid links: Mot Dang earns a fee if you book." if en else "ลิงก์มีค่าตอบแทน: มดแดงได้ค่าแนะนำเมื่อคุณจองผ่านลิงก์เหล่านี้")}{more}</p></aside>')
+
+
+# ---------------------------------------------------------------- beds by town
+DATA = Path(__file__).resolve().parent.parent / "data"
+STAYS = jload(DATA / "harvest" / "stays.json") if (DATA / "harvest" / "stays.json").exists() else {"towns": []}
+STAY_TOWNS = {t["id"]: t for t in STAYS.get("towns", [])}
+# booking links per town or per bed; empty until a partner programme accepts motdang.
+# {"towns": {"pai": {"url": ..., "en": ..., "th": ...}}, "stays": {"<row id>": {"url": ..., "brand": ...}}}
+BOOK = jload(DATA / "booking_links.json") if (DATA / "booking_links.json").exists() else {}
+PAID = {"en": "Paid links: Mot Dang earns a fee if you book.",
+        "th": "ลิงก์มีค่าตอบแทน: มดแดงได้ค่าแนะนำเมื่อคุณจองผ่านลิงก์เหล่านี้"}
+STAY_SHOW = 20          # beds listed per town on /beds/
+STAY_ON_TOWN = 6        # beds listed on a town's own page
+KIND_LABEL = {"hotel": ("hotel", "โรงแรม"), "hotel-full": ("hotel", "โรงแรม"),
+              "guest_house": ("guesthouse", "เกสต์เฮาส์"), "guesthouse": ("guesthouse", "เกสต์เฮาส์"),
+              "hostel": ("hostel", "โฮสเทล"), "resort": ("resort", "รีสอร์ต"),
+              "bed_and_breakfast": ("B&B", "บีแอนด์บี"), "lodge": ("lodge", "ลอดจ์"),
+              "campground": ("camping", "ลานกางเต็นท์"), "camp_site": ("camping", "ลานกางเต็นท์"),
+              "caravan_site": ("camping", "ลานกางเต็นท์"), "holiday_rental_home": ("house to rent", "บ้านพักให้เช่า"),
+              "chalet": ("chalet", "บ้านพัก"), "apartment": ("apartment", "อพาร์ตเมนต์"),
+              "motel": ("motel", "โมเต็ล"), "inn": ("inn", "โรงแรมเล็ก"), "cabin": ("cabin", "กระท่อม"),
+              "cottage": ("cottage", "กระท่อม"), "alpine_hut": ("hut", "กระท่อม"),
+              "service_apartments": ("serviced flat", "เซอร์วิสอพาร์ตเมนต์")}
+
+
+def _stay_order(rows: list) -> list:
+    """Beds with a phone or site of their own first, each group nearest first."""
+    def d(g):
+        return g.get("road_km", g["crow_km"])
+    return sorted(rows, key=lambda g: (not (g.get("phone") or g.get("website")), d(g)))
+
+
+def _stay_li(g: dict, lang: str, num: int = 0) -> tuple:
+    """One bed. Returns (html, paid) — paid is True when a booking link rendered."""
+    en = lang == "en"
+    nm, th = g.get("name"), g.get("name_th")
+    first, second = ((nm or th), (th if nm else None)) if en else ((th or nm), (nm if th else None))
+    bits = []
+    k = KIND_LABEL.get(g.get("kind") or "")
+    if k:
+        bits.append(f'<span class="tag">{E(k[0] if en else k[1])}</span>')
+    if "road_km" in g:
+        bits.append(f'<span class="tag">{g["road_km"]} {E("km by road" if en else "กม. ทางถนน")}</span>')
+    else:
+        bits.append(f'<span class="tag">{g["crow_km"]:.1f} {E("km straight line" if en else "กม. เส้นตรง")}</span>')
+    if g.get("rentals_300m"):
+        n = g["rentals_300m"]
+        bits.append(f'<span class="tag">{n} {E("rental shops within 300 m" if en else "ร้านเช่ารถในรัศมี 300 ม.")}</span>')
+    if g.get("rooms"):
+        bits.append(f'<span class="tag">{E(g["rooms"])} {E("rooms" if en else "ห้อง")}</span>')
+    links = []
+    if g.get("website"):
+        links.append(f'<a class="tag lnk" href="{E(g["website"])}" rel="noopener nofollow" target="_blank">{E("own site" if en else "เว็บของที่พัก")}</a>')
+    if g.get("phone"):
+        ph = g["phone"].replace(" ", "").replace("-", "")
+        links.append(f'<a class="tag lnk" href="tel:{E(ph)}">{E(g["phone"])}</a>')
+    if g.get("facebook"):
+        links.append(f'<a class="tag lnk" href="{E(g["facebook"])}" rel="noopener nofollow" target="_blank">Facebook</a>')
+    lat, lon = g["lat"], g["lon"]
+    links.append(f'<a class="tag lnk" href="https://www.openstreetmap.org/?mlat={lat}&amp;mlon={lon}#map=18/{lat}/{lon}" '
+                 f'rel="noopener nofollow" target="_blank">{E("map" if en else "แผนที่")}</a>')
+    if g.get("motdang"):
+        links.append(f'<a class="tag lnk" href="{E(g["motdang"])}" target="_blank">{E("on Mot Dang" if en else "ในมดแดง")}</a>')
+    bk = (BOOK.get("stays") or {}).get(g["id"])
+    paid = False
+    if bk and bk.get("url"):
+        paid = True
+        links.append(f'<a class="tag lnk book" href="{E(bk["url"])}" rel="sponsored nofollow noopener" target="_blank">'
+                     f'{E(("Book on " if en else "จองผ่าน ") + bk.get("brand", "") if bk.get("brand") else ("Book" if en else "จอง"))}</a>')
+    pin = f'<span class="pin">{num}</span> ' if num else ""
+    return (f'<li>{pin}<b>{E(first)}</b>'
+            + (f' <span class="th">{E(second)}</span>' if second and second != first else "")
+            + " " + "".join(bits) + " " + " ".join(links) + "</li>", paid)
+
+
+def _stay_plot(t: dict, rows: list, lang: str) -> str:
+    """The town centre, rings at 1, 2 and 5 km, every bed as a dot and the listed ones
+    numbered — the same numbers as the list under it."""
+    import math
+    W, H = 420, 280
+    R = min(max([g["crow_km"] for g in rows] + [0.6]) * 1.15, t.get("radius_km", 6.0))
+    s = (H / 2 - 14) / R
+    cx, cy = W / 2, H / 2
+    k = 111.32 * math.cos(math.radians(t["lat"]))
+
+    def xy(g):
+        return cx + (g["lon"] - t["lon"]) * k * s, cy - (g["lat"] - t["lat"]) * 111.32 * s
+    out = [f'<svg class="stayplot" viewBox="0 0 {W} {H}" role="img" aria-label="'
+           f'{E(("Beds around " + t["name"]) if lang == "en" else ("ที่พักรอบ" + (t.get("th") or t["name"])))}">']
+    for ring in (0.5, 1, 2, 5):
+        if ring <= R:
+            out.append(f'<circle cx="{cx:.0f}" cy="{cy:.0f}" r="{ring * s:.1f}" class="ring"/>'
+                       f'<text x="{cx + ring * s * 0.7071 + 3:.0f}" y="{cy - ring * s * 0.7071 - 3:.0f}" class="rl">{ring:g} km</text>')
+    shown = {g["id"]: i + 1 for i, g in enumerate(rows)}
+    for g in t["stays"]:
+        if g["id"] in shown or g["crow_km"] > R:
+            continue
+        x, y = xy(g)
+        out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="2.2" class="sd"/>')
+    for g in rows:
+        x, y = xy(g)
+        out.append(f'<g class="sp"><circle cx="{x:.1f}" cy="{y:.1f}" r="9"/>'
+                   f'<text x="{x:.1f}" y="{y + 4:.1f}">{shown[g["id"]]}</text></g>')
+    out.append(f'<path d="M{cx - 9:.0f} {cy:.0f}h18M{cx:.0f} {cy - 9:.0f}v18" class="ctr"/>')
+    out.append("</svg>")
+    return "".join(out)
+
+
+def _stay_note(t: dict, lang: str) -> str:
+    en = lang == "en"
+    src = STAYS.get("sources", {})
+    c = t.get("centre") or {}
+    if t.get("source") == "motdang":
+        return ("From Mot Dang's Chiang Mai records: beds pinned within 1.5 km of the old city with a phone or "
+                "site of their own, the ones with the most scooter and car rental shops within 300 m first. "
+                "Distance runs over OpenStreetMap streets from the old city's centre point."
+                if en else
+                "จากข้อมูลเชียงใหม่ของมดแดง ที่พักที่ปักหมุดในรัศมี 1.5 กม. จากเมืองเก่า และมีเบอร์โทรหรือเว็บของตัวเอง "
+                "เรียงจากที่มีร้านเช่ามอเตอร์ไซค์และรถยนต์ในรัศมี 300 ม. มากที่สุด "
+                "ระยะวัดตามถนนใน OpenStreetMap จากจุดกลางเมืองเก่า")
+    o, v = src.get("osm", {}), src.get("overture", {})
+    frm = (("the summit" if en else "ยอดดอย") if t["type"] == "stop"
+           else (c.get("name") if en else c.get("th")) or t["name"])
+    if en:
+        return (f"{len(t['stays'])} beds within {t['radius_km']:g} km: OpenStreetMap ({o.get('fetched')}) and "
+                f"Overture Places (release {v.get('release')}, mostly Facebook business pages), one row where both "
+                f"name the same place. Distance runs over OpenStreetMap streets from {frm}. Beds with a phone or "
+                f"site of their own come first. Not checked or endorsed; an absence here is an absence from "
+                f"those two maps.")
+    return (f"ที่พัก {len(t['stays'])} แห่งในรัศมี {t['radius_km']:g} กม. จาก OpenStreetMap ({o.get('fetched')}) และ "
+            f"Overture Places (รุ่น {v.get('release')} ส่วนใหญ่มาจากเพจธุรกิจบน Facebook) ที่เดียวกันรวมเป็นแถวเดียว "
+            f"ระยะวัดตามถนนใน OpenStreetMap จาก{frm} ที่พักที่มีเบอร์โทรหรือเว็บของตัวเองขึ้นก่อน "
+            f"ยังไม่ได้ตรวจสอบหรือรับรอง การไม่มีในนี้คือไม่มีในแผนที่สองแหล่งนี้")
+
+
+def _town_title(t: dict, lang: str) -> str:
+    if t["id"] == "chiang-mai":
+        return ("Chiang Mai · the night before and the night back" if lang == "en"
+                else "เชียงใหม่ · คืนก่อนออกเดินทางและคืนที่กลับมา")
+    return t["name"] if lang == "en" else (t.get("th") or t["name"])
+
+
+def stay_section(t: dict, lang: str, cap: int = STAY_SHOW, full: bool = True) -> str:
+    en = lang == "en"
+    # Chiang Mai arrives already ranked by rental shops nearby; the rest by contact, then distance
+    rows = (t["stays"] if t.get("source") == "motdang" else _stay_order(t["stays"]))[:cap]
+    rec = BY_ID.get(t["id"])
+    head = E(_town_title(t, lang))
+    if rec and full:
+        head = f'<a href="{lroot(lang)}{url_of(rec)}">{head}</a>'
+    out = [f'<section class="stays" id="{E(t["id"])}">']
+    if full:
+        out.append(f'<h2>{head} <span class="count">{len(t["stays"])}</span></h2>')
+    out.append(f'<figure class="map">{_stay_plot(t, rows, lang)}<figcaption>'
+               f'{E("Numbered: the beds listed below. Dots: the rest. Cross: the distance is measured from here." if en else "ตัวเลข: ที่พักในรายการด้านล่าง จุด: ที่พักอื่น กากบาท: จุดเริ่มวัดระยะ")}'
+               f' · © OpenStreetMap</figcaption></figure>')
+    if full:
+        out.append(f'<p class="small mute">{E(_stay_note(t, lang))}</p>')
+    tb = (BOOK.get("towns") or {}).get(t["id"])
+    paid = False
+    if tb and tb.get("url"):
+        paid = True
+        out.append(f'<p><a class="btn alt" href="{E(tb["url"])}" rel="sponsored nofollow noopener" target="_blank">'
+                   f'{E(tb.get("en" if en else "th") or ("Search beds here" if en else "ค้นหาที่พักที่นี่"))}</a></p>')
+    out.append('<ul class="places">')
+    for i, g in enumerate(rows):
+        li, p = _stay_li(g, lang, i + 1)
+        paid = paid or p
+        out.append(li)
+    out.append("</ul>")
+    rest = len(t["stays"]) - len(rows)
+    if rest > 0:
+        if full:
+            out.append(f'<p class="small mute">{E(f"and {rest:,} more, with coordinates, in " if en else f"และอีก {rest:,} แห่ง พร้อมพิกัด ใน ")}'
+                       f'<a href="{rel()}api/stays.json">stays.json</a>.</p>')
+        else:
+            n_all = len(t["stays"])
+            out.append(f'<p><a class="btn alt" href="{lroot(lang)}beds/#{E(t["id"])}">'
+                       f'{E(f"All {n_all:,} beds" if en else f"ที่พักทั้งหมด {n_all:,} แห่ง")}</a></p>')
+    if paid:
+        out.append(f'<p class="small mute">{E(PAID[lang])}</p>')
+    out.append("</section>")
+    return "".join(out)
+
+
+def stays_index(lang: str) -> str:
+    """Every overnight stop's beds, Chiang Mai first because the loop leaves from it."""
+    en = lang == "en"
+    if not STAY_TOWNS:
+        return ""
+    out = ['<nav class="jump">' + " · ".join(
+        f'<a href="#{E(t["id"])}">{E(t["name"] if en else (t.get("th") or t["name"]))}</a>'
+        for t in STAYS["towns"]) + "</nav>"]
+    for t in STAYS["towns"]:
+        out.append(stay_section(t, lang))
+        if t["id"] == "chiang-mai":
+            out.append(rent_row(lang))
+    return "".join(out)
+
+
+def town_stays(n: dict, lang: str) -> str:
+    t = STAY_TOWNS.get(n["id"])
+    if not t or not t["stays"]:
+        return ""
+    en = lang == "en"
+    return (f'<h2>{E("Stay" if en else "ที่พัก")} <span class="count">{len(t["stays"])}</span></h2>'
+            + stay_section(t, lang, cap=STAY_ON_TOWN, full=False)
+            + f'<p class="small mute">{E(_stay_note(t, lang))}</p>')
+
+
+# ---------------------------------------------------------------- flights into Chiang Mai
+FLY = jload(DATA / "harvest" / "cnx-flights.json") if (DATA / "harvest" / "cnx-flights.json").exists() else {}
+# Travelpayouts marker with the loop's own sub ID, so the loop's bookings count apart
+FLY_MARKER = (FLY.get("affiliate") or {}).get("marker", "749581.motdang") + "_loop"
+
+
+def fare_href(origin: str, dest: str = "CNX", days: int = 21) -> str:
+    """Aviasales one-way search, the same shape as motdang's flight board. The date is
+    three weeks out at build time; the page script moves it on as the days pass."""
+    import datetime
+    d = datetime.date.today() + datetime.timedelta(days=days)
+    host = (FLY.get("affiliate") or {}).get("host", "https://www.aviasales.com")
+    return f"{host}/search/{origin}{d:%d%m}{dest}1?marker={FLY_MARKER}"
+
+
+def _freq(per_month: int, lang: str) -> str:
+    en = lang == "en"
+    if per_month >= 45:
+        n = round(per_month / 30)
+        return f"~{n}/day" if en else f"วันละ ~{n} เที่ยว"
+    if per_month >= 26:
+        return "~daily" if en else "ราววันละเที่ยว"
+    n = max(1, round(per_month / 4.35))
+    return f"~{n}/wk" if en else f"สัปดาห์ละ ~{n} เที่ยว"
+
+
+TH_MON = ["", "ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย.", "ต.ค.", "พ.ย.", "ธ.ค."]
+
+
+def _day(iso: str, lang: str) -> str:
+    import datetime
+    d = datetime.date.fromisoformat(iso)
+    return f"{d.day} {d:%b} {d.year}" if lang == "en" else f"{d.day} {TH_MON[d.month]} {d.year + 543}"
+
+
+def _route_status(r: dict, lang: str) -> str:
+    """The board's own status words: new, back, last flight, paused."""
+    import datetime
+    en = lang == "en"
+    st, today = r.get("status"), datetime.date.today().isoformat()
+    if st in ("new", "resumes") and r.get("start") and r["start"] > today:
+        d = _day(r["start"], lang)
+        return (f"New route from {d}" if en else f"เส้นทางใหม่ เริ่ม {d}") if st == "new" else (
+            f"Back from {d}" if en else f"กลับมาบิน {d}")
+    if st == "ends" and r.get("end"):
+        d = _day(r["end"], lang)
+        return f"Last flight {d}" if en else f"เที่ยวสุดท้าย {d}"
+    if st == "suspended":
+        if r.get("end"):
+            d = _day(r["end"], lang)
+            return f"Paused until {d}" if en else f"งดบินถึง {d}"
+        return "Paused" if en else "งดบินชั่วคราว"
+    return ""
+
+
+def _route_row(r: dict, lang: str) -> str:
+    import datetime
+    en = lang == "en"
+    al = FLY.get("airlines", {})
+    season = r.get("season") or {}
+    upcoming = bool(season.get("upcoming")) and not (
+        r.get("start") and r["start"] <= datetime.date.today().isoformat())
+    pw = r.get("per_week") or {}
+    lines = ", ".join(
+        E((al.get(c) or {}).get("en" if en else "th", c))
+        + (f' <span class="mute small">{pw[c]}{E("/wk" if en else "/สัปดาห์")}</span>' if c in pw else "")
+        for c in r["airlines"])
+    chips = []
+    st = _route_status(r, lang)
+    if st:
+        chips.append(f'<span class="tag hot">{E(st)}</span>')
+    if r.get("per_month") and not upcoming:
+        chips.append(f'<span class="tag">{E(_freq(r["per_month"], lang))}</span>')
+    if r.get("season"):
+        chips.append(f'<span class="tag">{E(r["season"]["en"] if en else r["season"]["th"])}</span>')
+    if r.get("block_min"):
+        h, m = divmod(r["block_min"], 60)
+        chips.append(f'<span class="tag">{E((f"{h} h " if h else "") + f"{m} min" if en else (f"{h} ชม. " if h else "") + f"{m} นาที")}</span>')
+    fare = (f'<a class="tag lnk book" href="{E(fare_href(r["iata"]))}" data-org="{E(r["iata"])}" data-dst="CNX" '
+            f'rel="sponsored nofollow noopener" target="_blank">{E("Fares" if en else "ราคาตั๋ว")} ✈</a>')
+    return (f'<li><b>{E(r["en"] if en else r["th"])}</b> <span class="mute small">{E(r["iata"])} → CNX</span> '
+            + "".join(chips) + f'<br>{lines} {fare}</li>')
+
+
+REDATE = ("<script>(function(){var d=new Date(Date.now()+21*864e5),p=function(n){return(n<10?'0':'')+n},"
+          "s=p(d.getDate())+p(d.getMonth()+1);document.querySelectorAll('a[data-org]').forEach(function(a){"
+          "a.href=a.href.replace(/\\/search\\/[A-Z]{3}\\d{4}[A-Z]{3}1/,'/search/'+a.dataset.org+s+a.dataset.dst+'1')})})()</script>")
+
+
+def flights_page(lang: str) -> str:
+    en = lang == "en"
+    r = lroot(lang)
+    routes = FLY.get("routes", [])
+    bkk = [x for x in routes if x["iata"] in ("DMK", "BKK")]
+    dom = sorted([x for x in routes if x.get("dom") and x["iata"] not in ("DMK", "BKK")], key=lambda x: -x.get("per_month", 0))
+    intl = [x for x in routes if not x.get("dom")]
+    per_day = round(sum(x.get("per_month", 0) for x in bkk) / 30)
+    title = "Fly into Chiang Mai" if en else "บินมาเชียงใหม่"
+    b = [f'<h1><span class="kind">{E("Chiang Mai International · CNX" if en else "ท่าอากาศยานเชียงใหม่ · CNX")}</span>{E(title)}</h1>',
+         f'<p class="lede">{E(f"{len(routes)} routes land at Chiang Mai. About {per_day} flights a day come up from Bangkok’s two airports." if en else f"มี {len(routes)} เส้นทางบินลงเชียงใหม่ จากสนามบินสองแห่งของกรุงเทพฯ วันละราว {per_day} เที่ยว")}</p>']
+    b.append(band("cnx-pano", "Chiang Mai" if en else "เชียงใหม่",
+                  "Land, sleep, rent, ride" if en else "ลงเครื่อง นอน เช่ารถ ออกเดินทาง",
+                  "" , root_depth(1, lang), lang, cls="short"))
+    b.append(f'<h2>{E("From Bangkok" if en else "จากกรุงเทพฯ")}</h2><ul class="places">'
+             + "".join(_route_row(x, lang) for x in bkk) + "</ul>")
+    if dom:
+        b.append(f'<h2>{E("Elsewhere in Thailand" if en else "จากจังหวัดอื่นในไทย")}</h2><ul class="places">'
+                 + "".join(_route_row(x, lang) for x in dom) + "</ul>")
+    if intl:
+        b.append(f'<h2>{E("From abroad" if en else "จากต่างประเทศ")}</h2>')
+        groups = {}
+        for x in intl:
+            groups.setdefault((x["country_en"], x["country_th"]), []).append(x)
+        for (ce, ct), xs in sorted(groups.items(), key=lambda kv: -sum(x.get("per_month", 0) for x in kv[1])):
+            xs.sort(key=lambda x: -x.get("per_month", 0))
+            b.append(f'<h3>{E(ce if en else ct)}</h3><ul class="places">'
+                     + "".join(_route_row(x, lang) for x in xs) + "</ul>")
+    b.append(f'<p class="small mute">{E(PAID[lang])}</p>')
+    b.append(f'<p><a class="btn" href="https://motdang.net/flights.html" target="_blank">'
+             f'{E("Every departure time, on Mot Dang’s flight board" if en else "เวลาบินทุกเที่ยว บนกระดานเที่ยวบินของมดแดง")}</a></p>')
+    srcs = FLY.get("sources", [])
+    b.append(f'<p class="small mute">{E(("Routes, airlines and counts from Mot Dang’s flight board, as of " if en else "เส้นทาง สายการบิน และจำนวนเที่ยว จากกระดานเที่ยวบินของมดแดง ข้อมูล ณ ") + str(FLY.get("as_of", "")))}. '
+             f'{E("Its sources:" if en else "แหล่งข้อมูล:")} '
+             + " · ".join(f'<a href="{E(s["url"])}" rel="noopener nofollow" target="_blank">{E(s["name"])}</a>' for s in srcs if s.get("url"))
+             + "</p>")
+    b.append(f'<h2>{E("After you land" if en else "ลงเครื่องแล้ว")}</h2>')
+    b.append(f'<div class="btns"><a class="btn alt" href="{r}beds/#chiang-mai">{E("A bed near the rental shops" if en else "ที่พักใกล้ร้านเช่ารถ")}</a>'
+             f'<a class="btn alt" href="{r}baggage/">{E("What to do with the big bag" if en else "กระเป๋าใบใหญ่ทำอย่างไรดี")}</a>'
+             f'<a class="btn alt" href="{r}kit/renting-a-bike/">{E("Before you ride off" if en else "ก่อนขี่ออกจากร้าน")}</a></div>')
+    b.append(rent_row(lang, check=False))
+    url = f"{SITE_URL}/{'th/' if lang == 'th' else ''}flights/"
+    b.append(share_row(url, title, lang))
+    b.append(REDATE)
+    return page(f"{title} — {NAME[lang]}", "".join(b), 1, lang,
+                "Every route into Chiang Mai, from Bangkok and abroad, with the airlines that fly it."
+                if en else "ทุกเส้นทางบินเข้าเชียงใหม่ จากกรุงเทพฯ และต่างประเทศ พร้อมสายการบิน",
+                None, url, cur="flights", path="flights/", card="index")
 
 
 # ---------------------------------------------------------------- front page
@@ -1051,6 +1405,8 @@ def front(lang: str) -> str:
                   "Chiang Mai out, Pai, Mae Hong Son, Mae Sariang, home. Four days if you hurry."
                   if lang == "en" else "ออกจากเชียงใหม่ ปาย แม่ฮ่องสอน แม่สะเรียง กลับบ้าน สี่วันถ้ารีบ",
                   d0, lang, href=f"{r}legs/", cta="Every leg" if lang == "en" else "ทุกช่วง"))
+    b.append(f'<div class="btns"><a class="btn" href="{r}flights/">{E("Fly into Chiang Mai" if lang == "en" else "บินมาเชียงใหม่")}</a>'
+             f'<a class="btn alt" href="{r}beds/">{E("Beds, Chiang Mai and every night out" if lang == "en" else "ที่พัก เชียงใหม่และทุกคืนบนเส้นทาง")}</a></div>')
     b.append(rent_row(lang))
     b.append(f'<h2>{E(ui["legs"])}</h2>')
     b.append(dirsw(lang))
@@ -2448,7 +2804,11 @@ def type_index(t: str, lang: str) -> str:
     # the chip counted only the written-up records, so a page carrying a hundred and
     # thirty-five named coffee shops announced itself as four
     on_loop = sum(len(g) for _, g in by_town(named)[0] if _ != START_TOWN) if named else 0
-    if on_loop:
+    if t == "stay" and STAY_TOWNS:
+        n_beds = sum(len(x["stays"]) for x in STAYS["towns"])
+        chip = (f"{n_beds:,} beds in {len(STAY_TOWNS)} places" if lang == "en"
+                else f"ที่พัก {n_beds:,} แห่ง ใน {len(STAY_TOWNS)} จุด")
+    elif on_loop:
         chip = (f"{len(recs)} written up · {on_loop:,} more on the loop" if lang == "en"
                 else f"เขียนไว้ {len(recs)} · อีก {on_loop:,} แห่งบนลูป")
     else:
@@ -2478,15 +2838,26 @@ def type_index(t: str, lang: str) -> str:
             # the written-up few are pins; the harvested many are a swarm, which is a
             # shape on the page rather than twelve hundred hoverable elements
             hp = pins
+            if t == "stay" and STAY_TOWNS:
+                beds = [dict(g, kind="stay") for x in STAYS["towns"] for g in x["stays"]]
+                cap = (f"{len(beds):,} beds from OpenStreetMap, Overture Places and Mot Dang" if lang == "en"
+                       else f"ที่พัก {len(beds):,} แห่ง จาก OpenStreetMap, Overture Places และมดแดง")
+            else:
+                beds = named[:1600]
+                cap = (str(len(recs)) + " written up, " + format(len(harv), ",") + " harvested from OpenStreetMap" if lang == "en"
+                       else str(len(recs)) + " รายการที่เขียนไว้ " + format(len(harv), ",") + " รายการจาก OpenStreetMap")
             b.append('<figure class="map">' + base_map(860, pins=hp, labels=False, depth=root_depth(1, lang), lang=lang,
-                                                       swarm=named[:1600]) +
-                     f'<figcaption>{E(str(len(recs)) + " written up, " + format(len(harv), ",") + " harvested from OpenStreetMap" if lang == "en" else str(len(recs)) + " รายการที่เขียนไว้ " + format(len(harv), ",") + " รายการจาก OpenStreetMap")} · '
-                     f'{MAP_CREDIT}</figcaption></figure>')
+                                                       swarm=beds) +
+                     f'<figcaption>{E(cap)} · {MAP_CREDIT}</figcaption></figure>')
         if recs:
             b.append('<div class="grid">')
             b += [node_card(n, lang, 1) for n in recs]
             b.append("</div>")
-    if harv:
+    if t == "stay" and STAY_TOWNS:
+        b.append(stays_index(lang))
+        b.append(f'<p class="small mute">{E("Every bed here, with its coordinates and sources, is in " if lang == "en" else "ที่พักทั้งหมดพร้อมพิกัดและแหล่งข้อมูลอยู่ใน ")}'
+                 f'<a href="{rel()}api/stays.json">stays.json</a>.</p>')
+    elif harv:
         b.append(f'<h2>{E("What OpenStreetMap has" if lang == "en" else "สิ่งที่ OpenStreetMap มี")}</h2>')
         fetched = PLACES.get("fetched")
         if lang == "en":
@@ -2507,7 +2878,7 @@ def type_index(t: str, lang: str) -> str:
     b.append(share_row(url, title, lang))
     return page(f"{title} — {NAME[lang]}", "".join(b), 1, lang,
                 ti["th_blurb"] if lang == "th" else ti["blurb"], None, url,
-                head=DIRJS if t == "leg" else "", cur="legs" if t == "leg" else "",
+                head=DIRJS if t == "leg" else "", cur="legs" if t == "leg" else ("beds" if t == "stay" else ""),
                 path=f"{DIR_OF[t]}/", card="legs" if t == "leg" else "index")
 
 
@@ -2649,7 +3020,7 @@ def sitemap() -> str:
     urls = []
     today = time.strftime("%Y-%m-%d")
     static = ["", "legs/", "which-way/", "numbers/", "good/", "year/", "when/", "air/", "danger/",
-              "baggage/", "quiz/", "roadbook/", "all/", "about/"] + [f"{DIR_OF[t]}/" for t in TYPES
+              "baggage/", "flights/", "quiz/", "roadbook/", "all/", "about/"] + [f"{DIR_OF[t]}/" for t in TYPES
                                    if any(n["type"] == t for n in NODES)]
     for lang in LANGS:
         pre = "th/" if lang == "th" else ""
@@ -2805,10 +3176,11 @@ def main() -> int:
         write(base / "year" / "index.html", year_page(lang))
         write(base / "when" / "index.html", when_page(lang))
         write(base / "baggage" / "index.html", baggage(lang))
+        write(base / "flights" / "index.html", flights_page(lang))
         write(base / "roadbook" / "index.html", roadbook(lang))
         write(base / "all" / "index.html", all_page(lang))
         write(base / "about" / "index.html", about(lang))
-        n_pages += 13
+        n_pages += 14
         for t in TYPES:
             if any(n["type"] == t for n in NODES):
                 write(base / DIR_OF[t] / "index.html", type_index(t, lang))
@@ -2828,6 +3200,8 @@ def main() -> int:
     shutil.copy(Path(__file__).resolve().parent.parent / "data" / "vocab" / "quiz.json",
                 SITE / "api" / "quiz.json")
     write(SITE / "api" / "index.html", api_index())
+    if (DATA / "harvest" / "stays.json").exists():
+        shutil.copy(DATA / "harvest" / "stays.json", SITE / "api" / "stays.json")
 
     write(SITE / "basemap.svg", basemap_svg())
     write(SITE / "icon.svg", icon_svg())

@@ -1,0 +1,1013 @@
+{
+ "from": "https://motdang.net/flights.html",
+ "file": "mot-dang data/flights.json",
+ "as_of": "2026-10-03",
+ "affiliate": {
+  "marker": "749581.motdang",
+  "host": "https://www.aviasales.com"
+ },
+ "airport": {
+  "th": "ท่าอากาศยานเชียงใหม่",
+  "en": "Chiang Mai International Airport",
+  "city": "cm"
+ },
+ "airlines": {
+  "TG": {
+   "th": "การบินไทย",
+   "en": "Thai Airways",
+   "url": "https://www.thaiairways.com"
+  },
+  "FD": {
+   "th": "ไทยแอร์เอเชีย",
+   "en": "Thai AirAsia",
+   "url": "https://www.airasia.com"
+  },
+  "DD": {
+   "th": "นกแอร์",
+   "en": "Nok Air",
+   "url": "https://www.nokair.com"
+  },
+  "SL": {
+   "th": "ไทยไลอ้อนแอร์",
+   "en": "Thai Lion Air",
+   "url": "https://www.lionairthai.com"
+  },
+  "VZ": {
+   "th": "ไทยเวียตเจ็ท",
+   "en": "Thai Vietjet",
+   "url": "https://www.vietjetair.com"
+  },
+  "PG": {
+   "th": "บางกอกแอร์เวย์ส",
+   "en": "Bangkok Airways",
+   "url": "https://www.bangkokair.com"
+  },
+  "TR": {
+   "th": "สกู๊ต",
+   "en": "Scoot",
+   "url": "https://www.flyscoot.com"
+  },
+  "AK": {
+   "th": "แอร์เอเชีย มาเลเซีย",
+   "en": "AirAsia",
+   "url": "https://www.airasia.com"
+  },
+  "MH": {
+   "th": "มาเลเซียแอร์ไลน์",
+   "en": "Malaysia Airlines",
+   "url": "https://www.malaysiaairlines.com"
+  },
+  "BX": {
+   "th": "แอร์ปูซาน",
+   "en": "Air Busan",
+   "url": "https://www.airbusan.com"
+  },
+  "ZE": {
+   "th": "อีสตาร์เจ็ท",
+   "en": "Eastar Jet",
+   "url": "https://www.eastarjet.com"
+  },
+  "7C": {
+   "th": "เชจูแอร์",
+   "en": "Jeju Air",
+   "url": "https://www.jejuair.net"
+  },
+  "LJ": {
+   "th": "จินแอร์",
+   "en": "Jin Air",
+   "url": "https://www.jinair.com"
+  },
+  "KE": {
+   "th": "โคเรียนแอร์",
+   "en": "Korean Air",
+   "url": "https://www.koreanair.com"
+  },
+  "TW": {
+   "th": "ทีเวย์แอร์",
+   "en": "T'way Air",
+   "url": "https://www.twayair.com"
+  },
+  "CI": {
+   "th": "ไชน่าแอร์ไลน์",
+   "en": "China Airlines",
+   "url": "https://www.china-airlines.com"
+  },
+  "BR": {
+   "th": "อีวีเอแอร์",
+   "en": "EVA Air",
+   "url": "https://www.evaair.com"
+  },
+  "JX": {
+   "th": "สตาร์ลักซ์",
+   "en": "Starlux Airlines",
+   "url": "https://www.starlux-airlines.com"
+  },
+  "UO": {
+   "th": "ฮ่องกงเอ็กซ์เพรส",
+   "en": "HK Express",
+   "url": "https://www.hkexpress.com"
+  },
+  "9C": {
+   "th": "สปริงแอร์ไลน์",
+   "en": "Spring Airlines",
+   "url": "https://www.ch.com"
+  },
+  "MU": {
+   "th": "ไชน่าอีสเทิร์น",
+   "en": "China Eastern",
+   "url": "https://www.ceair.com"
+  },
+  "HO": {
+   "th": "จูนเหยาแอร์",
+   "en": "Juneyao Air",
+   "url": "https://www.juneyaoair.com"
+  },
+  "CZ": {
+   "th": "ไชน่าเซาเทิร์น",
+   "en": "China Southern",
+   "url": "https://www.csair.com"
+  },
+  "CA": {
+   "th": "แอร์ไชน่า",
+   "en": "Air China",
+   "url": "https://www.airchina.com.cn"
+  },
+  "EU": {
+   "th": "เฉิงตูแอร์ไลน์",
+   "en": "Chengdu Airlines",
+   "url": "https://www.cdal.com.cn"
+  },
+  "PN": {
+   "th": "เวสต์แอร์",
+   "en": "West Air",
+   "url": "https://www.westair.cn"
+  },
+  "EY": {
+   "th": "เอทิฮัด",
+   "en": "Etihad Airways",
+   "url": "https://www.etihad.com"
+  },
+  "QV": {
+   "th": "ลาวแอร์ไลน์",
+   "en": "Lao Airlines",
+   "url": "https://laoairlines.com"
+  },
+  "8M": {
+   "th": "เมียนมาร์แอร์เวย์ส",
+   "en": "Myanmar Airways Intl",
+   "url": "https://www.maiair.com"
+  },
+  "VJ": {
+   "th": "เวียตเจ็ทแอร์",
+   "en": "VietJet Air",
+   "url": "https://www.vietjetair.com"
+  },
+  "DR": {
+   "th": "รุ่ยลี่แอร์ไลน์",
+   "en": "Ruili Airlines",
+   "url": "https://www.rlair.net"
+  }
+ },
+ "sources": [
+  {
+   "id": "fc-cnx-2026-08",
+   "name": "FlightConnections — flights to CNX",
+   "url": "https://www.flightconnections.com/flights-to-chiang-mai-cnx",
+   "date": "2026-08-02"
+  },
+  {
+   "id": "ar-260901-fdoct26bkk",
+   "name": "AeroRoutes — Thai AirAsia Resumes Bangkok Suvarnabhumi Service From Oct 2026 (1 Sep 2026)",
+   "url": "https://www.aeroroutes.com/eng/260901-fdoct26bkk",
+   "cached": "cache/flights-research/ar_260901-fdoct26bkk.html",
+   "date": "2026-09-01"
+  },
+  {
+   "id": "nation-tg-nw26",
+   "name": "The Nation — Thai Airways sets 66-route winter schedule for peak season (3 Sep 2026)",
+   "url": "https://www.nationthailand.com/business/corporate/40070584",
+   "cached": "cache/flights-research/dom_nation_tg-nw26.html",
+   "date": "2026-09-03"
+  },
+  {
+   "id": "nok-CNX-DMK",
+   "name": "Nok Air public flight schedule, CNX→DMK, 25 Oct 2026–27 Mar 2027 (rendered 3 Oct 2026)",
+   "url": "https://booking.nokair.com/en/flight-schedule?startDate=2026-10-25&endDate=2027-03-27&from=CNX&to=DMK",
+   "cached": "cache/flights-research/dom_nok_sched_CNX-DMK.txt",
+   "date": "2026-10-03"
+  },
+  {
+   "id": "nok-CNX-UTH",
+   "name": "Nok Air public flight schedule, CNX↔UTH, 25 Oct 2026–27 Mar 2027 (rendered 3 Oct 2026)",
+   "url": "https://booking.nokair.com/en/flight-schedule?startDate=2026-10-25&endDate=2027-03-27&from=CNX&to=UTH",
+   "cached": "cache/flights-research/dom_nok_sched_CNX-UTH.txt",
+   "date": "2026-10-03"
+  },
+  {
+   "id": "ar-260428-eyyr26cnx",
+   "name": "AeroRoutes — Etihad Removes 2Q26 Chiang Mai Schedule",
+   "url": "https://www.aeroroutes.com/eng/260428-eyyr26cnx",
+   "cached": "cache/flights-research/ar_260428-eyyr26cnx.html",
+   "date": "2026-04-28"
+  },
+  {
+   "id": "ar-260810-vjnw26as",
+   "name": "AeroRoutes — VietJet Air NW26 Asia Network Additions",
+   "url": "https://www.aeroroutes.com/eng/260810-vjnw26as",
+   "cached": "cache/flights-research/ar_260810-vjnw26as.html",
+   "date": "2026-08-10"
+  },
+  {
+   "id": "ar-260727-brnov26cnx",
+   "name": "AeroRoutes — EVA Air late-Nov 2026 Chiang Mai Aircraft Changes",
+   "url": "https://www.aeroroutes.com/eng/260727-brnov26cnx",
+   "cached": "cache/flights-research/ar_260727-brnov26cnx.html",
+   "date": "2026-07-27"
+  },
+  {
+   "id": "ar-260330-uoapr26",
+   "name": "AeroRoutes — HK Express April 2026 Service Reductions",
+   "url": "https://www.aeroroutes.com/eng/260330-uoapr26",
+   "cached": "cache/flights-research/ar_260330-uoapr26.html",
+   "date": "2026-03-30"
+  },
+  {
+   "id": "ar-260202-vz1q267m8",
+   "name": "AeroRoutes — Thai VietJet Air Outlines 1Q26 737 MAX 8 International Service",
+   "url": "https://www.aeroroutes.com/eng/260202-vz1q267m8",
+   "cached": "cache/flights-research/ar_260202-vz1q267m8.html",
+   "date": "2026-02-02"
+  },
+  {
+   "id": "newsis-20260723",
+   "name": "Newsis — Air Busan to launch Guangzhou, resume Chiang Mai (23 Jul 2026)",
+   "url": "https://mobile.newsis.com/view/NISX20260723_0003720438",
+   "cached": "cache/flights-research/intl_newsis_20260723_0003720438.html",
+   "date": "2026-07-23"
+  },
+  {
+   "id": "qv-w2627",
+   "name": "Lao Airlines — Flight Winter Schedule 2026-27 (international routes image), effective 25 Oct 2026 – 27 Mar 2027",
+   "url": "https://laoairlines.com/wp-content/uploads/2026/09/Untitled-13-01-w-1.jpg",
+   "cached": "cache/flights-research/intl_qv_Untitled-13-01-w-1.jpg",
+   "date": "2026-09"
+  },
+  {
+   "id": "mgr-9690000089419",
+   "name": "MGR Online — Chiang Mai Airport 8-month results and winter schedule outlook (Sep 2026)",
+   "url": "https://mgronline.com/local/detail/9690000089419",
+   "cached": "cache/flights-research/mgr_9690000089419.html",
+   "date": "2026-09"
+  },
+  {
+   "id": "wiki-cnx",
+   "name": "Wikipedia — Chiang Mai International Airport (airlines and destinations; mostly OAG Aug 2025 refs)",
+   "url": "https://en.wikipedia.org/wiki/Chiang_Mai_International_Airport",
+   "cached": "cache/flights-research/wiki_Chiang_Mai_International_Airport.html",
+   "date": "2026-10-03"
+  },
+  {
+   "id": "ar-260928-honw26cnx",
+   "name": "AeroRoutes — Juneyao Resumes Shanghai – Chiang Mai in 4Q26 (28 Sep 2026)",
+   "url": "https://www.aeroroutes.com/eng/260928-honw26cnx",
+   "cached": "cache/flights-research/ar_260928-honw26cnx.html",
+   "date": "2026-09-28"
+  },
+  {
+   "id": "ar-260918-munw26kmg",
+   "name": "AeroRoutes — China Eastern NW26 Kunming – Southeast Asia Service Increases (18 Sep 2026)",
+   "url": "https://www.aeroroutes.com/eng/260918-munw26kmg",
+   "cached": "cache/flights-research/ar_260918-munw26kmg.html",
+   "date": "2026-09-18"
+  },
+  {
+   "id": "ar-260223-pnns26int",
+   "name": "AeroRoutes — China West Air NS26 International / Regional Network Additions – 22FEB26 (23 Feb 2026)",
+   "url": "https://www.aeroroutes.com/eng/260223-pnns26int",
+   "cached": "cache/flights-research/ar_260223-pnns26int.html",
+   "date": "2026-02-23"
+  },
+  {
+   "id": "9c-airport-cnx",
+   "name": "Spring Airlines official — 清迈国际机场航班时刻表 (flights.ch.com, fetched 3 Oct 2026)",
+   "url": "https://flights.ch.com/flight-date/airport-CNX/",
+   "cached": "cache/flights-research/cn_springair_airport-CNX.html",
+   "date": "2026-10-03"
+  }
+ ],
+ "routes": [
+  {
+   "iata": "DMK",
+   "en": "Bangkok Don Mueang",
+   "th": "กรุงเทพฯ ดอนเมือง",
+   "country_en": "Thailand",
+   "country_th": "ไทย",
+   "dom": true,
+   "per_month": 830,
+   "per_week": {
+    "DD": 45
+   },
+   "airlines": [
+    "DD",
+    "FD",
+    "SL"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08",
+    "per_week": "nok-CNX-DMK",
+    "block_min": "rows (median of out rows)"
+   },
+   "notes": "Nok Air: 45 weekly each way, full NW26 list from Nok's own schedule page (no aircraft type shown). On 24–25 Nov 2026 DD137/DD136 run at earlier times (shown as separate rows); DD122 is an extra DMK→CNX 05:00 on 25–26 Nov only. Thai AirAsia: 'up to 17 daily' DMK–CNX in Q4 2026 per its 28 Aug release; no timetable found. Thai Lion Air: own site behind Cloudflare; departure times above are only those seen on winter dates in AirAsia MOVE fare listings (on 8 Oct 2026, still summer, that listing showed six SL departures: 07:10, 08:10, 10:30, 17:25, 21:30, 22:10). Morning departures from CNX are 06:45 (DD) and ~07:05 (SL); the last is DD141 22:30.",
+   "block_min": 75
+  },
+  {
+   "iata": "BKK",
+   "en": "Bangkok Suvarnabhumi",
+   "th": "กรุงเทพฯ สุวรรณภูมิ",
+   "country_en": "Thailand",
+   "country_th": "ไทย",
+   "dom": true,
+   "per_month": 602,
+   "per_week": {
+    "TG": 63,
+    "FD": 42
+   },
+   "airlines": [
+    "PG",
+    "FD",
+    "TG",
+    "VZ"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08",
+    "per_week": "nation-tg-nw26 (TG); ar-260901-fdoct26bkk (FD)"
+   },
+   "notes": "THAI: 63 weekly (9 daily, A320) 25 Oct 2026–31 Jan 2027, then 49 weekly (7 daily) from 1 Feb 2027 (AeroRoutes 19 Sep; The Nation 3 Sep). Thai AirAsia suspended BKK–CNX 15 Jul–30 Sep 2026, resumed 1 Oct with 30 weekly, 6 daily from 25 Oct. Bangkok Airways and Thai Vietjet: no NW26 frequency found (bangkokair.com refused; Thai Vietjet only 2Q26 cut data). No public timetable reachable for TG, PG or FD, so no full list of departure times; VZ 08:25 seen on winter dates in an AirAsia MOVE fare listing."
+  },
+  {
+   "iata": "HKT",
+   "en": "Phuket",
+   "th": "ภูเก็ต",
+   "country_en": "Thailand",
+   "country_th": "ไทย",
+   "dom": true,
+   "per_month": 127,
+   "airlines": [
+    "PG",
+    "FD",
+    "VZ"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "FD and VZ are sold nonstop on winter dates (AirAsia MOVE listing). FD cut CNX–HKT hard in 2Q/3Q 2026 (AeroRoutes: 245→111 flights 15 Jul–30 Sep); no NW26 frequency published. Bangkok Airways operation in NW26 not confirmed (its site refused)."
+  },
+  {
+   "iata": "PVG",
+   "en": "Shanghai Pudong",
+   "th": "เซี่ยงไฮ้ ผู่ตง",
+   "country_en": "China",
+   "country_th": "จีน",
+   "dom": false,
+   "per_month": 93,
+   "per_week": {
+    "HO": 3
+   },
+   "airlines": [
+    "MU",
+    "HO",
+    "9C"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08",
+    "per_week": "ar-260928-honw26cnx",
+    "eq": "rows",
+    "block_min": "rows (median of out rows)"
+   },
+   "notes": "Juneyao resumes 17 Oct 2026 (last served until Mar 2025): 4 weekly from 17 Oct, 3 weekly from 5 Nov 2026; printed days (PVG 246 / CNX 357) are the 3-weekly pattern. Spring 9C8511/8512 daily on its official page only through 24 Oct 2026 (summer); its winter schedule is not yet on the page. Extra 9C8979/8980 late Sep–early Oct 2026. China Eastern went 1→2 daily (737-800/A320) 2 Feb–13 Mar 2026; no MU winter 2026/27 source found. 9C aircraft type not stated.",
+   "block_min": 195
+  },
+  {
+   "iata": "ICN",
+   "en": "Seoul Incheon",
+   "th": "โซล อินชอน",
+   "country_en": "South Korea",
+   "country_th": "เกาหลีใต้",
+   "dom": false,
+   "per_month": 90,
+   "airlines": [
+    "BX",
+    "ZE",
+    "7C",
+    "LJ",
+    "KE",
+    "TW"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Airportal (3 Oct 2026) lists Jeju Air, Jin Air, EastarJet and Air Busan departures Incheon→Chiang Mai, departure times only. Jeju Air ran 4 weekly in summer 2026 (cut to 2 weekly 18 May–12 Jul 2026, AeroRoutes). EastarJet suspended the route 1 Jun–7 Jul 2026. Jin Air keeps the route in NW26 under new LJ02x flight numbers. Korean Air: listed on Wikipedia (OAG Aug 2025); flight numbers KE683/684 since 26 Oct 2025; no 2026 timetable found. MGR (Sep 2026) says Incheon flights return or increase in the winter schedule but names no airline. T'way: no 2026 source; twayair.com now titles itself Trinity Airways (트리니티항공). hist = older timetables, not NW26."
+  },
+  {
+   "iata": "TPE",
+   "en": "Taipei Taoyuan",
+   "th": "ไทเป เถาหยวน",
+   "country_en": "Taiwan",
+   "country_th": "ไต้หวัน",
+   "dom": false,
+   "per_month": 84,
+   "per_week": {
+    "BR": 7,
+    "JX": 3,
+    "FD": 4
+   },
+   "airlines": [
+    "CI",
+    "BR",
+    "JX",
+    "FD"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08",
+    "per_week": "ar-260727-brnov26cnx",
+    "eq": "rows",
+    "block_min": "rows (median of out rows)"
+   },
+   "notes": "EVA daily (A321neo; A330-300 20–27 Nov 2026). Starlux 3 weekly, rising to 5 weekly 22 Nov 2026–20 Jan 2027. Thai AirAsia CNX–TPE–CTS (Sapporo) has a nonstop CNX–TPE leg: 4 weekly instead of 7 for 27 Oct–20 Nov 2026 (2 weekly 15 Jun–30 Sep 2026). China Airlines went to 7 weekly from 26 Oct 2025 (737-800/A321neo); no 2026 source found. The CI rows in hist are NW25 times. FD per_week covers 27 Oct–20 Nov 2026 only.",
+   "block_min": 225
+  },
+  {
+   "iata": "CAN",
+   "en": "Guangzhou",
+   "th": "กว่างโจว",
+   "country_en": "China",
+   "country_th": "จีน",
+   "dom": false,
+   "per_month": 82,
+   "airlines": [
+    "CZ",
+    "9C"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08",
+    "block_min": "rows (median of out rows)"
+   },
+   "notes": "China Southern Guangzhou–Chiang Mai cut from 61 to 51 flights for May–Jun 2026 (OAG filing). Spring times from its official page cover summer 2026 only (to 24 Oct); no winter 2026/27 timetable published there yet. No CZ timetable with CNX found (CZ's public timetable PDF of 4 Jun 2026 is mostly scanned images, summer only).",
+   "block_min": 110
+  },
+  {
+   "iata": "KMG",
+   "en": "Kunming",
+   "th": "คุนหมิง",
+   "country_en": "China",
+   "country_th": "จีน",
+   "dom": false,
+   "per_month": 90,
+   "per_week": {
+    "MU": 21
+   },
+   "airlines": [
+    "MU"
+   ],
+   "src": {
+    "per_month": "ar-260918-munw26kmg: 3 daily x 30 days, Nov 2026",
+    "per_week": "ar-260918-munw26kmg"
+   },
+   "notes": "China Eastern filed an increase from the initially filed 2 daily to 3 daily 737-800 from 25 Oct 2026 (also 2→3 daily 7–28 Feb 2026). Times are from Ctrip's undated schedule page (no days or validity given) — not confirmed as the winter timetable. Ruili Airlines started KMG–CNX daily from 27 Oct 2024 (DR5033/5034, 737-800) and Wikipedia's Kunming page still lists Ruili to Chiang Mai uncited; no 2026 source for it."
+  },
+  {
+   "iata": "HKG",
+   "en": "Hong Kong",
+   "th": "ฮ่องกง",
+   "country_en": "Hong Kong",
+   "country_th": "ฮ่องกง",
+   "dom": false,
+   "per_month": 62,
+   "per_week": {
+    "UO": 14
+   },
+   "airlines": [
+    "UO"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08",
+    "per_week": "ar-260330-uoapr26"
+   },
+   "notes": "HK Express: 2 daily as of April 2026 (cut to 1 daily 22–24 Apr 2026, AeroRoutes); per_week is that April 2026 figure. The HK Express Chiang Mai page shows fares for departures on 3 Nov 2026, 10 Jan 2027 and 28 Jan 2027. No flight times found. No Cathay Pacific or Greater Bay Airlines Chiang Mai service found (Wikipedia GBA page has no Chiang Mai)."
+  },
+  {
+   "iata": "USM",
+   "en": "Ko Samui",
+   "th": "เกาะสมุย",
+   "country_en": "Thailand",
+   "country_th": "ไทย",
+   "dom": true,
+   "per_month": 59,
+   "airlines": [
+    "PG"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Bangkok Airways nonstop seen on winter dates in AirAsia MOVE listing (11:35 before 25 Oct, 11:30 from 31 Oct). Days of week and flight number not shown; bangkokair.com refused."
+  },
+  {
+   "iata": "SIN",
+   "en": "Singapore",
+   "th": "สิงคโปร์",
+   "country_en": "Singapore",
+   "country_th": "สิงคโปร์",
+   "dom": false,
+   "per_month": 53,
+   "airlines": [
+    "TR"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Scoot: 11 weekly from 27 Oct 2025, 14 weekly from 3 Dec 2025, mostly A321neo (NW25). July/Aug 2026 raised from 62 to 84 flights (AeroRoutes). No NW26 timetable found; flyscoot.com refused access."
+  },
+  {
+   "iata": "KBV",
+   "en": "Krabi",
+   "th": "กระบี่",
+   "country_en": "Thailand",
+   "country_th": "ไทย",
+   "dom": true,
+   "per_month": 52,
+   "airlines": [
+    "PG",
+    "FD"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "FD seen on winter dates (three departures on 8 Dec). Bangkok Airways CNX–KBV (a one-way service in past seasons) not seen in the listing and not confirmed for NW26."
+  },
+  {
+   "iata": "URT",
+   "en": "Surat Thani",
+   "th": "สุราษฎร์ธานี",
+   "country_en": "Thailand",
+   "country_th": "ไทย",
+   "dom": true,
+   "per_month": 44,
+   "airlines": [
+    "FD"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Thai AirAsia nonstop on winter dates; no published frequency."
+  },
+  {
+   "iata": "KUL",
+   "en": "Kuala Lumpur",
+   "th": "กัวลาลัมเปอร์",
+   "country_en": "Malaysia",
+   "country_th": "มาเลเซีย",
+   "dom": false,
+   "per_month": 38,
+   "airlines": [
+    "AK",
+    "MH"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Malaysia Airlines: 88 flights KUL→CNX scheduled 29 Mar–30 Jun 2026 (down from 91). SriLankan codeshares on MH KUL–CNX from April 2026. AirAsia (AK) is listed on Wikipedia (2026 ref). No NW26 timetable for either."
+  },
+  {
+   "iata": "KKC",
+   "en": "Khon Kaen",
+   "th": "ขอนแก่น",
+   "country_en": "Thailand",
+   "country_th": "ไทย",
+   "dom": true,
+   "per_month": 31,
+   "airlines": [
+    "FD"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Thai AirAsia nonstop on winter dates; no published frequency."
+  },
+  {
+   "iata": "RGN",
+   "en": "Yangon",
+   "th": "ย่างกุ้ง",
+   "country_en": "Myanmar",
+   "country_th": "เมียนมา",
+   "dom": false,
+   "per_month": 31,
+   "airlines": [
+    "8M"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "MAI Yangon – Chiang Mai: 7 weekly from 1 Oct 2025, 14 weekly from 26 Oct 2025, ATR72/E190/A319; MAI's whole Chiang Mai service went from 6 to 16 weekly, Mandalay included (AeroRoutes Nov 2025). No 2026 source. maiair.com refused access."
+  },
+  {
+   "iata": "XIY",
+   "en": "Xi'an",
+   "th": "ซีอาน",
+   "country_en": "China",
+   "country_th": "จีน",
+   "dom": false,
+   "per_month": 28,
+   "per_week": {
+    "9C": 5
+   },
+   "airlines": [
+    "9C"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08",
+    "per_week": "9c-airport-cnx",
+    "block_min": "rows (median of out rows)",
+    "status": "9c-airport-cnx",
+    "end": "9c-airport-cnx"
+   },
+   "notes": "Spring's official page shows the 2026 seasonal run 23 Aug – 23 Oct 2026 (5 weekly, plus extra Tue/Sat 3–6 Oct); nothing filed beyond 23 Oct on that page. per_week is the 23 Aug–23 Oct pattern. Wikipedia's Xi'an page also lists Sichuan Airlines (3U) to Chiang Mai — not verified by any schedule source.",
+   "season": {
+    "months": [
+     8,
+     9,
+     10
+    ],
+    "th": "ส.ค.–ต.ค.",
+    "en": "Aug–Oct"
+   },
+   "end": "2026-10-23",
+   "status": "ends",
+   "block_min": 145
+  },
+  {
+   "iata": "HAN",
+   "en": "Hanoi",
+   "th": "ฮานอย",
+   "country_en": "Vietnam",
+   "country_th": "เวียดนาม",
+   "dom": false,
+   "per_month": 23,
+   "airlines": [
+    "FD"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Thai AirAsia Hanoi listed on Wikipedia, cited to the OAG Flight Guide of Aug 2025. No 2026 airline or AeroRoutes source found. Flight trackers (not used) list FD870/871."
+  },
+  {
+   "iata": "PEK",
+   "en": "Beijing",
+   "th": "ปักกิ่ง",
+   "country_en": "China",
+   "country_th": "จีน",
+   "dom": false,
+   "per_month": 18,
+   "airlines": [
+    "CA"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Listed on Wikipedia's Chiang Mai page under Air China without citation; Wikipedia's Beijing Capital page does not list Chiang Mai for Air China. No 2026 schedule source found."
+  },
+  {
+   "iata": "HDY",
+   "en": "Hat Yai",
+   "th": "หาดใหญ่",
+   "country_en": "Thailand",
+   "country_th": "ไทย",
+   "dom": true,
+   "per_month": 18,
+   "airlines": [
+    "FD"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Thai AirAsia nonstop on winter dates (two departures on 19 Nov); no published frequency."
+  },
+  {
+   "iata": "HHQ",
+   "en": "Hua Hin",
+   "th": "หัวหิน",
+   "country_en": "Thailand",
+   "country_th": "ไทย",
+   "dom": true,
+   "per_month": 18,
+   "airlines": [
+    "FD"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Thai AirAsia Hua Hin nonstop seen on winter dates; one departure time throughout; no published frequency."
+  },
+  {
+   "iata": "LPQ",
+   "en": "Luang Prabang",
+   "th": "หลวงพระบาง",
+   "country_en": "Laos",
+   "country_th": "ลาว",
+   "dom": false,
+   "per_month": 30,
+   "per_week": {
+    "QV": 7
+   },
+   "airlines": [
+    "QV"
+   ],
+   "src": {
+    "per_month": "rows: arrivals in Nov 2026",
+    "per_week": "qv-w2627",
+    "eq": "rows",
+    "block_min": "rows (median of out rows)"
+   },
+   "notes": "Lao Airlines winter schedule 2026-27. Also a one-stop Vientiane–LPQ–Chiang Mai (QV101/635 out, QV635/104 back) on Tue/Thu/Sat. The route was cancelled 11–30 Jun 2026.",
+   "block_min": 50
+  },
+  {
+   "iata": "UTP",
+   "en": "U-Tapao Pattaya–Rayong",
+   "th": "อู่ตะเภา พัทยา–ระยอง",
+   "country_en": "Thailand",
+   "country_th": "ไทย",
+   "dom": true,
+   "per_month": 17,
+   "airlines": [
+    "SL"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Thai Lion Air CNX–UTP was cancelled 1–30 Jun 2026 and back by early July (AeroRoutes 22 Jul). No NW26 source: lionairthai.com is behind Cloudflare and AirAsia has no route page."
+  },
+  {
+   "iata": "MDL",
+   "en": "Mandalay",
+   "th": "มัณฑะเลย์",
+   "country_en": "Myanmar",
+   "country_th": "เมียนมา",
+   "dom": false,
+   "per_month": 14,
+   "airlines": [
+    "8M"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Listed on Wikipedia for MAI ('citation needed'). MAI launched Mandalay – Chiang Mai with an inaugural on 10 Feb 2025, per a search snippet of a maiair.com press page that was not fetched. No timetable found."
+  },
+  {
+   "iata": "KIX",
+   "en": "Osaka Kansai",
+   "th": "โอซากา คันไซ",
+   "country_en": "Japan",
+   "country_th": "ญี่ปุ่น",
+   "dom": false,
+   "per_month": 13,
+   "per_week": {
+    "VZ": 3
+   },
+   "airlines": [
+    "VZ"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08",
+    "per_week": "ar-260202-vz1q267m8"
+   },
+   "notes": "Thai VietJet: 3 weekly 737 MAX 8 from 2 Feb 2026 (AeroRoutes). No NW26 timetable found."
+  },
+  {
+   "iata": "UTH",
+   "en": "Udon Thani",
+   "th": "อุดรธานี",
+   "country_en": "Thailand",
+   "country_th": "ไทย",
+   "dom": true,
+   "per_month": 13,
+   "per_week": {
+    "DD": 3
+   },
+   "airlines": [
+    "DD",
+    "FD"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08",
+    "per_week": "nok-CNX-UTH",
+    "block_min": "rows (median of out rows)"
+   },
+   "notes": "Nok Air nonstop DD702/703 Tue/Thu/Sat from 27 Oct 2026 (Nok schedule page). FD2010/2011 times are the launch schedule from Dec 2025 (AeroRoutes); NW26 operation by FD NOT confirmed: AirAsia has no CNX–UTH route page and its Q4 2026 release does not mention the route.",
+   "block_min": 65
+  },
+  {
+   "iata": "TFU",
+   "en": "Chengdu Tianfu",
+   "th": "เฉิงตู เทียนฝู่",
+   "country_en": "China",
+   "country_th": "จีน",
+   "dom": false,
+   "per_month": 12,
+   "airlines": [
+    "EU"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08"
+   },
+   "notes": "Chengdu Airlines Chengdu Tianfu–Chiang Mai was cut from 26 to 16 flights for May–Jun 2026 (OAG filing). No winter 2026/27 schedule found; Wikipedia's Tianfu page does not list Chiang Mai.",
+   "season": {
+    "months": [
+     8,
+     9,
+     10
+    ],
+    "th": "ส.ค.–ต.ค.",
+    "en": "Aug–Oct"
+   }
+  },
+  {
+   "iata": "PUS",
+   "en": "Busan",
+   "th": "ปูซาน",
+   "country_en": "South Korea",
+   "country_th": "เกาหลีใต้",
+   "dom": false,
+   "per_month": 9,
+   "per_week": {
+    "BX": 4
+   },
+   "airlines": [
+    "BX",
+    "ZE"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08",
+    "per_week": "newsis-20260723",
+    "eq": "rows",
+    "block_min": "rows (median of out rows)"
+   },
+   "notes": "Air Busan returns to Busan – Chiang Mai from 25 Oct 2026 (last served 3Q23): 4 weekly, 6 weekly 15 Dec 2026 – 28 Feb 2027. EastarJet ZE917 is listed on Korea Airportal as of 3 Oct 2026 (Thu, Sun); no NW26 source for ZE on this route.",
+   "block_min": 320
+  },
+  {
+   "iata": "CKG",
+   "en": "Chongqing",
+   "th": "ฉงชิ่ง",
+   "country_en": "China",
+   "country_th": "จีน",
+   "dom": false,
+   "per_month": 9,
+   "per_week": {
+    "PN": 3
+   },
+   "airlines": [
+    "PN"
+   ],
+   "src": {
+    "per_month": "fc-cnx-2026-08",
+    "per_week": "ar-260223-pnns26int",
+    "eq": "rows",
+    "block_min": "rows (median of out rows)"
+   },
+   "notes": "West Air launched 29 Mar 2026: 1 weekly, 3 weekly (Wed/Fri/Sun) from 8 Apr 2026; full routing Taiyuan–Chongqing–Chiang Mai. People's Daily Chongqing (6 Feb 2026) gives the same numbers, times and days. May–Jun 2026 filing 26→24 flights. Summer 2026 schedule; no winter 2026/27 source found. An earlier filing (3 Feb 2026) showed evening times; superseded.",
+   "season": {
+    "months": [
+     8,
+     9,
+     10
+    ],
+    "th": "ส.ค.–ต.ค.",
+    "en": "Aug–Oct"
+   },
+   "block_min": 150
+  },
+  {
+   "iata": "AUH",
+   "en": "Abu Dhabi",
+   "th": "อาบูดาบี",
+   "country_en": "UAE",
+   "country_th": "ยูเออี",
+   "dom": false,
+   "per_month": 30,
+   "per_week": {
+    "EY": 7
+   },
+   "airlines": [
+    "EY"
+   ],
+   "src": {
+    "per_month": "rows: arrivals in Nov 2026",
+    "per_week": "ar-260428-eyyr26cnx",
+    "eq": "rows",
+    "block_min": "rows (median of out rows)",
+    "status": "ar-260428-eyyr26cnx",
+    "start": "ar-260428-eyyr26cnx"
+   },
+   "notes": "Suspended for summer 2026 (Citylife: halted from 1 Mar 2026; AeroRoutes: cancelled 23 Mar–24 Oct 2026). AeroRoutes 28 Apr 2026: resumes 25 Oct 2026, frequency up from 4 to 7 weekly, A321LR. Condor codeshare on CNX added from NW26 launch (AeroRoutes 24 Aug 2026); MGR Sep 2026 quotes the airport director that Etihad returns for the winter schedule. etihad.com could not be fetched, so not confirmed on the airline's own site.",
+   "season": {
+    "months": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "th": "กลับมาบิน 25 ต.ค. 2569",
+    "en": "back 25 Oct 2026",
+    "upcoming": true
+   },
+   "start": "2026-10-25",
+   "status": "resumes",
+   "block_min": 435
+  },
+  {
+   "iata": "SGN",
+   "en": "Ho Chi Minh City",
+   "th": "โฮจิมินห์ซิตี",
+   "country_en": "Vietnam",
+   "country_th": "เวียดนาม",
+   "dom": false,
+   "per_month": 18,
+   "per_week": {
+    "VJ": 4
+   },
+   "airlines": [
+    "VJ"
+   ],
+   "src": {
+    "per_month": "rows: arrivals in Nov 2026",
+    "per_week": "ar-260810-vjnw26as",
+    "eq": "rows",
+    "block_min": "rows (median of out rows)",
+    "status": "ar-260810-vjnw26as",
+    "start": "ar-260810-vjnw26as"
+   },
+   "notes": "VietJet resumes Ho Chi Minh City – Chiang Mai, last served until February 2024.",
+   "season": {
+    "months": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "th": "กลับมาบิน 25 ต.ค. 2569",
+    "en": "back 25 Oct 2026",
+    "upcoming": true
+   },
+   "start": "2026-10-25",
+   "status": "resumes",
+   "block_min": 135
+  },
+  {
+   "iata": "JHG",
+   "en": "Jinghong (Xishuangbanna)",
+   "th": "จิ่งหง (สิบสองปันนา)",
+   "country_en": "China",
+   "country_th": "จีน",
+   "dom": false,
+   "per_month": 0,
+   "airlines": [
+    "DR"
+   ],
+   "src": {
+    "status": "mgr-9690000089419",
+    "airlines": "wiki-cnx (Ruili, 3 weekly from 28 Oct 2025)"
+   },
+   "notes": "Chiang Mai airport director (MGR Online, 12 Sep 2026) names Jinghong (Xishuangbanna) among routes resuming or adding frequency in the winter schedule; no airline or date given. Wikipedia cites a Ruili Airlines WeChat post for 3 weekly from 28 Oct 2025 (WeChat /s/ pages are robots-disallowed, not fetched). Separate: Air Travel (A6) adds 2 weekly Changsha–Jinghong–Bangkok from 25 Oct 2026, not via Chiang Mai.",
+   "season": {
+    "months": [
+     11,
+     12,
+     1,
+     2,
+     3
+    ],
+    "th": "ฤดูหนาว 2569/70",
+    "en": "winter 2026/27",
+    "upcoming": true
+   },
+   "status": "resumes"
+  }
+ ]
+}
