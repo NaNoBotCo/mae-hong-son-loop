@@ -1,0 +1,5 @@
+{
+ "note": "Booking links for beds on the loop. Empty until a partner programme accepts motdang (Travelpayouts project Motdang: Agoda, Booking.com, Trip.com, Hostelworld under review). towns: {town id: {url, en, th}} renders a search button per town; stays: {row id from data/harvest/stays.json: {url, brand}} renders a Book link on that bed. Every link renders with rel=sponsored and the paid-link line.",
+ "towns": {},
+ "stays": {}
+}

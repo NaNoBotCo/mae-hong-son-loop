@@ -25,6 +25,8 @@ A bilingual (English and Thai) directory and route guide for the Mae Hong Son lo
 - [Air](https://nanobotco.github.io/mae-hong-son-loop/air/)
 - [Danger](https://nanobotco.github.io/mae-hong-son-loop/danger/)
 - [Baggage](https://nanobotco.github.io/mae-hong-son-loop/baggage/)
+- [Flights](https://nanobotco.github.io/mae-hong-son-loop/flights/)
+- [Beds](https://nanobotco.github.io/mae-hong-son-loop/beds/)
 - [Which ride](https://nanobotco.github.io/mae-hong-son-loop/quiz/)
 - [Words](https://nanobotco.github.io/mae-hong-son-loop/words/)
 - [Roadbook](https://nanobotco.github.io/mae-hong-son-loop/roadbook/)
