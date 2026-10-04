@@ -712,6 +712,8 @@ def node_page(n: dict, lang: str) -> str:
     ims = pictures(n)
     if ims:
         b.append(hero_shot(n, rdepth))
+    if n["id"] in ("renting-a-bike", "one-way-rental"):
+        b.append(rent_row(lang, check=n["id"] != "renting-a-bike"))
 
     # the route slab, for legs and roads
     rt = n.get("route") or {}
@@ -989,6 +991,25 @@ def leg_list(lang: str, depth: int) -> str:
     return "".join(out)
 
 
+# ---------------------------------------------------------------- rent a bike
+# Travelpayouts links, project "Motdang", sub ID "loop". Her yes, 2026-10-04.
+RENT = [("https://bikesbooking.tpx.li/KcOf7DBL", "Scooter or big bike", "มอเตอร์ไซค์เช่า / บิ๊กไบค์"),
+        ("https://localrent.tpx.li/k7FlWeCg", "Car", "รถเช่า")]
+
+
+def rent_row(lang: str, check: bool = True) -> str:
+    en = lang == "en"
+    links = "".join(
+        f'<a class="btn alt" href="{E(u)}" rel="sponsored nofollow noopener" target="_blank">'
+        f'{E(a + " · " + t if en else t + " · " + a)}</a>' for u, a, t in RENT)
+    kit = BY_ID.get("renting-a-bike")
+    more = (f' <a href="{lroot(lang)}{url_of(kit)}">{E("What to check before you ride off" if en else "สิ่งที่ต้องตรวจก่อนขี่ออกจากร้าน")}</a>'
+            if check and kit else "")
+    return (f'<aside class="rent"><h3>{E("Rent a bike in Chiang Mai" if en else "เช่ารถที่เชียงใหม่")}</h3>'
+            f'<div class="btns">{links}</div>'
+            f'<p class="small mute">{E("Paid links: Mot Dang earns a fee if you book." if en else "ลิงก์มีค่าตอบแทน: มดแดงได้ค่าแนะนำเมื่อคุณจองผ่านลิงก์เหล่านี้")}{more}</p></aside>')
+
+
 # ---------------------------------------------------------------- front page
 def front(lang: str) -> str:
     ui = UI[lang]
@@ -1030,6 +1051,7 @@ def front(lang: str) -> str:
                   "Chiang Mai out, Pai, Mae Hong Son, Mae Sariang, home. Four days if you hurry."
                   if lang == "en" else "ออกจากเชียงใหม่ ปาย แม่ฮ่องสอน แม่สะเรียง กลับบ้าน สี่วันถ้ารีบ",
                   d0, lang, href=f"{r}legs/", cta="Every leg" if lang == "en" else "ทุกช่วง"))
+    b.append(rent_row(lang))
     b.append(f'<h2>{E(ui["legs"])}</h2>')
     b.append(dirsw(lang))
     b.append(leg_list(lang, 0))
