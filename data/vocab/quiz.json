@@ -2,7 +2,7 @@
  "note": "Scored in the browser, nothing leaves the page. Every outcome links to records that carry their own sources, so a result is a route into the site rather than a verdict. The weights are this project's own and are printed in the JSON so they can be argued with.",
  "title": {
   "en": "Which ride is yours?",
-  "th": "คุณควรขี่แบบไหน"
+  "th": "ขี่แบบไหนที่เป็นคุณ"
  },
  "lede": {
   "en": "One plan, plus whatever else is true about your trip. Nine plans and eight overlays, and the overlays are where the answer becomes yours.",
@@ -396,8 +396,8 @@
     "th": "สี่วัน แบบคลาสสิก"
    },
    "say": {
-    "en": "The whole circuit, unhurried, with a night in each of the towns that deserves one.",
-    "th": "วงรอบเต็ม ไม่รีบ นอนคืนละเมืองในเมืองที่ควรได้นอน"
+    "en": "The whole circuit, unhurried, a night in each town.",
+    "th": "วงรอบเต็ม ไม่รีบ นอนเมืองละคืน"
    },
    "how": {
     "en": "Chiang Mai → Pai → Soppong → Mae Hong Son (two nights) → Mae Sariang → home. Clockwise unless you are collecting an unfamiliar rental, in which case go the other way and learn the bike on Route 108 first.",
@@ -490,8 +490,8 @@
     "th": "โค้งหนาแน่นที่สุดในเครือข่ายนี้รองจากถนนสะเมิง ไม่มีเมืองคั่นกลาง และไม่มีใครขับผ่านมาสักพัก"
    },
    "how": {
-    "en": "Khun Yuam east to Mae Chaem, in the dry, before noon, full tank, and not alone if you can arrange it. In the rains, do not.",
-    "th": "จากขุนยวมไปตะวันออกสู่แม่แจ่ม ในหน้าแล้ง ก่อนเที่ยง น้ำมันเต็มถัง และถ้าจัดได้ อย่าไปคนเดียว หน้าฝนอย่าไป"
+    "en": "Khun Yuam east to Mae Chaem, in the dry season. No town in between, and long stretches with no fuel.",
+    "th": "จากขุนยวมไปตะวันออกสู่แม่แจ่ม ในหน้าแล้ง ระหว่างทางไม่มีเมือง และมีช่วงยาวที่ไม่มีปั๊มน้ำมัน"
    },
    "legs": [
     "the-1263-cut",
@@ -738,8 +738,8 @@
     "th": "อากาศสะอาดที่สุดของปีแบบทิ้งห่าง ปายอยู่ที่ 3.0 ในเดือนกรกฎาคม เทียบกับ 26.1 ในเดือนมีนาคม ภูเขาเขียว น้ำตกมีน้ำ ห้องพักถูก สิ่งที่แลกไปคือถนนแห้ง"
    },
    "how": {
-    "en": "Counter-clockwise, so you learn the bike in the wet on the forgiving road first. Drop Route 1263. Finish each day by mid-afternoon — the rain is heavy and short. Expect a landslide repair somewhere.",
-    "th": "ไปทวนเข็ม เพื่อทำความรู้จักรถตอนถนนเปียกบนถนนที่ให้อภัยก่อน ตัดทางหลวง 1263 ออก จบแต่ละวันก่อนบ่ายแก่ ฝนตกหนักและสั้น คาดว่าจะเจอการซ่อมดินสไลด์สักจุด"
+    "en": "Counter-clockwise, learning the bike in the wet on the forgiving road first, without Route 1263. Days end by mid-afternoon — the rain is heavy and short. A landslide repair somewhere is likely.",
+    "th": "ทวนเข็ม ได้ทำความรู้จักรถตอนถนนเปียกบนถนนที่ให้อภัยก่อน ไม่มีทางหลวง 1263 แต่ละวันจบก่อนบ่ายแก่ ฝนตกหนักและสั้น และน่าจะเจอการซ่อมดินสไลด์สักจุด"
    },
    "legs": [
     "hot-to-cnx",
@@ -836,16 +836,16 @@
   },
   "take-the-bus": {
    "name": {
-    "en": "Don't ride it",
-    "th": "อย่าขี่เลย"
+    "en": "By bus",
+    "th": "ไปรถโดยสาร"
    },
    "say": {
-    "en": "This is a real answer and it is on this page on purpose. Six hundred kilometres of mountain road is not the place to find out whether you like motorcycles.",
-    "th": "นี่เป็นคำตอบจริงและอยู่ในหน้านี้อย่างตั้งใจ ถนนภูเขาหกร้อยกิโลเมตรไม่ใช่ที่สำหรับค้นหาว่าคุณชอบมอเตอร์ไซค์หรือไม่"
+    "en": "The same loop from a seat. Minibuses and buses run Chiang Mai–Pai–Mae Hong Son all day.",
+    "th": "วงรอบเดียวกันจากเบาะผู้โดยสาร รถตู้และรถบัสวิ่งเชียงใหม่–ปาย–แม่ฮ่องสอนทั้งวัน"
    },
    "how": {
-    "en": "Minibuses and buses run Chiang Mai–Pai–Mae Hong Son all day and the road is the same road from a seat. Or ride the Samoeng day first and decide afterwards — that is one day and it answers the question.",
-    "th": "รถตู้และรถบัสวิ่งเชียงใหม่–ปาย–แม่ฮ่องสอนทั้งวัน และถนนก็เป็นถนนเดียวกันเมื่อมองจากเบาะผู้โดยสาร หรือไปขี่วันสะเมิงก่อนแล้วค่อยตัดสินใจ ใช้เวลาวันเดียวและได้คำตอบที่ตรงไปตรงมา"
+    "en": "The road is the same road from a seat. The Samoeng day is a one-day ride over the same kind of curves.",
+    "th": "ถนนก็เป็นถนนเดียวกันเมื่อมองจากเบาะผู้โดยสาร ส่วนวันสะเมิงคือการขี่วันเดียวบนโค้งแบบเดียวกัน"
    },
    "legs": [
     "samoeng-warmup"

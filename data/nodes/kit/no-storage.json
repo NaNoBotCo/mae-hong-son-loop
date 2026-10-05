@@ -34,12 +34,12 @@
   },
   {
    "to": "annoyances",
-   "as": "The small stuff, with antidotes.",
+   "as": "The small stuff.",
    "rel": "hazard"
   },
   {
    "to": "renting-a-bike",
-   "as": "Ask for a rack. It is the cheapest upgrade on the counter.",
+   "as": "A rack is the cheapest upgrade on the counter.",
    "rel": "kit"
   },
   {

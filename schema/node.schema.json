@@ -125,7 +125,7 @@
    "items": {
     "type": "string"
    },
-   "description": "open list, validated against data/vocab/regions.json with a warning"
+   "description": "open list, checked against data/vocab/regions.json; an unknown region is reported, not refused"
   },
   "facets": {
    "type": "object",
@@ -682,7 +682,7 @@
   "text_th": {
    "type": "object",
    "additionalProperties": false,
-   "description": "The Thai text. Same keys as `text`. A key present here is published on the /th/ page; a key absent leaves that section showing the English with a note saying it has not been written in Thai yet. Never machine-translated without saying so in provenance.",
+   "description": "The Thai text. Same keys as `text`. A key present here is published on the /th/ page; a key absent leaves that section showing the English with a note saying it has not been written in Thai yet. A machine translation says so in provenance.",
    "properties": {
     "what": {
      "type": "string"

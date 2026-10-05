@@ -1,5 +1,5 @@
 {
- "note": "Open list. A facet is a fact about a record that the site groups, filters and colours by. Values not listed here are warned about, not refused.",
+ "note": "Open list. A facet is a fact about a record that the site groups, filters and colours by. Values not listed here are reported, not refused.",
  "facets": {
   "direction": {
    "label": "Direction",

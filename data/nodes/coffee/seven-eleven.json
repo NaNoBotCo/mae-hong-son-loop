@@ -4,8 +4,8 @@
  "names": {
   "name": "The 7-Eleven",
   "th": "เซเว่น",
-  "said": "Cold, air-conditioned, open, and it has a toilet. Do not be proud about it.",
-  "said_th": "เย็น มีแอร์ เปิดตลอด และมีห้องน้ำ อย่าถือตัว"
+  "said": "Cold, air-conditioned, open, and it has a toilet.",
+  "said_th": "เย็น มีแอร์ เปิดตลอด และมีห้องน้ำ"
  },
  "region": [
   "loop"
