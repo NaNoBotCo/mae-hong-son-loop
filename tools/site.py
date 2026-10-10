@@ -2132,15 +2132,27 @@ def when_end(iso: str, n: int) -> str:
     return time.strftime("%Y-%m-%d", time.localtime(t))
 
 
+def when_label(days: list, key: str, title: str, lang: str) -> str:
+    """What a strip shows, for a screen reader: its title, and its lowest and highest start dates."""
+    lo = min(days, key=lambda d: d[key])
+    hi = max(days, key=lambda d: d[key])
+    if lang == "th":
+        return (f"กราฟ{title} ทุกวันออกเดินทางในสิบสองเดือนข้างหน้า ต่ำสุด {lo[key]:g} วันที่ {when_date(lo['d'], lang)} "
+                f"สูงสุด {hi[key]:g} วันที่ {when_date(hi['d'], lang)} ตารางด้านล่างบอกวันที่ดีที่สุดของแต่ละเดือน")
+    return (f"Chart of {title} for every start date in the next twelve months: lowest {lo[key]:g} on "
+            f"{when_date(lo['d'], lang)}, highest {hi[key]:g} on {when_date(hi['d'], lang)}. "
+            "The table below gives the best start in each month.")
+
+
 def when_svg(days: list, key: str, top: float, h: int, ticks: list, area: bool,
-             picks: list = ()) -> str:
+             picks: list = (), label: str = "") -> str:
     """One strip of the year, drawn at build time. The hover layer reads the same rows."""
     w, l, r = 940, 34, 8
     n = len(days)
     x = lambda i: l + i * (w - l - r) / (n - 1)
     y = lambda v: 6 + (h - 6) * (1 - min(v, top) / top)
     s = [f'<svg class="when-svg" data-key="{key}" data-top="{top}" data-h="{h}" '
-         f'viewBox="0 0 {w} {h + 18}" role="img">']
+         f'viewBox="0 0 {w} {h + 18}" role="img" aria-label="{E(label)}">']
     for t in ticks:
         s.append(f'<line x1="{l}" x2="{w - r}" y1="{y(t):.1f}" y2="{y(t):.1f}" class="g"/>'
                  f'<text x="{l - 6}" y="{y(t) + 4:.1f}" text-anchor="end">{t}</text>')
@@ -2208,13 +2220,13 @@ def when_page(lang: str) -> str:
                  f'<span>{E(line)}</span>{f"<span>{E(ev(d))}</span>" if ev(d) else ""}</div>')
     b.append("</div>")
     b.append(f'<h2 class="when-h">{E("Rating, 0–10" if en else "คะแนน 0–10")}</h2>'
-             + when_svg(days, "r", 10, 200, [0, 2, 4, 6, 8, 10], True, picks))
+             + when_svg(days, "r", 10, 200, [0, 2, 4, 6, 8, 10], True, picks, label=when_label(days, "r", "Rating, 0–10" if en else "คะแนน 0–10", lang)))
     b.append(f'<h2 class="when-h">{E("Chance of a wet riding day, 5 mm or more (%)" if en else "โอกาสเจอฝน 5 มม. ขึ้นไป ในวันขี่ (%)")}</h2>'
-             + when_svg(days, "wet", 80, 70, [0, 40, 80], False))
+             + when_svg(days, "wet", 80, 70, [0, 40, 80], False, label=when_label(days, "wet", "Chance of a wet riding day, 5 mm or more (%)" if en else "โอกาสเจอฝน 5 มม. ขึ้นไป ในวันขี่ (%)", lang)))
     b.append(f'<h2 class="when-h">{E("Smoke: PM2.5 in a bad year (µg/m³, model)" if en else "ควัน: PM2.5 ในปีที่แย่ (ไมโครกรัม/ลบ.ม. จากแบบจำลอง)")}</h2>'
-             + when_svg(days, "pm", 40, 70, [0, 20, 40], False))
+             + when_svg(days, "pm", 40, 70, [0, 20, 40], False, label=when_label(days, "pm", "Smoke: PM2.5 in a bad year (µg/m³, model)" if en else "ควัน: PM2.5 ในปีที่แย่ (ไมโครกรัม/ลบ.ม. จากแบบจำลอง)", lang)))
     b.append(f'<h2 class="when-h">{E("Crowds, 0–100 (estimated)" if en else "ความหนาแน่นของคน 0–100 (ประมาณการ)")}</h2>'
-             + when_svg(days, "crowd", 100, 70, [0, 50, 100], False))
+             + when_svg(days, "crowd", 100, 70, [0, 50, 100], False, label=when_label(days, "crowd", "Crowds, 0–100 (estimated)" if en else "ความหนาแน่นของคน 0–100 (ประมาณการ)", lang)))
     # the month table doubles as the no-hover view
     b.append(f'<h2>{E("Best start in each month" if en else "วันออกเดินทางที่ดีที่สุดของแต่ละเดือน")}</h2>'
              '<div class="scroll"><table><thead><tr>'
