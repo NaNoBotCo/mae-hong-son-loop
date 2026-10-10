@@ -43,6 +43,10 @@ class Proj:
         y = self.pad + (self.n - lat) * self.scale
         return x, y
 
+    def inside(self, x, y):
+        """On the canvas. The SVG clips a mark outside it, so no reader sees one."""
+        return 0 <= x <= self.width and 0 <= y <= self.height
+
     def path(self, line, every=1):
         if not line:
             return ""
@@ -140,6 +144,8 @@ def dots(p: Proj, rows: list, cls="dot", r=3.2, label=False) -> str:
         if lat is None:
             continue
         x, y = p.xy(lat, lon)
+        if not p.inside(x, y):        # clipped by the frame: Mae Sam Laep, far-off post offices
+            continue
         name = (row.get("name") or "").replace("&", "&amp;").replace("<", "&lt;")
         extra = row.get("title") or name
         out.append(f'<circle class="{cls} {row.get("cls","")}" cx="{x:.1f}" cy="{y:.1f}" r="{r}">'
@@ -371,6 +377,8 @@ def stars(p: Proj, rows: list, cls="star", r=6.0, label=False) -> str:
         if lat is None:
             continue
         x, y = p.xy(lat, lon)
+        if not p.inside(x, y):
+            continue
         name = (row.get("name") or "").replace("&", "&amp;").replace("<", "&lt;")
         poly = (f'<polygon class="{cls} {row.get("cls","")}" points="{star(x, y, r)}">'
                 f'<title>{row.get("title") or name}</title></polygon>')
