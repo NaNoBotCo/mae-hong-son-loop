@@ -177,15 +177,23 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
         og_desc = TAG[lang]
     og_url = f"{CANONICAL_URL}/{'th/' if lang == 'th' else ''}{path}"
     # a link with no picture shares as a grey box, so every page names a card
-    card_url = f"{CANONICAL_URL}/cards/{card or 'index'}.jpg"
+    # each copy serves its own cards, drawn with its own address (tools/cards.py): a page that
+    # names no card of its own gets one from its path, and a Thai page its own Thai card
+    card = card or "index"
+    if card == "index" and path.strip("/"):
+        card = path.strip("/").replace("/", "-")
+    if lang == "th":
+        card += "-th"
+    card_url = f"{SITE_URL}/cards/{card}.jpg"
+    card_alt = og_title if NAME[lang] in og_title else f"{og_title}, {NAME[lang]}"
     card_meta = (f'<meta property="og:image" content="{E(card_url)}">'
                  f'<meta property="og:image:secure_url" content="{E(card_url)}">'
                  f'<meta property="og:image:type" content="image/jpeg">'
                  f'<meta property="og:image:width" content="1200">'
                  f'<meta property="og:image:height" content="630">'
-                 f'<meta property="og:image:alt" content="{E(og_title)}">'
+                 f'<meta property="og:image:alt" content="{E("Card: " + card_alt)}">'
                  f'<meta name="twitter:image" content="{E(card_url)}">'
-                 f'<meta name="twitter:image:alt" content="{E(og_title)}">')
+                 f'<meta name="twitter:image:alt" content="{E("Card: " + card_alt)}">')
     cur_attr = ' aria-current="page"'
     nav = "".join(f'<a href="{rin}{p}"{cur_attr if k == cur else ""}>{E(ui[k])}</a>'
                   for p, k in NAV)
