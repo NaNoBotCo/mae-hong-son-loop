@@ -141,10 +141,10 @@ def photo_for(node: dict):
 
 
 def _thai_lib() -> bool:
-    """The card library (CARDS_LIB, or ~/Developer/claude code projects/cards) and node are there."""
+    """The card library (CARDS_LIB, or ~/Developer/claude code projects/cards), node and sips (macOS) are there."""
     import shutil
     lib = Path(os.environ.get("CARDS_LIB") or Path.home() / "Developer/claude code projects/cards")
-    return (lib / "src" / "node.mjs").is_file() and shutil.which("node") is not None
+    return (lib / "src" / "node.mjs").is_file() and shutil.which("node") is not None and shutil.which("sips") is not None
 
 
 def _pick(t: str, credits: dict):

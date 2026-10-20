@@ -22,7 +22,7 @@ for (const j of jobs) {
   mkdirSync(dirname(j.out), { recursive: true })
   const s = spawnSync('sips', ['-s', 'format', 'jpeg', '-s', 'formatOptions', '86', tmp, '--out', j.out], { encoding: 'utf8' })
   unlinkSync(tmp)
-  if (s.status) { console.error('sips failed', j.out, s.stderr); process.exit(1) }
+  if (s.error || s.signal || s.status !== 0) { console.error('sips failed', j.out, s.error || s.signal || s.stderr); process.exit(1) }
   n++
 }
 console.log(`thai cards: ${n}`)
