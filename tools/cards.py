@@ -152,7 +152,8 @@ def _pick(t: str, credits: dict):
     return None, ""
 
 
-def fill_missing(site: Path, nodes: list, host: str, kicker: dict, fallback_id: str, force: bool = False) -> int:
+def fill_missing(site: Path, nodes: list, host: str, kicker: dict, fallback_id: str, force: bool = False,
+                 only: str = "") -> int:
     """Draw a card for every built page whose og:image names a card that is not there yet.
 
     The page's title and description are the card's words, its first photograph from data/images
@@ -171,7 +172,7 @@ def fill_missing(site: Path, nodes: list, host: str, kicker: dict, fallback_id: 
         if not m:
             continue
         out = site / "cards" / f"{m.group(1)}.jpg"
-        if out.exists() and not force:
+        if (out.exists() and not force) or (only and only != m.group(1)):
             continue
         tm = re.search(r'<meta property="og:title" content="([^"]*)"', t)
         title = _html.unescape(tm.group(1)) if tm else m.group(1)
@@ -279,5 +280,5 @@ if __name__ == "__main__":
                   big, "curves" if big else "", p, credit, address=host)
         n += 1
     # every other page the site names a card for: its title, its first photograph, its address
-    n += fill_missing(site, nodes, host, {"en": "Mae Hong Son Loop", "th": "วงรอบแม่ฮ่องสอน"}, "pang-ung", force=a_force)
+    n += fill_missing(site, nodes, host, {"en": "Mae Hong Son Loop", "th": "วงรอบแม่ฮ่องสอน"}, "pang-ung", force=a_force, only=a.only or "")
     print(f"cards: {n} drawn")

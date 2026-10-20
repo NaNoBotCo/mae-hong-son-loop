@@ -153,7 +153,7 @@ def lroot(lang: str) -> str:
 
 
 def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", cur="",
-         path="", card="", node=False):
+         path="", card=""):
     """`depth` is the page's depth below its LANGUAGE root, which is what the body's own
     links are built against. A Thai page sits one level deeper than that below the site
     root, so assets and the language switch need `r`, while the nav — which stays inside
@@ -180,11 +180,10 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
     # each copy serves its own cards, drawn with its own address (tools/cards.py): a page that
     # names no card of its own gets one from its path, and a Thai page its own Thai card
     card = card or "index"
-    if not node:
-        if card == "index" and path.strip("/"):
-            card = path.strip("/").replace("/", "-")
-        if lang == "th":
-            card += "-th"
+    if card == "index" and path.strip("/"):
+        card = path.strip("/").replace("/", "-")
+    if lang == "th":
+        card += "-th"
     card_url = f"{SITE_URL}/cards/{card}.jpg"
     card_alt = og_title if NAME[lang] in og_title else f"{og_title}, {NAME[lang]}"
     card_meta = (f'<meta property="og:image" content="{E(card_url)}">'
@@ -876,7 +875,7 @@ def node_page(n: dict, lang: str) -> str:
     card_name = f'{n["type"]}-{n["id"]}' if pictures(n) else "index"
     return page(f"{name} — {NAME[lang]}", "".join(b), depth, lang,
                 clip(T(n, "text.what", lang) or "", 180), ld, url, path=url_of(n),
-                card=card_name, node=True)
+                card=card_name)
 
 
 # ---------------------------------------------------------------- parallax bands
