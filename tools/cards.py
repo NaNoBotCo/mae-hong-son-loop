@@ -140,6 +140,13 @@ def photo_for(node: dict):
 
 
 
+def _thai_lib() -> bool:
+    """The card library (CARDS_LIB, or ~/Developer/claude code projects/cards), node and sips (macOS) are there."""
+    import shutil
+    lib = Path(os.environ.get("CARDS_LIB") or Path.home() / "Developer/claude code projects/cards")
+    return (lib / "src" / "node.mjs").is_file() and shutil.which("node") is not None and shutil.which("sips") is not None
+
+
 def _pick(t: str, credits: dict):
     """The first photograph in a page's HTML that is in data/images, and its credit."""
     import re
@@ -166,6 +173,7 @@ def fill_missing(site: Path, nodes: list, host: str, kicker: dict, fallback_id: 
             credits[im["file"]] = f'{im.get("author", "")} · {im.get("license", "")}'
     fb = next((nd for nd in nodes if nd["id"] == fallback_id), None)
     drawn = 0
+    thai = []
     for f in sorted(site.rglob("index.html")):
         t = f.read_text(encoding="utf-8")
         m = re.search(r'<meta property="og:image" content="[^"]*/cards/([^"/]+)\.jpg"', t)
@@ -202,9 +210,25 @@ def fill_missing(site: Path, nodes: list, host: str, kicker: dict, fallback_id: 
         if dm and title.strip().lower() == k.strip().lower():
             title = _html.unescape(dm.group(1)).split(". ")[0][:90]
         where = f.parent.relative_to(site).as_posix()
-        draw_card(out, title, k, "", "", photo, credit,
-                  address=f"{host}/{where}/".replace("/./", "/").rstrip("/") if where != "." else host)
+        address = f"{host}/{where}/".replace("/./", "/").rstrip("/") if where != "." else host
+        if lang == "th" and _thai_lib():
+            # Thai cards come from the card library, which shapes the tone marks; PIL does not
+            sub = _html.unescape(dm.group(1)).split(". ")[0][:110] if dm else ""
+            if not sub or title == sub[:90] or (title in sub and len(sub) < len(title) + 15):
+                sub = ""          # a line that only repeats the title says nothing more
+            thai.append({"out": str(out), "title": title, "sub": sub, "kicker": k, "url": address,
+                         "image": str(photo) if photo else "", "credit": credit, "accent": "#ff3b2f"})
+        else:
+            draw_card(out, title, k, "", "", photo, credit, address=address)
         drawn += 1
+    if thai:
+        import json
+        import subprocess
+        import tempfile
+        with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as jf:
+            json.dump(thai, jf, ensure_ascii=False)
+        subprocess.run(["node", str(Path(__file__).resolve().parent / "thai_cards.mjs"), jf.name], check=True)
+        os.unlink(jf.name)
     return drawn
 
 
