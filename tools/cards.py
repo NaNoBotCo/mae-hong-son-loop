@@ -15,6 +15,7 @@ Cards are only redrawn when missing, so a rebuild is cheap. Pass --force to redo
 from __future__ import annotations
 
 import argparse
+import os
 import sys
 import textwrap
 from pathlib import Path
@@ -50,7 +51,7 @@ def _fit(draw, text, font_path, size, max_w, max_lines=3):
         f = _font(font_path, size)
         avg = max(1, draw.textlength("MMMMMMMMMM", font=f) / 10)
         per = max(8, int(max_w / avg))
-        lines = textwrap.wrap(text, per) or [text]
+        lines = textwrap.wrap(text, per, break_long_words=False) or [text]
         if len(lines) <= max_lines and all(draw.textlength(l, font=f) <= max_w for l in lines):
             return f, lines
         size -= 4
@@ -59,7 +60,7 @@ def _fit(draw, text, font_path, size, max_w, max_lines=3):
 
 
 def draw_card(out: Path, headline: str, kicker: str = "", big: str = "", big_label: str = "",
-              photo: Path | None = None, credit: str = ""):
+              photo: Path | None = None, credit: str = "", address: str = ""):
     from PIL import Image, ImageDraw, ImageFilter
     base = Image.new("RGB", (W, H), (18, 16, 13))
     if photo and photo.exists():
@@ -107,13 +108,16 @@ def draw_card(out: Path, headline: str, kicker: str = "", big: str = "", big_lab
     for line in lines:
         d.text((pad, y), line, font=hf, fill=(255, 255, 255))
         y += int(hf.size * 1.12)
+    if address:
+        af = _font(BODY, 22)
+        d.text((W - pad - d.textlength(address, font=af), pad), address, font=af, fill=CREAM)
     # the mark
     mf = _font(DISPLAY, 28)
     label = "MAE HONG SON "
     d.text((pad, H - pad - 26), label, font=mf, fill=CREAM)
     d.text((pad + d.textlength(label, font=mf), H - pad - 26), "LOOP", font=mf, fill=HOT)
     if credit:
-        cf = _font(BODY, 17)
+        cf = _font(THAI if _is_thai(credit) else BODY, 17)
         t = credit[:74]
         d.text((W - pad - d.textlength(t, font=cf), H - pad - 20), t, font=cf, fill=(190, 178, 162))
     d.rectangle([0, 0, W - 1, H - 1], outline=(255, 255, 255), width=6)
@@ -134,12 +138,83 @@ def photo_for(node: dict):
     return None, ""
 
 
+
+
+def _pick(t: str, credits: dict):
+    """The first photograph in a page's HTML that is in data/images, and its credit."""
+    import re
+    for src in re.findall(r'<img[^>]*?\ssrc="([^"]+)"', t):
+        if "/images/" not in src:
+            continue
+        rel = src.split("/images/", 1)[1].replace(".thumb.jpg", ".jpg")
+        if (IMAGES / rel).is_file():
+            return IMAGES / rel, credits.get(rel, "")
+    return None, ""
+
+
+def fill_missing(site: Path, nodes: list, host: str, kicker: dict, fallback_id: str, force: bool = False) -> int:
+    """Draw a card for every built page whose og:image names a card that is not there yet.
+
+    The page's title and description are the card's words, its first photograph from data/images
+    (or none) the picture, and the address of the page this copy serves the foot."""
+    import html as _html
+    import re
+    credits = {}
+    for nd in nodes:
+        for im in (nd.get("images") or []):
+            credits[im["file"]] = f'{im.get("author", "")} · {im.get("license", "")}'
+    fb = next((nd for nd in nodes if nd["id"] == fallback_id), None)
+    drawn = 0
+    for f in sorted(site.rglob("index.html")):
+        t = f.read_text(encoding="utf-8")
+        m = re.search(r'<meta property="og:image" content="[^"]*/cards/([^"/]+)\.jpg"', t)
+        if not m:
+            continue
+        out = site / "cards" / f"{m.group(1)}.jpg"
+        if out.exists() and not force:
+            continue
+        tm = re.search(r'<meta property="og:title" content="([^"]*)"', t)
+        title = _html.unescape(tm.group(1)) if tm else m.group(1)
+        lang = (re.search(r'<html lang="(\w+)"', t) or [0, "en"])[1]
+        photo, credit = _pick(t, credits)
+        if photo is None:
+            # a page with no picture of its own borrows the first picture of a page it links to
+            bp = site / ".basepath"
+            base = bp.read_text(encoding="utf-8").strip() if bp.is_file() else "/"
+            seen = 0
+            for href in re.findall(r'<a[^>]*?\shref="([^"#?]+)"', t):
+                rel = href[len(base):].strip("/") if href.startswith(base) else ""
+                if rel.count("/") < 1:
+                    continue
+                p = site / rel / "index.html"
+                if p.is_file() and p != f:
+                    photo, credit = _pick(p.read_text(encoding="utf-8"), credits)
+                    if photo:
+                        break
+                seen += 1
+                if seen > 60:
+                    break
+        if photo is None and fb:
+            photo, credit = photo_for(fb)
+        dm = re.search(r'<meta property="og:description" content="([^"]*)"', t)
+        k = kicker.get(lang, kicker["en"])
+        if dm and title.strip().lower() == k.strip().lower():
+            title = _html.unescape(dm.group(1)).split(". ")[0][:90]
+        where = f.parent.relative_to(site).as_posix()
+        draw_card(out, title, k, "", "", photo, credit,
+                  address=f"{host}/{where}/".replace("/./", "/").rstrip("/") if where != "." else host)
+        drawn += 1
+    return drawn
+
+
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--only")
     a = ap.parse_args()
+    a_force = a.force
     site = BUILD / "site"
+    host = os.environ.get("SITE_URL", "https://nanobotco.github.io/mae-hong-son-loop").rstrip("/").split("://", 1)[1]
     nodes = jload(BUILD / "api" / "nodes.json")["nodes"]
     by_id = {n["id"]: n for n in nodes}
     curves = jload(BUILD / "api" / "curves.json")
@@ -183,7 +258,8 @@ if __name__ == "__main__":
             continue
         node = by_id.get(photo_id)
         p, credit = photo_for(node) if node else (None, "")
-        draw_card(out, head, kicker, big, big_label, p, credit)
+        draw_card(out, head, kicker, big, big_label, p, credit,
+                  address=host if slug == "index" else f"{host}/{slug}")
         n += 1
         print(f"  cards/{slug}.jpg")
     # one per record that has a photograph
@@ -200,6 +276,8 @@ if __name__ == "__main__":
         n_curves = rt.get("curves")
         big = f"{n_curves:,}" if n_curves else ""
         draw_card(out, node["names"]["name"], node["names"].get("th") or node["type"],
-                  big, "curves" if big else "", p, credit)
+                  big, "curves" if big else "", p, credit, address=host)
         n += 1
+    # every other page the site names a card for: its title, its first photograph, its address
+    n += fill_missing(site, nodes, host, {"en": "Mae Hong Son Loop", "th": "วงรอบแม่ฮ่องสอน"}, "pang-ung", force=a_force)
     print(f"cards: {n} drawn")

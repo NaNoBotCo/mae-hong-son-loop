@@ -153,7 +153,7 @@ def lroot(lang: str) -> str:
 
 
 def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", cur="",
-         path="", card=""):
+         path="", card="", node=False):
     """`depth` is the page's depth below its LANGUAGE root, which is what the body's own
     links are built against. A Thai page sits one level deeper than that below the site
     root, so assets and the language switch need `r`, while the nav — which stays inside
@@ -177,15 +177,24 @@ def page(title, body, depth, lang, desc="", jsonld=None, canonical="", head="", 
         og_desc = TAG[lang]
     og_url = f"{CANONICAL_URL}/{'th/' if lang == 'th' else ''}{path}"
     # a link with no picture shares as a grey box, so every page names a card
-    card_url = f"{CANONICAL_URL}/cards/{card or 'index'}.jpg"
+    # each copy serves its own cards, drawn with its own address (tools/cards.py): a page that
+    # names no card of its own gets one from its path, and a Thai page its own Thai card
+    card = card or "index"
+    if not node:
+        if card == "index" and path.strip("/"):
+            card = path.strip("/").replace("/", "-")
+        if lang == "th":
+            card += "-th"
+    card_url = f"{SITE_URL}/cards/{card}.jpg"
+    card_alt = og_title if NAME[lang] in og_title else f"{og_title}, {NAME[lang]}"
     card_meta = (f'<meta property="og:image" content="{E(card_url)}">'
                  f'<meta property="og:image:secure_url" content="{E(card_url)}">'
                  f'<meta property="og:image:type" content="image/jpeg">'
                  f'<meta property="og:image:width" content="1200">'
                  f'<meta property="og:image:height" content="630">'
-                 f'<meta property="og:image:alt" content="{E(og_title)}">'
+                 f'<meta property="og:image:alt" content="{E("Card: " + card_alt)}">'
                  f'<meta name="twitter:image" content="{E(card_url)}">'
-                 f'<meta name="twitter:image:alt" content="{E(og_title)}">')
+                 f'<meta name="twitter:image:alt" content="{E("Card: " + card_alt)}">')
     cur_attr = ' aria-current="page"'
     nav = "".join(f'<a href="{rin}{p}"{cur_attr if k == cur else ""}>{E(ui[k])}</a>'
                   for p, k in NAV)
@@ -867,7 +876,7 @@ def node_page(n: dict, lang: str) -> str:
     card_name = f'{n["type"]}-{n["id"]}' if pictures(n) else "index"
     return page(f"{name} — {NAME[lang]}", "".join(b), depth, lang,
                 clip(T(n, "text.what", lang) or "", 180), ld, url, path=url_of(n),
-                card=card_name)
+                card=card_name, node=True)
 
 
 # ---------------------------------------------------------------- parallax bands
